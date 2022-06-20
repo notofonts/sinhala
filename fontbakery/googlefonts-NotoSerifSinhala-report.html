@@ -1,0 +1,1677 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✔️ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>73</td>
+                <td>112</td>
+                <td>1241</td>
+                <td>78</td>
+                <td>931</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>3%</td>
+                <td>5%</td>
+                <td>58%</td>
+                <td>4%</td>
+                <td>44%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Checking file is named canonically.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/canonical_filename&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The file 'NotoSerifSinhala[wght].ttf' must be renamed to 'NotoSerifSinhala[wdth,wght].ttf' according to the Google Fonts naming policy for variable fonts. [code: bad-varfont-filename]</p>
+</span></li></ul></div></details>
+<h3>Check Google Fonts glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<pre><code>- 0x00AF (MACRON)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<h3>Check copyright namerecords match license file.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+</span></li></ul></div></details>
+<h3>Copyright notices match canonical pattern in fonts</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_copyright&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2016-2022 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2016-2022 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2016-2022 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2016-2022 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2016-2022 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2016-2022 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2016-2022 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2016-2022 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2016-2022 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2016-2022 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
+But instead we have got:
+&quot;Copyright 2016-2022 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+</span></li></ul></div></details>
+<h3>Glyphs are similiar to Google Fonts version?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/production_glyphs_similarity&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* tarephsinh
+* u111F0
+* yiivowelsinh
+* fahalantsinh
+* kahalantsinh
+* thahalantsinh
+* karephsinh
+* ssivowelsinh
+* miivowelsinh
+* ssiivowelsinh and 340 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* tarephsinh
+* u111F0
+* yiivowelsinh
+* kahalantsinh
+* thahalantsinh
+* karephsinh
+* ssivowelsinh
+* miivowelsinh
+* ssiivowelsinh
+* tthiivowelsinh and 306 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* tarephsinh
+* u111F0
+* yiivowelsinh
+* kahalantsinh
+* thahalantsinh
+* karephsinh
+* ssivowelsinh
+* miivowelsinh
+* ssiivowelsinh
+* tthiivowelsinh and 325 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* u111F0
+* jhuuvowelsinh
+* tathuuvowelsinh
+* nadahalantsinh
+* kassuvowelsinh
+* u111F1
+* tathasinh
+* nyaavowelsinh
+* kavarephsinh
+* jhiivowelsinh and 52 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* u111F0
+* tthiivowelsinh
+* jhuuvowelsinh
+* jhasinh
+* nnahalantsinh
+* tathuuvowelsinh
+* ddhiivowelsinh
+* nadahalantsinh
+* kavivowelsinh
+* pharephsinh and 131 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* tarephsinh
+* u111F0
+* kahalantsinh
+* thahalantsinh
+* ssivowelsinh
+* ssiivowelsinh
+* tthiivowelsinh
+* jhuuvowelsinh
+* ndiivowelsinh
+* tuuvowelsinh and 236 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* u111F0
+* kahalantsinh
+* thahalantsinh
+* ssivowelsinh
+* ssiivowelsinh
+* tthiivowelsinh
+* jhuuvowelsinh
+* tuuvowelsinh
+* kivowelsinh
+* jhasinh and 217 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* tarephsinh
+* u111F0
+* yiivowelsinh
+* kahalantsinh
+* thahalantsinh
+* karephsinh
+* ssivowelsinh
+* ssiivowelsinh
+* tthiivowelsinh
+* jhuuvowelsinh and 281 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* u111F0
+* u111F1
+* kavarephsinh
+* tatharephsinh
+* nadharephsinh
+* kassiivowelsinh
+* u111F2
+* nyarephsinh
+* u111F4
+* jharephsinh and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
+<h3>Combined length of family and style must not exceed 27 characters.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/family_and_style_max_length&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Serif Sinhala Black' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Serif Sinhala ExtraBold' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Serif Sinhala ExtraLight' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Serif Sinhala Light' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Serif Sinhala Medium' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Serif Sinhala SemiBold' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+FONT_FAMILY_NAME = 'Noto Serif Sinhala Thin' / SUBFAMILY_NAME = 'Regular'</p>
+<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+</span></li></ul></div></details>
+<h3>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2/use_typo_metrics&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Checking all files are in the same directory.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/single_directory&gt;</div>
+
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf'] [code: single-directory]</p>
+</span></li></ul></div></details>
+<h3>Font has **proper** whitespace glyph names?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/whitespace_glyphnames&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Glyph 0x00A0 is called &quot;uni00A0.sinh&quot;: Change to &quot;uni00A0&quot; [code: non-compliant-00a0]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Glyph 0x00A0 is called &quot;uni00A0.sinh&quot;: Change to &quot;uni00A0&quot; [code: non-compliant-00a0]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Glyph 0x00A0 is called &quot;uni00A0.sinh&quot;: Change to &quot;uni00A0&quot; [code: non-compliant-00a0]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Glyph 0x00A0 is called &quot;uni00A0.sinh&quot;: Change to &quot;uni00A0&quot; [code: non-compliant-00a0]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Glyph 0x00A0 is called &quot;uni00A0.sinh&quot;: Change to &quot;uni00A0&quot; [code: non-compliant-00a0]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Glyph 0x00A0 is called &quot;uni00A0.sinh&quot;: Change to &quot;uni00A0&quot; [code: non-compliant-00a0]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Glyph 0x00A0 is called &quot;uni00A0.sinh&quot;: Change to &quot;uni00A0&quot; [code: non-compliant-00a0]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Glyph 0x00A0 is called &quot;uni00A0.sinh&quot;: Change to &quot;uni00A0&quot; [code: non-compliant-00a0]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Glyph 0x00A0 is called &quot;uni00A0.sinh&quot;: Change to &quot;uni00A0&quot; [code: non-compliant-00a0]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Glyph 0x00A0 is called &quot;uni00A0.sinh&quot;: Change to &quot;uni00A0&quot; [code: non-compliant-00a0]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Glyph 0x00A0 is called &quot;uni00A0.sinh&quot;: Change to &quot;uni00A0&quot; [code: non-compliant-00a0]</p>
+</span></li></ul></div></details>
+<h3>Check font contains no unreachable glyphs</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- five
+
+- parenright
+
+- quoteright
+
+- divide
+
+- comma
+
+- equal
+
+- ellipsis
+
+- plus
+
+- parenleft
+
+- multiply 
+
+- And 36 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- five
+
+- parenright
+
+- quoteright
+
+- divide
+
+- comma
+
+- equal
+
+- ellipsis
+
+- plus
+
+- parenleft
+
+- multiply 
+
+- And 36 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- five
+
+- parenright
+
+- quoteright
+
+- divide
+
+- comma
+
+- equal
+
+- ellipsis
+
+- plus
+
+- parenleft
+
+- multiply 
+
+- And 36 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- five
+
+- parenright
+
+- quoteright
+
+- divide
+
+- comma
+
+- equal
+
+- ellipsis
+
+- plus
+
+- parenleft
+
+- multiply 
+
+- And 36 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- five
+
+- parenright
+
+- quoteright
+
+- divide
+
+- comma
+
+- equal
+
+- ellipsis
+
+- plus
+
+- parenleft
+
+- multiply 
+
+- And 36 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- five
+
+- parenright
+
+- quoteright
+
+- divide
+
+- comma
+
+- equal
+
+- ellipsis
+
+- plus
+
+- parenleft
+
+- multiply 
+
+- And 36 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- five
+
+- parenright
+
+- quoteright
+
+- divide
+
+- comma
+
+- equal
+
+- ellipsis
+
+- plus
+
+- parenleft
+
+- multiply 
+
+- And 36 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- five
+
+- parenright
+
+- quoteright
+
+- divide
+
+- comma
+
+- equal
+
+- ellipsis
+
+- plus
+
+- parenleft
+
+- multiply 
+
+- And 36 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- five
+
+- parenright
+
+- quoteright
+
+- divide
+
+- comma
+
+- equal
+
+- ellipsis
+
+- plus
+
+- parenleft
+
+- multiply 
+
+- And 36 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- five
+
+- parenright
+
+- quoteright
+
+- divide
+
+- comma
+
+- equal
+
+- ellipsis
+
+- plus
+
+- parenleft
+
+- multiply 
+
+- And 36 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- five
+
+- parenright
+
+- quoteright
+
+- divide
+
+- comma
+
+- equal
+
+- ellipsis
+
+- plus
+
+- parenleft
+
+- multiply 
+
+- And 36 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists.
+[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<h3>Check if each glyph has the recommended amount of contours.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: sfthyphen.sinh	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: sfthyphen.sinh	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: sfthyphen.sinh	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: sfthyphen.sinh	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: sfthyphen.sinh	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: sfthyphen.sinh	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: sfthyphen.sinh	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: sfthyphen.sinh	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character (codepoint 0x00AD) which is supposed to be zero-width and invisible, and is used to mark a hyphenation possibility within a word in the absence of or overriding dictionary hyphenation. It is mostly an obsolete mechanism now, and the character is only included in fonts for legacy codepage coverage. [code: softhyphen]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: sfthyphen.sinh	Contours detected: 1	Expected: 0
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
+
+- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.head&gt; 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩</h2>
+<h3>Checking font version fields (head and name table).</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_version&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>head version is &quot;2.00301&quot; while name version string (for platform 3, encoding 1) is &quot;Version 2.002&quot;. [code: mismatch]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>head version is &quot;2.00301&quot; while name version string (for platform 3, encoding 1) is &quot;Version 2.002&quot;. [code: mismatch]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>head version is &quot;2.00301&quot; while name version string (for platform 3, encoding 1) is &quot;Version 2.002&quot;. [code: mismatch]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>head version is &quot;2.00301&quot; while name version string (for platform 3, encoding 1) is &quot;Version 2.002&quot;. [code: mismatch]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>head version is &quot;2.00301&quot; while name version string (for platform 3, encoding 1) is &quot;Version 2.002&quot;. [code: mismatch]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>head version is &quot;2.00301&quot; while name version string (for platform 3, encoding 1) is &quot;Version 2.002&quot;. [code: mismatch]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>head version is &quot;2.00301&quot; while name version string (for platform 3, encoding 1) is &quot;Version 2.002&quot;. [code: mismatch]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>head version is &quot;2.00301&quot; while name version string (for platform 3, encoding 1) is &quot;Version 2.002&quot;. [code: mismatch]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>head version is &quot;2.00301&quot; while name version string (for platform 3, encoding 1) is &quot;Version 2.002&quot;. [code: mismatch]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>head version is &quot;2.00301&quot; while name version string (for platform 3, encoding 1) is &quot;Version 2.002&quot;. [code: mismatch]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>head version is &quot;2.00301&quot; while name version string (for platform 3, encoding 1) is &quot;Version 2.002&quot;. [code: mismatch]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.os2&gt; 🔥🔥</h2>
+<h3>Fonts have consistent PANOSE proportion?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/panose_proportion&gt;</div>
+
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>PANOSE proportion is not the same across this family. In order to fix this, please make sure that the panose.bProportion value is the same in the OS/2 table of all of this family font files. [code: inconsistency]</p>
+</span></li></ul></div></details>
+<h3>Fonts have consistent PANOSE family type?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/panose_familytype&gt;</div>
+
+<details><summary>🔥 <strong>Family check</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.gdef&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️</h2>
+<h3>Check glyphs in mark glyph class are non-spacing.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_spacing_marks&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+aavowelsignsinh (U+0DCF), aivowelsignsinh (U+0DDB), llvocalicvowelsignsinh (U+0DF3), lvocalicvowelsignsinh (U+0DDF), rvocalicvowelsignsinh (U+0DD8), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+aavowelsignsinh (U+0DCF), aivowelsignsinh (U+0DDB), llvocalicvowelsignsinh (U+0DF3), lvocalicvowelsignsinh (U+0DDF), rvocalicvowelsignsinh (U+0DD8), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+aavowelsignsinh (U+0DCF), aivowelsignsinh (U+0DDB), llvocalicvowelsignsinh (U+0DF3), lvocalicvowelsignsinh (U+0DDF), rvocalicvowelsignsinh (U+0DD8), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+aavowelsignsinh (U+0DCF), aivowelsignsinh (U+0DDB), llvocalicvowelsignsinh (U+0DF3), lvocalicvowelsignsinh (U+0DDF), rvocalicvowelsignsinh (U+0DD8), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+aavowelsignsinh (U+0DCF), aivowelsignsinh (U+0DDB), llvocalicvowelsignsinh (U+0DF3), lvocalicvowelsignsinh (U+0DDF), rvocalicvowelsignsinh (U+0DD8), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+aavowelsignsinh (U+0DCF), aivowelsignsinh (U+0DDB), llvocalicvowelsignsinh (U+0DF3), lvocalicvowelsignsinh (U+0DDF), rvocalicvowelsignsinh (U+0DD8), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+aavowelsignsinh (U+0DCF), aivowelsignsinh (U+0DDB), llvocalicvowelsignsinh (U+0DF3), lvocalicvowelsignsinh (U+0DDF), rvocalicvowelsignsinh (U+0DD8), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+aavowelsignsinh (U+0DCF), aivowelsignsinh (U+0DDB), llvocalicvowelsignsinh (U+0DF3), lvocalicvowelsignsinh (U+0DDF), rvocalicvowelsignsinh (U+0DD8), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+aavowelsignsinh (U+0DCF), aivowelsignsinh (U+0DDB), llvocalicvowelsignsinh (U+0DF3), lvocalicvowelsignsinh (U+0DDF), rvocalicvowelsignsinh (U+0DD8), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+aavowelsignsinh (U+0DCF), aivowelsignsinh (U+0DDB), llvocalicvowelsignsinh (U+0DF3), lvocalicvowelsignsinh (U+0DDF), rvocalicvowelsignsinh (U+0DD8), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+aavowelsignsinh (U+0DCF), aivowelsignsinh (U+0DDB), llvocalicvowelsignsinh (U+0DF3), lvocalicvowelsignsinh (U+0DDF), rvocalicvowelsignsinh (U+0DD8), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]</p>
+</span></li></ul></div></details>
+<h3>Check mark characters are in GDEF mark glyph class.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_mark_chars&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following mark characters could be in the GDEF mark glyph class:
+acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]</p>
+</span></li></ul></div></details>
+<h3>Check GDEF mark glyph class doesn't have characters that are not marks.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_non_mark_chars&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+0D83, U+0DCF, U+0DD8, U+0DDA, U+0DDB, U+0DDC, U+0DDD, U+0DDE, U+0DDF and U+0DF3 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+0D83, U+0DCF, U+0DD8, U+0DDA, U+0DDB, U+0DDC, U+0DDD, U+0DDE, U+0DDF and U+0DF3 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+0D83, U+0DCF, U+0DD8, U+0DDA, U+0DDB, U+0DDC, U+0DDD, U+0DDE, U+0DDF and U+0DF3 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+0D83, U+0DCF, U+0DD8, U+0DDA, U+0DDB, U+0DDC, U+0DDD, U+0DDE, U+0DDF and U+0DF3 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+0D83, U+0DCF, U+0DD8, U+0DDA, U+0DDB, U+0DDC, U+0DDD, U+0DDE, U+0DDF and U+0DF3 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+0D83, U+0DCF, U+0DD8, U+0DDA, U+0DDB, U+0DDC, U+0DDD, U+0DDE, U+0DDF and U+0DF3 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+0D83, U+0DCF, U+0DD8, U+0DDA, U+0DDB, U+0DDC, U+0DDD, U+0DDE, U+0DDF and U+0DF3 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+0D83, U+0DCF, U+0DD8, U+0DDA, U+0DDB, U+0DDC, U+0DDD, U+0DDE, U+0DDF and U+0DF3 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+0D83, U+0DCF, U+0DD8, U+0DDA, U+0DDB, U+0DDC, U+0DDD, U+0DDE, U+0DDF and U+0DF3 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+0D83, U+0DCF, U+0DD8, U+0DDA, U+0DDB, U+0DDC, U+0DDD, U+0DDE, U+0DDF and U+0DF3 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+0D83, U+0DCF, U+0DD8, U+0DDA, U+0DDB, U+0DDC, U+0DDD, U+0DDE, U+0DDF and U+0DF3 [code: non-mark-chars]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.fvar&gt; 🔥🔥⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩</h2>
+<h3>Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/varfont/valid_default_instance_nameids&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 283. [code: invalid-default-instance-subfamily-nameid:283]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 283. [code: invalid-default-instance-subfamily-nameid:283]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/slim-variable-ttf/NotoSerifSinhala[wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* comma.sinh (U+002C): X=131.0,Y=1.0 (should be at baseline 0?)
+
+* one.sinh (U+0031): X=131.5,Y=613.0 (should be at cap-height 612?)
+
+* three.sinh (U+0033): X=331.5,Y=1.0 (should be at baseline 0?)
+
+* five.sinh (U+0035): X=329.0,Y=0.5 (should be at baseline 0?)
+
+* six.sinh (U+0036): X=127.0,Y=612.5 (should be at cap-height 612?)
+
+* eight.sinh (U+0038): X=385.5,Y=613.5 (should be at cap-height 612?)
+
+* nine.sinh (U+0039): X=139.0,Y=2.0 (should be at baseline 0?)
+
+* semicolon.sinh (U+003B): X=137.0,Y=1.0 (should be at baseline 0?)
+
+* question.sinh (U+003F): X=126.5,Y=610.0 (should be at cap-height 612?)
+
+* C (U+0043): X=457.5,Y=0.5 (should be at baseline 0?) 
+
+* And 70 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* comma.sinh (U+002C): X=138.0,Y=0.5 (should be at baseline 0?)
+
+* one.sinh (U+0031): X=112.5,Y=613.0 (should be at cap-height 612?)
+
+* three.sinh (U+0033): X=346.0,Y=1.0 (should be at baseline 0?)
+
+* five.sinh (U+0035): X=340.0,Y=1.5 (should be at baseline 0?)
+
+* six.sinh (U+0036): X=506.0,Y=614.0 (should be at cap-height 612?)
+
+* semicolon.sinh (U+003B): X=144.0,Y=0.5 (should be at baseline 0?)
+
+* J (U+004A): X=282.0,Y=-2.0 (should be at baseline 0?)
+
+* V (U+0056): X=85.0,Y=613.0 (should be at cap-height 612?)
+
+* W (U+0057): X=251.0,Y=613.0 (should be at cap-height 612?)
+
+* W (U+0057): X=892.0,Y=614.0 (should be at cap-height 612?) 
+
+* And 76 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* one.sinh (U+0031): X=105.0,Y=613.0 (should be at cap-height 612?)
+
+* three.sinh (U+0033): X=351.5,Y=1.0 (should be at baseline 0?)
+
+* nine.sinh (U+0039): X=61.0,Y=610.0 (should be at cap-height 612?)
+
+* nine.sinh (U+0039): X=212.0,Y=613.5 (should be at cap-height 612?)
+
+* less.sinh (U+003C): X=498.0,Y=614.0 (should be at cap-height 612?)
+
+* greater.sinh (U+003E): X=69.0,Y=614.0 (should be at cap-height 612?)
+
+* J (U+004A): X=120.0,Y=-1.0 (should be at baseline 0?)
+
+* P (U+0050): X=424.0,Y=613.0 (should be at cap-height 612?)
+
+* Q (U+0051): X=319.0,Y=-2.0 (should be at baseline 0?)
+
+* Q (U+0051): X=509.0,Y=2.0 (should be at baseline 0?) 
+
+* And 61 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* parenleft.sinh (U+0028): X=93.5,Y=1.5 (should be at baseline 0?)
+
+* parenright.sinh (U+0029): X=266.0,Y=2.0 (should be at baseline 0?)
+
+* six.sinh (U+0036): X=176.0,Y=613.5 (should be at cap-height 612?)
+
+* nine.sinh (U+0039): X=89.0,Y=611.0 (should be at cap-height 612?)
+
+* question.sinh (U+003F): X=35.0,Y=611.0 (should be at cap-height 612?)
+
+* C (U+0043): X=530.0,Y=610.0 (should be at cap-height 612?)
+
+* G (U+0047): X=486.5,Y=-1.0 (should be at baseline 0?)
+
+* R (U+0052): X=442.5,Y=614.0 (should be at cap-height 612?)
+
+* S (U+0053): X=437.0,Y=614.0 (should be at cap-height 612?)
+
+* w (U+0077): X=411.0,Y=535.0 (should be at x-height 536?) 
+
+* And 81 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* dollar (U+0024): X=184.5,Y=611.0 (should be at cap-height 612?)
+
+* one.sinh (U+0031): X=153.5,Y=611.0 (should be at cap-height 612?)
+
+* nine.sinh (U+0039): X=147.0,Y=1.0 (should be at baseline 0?)
+
+* question.sinh (U+003F): X=34.0,Y=610.0 (should be at cap-height 612?)
+
+* C (U+0043): X=551.0,Y=611.0 (should be at cap-height 612?)
+
+* G (U+0047): X=599.0,Y=610.0 (should be at cap-height 612?)
+
+* N (U+004E): X=185.0,Y=611.0 (should be at cap-height 612?)
+
+* S (U+0053): X=449.0,Y=613.0 (should be at cap-height 612?)
+
+* V (U+0056): X=161.5,Y=611.0 (should be at cap-height 612?)
+
+* W (U+0057): X=515.0,Y=610.0 (should be at cap-height 612?) 
+
+* And 85 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* comma.sinh (U+002C): X=133.0,Y=1.0 (should be at baseline 0?)
+
+* one.sinh (U+0031): X=126.5,Y=613.0 (should be at cap-height 612?)
+
+* three.sinh (U+0033): X=336.0,Y=1.0 (should be at baseline 0?)
+
+* four.sinh (U+0034): X=311.0,Y=610.0 (should be at cap-height 612?)
+
+* six.sinh (U+0036): X=123.5,Y=613.5 (should be at cap-height 612?)
+
+* nine.sinh (U+0039): X=360.0,Y=610.0 (should be at cap-height 612?)
+
+* semicolon.sinh (U+003B): X=139.0,Y=1.0 (should be at baseline 0?)
+
+* C (U+0043): X=593.0,Y=611.0 (should be at cap-height 612?)
+
+* G (U+0047): X=642.0,Y=611.0 (should be at cap-height 612?)
+
+* G (U+0047): X=528.0,Y=2.0 (should be at baseline 0?) 
+
+* And 82 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* comma.sinh (U+002C): X=131.0,Y=1.0 (should be at baseline 0?)
+
+* one.sinh (U+0031): X=131.5,Y=613.0 (should be at cap-height 612?)
+
+* three.sinh (U+0033): X=331.5,Y=1.0 (should be at baseline 0?)
+
+* six.sinh (U+0036): X=127.0,Y=612.5 (should be at cap-height 612?)
+
+* nine.sinh (U+0039): X=139.0,Y=2.0 (should be at baseline 0?)
+
+* nine.sinh (U+0039): X=363.5,Y=613.0 (should be at cap-height 612?)
+
+* semicolon.sinh (U+003B): X=137.0,Y=1.0 (should be at baseline 0?)
+
+* question.sinh (U+003F): X=126.5,Y=610.0 (should be at cap-height 612?)
+
+* G (U+0047): X=519.0,Y=1.5 (should be at baseline 0?)
+
+* a (U+0061): X=182.0,Y=536.5 (should be at x-height 536?) 
+
+* And 49 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* comma.sinh (U+002C): X=135.5,Y=0.5 (should be at baseline 0?)
+
+* one.sinh (U+0031): X=120.0,Y=613.0 (should be at cap-height 612?)
+
+* three.sinh (U+0033): X=340.5,Y=1.0 (should be at baseline 0?)
+
+* seven.sinh (U+0037): X=422.0,Y=614.0 (should be at cap-height 612?)
+
+* seven.sinh (U+0037): X=166.0,Y=614.0 (should be at cap-height 612?)
+
+* semicolon.sinh (U+003B): X=141.5,Y=0.5 (should be at baseline 0?)
+
+* less.sinh (U+003C): X=496.0,Y=610.0 (should be at cap-height 612?)
+
+* greater.sinh (U+003E): X=67.0,Y=610.0 (should be at cap-height 612?)
+
+* Q (U+0051): X=470.0,Y=-1.0 (should be at baseline 0?)
+
+* asciicircum.sinh (U+005E): X=280.0,Y=611.0 (should be at cap-height 612?) 
+
+* And 66 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* zero.sinh (U+0030): X=428.5,Y=613.5 (should be at cap-height 612?)
+
+* zero.sinh (U+0030): X=129.0,Y=611.0 (should be at cap-height 612?)
+
+* two.sinh (U+0032): X=402.0,Y=612.5 (should be at cap-height 612?)
+
+* nine.sinh (U+0039): X=92.0,Y=612.5 (should be at cap-height 612?)
+
+* question.sinh (U+003F): X=35.0,Y=611.0 (should be at cap-height 612?)
+
+* C (U+0043): X=516.0,Y=610.0 (should be at cap-height 612?)
+
+* C (U+0043): X=407.0,Y=1.5 (should be at baseline 0?)
+
+* G (U+0047): X=477.5,Y=-1.5 (should be at baseline 0?)
+
+* S (U+0053): X=429.0,Y=614.0 (should be at cap-height 612?)
+
+* g (U+0067): X=394.0,Y=537.5 (should be at x-height 536?) 
+
+* And 67 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* comma.sinh (U+002C): X=131.0,Y=1.0 (should be at baseline 0?)
+
+* one.sinh (U+0031): X=131.5,Y=613.0 (should be at cap-height 612?)
+
+* three.sinh (U+0033): X=331.5,Y=1.0 (should be at baseline 0?)
+
+* five.sinh (U+0035): X=329.0,Y=0.5 (should be at baseline 0?)
+
+* six.sinh (U+0036): X=127.0,Y=612.5 (should be at cap-height 612?)
+
+* eight.sinh (U+0038): X=385.5,Y=613.5 (should be at cap-height 612?)
+
+* nine.sinh (U+0039): X=139.0,Y=2.0 (should be at baseline 0?)
+
+* semicolon.sinh (U+003B): X=137.0,Y=1.0 (should be at baseline 0?)
+
+* question.sinh (U+003F): X=126.5,Y=610.0 (should be at cap-height 612?)
+
+* C (U+0043): X=457.5,Y=0.5 (should be at baseline 0?) 
+
+* And 70 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
+</span></li></ul></div></details>
+<h3>Do any segments have colinear vectors?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_colinear_vectors&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* u111F2 (U+111F2): L&lt;&lt;722.0,589.0&gt;--&lt;754.0,589.0&gt;&gt; -&gt; L&lt;&lt;754.0,589.0&gt;--&lt;754.0,589.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* u111F2 (U+111F2): L&lt;&lt;722.0,589.0&gt;--&lt;754.0,589.0&gt;&gt; -&gt; L&lt;&lt;754.0,589.0&gt;--&lt;754.0,589.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* jasinh (U+0DA2): L&lt;&lt;490.0,442.0&gt;--&lt;521.0,442.0&gt;&gt; -&gt; L&lt;&lt;521.0,442.0&gt;--&lt;522.0,442.0&gt;&gt;
+
+* nyjasinh (U+0DA6): L&lt;&lt;651.0,442.0&gt;--&lt;682.0,442.0&gt;&gt; -&gt; L&lt;&lt;682.0,442.0&gt;--&lt;683.0,442.0&gt;&gt;
+
+* u111F2 (U+111F2): L&lt;&lt;722.0,589.0&gt;--&lt;754.0,589.0&gt;&gt; -&gt; L&lt;&lt;754.0,589.0&gt;--&lt;754.0,589.0&gt;&gt; 
+
+* And uni0DEA (U+0DEA): L&lt;&lt;490.0,442.0&gt;--&lt;521.0,442.0&gt;&gt; -&gt; L&lt;&lt;521.0,442.0&gt;--&lt;522.0,442.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* u111F2 (U+111F2): L&lt;&lt;722.0,589.0&gt;--&lt;754.0,589.0&gt;&gt; -&gt; L&lt;&lt;754.0,589.0&gt;--&lt;754.0,589.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* u111F2 (U+111F2): L&lt;&lt;722.0,589.0&gt;--&lt;754.0,589.0&gt;&gt; -&gt; L&lt;&lt;754.0,589.0&gt;--&lt;754.0,589.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* u111F2 (U+111F2): L&lt;&lt;722.0,589.0&gt;--&lt;754.0,589.0&gt;&gt; -&gt; L&lt;&lt;754.0,589.0&gt;--&lt;754.0,589.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* u111F2 (U+111F2): L&lt;&lt;722.0,589.0&gt;--&lt;754.0,589.0&gt;&gt; -&gt; L&lt;&lt;754.0,589.0&gt;--&lt;754.0,589.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* u111F2 (U+111F2): L&lt;&lt;722.0,589.0&gt;--&lt;754.0,589.0&gt;&gt; -&gt; L&lt;&lt;754.0,589.0&gt;--&lt;754.0,589.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* u111F2 (U+111F2): L&lt;&lt;722.0,589.0&gt;--&lt;754.0,589.0&gt;&gt; -&gt; L&lt;&lt;754.0,589.0&gt;--&lt;754.0,589.0&gt;&gt; [code: found-colinear-vectors]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Do outlines contain any jaggy segments?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* V (U+0056): B&lt;&lt;402.5,227.0&gt;-&lt;406.0,208.0&gt;-&lt;407.0,194.0&gt;&gt;/B&lt;&lt;407.0,194.0&gt;-&lt;409.0,211.0&gt;-&lt;416.0,238.5&gt;&gt; = 10.79545358773178
+
+* eogonek (U+0119): B&lt;&lt;282.5,-58.0&gt;-&lt;309.0,-25.0&gt;-&lt;346.0,-9.0&gt;&gt;/B&lt;&lt;346.0,-9.0&gt;-&lt;340.0,-10.0&gt;-&lt;333.5,-10.0&gt;&gt; = 13.922898849188117
+
+* u111E1 (U+111E1): B&lt;&lt;624.0,504.0&gt;-&lt;723.0,419.0&gt;-&lt;763.0,252.0&gt;&gt;/B&lt;&lt;763.0,252.0&gt;-&lt;757.0,302.0&gt;-&lt;754.5,360.5&gt;&gt; = 6.627004816933202
+
+* u111E9 (U+111E9): B&lt;&lt;1151.0,437.5&gt;-&lt;1232.0,338.0&gt;-&lt;1267.0,192.0&gt;&gt;/B&lt;&lt;1267.0,192.0&gt;-&lt;1260.0,245.0&gt;-&lt;1257.5,311.0&gt;&gt; = 5.957069376294162
+
+* y (U+0079): B&lt;&lt;336.0,187.0&gt;-&lt;342.0,160.0&gt;-&lt;343.0,142.0&gt;&gt;/B&lt;&lt;343.0,142.0&gt;-&lt;346.0,164.0&gt;-&lt;349.5,180.0&gt;&gt; = 10.944996138289511
+
+* yacute (U+00FD): B&lt;&lt;336.0,187.0&gt;-&lt;342.0,160.0&gt;-&lt;343.0,142.0&gt;&gt;/B&lt;&lt;343.0,142.0&gt;-&lt;346.0,164.0&gt;-&lt;349.5,180.0&gt;&gt; = 10.944996138289511
+
+* ycircumflex (U+0177): B&lt;&lt;336.0,187.0&gt;-&lt;342.0,160.0&gt;-&lt;343.0,142.0&gt;&gt;/B&lt;&lt;343.0,142.0&gt;-&lt;346.0,164.0&gt;-&lt;349.5,180.0&gt;&gt; = 10.944996138289511
+
+* ydieresis (U+00FF): B&lt;&lt;336.0,187.0&gt;-&lt;342.0,160.0&gt;-&lt;343.0,142.0&gt;&gt;/B&lt;&lt;343.0,142.0&gt;-&lt;346.0,164.0&gt;-&lt;349.5,180.0&gt;&gt; = 10.944996138289511 
+
+* And ygrave (U+1EF3): B&lt;&lt;336.0,187.0&gt;-&lt;342.0,160.0&gt;-&lt;343.0,142.0&gt;&gt;/B&lt;&lt;343.0,142.0&gt;-&lt;346.0,164.0&gt;-&lt;349.5,180.0&gt;&gt; = 10.944996138289511 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* ausinh (U+0D96): B&lt;&lt;566.0,454.5&gt;-&lt;559.0,473.0&gt;-&lt;549.0,487.0&gt;&gt;/B&lt;&lt;549.0,487.0&gt;-&lt;557.0,470.0&gt;-&lt;557.0,451.0&gt;&gt; = 10.336554146499246
+
+* masinh (U+0DB8): B&lt;&lt;541.5,454.5&gt;-&lt;535.0,473.0&gt;-&lt;524.0,487.0&gt;&gt;/B&lt;&lt;524.0,487.0&gt;-&lt;532.0,470.0&gt;-&lt;532.0,451.0&gt;&gt; = 12.95610294189398
+
+* mbasinh (U+0DB9): B&lt;&lt;570.0,454.5&gt;-&lt;563.0,473.0&gt;-&lt;553.0,487.0&gt;&gt;/B&lt;&lt;553.0,487.0&gt;-&lt;561.0,470.0&gt;-&lt;561.0,451.0&gt;&gt; = 10.336554146499246
+
+* oosinh (U+0D95): B&lt;&lt;566.0,454.5&gt;-&lt;559.0,473.0&gt;-&lt;549.0,487.0&gt;&gt;/B&lt;&lt;549.0,487.0&gt;-&lt;557.0,470.0&gt;-&lt;557.0,451.0&gt;&gt; = 10.336554146499246
+
+* osinh (U+0D94): B&lt;&lt;566.0,454.5&gt;-&lt;559.0,473.0&gt;-&lt;549.0,487.0&gt;&gt;/B&lt;&lt;549.0,487.0&gt;-&lt;557.0,470.0&gt;-&lt;557.0,451.0&gt;&gt; = 10.336554146499246
+
+* u111E1 (U+111E1): B&lt;&lt;624.0,504.0&gt;-&lt;723.0,419.0&gt;-&lt;763.0,252.0&gt;&gt;/B&lt;&lt;763.0,252.0&gt;-&lt;757.0,302.0&gt;-&lt;754.5,360.5&gt;&gt; = 6.627004816933202 
+
+* And u111E9 (U+111E9): B&lt;&lt;1151.0,437.5&gt;-&lt;1232.0,338.0&gt;-&lt;1267.0,192.0&gt;&gt;/B&lt;&lt;1267.0,192.0&gt;-&lt;1260.0,245.0&gt;-&lt;1257.5,311.0&gt;&gt; = 5.957069376294162 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* ausinh (U+0D96): B&lt;&lt;568.5,447.5&gt;-&lt;564.0,463.0&gt;-&lt;556.0,476.0&gt;&gt;/B&lt;&lt;556.0,476.0&gt;-&lt;560.0,464.0&gt;-&lt;560.0,451.0&gt;&gt; = 13.172553423326871
+
+* ausinh (U+0D96): L&lt;&lt;379.0,229.0&gt;--&lt;397.0,229.0&gt;&gt;/B&lt;&lt;397.0,229.0&gt;-&lt;311.0,238.0&gt;-&lt;270.5,280.0&gt;&gt; = 5.9743232864805735
+
+* masinh (U+0DB8): B&lt;&lt;543.5,447.5&gt;-&lt;539.0,463.0&gt;-&lt;531.0,476.0&gt;&gt;/B&lt;&lt;531.0,476.0&gt;-&lt;535.0,464.0&gt;-&lt;535.0,451.0&gt;&gt; = 13.172553423326871
+
+* mbasinh (U+0DB9): B&lt;&lt;572.5,447.5&gt;-&lt;568.0,463.0&gt;-&lt;560.0,476.0&gt;&gt;/B&lt;&lt;560.0,476.0&gt;-&lt;564.0,464.0&gt;-&lt;564.0,451.0&gt;&gt; = 13.172553423326871
+
+* oosinh (U+0D95): B&lt;&lt;568.5,447.5&gt;-&lt;564.0,463.0&gt;-&lt;556.0,476.0&gt;&gt;/B&lt;&lt;556.0,476.0&gt;-&lt;560.0,464.0&gt;-&lt;560.0,451.0&gt;&gt; = 13.172553423326871
+
+* oosinh (U+0D95): L&lt;&lt;379.0,229.0&gt;--&lt;397.0,229.0&gt;&gt;/B&lt;&lt;397.0,229.0&gt;-&lt;311.0,238.0&gt;-&lt;270.5,280.0&gt;&gt; = 5.9743232864805735
+
+* osinh (U+0D94): B&lt;&lt;568.5,447.5&gt;-&lt;564.0,463.0&gt;-&lt;556.0,476.0&gt;&gt;/B&lt;&lt;556.0,476.0&gt;-&lt;560.0,464.0&gt;-&lt;560.0,451.0&gt;&gt; = 13.172553423326871
+
+* osinh (U+0D94): L&lt;&lt;379.0,229.0&gt;--&lt;397.0,229.0&gt;&gt;/B&lt;&lt;397.0,229.0&gt;-&lt;311.0,238.0&gt;-&lt;270.5,280.0&gt;&gt; = 5.9743232864805735
+
+* u111E1 (U+111E1): B&lt;&lt;624.0,504.0&gt;-&lt;723.0,419.0&gt;-&lt;763.0,252.0&gt;&gt;/B&lt;&lt;763.0,252.0&gt;-&lt;757.0,302.0&gt;-&lt;754.5,360.5&gt;&gt; = 6.627004816933202
+
+* u111E9 (U+111E9): B&lt;&lt;1151.0,437.5&gt;-&lt;1232.0,338.0&gt;-&lt;1267.0,192.0&gt;&gt;/B&lt;&lt;1267.0,192.0&gt;-&lt;1260.0,245.0&gt;-&lt;1257.5,311.0&gt;&gt; = 5.957069376294162 
+
+* And 5 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* ausinh (U+0D96): B&lt;&lt;546.0,497.5&gt;-&lt;522.0,528.0&gt;-&lt;488.0,540.0&gt;&gt;/B&lt;&lt;488.0,540.0&gt;-&lt;510.0,527.0&gt;-&lt;519.0,506.0&gt;&gt; = 11.139192044312798
+
+* chasinh (U+0DA1): B&lt;&lt;553.5,664.5&gt;-&lt;484.0,609.0&gt;-&lt;446.0,532.0&gt;&gt;/B&lt;&lt;446.0,532.0&gt;-&lt;467.0,559.0&gt;-&lt;497.0,574.0&gt;&gt; = 11.608345294015082
+
+* ddasinh (U+0DA9): B&lt;&lt;89.5,330.5&gt;-&lt;131.0,390.0&gt;-&lt;212.0,415.0&gt;&gt;/B&lt;&lt;212.0,415.0&gt;-&lt;187.0,413.0&gt;-&lt;158.5,412.0&gt;&gt; = 12.578500480310963
+
+* ddhasinh (U+0DAA): B&lt;&lt;89.5,330.5&gt;-&lt;131.0,390.0&gt;-&lt;212.0,415.0&gt;&gt;/B&lt;&lt;212.0,415.0&gt;-&lt;187.0,413.0&gt;-&lt;158.5,412.0&gt;&gt; = 12.578500480310963
+
+* eth (U+00F0): B&lt;&lt;356.5,474.5&gt;-&lt;399.0,456.0&gt;-&lt;423.0,417.0&gt;&gt;/B&lt;&lt;423.0,417.0&gt;-&lt;401.0,487.0&gt;-&lt;370.5,540.5&gt;&gt; = 14.160313822966648
+
+* ghasinh (U+0D9D): B&lt;&lt;89.5,330.0&gt;-&lt;131.0,390.0&gt;-&lt;212.0,415.0&gt;&gt;/B&lt;&lt;212.0,415.0&gt;-&lt;187.0,413.0&gt;-&lt;158.5,412.0&gt;&gt; = 12.578500480310963
+
+* masinh (U+0DB8): B&lt;&lt;529.0,497.5&gt;-&lt;505.0,528.0&gt;-&lt;470.0,540.0&gt;&gt;/B&lt;&lt;470.0,540.0&gt;-&lt;492.0,527.0&gt;-&lt;501.0,506.0&gt;&gt; = 11.654582456437772
+
+* mbasinh (U+0DB9): B&lt;&lt;553.0,497.5&gt;-&lt;529.0,528.0&gt;-&lt;494.0,540.0&gt;&gt;/B&lt;&lt;494.0,540.0&gt;-&lt;516.0,527.0&gt;-&lt;525.0,506.0&gt;&gt; = 11.654582456437772
+
+* nnddasinh (U+0DAC): B&lt;&lt;224.5,330.5&gt;-&lt;266.0,390.0&gt;-&lt;347.0,415.0&gt;&gt;/B&lt;&lt;347.0,415.0&gt;-&lt;322.0,413.0&gt;-&lt;293.5,412.0&gt;&gt; = 12.578500480310963
+
+* oosinh (U+0D95): B&lt;&lt;546.0,497.5&gt;-&lt;522.0,528.0&gt;-&lt;488.0,540.0&gt;&gt;/B&lt;&lt;488.0,540.0&gt;-&lt;510.0,527.0&gt;-&lt;519.0,506.0&gt;&gt; = 11.139192044312798 
+
+* And 4 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* ausinh (U+0D96): B&lt;&lt;551.5,486.5&gt;-&lt;532.0,515.0&gt;-&lt;504.0,529.0&gt;&gt;/B&lt;&lt;504.0,529.0&gt;-&lt;522.0,515.0&gt;-&lt;529.0,496.0&gt;&gt; = 11.309932474020162
+
+* chasinh (U+0DA1): B&lt;&lt;570.0,660.5&gt;-&lt;503.0,612.0&gt;-&lt;465.0,542.0&gt;&gt;/B&lt;&lt;465.0,542.0&gt;-&lt;508.0,589.0&gt;-&lt;568.0,589.0&gt;&gt; = 13.959557001941919
+
+* masinh (U+0DB8): B&lt;&lt;531.5,486.5&gt;-&lt;512.0,515.0&gt;-&lt;483.0,529.0&gt;&gt;/B&lt;&lt;483.0,529.0&gt;-&lt;501.0,515.0&gt;-&lt;508.5,496.0&gt;&gt; = 12.105656026759448
+
+* mbasinh (U+0DB9): B&lt;&lt;556.5,486.5&gt;-&lt;537.0,515.0&gt;-&lt;509.0,529.0&gt;&gt;/B&lt;&lt;509.0,529.0&gt;-&lt;527.0,515.0&gt;-&lt;534.5,496.0&gt;&gt; = 11.309932474020162
+
+* oosinh (U+0D95): B&lt;&lt;551.5,486.5&gt;-&lt;532.0,515.0&gt;-&lt;504.0,529.0&gt;&gt;/B&lt;&lt;504.0,529.0&gt;-&lt;522.0,515.0&gt;-&lt;529.0,496.0&gt;&gt; = 11.309932474020162
+
+* osinh (U+0D94): B&lt;&lt;551.5,486.5&gt;-&lt;532.0,515.0&gt;-&lt;504.0,529.0&gt;&gt;/B&lt;&lt;504.0,529.0&gt;-&lt;522.0,515.0&gt;-&lt;529.0,496.0&gt;&gt; = 11.309932474020162
+
+* u111E1 (U+111E1): B&lt;&lt;624.0,504.0&gt;-&lt;723.0,419.0&gt;-&lt;763.0,252.0&gt;&gt;/B&lt;&lt;763.0,252.0&gt;-&lt;757.0,302.0&gt;-&lt;754.5,360.5&gt;&gt; = 6.627004816933202 
+
+* And u111E9 (U+111E9): B&lt;&lt;1151.0,437.5&gt;-&lt;1232.0,338.0&gt;-&lt;1267.0,192.0&gt;&gt;/B&lt;&lt;1267.0,192.0&gt;-&lt;1260.0,245.0&gt;-&lt;1257.5,311.0&gt;&gt; = 5.957069376294162 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* ausinh (U+0D96): B&lt;&lt;561.0,466.0&gt;-&lt;550.0,489.0&gt;-&lt;534.0,504.0&gt;&gt;/B&lt;&lt;534.0,504.0&gt;-&lt;543.0,492.0&gt;-&lt;546.5,478.0&gt;&gt; = 9.97771262015058
+
+* masinh (U+0DB8): B&lt;&lt;537.0,466.0&gt;-&lt;526.0,489.0&gt;-&lt;509.0,504.0&gt;&gt;/B&lt;&lt;509.0,504.0&gt;-&lt;518.0,492.0&gt;-&lt;522.0,478.0&gt;&gt; = 11.706436729153328
+
+* mbasinh (U+0DB9): B&lt;&lt;565.0,466.0&gt;-&lt;554.0,489.0&gt;-&lt;538.0,504.0&gt;&gt;/B&lt;&lt;538.0,504.0&gt;-&lt;547.0,492.0&gt;-&lt;550.5,478.0&gt;&gt; = 9.97771262015058
+
+* oosinh (U+0D95): B&lt;&lt;561.0,466.0&gt;-&lt;550.0,489.0&gt;-&lt;534.0,504.0&gt;&gt;/B&lt;&lt;534.0,504.0&gt;-&lt;543.0,492.0&gt;-&lt;546.5,478.0&gt;&gt; = 9.97771262015058
+
+* osinh (U+0D94): B&lt;&lt;561.0,466.0&gt;-&lt;550.0,489.0&gt;-&lt;534.0,504.0&gt;&gt;/B&lt;&lt;534.0,504.0&gt;-&lt;543.0,492.0&gt;-&lt;546.5,478.0&gt;&gt; = 9.97771262015058
+
+* u111E1 (U+111E1): B&lt;&lt;624.0,504.0&gt;-&lt;723.0,419.0&gt;-&lt;763.0,252.0&gt;&gt;/B&lt;&lt;763.0,252.0&gt;-&lt;757.0,302.0&gt;-&lt;754.5,360.5&gt;&gt; = 6.627004816933202 
+
+* And u111E9 (U+111E9): B&lt;&lt;1151.0,437.5&gt;-&lt;1232.0,338.0&gt;-&lt;1267.0,192.0&gt;&gt;/B&lt;&lt;1267.0,192.0&gt;-&lt;1260.0,245.0&gt;-&lt;1257.5,311.0&gt;&gt; = 5.957069376294162 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* ausinh (U+0D96): B&lt;&lt;559.0,470.5&gt;-&lt;546.0,495.0&gt;-&lt;527.0,510.0&gt;&gt;/B&lt;&lt;527.0,510.0&gt;-&lt;539.0,497.0&gt;-&lt;543.5,481.0&gt;&gt; = 9.00044685039543
+
+* masinh (U+0DB8): B&lt;&lt;535.0,470.5&gt;-&lt;522.0,495.0&gt;-&lt;503.0,510.0&gt;&gt;/B&lt;&lt;503.0,510.0&gt;-&lt;515.0,497.0&gt;-&lt;519.5,481.0&gt;&gt; = 9.00044685039543
+
+* mbasinh (U+0DB9): B&lt;&lt;563.0,470.5&gt;-&lt;550.0,495.0&gt;-&lt;531.0,510.0&gt;&gt;/B&lt;&lt;531.0,510.0&gt;-&lt;543.0,497.0&gt;-&lt;547.5,481.0&gt;&gt; = 9.00044685039543
+
+* oosinh (U+0D95): B&lt;&lt;559.0,470.5&gt;-&lt;546.0,495.0&gt;-&lt;527.0,510.0&gt;&gt;/B&lt;&lt;527.0,510.0&gt;-&lt;539.0,497.0&gt;-&lt;543.5,481.0&gt;&gt; = 9.00044685039543
+
+* osinh (U+0D94): B&lt;&lt;559.0,470.5&gt;-&lt;546.0,495.0&gt;-&lt;527.0,510.0&gt;&gt;/B&lt;&lt;527.0,510.0&gt;-&lt;539.0,497.0&gt;-&lt;543.5,481.0&gt;&gt; = 9.00044685039543
+
+* u111E1 (U+111E1): B&lt;&lt;624.0,504.0&gt;-&lt;723.0,419.0&gt;-&lt;763.0,252.0&gt;&gt;/B&lt;&lt;763.0,252.0&gt;-&lt;757.0,302.0&gt;-&lt;754.5,360.5&gt;&gt; = 6.627004816933202 
+
+* And u111E9 (U+111E9): B&lt;&lt;1151.0,437.5&gt;-&lt;1232.0,338.0&gt;-&lt;1267.0,192.0&gt;&gt;/B&lt;&lt;1267.0,192.0&gt;-&lt;1260.0,245.0&gt;-&lt;1257.5,311.0&gt;&gt; = 5.957069376294162 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* ausinh (U+0D96): B&lt;&lt;563.5,460.5&gt;-&lt;555.0,481.0&gt;-&lt;541.0,496.0&gt;&gt;/B&lt;&lt;541.0,496.0&gt;-&lt;553.0,475.0&gt;-&lt;553.0,450.0&gt;&gt; = 13.28018469217573
+
+* masinh (U+0DB8): B&lt;&lt;539.0,460.5&gt;-&lt;530.0,481.0&gt;-&lt;517.0,496.0&gt;&gt;/B&lt;&lt;517.0,496.0&gt;-&lt;529.0,475.0&gt;-&lt;529.0,450.0&gt;&gt; = 11.169501923082867
+
+* mbasinh (U+0DB9): B&lt;&lt;567.5,460.5&gt;-&lt;559.0,481.0&gt;-&lt;545.0,496.0&gt;&gt;/B&lt;&lt;545.0,496.0&gt;-&lt;557.0,475.0&gt;-&lt;557.0,450.0&gt;&gt; = 13.28018469217573
+
+* ngasinh (U+0D9E): B&lt;&lt;80.5,272.0&gt;-&lt;113.0,311.0&gt;-&lt;174.0,339.0&gt;&gt;/B&lt;&lt;174.0,339.0&gt;-&lt;158.0,336.0&gt;-&lt;141.0,336.0&gt;&gt; = 14.036243467926457
+
+* oosinh (U+0D95): B&lt;&lt;563.5,460.5&gt;-&lt;555.0,481.0&gt;-&lt;541.0,496.0&gt;&gt;/B&lt;&lt;541.0,496.0&gt;-&lt;553.0,475.0&gt;-&lt;553.0,450.0&gt;&gt; = 13.28018469217573
+
+* osinh (U+0D94): B&lt;&lt;563.5,460.5&gt;-&lt;555.0,481.0&gt;-&lt;541.0,496.0&gt;&gt;/B&lt;&lt;541.0,496.0&gt;-&lt;553.0,475.0&gt;-&lt;553.0,450.0&gt;&gt; = 13.28018469217573
+
+* u111E1 (U+111E1): B&lt;&lt;624.0,504.0&gt;-&lt;723.0,419.0&gt;-&lt;763.0,252.0&gt;&gt;/B&lt;&lt;763.0,252.0&gt;-&lt;757.0,302.0&gt;-&lt;754.5,360.5&gt;&gt; = 6.627004816933202 
+
+* And u111E9 (U+111E9): B&lt;&lt;1151.0,437.5&gt;-&lt;1232.0,338.0&gt;-&lt;1267.0,192.0&gt;&gt;/B&lt;&lt;1267.0,192.0&gt;-&lt;1260.0,245.0&gt;-&lt;1257.5,311.0&gt;&gt; = 5.957069376294162 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* aisinh (U+0D93): B&lt;&lt;694.0,341.5&gt;-&lt;731.0,395.0&gt;-&lt;816.0,421.0&gt;&gt;/B&lt;&lt;816.0,421.0&gt;-&lt;790.0,418.0&gt;-&lt;759.0,417.5&gt;&gt; = 10.426002300229321
+
+* ausinh (U+0D96): B&lt;&lt;543.5,504.0&gt;-&lt;517.0,536.0&gt;-&lt;478.0,547.0&gt;&gt;/B&lt;&lt;478.0,547.0&gt;-&lt;502.0,534.0&gt;-&lt;512.0,512.0&gt;&gt; = 12.691754960910313
+
+* basinh (U+0DB6): B&lt;&lt;127.5,67.5&gt;-&lt;154.0,40.0&gt;-&lt;185.0,23.0&gt;&gt;/B&lt;&lt;185.0,23.0&gt;-&lt;170.0,34.0&gt;-&lt;159.0,53.0&gt;&gt; = 7.514042445756763
+
+* bhasinh (U+0DB7): B&lt;&lt;96.0,341.5&gt;-&lt;133.0,395.0&gt;-&lt;218.0,421.0&gt;&gt;/B&lt;&lt;218.0,421.0&gt;-&lt;192.0,418.0&gt;-&lt;161.0,417.5&gt;&gt; = 10.426002300229321
+
+* casinh (U+0DA0): B&lt;&lt;93.0,341.5&gt;-&lt;130.0,395.0&gt;-&lt;215.0,421.0&gt;&gt;/B&lt;&lt;215.0,421.0&gt;-&lt;189.0,418.0&gt;-&lt;158.0,417.5&gt;&gt; = 10.426002300229321
+
+* chasinh (U+0DA1): B&lt;&lt;541.5,666.0&gt;-&lt;470.0,605.0&gt;-&lt;434.0,524.0&gt;&gt;/B&lt;&lt;434.0,524.0&gt;-&lt;455.0,554.0&gt;-&lt;487.5,571.5&gt;&gt; = 11.029531223980502
+
+* ddasinh (U+0DA9): B&lt;&lt;93.0,337.5&gt;-&lt;138.0,400.0&gt;-&lt;230.0,422.0&gt;&gt;/B&lt;&lt;230.0,422.0&gt;-&lt;204.0,419.0&gt;-&lt;172.5,418.0&gt;&gt; = 6.866670396508532
+
+* ddhasinh (U+0DAA): B&lt;&lt;93.0,337.5&gt;-&lt;138.0,400.0&gt;-&lt;230.0,422.0&gt;&gt;/B&lt;&lt;230.0,422.0&gt;-&lt;204.0,419.0&gt;-&lt;172.5,418.0&gt;&gt; = 6.866670396508532
+
+* eesinh (U+0D92): B&lt;&lt;93.0,341.5&gt;-&lt;130.0,395.0&gt;-&lt;215.0,421.0&gt;&gt;/B&lt;&lt;215.0,421.0&gt;-&lt;189.0,418.0&gt;-&lt;158.0,417.5&gt;&gt; = 10.426002300229321
+
+* esinh (U+0D91): B&lt;&lt;93.0,341.5&gt;-&lt;130.0,395.0&gt;-&lt;215.0,421.0&gt;&gt;/B&lt;&lt;215.0,421.0&gt;-&lt;189.0,418.0&gt;-&lt;158.0,417.5&gt;&gt; = 10.426002300229321 
+
+* And 15 more.
+</code></pre>
+<p>Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* sterling (U+00A3): L&lt;&lt;454.0,335.0&gt;--&lt;295.0,336.0&gt;&gt; [code: found-semi-vertical]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* sterling (U+00A3): L&lt;&lt;444.0,335.0&gt;--&lt;285.0,336.0&gt;&gt; [code: found-semi-vertical]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* sterling (U+00A3): L&lt;&lt;419.0,336.0&gt;--&lt;262.0,337.0&gt;&gt; [code: found-semi-vertical]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* exclam.sinh (U+0021): L&lt;&lt;129.0,167.0&gt;--&lt;126.0,714.0&gt;&gt;
+
+* exclam.sinh (U+0021): L&lt;&lt;155.0,714.0&gt;--&lt;154.0,167.0&gt;&gt;
+
+* exclamdown (U+00A1): L&lt;&lt;123.0,-177.0&gt;--&lt;124.0,370.0&gt;&gt; 
+
+* And exclamdown (U+00A1): L&lt;&lt;149.0,370.0&gt;--&lt;152.0,-177.0&gt;&gt; [code: found-semi-vertical]
+</code></pre>
+</span></li></ul></div></details>
+<h2>&lt;Section: Shaping Checks&gt; 🔥⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩</h2>
+<h3>Check that texts shape as per expectation</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/shaping/regression&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>qa/shaping_tests/sinhala.json: Expected and actual shaping not matching</p>
+<div class="shaping">
+<style type="text/css">
+    @font-face {font-family: "TestFont"; src: url(../../fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf);}
+    .tf { font-family: "TestFont"; }
+    .shaping pre { font-size: 1.2rem; }
+    .shaping li {
+        font-size: 1.2rem;
+        border-top: 1px solid #ddd;
+        padding: 12px;
+        margin-top: 12px;
+    }
+    .shaping-svg {
+        height: 100px;
+        margin: 10px;
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+</style>
+<h4>qa/shaping_tests/sinhala.json: Expected and actual shaping not matching</h4>
+</div>
+<div class="shaping">
+<li>Shaping did not match: <span class="tf">සුරැරු</span></li>
+<pre>Expected: suvowelsinh=0+824|rasinh=2+702|raevowelsinh=2+248|rasinh=4+702|aevowelsignsinh=4+309</pre>
+<pre>Got     : suvowelsinh=0+800|raevowelsinh=2+908|rasinh=4+680|aevowelsignsinh=4+299</pre>
+<pre>                         +++++++++++++ ^                ^^           ^ +                   ^^
+</pre>
+<p>Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2687 2304" transform="matrix(1 0 0 -1 0 0)">
+<path d="M67.0,-161.0Q67.0,-107.0 102.5,-74.5Q138.0,-42.0 196.0,-42.0Q225.0,-42.0 250.0,-48.5Q275.0,-55.0 295.0,-66.0L276.0,-111.0Q262.0,-104.0 242.5,-98.5Q223.0,-93.0 198.0,-93.0Q159.0,-93.0 141.5,-112.0Q124.0,-131.0 124.0,-158.0Q124.0,-204.0 163.5,-216.0Q203.0,-228.0 274.0,-228.0L654.0,-228.0L654.0,-117.0Q654.0,-86.0 655.5,-55.5Q657.0,-25.0 659.0,6.0Q625.0,-10.0 582.0,-10.0Q506.0,-10.0 464.5,29.5Q423.0,69.0 403.0,129.0Q392.0,94.0 368.5,62.0Q345.0,30.0 309.0,10.0Q273.0,-10.0 223.0,-10.0Q144.0,-10.0 96.0,41.5Q48.0,93.0 48.0,187.0Q48.0,262.0 82.0,313.0Q116.0,364.0 171.0,393.0Q148.0,392.0 121.0,391.5Q94.0,391.0 72.0,391.0L24.0,391.0L24.0,442.0L338.0,442.0Q331.0,477.0 308.5,505.5Q286.0,534.0 236.0,534.0Q176.0,534.0 176.0,481.0Q176.0,477.0 177.0,470.5Q178.0,464.0 179.0,459.0L97.0,452.0Q94.0,460.0 92.5,472.0Q91.0,484.0 91.0,490.0Q91.0,539.0 128.0,564.0Q165.0,589.0 219.0,589.0Q304.0,589.0 349.5,538.5Q395.0,488.0 395.0,405.0L395.0,391.0L278.0,391.0Q192.0,372.0 151.0,324.0Q110.0,276.0 110.0,214.0Q110.0,154.0 143.0,124.5Q176.0,95.0 237.0,95.0Q283.0,95.0 311.0,110.0Q339.0,125.0 354.5,150.0Q370.0,175.0 377.0,204.0L430.0,204.0Q436.0,153.0 473.0,124.0Q510.0,95.0 568.0,95.0Q630.0,95.0 664.5,126.5Q699.0,158.0 699.0,219.0Q699.0,294.0 639.0,342.5Q579.0,391.0 443.0,391.0L427.0,391.0L427.0,397.0Q427.0,456.0 449.0,499.0Q471.0,542.0 509.0,565.5Q547.0,589.0 595.0,589.0Q663.0,589.0 694.0,555.0Q725.0,521.0 725.0,468.0Q725.0,449.0 721.5,431.5Q718.0,414.0 712.0,397.0L662.0,413.0Q667.0,424.0 669.0,437.0Q671.0,450.0 671.0,460.0Q671.0,495.0 648.5,512.0Q626.0,529.0 588.0,529.0Q543.0,529.0 518.0,504.0Q493.0,479.0 485.0,441.0Q558.0,438.0 620.5,413.0Q683.0,388.0 721.0,337.0Q759.0,286.0 759.0,205.0Q759.0,103.0 712.0,46.0L712.0,-284.0L259.0,-284.0Q159.0,-284.0 113.0,-253.0Q67.0,-222.0 67.0,-161.0Z"  transform="translate(0, 807)"/>
+<path d="M344.0,-10.0Q199.0,-10.0 120.0,68.5Q41.0,147.0 41.0,282.0Q41.0,386.0 98.0,459.5Q155.0,533.0 248.0,559.0Q354.0,633.0 436.5,701.0Q519.0,769.0 582.0,825.0L733.0,825.0L765.0,784.0Q720.0,640.0 688.5,510.5Q657.0,381.0 657.0,247.0Q657.0,172.0 671.0,133.5Q685.0,95.0 708.0,81.0Q731.0,67.0 758.0,67.0Q802.0,67.0 824.5,93.5Q847.0,120.0 855.0,178.0L906.0,169.0Q896.0,86.0 857.0,38.0Q818.0,-10.0 751.0,-10.0Q699.0,-10.0 659.0,19.5Q619.0,49.0 604.0,127.0Q538.0,-10.0 344.0,-10.0ZM641.0,772.0L624.0,772.0Q563.0,722.0 494.0,669.5Q425.0,617.0 358.0,572.0Q454.0,569.0 518.0,527.0Q582.0,485.0 611.0,414.0Q625.0,512.0 652.0,597.0Q679.0,682.0 712.0,773.0Q695.0,773.0 675.5,772.5Q656.0,772.0 641.0,772.0ZM345.0,95.0Q408.0,95.0 462.5,115.0Q517.0,135.0 550.5,182.0Q584.0,229.0 584.0,310.0Q584.0,379.0 550.0,426.5Q516.0,474.0 461.5,498.0Q407.0,522.0 344.0,522.0Q278.0,522.0 223.5,496.5Q169.0,471.0 136.5,423.0Q104.0,375.0 104.0,307.0Q104.0,228.0 138.0,181.5Q172.0,135.0 227.0,115.0Q282.0,95.0 345.0,95.0Z"  transform="translate(800, 807)"/>
+<path d="M344.0,-10.0Q199.0,-10.0 120.0,68.5Q41.0,147.0 41.0,282.0Q41.0,386.0 97.5,459.5Q154.0,533.0 248.0,559.0Q321.0,611.0 390.0,665.0Q459.0,719.0 517.0,768.5Q575.0,818.0 616.0,856.0L664.0,800.0Q629.0,768.0 578.0,728.5Q527.0,689.0 470.0,648.0Q413.0,607.0 359.0,572.0Q448.0,569.0 513.0,529.5Q578.0,490.0 612.5,425.5Q647.0,361.0 647.0,282.0Q647.0,142.0 565.5,66.0Q484.0,-10.0 344.0,-10.0ZM345.0,95.0Q408.0,95.0 462.5,115.0Q517.0,135.0 550.5,182.0Q584.0,229.0 584.0,310.0Q584.0,379.0 550.0,426.5Q516.0,474.0 461.5,498.0Q407.0,522.0 344.0,522.0Q278.0,522.0 223.5,496.5Q169.0,471.0 136.5,423.0Q104.0,375.0 104.0,307.0Q104.0,228.0 138.0,181.5Q172.0,135.0 227.0,115.0Q282.0,95.0 345.0,95.0Z"  transform="translate(1708, 807)"/>
+<path d="M10.0,391.0L254.0,391.0L283.0,337.0Q198.0,252.0 152.5,177.5Q107.0,103.0 107.0,12.0Q107.0,-58.0 138.0,-91.5Q169.0,-125.0 223.0,-125.0Q249.0,-125.0 269.0,-118.0Q289.0,-111.0 313.0,-95.0L336.0,-139.0Q303.0,-160.0 270.0,-170.5Q237.0,-181.0 198.0,-181.0Q149.0,-181.0 108.5,-163.0Q68.0,-145.0 44.0,-104.5Q20.0,-64.0 20.0,4.0Q20.0,55.0 38.5,106.0Q57.0,157.0 100.5,214.0Q144.0,271.0 218.0,340.0Q190.0,338.0 148.0,338.0L10.0,338.0L10.0,391.0Z"  transform="translate(2388, 807)"/>
+</svg>
+Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2785 2304" transform="matrix(1 0 0 -1 0 0)">
+<path d="M67.0,-161.0Q67.0,-107.0 102.5,-74.5Q138.0,-42.0 196.0,-42.0Q225.0,-42.0 250.0,-48.5Q275.0,-55.0 295.0,-66.0L276.0,-111.0Q262.0,-104.0 242.5,-98.5Q223.0,-93.0 198.0,-93.0Q159.0,-93.0 141.5,-112.0Q124.0,-131.0 124.0,-158.0Q124.0,-204.0 163.5,-216.0Q203.0,-228.0 274.0,-228.0L654.0,-228.0L654.0,-117.0Q654.0,-86.0 655.5,-55.5Q657.0,-25.0 659.0,6.0Q625.0,-10.0 582.0,-10.0Q506.0,-10.0 464.5,29.5Q423.0,69.0 403.0,129.0Q392.0,94.0 368.5,62.0Q345.0,30.0 309.0,10.0Q273.0,-10.0 223.0,-10.0Q144.0,-10.0 96.0,41.5Q48.0,93.0 48.0,187.0Q48.0,262.0 82.0,313.0Q116.0,364.0 171.0,393.0Q148.0,392.0 121.0,391.5Q94.0,391.0 72.0,391.0L24.0,391.0L24.0,442.0L338.0,442.0Q331.0,477.0 308.5,505.5Q286.0,534.0 236.0,534.0Q176.0,534.0 176.0,481.0Q176.0,477.0 177.0,470.5Q178.0,464.0 179.0,459.0L97.0,452.0Q94.0,460.0 92.5,472.0Q91.0,484.0 91.0,490.0Q91.0,539.0 128.0,564.0Q165.0,589.0 219.0,589.0Q304.0,589.0 349.5,538.5Q395.0,488.0 395.0,405.0L395.0,391.0L278.0,391.0Q192.0,372.0 151.0,324.0Q110.0,276.0 110.0,214.0Q110.0,154.0 143.0,124.5Q176.0,95.0 237.0,95.0Q283.0,95.0 311.0,110.0Q339.0,125.0 354.5,150.0Q370.0,175.0 377.0,204.0L430.0,204.0Q436.0,153.0 473.0,124.0Q510.0,95.0 568.0,95.0Q630.0,95.0 664.5,126.5Q699.0,158.0 699.0,219.0Q699.0,294.0 639.0,342.5Q579.0,391.0 443.0,391.0L427.0,391.0L427.0,397.0Q427.0,456.0 449.0,499.0Q471.0,542.0 509.0,565.5Q547.0,589.0 595.0,589.0Q663.0,589.0 694.0,555.0Q725.0,521.0 725.0,468.0Q725.0,449.0 721.5,431.5Q718.0,414.0 712.0,397.0L662.0,413.0Q667.0,424.0 669.0,437.0Q671.0,450.0 671.0,460.0Q671.0,495.0 648.5,512.0Q626.0,529.0 588.0,529.0Q543.0,529.0 518.0,504.0Q493.0,479.0 485.0,441.0Q558.0,438.0 620.5,413.0Q683.0,388.0 721.0,337.0Q759.0,286.0 759.0,205.0Q759.0,103.0 712.0,46.0L712.0,-284.0L259.0,-284.0Q159.0,-284.0 113.0,-253.0Q67.0,-222.0 67.0,-161.0Z"  transform="translate(0, 807)"/>
+<path d="M344.0,-10.0Q199.0,-10.0 120.0,68.5Q41.0,147.0 41.0,282.0Q41.0,386.0 97.5,459.5Q154.0,533.0 248.0,559.0Q321.0,611.0 390.0,665.0Q459.0,719.0 517.0,768.5Q575.0,818.0 616.0,856.0L664.0,800.0Q629.0,768.0 578.0,728.5Q527.0,689.0 470.0,648.0Q413.0,607.0 359.0,572.0Q448.0,569.0 513.0,529.5Q578.0,490.0 612.5,425.5Q647.0,361.0 647.0,282.0Q647.0,142.0 565.5,66.0Q484.0,-10.0 344.0,-10.0ZM345.0,95.0Q408.0,95.0 462.5,115.0Q517.0,135.0 550.5,182.0Q584.0,229.0 584.0,310.0Q584.0,379.0 550.0,426.5Q516.0,474.0 461.5,498.0Q407.0,522.0 344.0,522.0Q278.0,522.0 223.5,496.5Q169.0,471.0 136.5,423.0Q104.0,375.0 104.0,307.0Q104.0,228.0 138.0,181.5Q172.0,135.0 227.0,115.0Q282.0,95.0 345.0,95.0Z"  transform="translate(824, 807)"/>
+<path d="M344.0,-10.0Q199.0,-10.0 120.0,68.5Q41.0,147.0 41.0,282.0Q41.0,386.0 98.0,459.5Q155.0,533.0 248.0,559.0Q354.0,633.0 436.5,701.0Q519.0,769.0 582.0,825.0L733.0,825.0L765.0,784.0Q720.0,640.0 688.5,510.5Q657.0,381.0 657.0,247.0Q657.0,172.0 671.0,133.5Q685.0,95.0 708.0,81.0Q731.0,67.0 758.0,67.0Q802.0,67.0 824.5,93.5Q847.0,120.0 855.0,178.0L906.0,169.0Q896.0,86.0 857.0,38.0Q818.0,-10.0 751.0,-10.0Q699.0,-10.0 659.0,19.5Q619.0,49.0 604.0,127.0Q538.0,-10.0 344.0,-10.0ZM641.0,772.0L624.0,772.0Q563.0,722.0 494.0,669.5Q425.0,617.0 358.0,572.0Q454.0,569.0 518.0,527.0Q582.0,485.0 611.0,414.0Q625.0,512.0 652.0,597.0Q679.0,682.0 712.0,773.0Q695.0,773.0 675.5,772.5Q656.0,772.0 641.0,772.0ZM345.0,95.0Q408.0,95.0 462.5,115.0Q517.0,135.0 550.5,182.0Q584.0,229.0 584.0,310.0Q584.0,379.0 550.0,426.5Q516.0,474.0 461.5,498.0Q407.0,522.0 344.0,522.0Q278.0,522.0 223.5,496.5Q169.0,471.0 136.5,423.0Q104.0,375.0 104.0,307.0Q104.0,228.0 138.0,181.5Q172.0,135.0 227.0,115.0Q282.0,95.0 345.0,95.0Z"  transform="translate(1526, 807)"/>
+<path d="M344.0,-10.0Q199.0,-10.0 120.0,68.5Q41.0,147.0 41.0,282.0Q41.0,386.0 97.5,459.5Q154.0,533.0 248.0,559.0Q321.0,611.0 390.0,665.0Q459.0,719.0 517.0,768.5Q575.0,818.0 616.0,856.0L664.0,800.0Q629.0,768.0 578.0,728.5Q527.0,689.0 470.0,648.0Q413.0,607.0 359.0,572.0Q448.0,569.0 513.0,529.5Q578.0,490.0 612.5,425.5Q647.0,361.0 647.0,282.0Q647.0,142.0 565.5,66.0Q484.0,-10.0 344.0,-10.0ZM345.0,95.0Q408.0,95.0 462.5,115.0Q517.0,135.0 550.5,182.0Q584.0,229.0 584.0,310.0Q584.0,379.0 550.0,426.5Q516.0,474.0 461.5,498.0Q407.0,522.0 344.0,522.0Q278.0,522.0 223.5,496.5Q169.0,471.0 136.5,423.0Q104.0,375.0 104.0,307.0Q104.0,228.0 138.0,181.5Q172.0,135.0 227.0,115.0Q282.0,95.0 345.0,95.0Z"  transform="translate(1774, 807)"/>
+<path d="M10.0,391.0L254.0,391.0L283.0,337.0Q198.0,252.0 152.5,177.5Q107.0,103.0 107.0,12.0Q107.0,-58.0 138.0,-91.5Q169.0,-125.0 223.0,-125.0Q249.0,-125.0 269.0,-118.0Q289.0,-111.0 313.0,-95.0L336.0,-139.0Q303.0,-160.0 270.0,-170.5Q237.0,-181.0 198.0,-181.0Q149.0,-181.0 108.5,-163.0Q68.0,-145.0 44.0,-104.5Q20.0,-64.0 20.0,4.0Q20.0,55.0 38.5,106.0Q57.0,157.0 100.5,214.0Q144.0,271.0 218.0,340.0Q190.0,338.0 148.0,338.0L10.0,338.0L10.0,391.0Z"  transform="translate(2476, 807)"/>
+</svg></p>
+</div> [code: shaping-regression]
+</span></li></ul></div></details>
+                    </body>
+                </html>
