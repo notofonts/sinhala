@@ -14,46 +14,28 @@ Fontbakery version: 0.8.9
 
 
 * 🔥 **FAIL** PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
-</div></details><br></div></details><details><summary><b>[17] NotoSerifSinhala-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSerifSinhala-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2016-2022 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
 
 
 * 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** head version is "2.00301" while name version string (for platform 3, encoding 1) is "Version 2.002; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* nadiivowelsinh
-	* ndahalantsinh
-	* ghuvowelsinh
-	* jnyatouchsinh
-	* ghuuvowelsinh
-	* nyjahalantsinh
-	* nadhivowelsinh
-	* juuvowelsinh
-	* nnivowelsinh
-	* tarephsinh and 340 more.
+	* navivowelsinh
+	* gadhasinh
+	* tavasinh
+	* nnuvowelsinh
+	* chahalantsinh
+	* nyjiivowelsinh
+	* mbuvowelsinh
+	* ghasinh
+	* lariivowelsinh
+	* nnguvowelsinh and 340 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -72,25 +54,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- asterisk
+	- exclam
 
-	- comma
+	- plus
+
+	- equal
 
 	- backslash
 
-	- nine
+	- asterisk
 
-	- quotedblleft
+	- seven
 
-	- semicolon
-
-	- four
+	- comma
 
 	- less
 
-	- asciitilde
+	- greater
 
-	- plus 
+	- percent 
 
 	- And 36 more.
 
@@ -173,46 +155,28 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<454.0,335.0>--<295.0,336.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[16] NotoSerifSinhala-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSerifSinhala-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2016-2022 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
 
 
 * 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** head version is "2.00301" while name version string (for platform 3, encoding 1) is "Version 2.002; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* nadiivowelsinh
-	* ndahalantsinh
-	* ghuvowelsinh
-	* jnyatouchsinh
-	* ghuuvowelsinh
-	* nyjahalantsinh
-	* nadhivowelsinh
-	* juuvowelsinh
-	* nnivowelsinh
-	* tarephsinh and 306 more.
+	* navivowelsinh
+	* gadhasinh
+	* tavasinh
+	* nnuvowelsinh
+	* chahalantsinh
+	* nyjiivowelsinh
+	* mbuvowelsinh
+	* ghasinh
+	* lariivowelsinh
+	* nnguvowelsinh and 306 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -224,25 +188,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- asterisk
+	- exclam
 
-	- comma
+	- plus
+
+	- equal
 
 	- backslash
 
-	- nine
+	- asterisk
 
-	- quotedblleft
+	- seven
 
-	- semicolon
-
-	- four
+	- comma
 
 	- less
 
-	- asciitilde
+	- greater
 
-	- plus 
+	- percent 
 
 	- And 36 more.
 
@@ -343,46 +307,28 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* u111E1 (U+111E1): B<<624.0,504.0>-<723.0,419.0>-<763.0,252.0>>/B<<763.0,252.0>-<757.0,302.0>-<754.5,360.5>> = 6.627004816933202 
 
 	* And u111E9 (U+111E9): B<<1151.0,437.5>-<1232.0,338.0>-<1267.0,192.0>>/B<<1267.0,192.0>-<1260.0,245.0>-<1257.5,311.0>> = 5.957069376294162 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[18] NotoSerifSinhala-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSerifSinhala-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2016-2022 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
 
 
 * 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** head version is "2.00301" while name version string (for platform 3, encoding 1) is "Version 2.002; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* nadiivowelsinh
-	* ndahalantsinh
-	* ghuvowelsinh
-	* jnyatouchsinh
-	* ghuuvowelsinh
-	* nyjahalantsinh
-	* nadhivowelsinh
-	* juuvowelsinh
-	* nnivowelsinh
-	* tarephsinh and 325 more.
+	* navivowelsinh
+	* gadhasinh
+	* tavasinh
+	* nnuvowelsinh
+	* chahalantsinh
+	* nyjiivowelsinh
+	* mbuvowelsinh
+	* ghasinh
+	* lariivowelsinh
+	* nnguvowelsinh and 325 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -401,25 +347,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- asterisk
+	- exclam
 
-	- comma
+	- plus
+
+	- equal
 
 	- backslash
 
-	- nine
+	- asterisk
 
-	- quotedblleft
+	- seven
 
-	- semicolon
-
-	- four
+	- comma
 
 	- less
 
-	- asciitilde
+	- greater
 
-	- plus 
+	- percent 
 
 	- And 36 more.
 
@@ -542,46 +488,28 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<444.0,335.0>--<285.0,336.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] NotoSerifSinhala-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSerifSinhala-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2016-2022 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
 
 
 * 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** head version is "2.00301" while name version string (for platform 3, encoding 1) is "Version 2.002; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* nadiivowelsinh
-	* tathiivowelsinh
-	* jhuvowelsinh
-	* u111F0
-	* u111ED
-	* tathuuvowelsinh
-	* navahalantsinh
+	* nyjiivowelsinh
+	* u111F2
+	* gadharephsinh
 	* jhuuvowelsinh
-	* u111EA
-	* u111F4 and 52 more.
+	* nyarivowelsinh
+	* nyaavowelsinh
+	* jhahalantsinh
+	* tavahalantsinh
+	* tathiivowelsinh
+	* jhiivowelsinh and 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -600,25 +528,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- asterisk
+	- exclam
 
-	- comma
+	- plus
+
+	- equal
 
 	- backslash
 
-	- nine
+	- asterisk
 
-	- quotedblleft
+	- seven
 
-	- semicolon
-
-	- four
+	- comma
 
 	- less
 
-	- asciitilde
+	- greater
 
-	- plus 
+	- percent 
 
 	- And 36 more.
 
@@ -729,46 +657,28 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[17] NotoSerifSinhala-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSerifSinhala-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2016-2022 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
 
 
 * 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** head version is "2.00301" while name version string (for platform 3, encoding 1) is "Version 2.002; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* nadiivowelsinh
-	* nyjahalantsinh
+	* navivowelsinh
+	* tavasinh
+	* nnuvowelsinh
+	* nyjiivowelsinh
 	* nadhivowelsinh
-	* nnivowelsinh
-	* tathiivowelsinh
+	* marephsinh
+	* u111F2
 	* gadhiivowelsinh
-	* jhuvowelsinh
-	* u111F0
-	* u111ED
-	* naduvowelsinh and 131 more.
+	* gadharephsinh
+	* jhuuvowelsinh and 131 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -787,25 +697,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- asterisk
+	- exclam
 
-	- comma
+	- plus
+
+	- equal
 
 	- backslash
 
-	- nine
+	- asterisk
 
-	- quotedblleft
+	- seven
 
-	- semicolon
-
-	- four
+	- comma
 
 	- less
 
-	- asciitilde
+	- greater
 
-	- plus 
+	- percent 
 
 	- And 36 more.
 
@@ -908,46 +818,28 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* u111E1 (U+111E1): B<<624.0,504.0>-<723.0,419.0>-<763.0,252.0>>/B<<763.0,252.0>-<757.0,302.0>-<754.5,360.5>> = 6.627004816933202 
 
 	* And u111E9 (U+111E9): B<<1151.0,437.5>-<1232.0,338.0>-<1267.0,192.0>>/B<<1267.0,192.0>-<1260.0,245.0>-<1257.5,311.0>> = 5.957069376294162 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[17] NotoSerifSinhala-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSerifSinhala-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2016-2022 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
 
 
 * 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** head version is "2.00301" while name version string (for platform 3, encoding 1) is "Version 2.002; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* nadiivowelsinh
-	* jnyatouchsinh
-	* nyjahalantsinh
-	* nadhivowelsinh
-	* juuvowelsinh
-	* nnivowelsinh
-	* tarephsinh
-	* tathiivowelsinh
-	* gadhiivowelsinh
-	* jhuvowelsinh and 236 more.
+	* navivowelsinh
+	* gadhasinh
+	* tavasinh
+	* nnuvowelsinh
+	* chahalantsinh
+	* nyjiivowelsinh
+	* mbuvowelsinh
+	* lariivowelsinh
+	* thahalantsinh
+	* nadhivowelsinh and 236 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -966,25 +858,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- asterisk
+	- exclam
 
-	- comma
+	- plus
+
+	- equal
 
 	- backslash
 
-	- nine
+	- asterisk
 
-	- quotedblleft
+	- seven
 
-	- semicolon
-
-	- four
+	- comma
 
 	- less
 
-	- asciitilde
+	- greater
 
-	- plus 
+	- percent 
 
 	- And 36 more.
 
@@ -1085,32 +977,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* u111E1 (U+111E1): B<<624.0,504.0>-<723.0,419.0>-<763.0,252.0>>/B<<763.0,252.0>-<757.0,302.0>-<754.5,360.5>> = 6.627004816933202 
 
 	* And u111E9 (U+111E9): B<<1151.0,437.5>-<1232.0,338.0>-<1267.0,192.0>>/B<<1267.0,192.0>-<1260.0,245.0>-<1257.5,311.0>> = 5.957069376294162 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[17] NotoSerifSinhala-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSerifSinhala-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2016-2022 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
 
 
 * 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** head version is "2.00301" while name version string (for platform 3, encoding 1) is "Version 2.002; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
@@ -4135,54 +4009,21 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17
 </svg>
 
 
-</div>
-<div class="shaping">
-
-<li>Shaping did not match: <span class="tf">සුරැරු</span></li>
-
-
-<pre>Expected: suvowelsinh=0+824|rasinh=2+702|raevowelsinh=2+248|rasinh=4+702|aevowelsignsinh=4+309</pre>
-
-
-
-<pre>Got     : suvowelsinh=0+800|raevowelsinh=2+908|rasinh=4+680|aevowelsignsinh=4+299</pre>
-
-
-
-<pre>                         +++++++++++++ ^                ^^           ^ +                   ^^
-</pre>
-
-
-Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2687 2304" transform="matrix(1 0 0 -1 0 0)">
-<path d="M67.0,-161.0Q67.0,-107.0 102.5,-74.5Q138.0,-42.0 196.0,-42.0Q225.0,-42.0 250.0,-48.5Q275.0,-55.0 295.0,-66.0L276.0,-111.0Q262.0,-104.0 242.5,-98.5Q223.0,-93.0 198.0,-93.0Q159.0,-93.0 141.5,-112.0Q124.0,-131.0 124.0,-158.0Q124.0,-204.0 163.5,-216.0Q203.0,-228.0 274.0,-228.0L654.0,-228.0L654.0,-117.0Q654.0,-86.0 655.5,-55.5Q657.0,-25.0 659.0,6.0Q625.0,-10.0 582.0,-10.0Q506.0,-10.0 464.5,29.5Q423.0,69.0 403.0,129.0Q392.0,94.0 368.5,62.0Q345.0,30.0 309.0,10.0Q273.0,-10.0 223.0,-10.0Q144.0,-10.0 96.0,41.5Q48.0,93.0 48.0,187.0Q48.0,262.0 82.0,313.0Q116.0,364.0 171.0,393.0Q148.0,392.0 121.0,391.5Q94.0,391.0 72.0,391.0L24.0,391.0L24.0,442.0L338.0,442.0Q331.0,477.0 308.5,505.5Q286.0,534.0 236.0,534.0Q176.0,534.0 176.0,481.0Q176.0,477.0 177.0,470.5Q178.0,464.0 179.0,459.0L97.0,452.0Q94.0,460.0 92.5,472.0Q91.0,484.0 91.0,490.0Q91.0,539.0 128.0,564.0Q165.0,589.0 219.0,589.0Q304.0,589.0 349.5,538.5Q395.0,488.0 395.0,405.0L395.0,391.0L278.0,391.0Q192.0,372.0 151.0,324.0Q110.0,276.0 110.0,214.0Q110.0,154.0 143.0,124.5Q176.0,95.0 237.0,95.0Q283.0,95.0 311.0,110.0Q339.0,125.0 354.5,150.0Q370.0,175.0 377.0,204.0L430.0,204.0Q436.0,153.0 473.0,124.0Q510.0,95.0 568.0,95.0Q630.0,95.0 664.5,126.5Q699.0,158.0 699.0,219.0Q699.0,294.0 639.0,342.5Q579.0,391.0 443.0,391.0L427.0,391.0L427.0,397.0Q427.0,456.0 449.0,499.0Q471.0,542.0 509.0,565.5Q547.0,589.0 595.0,589.0Q663.0,589.0 694.0,555.0Q725.0,521.0 725.0,468.0Q725.0,449.0 721.5,431.5Q718.0,414.0 712.0,397.0L662.0,413.0Q667.0,424.0 669.0,437.0Q671.0,450.0 671.0,460.0Q671.0,495.0 648.5,512.0Q626.0,529.0 588.0,529.0Q543.0,529.0 518.0,504.0Q493.0,479.0 485.0,441.0Q558.0,438.0 620.5,413.0Q683.0,388.0 721.0,337.0Q759.0,286.0 759.0,205.0Q759.0,103.0 712.0,46.0L712.0,-284.0L259.0,-284.0Q159.0,-284.0 113.0,-253.0Q67.0,-222.0 67.0,-161.0Z"  transform="translate(0, 807)"/>
-<path d="M344.0,-10.0Q199.0,-10.0 120.0,68.5Q41.0,147.0 41.0,282.0Q41.0,386.0 98.0,459.5Q155.0,533.0 248.0,559.0Q354.0,633.0 436.5,701.0Q519.0,769.0 582.0,825.0L733.0,825.0L765.0,784.0Q720.0,640.0 688.5,510.5Q657.0,381.0 657.0,247.0Q657.0,172.0 671.0,133.5Q685.0,95.0 708.0,81.0Q731.0,67.0 758.0,67.0Q802.0,67.0 824.5,93.5Q847.0,120.0 855.0,178.0L906.0,169.0Q896.0,86.0 857.0,38.0Q818.0,-10.0 751.0,-10.0Q699.0,-10.0 659.0,19.5Q619.0,49.0 604.0,127.0Q538.0,-10.0 344.0,-10.0ZM641.0,772.0L624.0,772.0Q563.0,722.0 494.0,669.5Q425.0,617.0 358.0,572.0Q454.0,569.0 518.0,527.0Q582.0,485.0 611.0,414.0Q625.0,512.0 652.0,597.0Q679.0,682.0 712.0,773.0Q695.0,773.0 675.5,772.5Q656.0,772.0 641.0,772.0ZM345.0,95.0Q408.0,95.0 462.5,115.0Q517.0,135.0 550.5,182.0Q584.0,229.0 584.0,310.0Q584.0,379.0 550.0,426.5Q516.0,474.0 461.5,498.0Q407.0,522.0 344.0,522.0Q278.0,522.0 223.5,496.5Q169.0,471.0 136.5,423.0Q104.0,375.0 104.0,307.0Q104.0,228.0 138.0,181.5Q172.0,135.0 227.0,115.0Q282.0,95.0 345.0,95.0Z"  transform="translate(800, 807)"/>
-<path d="M344.0,-10.0Q199.0,-10.0 120.0,68.5Q41.0,147.0 41.0,282.0Q41.0,386.0 97.5,459.5Q154.0,533.0 248.0,559.0Q321.0,611.0 390.0,665.0Q459.0,719.0 517.0,768.5Q575.0,818.0 616.0,856.0L664.0,800.0Q629.0,768.0 578.0,728.5Q527.0,689.0 470.0,648.0Q413.0,607.0 359.0,572.0Q448.0,569.0 513.0,529.5Q578.0,490.0 612.5,425.5Q647.0,361.0 647.0,282.0Q647.0,142.0 565.5,66.0Q484.0,-10.0 344.0,-10.0ZM345.0,95.0Q408.0,95.0 462.5,115.0Q517.0,135.0 550.5,182.0Q584.0,229.0 584.0,310.0Q584.0,379.0 550.0,426.5Q516.0,474.0 461.5,498.0Q407.0,522.0 344.0,522.0Q278.0,522.0 223.5,496.5Q169.0,471.0 136.5,423.0Q104.0,375.0 104.0,307.0Q104.0,228.0 138.0,181.5Q172.0,135.0 227.0,115.0Q282.0,95.0 345.0,95.0Z"  transform="translate(1708, 807)"/>
-<path d="M10.0,391.0L254.0,391.0L283.0,337.0Q198.0,252.0 152.5,177.5Q107.0,103.0 107.0,12.0Q107.0,-58.0 138.0,-91.5Q169.0,-125.0 223.0,-125.0Q249.0,-125.0 269.0,-118.0Q289.0,-111.0 313.0,-95.0L336.0,-139.0Q303.0,-160.0 270.0,-170.5Q237.0,-181.0 198.0,-181.0Q149.0,-181.0 108.5,-163.0Q68.0,-145.0 44.0,-104.5Q20.0,-64.0 20.0,4.0Q20.0,55.0 38.5,106.0Q57.0,157.0 100.5,214.0Q144.0,271.0 218.0,340.0Q190.0,338.0 148.0,338.0L10.0,338.0L10.0,391.0Z"  transform="translate(2388, 807)"/>
-</svg>
- Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2785 2304" transform="matrix(1 0 0 -1 0 0)">
-<path d="M67.0,-161.0Q67.0,-107.0 102.5,-74.5Q138.0,-42.0 196.0,-42.0Q225.0,-42.0 250.0,-48.5Q275.0,-55.0 295.0,-66.0L276.0,-111.0Q262.0,-104.0 242.5,-98.5Q223.0,-93.0 198.0,-93.0Q159.0,-93.0 141.5,-112.0Q124.0,-131.0 124.0,-158.0Q124.0,-204.0 163.5,-216.0Q203.0,-228.0 274.0,-228.0L654.0,-228.0L654.0,-117.0Q654.0,-86.0 655.5,-55.5Q657.0,-25.0 659.0,6.0Q625.0,-10.0 582.0,-10.0Q506.0,-10.0 464.5,29.5Q423.0,69.0 403.0,129.0Q392.0,94.0 368.5,62.0Q345.0,30.0 309.0,10.0Q273.0,-10.0 223.0,-10.0Q144.0,-10.0 96.0,41.5Q48.0,93.0 48.0,187.0Q48.0,262.0 82.0,313.0Q116.0,364.0 171.0,393.0Q148.0,392.0 121.0,391.5Q94.0,391.0 72.0,391.0L24.0,391.0L24.0,442.0L338.0,442.0Q331.0,477.0 308.5,505.5Q286.0,534.0 236.0,534.0Q176.0,534.0 176.0,481.0Q176.0,477.0 177.0,470.5Q178.0,464.0 179.0,459.0L97.0,452.0Q94.0,460.0 92.5,472.0Q91.0,484.0 91.0,490.0Q91.0,539.0 128.0,564.0Q165.0,589.0 219.0,589.0Q304.0,589.0 349.5,538.5Q395.0,488.0 395.0,405.0L395.0,391.0L278.0,391.0Q192.0,372.0 151.0,324.0Q110.0,276.0 110.0,214.0Q110.0,154.0 143.0,124.5Q176.0,95.0 237.0,95.0Q283.0,95.0 311.0,110.0Q339.0,125.0 354.5,150.0Q370.0,175.0 377.0,204.0L430.0,204.0Q436.0,153.0 473.0,124.0Q510.0,95.0 568.0,95.0Q630.0,95.0 664.5,126.5Q699.0,158.0 699.0,219.0Q699.0,294.0 639.0,342.5Q579.0,391.0 443.0,391.0L427.0,391.0L427.0,397.0Q427.0,456.0 449.0,499.0Q471.0,542.0 509.0,565.5Q547.0,589.0 595.0,589.0Q663.0,589.0 694.0,555.0Q725.0,521.0 725.0,468.0Q725.0,449.0 721.5,431.5Q718.0,414.0 712.0,397.0L662.0,413.0Q667.0,424.0 669.0,437.0Q671.0,450.0 671.0,460.0Q671.0,495.0 648.5,512.0Q626.0,529.0 588.0,529.0Q543.0,529.0 518.0,504.0Q493.0,479.0 485.0,441.0Q558.0,438.0 620.5,413.0Q683.0,388.0 721.0,337.0Q759.0,286.0 759.0,205.0Q759.0,103.0 712.0,46.0L712.0,-284.0L259.0,-284.0Q159.0,-284.0 113.0,-253.0Q67.0,-222.0 67.0,-161.0Z"  transform="translate(0, 807)"/>
-<path d="M344.0,-10.0Q199.0,-10.0 120.0,68.5Q41.0,147.0 41.0,282.0Q41.0,386.0 97.5,459.5Q154.0,533.0 248.0,559.0Q321.0,611.0 390.0,665.0Q459.0,719.0 517.0,768.5Q575.0,818.0 616.0,856.0L664.0,800.0Q629.0,768.0 578.0,728.5Q527.0,689.0 470.0,648.0Q413.0,607.0 359.0,572.0Q448.0,569.0 513.0,529.5Q578.0,490.0 612.5,425.5Q647.0,361.0 647.0,282.0Q647.0,142.0 565.5,66.0Q484.0,-10.0 344.0,-10.0ZM345.0,95.0Q408.0,95.0 462.5,115.0Q517.0,135.0 550.5,182.0Q584.0,229.0 584.0,310.0Q584.0,379.0 550.0,426.5Q516.0,474.0 461.5,498.0Q407.0,522.0 344.0,522.0Q278.0,522.0 223.5,496.5Q169.0,471.0 136.5,423.0Q104.0,375.0 104.0,307.0Q104.0,228.0 138.0,181.5Q172.0,135.0 227.0,115.0Q282.0,95.0 345.0,95.0Z"  transform="translate(824, 807)"/>
-<path d="M344.0,-10.0Q199.0,-10.0 120.0,68.5Q41.0,147.0 41.0,282.0Q41.0,386.0 98.0,459.5Q155.0,533.0 248.0,559.0Q354.0,633.0 436.5,701.0Q519.0,769.0 582.0,825.0L733.0,825.0L765.0,784.0Q720.0,640.0 688.5,510.5Q657.0,381.0 657.0,247.0Q657.0,172.0 671.0,133.5Q685.0,95.0 708.0,81.0Q731.0,67.0 758.0,67.0Q802.0,67.0 824.5,93.5Q847.0,120.0 855.0,178.0L906.0,169.0Q896.0,86.0 857.0,38.0Q818.0,-10.0 751.0,-10.0Q699.0,-10.0 659.0,19.5Q619.0,49.0 604.0,127.0Q538.0,-10.0 344.0,-10.0ZM641.0,772.0L624.0,772.0Q563.0,722.0 494.0,669.5Q425.0,617.0 358.0,572.0Q454.0,569.0 518.0,527.0Q582.0,485.0 611.0,414.0Q625.0,512.0 652.0,597.0Q679.0,682.0 712.0,773.0Q695.0,773.0 675.5,772.5Q656.0,772.0 641.0,772.0ZM345.0,95.0Q408.0,95.0 462.5,115.0Q517.0,135.0 550.5,182.0Q584.0,229.0 584.0,310.0Q584.0,379.0 550.0,426.5Q516.0,474.0 461.5,498.0Q407.0,522.0 344.0,522.0Q278.0,522.0 223.5,496.5Q169.0,471.0 136.5,423.0Q104.0,375.0 104.0,307.0Q104.0,228.0 138.0,181.5Q172.0,135.0 227.0,115.0Q282.0,95.0 345.0,95.0Z"  transform="translate(1526, 807)"/>
-<path d="M344.0,-10.0Q199.0,-10.0 120.0,68.5Q41.0,147.0 41.0,282.0Q41.0,386.0 97.5,459.5Q154.0,533.0 248.0,559.0Q321.0,611.0 390.0,665.0Q459.0,719.0 517.0,768.5Q575.0,818.0 616.0,856.0L664.0,800.0Q629.0,768.0 578.0,728.5Q527.0,689.0 470.0,648.0Q413.0,607.0 359.0,572.0Q448.0,569.0 513.0,529.5Q578.0,490.0 612.5,425.5Q647.0,361.0 647.0,282.0Q647.0,142.0 565.5,66.0Q484.0,-10.0 344.0,-10.0ZM345.0,95.0Q408.0,95.0 462.5,115.0Q517.0,135.0 550.5,182.0Q584.0,229.0 584.0,310.0Q584.0,379.0 550.0,426.5Q516.0,474.0 461.5,498.0Q407.0,522.0 344.0,522.0Q278.0,522.0 223.5,496.5Q169.0,471.0 136.5,423.0Q104.0,375.0 104.0,307.0Q104.0,228.0 138.0,181.5Q172.0,135.0 227.0,115.0Q282.0,95.0 345.0,95.0Z"  transform="translate(1774, 807)"/>
-<path d="M10.0,391.0L254.0,391.0L283.0,337.0Q198.0,252.0 152.5,177.5Q107.0,103.0 107.0,12.0Q107.0,-58.0 138.0,-91.5Q169.0,-125.0 223.0,-125.0Q249.0,-125.0 269.0,-118.0Q289.0,-111.0 313.0,-95.0L336.0,-139.0Q303.0,-160.0 270.0,-170.5Q237.0,-181.0 198.0,-181.0Q149.0,-181.0 108.5,-163.0Q68.0,-145.0 44.0,-104.5Q20.0,-64.0 20.0,4.0Q20.0,55.0 38.5,106.0Q57.0,157.0 100.5,214.0Q144.0,271.0 218.0,340.0Q190.0,338.0 148.0,338.0L10.0,338.0L10.0,391.0Z"  transform="translate(2476, 807)"/>
-</svg>
-
-
 </div> [code: shaping-regression]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* nadiivowelsinh
-	* jnyatouchsinh
-	* nyjahalantsinh
-	* nadhivowelsinh
-	* juuvowelsinh
-	* nnivowelsinh
-	* tathiivowelsinh
-	* gadhiivowelsinh
-	* jhuvowelsinh
-	* u111F0 and 217 more.
+	* navivowelsinh
+	* gadhasinh
+	* tavasinh
+	* nnuvowelsinh
+	* chahalantsinh
+	* nyjiivowelsinh
+	* mbuvowelsinh
+	* lariivowelsinh
+	* thahalantsinh
+	* nadhivowelsinh and 217 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -4194,25 +4035,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- asterisk
+	- exclam
 
-	- comma
+	- plus
+
+	- equal
 
 	- backslash
 
-	- nine
+	- asterisk
 
-	- quotedblleft
+	- seven
 
-	- semicolon
-
-	- four
+	- comma
 
 	- less
 
-	- asciitilde
+	- greater
 
-	- plus 
+	- percent 
 
 	- And 36 more.
 
@@ -4313,46 +4154,28 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* u111E1 (U+111E1): B<<624.0,504.0>-<723.0,419.0>-<763.0,252.0>>/B<<763.0,252.0>-<757.0,302.0>-<754.5,360.5>> = 6.627004816933202 
 
 	* And u111E9 (U+111E9): B<<1151.0,437.5>-<1232.0,338.0>-<1267.0,192.0>>/B<<1267.0,192.0>-<1260.0,245.0>-<1257.5,311.0>> = 5.957069376294162 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[18] NotoSerifSinhala-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSerifSinhala-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2016-2022 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
 
 
 * 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** head version is "2.00301" while name version string (for platform 3, encoding 1) is "Version 2.002; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* nadiivowelsinh
-	* ndahalantsinh
-	* ghuvowelsinh
-	* jnyatouchsinh
-	* ghuuvowelsinh
-	* nyjahalantsinh
-	* nadhivowelsinh
-	* juuvowelsinh
-	* nnivowelsinh
-	* tarephsinh and 281 more.
+	* navivowelsinh
+	* gadhasinh
+	* tavasinh
+	* nnuvowelsinh
+	* chahalantsinh
+	* nyjiivowelsinh
+	* mbuvowelsinh
+	* lariivowelsinh
+	* thahalantsinh
+	* nadhivowelsinh and 281 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -4371,25 +4194,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- asterisk
+	- exclam
 
-	- comma
+	- plus
+
+	- equal
 
 	- backslash
 
-	- nine
+	- asterisk
 
-	- quotedblleft
+	- seven
 
-	- semicolon
-
-	- four
+	- comma
 
 	- less
 
-	- asciitilde
+	- greater
 
-	- plus 
+	- percent 
 
 	- And 36 more.
 
@@ -4498,46 +4321,28 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<419.0,336.0>--<262.0,337.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] NotoSerifSinhala-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSerifSinhala-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2016-2022 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
 
 
 * 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** head version is "2.00301" while name version string (for platform 3, encoding 1) is "Version 2.002; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* u111F0
-	* u111ED
-	* u111EA
+	* u111F2
+	* kavarephsinh
+	* u111F3
 	* u111F4
-	* nyarephsinh
+	* u111F0
 	* jharephsinh
-	* tatharephsinh
+	* nyarephsinh
+	* nadharephsinh
 	* natharephsinh
-	* u111F1
-	* u111F2 and 5 more.
+	* u111EA and 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -4556,25 +4361,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- asterisk
+	- exclam
 
-	- comma
+	- plus
+
+	- equal
 
 	- backslash
 
-	- nine
+	- asterisk
 
-	- quotedblleft
+	- seven
 
-	- semicolon
-
-	- four
+	- comma
 
 	- less
 
-	- asciitilde
+	- greater
 
-	- plus 
+	- percent 
 
 	- And 36 more.
 
@@ -4697,32 +4502,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* exclamdown (U+00A1): L<<123.0,-177.0>--<124.0,370.0>> 
 
 	* And exclamdown (U+00A1): L<<149.0,370.0>--<152.0,-177.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifSinhala[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifSinhala[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2016-2022 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Black.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Bold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-ExtraLight.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Light.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Medium.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Regular.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-SemiBold.ttf', 'fonts/NotoSerifSinhala/googlefonts/ttf/NotoSerifSinhala-Thin.ttf', 'fonts/NotoSerifSinhala/googlefonts/variable-ttf/NotoSerifSinhala[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
 
 
 * 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** head version is "2.00301" while name version string (for platform 3, encoding 1) is "Version 2.002". [code: mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
@@ -4736,25 +4523,25 @@ But instead we have got:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- asterisk
+	- exclam
 
-	- comma
+	- plus
+
+	- equal
 
 	- backslash
 
-	- nine
+	- asterisk
 
-	- quotedblleft
+	- seven
 
-	- semicolon
-
-	- four
+	- comma
 
 	- less
 
-	- asciitilde
+	- greater
 
-	- plus 
+	- percent 
 
 	- And 36 more.
 
@@ -4810,8 +4597,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 10 | 55 | 106 | 1129 | 62 | 853 | 0 |
-| 0% | 2% | 5% | 51% | 3% | 39% | 0% |
+| 10 | 15 | 106 | 1119 | 62 | 903 | 0 |
+| 0% | 1% | 5% | 51% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
