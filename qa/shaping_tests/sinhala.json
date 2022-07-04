@@ -2509,7 +2509,7 @@
         },
         {
             "input": "සුරැරු",
-            "expectation": "suvowelsinh=0+824|rasinh=2+702|raevowelsinh=2+248|rasinh=4+702|aevowelsignsinh=4+309",
+            "expectation": "suvowelsinh=0+800|raevowelsinh=2+908|rasinh=4+680|aevowelsignsinh=4+299",
             "only": "NotoSerifSinhala-Regular.ttf"
         }
     ]
