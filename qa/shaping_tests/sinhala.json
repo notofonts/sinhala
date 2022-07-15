@@ -7,7 +7,7 @@
             "only": "NotoSansSinhala-Regular.ttf"
         },
         {
-            "expectation": "aasinh=0+1037|yasinh=1+784|yapostrephsinh=1+630",
+            "expectation": "aasinh=0+1037|yarephsinh=1+812|yapostsinh=1+630",
             "input": "ආර්‍ය්‍ය",
             "note": "Issue #523",
             "only": "NotoSansSinhala-Regular.ttf"
