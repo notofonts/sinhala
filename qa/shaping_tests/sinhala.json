@@ -1,6 +1,12 @@
 {
     "tests": [
         {
+            "expectation": "evowelsignsinh=0+631|dasinh=0+577|aivowelsignsinh=2+1262|dasinh=2+577|evowelsignsinh=4+631|dasinh=4+584|aavowelsignsinh=4+343",
+            "input": "දෙදෛදො",
+            "note": "Spacing vowel signs should be spacing",
+            "only": "NotoSansSinhala-Regular.ttf"
+        },
+        {
             "expectation": "asinh=0+708|ttuvowelsinh=1+792",
             "input": "අටු",
             "note": "Issue #20180314",
