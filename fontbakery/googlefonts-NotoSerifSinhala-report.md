@@ -26,16 +26,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* jnyarasinh
-	* u111ED
-	* raevowelsinh
-	* nadhahalantsinh
-	* aaesinh
-	* jhiivowelsinh
-	* daviivowelsinh
-	* yapostsinh
-	* ndarahalantsinh
-	* kharephsinh and 340 more.
+	* fahalantsinh
+	* natharephsinh
+	* nathuuvowelsinh
+	* jatouchsinh
+	* jnyuvowelsinh
+	* tiivowelsinh
+	* sharephsinh
+	* chuvowelsinh
+	* marephsinh
+	* shiivowelsinh and 340 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -54,25 +54,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- less
+	- endash
 
-	- braceleft
+	- asterisk
 
-	- numbersign
+	- emdash
 
-	- three
-
-	- plus
+	- six
 
 	- percent
 
-	- two
+	- parenright
 
-	- seven
+	- one
 
-	- exclam
+	- underscore
 
-	- emdash 
+	- eight
+
+	- multiply 
 
 	- And 36 more.
 
@@ -108,7 +108,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]
+	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD) and uni0DDE (U+0DDE) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -120,7 +120,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+0D83, U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
+	 U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -167,16 +167,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* jnyarasinh
-	* u111ED
-	* raevowelsinh
-	* nadhahalantsinh
-	* aaesinh
-	* jhiivowelsinh
-	* daviivowelsinh
-	* kharephsinh
-	* gharephsinh
-	* uni0DEA and 306 more.
+	* natharephsinh
+	* nathuuvowelsinh
+	* jatouchsinh
+	* jnyuvowelsinh
+	* tiivowelsinh
+	* chuvowelsinh
+	* marephsinh
+	* shiivowelsinh
+	* nyjatouchsinh
+	* chahalantsinh and 306 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -188,25 +188,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- less
+	- endash
 
-	- braceleft
+	- asterisk
 
-	- numbersign
+	- emdash
 
-	- three
-
-	- plus
+	- six
 
 	- percent
 
-	- two
+	- parenright
 
-	- seven
+	- one
 
-	- exclam
+	- underscore
 
-	- emdash 
+	- eight
+
+	- multiply 
 
 	- And 36 more.
 
@@ -242,7 +242,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]
+	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD) and uni0DDE (U+0DDE) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -254,7 +254,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+0D83, U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
+	 U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -319,16 +319,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* jnyarasinh
-	* u111ED
-	* raevowelsinh
-	* nadhahalantsinh
-	* aaesinh
-	* jhiivowelsinh
-	* daviivowelsinh
-	* yapostsinh
-	* ndarahalantsinh
-	* kharephsinh and 325 more.
+	* natharephsinh
+	* nathuuvowelsinh
+	* jatouchsinh
+	* jnyuvowelsinh
+	* tiivowelsinh
+	* chuvowelsinh
+	* marephsinh
+	* shiivowelsinh
+	* nyjatouchsinh
+	* chahalantsinh and 325 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -347,25 +347,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- less
+	- endash
 
-	- braceleft
+	- asterisk
 
-	- numbersign
+	- emdash
 
-	- three
-
-	- plus
+	- six
 
 	- percent
 
-	- two
+	- parenright
 
-	- seven
+	- one
 
-	- exclam
+	- underscore
 
-	- emdash 
+	- eight
+
+	- multiply 
 
 	- And 36 more.
 
@@ -401,7 +401,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]
+	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD) and uni0DDE (U+0DDE) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -413,7 +413,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+0D83, U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
+	 U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -500,16 +500,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* u111ED
-	* nadhahalantsinh
-	* jhiivowelsinh
-	* kassarephsinh
-	* u111F0
-	* nathivowelsinh
-	* u111F1
 	* natharephsinh
-	* nnarephsinh
-	* kassuuvowelsinh and 52 more.
+	* nathuuvowelsinh
+	* u111ED
+	* nadhiivowelsinh
+	* kaviivowelsinh
+	* kassasinh
+	* kassuuvowelsinh
+	* tathiivowelsinh
+	* nyivowelsinh
+	* u111F2 and 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -528,25 +528,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- less
+	- endash
 
-	- braceleft
+	- asterisk
 
-	- numbersign
+	- emdash
 
-	- three
-
-	- plus
+	- six
 
 	- percent
 
-	- two
+	- parenright
 
-	- seven
+	- one
 
-	- exclam
+	- underscore
 
-	- emdash 
+	- eight
+
+	- multiply 
 
 	- And 36 more.
 
@@ -582,7 +582,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]
+	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD) and uni0DDE (U+0DDE) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -594,7 +594,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+0D83, U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
+	 U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -669,16 +669,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* natharephsinh
+	* nathuuvowelsinh
+	* marephsinh
 	* u111ED
-	* raevowelsinh
-	* nadhahalantsinh
-	* jhiivowelsinh
-	* kharephsinh
-	* kassarephsinh
-	* navasinh
-	* dharephsinh
-	* tavivowelsinh
-	* dadharephsinh and 131 more.
+	* nadhiivowelsinh
+	* kaviivowelsinh
+	* nnuuvowelsinh
+	* kassasinh
+	* kassuuvowelsinh
+	* tathiivowelsinh and 131 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -697,25 +697,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- less
+	- endash
 
-	- braceleft
+	- asterisk
 
-	- numbersign
+	- emdash
 
-	- three
-
-	- plus
+	- six
 
 	- percent
 
-	- two
+	- parenright
 
-	- seven
+	- one
 
-	- exclam
+	- underscore
 
-	- emdash 
+	- eight
+
+	- multiply 
 
 	- And 36 more.
 
@@ -751,7 +751,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]
+	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD) and uni0DDE (U+0DDE) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -763,7 +763,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+0D83, U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
+	 U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -830,16 +830,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* jnyarasinh
-	* u111ED
-	* raevowelsinh
-	* nadhahalantsinh
-	* aaesinh
-	* jhiivowelsinh
-	* kharephsinh
-	* kassarephsinh
-	* kuuvowelsinh
-	* tahalantsinh and 236 more.
+	* natharephsinh
+	* nathuuvowelsinh
+	* jnyuvowelsinh
+	* tiivowelsinh
+	* chuvowelsinh
+	* marephsinh
+	* shiivowelsinh
+	* nyjatouchsinh
+	* chahalantsinh
+	* u111ED and 236 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -858,25 +858,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- less
+	- endash
 
-	- braceleft
+	- asterisk
 
-	- numbersign
+	- emdash
 
-	- three
-
-	- plus
+	- six
 
 	- percent
 
-	- two
+	- parenright
 
-	- seven
+	- one
 
-	- exclam
+	- underscore
 
-	- emdash 
+	- eight
+
+	- multiply 
 
 	- And 36 more.
 
@@ -912,7 +912,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]
+	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD) and uni0DDE (U+0DDE) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -924,7 +924,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+0D83, U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
+	 U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -1044,16 +1044,16 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* jnyarasinh
+	* natharephsinh
+	* nathuuvowelsinh
+	* jnyuvowelsinh
+	* tiivowelsinh
+	* marephsinh
+	* shiivowelsinh
+	* nyjatouchsinh
+	* chahalantsinh
 	* u111ED
-	* raevowelsinh
-	* nadhahalantsinh
-	* aaesinh
-	* jhiivowelsinh
-	* kharephsinh
-	* kassarephsinh
-	* kuuvowelsinh
-	* tahalantsinh and 217 more.
+	* chivowelsinh and 217 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1065,25 +1065,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- less
+	- endash
 
-	- braceleft
+	- asterisk
 
-	- numbersign
+	- emdash
 
-	- three
-
-	- plus
+	- six
 
 	- percent
 
-	- two
+	- parenright
 
-	- seven
+	- one
 
-	- exclam
+	- underscore
 
-	- emdash 
+	- eight
+
+	- multiply 
 
 	- And 36 more.
 
@@ -1119,7 +1119,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]
+	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD) and uni0DDE (U+0DDE) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -1131,7 +1131,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+0D83, U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
+	 U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -1196,16 +1196,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* jnyarasinh
-	* u111ED
-	* raevowelsinh
-	* nadhahalantsinh
-	* aaesinh
-	* jhiivowelsinh
-	* daviivowelsinh
-	* kharephsinh
-	* uni0DEA
-	* kassarephsinh and 281 more.
+	* natharephsinh
+	* nathuuvowelsinh
+	* jatouchsinh
+	* jnyuvowelsinh
+	* tiivowelsinh
+	* chuvowelsinh
+	* marephsinh
+	* shiivowelsinh
+	* nyjatouchsinh
+	* chahalantsinh and 281 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1224,25 +1224,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- less
+	- endash
 
-	- braceleft
+	- asterisk
 
-	- numbersign
+	- emdash
 
-	- three
-
-	- plus
+	- six
 
 	- percent
 
-	- two
+	- parenright
 
-	- seven
+	- one
 
-	- exclam
+	- underscore
 
-	- emdash 
+	- eight
+
+	- multiply 
 
 	- And 36 more.
 
@@ -1278,7 +1278,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]
+	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD) and uni0DDE (U+0DDE) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -1290,7 +1290,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+0D83, U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
+	 U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -1363,16 +1363,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* u111ED
-	* u111F0
-	* u111F1
 	* natharephsinh
-	* jharephsinh
+	* u111ED
+	* u111F2
 	* nadharephsinh
-	* u111F4
+	* u111F0
+	* kassiivowelsinh
+	* u111F1
+	* navarephsinh
 	* nyarephsinh
-	* u111F3
-	* kavarephsinh and 5 more.
+	* u111EA and 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1391,25 +1391,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- less
+	- endash
 
-	- braceleft
+	- asterisk
 
-	- numbersign
+	- emdash
 
-	- three
-
-	- plus
+	- six
 
 	- percent
 
-	- two
+	- parenright
 
-	- seven
+	- one
 
-	- exclam
+	- underscore
 
-	- emdash 
+	- eight
+
+	- multiply 
 
 	- And 36 more.
 
@@ -1445,7 +1445,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]
+	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD) and uni0DDE (U+0DDE) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -1457,7 +1457,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+0D83, U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
+	 U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -1553,25 +1553,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- less
+	- endash
 
-	- braceleft
+	- asterisk
 
-	- numbersign
+	- emdash
 
-	- three
-
-	- plus
+	- six
 
 	- percent
 
-	- two
+	- parenright
 
-	- seven
+	- one
 
-	- exclam
+	- uni00A0
 
-	- emdash 
+	- underscore
+
+	- eight 
 
 	- And 36 more.
 
@@ -1581,7 +1581,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD), uni0DDE (U+0DDE) and visargasinh (U+0D83) [code: spacing-mark-glyphs]
+	 aivowelsignsinh (U+0DDB), uni0DDA (U+0DDA), uni0DDC (U+0DDC), uni0DDD (U+0DDD) and uni0DDE (U+0DDE) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -1593,7 +1593,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+0D83, U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
+	 U+0DDA, U+0DDB, U+0DDC, U+0DDD and U+0DDE [code: non-mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
