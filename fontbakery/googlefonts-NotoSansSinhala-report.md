@@ -90,16 +90,16 @@ Noto Sans Sinhala UI Thin: 1069 [code: ascent-mismatch]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0DE6
-	* iivowelsignsinh
-	* uni0DDA
-	* gharephsinh
-	* tivowelsinh
-	* khatouchsinh
-	* dadhasinh
-	* yiivowelsinh
-	* nngasinh
-	* ddhahalantsinh and 409 more.
+	* nadhiivowelsinh
+	* nyariivowelsinh
+	* carephsinh
+	* uni0DDD
+	* ddhiivowelsinh
+	* rahalantsinh
+	* kassarephsinh
+	* kuvowelsinh
+	* chuvowelsinh
+	* ssatouchsinh and 409 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -118,25 +118,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 
@@ -231,16 +231,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0DE6
-	* uni0DDA
-	* gharephsinh
-	* tivowelsinh
-	* yiivowelsinh
-	* ddhahalantsinh
-	* nyjahalantsinh
-	* navarephsinh
-	* asinh
-	* yahalantsinh and 373 more.
+	* nadhiivowelsinh
+	* nyariivowelsinh
+	* carephsinh
+	* uni0DDD
+	* ddhiivowelsinh
+	* rahalantsinh
+	* kassarephsinh
+	* kuvowelsinh
+	* chuvowelsinh
+	* ssatouchsinh and 373 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -252,25 +252,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 
@@ -367,16 +367,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0DE6
-	* uni0DDA
-	* gharephsinh
-	* tivowelsinh
-	* khatouchsinh
-	* yiivowelsinh
-	* nngasinh
-	* ddhahalantsinh
-	* nyjahalantsinh
-	* navarephsinh and 391 more.
+	* nadhiivowelsinh
+	* nyariivowelsinh
+	* carephsinh
+	* uni0DDD
+	* ddhiivowelsinh
+	* rahalantsinh
+	* kassarephsinh
+	* kuvowelsinh
+	* chuvowelsinh
+	* ssatouchsinh and 391 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -395,25 +395,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 
@@ -508,16 +508,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* nyjahalantsinh
-	* navarephsinh
-	* nyivowelsinh
+	* nadhiivowelsinh
+	* nyariivowelsinh
 	* kassarephsinh
-	* nadarasinh
-	* kassiivowelsinh
-	* nyjuuvowelsinh
-	* nyaavowelsinh
-	* nadhasinh
-	* naviivowelsinh and 79 more.
+	* kassuuvowelsinh
+	* u111EE
+	* llariivowelsinh
+	* nnarephsinh
+	* nadahalantsinh
+	* nyasinh
+	* llahalantaltsinh and 79 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -536,25 +536,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 
@@ -649,16 +649,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* nyjahalantsinh
-	* navarephsinh
-	* asinh
-	* tathasinh
-	* nyivowelsinh
-	* kavuuvowelsinh
+	* nadhiivowelsinh
+	* nyariivowelsinh
+	* carephsinh
 	* kassarephsinh
-	* nadarasinh
-	* kassiivowelsinh
-	* nyjuuvowelsinh and 157 more.
+	* taviivowelsinh
+	* kassuuvowelsinh
+	* u111EE
+	* llariivowelsinh
+	* nnarephsinh
+	* jhatouchsinh and 157 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -677,25 +677,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 
@@ -774,16 +774,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* tivowelsinh
-	* ddhahalantsinh
-	* nyjahalantsinh
-	* navarephsinh
-	* asinh
-	* yahalantsinh
-	* yapostuvowelsinh
-	* tthiivowelsinh
-	* phuvowelsinh
-	* tathasinh and 310 more.
+	* nadhiivowelsinh
+	* nyariivowelsinh
+	* carephsinh
+	* ddhiivowelsinh
+	* rahalantsinh
+	* kassarephsinh
+	* kuvowelsinh
+	* chuvowelsinh
+	* ssatouchsinh
+	* yapostuvowelsinh and 310 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -802,25 +802,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 
@@ -964,16 +964,16 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ddhahalantsinh
-	* nyjahalantsinh
-	* navarephsinh
-	* asinh
-	* tthiivowelsinh
-	* tathasinh
-	* ttatthuvowelsinh
-	* nyivowelsinh
-	* daviivowelsinh
-	* kavuuvowelsinh and 257 more.
+	* nadhiivowelsinh
+	* nyariivowelsinh
+	* carephsinh
+	* ddhiivowelsinh
+	* rahalantsinh
+	* kassarephsinh
+	* kuvowelsinh
+	* chuvowelsinh
+	* taviivowelsinh
+	* phahalantsinh and 257 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -985,25 +985,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 
@@ -1078,16 +1078,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* tivowelsinh
-	* yiivowelsinh
-	* ddhahalantsinh
-	* nyjahalantsinh
-	* navarephsinh
-	* asinh
-	* yahalantsinh
-	* yapostuvowelsinh
-	* tthiivowelsinh
-	* phuvowelsinh and 348 more.
+	* nadhiivowelsinh
+	* nyariivowelsinh
+	* carephsinh
+	* ddhiivowelsinh
+	* rahalantsinh
+	* kassarephsinh
+	* kuvowelsinh
+	* chuvowelsinh
+	* ssatouchsinh
+	* siivowelsinh and 348 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1106,25 +1106,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 
@@ -1219,16 +1219,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* navarephsinh
-	* u111EF
+	* u111EE
+	* nnarephsinh
+	* u111E3
 	* u111E5
 	* u111E9
-	* u111ED
-	* u111F0
-	* u111EE
-	* u111F1
-	* nnarephsinh
-	* u111E3 and 12 more.
+	* natharephsinh
+	* u111F3
+	* nathiivowelsinh
+	* u111EF
+	* u111F2 and 12 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1247,25 +1247,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 
@@ -1380,25 +1380,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 
@@ -1494,25 +1494,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 
@@ -1617,25 +1617,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 
@@ -1738,25 +1738,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 
@@ -1859,25 +1859,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 
@@ -1964,25 +1964,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 
@@ -2062,25 +2062,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 
@@ -2163,25 +2163,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 
@@ -2284,25 +2284,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 
@@ -2422,25 +2422,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- parenright
+	- question
 
-	- colon
-
-	- exclam
-
-	- minus
-
-	- plus
-
-	- two
+	- braceright
 
 	- six
 
-	- emdash
+	- asciitilde
+
+	- three
 
 	- ellipsis
 
-	- bar 
+	- parenright
+
+	- multiply
+
+	- colon
+
+	- numbersign 
 
 	- And 34 more.
 

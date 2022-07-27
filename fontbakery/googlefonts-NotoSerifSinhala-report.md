@@ -18,24 +18,20 @@ Fontbakery version: 0.8.9
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* fahalantsinh
-	* natharephsinh
-	* nathuuvowelsinh
-	* jatouchsinh
-	* jnyuvowelsinh
-	* tiivowelsinh
-	* sharephsinh
-	* chuvowelsinh
-	* marephsinh
-	* shiivowelsinh and 340 more.
+	* gahalantsinh
+	* tthuvowelsinh
+	* tivowelsinh
+	* nadasinh
+	* u111F2
+	* llivowelsinh
+	* aaesinh
+	* tathiivowelsinh
+	* kavuvowelsinh
+	* miivowelsinh and 340 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -49,32 +45,36 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- endash
+	- emdash
+
+	- less
+
+	- equal
+
+	- bar
 
 	- asterisk
 
-	- emdash
+	- bracketright
 
-	- six
+	- two
 
-	- percent
+	- semicolon
 
-	- parenright
+	- numbersign
 
-	- one
+	- parenright 
 
-	- underscore
-
-	- eight
-
-	- multiply 
-
-	- And 36 more.
+	- And 35 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -159,56 +159,56 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* natharephsinh
-	* nathuuvowelsinh
-	* jatouchsinh
-	* jnyuvowelsinh
-	* tiivowelsinh
-	* chuvowelsinh
-	* marephsinh
-	* shiivowelsinh
-	* nyjatouchsinh
-	* chahalantsinh and 306 more.
+	* tthuvowelsinh
+	* tivowelsinh
+	* nadasinh
+	* u111F2
+	* llivowelsinh
+	* aaesinh
+	* tathiivowelsinh
+	* kavuvowelsinh
+	* miivowelsinh
+	* rahalantsinh and 306 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- endash
+	- emdash
+
+	- less
+
+	- equal
+
+	- bar
 
 	- asterisk
 
-	- emdash
+	- bracketright
 
-	- six
+	- two
 
-	- percent
+	- semicolon
 
-	- parenright
+	- numbersign
 
-	- one
+	- parenright 
 
-	- underscore
-
-	- eight
-
-	- multiply 
-
-	- And 36 more.
+	- And 35 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -311,24 +311,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* natharephsinh
-	* nathuuvowelsinh
-	* jatouchsinh
-	* jnyuvowelsinh
-	* tiivowelsinh
-	* chuvowelsinh
-	* marephsinh
-	* shiivowelsinh
-	* nyjatouchsinh
-	* chahalantsinh and 325 more.
+	* tthuvowelsinh
+	* tivowelsinh
+	* nadasinh
+	* u111F2
+	* llivowelsinh
+	* aaesinh
+	* tathiivowelsinh
+	* kavuvowelsinh
+	* miivowelsinh
+	* rahalantsinh and 325 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -342,32 +338,36 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- endash
+	- emdash
+
+	- less
+
+	- equal
+
+	- bar
 
 	- asterisk
 
-	- emdash
+	- bracketright
 
-	- six
+	- two
 
-	- percent
+	- semicolon
 
-	- parenright
+	- numbersign
 
-	- one
+	- parenright 
 
-	- underscore
-
-	- eight
-
-	- multiply 
-
-	- And 36 more.
+	- And 35 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -492,24 +492,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* natharephsinh
-	* nathuuvowelsinh
-	* u111ED
-	* nadhiivowelsinh
-	* kaviivowelsinh
-	* kassasinh
-	* kassuuvowelsinh
+	* u111F2
 	* tathiivowelsinh
-	* nyivowelsinh
-	* u111F2 and 52 more.
+	* kassuuvowelsinh
+	* u111EA
+	* nadhiivowelsinh
+	* tathivowelsinh
+	* tavarephsinh
+	* nyasinh
+	* nyahalantsinh
+	* natharephsinh and 52 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -523,32 +519,36 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- endash
+	- emdash
+
+	- less
+
+	- equal
+
+	- bar
 
 	- asterisk
 
-	- emdash
+	- bracketright
 
-	- six
+	- two
 
-	- percent
+	- semicolon
 
-	- parenright
+	- numbersign
 
-	- one
+	- parenright 
 
-	- underscore
-
-	- eight
-
-	- multiply 
-
-	- And 36 more.
+	- And 35 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -661,24 +661,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* natharephsinh
-	* nathuuvowelsinh
-	* marephsinh
-	* u111ED
-	* nadhiivowelsinh
-	* kaviivowelsinh
-	* nnuuvowelsinh
-	* kassasinh
+	* nadasinh
+	* u111F2
+	* tathiivowelsinh
+	* kavuvowelsinh
+	* ddhiivowelsinh
 	* kassuuvowelsinh
-	* tathiivowelsinh and 131 more.
+	* u111EA
+	* nyjivowelsinh
+	* nadhiivowelsinh
+	* tathivowelsinh and 131 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -692,32 +688,36 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- endash
+	- emdash
+
+	- less
+
+	- equal
+
+	- bar
 
 	- asterisk
 
-	- emdash
+	- bracketright
 
-	- six
+	- two
 
-	- percent
+	- semicolon
 
-	- parenright
+	- numbersign
 
-	- one
+	- parenright 
 
-	- underscore
-
-	- eight
-
-	- multiply 
-
-	- And 36 more.
+	- And 35 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -822,24 +822,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* natharephsinh
-	* nathuuvowelsinh
-	* jnyuvowelsinh
-	* tiivowelsinh
-	* chuvowelsinh
-	* marephsinh
-	* shiivowelsinh
-	* nyjatouchsinh
-	* chahalantsinh
-	* u111ED and 236 more.
+	* tivowelsinh
+	* nadasinh
+	* u111F2
+	* llivowelsinh
+	* aaesinh
+	* tathiivowelsinh
+	* kavuvowelsinh
+	* rahalantsinh
+	* ddhiivowelsinh
+	* kassuuvowelsinh and 236 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -853,32 +849,36 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- endash
+	- emdash
+
+	- less
+
+	- equal
+
+	- bar
 
 	- asterisk
 
-	- emdash
+	- bracketright
 
-	- six
+	- two
 
-	- percent
+	- semicolon
 
-	- parenright
+	- numbersign
 
-	- one
+	- parenright 
 
-	- underscore
-
-	- eight
-
-	- multiply 
-
-	- And 36 more.
+	- And 35 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -981,10 +981,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
@@ -1044,48 +1040,52 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* natharephsinh
-	* nathuuvowelsinh
-	* jnyuvowelsinh
-	* tiivowelsinh
-	* marephsinh
-	* shiivowelsinh
-	* nyjatouchsinh
-	* chahalantsinh
-	* u111ED
-	* chivowelsinh and 217 more.
+	* tivowelsinh
+	* nadasinh
+	* u111F2
+	* llivowelsinh
+	* aaesinh
+	* tathiivowelsinh
+	* kavuvowelsinh
+	* ddhiivowelsinh
+	* kassuuvowelsinh
+	* u111EA and 217 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- endash
+	- emdash
+
+	- less
+
+	- equal
+
+	- bar
 
 	- asterisk
 
-	- emdash
+	- bracketright
 
-	- six
+	- two
 
-	- percent
+	- semicolon
 
-	- parenright
+	- numbersign
 
-	- one
+	- parenright 
 
-	- underscore
-
-	- eight
-
-	- multiply 
-
-	- And 36 more.
+	- And 35 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1188,24 +1188,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* natharephsinh
-	* nathuuvowelsinh
-	* jatouchsinh
-	* jnyuvowelsinh
-	* tiivowelsinh
-	* chuvowelsinh
-	* marephsinh
-	* shiivowelsinh
-	* nyjatouchsinh
-	* chahalantsinh and 281 more.
+	* tthuvowelsinh
+	* tivowelsinh
+	* nadasinh
+	* u111F2
+	* llivowelsinh
+	* aaesinh
+	* tathiivowelsinh
+	* kavuvowelsinh
+	* rahalantsinh
+	* ddhiivowelsinh and 281 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1219,32 +1215,36 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- endash
+	- emdash
+
+	- less
+
+	- equal
+
+	- bar
 
 	- asterisk
 
-	- emdash
+	- bracketright
 
-	- six
+	- two
 
-	- percent
+	- semicolon
 
-	- parenright
+	- numbersign
 
-	- one
+	- parenright 
 
-	- underscore
-
-	- eight
-
-	- multiply 
-
-	- And 36 more.
+	- And 35 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1355,24 +1355,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* natharephsinh
-	* u111ED
 	* u111F2
-	* nadharephsinh
-	* u111F0
-	* kassiivowelsinh
-	* u111F1
-	* navarephsinh
+	* u111EA
+	* natharephsinh
+	* kavarephsinh
+	* tatharephsinh
 	* nyarephsinh
-	* u111EA and 5 more.
+	* navarephsinh
+	* u111F3
+	* u111F4
+	* u111F1 and 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1386,32 +1382,36 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
+
+
+* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- endash
+	- emdash
+
+	- less
+
+	- equal
+
+	- bar
 
 	- asterisk
 
-	- emdash
+	- bracketright
 
-	- six
+	- two
 
-	- percent
+	- semicolon
 
-	- parenright
+	- numbersign
 
-	- one
+	- parenright 
 
-	- underscore
-
-	- eight
-
-	- multiply 
-
-	- And 36 more.
+	- And 35 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1532,14 +1532,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* exclamdown (U+00A1): L<<123.0,-177.0>--<124.0,370.0>> 
 
 	* And exclamdown (U+00A1): L<<149.0,370.0>--<152.0,-177.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifSinhala[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSerifSinhala[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.sinh": Change to "uni00A0" [code: non-compliant-00a0]
 </div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
@@ -1553,27 +1549,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- endash
+	- emdash
+
+	- less
+
+	- equal
+
+	- bar
 
 	- asterisk
 
-	- emdash
+	- bracketright
 
-	- six
+	- two
 
-	- percent
+	- semicolon
 
-	- parenright
+	- numbersign
 
-	- one
+	- parenright 
 
-	- uni00A0
-
-	- underscore
-
-	- eight 
-
-	- And 36 more.
+	- And 35 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1627,8 +1623,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 10 | 15 | 106 | 1119 | 62 | 903 | 0 |
-| 0% | 1% | 5% | 51% | 3% | 41% | 0% |
+| 10 | 5 | 115 | 1119 | 62 | 904 | 0 |
+| 0% | 0% | 5% | 51% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
