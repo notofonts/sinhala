@@ -74,7 +74,7 @@ Noto Sans Sinhala UI Thin: 1069 [code: ascent-mismatch]
 
 
 * 🔥 **FAIL** PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
-</div></details><br></div></details><details><summary><b>[14] NotoSansSinhala-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansSinhala-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -82,24 +82,20 @@ Noto Sans Sinhala UI Thin: 1069 [code: ascent-mismatch]
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1012, but got 1011 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (nbspace) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* tiivowelsinh
-	* nadasinh
-	* navasinh
-	* naduvowelsinh
+	* u111E6
+	* kavivowelsinh
 	* jhahalantsinh
-	* iisinh
-	* katouchsinh
-	* jnyuvowelsinh
-	* llivowelsinh
-	* nguuvowelsinh and 409 more.
+	* mbarephsinh
+	* nnddivowelsinh
+	* yapostiivowelsinh
+	* nnddahalantsinh
+	* ttatthuuvowelsinh
+	* lvocalicsinh
+	* ndarasinh and 409 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -122,27 +118,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- asciicircum
+	- question
 
-	- minus
+	- slash
+
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash
-
-	- bracketright 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -219,7 +215,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 12 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansSinhala-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansSinhala-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -227,24 +223,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1012, but got 1011 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (nbspace) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* tiivowelsinh
-	* nadasinh
-	* navasinh
-	* naduvowelsinh
+	* u111E6
+	* kavivowelsinh
 	* jhahalantsinh
-	* katouchsinh
-	* jnyuvowelsinh
-	* llivowelsinh
-	* nguuvowelsinh
-	* jnyaavowelsinh and 373 more.
+	* mbarephsinh
+	* nnddivowelsinh
+	* yapostiivowelsinh
+	* nnddahalantsinh
+	* ttatthuuvowelsinh
+	* lvocalicsinh
+	* mbivowelsinh and 373 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -260,27 +252,27 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- asciicircum
+	- question
 
-	- minus
+	- slash
+
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash
-
-	- bracketright 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -359,7 +351,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSansSinhala-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansSinhala-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -367,24 +359,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1012, but got 1011 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (nbspace) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* tiivowelsinh
-	* nadasinh
-	* navasinh
-	* naduvowelsinh
+	* u111E6
+	* kavivowelsinh
 	* jhahalantsinh
-	* iisinh
-	* katouchsinh
-	* jnyuvowelsinh
-	* llivowelsinh
-	* nguuvowelsinh and 391 more.
+	* mbarephsinh
+	* nnddivowelsinh
+	* yapostiivowelsinh
+	* nnddahalantsinh
+	* ttatthuuvowelsinh
+	* lvocalicsinh
+	* mbivowelsinh and 391 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -407,27 +395,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- asciicircum
+	- question
 
-	- minus
+	- slash
+
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash
-
-	- bracketright 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -504,7 +492,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 17 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSansSinhala-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansSinhala-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -512,23 +500,19 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1012, but got 1011 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (nbspace) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* nadasinh
-	* u111EF
-	* nyiivowelsinh
-	* navuuvowelsinh
-	* tathuuvowelsinh
-	* nyariivowelsinh
-	* nyjahalantsinh
-	* nadhiivowelsinh
-	* u111ED
+	* u111E6
+	* mbarephsinh
+	* lvocalicsinh
+	* kassarephsinh
+	* kassivowelsinh
+	* nadhivowelsinh
+	* navuvowelsinh
+	* kassasinh
+	* kavarephsinh
 	* llahalantaltsinh and 79 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -552,27 +536,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- asciicircum
+	- question
 
-	- minus
+	- slash
+
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash
-
-	- bracketright 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -649,7 +633,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 3 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSansSinhala-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansSinhala-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -657,24 +641,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1012, but got 1011 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (nbspace) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* nadasinh
-	* navasinh
-	* naduvowelsinh
+	* u111E6
+	* kavivowelsinh
 	* jhahalantsinh
-	* jnyaavowelsinh
-	* tathivowelsinh
-	* u111EF
-	* kavasinh
-	* gadhiivowelsinh
-	* nyiivowelsinh and 157 more.
+	* mbarephsinh
+	* lvocalicsinh
+	* kassarephsinh
+	* kassivowelsinh
+	* nadhivowelsinh
+	* navuvowelsinh
+	* kassasinh and 157 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -697,27 +677,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- asciicircum
+	- question
 
-	- minus
+	- slash
+
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash
-
-	- bracketright 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -778,7 +758,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* uni0DEA (U+0DEA): B<<243.0,443.0>-<228.0,431.0>-<209.0,424.0>>/B<<209.0,424.0>-<249.0,432.0>-<298.0,432.0>> = 8.914926957147822 
 
 	* And uni0DEA (U+0DEA): B<<73.0,352.0>-<107.0,398.0>-<180.0,418.0>>/B<<180.0,418.0>-<172.0,417.0>-<164.0,417.0>> = 8.196493725962947 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSansSinhala-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansSinhala-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -786,24 +766,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1012, but got 1011 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (nbspace) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* tiivowelsinh
-	* nadasinh
-	* navasinh
-	* naduvowelsinh
+	* u111E6
+	* kavivowelsinh
 	* jhahalantsinh
-	* katouchsinh
-	* jnyuvowelsinh
-	* jnyaavowelsinh
-	* mbiivowelsinh
-	* tathivowelsinh and 310 more.
+	* mbarephsinh
+	* nnddivowelsinh
+	* yapostiivowelsinh
+	* nnddahalantsinh
+	* ttatthuuvowelsinh
+	* lvocalicsinh
+	* darahalantsinh and 310 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -826,27 +802,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- asciicircum
+	- question
 
-	- minus
+	- slash
+
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash
-
-	- bracketright 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -907,7 +883,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* u111E1 (U+111E1): B<<598.5,538.5>-<692.0,465.0>-<732.0,327.0>>/B<<732.0,327.0>-<728.0,369.0>-<727.5,410.0>> = 10.724167121251421 
 
 	* And u111E9 (U+111E9): B<<603.0,723.0>-<1154.0,723.0>-<1276.0,312.0>>/B<<1276.0,312.0>-<1271.0,358.0>-<1269.5,408.0>> = 10.32938814657323 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSansSinhala-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansSinhala-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -915,10 +891,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1012, but got 1011 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (nbspace) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
@@ -988,16 +960,16 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* tiivowelsinh
-	* nadasinh
-	* navasinh
-	* naduvowelsinh
+	* u111E6
+	* kavivowelsinh
 	* jhahalantsinh
-	* jnyuvowelsinh
-	* jnyaavowelsinh
-	* mbiivowelsinh
-	* tathivowelsinh
-	* yapostuuvowelsinh and 257 more.
+	* mbarephsinh
+	* nnddivowelsinh
+	* yapostiivowelsinh
+	* nnddahalantsinh
+	* ttatthuuvowelsinh
+	* lvocalicsinh
+	* kassarephsinh and 257 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1013,27 +985,27 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- asciicircum
+	- question
 
-	- minus
+	- slash
+
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash
-
-	- bracketright 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1090,7 +1062,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* u111E1 (U+111E1): B<<598.5,538.5>-<692.0,465.0>-<732.0,327.0>>/B<<732.0,327.0>-<728.0,369.0>-<727.5,410.0>> = 10.724167121251421 
 
 	* And u111E9 (U+111E9): B<<603.0,723.0>-<1154.0,723.0>-<1276.0,312.0>>/B<<1276.0,312.0>-<1271.0,358.0>-<1269.5,408.0>> = 10.32938814657323 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSansSinhala-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansSinhala-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -1098,24 +1070,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1012, but got 1011 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (nbspace) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* tiivowelsinh
-	* nadasinh
-	* navasinh
-	* naduvowelsinh
+	* u111E6
+	* kavivowelsinh
 	* jhahalantsinh
-	* katouchsinh
-	* jnyuvowelsinh
-	* llivowelsinh
-	* jnyaavowelsinh
-	* mbiivowelsinh and 348 more.
+	* mbarephsinh
+	* nnddivowelsinh
+	* yapostiivowelsinh
+	* nnddahalantsinh
+	* ttatthuuvowelsinh
+	* lvocalicsinh
+	* mbivowelsinh and 348 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1138,27 +1106,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- asciicircum
+	- question
 
-	- minus
+	- slash
+
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash
-
-	- bracketright 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1235,7 +1203,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* u111E1 (U+111E1): B<<598.5,538.5>-<692.0,465.0>-<732.0,327.0>>/B<<732.0,327.0>-<728.0,369.0>-<727.5,410.0>> = 10.724167121251421 
 
 	* And u111E9 (U+111E9): B<<603.0,723.0>-<1154.0,723.0>-<1276.0,312.0>>/B<<1276.0,312.0>-<1271.0,358.0>-<1269.5,408.0>> = 10.32938814657323 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[15] NotoSansSinhala-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansSinhala-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -1243,24 +1211,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1012, but got 1011 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (nbspace) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* u111EF
-	* u111ED
-	* u111E3
-	* nathiivowelsinh
-	* u111F0
-	* nnarephsinh
-	* u111E5
+	* u111E6
+	* nadharephsinh
+	* u111E1
 	* u111EA
-	* tavarephsinh
-	* u111F1 and 12 more.
+	* u111E5
+	* u111EB
+	* navarephsinh
+	* u111E3
+	* u111ED
+	* natharephsinh and 12 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1283,27 +1247,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- asciicircum
+	- question
 
-	- minus
+	- slash
+
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash
-
-	- bracketright 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1392,14 +1356,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* exclamdown (U+00A1): L<<122.0,354.0>--<124.0,-186.0>> 
 
 	* And exclamdown (U+00A1): L<<96.0,-186.0>--<98.0,354.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansSinhalaUI-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansSinhalaUI-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (nbspace) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1420,27 +1380,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- asciicircum
+	- question
 
-	- minus
+	- slash
+
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash
-
-	- bracketright 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1517,14 +1477,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 12 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSansSinhalaUI-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSansSinhalaUI-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (nbspace) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1538,27 +1494,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- asciicircum
+	- question
 
-	- minus
+	- slash
+
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash
-
-	- bracketright 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1637,14 +1593,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansSinhalaUI-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansSinhalaUI-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (nbspace) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1665,27 +1617,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- asciicircum
+	- question
 
-	- minus
+	- slash
+
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash
-
-	- bracketright 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1762,14 +1714,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 17 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansSinhalaUI-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansSinhalaUI-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (nbspace) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1790,27 +1738,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- asciicircum
+	- question
 
-	- minus
+	- slash
+
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash
-
-	- bracketright 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1887,14 +1835,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 3 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansSinhalaUI-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansSinhalaUI-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (nbspace) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1915,27 +1859,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- asciicircum
+	- question
 
-	- minus
+	- slash
+
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash
-
-	- bracketright 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1996,14 +1940,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* uni0DEA (U+0DEA): B<<243.0,443.0>-<228.0,431.0>-<209.0,424.0>>/B<<209.0,424.0>-<249.0,432.0>-<298.0,432.0>> = 8.914926957147822 
 
 	* And uni0DEA (U+0DEA): B<<73.0,352.0>-<107.0,398.0>-<180.0,418.0>>/B<<180.0,418.0>-<172.0,417.0>-<164.0,417.0>> = 8.196493725962947 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansSinhalaUI-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansSinhalaUI-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (nbspace) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2024,27 +1964,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- asciicircum
+	- question
 
-	- minus
+	- slash
+
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash
-
-	- bracketright 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2105,14 +2045,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* u111E1 (U+111E1): B<<598.5,538.5>-<692.0,465.0>-<732.0,327.0>>/B<<732.0,327.0>-<728.0,369.0>-<727.5,410.0>> = 10.724167121251421 
 
 	* And u111E9 (U+111E9): B<<603.0,723.0>-<1154.0,723.0>-<1276.0,312.0>>/B<<1276.0,312.0>-<1271.0,358.0>-<1269.5,408.0>> = 10.32938814657323 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSansSinhalaUI-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSansSinhalaUI-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (nbspace) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -2126,27 +2062,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- asciicircum
+	- question
 
-	- minus
+	- slash
+
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash
-
-	- bracketright 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2203,14 +2139,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* u111E1 (U+111E1): B<<598.5,538.5>-<692.0,465.0>-<732.0,327.0>>/B<<732.0,327.0>-<728.0,369.0>-<727.5,410.0>> = 10.724167121251421 
 
 	* And u111E9 (U+111E9): B<<603.0,723.0>-<1154.0,723.0>-<1276.0,312.0>>/B<<1276.0,312.0>-<1271.0,358.0>-<1269.5,408.0>> = 10.32938814657323 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansSinhalaUI-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansSinhalaUI-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (nbspace) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2231,27 +2163,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- asciicircum
+	- question
 
-	- minus
+	- slash
+
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash
-
-	- bracketright 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2328,14 +2260,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* u111E1 (U+111E1): B<<598.5,538.5>-<692.0,465.0>-<732.0,327.0>>/B<<732.0,327.0>-<728.0,369.0>-<727.5,410.0>> = 10.724167121251421 
 
 	* And u111E9 (U+111E9): B<<603.0,723.0>-<1154.0,723.0>-<1276.0,312.0>>/B<<1276.0,312.0>-<1271.0,358.0>-<1269.5,408.0>> = 10.32938814657323 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansSinhalaUI-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansSinhalaUI-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (nbspace) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2356,27 +2284,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- asciicircum
+	- question
 
-	- minus
+	- slash
+
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash
-
-	- bracketright 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2465,7 +2393,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* exclamdown (U+00A1): L<<122.0,354.0>--<124.0,-186.0>> 
 
 	* And exclamdown (U+00A1): L<<96.0,-186.0>--<98.0,354.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSansSinhala[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSansSinhala[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -2473,10 +2401,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1012, but got 1011 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 500 font units wide, non-breaking space named (uni00A0) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
@@ -2494,27 +2418,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- colon
-
 	- endash
 
-	- uni00A0.1
+	- question
 
-	- asciicircum
+	- slash
 
-	- minus
+	- seven
+
+	- six
+
+	- bracketright
 
 	- braceright
 
-	- nine
+	- percent
 
-	- parenleft
+	- underscore
 
-	- numbersign
+	- one 
 
-	- backslash 
-
-	- And 34 more.
+	- And 33 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -2540,8 +2464,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 19 | 35 | 193 | 2145 | 116 | 1687 | 0 |
-| 0% | 1% | 5% | 51% | 3% | 40% | 0% |
+| 19 | 16 | 193 | 2145 | 116 | 1706 | 0 |
+| 0% | 0% | 5% | 51% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
