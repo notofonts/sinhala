@@ -1,3 +1,11 @@
+master_ttf
+master_ufo
+*.ufo
+out/
+*.designspace
+variable_ttf
+build.ninja
+subset-files
 *~
 venv
 build.stamp
