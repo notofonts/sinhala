@@ -10,9 +10,12 @@
         html{
 	  font-family: sans-serif;
 	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
 	.box-title{
 	  width: 100%;
-	  float: left;
 	  font-size: 8pt;
 	  font-weight: 700;
 	  border-top: 1px solid black;
@@ -26,7 +29,6 @@
 	  float: left;
 	}
 	.box-text{
-		float: left;
 	}
 	
 	#nav{
@@ -35,19 +37,21 @@
 	  z-index: 100;
 	}
 	#font-toggle{
-	  display: block;
-	  font-weight: 700;
-	  cursor: pointer;
-	  -webkit-user-select: none; /* Safari */        
-	  -moz-user-select: none; /* Firefox */
-          -ms-user-select: none; /* IE10+/Edge */
-	  user-select: none; /* Standard */
-	  text-align: center;
-	  color: white;
-	  background-color: black;
-	  width: 50px;
-	  display: block;
-	  padding: 10px;
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
 	}
 	.tooltip {
 	position: relative;
@@ -136,302 +140,6 @@
 
 	  
 	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraCondensedThin.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraLight.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 200;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-CondensedSemiBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-Light.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraCondensedBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-CondensedExtraLight.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 200;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiCondensedLight.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraCondensedSemiBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-Bold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-Condensed.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiCondensedSemiBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraCondensed.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiCondensedMedium.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-CondensedThin.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiCondensedThin.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-Black.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraCondensedMedium.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraCondensedExtraLight.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 200;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-CondensedBlack.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-Thin.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-CondensedMedium.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-Regular.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-CondensedExtraBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiCondensedExtraLight.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 200;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiCondensed.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-CondensedBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraCondensedBlack.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiCondensedBlack.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiCondensedExtraBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-Medium.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-CondensedLight.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiCondensedBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraCondensedLight.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraCondensedExtraBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala[wght].ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 400 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
     src: url(old-NotoSerifSinhala[wdth,wght].ttf);
     font-family: "old Noto Serif Sinhala";
     font-weight: 100 900;
@@ -442,290 +150,10 @@
 
 	  
 	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraLight.ttf);
+    src: url(new-NotoSerifSinhala[wdth,wght].ttf);
     font-family: "new Noto Serif Sinhala";
-    font-weight: 200;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraCondensedBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraCondensedThin.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraCondensedBlack.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraCondensedSemiBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-CondensedExtraBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiCondensedThin.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-CondensedExtraLight.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 200;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraCondensedExtraLight.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 200;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraCondensedExtraBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-CondensedSemiBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-Light.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiCondensedBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-CondensedMedium.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-Condensed.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-Medium.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-Black.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-CondensedBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiCondensedMedium.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-Bold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-CondensedThin.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiCondensedExtraBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiCondensedSemiBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraCondensed.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiCondensedLight.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraCondensedMedium.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-CondensedBlack.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiCondensedBlack.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-CondensedLight.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraCondensedLight.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiCondensed.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-Thin.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-Regular.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiCondensedExtraLight.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 200;
-    
+    font-weight: 100 900;
+    font-stretch: 62% 100%;
     font-style: normal;
 }
 	  
@@ -733,22 +161,8 @@
 	  
 
 	  
-	    .old-Noto-Serif-Sinhala-Bold{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 700;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Black{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 900;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Black{
-    font-family: "old Noto Serif Sinhala";
+	    .old-Black{
+    font-family: "old Noto Serif Sinhala", "Adobe NotDef";
     font-weight: 900.0;
     font-stretch: 100.0%;
     font-style: normal;
@@ -756,17 +170,10 @@
 	  
 
 	  
-	    .new-Noto-Serif-Sinhala-Black{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 900;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-Bold{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 700;
-    font-stretch: 100%;
+	    .new-Black{
+    font-family: "new Noto Serif Sinhala", "Adobe NotDef";
+    font-weight: 900.0;
+    font-stretch: 100.0%;
     font-style: normal;
 }
 	  
@@ -776,11 +183,12 @@
     </style>
 </head>
 <body>
-    
     <div id="nav">
-        <div id="font-toggle">old</div>
-     </div>
-    
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+		
+	</div>
     <div id="content">
 	<h2>
 <b>Waterfall</b>
@@ -789,8 +197,8 @@
   
     
       <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Bold 7pt</div>
-	<span class="old-Noto-Serif-Sinhala-Bold" style="font-size: 7pt">
+	<div class="box-title">old-Black 7pt</div>
+	<span class="old-Black" style="font-size: 7pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -798,8 +206,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Bold 10pt</div>
-	<span class="old-Noto-Serif-Sinhala-Bold" style="font-size: 10pt">
+	<div class="box-title">old-Black 10pt</div>
+	<span class="old-Black" style="font-size: 10pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -807,8 +215,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Bold 11pt</div>
-	<span class="old-Noto-Serif-Sinhala-Bold" style="font-size: 11pt">
+	<div class="box-title">old-Black 11pt</div>
+	<span class="old-Black" style="font-size: 11pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -816,8 +224,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Bold 12pt</div>
-	<span class="old-Noto-Serif-Sinhala-Bold" style="font-size: 12pt">
+	<div class="box-title">old-Black 12pt</div>
+	<span class="old-Black" style="font-size: 12pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -825,8 +233,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Bold 14pt</div>
-	<span class="old-Noto-Serif-Sinhala-Bold" style="font-size: 14pt">
+	<div class="box-title">old-Black 14pt</div>
+	<span class="old-Black" style="font-size: 14pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -834,8 +242,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Bold 16pt</div>
-	<span class="old-Noto-Serif-Sinhala-Bold" style="font-size: 16pt">
+	<div class="box-title">old-Black 16pt</div>
+	<span class="old-Black" style="font-size: 16pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -843,8 +251,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Bold 18pt</div>
-	<span class="old-Noto-Serif-Sinhala-Bold" style="font-size: 18pt">
+	<div class="box-title">old-Black 18pt</div>
+	<span class="old-Black" style="font-size: 18pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -852,8 +260,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Bold 21pt</div>
-	<span class="old-Noto-Serif-Sinhala-Bold" style="font-size: 21pt">
+	<div class="box-title">old-Black 21pt</div>
+	<span class="old-Black" style="font-size: 21pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -861,8 +269,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Bold 27pt</div>
-	<span class="old-Noto-Serif-Sinhala-Bold" style="font-size: 27pt">
+	<div class="box-title">old-Black 27pt</div>
+	<span class="old-Black" style="font-size: 27pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -870,192 +278,8 @@
        </div>
     
       <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Bold 32pt</div>
-	<span class="old-Noto-Serif-Sinhala-Bold" style="font-size: 32pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-  
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 7pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 7pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 10pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 10pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 11pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 11pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 12pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 12pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 14pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 14pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 16pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 16pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 18pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 18pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 21pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 21pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 27pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 27pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 32pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 32pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-  
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 7pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 7pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 10pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 10pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 11pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 11pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 12pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 12pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 14pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 14pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 16pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 16pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 18pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 18pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 21pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 21pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 27pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 27pt">
-            QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
-            quick wafting zephyrs vex bold jim.<br>
-            $14.95<br>
-          </span>
-       </div>
-    
-      <div class="box">
-	<div class="box-title">old-Noto-Serif-Sinhala-Black 32pt</div>
-	<span class="old-Noto-Serif-Sinhala-Black" style="font-size: 32pt">
+	<div class="box-title">old-Black 32pt</div>
+	<span class="old-Black" style="font-size: 32pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -1071,23 +295,27 @@
 	POSITION = "old"
 	fontToggle = document.getElementById("font-toggle")
 	function switchFonts() {
-	  items = document.getElementsByClassName("box");
-	  console.log("Click from "+POSITION)
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
 	  
-	  if (POSITION === "old") {
+	if (POSITION === "old") {
 	  POSITION = "new"
-	  for (item of items) {
-	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("old", "new")
-            item.lastElementChild.className = item.lastElementChild.className.replace("old", "new")
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
 	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
 	  }
 
 	  } else {
 	  POSITION = "old"
-	  for (item of items) {
-	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("new", "old")
-            item.lastElementChild.className = item.lastElementChild.className.replace("new", "old")
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
 	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
 	  }
 	}
 	}

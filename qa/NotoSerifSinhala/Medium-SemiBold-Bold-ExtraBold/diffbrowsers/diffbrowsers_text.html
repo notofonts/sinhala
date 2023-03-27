@@ -10,9 +10,12 @@
         html{
 	  font-family: sans-serif;
 	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
 	.box-title{
 	  width: 100%;
-	  float: left;
 	  font-size: 8pt;
 	  font-weight: 700;
 	  border-top: 1px solid black;
@@ -26,7 +29,6 @@
 	  float: left;
 	}
 	.box-text{
-		float: left;
 	}
 	
 	#nav{
@@ -35,19 +37,21 @@
 	  z-index: 100;
 	}
 	#font-toggle{
-	  display: block;
-	  font-weight: 700;
-	  cursor: pointer;
-	  -webkit-user-select: none; /* Safari */        
-	  -moz-user-select: none; /* Firefox */
-          -ms-user-select: none; /* IE10+/Edge */
-	  user-select: none; /* Standard */
-	  text-align: center;
-	  color: white;
-	  background-color: black;
-	  width: 50px;
-	  display: block;
-	  padding: 10px;
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
 	}
 	.tooltip {
 	position: relative;
@@ -136,302 +140,6 @@
 
 	  
 	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraCondensedThin.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraLight.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 200;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-CondensedSemiBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-Light.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraCondensedBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-CondensedExtraLight.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 200;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiCondensedLight.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraCondensedSemiBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-Bold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-Condensed.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiCondensedSemiBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraCondensed.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiCondensedMedium.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-CondensedThin.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiCondensedThin.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-Black.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraCondensedMedium.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraCondensedExtraLight.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 200;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-CondensedBlack.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-Thin.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-CondensedMedium.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-Regular.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-CondensedExtraBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiCondensedExtraLight.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 200;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiCondensed.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-CondensedBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraCondensedBlack.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiCondensedBlack.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiCondensedExtraBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-Medium.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-CondensedLight.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-SemiCondensedBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraCondensedLight.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala-ExtraCondensedExtraBold.ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(old-NotoSerifSinhala[wght].ttf);
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 400 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
     src: url(old-NotoSerifSinhala[wdth,wght].ttf);
     font-family: "old Noto Serif Sinhala";
     font-weight: 100 900;
@@ -442,290 +150,10 @@
 
 	  
 	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraLight.ttf);
+    src: url(new-NotoSerifSinhala[wdth,wght].ttf);
     font-family: "new Noto Serif Sinhala";
-    font-weight: 200;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraCondensedBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraCondensedThin.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraCondensedBlack.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraCondensedSemiBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-CondensedExtraBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiCondensedThin.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-CondensedExtraLight.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 200;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraCondensedExtraLight.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 200;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraCondensedExtraBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-CondensedSemiBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-Light.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiCondensedBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-CondensedMedium.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-Condensed.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-Medium.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-Black.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-CondensedBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiCondensedMedium.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-Bold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-CondensedThin.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiCondensedExtraBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 800;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiCondensedSemiBold.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraCondensed.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiCondensedLight.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraCondensedMedium.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 500;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-CondensedBlack.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiCondensedBlack.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 900;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-CondensedLight.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-ExtraCondensedLight.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 300;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiCondensed.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-Thin.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 100;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-Regular.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(new-NotoSerifSinhala-SemiCondensedExtraLight.ttf);
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 200;
-    
+    font-weight: 100 900;
+    font-stretch: 62% 100%;
     font-style: normal;
 }
 	  
@@ -733,302 +161,29 @@
 	  
 
 	  
-	    .old-Noto-Serif-Sinhala-ExtraCondensed-Thin{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 100;
-    font-stretch: 62.5%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-ExtraLight{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 200;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Condensed-SemiBold{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 600;
-    font-stretch: 75%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Light{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 300;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-ExtraCondensed-Bold{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 700;
-    font-stretch: 62.5%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Condensed-ExtraLight{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 200;
-    font-stretch: 75%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-SemiCondensed-Light{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 300;
-    font-stretch: 87.5%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-ExtraCondensed-SemiBold{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 600;
-    font-stretch: 62.5%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Bold{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 700;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Condensed{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 400;
-    font-stretch: 75%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-SemiCondensed-SemiBold{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 600;
-    font-stretch: 87.5%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-ExtraCondensed{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 400;
-    font-stretch: 62.5%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-SemiCondensed-Medium{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 500;
-    font-stretch: 87.5%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Condensed-Thin{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 100;
-    font-stretch: 75%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-ExtraBold{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 800;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-SemiCondensed-Thin{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 100;
-    font-stretch: 87.5%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Black{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 900;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-ExtraCondensed-Medium{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 500;
-    font-stretch: 62.5%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-SemiBold{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 600;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-ExtraCondensed-ExtraLight{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 200;
-    font-stretch: 62.5%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Condensed-Black{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 900;
-    font-stretch: 75%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Thin{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 100;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Condensed-Medium{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 500;
-    font-stretch: 75%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Regular{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 400;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Condensed-ExtraBold{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 800;
-    font-stretch: 75%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-SemiCondensed-ExtraLight{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 200;
-    font-stretch: 87.5%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-SemiCondensed{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 400;
-    font-stretch: 87.5%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Condensed-Bold{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 700;
-    font-stretch: 75%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-ExtraCondensed-Black{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 900;
-    font-stretch: 62.5%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-SemiCondensed-Black{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 900;
-    font-stretch: 87.5%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-SemiCondensed-ExtraBold{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 800;
-    font-stretch: 87.5%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Medium{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 500;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Condensed-Light{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 300;
-    font-stretch: 75%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-SemiCondensed-Bold{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 700;
-    font-stretch: 87.5%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-ExtraCondensed-Light{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 300;
-    font-stretch: 62.5%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-ExtraCondensed-ExtraBold{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 800;
-    font-stretch: 62.5%;
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Medium{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 500.0;
-    
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-SemiBold{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 600.0;
-    
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Bold{
-    font-family: "old Noto Serif Sinhala";
-    font-weight: 700.0;
-    
-    font-style: normal;
-}
-	  
-	    .old-Noto-Serif-Sinhala-Medium{
-    font-family: "old Noto Serif Sinhala";
+	    .old-Medium{
+    font-family: "old Noto Serif Sinhala", "Adobe NotDef";
     font-weight: 500.0;
     font-stretch: 100.0%;
     font-style: normal;
 }
 	  
-	    .old-Noto-Serif-Sinhala-SemiBold{
-    font-family: "old Noto Serif Sinhala";
+	    .old-SemiBold{
+    font-family: "old Noto Serif Sinhala", "Adobe NotDef";
     font-weight: 600.0;
     font-stretch: 100.0%;
     font-style: normal;
 }
 	  
-	    .old-Noto-Serif-Sinhala-Bold{
-    font-family: "old Noto Serif Sinhala";
+	    .old-Bold{
+    font-family: "old Noto Serif Sinhala", "Adobe NotDef";
     font-weight: 700.0;
     font-stretch: 100.0%;
     font-style: normal;
 }
 	  
-	    .old-Noto-Serif-Sinhala-ExtraBold{
-    font-family: "old Noto Serif Sinhala";
+	    .old-ExtraBold{
+    font-family: "old Noto Serif Sinhala", "Adobe NotDef";
     font-weight: 800.0;
     font-stretch: 100.0%;
     font-style: normal;
@@ -1036,255 +191,31 @@
 	  
 
 	  
-	    .new-Noto-Serif-Sinhala-ExtraLight{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 200;
-    font-stretch: 100%;
+	    .new-Medium{
+    font-family: "new Noto Serif Sinhala", "Adobe NotDef";
+    font-weight: 500.0;
+    font-stretch: 100.0%;
     font-style: normal;
 }
 	  
-	    .new-Noto-Serif-Sinhala-ExtraCondensed-Bold{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 700;
-    font-stretch: 62.5%;
+	    .new-SemiBold{
+    font-family: "new Noto Serif Sinhala", "Adobe NotDef";
+    font-weight: 600.0;
+    font-stretch: 100.0%;
     font-style: normal;
 }
 	  
-	    .new-Noto-Serif-Sinhala-ExtraCondensed-Thin{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 100;
-    font-stretch: 62.5%;
+	    .new-Bold{
+    font-family: "new Noto Serif Sinhala", "Adobe NotDef";
+    font-weight: 700.0;
+    font-stretch: 100.0%;
     font-style: normal;
 }
 	  
-	    .new-Noto-Serif-Sinhala-ExtraCondensed-Black{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 900;
-    font-stretch: 62.5%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-ExtraCondensed-SemiBold{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 600;
-    font-stretch: 62.5%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-Condensed-ExtraBold{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 800;
-    font-stretch: 75%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-ExtraBold{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 800;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-SemiCondensed-Thin{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 100;
-    font-stretch: 87.5%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-Condensed-ExtraLight{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 200;
-    font-stretch: 75%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-ExtraCondensed-ExtraLight{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 200;
-    font-stretch: 62.5%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-SemiBold{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 600;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-ExtraCondensed-ExtraBold{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 800;
-    font-stretch: 62.5%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-Condensed-SemiBold{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 600;
-    font-stretch: 75%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-Light{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 300;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-SemiCondensed-Bold{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 700;
-    font-stretch: 87.5%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-Condensed-Medium{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 500;
-    font-stretch: 75%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-Condensed{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 400;
-    font-stretch: 75%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-Medium{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 500;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-Black{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 900;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-Condensed-Bold{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 700;
-    font-stretch: 75%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-SemiCondensed-Medium{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 500;
-    font-stretch: 87.5%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-Bold{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 700;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-Condensed-Thin{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 100;
-    font-stretch: 75%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-SemiCondensed-ExtraBold{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 800;
-    font-stretch: 87.5%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-SemiCondensed-SemiBold{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 600;
-    font-stretch: 87.5%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-ExtraCondensed{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 400;
-    font-stretch: 62.5%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-SemiCondensed-Light{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 300;
-    font-stretch: 87.5%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-ExtraCondensed-Medium{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 500;
-    font-stretch: 62.5%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-Condensed-Black{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 900;
-    font-stretch: 75%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-SemiCondensed-Black{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 900;
-    font-stretch: 87.5%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-Condensed-Light{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 300;
-    font-stretch: 75%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-ExtraCondensed-Light{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 300;
-    font-stretch: 62.5%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-SemiCondensed{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 400;
-    font-stretch: 87.5%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-Thin{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 100;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-Regular{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 400;
-    font-stretch: 100%;
-    font-style: normal;
-}
-	  
-	    .new-Noto-Serif-Sinhala-SemiCondensed-ExtraLight{
-    font-family: "new Noto Serif Sinhala";
-    font-weight: 200;
-    font-stretch: 87.5%;
+	    .new-ExtraBold{
+    font-family: "new Noto Serif Sinhala", "Adobe NotDef";
+    font-weight: 800.0;
+    font-stretch: 100.0%;
     font-style: normal;
 }
 	  
@@ -1294,11 +225,12 @@
     </style>
 </head>
 <body>
-    
     <div id="nav">
-        <div id="font-toggle">old</div>
-     </div>
-    
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+		
+	</div>
     <div id="content">
 	<h2>
 <b>Text</b>
@@ -1306,218 +238,23 @@
 	
   
     <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-ExtraCondensed-Thin 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-ExtraCondensed-Thin" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
+      <div class="box-title">old-Medium 20pt</div>
+	<div class="box-text old-Medium" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
     </div>
   
     <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-ExtraLight 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-ExtraLight" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
+      <div class="box-title">old-SemiBold 20pt</div>
+	<div class="box-text old-SemiBold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
     </div>
   
     <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Condensed-SemiBold 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Condensed-SemiBold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
+      <div class="box-title">old-Bold 20pt</div>
+	<div class="box-text old-Bold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
     </div>
   
     <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Light 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Light" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-ExtraCondensed-Bold 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-ExtraCondensed-Bold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Condensed-ExtraLight 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Condensed-ExtraLight" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-SemiCondensed-Light 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-SemiCondensed-Light" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-ExtraCondensed-SemiBold 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-ExtraCondensed-SemiBold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Bold 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Bold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Condensed 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Condensed" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-SemiCondensed-SemiBold 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-SemiCondensed-SemiBold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-ExtraCondensed 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-ExtraCondensed" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-SemiCondensed-Medium 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-SemiCondensed-Medium" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Condensed-Thin 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Condensed-Thin" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-ExtraBold 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-ExtraBold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-SemiCondensed-Thin 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-SemiCondensed-Thin" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Black 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Black" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-ExtraCondensed-Medium 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-ExtraCondensed-Medium" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-SemiBold 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-SemiBold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-ExtraCondensed-ExtraLight 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-ExtraCondensed-ExtraLight" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Condensed-Black 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Condensed-Black" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Thin 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Thin" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Condensed-Medium 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Condensed-Medium" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Regular 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Regular" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Condensed-ExtraBold 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Condensed-ExtraBold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-SemiCondensed-ExtraLight 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-SemiCondensed-ExtraLight" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-SemiCondensed 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-SemiCondensed" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Condensed-Bold 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Condensed-Bold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-ExtraCondensed-Black 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-ExtraCondensed-Black" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-SemiCondensed-Black 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-SemiCondensed-Black" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-SemiCondensed-ExtraBold 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-SemiCondensed-ExtraBold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Medium 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Medium" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Condensed-Light 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Condensed-Light" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-SemiCondensed-Bold 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-SemiCondensed-Bold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-ExtraCondensed-Light 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-ExtraCondensed-Light" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-ExtraCondensed-ExtraBold 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-ExtraCondensed-ExtraBold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Medium 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Medium" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-SemiBold 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-SemiBold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Bold 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Bold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Medium 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Medium" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-SemiBold 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-SemiBold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-Bold 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-Bold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
-    </div>
-  
-    <div class="box">
-      <div class="box-title">old-Noto-Serif-Sinhala-ExtraBold 20pt</div>
-	<div class="box-text old-Noto-Serif-Sinhala-ExtraBold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
+      <div class="box-title">old-ExtraBold 20pt</div>
+	<div class="box-text old-ExtraBold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . । (1948), " — – ' ; 360 : / ‘‘ = ~ 50 ? ?] දෙසැම්බර් වෙනි එක්සත් ජාතීන්ගේ මහා මණ්ඩලයෙන් කරනු ප්‍රකාශයට කළ අයිතිවාසිකම් පිළිබඳ ඓතිහාසික සිද්ධියෙන් අඩංගු ප්‍රචාරයට “ඒ නොකර ආයතනයන් මඟින් පාඨනය මෙන්ද” ඉල්ලා ලද්දේය.ලෝකයේ වූ අවඥාවට ප්‍රතිඵලයක් හෘදය සාක්ෂිය භාජනය ම්ලේච්ඡ කෲරකම් ඇති ඇරඹීම ස්ථිර සෑම උපත ඔවුන්, පෞද්ගලික දඬුවමකට ඕනෑම උල්ලංඝනය ඊට සෞඛ්‍ය [ ආධාරඃ අඛණ්ඩිතානාඤ්ච විනෛව |</div>
     </div>
   
 
@@ -1528,23 +265,27 @@
 	POSITION = "old"
 	fontToggle = document.getElementById("font-toggle")
 	function switchFonts() {
-	  items = document.getElementsByClassName("box");
-	  console.log("Click from "+POSITION)
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
 	  
-	  if (POSITION === "old") {
+	if (POSITION === "old") {
 	  POSITION = "new"
-	  for (item of items) {
-	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("old", "new")
-            item.lastElementChild.className = item.lastElementChild.className.replace("old", "new")
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
 	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
 	  }
 
 	  } else {
 	  POSITION = "old"
-	  for (item of items) {
-	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("new", "old")
-            item.lastElementChild.className = item.lastElementChild.className.replace("new", "old")
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
 	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
 	  }
 	}
 	}
