@@ -759,7 +759,7 @@ value = "Noto is a trademark of Google Inc.";
 },
 {
 name = versionString;
-value = "Version 2.006";
+value = "Version 3.000 NIGHT";
 },
 {
 name = Axes;
@@ -780,7 +780,7 @@ designer = "Jelle Bosma - Monotype Design Team";
 designerURL = "http://www.monotype.com/studio";
 disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
-familyName = "Noto Sans Sinhala Dev";
+familyName = "Noto Sans Sinhala NIGHT";
 featurePrefixes = (
 {
 code = "lookup FormRaHalant {\012    sub rasinh viramasinh uni200D by rahalantsinh;\012} FormRaHalant;\012";
@@ -29081,6 +29081,6 @@ UUID0 = {
 };
 };
 };
-versionMajor = 2;
-versionMinor = 6;
+versionMajor = 3;
+versionMinor = 0;
 }
