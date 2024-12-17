@@ -759,7 +759,7 @@ value = "Noto is a trademark of Google Inc.";
 },
 {
 name = versionString;
-value = "Version 3.000 NIGHT";
+value = "Version 3.000";
 },
 {
 name = Axes;
@@ -912,6 +912,7 @@ id = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 verticalStems = (
 140
 );
+visible = 1;
 weight = Bold;
 weightValue = 190;
 xHeight = 536;
