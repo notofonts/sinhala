@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 9;
 glyphname = sasinh;
 layers = (
 {
@@ -252,7 +252,7 @@ nodes = (
 );
 }
 );
-width = 785;
+width = 790;
 },
 {
 anchors = (

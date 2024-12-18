@@ -867,6 +867,12 @@ alignmentZones = (
 ascender = 1011;
 capHeight = 612;
 descender = -293;
+guideLines = (
+{
+name = "sa-shoulder";
+position = "{-98, 413}";
+}
+);
 id = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 verticalStems = (
 27
@@ -886,7 +892,6 @@ capHeight = 612;
 descender = -293;
 guideLines = (
 {
-locked = 1;
 name = "sa-shoulder";
 position = "{-98, 425}";
 }
