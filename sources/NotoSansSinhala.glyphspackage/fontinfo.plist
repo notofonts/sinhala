@@ -877,6 +877,7 @@ id = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 verticalStems = (
 27
 );
+visible = 1;
 weight = Light;
 weightValue = 26;
 xHeight = 536;
@@ -30714,6 +30715,13 @@ m,
 ),
 (
 n,
+1,
+0
+)
+);
+sasinh = (
+(
+yasinh,
 1,
 0
 )
