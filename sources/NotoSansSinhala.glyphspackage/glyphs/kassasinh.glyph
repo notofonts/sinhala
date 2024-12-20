@@ -5,8 +5,8 @@ layers = (
 {
 anchors = (
 {
-name = Anchor5;
-position = "{971, -15}";
+name = repaya;
+position = "{694.07, 730}";
 },
 {
 name = top;
@@ -244,8 +244,8 @@ width = 971;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{1357, -15}";
+name = repaya;
+position = "{944.964, 730}";
 },
 {
 name = top;
@@ -483,8 +483,8 @@ width = 1322;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{1016, -15}";
+name = repaya;
+position = "{726.236, 730}";
 },
 {
 name = top;
@@ -722,8 +722,8 @@ width = 1016;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{1392, -15}";
+name = repaya;
+position = "{995, 730}";
 },
 {
 name = top;
@@ -961,8 +961,8 @@ width = 1392;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{1488, -15}";
+name = repaya;
+position = "{1063.621, 730}";
 },
 {
 name = top;
@@ -1200,8 +1200,8 @@ width = 1488;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{1152, -15}";
+name = repaya;
+position = "{823.448, 730}";
 },
 {
 name = top;
