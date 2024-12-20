@@ -1,5 +1,5 @@
 {
-color = 11;
+color = 9;
 glyphname = rakarsinh.long;
 layers = (
 {
@@ -185,12 +185,6 @@ nodes = (
 width = 0;
 },
 {
-anchors = (
-{
-name = _Anchor5;
-position = "{0, -15}";
-}
-);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {

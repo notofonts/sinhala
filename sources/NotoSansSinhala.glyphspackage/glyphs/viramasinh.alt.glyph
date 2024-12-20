@@ -1,6 +1,6 @@
 {
 color = 9;
-glyphname = viramasinh;
+glyphname = viramasinh.alt;
 layers = (
 {
 anchors = (
@@ -77,7 +77,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-132 527 LINE",
+"-132 627 LINE",
 "-132 859 LINE",
 "-142 904 LINE",
 "-148 934 OFFCURVE",
@@ -90,7 +90,7 @@ nodes = (
 "-159 893 OFFCURVE",
 "-158 876 OFFCURVE",
 "-158 840 CURVE SMOOTH",
-"-158 529 LINE"
+"-158 629 LINE"
 );
 },
 {
@@ -203,7 +203,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-140 524 LINE",
+"-140 604 LINE",
 "-140 803 LINE",
 "-163 864 LINE",
 "-172 893 OFFCURVE",
@@ -216,7 +216,7 @@ nodes = (
 "-211 816 OFFCURVE",
 "-208 797 OFFCURVE",
 "-208 766 CURVE SMOOTH",
-"-208 524 LINE"
+"-208 604 LINE"
 );
 },
 {
@@ -266,7 +266,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-151 517 LINE",
+"-151 597 LINE",
 "-151 837 LINE",
 "-189 887 LINE",
 "-193 938 OFFCURVE",
@@ -279,7 +279,7 @@ nodes = (
 "-276 839 OFFCURVE",
 "-272 825 OFFCURVE",
 "-272 793 CURVE SMOOTH",
-"-272 517 LINE"
+"-272 687 LINE"
 );
 },
 {
@@ -446,7 +446,6 @@ nodes = (
 width = 0;
 }
 );
-unicode = 0DCA;
 category = Mark;
 subCategory = Nonspacing;
 }

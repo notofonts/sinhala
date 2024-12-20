@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 9;
 glyphname = uvowelsignsinh.medium;
 layers = (
 {
@@ -142,7 +142,7 @@ nodes = (
 "-492 -261 CURVE SMOOTH",
 "-27 -261 LINE",
 "-27 176 LINE",
-"-99 126 LINE",
+"-99 96 LINE",
 "-99 -193 LINE",
 "-483 -193 LINE SMOOTH",
 "-551 -193 OFFCURVE",

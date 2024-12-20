@@ -5,10 +5,6 @@ layers = (
 {
 anchors = (
 {
-name = entry;
-position = "{57, 0}";
-},
-{
 name = repaya;
 position = "{119, 730}";
 }
@@ -103,10 +99,6 @@ width = 522;
 {
 anchors = (
 {
-name = entry;
-position = "{59, 0}";
-},
-{
 name = repaya;
 position = "{414, 730}";
 }
@@ -196,10 +188,6 @@ width = 702;
 },
 {
 anchors = (
-{
-name = entry;
-position = "{50, 0}";
-},
 {
 name = repaya;
 position = "{125, 730}";
@@ -295,10 +283,6 @@ width = 572;
 {
 anchors = (
 {
-name = entry;
-position = "{58, 0}";
-},
-{
 name = repaya;
 position = "{445, 730}";
 }
@@ -359,9 +343,9 @@ nodes = (
 "272 546 OFFCURVE",
 "335 546 CURVE SMOOTH",
 "377 546 OFFCURVE",
-"404 522 OFFCURVE",
-"404 469 CURVE SMOOTH",
-"404 440 LINE",
+"410 522 OFFCURVE",
+"410 469 CURVE SMOOTH",
+"410 440 LINE",
 "472 440 LINE",
 "472 469 LINE SMOOTH",
 "472 521 OFFCURVE",
@@ -388,10 +372,6 @@ width = 758;
 },
 {
 anchors = (
-{
-name = entry;
-position = "{51, 0}";
-},
 {
 name = repaya;
 position = "{486, 730}";
@@ -487,10 +467,6 @@ width = 839;
 {
 anchors = (
 {
-name = entry;
-position = "{40, 0}";
-},
-{
 name = repaya;
 position = "{137, 730}";
 }
@@ -584,10 +560,6 @@ width = 650;
 },
 {
 anchors = (
-{
-name = entry;
-position = "{51, 0}";
-},
 {
 name = repaya;
 position = "{176, 730}";
@@ -684,10 +656,6 @@ width = 839;
 },
 {
 anchors = (
-{
-name = entry;
-position = "{51, 0}";
-},
 {
 name = repaya;
 position = "{187, 730}";

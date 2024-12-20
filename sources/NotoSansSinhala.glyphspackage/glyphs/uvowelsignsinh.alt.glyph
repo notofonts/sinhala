@@ -1,4 +1,5 @@
 {
+color = 9;
 glyphname = uvowelsignsinh.alt;
 layers = (
 {
@@ -6,10 +7,6 @@ anchors = (
 {
 name = _below;
 position = "{398, 9}";
-},
-{
-name = entry;
-position = "{54, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -96,10 +93,6 @@ anchors = (
 {
 name = _below;
 position = "{442, 6}";
-},
-{
-name = entry;
-position = "{44, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -229,10 +222,6 @@ anchors = (
 {
 name = _below;
 position = "{511, 10}";
-},
-{
-name = entry;
-position = "{34, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

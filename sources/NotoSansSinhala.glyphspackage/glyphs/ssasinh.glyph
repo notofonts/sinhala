@@ -4,14 +4,6 @@ layers = (
 {
 anchors = (
 {
-name = Anchor5;
-position = "{554, -15}";
-},
-{
-name = entry;
-position = "{51, 0}";
-},
-{
 name = top;
 position = "{180.991, 533}";
 },
@@ -148,14 +140,6 @@ width = 554;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{767, -15}";
-},
-{
-name = entry;
-position = "{53, 0}";
-},
 {
 name = top;
 position = "{242.737, 533}";
@@ -294,14 +278,6 @@ width = 743;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{592, -15}";
-},
-{
-name = entry;
-position = "{41, 0}";
-},
-{
 name = top;
 position = "{193.405, 533}";
 },
@@ -438,14 +414,6 @@ width = 592;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{790, -15}";
-},
-{
-name = entry;
-position = "{51, 0}";
-},
 {
 name = repaya;
 position = "{395, 730}";
@@ -588,14 +556,6 @@ width = 790;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{854, -15}";
-},
-{
-name = entry;
-position = "{43, 0}";
-},
-{
 name = top;
 position = "{279, 533}";
 },
@@ -732,14 +692,6 @@ width = 854;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{668, -15}";
-},
-{
-name = entry;
-position = "{31, 0}";
-},
 {
 name = top;
 position = "{218.234, 533}";
