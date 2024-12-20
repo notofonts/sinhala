@@ -137,12 +137,8 @@ width = 0;
 {
 anchors = (
 {
-name = _Anchor5;
-position = "{0, -15}";
-},
-{
-name = _uvowel;
-position = "{-53, 176}";
+name = _rakar;
+position = "{-80, 110}";
 }
 );
 layerId = UUID0;
