@@ -369,8 +369,12 @@ name = entry;
 position = "{53, 0}";
 },
 {
+name = repaya;
+position = "{455, 730}";
+},
+{
 name = top;
-position = "{334, 533}";
+position = "{298, 583}";
 },
 {
 name = virama;

@@ -665,6 +665,10 @@ name = entry;
 position = "{46, 0}";
 },
 {
+name = repaya;
+position = "{795, 730}";
+},
+{
 name = virama;
 position = "{1176.143, 536}";
 }

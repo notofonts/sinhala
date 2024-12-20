@@ -17,8 +17,16 @@ name = entry;
 position = "{54, 0}";
 },
 {
+name = repaya;
+position = "{333.241, 730}";
+},
+{
 name = top;
 position = "{228.931, 533}";
+},
+{
+name = uvowel;
+position = "{409, -4}";
 },
 {
 name = virama;
@@ -102,20 +110,16 @@ width = 650;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{888, -15}";
-},
-{
-name = below;
-position = "{565.67, 0}";
-},
-{
-name = entry;
-position = "{54, 0}";
+name = repaya;
+position = "{445.518, 730}";
 },
 {
 name = top;
 position = "{306.063, 533}";
+},
+{
+name = uvowel;
+position = "{545, -4}";
 },
 {
 name = virama;
@@ -211,8 +215,16 @@ name = entry;
 position = "{44, 0}";
 },
 {
+name = repaya;
+position = "{346.571, 730}";
+},
+{
 name = top;
 position = "{238.088, 533}";
+},
+{
+name = uvowel;
+position = "{438, -3}";
 },
 {
 name = virama;
@@ -296,20 +308,16 @@ width = 676;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{907, -15}";
-},
-{
-name = below;
-position = "{590.406, 0}";
-},
-{
-name = entry;
-position = "{53, 0}";
+name = repaya;
+position = "{465, 730}";
 },
 {
 name = top;
-position = "{319.447, 533}";
+position = "{278, 583}";
+},
+{
+name = uvowel;
+position = "{587, -3}";
 },
 {
 name = virama;
@@ -393,20 +401,16 @@ width = 907;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{954, -15}";
-},
-{
-name = below;
-position = "{621, 0}";
-},
-{
-name = entry;
-position = "{43, 0}";
+name = repaya;
+position = "{489.096, 730}";
 },
 {
 name = top;
 position = "{336, 533}";
+},
+{
+name = uvowel;
+position = "{635, 0}";
 },
 {
 name = virama;
@@ -496,8 +500,16 @@ name = entry;
 position = "{34, 0}";
 },
 {
+name = repaya;
+position = "{378.357, 730}";
+},
+{
 name = top;
 position = "{259.925, 533}";
+},
+{
+name = uvowel;
+position = "{504, -3}";
 },
 {
 name = virama;
@@ -593,8 +605,16 @@ name = entry;
 position = "{43, 0}";
 },
 {
+name = repaya;
+position = "{489.096, 730}";
+},
+{
 name = top;
 position = "{336, 533}";
+},
+{
+name = uvowel;
+position = "{639, -2}";
 },
 {
 name = virama;
@@ -692,8 +712,16 @@ name = entry;
 position = "{43, 0}";
 },
 {
+name = repaya;
+position = "{489.096, 730}";
+},
+{
 name = top;
 position = "{336, 533}";
+},
+{
+name = uvowel;
+position = "{645, 622}";
 },
 {
 name = virama;

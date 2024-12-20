@@ -202,6 +202,10 @@ name = entry;
 position = "{51, 0}";
 },
 {
+name = repaya;
+position = "{365, 800}";
+},
+{
 name = uvowel;
 position = "{699.477, 176}";
 }

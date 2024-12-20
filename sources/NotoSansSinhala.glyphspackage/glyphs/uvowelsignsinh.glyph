@@ -128,7 +128,7 @@ width = 0;
 anchors = (
 {
 name = _uvowel;
-position = "{-540, -261}";
+position = "{-27, 72}";
 }
 );
 layerId = UUID0;
