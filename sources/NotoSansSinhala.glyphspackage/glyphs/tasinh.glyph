@@ -5,16 +5,8 @@ layers = (
 {
 anchors = (
 {
-name = Anchor5;
-position = "{665, -15}";
-},
-{
 name = below;
 position = "{460.136, -1}";
-},
-{
-name = entry;
-position = "{32, 0}";
 },
 {
 name = top;
@@ -136,16 +128,8 @@ width = 665;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{920, -15}";
-},
-{
 name = below;
-position = "{616.513, -1}";
-},
-{
-name = entry;
-position = "{34, 0}";
+position = "{587, -1}";
 },
 {
 name = top;
@@ -181,16 +165,16 @@ nodes = (
 "511 15 OFFCURVE",
 "348 15 CURVE SMOOTH",
 "225 15 OFFCURVE",
-"123 46 OFFCURVE",
+"123 66 OFFCURVE",
 "123 201 CURVE SMOOTH",
 "123 211 OFFCURVE",
-"125 231 OFFCURVE",
-"129 250 CURVE",
-"103 251 LINE",
-"98 231 OFFCURVE",
+"123 241 OFFCURVE",
+"134 290 CURVE",
+"108 291 LINE",
+"96 241 OFFCURVE",
 "96 213 OFFCURVE",
 "96 201 CURVE SMOOTH",
-"96 34 OFFCURVE",
+"96 54 OFFCURVE",
 "206 -11 OFFCURVE",
 "347 -11 CURVE SMOOTH"
 );
@@ -198,8 +182,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"768 -3 OFFCURVE",
-"850 90 OFFCURVE",
+"850 82 OFFCURVE",
 "850 286 CURVE SMOOTH",
 "850 495 OFFCURVE",
 "742 612 OFFCURVE",
@@ -225,40 +208,38 @@ nodes = (
 "823 487 OFFCURVE",
 "823 287 CURVE SMOOTH",
 "823 117 OFFCURVE",
-"763 23 OFFCURVE",
-"624 23 CURVE SMOOTH",
-"605 23 OFFCURVE",
-"589 24 OFFCURVE",
-"570 27 CURVE",
-"567 1 LINE",
-"589 -2 OFFCURVE",
-"607 -3 OFFCURVE",
-"624 -3 CURVE SMOOTH"
+"753 21 OFFCURVE",
+"634 21 CURVE SMOOTH",
+"615 21 OFFCURVE",
+"606 22 OFFCURVE",
+"587 25 CURVE",
+"587 -1 LINE",
+"761 -27 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"90 591 OFFCURVE",
+"96 591 OFFCURVE",
 "46 548 OFFCURVE",
 "46 473 CURVE SMOOTH",
-"46 455 OFFCURVE",
-"50 421 OFFCURVE",
-"58 395 CURVE",
-"84 400 LINE",
-"78 421 OFFCURVE",
+"46 445 OFFCURVE",
+"53 421 OFFCURVE",
+"57 413 CURVE",
+"84 413 LINE",
+"78 430 OFFCURVE",
 "73 445 OFFCURVE",
 "73 473 CURVE SMOOTH",
 "73 538 OFFCURVE",
-"108 565 OFFCURVE",
-"154 565 CURVE SMOOTH",
-"211 565 OFFCURVE",
-"235 522 OFFCURVE",
+"114 565 OFFCURVE",
+"160 565 CURVE SMOOTH",
+"217 565 OFFCURVE",
+"253 522 OFFCURVE",
 "253 458 CURVE",
 "275 470 LINE",
-"257 533 OFFCURVE",
-"228 591 OFFCURVE",
-"154 591 CURVE SMOOTH"
+"275 533 OFFCURVE",
+"234 591 OFFCURVE",
+"160 591 CURVE SMOOTH"
 );
 }
 );
@@ -267,16 +248,8 @@ width = 891;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{708, -15}";
-},
-{
 name = below;
 position = "{489.889, -1}";
-},
-{
-name = entry;
-position = "{24, 0}";
 },
 {
 name = top;
@@ -398,20 +371,16 @@ width = 708;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{948, -15}";
-},
-{
 name = below;
-position = "{655.953, -1}";
+position = "{654, -5}";
 },
 {
-name = entry;
-position = "{36, 0}";
+name = repaya;
+position = "{545, 730}";
 },
 {
 name = top;
-position = "{361, 533}";
+position = "{401, 533}";
 },
 {
 name = virama;
@@ -430,12 +399,12 @@ nodes = (
 "560 448 OFFCURVE",
 "412 448 CURVE SMOOTH",
 "356 448 OFFCURVE",
-"306 423 OFFCURVE",
-"281 411 CURVE",
+"286 423 OFFCURVE",
+"261 411 CURVE",
 "202 338 LINE",
 "269 369 OFFCURVE",
 "316 380 OFFCURVE",
-"395 380 CURVE SMOOTH",
+"385 380 CURVE SMOOTH",
 "497 380 OFFCURVE",
 "575 338 OFFCURVE",
 "575 227 CURVE SMOOTH",
@@ -443,11 +412,11 @@ nodes = (
 "519 60 OFFCURVE",
 "373 60 CURVE SMOOTH",
 "263 60 OFFCURVE",
-"187 101 OFFCURVE",
-"187 202 CURVE SMOOTH",
-"187 220 OFFCURVE",
-"189 238 OFFCURVE",
-"193 251 CURVE",
+"177 101 OFFCURVE",
+"177 222 CURVE SMOOTH",
+"177 270 OFFCURVE",
+"189 297 OFFCURVE",
+"193 310 CURVE",
 "130 255 LINE",
 "122 231 OFFCURVE",
 "121 207 OFFCURVE",
@@ -460,8 +429,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"817 -3 OFFCURVE",
-"912 96 OFFCURVE",
+"820 -5 OFFCURVE",
+"912 103 OFFCURVE",
 "912 287 CURVE SMOOTH",
 "912 481 OFFCURVE",
 "797 612 OFFCURVE",
@@ -471,9 +440,9 @@ nodes = (
 "274 483 CURVE",
 "256 468 LINE",
 "175 391 OFFCURVE",
-"99 291 OFFCURVE",
-"21 180 CURVE",
-"85 144 LINE",
+"99 287 OFFCURVE",
+"21 176 CURVE",
+"77 140 LINE",
 "130 221 LINE",
 "142 230 LINE",
 "181 285 OFFCURVE",
@@ -486,39 +455,39 @@ nodes = (
 "732 541 OFFCURVE",
 "837 458 OFFCURVE",
 "837 292 CURVE SMOOTH",
-"837 165 OFFCURVE",
-"803 66 OFFCURVE",
-"692 66 CURVE SMOOTH",
-"684 66 OFFCURVE",
-"666 67 OFFCURVE",
-"658 68 CURVE",
-"654 -1 LINE",
-"669 -3 OFFCURVE",
-"683 -3 OFFCURVE",
-"701 -3 CURVE SMOOTH"
+"837 167 OFFCURVE",
+"793 74 OFFCURVE",
+"644 64 CURVE",
+"644 -5 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"67 592 OFFCURVE",
-"35 538 OFFCURVE",
-"35 443 CURVE",
-"105 443 LINE",
-"105 491 OFFCURVE",
-"117 526 OFFCURVE",
-"168 526 CURVE SMOOTH",
-"212 526 OFFCURVE",
-"227 504 OFFCURVE",
-"227 466 CURVE SMOOTH",
-"227 443 OFFCURVE",
-"212 426 OFFCURVE",
-"199 409 CURVE",
-"256 413 LINE",
-"271 455 OFFCURVE",
-"277 484 OFFCURVE",
-"277 504 CURVE SMOOTH",
-"277 550 OFFCURVE",
+"74 592 OFFCURVE",
+"25 531 OFFCURVE",
+"25 449 CURVE SMOOTH",
+"25 436 OFFCURVE",
+"25 431 OFFCURVE",
+"26 425 CURVE",
+"106 425 LINE",
+"105 431 OFFCURVE",
+"105 437 OFFCURVE",
+"105 453 CURVE SMOOTH",
+"105 492 OFFCURVE",
+"131 526 OFFCURVE",
+"176 526 CURVE SMOOTH",
+"221 526 OFFCURVE",
+"237 494 OFFCURVE",
+"237 456 CURVE SMOOTH",
+"237 438 OFFCURVE",
+"249 427 OFFCURVE",
+"236 410 CURVE",
+"266 413 LINE",
+"281 455 OFFCURVE",
+"290 454 OFFCURVE",
+"290 484 CURVE SMOOTH",
+"290 550 OFFCURVE",
 "240 592 OFFCURVE",
 "167 592 CURVE SMOOTH"
 );
@@ -529,16 +498,8 @@ width = 948;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{1029, -15}";
-},
-{
 name = below;
 position = "{712, -1}";
-},
-{
-name = entry;
-position = "{29, 0}";
 },
 {
 name = top;
@@ -622,12 +583,18 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"111 612 OFFCURVE",
-"71 514 OFFCURVE",
+"122 612 OFFCURVE",
+"71 530 OFFCURVE",
+"71 446 CURVE SMOOTH",
+"71 438 OFFCURVE",
+"71 430 OFFCURVE",
 "71 422 CURVE",
 "211 422 LINE",
-"211 454 OFFCURVE",
-"229 491 OFFCURVE",
+"211 427 OFFCURVE",
+"211 432 OFFCURVE",
+"211 437 CURVE SMOOTH",
+"211 465 OFFCURVE",
+"234 491 OFFCURVE",
 "260 491 CURVE SMOOTH",
 "284 491 OFFCURVE",
 "296 473 OFFCURVE",
@@ -647,16 +614,8 @@ width = 1029;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{806, -15}";
-},
-{
 name = below;
 position = "{557.699, -1}";
-},
-{
-name = entry;
-position = "{26, 0}";
 },
 {
 name = top;
@@ -778,16 +737,8 @@ width = 806;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{948, -15}";
-},
-{
 name = below;
 position = "{655.953, -1}";
-},
-{
-name = entry;
-position = "{36, 0}";
 },
 {
 name = top;
@@ -911,16 +862,8 @@ width = 948;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{1029, -15}";
-},
-{
 name = below;
 position = "{712, -1}";
-},
-{
-name = entry;
-position = "{29, 0}";
 },
 {
 name = top;

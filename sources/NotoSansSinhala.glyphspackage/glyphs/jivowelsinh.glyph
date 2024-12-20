@@ -1,14 +1,7 @@
 {
-color = 4;
 glyphname = jivowelsinh;
 layers = (
 {
-anchors = (
-{
-name = entry;
-position = "{51, 0}";
-}
-);
 components = (
 {
 name = jasinh;
@@ -45,12 +38,6 @@ nodes = (
 width = 554;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{53, 0}";
-}
-);
 components = (
 {
 name = jasinh;
@@ -87,12 +74,6 @@ nodes = (
 width = 743;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{41, 0}";
-}
-);
 components = (
 {
 name = jasinh;
@@ -129,12 +110,6 @@ nodes = (
 width = 592;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{51, 0}";
-}
-);
 components = (
 {
 name = jasinh;
@@ -171,12 +146,6 @@ nodes = (
 width = 790;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{43, 0}";
-}
-);
 components = (
 {
 name = jasinh;
@@ -213,12 +182,6 @@ nodes = (
 width = 854;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{31, 0}";
-}
-);
 components = (
 {
 name = jasinh;

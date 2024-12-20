@@ -2,12 +2,6 @@
 glyphname = jnyuuvowelsinh;
 layers = (
 {
-anchors = (
-{
-name = entry;
-position = "{46, 0}";
-}
-);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -180,12 +174,6 @@ nodes = (
 width = 814;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{47, 0}";
-}
-);
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -358,12 +346,6 @@ nodes = (
 width = 1092;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{36, 0}";
-}
-);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -536,12 +518,6 @@ nodes = (
 width = 875;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{47, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -714,12 +690,6 @@ nodes = (
 width = 1170;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{38, 0}";
-}
-);
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 paths = (
 {
@@ -892,12 +862,6 @@ nodes = (
 width = 1284;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{26, 0}";
-}
-);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {

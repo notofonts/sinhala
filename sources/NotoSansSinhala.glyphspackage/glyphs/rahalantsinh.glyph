@@ -1,14 +1,9 @@
 {
-color = 4;
+color = 0;
+export = 0;
 glyphname = rahalantsinh;
 layers = (
 {
-anchors = (
-{
-name = entry;
-position = "{53, 0}";
-}
-);
 components = (
 {
 name = rasinh;
@@ -22,12 +17,6 @@ layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 width = 498;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{53, 0}";
-}
-);
 components = (
 {
 name = rasinh;
@@ -41,12 +30,6 @@ layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 width = 669;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{43, 0}";
-}
-);
 components = (
 {
 name = rasinh;
@@ -60,12 +43,6 @@ layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 width = 528;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{51, 0}";
-}
-);
 components = (
 {
 name = rasinh;
@@ -79,12 +56,6 @@ layerId = UUID0;
 width = 702;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{43, 0}";
-}
-);
 components = (
 {
 name = rasinh;
@@ -98,12 +69,6 @@ layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 width = 746;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{30, 0}";
-}
-);
 components = (
 {
 name = rasinh;

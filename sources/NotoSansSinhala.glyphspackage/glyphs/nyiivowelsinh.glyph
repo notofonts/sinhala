@@ -1,14 +1,7 @@
 {
-color = 11;
 glyphname = nyiivowelsinh;
 layers = (
 {
-anchors = (
-{
-name = entry;
-position = "{47, 0}";
-}
-);
 components = (
 {
 name = nyasinh;
@@ -66,12 +59,6 @@ nodes = (
 width = 910;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{47, 0}";
-}
-);
 components = (
 {
 name = nyasinh;
@@ -129,12 +116,6 @@ nodes = (
 width = 1216;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{37, 0}";
-}
-);
 components = (
 {
 name = nyasinh;
@@ -192,12 +173,6 @@ nodes = (
 width = 971;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{46, 0}";
-}
-);
 components = (
 {
 name = nyasinh;
@@ -255,12 +230,6 @@ nodes = (
 width = 1298;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{38, 0}";
-}
-);
 components = (
 {
 name = nyasinh;
@@ -318,12 +287,6 @@ nodes = (
 width = 1438;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{26, 0}";
-}
-);
 components = (
 {
 name = nyasinh;

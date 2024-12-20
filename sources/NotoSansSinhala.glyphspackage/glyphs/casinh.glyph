@@ -5,14 +5,6 @@ layers = (
 {
 anchors = (
 {
-name = Anchor5;
-position = "{572, -15}";
-},
-{
-name = entry;
-position = "{39, 0}";
-},
-{
 name = uvowel;
 position = "{504.855, 176}";
 }
@@ -91,14 +83,6 @@ width = 572;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{790, -15}";
-},
-{
-name = entry;
-position = "{44, 0}";
-},
 {
 name = uvowel;
 position = "{675.199, 176}";
@@ -179,14 +163,6 @@ width = 765;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{610, -15}";
-},
-{
-name = entry;
-position = "{34, 0}";
-},
-{
 name = uvowel;
 position = "{538.394, 176}";
 }
@@ -265,14 +241,6 @@ width = 610;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{814, -15}";
-},
-{
-name = entry;
-position = "{45, 0}";
-},
 {
 name = uvowel;
 position = "{718.447, 176}";
@@ -353,14 +321,6 @@ width = 814;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{903, -15}";
-},
-{
-name = entry;
-position = "{38, 0}";
-},
-{
 name = uvowel;
 position = "{797, 176}";
 }
@@ -436,14 +396,6 @@ width = 903;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{702, -15}";
-},
-{
-name = entry;
-position = "{27, 0}";
-},
 {
 name = uvowel;
 position = "{619.595, 176}";
@@ -523,14 +475,6 @@ width = 702;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{903, -15}";
-},
-{
-name = entry;
-position = "{38, 0}";
-},
 {
 name = uvowel;
 position = "{797, 176}";

@@ -1,12 +1,9 @@
 {
+color = 4;
 glyphname = dasinh;
 layers = (
 {
 anchors = (
-{
-name = entry;
-position = "{51, 0}";
-},
 {
 name = virama;
 position = "{331.045, 536}";
@@ -98,10 +95,6 @@ width = 399;
 {
 anchors = (
 {
-name = entry;
-position = "{52, 0}";
-},
-{
 name = virama;
 position = "{438.905, 536}";
 }
@@ -191,10 +184,6 @@ width = 529;
 },
 {
 anchors = (
-{
-name = entry;
-position = "{41, 0}";
-},
 {
 name = virama;
 position = "{360.084, 536}";
@@ -286,10 +275,6 @@ width = 434;
 {
 anchors = (
 {
-name = entry;
-position = "{51, 0}";
-},
-{
 name = virama;
 position = "{478.73, 536}";
 }
@@ -380,10 +365,6 @@ width = 577;
 {
 anchors = (
 {
-name = entry;
-position = "{40, 0}";
-},
-{
 name = virama;
 position = "{531, 536}";
 }
@@ -464,10 +445,6 @@ width = 640;
 },
 {
 anchors = (
-{
-name = entry;
-position = "{27, 0}";
-},
 {
 name = virama;
 position = "{416.503, 536}";
@@ -558,10 +535,6 @@ width = 502;
 },
 {
 anchors = (
-{
-name = entry;
-position = "{40, 0}";
-},
 {
 name = virama;
 position = "{531, 536}";

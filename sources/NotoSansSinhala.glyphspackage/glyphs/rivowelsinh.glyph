@@ -1,14 +1,7 @@
 {
-color = 4;
 glyphname = rivowelsinh;
 layers = (
 {
-anchors = (
-{
-name = entry;
-position = "{53, 0}";
-}
-);
 components = (
 {
 name = rasinh;
@@ -45,12 +38,6 @@ nodes = (
 width = 498;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{53, 0}";
-}
-);
 components = (
 {
 name = rasinh;
@@ -87,12 +74,6 @@ nodes = (
 width = 669;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{43, 0}";
-}
-);
 components = (
 {
 name = rasinh;
@@ -129,12 +110,6 @@ nodes = (
 width = 528;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{51, 0}";
-}
-);
 components = (
 {
 name = rasinh;
@@ -171,12 +146,6 @@ nodes = (
 width = 702;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{43, 0}";
-}
-);
 components = (
 {
 name = rasinh;
@@ -191,34 +160,28 @@ nodes = (
 "86 845 OFFCURVE",
 "86 705 CURVE SMOOTH",
 "86 616 OFFCURVE",
-"131 576 OFFCURVE",
-"183 550 CURVE",
-"273 641 LINE",
-"243 654 OFFCURVE",
-"226 669 OFFCURVE",
+"166 495 OFFCURVE",
+"207 536 CURVE",
+"313 596 LINE",
+"283 609 OFFCURVE",
+"226 630 OFFCURVE",
 "226 696 CURVE SMOOTH",
 "226 751 OFFCURVE",
 "317 810 OFFCURVE",
-"413 810 CURVE SMOOTH",
+"385 810 CURVE SMOOTH",
 "460 810 OFFCURVE",
-"484 796 OFFCURVE",
-"501 749 CURVE",
-"622 819 LINE",
-"597 908 OFFCURVE",
+"493 761 OFFCURVE",
+"510 714 CURVE",
+"608 755 LINE",
+"583 844 OFFCURVE",
 "548 953 OFFCURVE",
-"426 953 CURVE SMOOTH"
+"374 953 CURVE SMOOTH"
 );
 }
 );
 width = 746;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{30, 0}";
-}
-);
 components = (
 {
 name = rasinh;

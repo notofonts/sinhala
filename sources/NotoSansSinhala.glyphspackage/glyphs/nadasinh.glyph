@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = nadasinh;
 layers = (
 {
@@ -522,6 +521,12 @@ nodes = (
 width = 800;
 },
 {
+anchors = (
+{
+name = repaya;
+position = "{775, 740}";
+}
+);
 layerId = UUID0;
 paths = (
 {

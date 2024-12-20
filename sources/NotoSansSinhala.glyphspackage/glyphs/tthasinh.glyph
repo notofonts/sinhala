@@ -1,16 +1,9 @@
 {
+color = 4;
 glyphname = tthasinh;
 layers = (
 {
 anchors = (
-{
-name = Anchor5;
-position = "{598, -15}";
-},
-{
-name = entry;
-position = "{51, 0}";
-},
 {
 name = uvowel;
 position = "{547.786, 176}";
@@ -104,14 +97,6 @@ width = 598;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{821, -15}";
-},
-{
-name = entry;
-position = "{53, 0}";
-},
-{
 name = uvowel;
 position = "{723.664, 176}";
 }
@@ -203,14 +188,6 @@ width = 790;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{639, -15}";
-},
-{
-name = entry;
-position = "{41, 0}";
-},
 {
 name = uvowel;
 position = "{585.344, 176}";
@@ -304,14 +281,6 @@ width = 639;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{852, -15}";
-},
-{
-name = entry;
-position = "{51, 0}";
-},
-{
 name = uvowel;
 position = "{780.458, 176}";
 }
@@ -404,14 +373,6 @@ width = 852;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{917, -15}";
-},
-{
-name = entry;
-position = "{43, 0}";
-},
-{
 name = uvowel;
 position = "{840, 176}";
 }
@@ -502,14 +463,6 @@ width = 973;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{712, -15}";
-},
-{
-name = entry;
-position = "{30, 0}";
-},
 {
 name = uvowel;
 position = "{652.214, 176}";
@@ -602,14 +555,6 @@ width = 712;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{917, -15}";
-},
-{
-name = entry;
-position = "{43, 0}";
-},
 {
 name = uvowel;
 position = "{840, 176}";

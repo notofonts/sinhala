@@ -1,14 +1,7 @@
 {
-color = 4;
 glyphname = chiivowelsinh;
 layers = (
 {
-anchors = (
-{
-name = entry;
-position = "{51, 0}";
-}
-);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -161,12 +154,6 @@ nodes = (
 width = 559;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{53, 0}";
-}
-);
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -319,12 +306,6 @@ nodes = (
 width = 748;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{41, 0}";
-}
-);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -477,12 +458,6 @@ nodes = (
 width = 598;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{51, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -635,12 +610,6 @@ nodes = (
 width = 800;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{43, 0}";
-}
-);
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 paths = (
 {
@@ -793,12 +762,6 @@ nodes = (
 width = 862;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{31, 0}";
-}
-);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {
