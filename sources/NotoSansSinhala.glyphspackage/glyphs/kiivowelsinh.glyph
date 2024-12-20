@@ -2,12 +2,6 @@
 glyphname = kiivowelsinh;
 layers = (
 {
-anchors = (
-{
-name = entry;
-position = "{32, 0}";
-}
-);
 components = (
 {
 name = kasinh;
@@ -65,12 +59,6 @@ nodes = (
 width = 707;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{34, 0}";
-}
-);
 components = (
 {
 name = kasinh;
@@ -128,12 +116,6 @@ nodes = (
 width = 945;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{27, 0}";
-}
-);
 components = (
 {
 name = kasinh;
@@ -191,12 +173,6 @@ nodes = (
 width = 747;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{36, 0}";
-}
-);
 components = (
 {
 name = kasinh;
@@ -254,12 +230,6 @@ nodes = (
 width = 1007;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{36, 0}";
-}
-);
 components = (
 {
 name = kasinh;
@@ -317,12 +287,6 @@ nodes = (
 width = 1093;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{26, 0}";
-}
-);
 components = (
 {
 name = kasinh;

@@ -1,4 +1,5 @@
 {
+color = 9;
 glyphname = ivowelsignsinh.alt;
 layers = (
 {
@@ -134,7 +135,7 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-490, 594}";
+position = "{-490, 595}";
 }
 );
 layerId = UUID0;

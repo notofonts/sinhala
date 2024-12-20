@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = ttatthasinh;
 layers = (
 {
@@ -321,6 +320,12 @@ nodes = (
 width = 767;
 },
 {
+anchors = (
+{
+name = repaya;
+position = "{515, 800}";
+}
+);
 layerId = UUID0;
 paths = (
 {

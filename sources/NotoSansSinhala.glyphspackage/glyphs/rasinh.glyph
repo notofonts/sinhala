@@ -5,12 +5,8 @@ layers = (
 {
 anchors = (
 {
-name = Anchor5;
-position = "{498, -15}";
-},
-{
-name = entry;
-position = "{53, 0}";
+name = virama;
+position = "{125.501, 517}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -65,12 +61,8 @@ width = 498;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{686, -15}";
-},
-{
-name = entry;
-position = "{53, 0}";
+name = virama;
+position = "{168.595, 517}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -125,12 +117,8 @@ width = 669;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{528, -15}";
-},
-{
-name = entry;
-position = "{43, 0}";
+name = virama;
+position = "{133.062, 517}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -185,12 +173,8 @@ width = 528;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{702, -15}";
-},
-{
-name = entry;
-position = "{51, 0}";
+name = virama;
+position = "{176.912, 517}";
 }
 );
 layerId = UUID0;
@@ -245,12 +229,8 @@ width = 702;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{738, -15}";
-},
-{
-name = entry;
-position = "{35, 0}";
+name = virama;
+position = "{188, 517}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -305,12 +285,8 @@ width = 730;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{572, -15}";
-},
-{
-name = entry;
-position = "{30, 0}";
+name = virama;
+position = "{144.15, 517}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -365,12 +341,8 @@ width = 572;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{746, -15}";
-},
-{
-name = entry;
-position = "{43, 0}";
+name = virama;
+position = "{188, 517}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";

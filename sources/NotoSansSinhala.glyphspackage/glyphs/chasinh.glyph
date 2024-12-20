@@ -1,16 +1,9 @@
 {
+color = 7;
 glyphname = chasinh;
 layers = (
 {
 anchors = (
-{
-name = Anchor5;
-position = "{559, -15}";
-},
-{
-name = entry;
-position = "{51, 0}";
-},
 {
 name = uvowel;
 position = "{523.333, 176}";
@@ -124,14 +117,6 @@ width = 559;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{774, -15}";
-},
-{
-name = entry;
-position = "{53, 0}";
-},
-{
 name = uvowel;
 position = "{700.274, 176}";
 }
@@ -243,14 +228,6 @@ width = 748;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{598, -15}";
-},
-{
-name = entry;
-position = "{41, 0}";
-},
 {
 name = uvowel;
 position = "{559.845, 176}";
@@ -364,14 +341,6 @@ width = 598;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{800, -15}";
-},
-{
-name = entry;
-position = "{51, 0}";
-},
-{
 name = uvowel;
 position = "{748.956, 176}";
 }
@@ -484,14 +453,6 @@ width = 800;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{869, -15}";
-},
-{
-name = entry;
-position = "{50, 0}";
-},
-{
 name = uvowel;
 position = "{814, 176}";
 }
@@ -596,14 +557,6 @@ width = 863;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{667, -15}";
-},
-{
-name = entry;
-position = "{31, 0}";
-},
 {
 name = uvowel;
 position = "{624.442, 176}";
@@ -716,14 +669,6 @@ width = 667;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{862, -15}";
-},
-{
-name = entry;
-position = "{43, 0}";
-},
 {
 name = uvowel;
 position = "{807, 176}";
