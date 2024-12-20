@@ -7,6 +7,10 @@ anchors = (
 {
 name = entry;
 position = "{57, 0}";
+},
+{
+name = repaya;
+position = "{119, 730}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -101,6 +105,10 @@ anchors = (
 {
 name = entry;
 position = "{59, 0}";
+},
+{
+name = repaya;
+position = "{414, 730}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -191,6 +199,10 @@ anchors = (
 {
 name = entry;
 position = "{50, 0}";
+},
+{
+name = repaya;
+position = "{125, 730}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -285,6 +297,10 @@ anchors = (
 {
 name = entry;
 position = "{58, 0}";
+},
+{
+name = repaya;
+position = "{445, 730}";
 }
 );
 layerId = UUID0;
@@ -305,10 +321,10 @@ nodes = (
 "104 188 OFFCURVE",
 "126 259 OFFCURVE",
 "176 302 CURVE",
-"202 323 LINE SMOOTH",
+"202 323 LINE",
 "275 382 OFFCURVE",
-"351 389 OFFCURVE",
-"427 389 CURVE SMOOTH",
+"361 389 OFFCURVE",
+"467 389 CURVE SMOOTH",
 "710 389 LINE",
 "710 430 LINE SMOOTH",
 "710 549 OFFCURVE",
@@ -354,8 +370,8 @@ nodes = (
 "597 546 OFFCURVE",
 "637 517 OFFCURVE",
 "640 455 CURVE",
-"422 455 LINE SMOOTH",
-"361 455 OFFCURVE",
+"442 455 LINE SMOOTH",
+"371 455 OFFCURVE",
 "267 445 OFFCURVE",
 "189 399 CURVE",
 "163 375 LINE",
@@ -374,7 +390,11 @@ width = 758;
 anchors = (
 {
 name = entry;
-position = "{34, 0}";
+position = "{51, 0}";
+},
+{
+name = repaya;
+position = "{486, 730}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -469,6 +489,10 @@ anchors = (
 {
 name = entry;
 position = "{40, 0}";
+},
+{
+name = repaya;
+position = "{137, 730}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -563,6 +587,10 @@ anchors = (
 {
 name = entry;
 position = "{51, 0}";
+},
+{
+name = repaya;
+position = "{176, 730}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -659,6 +687,10 @@ anchors = (
 {
 name = entry;
 position = "{51, 0}";
+},
+{
+name = repaya;
+position = "{187, 730}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";

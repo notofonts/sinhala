@@ -356,20 +356,16 @@ width = 806;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{1065, -15}";
-},
-{
 name = below;
 position = "{744.217, -1}";
 },
 {
-name = entry;
-position = "{47, 0}";
+name = repaya;
+position = "{595, 730}";
 },
 {
 name = top;
-position = "{472.926, 533}";
+position = "{398, 583}";
 },
 {
 name = virama;

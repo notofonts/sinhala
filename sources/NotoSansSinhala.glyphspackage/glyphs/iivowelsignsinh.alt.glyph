@@ -5,6 +5,10 @@ layers = (
 {
 anchors = (
 {
+name = _top;
+position = "{130, 627}";
+},
+{
 name = entry;
 position = "{51, 0}";
 }
@@ -62,6 +66,10 @@ width = 554;
 },
 {
 anchors = (
+{
+name = _top;
+position = "{153, 628}";
+},
 {
 name = entry;
 position = "{53, 0}";
@@ -121,6 +129,10 @@ width = 743;
 {
 anchors = (
 {
+name = _top;
+position = "{168, 634}";
+},
+{
 name = entry;
 position = "{41, 0}";
 }
@@ -178,6 +190,10 @@ width = 592;
 },
 {
 anchors = (
+{
+name = _top;
+position = "{197, 634}";
+},
 {
 name = entry;
 position = "{51, 0}";
@@ -239,6 +255,10 @@ anchors = (
 {
 name = _top;
 position = "{-485, 565}";
+},
+{
+name = entry;
+position = "{0.069, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -294,6 +314,10 @@ width = 0;
 },
 {
 anchors = (
+{
+name = _top;
+position = "{226, 642}";
+},
 {
 name = entry;
 position = "{31, 0}";

@@ -391,8 +391,12 @@ name = entry;
 position = "{45, 0}";
 },
 {
+name = repaya;
+position = "{465, 730}";
+},
+{
 name = top;
-position = "{372.81, 533}";
+position = "{298, 583}";
 },
 {
 name = uvowel;
