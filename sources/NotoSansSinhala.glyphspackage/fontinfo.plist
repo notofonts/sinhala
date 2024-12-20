@@ -780,7 +780,7 @@ designer = "Jelle Bosma - Monotype Design Team";
 designerURL = "http://www.monotype.com/studio";
 disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
-familyName = "Noto Sans Sinhala NIGHT";
+familyName = "Noto Sans Sinhala NIGHTLY";
 featurePrefixes = (
 {
 code = "lookup FormRaHalant {\012    sub rasinh viramasinh uni200D by rahalantsinh;\012} FormRaHalant;\012";
