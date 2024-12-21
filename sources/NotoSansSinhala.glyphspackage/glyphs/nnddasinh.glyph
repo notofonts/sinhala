@@ -514,21 +514,21 @@ width = 1000;
 anchors = (
 {
 name = Anchor5;
-position = "{1129, -15}";
+position = "{1121, -15}";
 },
 {
 name = entry;
-position = "{38, 0}";
+position = "{30, 0}";
 },
 {
 name = uvowel;
-position = "{1057, 176}";
+position = "{1049, 176}";
 }
 );
 components = (
 {
 name = ddasinh;
-transform = "{1, 0, 0, 1, 210, 0}";
+transform = "{1, 0, 0, 1, 202, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -536,32 +536,32 @@ paths = (
 {
 closed = 1;
 nodes = (
-"28 134 OFFCURVE",
-"102 -5 OFFCURVE",
-"241 -5 CURVE",
-"241 38 OFFCURVE",
-"242 91 OFFCURVE",
-"242 133 CURVE",
-"200 134 OFFCURVE",
-"168 188 OFFCURVE",
-"168 304 CURVE SMOOTH",
-"168 407 OFFCURVE",
-"197 510 OFFCURVE",
-"269 510 CURVE SMOOTH",
-"291 510 OFFCURVE",
-"310 496 OFFCURVE",
-"312 475 CURVE",
-"392 520 LINE",
-"384 557 OFFCURVE",
-"323 622 OFFCURVE",
-"247 622 CURVE SMOOTH",
-"119 622 OFFCURVE",
-"28 508 OFFCURVE",
-"28 305 CURVE SMOOTH"
+"20 134 OFFCURVE",
+"94 -5 OFFCURVE",
+"233 -5 CURVE",
+"233 38 OFFCURVE",
+"234 91 OFFCURVE",
+"234 133 CURVE",
+"192 134 OFFCURVE",
+"160 188 OFFCURVE",
+"160 304 CURVE SMOOTH",
+"160 407 OFFCURVE",
+"189 510 OFFCURVE",
+"261 510 CURVE SMOOTH",
+"283 510 OFFCURVE",
+"302 496 OFFCURVE",
+"304 475 CURVE",
+"384 520 LINE",
+"376 557 OFFCURVE",
+"315 622 OFFCURVE",
+"239 622 CURVE SMOOTH",
+"111 622 OFFCURVE",
+"20 508 OFFCURVE",
+"20 305 CURVE SMOOTH"
 );
 }
 );
-width = 1129;
+width = 1123;
 },
 {
 anchors = (
@@ -820,6 +820,8 @@ nodes = (
 width = 1129;
 }
 );
+leftMetricsKey = nngasinh;
 rightKerningGroup = ngasinh;
+rightMetricsKey = ddasinh;
 unicode = 0DAC;
 }
