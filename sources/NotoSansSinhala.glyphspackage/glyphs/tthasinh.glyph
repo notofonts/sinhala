@@ -5,6 +5,10 @@ layers = (
 {
 anchors = (
 {
+name = top;
+position = "{316.547, 676}";
+},
+{
 name = uvowel;
 position = "{547.786, 176}";
 }
@@ -96,6 +100,10 @@ width = 598;
 },
 {
 anchors = (
+{
+name = top;
+position = "{418.181, 676}";
+},
 {
 name = uvowel;
 position = "{723.664, 176}";
@@ -189,6 +197,10 @@ width = 790;
 {
 anchors = (
 {
+name = top;
+position = "{338.25, 676}";
+},
+{
 name = uvowel;
 position = "{585.344, 176}";
 }
@@ -281,6 +293,10 @@ width = 639;
 {
 anchors = (
 {
+name = top;
+position = "{451, 676}";
+},
+{
 name = uvowel;
 position = "{780.458, 176}";
 }
@@ -290,6 +306,12 @@ paths = (
 {
 closed = 1;
 nodes = (
+"325 -11 OFFCURVE",
+"365 22 OFFCURVE",
+"405 77 CURVE",
+"439 29 OFFCURVE",
+"486 -11 OFFCURVE",
+"576 -11 CURVE SMOOTH",
 "713 -11 OFFCURVE",
 "813 78 OFFCURVE",
 "813 312 CURVE SMOOTH",
@@ -333,13 +355,7 @@ nodes = (
 "36 226 CURVE SMOOTH",
 "36 64 OFFCURVE",
 "124 -11 OFFCURVE",
-"236 -11 CURVE SMOOTH",
-"325 -11 OFFCURVE",
-"365 22 OFFCURVE",
-"405 77 CURVE",
-"439 29 OFFCURVE",
-"486 -11 OFFCURVE",
-"576 -11 CURVE SMOOTH"
+"236 -11 CURVE SMOOTH"
 );
 },
 {
@@ -372,6 +388,10 @@ width = 852;
 },
 {
 anchors = (
+{
+name = top;
+position = "{476, 686}";
+},
 {
 name = uvowel;
 position = "{840, 176}";
@@ -464,6 +484,10 @@ width = 973;
 {
 anchors = (
 {
+name = top;
+position = "{376.892, 676}";
+},
+{
 name = uvowel;
 position = "{652.214, 176}";
 }
@@ -555,6 +579,10 @@ width = 712;
 },
 {
 anchors = (
+{
+name = top;
+position = "{485.407, 676}";
+},
 {
 name = uvowel;
 position = "{840, 176}";

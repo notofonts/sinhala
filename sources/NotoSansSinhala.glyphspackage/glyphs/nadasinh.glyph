@@ -2,6 +2,16 @@
 glyphname = nadasinh;
 layers = (
 {
+anchors = (
+{
+name = repaya;
+position = "{531.629, 740}";
+},
+{
+name = top;
+position = "{410.667, 533}";
+}
+);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -175,6 +185,16 @@ nodes = (
 width = 758;
 },
 {
+anchors = (
+{
+name = repaya;
+position = "{731.516, 740}";
+},
+{
+name = top;
+position = "{565.073, 533}";
+}
+);
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -348,6 +368,16 @@ nodes = (
 width = 1043;
 },
 {
+anchors = (
+{
+name = repaya;
+position = "{561.086, 740}";
+},
+{
+name = top;
+position = "{433.421, 533}";
+}
+);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -525,6 +555,10 @@ anchors = (
 {
 name = repaya;
 position = "{775, 740}";
+},
+{
+name = top;
+position = "{589, 573}";
 }
 );
 layerId = UUID0;
@@ -700,6 +734,16 @@ nodes = (
 width = 1105;
 },
 {
+anchors = (
+{
+name = repaya;
+position = "{797.443, 740}";
+},
+{
+name = top;
+position = "{616, 533}";
+}
+);
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 paths = (
 {
@@ -873,6 +917,16 @@ nodes = (
 width = 1137;
 },
 {
+anchors = (
+{
+name = repaya;
+position = "{612.986, 740}";
+},
+{
+name = top;
+position = "{473.513, 533}";
+}
+);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {
