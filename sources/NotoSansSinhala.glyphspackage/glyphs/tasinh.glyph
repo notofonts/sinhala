@@ -499,7 +499,7 @@ width = 948;
 anchors = (
 {
 name = below;
-position = "{712, -1}";
+position = "{684, -1}";
 },
 {
 name = top;
