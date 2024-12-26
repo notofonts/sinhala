@@ -445,12 +445,8 @@ width = 1065;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{1154, -15}";
-},
-{
 name = below;
-position = "{804, -1}";
+position = "{812, -1}";
 },
 {
 name = top;
