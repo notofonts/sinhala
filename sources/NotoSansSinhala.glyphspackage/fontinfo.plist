@@ -874,7 +874,11 @@ descender = -293;
 guideLines = (
 {
 name = "sa-shoulder";
-position = "{-98, 413}";
+position = "{-66, 413}";
+},
+{
+name = "pa-terminal";
+position = "{-66, 452}";
 }
 );
 id = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -896,14 +900,19 @@ capHeight = 612;
 descender = -293;
 guideLines = (
 {
-name = "sa-shoulder";
-position = "{-98, 425}";
+name = "pa-shoulder";
+position = "{-67, 425}";
+},
+{
+name = "pa-terminal";
+position = "{-66, 458}";
 }
 );
 id = UUID0;
 verticalStems = (
 73
 );
+visible = 1;
 weightValue = 90;
 xHeight = 536;
 },
@@ -18288,6 +18297,13 @@ p,
 (
 q,
 0,
+0
+)
+);
+casinh = (
+(
+vasinh,
+1,
 0
 )
 );
