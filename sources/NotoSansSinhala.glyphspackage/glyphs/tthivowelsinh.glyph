@@ -2,12 +2,6 @@
 glyphname = tthivowelsinh;
 layers = (
 {
-anchors = (
-{
-name = entry;
-position = "{51, 0}";
-}
-);
 components = (
 {
 name = tthasinh;
@@ -50,12 +44,6 @@ nodes = (
 width = 598;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{53, 0}";
-}
-);
 components = (
 {
 name = tthasinh;
@@ -98,12 +86,6 @@ nodes = (
 width = 790;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{41, 0}";
-}
-);
 components = (
 {
 name = tthasinh;
@@ -146,12 +128,6 @@ nodes = (
 width = 639;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{51, 0}";
-}
-);
 components = (
 {
 name = tthasinh;
@@ -194,12 +170,6 @@ nodes = (
 width = 852;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{43, 0}";
-}
-);
 components = (
 {
 name = tthasinh;
@@ -242,12 +212,6 @@ nodes = (
 width = 917;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{30, 0}";
-}
-);
 components = (
 {
 name = tthasinh;

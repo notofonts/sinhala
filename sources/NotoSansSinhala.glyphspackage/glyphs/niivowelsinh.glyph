@@ -2,12 +2,6 @@
 glyphname = niivowelsinh;
 layers = (
 {
-anchors = (
-{
-name = entry;
-position = "{46, 0}";
-}
-);
 components = (
 {
 name = nasinh;
@@ -65,12 +59,6 @@ nodes = (
 width = 664;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{61, 0}";
-}
-);
 components = (
 {
 name = nasinh;
@@ -128,12 +116,6 @@ nodes = (
 width = 900;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{61, 0}";
-}
-);
 components = (
 {
 name = nasinh;
@@ -191,12 +173,6 @@ nodes = (
 width = 713;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{72, 0}";
-}
-);
 components = (
 {
 name = nasinh;
@@ -254,12 +230,6 @@ nodes = (
 width = 963;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{60, 0}";
-}
-);
 components = (
 {
 name = nasinh;
@@ -317,12 +287,6 @@ nodes = (
 width = 996;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{49, 0}";
-}
-);
 components = (
 {
 name = nasinh;

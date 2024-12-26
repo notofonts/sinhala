@@ -4,14 +4,6 @@ layers = (
 {
 anchors = (
 {
-name = Anchor5;
-position = "{658, -15}";
-},
-{
-name = entry;
-position = "{54, 0}";
-},
-{
 name = top;
 position = "{250, 533}";
 },
@@ -122,14 +114,6 @@ width = 658;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{895, -15}";
-},
-{
-name = entry;
-position = "{54, 0}";
-},
 {
 name = top;
 position = "{330, 533}";
@@ -242,14 +226,6 @@ width = 872;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{690, -15}";
-},
-{
-name = entry;
-position = "{44, 0}";
-},
-{
 name = top;
 position = "{255, 533}";
 },
@@ -361,16 +337,12 @@ width = 690;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{917, -15}";
-},
-{
-name = entry;
-position = "{53, 0}";
+name = repaya;
+position = "{455, 730}";
 },
 {
 name = top;
-position = "{334, 533}";
+position = "{298, 583}";
 },
 {
 name = virama;
@@ -479,14 +451,6 @@ width = 917;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{980, -15}";
-},
-{
-name = entry;
-position = "{43, 0}";
-},
 {
 name = top;
 position = "{356, 533}";
@@ -598,14 +562,6 @@ width = 980;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{769, -15}";
-},
-{
-name = entry;
-position = "{34, 0}";
-},
 {
 name = top;
 position = "{270, 533}";

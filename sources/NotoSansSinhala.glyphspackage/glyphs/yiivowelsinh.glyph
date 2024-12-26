@@ -2,12 +2,6 @@
 glyphname = yiivowelsinh;
 layers = (
 {
-anchors = (
-{
-name = entry;
-position = "{51, 0}";
-}
-);
 components = (
 {
 name = yasinh;
@@ -65,12 +59,6 @@ nodes = (
 width = 566;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{53, 0}";
-}
-);
 components = (
 {
 name = yasinh;
@@ -128,12 +116,6 @@ nodes = (
 width = 753;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{41, 0}";
-}
-);
 components = (
 {
 name = yasinh;
@@ -191,12 +173,6 @@ nodes = (
 width = 611;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{51, 0}";
-}
-);
 components = (
 {
 name = yasinh;
@@ -254,12 +230,6 @@ nodes = (
 width = 812;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{43, 0}";
-}
-);
 components = (
 {
 name = yasinh;
@@ -317,12 +287,6 @@ nodes = (
 width = 893;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{30, 0}";
-}
-);
 components = (
 {
 name = yasinh;

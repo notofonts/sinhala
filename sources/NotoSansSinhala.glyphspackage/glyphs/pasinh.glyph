@@ -5,14 +5,6 @@ layers = (
 {
 anchors = (
 {
-name = Anchor5;
-position = "{554, -15}";
-},
-{
-name = entry;
-position = "{51, 0}";
-},
-{
 name = top;
 position = "{174.504, 533}";
 },
@@ -114,16 +106,8 @@ width = 554;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{788, -15}";
-},
-{
-name = entry;
-position = "{74, 0}";
-},
-{
 name = top;
-position = "{255, 533}";
+position = "{183, 606}";
 },
 {
 name = uvowel;
@@ -216,14 +200,6 @@ width = 784;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{592, -15}";
-},
-{
-name = entry;
-position = "{41, 0}";
-},
 {
 name = top;
 position = "{186.473, 533}";
@@ -326,16 +302,8 @@ width = 592;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{800, -15}";
-},
-{
-name = entry;
-position = "{61, 0}";
-},
-{
 name = top;
-position = "{259, 533}";
+position = "{220, 583}";
 },
 {
 name = uvowel;
@@ -508,16 +476,8 @@ width = 810;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{869, -15}";
-},
-{
-name = entry;
-position = "{58, 0}";
-},
-{
 name = top;
-position = "{284, 533}";
+position = "{284, 565}";
 },
 {
 name = uvowel;
@@ -690,14 +650,6 @@ width = 882;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{660, -15}";
-},
-{
-name = entry;
-position = "{31, 0}";
-},
-{
 name = top;
 position = "{207.892, 533}";
 },
@@ -798,14 +750,6 @@ width = 660;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{790, -15}";
-},
-{
-name = entry;
-position = "{51, 0}";
-},
 {
 name = top;
 position = "{248.841, 533}";
@@ -910,14 +854,6 @@ width = 790;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{854, -15}";
-},
-{
-name = entry;
-position = "{43, 0}";
-},
-{
 name = top;
 position = "{269, 533}";
 },
@@ -1020,14 +956,6 @@ width = 854;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{767, -15}";
-},
-{
-name = entry;
-position = "{53, 0}";
-},
 {
 name = top;
 position = "{234.036, 533}";
@@ -1132,14 +1060,6 @@ width = 743;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{790, -15}";
-},
-{
-name = entry;
-position = "{51, 0}";
-},
-{
 name = top;
 position = "{248.841, 533}";
 },
@@ -1236,14 +1156,6 @@ width = 790;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{854, -15}";
-},
-{
-name = entry;
-position = "{43, 0}";
-},
 {
 name = top;
 position = "{269, 533}";

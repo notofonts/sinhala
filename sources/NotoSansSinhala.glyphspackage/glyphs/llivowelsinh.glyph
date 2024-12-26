@@ -2,12 +2,6 @@
 glyphname = llivowelsinh;
 layers = (
 {
-anchors = (
-{
-name = entry;
-position = "{57, 0}";
-}
-);
 components = (
 {
 name = llasinh;
@@ -50,12 +44,6 @@ nodes = (
 width = 522;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{59, 0}";
-}
-);
 components = (
 {
 name = llasinh;
@@ -98,12 +86,6 @@ nodes = (
 width = 702;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{50, 0}";
-}
-);
 components = (
 {
 name = llasinh;
@@ -146,12 +128,6 @@ nodes = (
 width = 572;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{58, 0}";
-}
-);
 components = (
 {
 name = llasinh;
@@ -194,12 +170,6 @@ nodes = (
 width = 758;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{51, 0}";
-}
-);
 components = (
 {
 name = llasinh;
@@ -242,12 +212,6 @@ nodes = (
 width = 839;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{40, 0}";
-}
-);
 components = (
 {
 name = llasinh;
