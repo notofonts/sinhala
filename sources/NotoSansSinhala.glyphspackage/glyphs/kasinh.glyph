@@ -9,6 +9,10 @@ name = below;
 position = "{472, 25}";
 },
 {
+name = repaya;
+position = "{417.741, 730}";
+},
+{
 name = top;
 position = "{294.691, 533}";
 },
@@ -147,6 +151,10 @@ name = below;
 position = "{636, 26}";
 },
 {
+name = repaya;
+position = "{558.366, 730}";
+},
+{
 name = top;
 position = "{374, 533}";
 },
@@ -280,6 +288,10 @@ anchors = (
 {
 name = below;
 position = "{522, 65}";
+},
+{
+name = repaya;
+position = "{441.375, 730}";
 },
 {
 name = top;
@@ -564,6 +576,10 @@ name = below;
 position = "{761, 0}";
 },
 {
+name = repaya;
+position = "{646.405, 730}";
+},
+{
 name = top;
 position = "{456, 533}";
 },
@@ -696,6 +712,10 @@ anchors = (
 {
 name = below;
 position = "{633, 127}";
+},
+{
+name = repaya;
+position = "{517.006, 730}";
 },
 {
 name = top;
@@ -834,6 +854,10 @@ anchors = (
 {
 name = below;
 position = "{795, 134}";
+},
+{
+name = repaya;
+position = "{645.814, 730}";
 },
 {
 name = top;
@@ -976,6 +1000,10 @@ name = below;
 position = "{761, 0}";
 },
 {
+name = repaya;
+position = "{646.405, 730}";
+},
+{
 name = top;
 position = "{456, 533}";
 },
@@ -1110,6 +1138,10 @@ anchors = (
 {
 name = below;
 position = "{732, -3}";
+},
+{
+name = repaya;
+position = "{595, 730}";
 },
 {
 name = top;
