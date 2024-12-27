@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = tthahalantsinh;
 layers = (
 {
@@ -318,7 +319,7 @@ nodes = (
 "617 746 OFFCURVE",
 "618 719 OFFCURVE",
 "621 700 CURVE",
-"736 687 LINE"
+"736 667 LINE"
 );
 },
 {

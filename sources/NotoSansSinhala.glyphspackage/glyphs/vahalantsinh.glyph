@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = vahalantsinh;
 layers = (
 {
@@ -506,7 +507,7 @@ nodes = (
 "70 902 OFFCURVE",
 "70 842 CURVE SMOOTH",
 "70 797 OFFCURVE",
-"99 751 OFFCURVE",
+"111 755 OFFCURVE",
 "154 705 CURVE",
 "258 724 LINE",
 "228 751 OFFCURVE",
@@ -531,7 +532,7 @@ nodes = (
 );
 }
 );
-width = 830;
+width = 842;
 },
 {
 anchors = (
