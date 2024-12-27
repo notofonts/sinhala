@@ -1,7 +1,14 @@
 {
+color = 3;
 glyphname = nnivowelsinh;
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{32, 0}";
+}
+);
 components = (
 {
 name = nnasinh;
@@ -38,6 +45,12 @@ nodes = (
 width = 860;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{44, 0}";
+}
+);
 components = (
 {
 name = nnasinh;
@@ -74,6 +87,12 @@ nodes = (
 width = 1155;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{44, 0}";
+}
+);
 components = (
 {
 name = nnasinh;
@@ -110,6 +129,12 @@ nodes = (
 width = 922;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{51, 0}";
+}
+);
 components = (
 {
 name = nnasinh;
@@ -146,6 +171,12 @@ nodes = (
 width = 1199;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{47, 0}";
+}
+);
 components = (
 {
 name = nnasinh;
@@ -156,32 +187,38 @@ paths = (
 {
 closed = 1;
 nodes = (
-"321 963 OFFCURVE",
-"169 855 OFFCURVE",
-"169 723 CURVE SMOOTH",
-"169 629 OFFCURVE",
-"225 590 OFFCURVE",
-"273 567 CURVE",
-"348 658 LINE",
-"326 670 OFFCURVE",
-"309 684 OFFCURVE",
-"309 714 CURVE SMOOTH",
-"309 761 OFFCURVE",
-"389 820 OFFCURVE",
-"486 820 CURVE SMOOTH",
-"533 820 OFFCURVE",
-"557 805 OFFCURVE",
-"574 758 CURVE",
-"694 832 LINE",
-"666 919 OFFCURVE",
-"621 963 OFFCURVE",
-"497 963 CURVE SMOOTH"
+"197 963 OFFCURVE",
+"73 855 OFFCURVE",
+"73 723 CURVE SMOOTH",
+"73 629 OFFCURVE",
+"129 590 OFFCURVE",
+"177 567 CURVE",
+"310 612 LINE",
+"246 639 OFFCURVE",
+"213 665 OFFCURVE",
+"213 714 CURVE SMOOTH",
+"213 761 OFFCURVE",
+"263 820 OFFCURVE",
+"403 820 CURVE SMOOTH",
+"488 820 OFFCURVE",
+"593 787 OFFCURVE",
+"579 703 CURVE",
+"652 732 LINE",
+"713 809 OFFCURVE",
+"598 963 OFFCURVE",
+"376 963 CURVE SMOOTH"
 );
 }
 );
 width = 1299;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{40, 0}";
+}
+);
 components = (
 {
 name = nnasinh;

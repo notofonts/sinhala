@@ -1,5 +1,4 @@
 {
-color = 9;
 glyphname = uvowelsignsinh;
 layers = (
 {
@@ -129,7 +128,7 @@ width = 0;
 anchors = (
 {
 name = _uvowel;
-position = "{-28, 176}";
+position = "{-540, -261}";
 }
 );
 layerId = UUID0;
@@ -144,8 +143,8 @@ nodes = (
 "-540 -261 OFFCURVE",
 "-452 -261 CURVE SMOOTH",
 "-27 -261 LINE",
-"-27 175 LINE",
-"-99 115 LINE",
+"-27 72 LINE",
+"-99 72 LINE",
 "-99 -193 LINE",
 "-423 -193 LINE SMOOTH",
 "-507 -193 OFFCURVE",
@@ -185,10 +184,10 @@ nodes = (
 "-33 176 LINE",
 "-163 176 LINE",
 "-163 -157 LINE",
-"-533 -157 LINE SMOOTH",
-"-620 -157 OFFCURVE",
-"-637 -92 OFFCURVE",
-"-637 -52 CURVE",
+"-523 -157 LINE SMOOTH",
+"-593 -157 OFFCURVE",
+"-635 -140 OFFCURVE",
+"-603 -52 CURVE",
 "-734 -51 LINE",
 "-751 -96 OFFCURVE",
 "-752 -129 OFFCURVE",
