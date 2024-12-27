@@ -5,16 +5,8 @@ layers = (
 {
 anchors = (
 {
-name = Anchor5;
-position = "{751, -15}";
-},
-{
 name = below;
 position = "{524.795, -1}";
-},
-{
-name = entry;
-position = "{46, 0}";
 },
 {
 name = top;
@@ -122,16 +114,8 @@ width = 751;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{1031, -15}";
-},
-{
 name = below;
 position = "{696, -1}";
-},
-{
-name = entry;
-position = "{47, 0}";
 },
 {
 name = top;
@@ -239,16 +223,8 @@ width = 996;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{806, -15}";
-},
-{
 name = below;
 position = "{563.229, -1}";
-},
-{
-name = entry;
-position = "{36, 0}";
 },
 {
 name = top;
@@ -356,20 +332,16 @@ width = 806;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{1065, -15}";
-},
-{
 name = below;
 position = "{744.217, -1}";
 },
 {
-name = entry;
-position = "{47, 0}";
+name = repaya;
+position = "{595, 730}";
 },
 {
 name = top;
-position = "{472.926, 533}";
+position = "{398, 583}";
 },
 {
 name = virama;
@@ -473,30 +445,22 @@ width = 1065;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{1154, -15}";
-},
-{
 name = below;
-position = "{804, -1}";
-},
-{
-name = entry;
-position = "{30, 0}";
+position = "{812, -1}";
 },
 {
 name = top;
-position = "{508, 533}";
+position = "{516, 533}";
 },
 {
 name = virama;
-position = "{942, 536}";
+position = "{950.331, 536}";
 }
 );
 components = (
 {
 name = gasinh;
-transform = "{1, 0, 0, 1, 192, 0}";
+transform = "{1, 0, 0, 1, 200, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -504,46 +468,38 @@ paths = (
 {
 closed = 1;
 nodes = (
-"20 141 OFFCURVE",
-"94 -5 OFFCURVE",
-"233 -5 CURVE",
-"233 38 OFFCURVE",
-"234 91 OFFCURVE",
-"234 133 CURVE",
-"192 134 OFFCURVE",
-"160 197 OFFCURVE",
-"160 290 CURVE",
-"160 393 OFFCURVE",
-"185 510 OFFCURVE",
-"284 510 CURVE SMOOTH",
-"314 510 OFFCURVE",
-"374 484 OFFCURVE",
-"424 453 CURVE",
-"485 543 LINE",
-"455 569 OFFCURVE",
-"374 622 OFFCURVE",
-"289 622 CURVE SMOOTH",
-"112 622 OFFCURVE",
-"20 494 OFFCURVE",
-"20 291 CURVE SMOOTH"
+"28 141 OFFCURVE",
+"102 -5 OFFCURVE",
+"241 -5 CURVE",
+"241 38 OFFCURVE",
+"242 91 OFFCURVE",
+"242 133 CURVE",
+"200 134 OFFCURVE",
+"168 197 OFFCURVE",
+"168 290 CURVE",
+"168 393 OFFCURVE",
+"193 510 OFFCURVE",
+"292 510 CURVE SMOOTH",
+"322 510 OFFCURVE",
+"382 484 OFFCURVE",
+"432 453 CURVE",
+"493 543 LINE",
+"463 569 OFFCURVE",
+"382 622 OFFCURVE",
+"297 622 CURVE SMOOTH",
+"120 622 OFFCURVE",
+"28 494 OFFCURVE",
+"28 291 CURVE SMOOTH"
 );
 }
 );
-width = 1139;
+width = 1162;
 },
 {
 anchors = (
 {
-name = Anchor5;
-position = "{927, -15}";
-},
-{
 name = below;
 position = "{647.783, -1}";
-},
-{
-name = entry;
-position = "{26, 0}";
 },
 {
 name = top;
@@ -651,16 +607,8 @@ width = 927;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{1162, -15}";
-},
-{
 name = below;
 position = "{812, -1}";
-},
-{
-name = entry;
-position = "{38, 0}";
 },
 {
 name = top;
@@ -770,16 +718,8 @@ width = 1162;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{1162, -15}";
-},
-{
 name = below;
 position = "{806, -1}";
-},
-{
-name = entry;
-position = "{38, 0}";
 },
 {
 name = top;
@@ -896,6 +836,5 @@ width = 1162;
 }
 );
 rightKerningGroup = gasinh;
-rightMetricsKey = kasinh;
 unicode = 0D9F;
 }

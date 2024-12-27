@@ -5,12 +5,8 @@ layers = (
 {
 anchors = (
 {
-name = Anchor5;
-position = "{555, -15}";
-},
-{
-name = entry;
-position = "{51, 0}";
+name = top;
+position = "{312.101, 676}";
 },
 {
 name = uvowel;
@@ -90,12 +86,8 @@ width = 555;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{773, -15}";
-},
-{
-name = entry;
-position = "{53, 0}";
+name = top;
+position = "{418.384, 676}";
 },
 {
 name = uvowel;
@@ -175,12 +167,8 @@ width = 744;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{596, -15}";
-},
-{
-name = entry;
-position = "{41, 0}";
+name = top;
+position = "{335.157, 676}";
 },
 {
 name = uvowel;
@@ -260,12 +248,8 @@ width = 596;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{802, -15}";
-},
-{
-name = entry;
-position = "{51, 0}";
+name = top;
+position = "{451, 676}";
 },
 {
 name = uvowel;
@@ -345,16 +329,12 @@ width = 802;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{829, -15}";
-},
-{
-name = entry;
-position = "{16, 0}";
+name = top;
+position = "{476, 686}";
 },
 {
 name = uvowel;
-position = "{740, 176}";
+position = "{767, 176}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -362,79 +342,75 @@ paths = (
 {
 closed = 1;
 nodes = (
-"20 109 OFFCURVE",
-"149 -11 OFFCURVE",
-"403 -11 CURVE SMOOTH",
-"694 -11 OFFCURVE",
-"831 152 OFFCURVE",
-"831 363 CURVE SMOOTH",
-"831 630 OFFCURVE",
-"655 779 OFFCURVE",
-"403 836 CURVE",
-"388 792 OFFCURVE",
-"379 767 OFFCURVE",
-"367 722 CURVE",
-"585 692 OFFCURVE",
-"670 574 OFFCURVE",
-"670 385 CURVE SMOOTH",
-"670 229 OFFCURVE",
-"574 141 OFFCURVE",
-"390 141 CURVE SMOOTH",
-"243 141 OFFCURVE",
-"184 195 OFFCURVE",
-"184 258 CURVE SMOOTH",
-"184 323 OFFCURVE",
-"226 356 OFFCURVE",
-"302 356 CURVE SMOOTH",
-"345 356 OFFCURVE",
-"379 356 OFFCURVE",
-"410 353 CURVE",
-"418 485 LINE",
-"390 488 OFFCURVE",
-"333 491 OFFCURVE",
-"283 491 CURVE SMOOTH",
-"118 491 OFFCURVE",
-"20 404 OFFCURVE",
-"20 258 CURVE SMOOTH"
+"47 109 OFFCURVE",
+"176 -11 OFFCURVE",
+"430 -11 CURVE SMOOTH",
+"721 -11 OFFCURVE",
+"858 152 OFFCURVE",
+"858 363 CURVE SMOOTH",
+"858 630 OFFCURVE",
+"682 779 OFFCURVE",
+"430 836 CURVE",
+"415 792 OFFCURVE",
+"406 767 OFFCURVE",
+"394 722 CURVE",
+"612 692 OFFCURVE",
+"697 574 OFFCURVE",
+"697 385 CURVE SMOOTH",
+"697 229 OFFCURVE",
+"601 141 OFFCURVE",
+"417 141 CURVE SMOOTH",
+"270 141 OFFCURVE",
+"211 195 OFFCURVE",
+"211 258 CURVE SMOOTH",
+"211 323 OFFCURVE",
+"253 356 OFFCURVE",
+"329 356 CURVE SMOOTH",
+"372 356 OFFCURVE",
+"406 356 OFFCURVE",
+"437 353 CURVE",
+"445 485 LINE",
+"417 488 OFFCURVE",
+"360 491 OFFCURVE",
+"310 491 CURVE SMOOTH",
+"145 491 OFFCURVE",
+"47 404 OFFCURVE",
+"47 258 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"613 487 OFFCURVE",
-"652 519 OFFCURVE",
-"694 593 CURVE",
-"616 650 LINE",
-"596 618 OFFCURVE",
-"585 600 OFFCURVE",
-"557 600 CURVE SMOOTH",
-"520 600 OFFCURVE",
-"510 624 OFFCURVE",
-"510 667 CURVE SMOOTH",
-"510 715 OFFCURVE",
-"505 714 OFFCURVE",
-"471 745 CURVE",
-"367 722 LINE",
-"384 716 OFFCURVE",
-"395 715 OFFCURVE",
-"395 669 CURVE SMOOTH",
-"395 552 OFFCURVE",
-"450 487 OFFCURVE",
-"544 487 CURVE SMOOTH"
+"640 487 OFFCURVE",
+"679 519 OFFCURVE",
+"721 593 CURVE",
+"643 650 LINE",
+"623 618 OFFCURVE",
+"612 600 OFFCURVE",
+"584 600 CURVE SMOOTH",
+"547 600 OFFCURVE",
+"537 624 OFFCURVE",
+"537 667 CURVE SMOOTH",
+"537 715 OFFCURVE",
+"532 714 OFFCURVE",
+"498 745 CURVE",
+"394 722 LINE",
+"411 716 OFFCURVE",
+"422 715 OFFCURVE",
+"422 669 CURVE SMOOTH",
+"422 552 OFFCURVE",
+"477 487 OFFCURVE",
+"571 487 CURVE SMOOTH"
 );
 }
 );
-width = 855;
+width = 856;
 },
 {
 anchors = (
 {
-name = Anchor5;
-position = "{656, -15}";
-},
-{
-name = entry;
-position = "{28, 0}";
+name = top;
+position = "{368.898, 676}";
 },
 {
 name = uvowel;
@@ -514,12 +490,8 @@ width = 656;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{856, -15}";
-},
-{
-name = entry;
-position = "{43, 0}";
+name = top;
+position = "{481.367, 676}";
 },
 {
 name = uvowel;
@@ -599,8 +571,6 @@ nodes = (
 width = 856;
 }
 );
-leftMetricsKey = ttasinh;
 rightKerningGroup = thasinh;
-rightMetricsKey = ttasinh;
 unicode = 0DAE;
 }

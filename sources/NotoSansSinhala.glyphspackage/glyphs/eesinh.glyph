@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = eesinh;
 layers = (
 {
@@ -289,7 +288,7 @@ nodes = (
 "632 746 OFFCURVE",
 "633 719 OFFCURVE",
 "636 700 CURVE",
-"751 620 LINE"
+"751 687 LINE"
 );
 },
 {

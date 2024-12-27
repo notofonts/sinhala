@@ -1,16 +1,11 @@
 {
-color = 4;
 glyphname = rasinh;
 layers = (
 {
 anchors = (
 {
-name = Anchor5;
-position = "{498, -15}";
-},
-{
-name = entry;
-position = "{53, 0}";
+name = virama;
+position = "{125.501, 517}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -65,12 +60,8 @@ width = 498;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{686, -15}";
-},
-{
-name = entry;
-position = "{53, 0}";
+name = virama;
+position = "{168.595, 517}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -125,12 +116,8 @@ width = 669;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{528, -15}";
-},
-{
-name = entry;
-position = "{43, 0}";
+name = virama;
+position = "{133.062, 517}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -185,12 +172,8 @@ width = 528;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{702, -15}";
-},
-{
-name = entry;
-position = "{51, 0}";
+name = virama;
+position = "{176.912, 517}";
 }
 );
 layerId = UUID0;
@@ -245,12 +228,8 @@ width = 702;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{738, -15}";
-},
-{
-name = entry;
-position = "{35, 0}";
+name = virama;
+position = "{188, 517}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -258,59 +237,55 @@ paths = (
 {
 closed = 1;
 nodes = (
-"589 -11 OFFCURVE",
-"710 101 OFFCURVE",
-"710 300 CURVE SMOOTH",
-"710 465 OFFCURVE",
-"595 563 OFFCURVE",
-"441 563 CURVE SMOOTH",
-"392 563 OFFCURVE",
-"310 557 OFFCURVE",
-"313 548 CURVE",
-"197 395 LINE",
-"225 436 OFFCURVE",
-"285 465 OFFCURVE",
-"356 465 CURVE SMOOTH",
-"493 465 OFFCURVE",
-"552 398 OFFCURVE",
-"552 300 CURVE SMOOTH",
-"552 211 OFFCURVE",
-"498 142 OFFCURVE",
-"356 142 CURVE SMOOTH",
-"224 142 OFFCURVE",
-"173 210 OFFCURVE",
-"173 300 CURVE SMOOTH",
-"173 390 OFFCURVE",
-"229 446 OFFCURVE",
-"349 496 CURVE",
-"388 548 LINE",
-"521 590 OFFCURVE",
-"607 626 OFFCURVE",
-"704 702 CURVE",
-"607 814 LINE",
-"484 721 OFFCURVE",
-"376 651 OFFCURVE",
-"260 594 CURVE",
-"64 519 OFFCURVE",
-"20 430 OFFCURVE",
-"20 295 CURVE SMOOTH",
-"20 107 OFFCURVE",
-"156 -11 OFFCURVE",
-"358 -11 CURVE SMOOTH"
+"597 -11 OFFCURVE",
+"718 101 OFFCURVE",
+"718 300 CURVE SMOOTH",
+"718 465 OFFCURVE",
+"603 563 OFFCURVE",
+"449 563 CURVE SMOOTH",
+"400 563 OFFCURVE",
+"318 557 OFFCURVE",
+"321 548 CURVE",
+"205 395 LINE",
+"233 436 OFFCURVE",
+"293 465 OFFCURVE",
+"364 465 CURVE SMOOTH",
+"501 465 OFFCURVE",
+"560 398 OFFCURVE",
+"560 300 CURVE SMOOTH",
+"560 211 OFFCURVE",
+"506 142 OFFCURVE",
+"364 142 CURVE SMOOTH",
+"232 142 OFFCURVE",
+"181 210 OFFCURVE",
+"181 300 CURVE SMOOTH",
+"181 390 OFFCURVE",
+"237 446 OFFCURVE",
+"357 496 CURVE",
+"396 548 LINE",
+"529 590 OFFCURVE",
+"615 626 OFFCURVE",
+"712 702 CURVE",
+"615 814 LINE",
+"492 721 OFFCURVE",
+"384 651 OFFCURVE",
+"268 594 CURVE",
+"72 519 OFFCURVE",
+"28 430 OFFCURVE",
+"28 295 CURVE SMOOTH",
+"28 107 OFFCURVE",
+"164 -11 OFFCURVE",
+"366 -11 CURVE SMOOTH"
 );
 }
 );
-width = 730;
+width = 746;
 },
 {
 anchors = (
 {
-name = Anchor5;
-position = "{572, -15}";
-},
-{
-name = entry;
-position = "{30, 0}";
+name = virama;
+position = "{144.15, 517}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -365,12 +340,8 @@ width = 572;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{746, -15}";
-},
-{
-name = entry;
-position = "{43, 0}";
+name = virama;
+position = "{188, 517}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -425,8 +396,6 @@ nodes = (
 width = 746;
 }
 );
-leftMetricsKey = ttasinh;
 rightKerningGroup = rasinh;
-rightMetricsKey = sasinh;
 unicode = 0DBB;
 }
