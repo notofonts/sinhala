@@ -196,10 +196,6 @@ anchors = (
 {
 name = _virama;
 position = "{-208, 430}";
-},
-{
-name = _virama;
-position = "{-208, 430}";
 }
 );
 layerId = UUID0;
