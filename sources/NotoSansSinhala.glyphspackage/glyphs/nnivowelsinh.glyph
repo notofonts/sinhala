@@ -2,6 +2,12 @@
 glyphname = nnivowelsinh;
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{32, 0}";
+}
+);
 components = (
 {
 name = nnasinh;
@@ -38,6 +44,12 @@ nodes = (
 width = 860;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{44, 0}";
+}
+);
 components = (
 {
 name = nnasinh;
@@ -74,6 +86,12 @@ nodes = (
 width = 1155;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{44, 0}";
+}
+);
 components = (
 {
 name = nnasinh;
@@ -110,6 +128,12 @@ nodes = (
 width = 922;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{51, 0}";
+}
+);
 components = (
 {
 name = nnasinh;
@@ -146,6 +170,12 @@ nodes = (
 width = 1199;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{47, 0}";
+}
+);
 components = (
 {
 name = nnasinh;
@@ -182,6 +212,12 @@ nodes = (
 width = 1299;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{40, 0}";
+}
+);
 components = (
 {
 name = nnasinh;

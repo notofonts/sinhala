@@ -1,7 +1,14 @@
 {
+color = 11;
 glyphname = jnyiivowelsinh;
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{46, 0}";
+}
+);
 components = (
 {
 name = jnyasinh;
@@ -59,6 +66,12 @@ nodes = (
 width = 814;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{47, 0}";
+}
+);
 components = (
 {
 name = jnyasinh;
@@ -116,6 +129,12 @@ nodes = (
 width = 1092;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{36, 0}";
+}
+);
 components = (
 {
 name = jnyasinh;
@@ -173,6 +192,12 @@ nodes = (
 width = 875;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{47, 0}";
+}
+);
 components = (
 {
 name = jnyasinh;
@@ -230,6 +255,12 @@ nodes = (
 width = 1170;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{38, 0}";
+}
+);
 components = (
 {
 name = jnyasinh;
@@ -287,6 +318,12 @@ nodes = (
 width = 1284;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{26, 0}";
+}
+);
 components = (
 {
 name = jnyasinh;

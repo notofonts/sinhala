@@ -1,5 +1,4 @@
 {
-color = 9;
 glyphname = uvowelsignsinh.medium;
 layers = (
 {
@@ -129,7 +128,7 @@ width = 0;
 anchors = (
 {
 name = _uvowel;
-position = "{-27, 176}";
+position = "{-540, -261}";
 }
 );
 layerId = UUID0;
@@ -137,21 +136,30 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-638 -220 OFFCURVE",
-"-584 -261 OFFCURVE",
-"-492 -261 CURVE SMOOTH",
+"-647 -175 OFFCURVE",
+"-635 -203 OFFCURVE",
+"-611 -223 CURVE SMOOTH",
+"-584 -246 OFFCURVE",
+"-540 -261 OFFCURVE",
+"-452 -261 CURVE SMOOTH",
 "-27 -261 LINE",
-"-27 176 LINE",
-"-99 96 LINE",
+"-27 72 LINE",
+"-99 72 LINE",
 "-99 -193 LINE",
-"-483 -193 LINE SMOOTH",
-"-551 -193 OFFCURVE",
-"-574 -168 OFFCURVE",
-"-574 -108 CURVE",
-"-626 -108 LINE",
-"-637 -125 OFFCURVE",
-"-638 -145 OFFCURVE",
-"-638 -160 CURVE SMOOTH"
+"-423 -193 LINE SMOOTH",
+"-507 -193 OFFCURVE",
+"-533 -189 OFFCURVE",
+"-552 -177 CURVE SMOOTH",
+"-567 -168 OFFCURVE",
+"-575 -154 OFFCURVE",
+"-575 -137 CURVE SMOOTH",
+"-575 -117 OFFCURVE",
+"-563 -97 OFFCURVE",
+"-536 -78 CURVE",
+"-586 -27 LINE",
+"-625 -61 OFFCURVE",
+"-647 -95 OFFCURVE",
+"-647 -140 CURVE SMOOTH"
 );
 }
 );

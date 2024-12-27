@@ -1,5 +1,4 @@
 {
-color = 9;
 glyphname = iivowelsignsinh;
 layers = (
 {
@@ -180,7 +179,7 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-566, 537}";
+position = "{-579, 538}";
 }
 );
 layerId = UUID0;

@@ -2,6 +2,12 @@
 glyphname = ndiivowelsinh;
 layers = (
 {
+anchors = (
+{
+name = entry;
+position = "{48, 0}";
+}
+);
 components = (
 {
 name = ndasinh;
@@ -59,6 +65,12 @@ nodes = (
 width = 480;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{47, 0}";
+}
+);
 components = (
 {
 name = ndasinh;
@@ -116,6 +128,12 @@ nodes = (
 width = 607;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{37, 0}";
+}
+);
 components = (
 {
 name = ndasinh;
@@ -173,6 +191,12 @@ nodes = (
 width = 534;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{46, 0}";
+}
+);
 components = (
 {
 name = ndasinh;
@@ -230,6 +254,12 @@ nodes = (
 width = 684;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{38, 0}";
+}
+);
 components = (
 {
 name = ndasinh;
@@ -287,6 +317,12 @@ nodes = (
 width = 816;
 },
 {
+anchors = (
+{
+name = entry;
+position = "{26, 0}";
+}
+);
 components = (
 {
 name = ndasinh;

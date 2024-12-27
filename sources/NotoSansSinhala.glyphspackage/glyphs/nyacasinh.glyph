@@ -1,7 +1,14 @@
 {
+color = 11;
 glyphname = nyacasinh;
 layers = (
 {
+anchors = (
+{
+name = Anchor5;
+position = "{669, -15}";
+}
+);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -100,6 +107,12 @@ nodes = (
 width = 669;
 },
 {
+anchors = (
+{
+name = Anchor5;
+position = "{904, -15}";
+}
+);
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -198,6 +211,12 @@ nodes = (
 width = 865;
 },
 {
+anchors = (
+{
+name = Anchor5;
+position = "{729, -15}";
+}
+);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -298,8 +317,8 @@ width = 729;
 {
 anchors = (
 {
-name = repaya;
-position = "{515, 800}";
+name = Anchor5;
+position = "{943, -15}";
 }
 );
 layerId = UUID0;
@@ -400,6 +419,12 @@ nodes = (
 width = 943;
 },
 {
+anchors = (
+{
+name = Anchor5;
+position = "{1079, -15}";
+}
+);
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 paths = (
 {
@@ -498,6 +523,12 @@ nodes = (
 width = 1079;
 },
 {
+anchors = (
+{
+name = Anchor5;
+position = "{868, -15}";
+}
+);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {

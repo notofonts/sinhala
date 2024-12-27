@@ -1,8 +1,14 @@
 {
-color = 9;
+color = 11;
 glyphname = rakarsinh.long;
 layers = (
 {
+anchors = (
+{
+name = _Anchor5;
+position = "{0, -15}";
+}
+);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -39,8 +45,8 @@ width = 0;
 {
 anchors = (
 {
-name = _rakar;
-position = "{-71, 103}";
+name = _Anchor5;
+position = "{0, -15}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -77,6 +83,12 @@ nodes = (
 width = 0;
 },
 {
+anchors = (
+{
+name = _Anchor5;
+position = "{0, -15}";
+}
+);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -113,8 +125,8 @@ width = 0;
 {
 anchors = (
 {
-name = _rakar;
-position = "{-80, 110}";
+name = _Anchor5;
+position = "{0, -15}";
 }
 );
 layerId = UUID0;
@@ -151,6 +163,12 @@ nodes = (
 width = 0;
 },
 {
+anchors = (
+{
+name = _Anchor5;
+position = "{0, -15}";
+}
+);
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 paths = (
 {
@@ -185,6 +203,12 @@ nodes = (
 width = 0;
 },
 {
+anchors = (
+{
+name = _Anchor5;
+position = "{0, -15}";
+}
+);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {

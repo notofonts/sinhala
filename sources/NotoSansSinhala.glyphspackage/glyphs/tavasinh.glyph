@@ -1,11 +1,12 @@
 {
+color = 11;
 glyphname = tavasinh;
 layers = (
 {
 anchors = (
 {
-name = repaya;
-position = "{632.41, 800}";
+name = Anchor5;
+position = "{928, -15}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -171,8 +172,8 @@ width = 928;
 {
 anchors = (
 {
-name = repaya;
-position = "{866.837, 800}";
+name = Anchor5;
+position = "{1300, -15}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -338,8 +339,8 @@ width = 1272;
 {
 anchors = (
 {
-name = repaya;
-position = "{658.306, 800}";
+name = Anchor5;
+position = "{966, -15}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -505,8 +506,8 @@ width = 966;
 {
 anchors = (
 {
-name = repaya;
-position = "{905, 800}";
+name = Anchor5;
+position = "{1328, -15}";
 }
 );
 layerId = UUID0;
@@ -672,8 +673,8 @@ width = 1328;
 {
 anchors = (
 {
-name = repaya;
-position = "{945.889, 800}";
+name = Anchor5;
+position = "{1388, -15}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -839,8 +840,8 @@ width = 1388;
 {
 anchors = (
 {
-name = repaya;
-position = "{714.868, 800}";
+name = Anchor5;
+position = "{1049, -15}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
