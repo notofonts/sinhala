@@ -2,21 +2,6 @@
 glyphname = emdash.sinh;
 layers = (
 {
-layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
-paths = (
-{
-closed = 1;
-nodes = (
-"960 303 LINE",
-"960 329 LINE",
-"40 329 LINE",
-"40 303 LINE"
-);
-}
-);
-width = 1000;
-},
-{
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -26,21 +11,6 @@ nodes = (
 "960 329 LINE",
 "40 329 LINE",
 "40 303 LINE"
-);
-}
-);
-width = 1000;
-},
-{
-layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-paths = (
-{
-closed = 1;
-nodes = (
-"962 281 LINE",
-"962 351 LINE",
-"38 351 LINE",
-"38 281 LINE"
 );
 }
 );
@@ -71,6 +41,36 @@ nodes = (
 "961 382 LINE",
 "39 382 LINE",
 "39 247 LINE"
+);
+}
+);
+width = 1000;
+},
+{
+layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
+paths = (
+{
+closed = 1;
+nodes = (
+"960 303 LINE",
+"960 329 LINE",
+"40 329 LINE",
+"40 303 LINE"
+);
+}
+);
+width = 1000;
+},
+{
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"962 281 LINE",
+"962 351 LINE",
+"38 351 LINE",
+"38 281 LINE"
 );
 }
 );

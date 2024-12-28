@@ -67,68 +67,6 @@ width = 324;
 anchors = (
 {
 name = bottom;
-position = "{46, -240}";
-},
-{
-name = center;
-position = "{90, 268}";
-},
-{
-name = top;
-position = "{133, 776}";
-},
-{
-name = topright;
-position = "{245, 776}";
-}
-);
-layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
-paths = (
-{
-closed = 1;
-nodes = (
-"150 -239 OFFCURVE",
-"213 -179 OFFCURVE",
-"213 -45 CURVE SMOOTH",
-"213 553 LINE",
-"51 553 LINE",
-"51 -32 LINE SMOOTH",
-"51 -77 OFFCURVE",
-"37 -100 OFFCURVE",
-"7 -100 CURVE SMOOTH",
-"-7 -100 OFFCURVE",
-"-22 -97 OFFCURVE",
-"-38 -91 CURVE",
-"-38 -228 LINE",
-"-11 -237 OFFCURVE",
-"19 -240 OFFCURVE",
-"46 -240 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"46 635 OFFCURVE",
-"75 607 OFFCURVE",
-"132 607 CURVE SMOOTH",
-"189 607 OFFCURVE",
-"218 635 OFFCURVE",
-"218 691 CURVE SMOOTH",
-"218 747 OFFCURVE",
-"192 776 OFFCURVE",
-"132 776 CURVE SMOOTH",
-"72 776 OFFCURVE",
-"46 748 OFFCURVE",
-"46 691 CURVE SMOOTH"
-);
-}
-);
-width = 265;
-},
-{
-anchors = (
-{
-name = bottom;
 position = "{22, -240}";
 },
 {
@@ -186,68 +124,6 @@ nodes = (
 }
 );
 width = 258;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{36, -240}";
-},
-{
-name = center;
-position = "{70, 249}";
-},
-{
-name = top;
-position = "{106, 739}";
-},
-{
-name = topright;
-position = "{191, 739}";
-}
-);
-layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-paths = (
-{
-closed = 1;
-nodes = (
-"108 -239 OFFCURVE",
-"146 -190 OFFCURVE",
-"146 -82 CURVE SMOOTH",
-"146 537 LINE",
-"65 537 LINE",
-"65 -83 LINE SMOOTH",
-"65 -141 OFFCURVE",
-"53 -167 OFFCURVE",
-"22 -167 CURVE SMOOTH",
-"11 -167 OFFCURVE",
-"-1 -164 OFFCURVE",
-"-13 -159 CURVE",
-"-13 -231 LINE",
-"1 -237 OFFCURVE",
-"17 -240 OFFCURVE",
-"36 -240 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"59 645 OFFCURVE",
-"77 624 OFFCURVE",
-"107 624 CURVE SMOOTH",
-"137 624 OFFCURVE",
-"153 645 OFFCURVE",
-"153 681 CURVE SMOOTH",
-"153 718 OFFCURVE",
-"138 739 OFFCURVE",
-"107 739 CURVE SMOOTH",
-"76 739 OFFCURVE",
-"59 719 OFFCURVE",
-"59 681 CURVE SMOOTH"
-);
-}
-);
-width = 211;
 },
 {
 anchors = (
@@ -372,6 +248,130 @@ nodes = (
 }
 );
 width = 177;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{36, -240}";
+},
+{
+name = center;
+position = "{70, 249}";
+},
+{
+name = top;
+position = "{106, 739}";
+},
+{
+name = topright;
+position = "{191, 739}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"108 -239 OFFCURVE",
+"146 -190 OFFCURVE",
+"146 -82 CURVE SMOOTH",
+"146 537 LINE",
+"65 537 LINE",
+"65 -83 LINE SMOOTH",
+"65 -141 OFFCURVE",
+"53 -167 OFFCURVE",
+"22 -167 CURVE SMOOTH",
+"11 -167 OFFCURVE",
+"-1 -164 OFFCURVE",
+"-13 -159 CURVE",
+"-13 -231 LINE",
+"1 -237 OFFCURVE",
+"17 -240 OFFCURVE",
+"36 -240 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"59 645 OFFCURVE",
+"77 624 OFFCURVE",
+"107 624 CURVE SMOOTH",
+"137 624 OFFCURVE",
+"153 645 OFFCURVE",
+"153 681 CURVE SMOOTH",
+"153 718 OFFCURVE",
+"138 739 OFFCURVE",
+"107 739 CURVE SMOOTH",
+"76 739 OFFCURVE",
+"59 719 OFFCURVE",
+"59 681 CURVE SMOOTH"
+);
+}
+);
+width = 211;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{46, -240}";
+},
+{
+name = center;
+position = "{90, 268}";
+},
+{
+name = top;
+position = "{133, 776}";
+},
+{
+name = topright;
+position = "{245, 776}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+paths = (
+{
+closed = 1;
+nodes = (
+"150 -239 OFFCURVE",
+"213 -179 OFFCURVE",
+"213 -45 CURVE SMOOTH",
+"213 553 LINE",
+"51 553 LINE",
+"51 -32 LINE SMOOTH",
+"51 -77 OFFCURVE",
+"37 -100 OFFCURVE",
+"7 -100 CURVE SMOOTH",
+"-7 -100 OFFCURVE",
+"-22 -97 OFFCURVE",
+"-38 -91 CURVE",
+"-38 -228 LINE",
+"-11 -237 OFFCURVE",
+"19 -240 OFFCURVE",
+"46 -240 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"46 635 OFFCURVE",
+"75 607 OFFCURVE",
+"132 607 CURVE SMOOTH",
+"189 607 OFFCURVE",
+"218 635 OFFCURVE",
+"218 691 CURVE SMOOTH",
+"218 747 OFFCURVE",
+"192 776 OFFCURVE",
+"132 776 CURVE SMOOTH",
+"72 776 OFFCURVE",
+"46 748 OFFCURVE",
+"46 691 CURVE SMOOTH"
+);
+}
+);
+width = 265;
 }
 );
 rightKerningGroup = j;

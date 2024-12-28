@@ -45,45 +45,6 @@ width = 539;
 anchors = (
 {
 name = bottom;
-position = "{218, 0}";
-},
-{
-name = center;
-position = "{230, 357}";
-},
-{
-name = top;
-position = "{231, 714}";
-},
-{
-name = topright;
-position = "{416, 714}";
-}
-);
-layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
-paths = (
-{
-closed = 1;
-nodes = (
-"229 273 LINE",
-"388 273 LINE",
-"388 417 LINE",
-"229 417 LINE",
-"229 570 LINE",
-"401 570 LINE",
-"401 714 LINE",
-"59 714 LINE",
-"59 0 LINE",
-"229 0 LINE"
-);
-}
-);
-width = 436;
-},
-{
-anchors = (
-{
-name = bottom;
 position = "{260, 0}";
 },
 {
@@ -183,45 +144,6 @@ width = 549;
 anchors = (
 {
 name = bottom;
-position = "{190, 0}";
-},
-{
-name = center;
-position = "{215, 357}";
-},
-{
-name = top;
-position = "{220, 714}";
-},
-{
-name = topright;
-position = "{360, 714}";
-}
-);
-layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-paths = (
-{
-closed = 1;
-nodes = (
-"157 305 LINE",
-"345 305 LINE",
-"345 381 LINE",
-"157 381 LINE",
-"157 639 LINE",
-"357 639 LINE",
-"357 714 LINE",
-"73 714 LINE",
-"73 0 LINE",
-"157 0 LINE"
-);
-}
-);
-width = 380;
-},
-{
-anchors = (
-{
-name = bottom;
 position = "{246, 0}";
 },
 {
@@ -295,6 +217,84 @@ nodes = (
 }
 );
 width = 352;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{190, 0}";
+},
+{
+name = center;
+position = "{215, 357}";
+},
+{
+name = top;
+position = "{220, 714}";
+},
+{
+name = topright;
+position = "{360, 714}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"157 305 LINE",
+"345 305 LINE",
+"345 381 LINE",
+"157 381 LINE",
+"157 639 LINE",
+"357 639 LINE",
+"357 714 LINE",
+"73 714 LINE",
+"73 0 LINE",
+"157 0 LINE"
+);
+}
+);
+width = 380;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{218, 0}";
+},
+{
+name = center;
+position = "{230, 357}";
+},
+{
+name = top;
+position = "{231, 714}";
+},
+{
+name = topright;
+position = "{416, 714}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+paths = (
+{
+closed = 1;
+nodes = (
+"229 273 LINE",
+"388 273 LINE",
+"388 417 LINE",
+"229 417 LINE",
+"229 570 LINE",
+"401 570 LINE",
+"401 714 LINE",
+"59 714 LINE",
+"59 0 LINE",
+"229 0 LINE"
+);
+}
+);
+width = 436;
 }
 );
 unicode = 0046;

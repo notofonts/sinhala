@@ -47,47 +47,6 @@ width = 549;
 anchors = (
 {
 name = bottom;
-position = "{233, 0}";
-},
-{
-name = center;
-position = "{231, 357}";
-},
-{
-name = top;
-position = "{229, 714}";
-},
-{
-name = topright;
-position = "{423, 714}";
-}
-);
-layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
-paths = (
-{
-closed = 1;
-nodes = (
-"403 146 LINE",
-"229 146 LINE",
-"229 297 LINE",
-"390 297 LINE",
-"390 441 LINE",
-"229 441 LINE",
-"229 570 LINE",
-"403 570 LINE",
-"403 714 LINE",
-"59 714 LINE",
-"59 0 LINE",
-"403 0 LINE"
-);
-}
-);
-width = 443;
-},
-{
-anchors = (
-{
-name = bottom;
 position = "{300, 0}";
 },
 {
@@ -193,47 +152,6 @@ width = 560;
 anchors = (
 {
 name = bottom;
-position = "{221, 0}";
-},
-{
-name = center;
-position = "{215, 357}";
-},
-{
-name = top;
-position = "{216, 714}";
-},
-{
-name = topright;
-position = "{382, 714}";
-}
-);
-layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-paths = (
-{
-closed = 1;
-nodes = (
-"357 76 LINE",
-"157 76 LINE",
-"157 335 LINE",
-"345 335 LINE",
-"345 410 LINE",
-"157 410 LINE",
-"157 639 LINE",
-"357 639 LINE",
-"357 714 LINE",
-"73 714 LINE",
-"73 0 LINE",
-"357 0 LINE"
-);
-}
-);
-width = 402;
-},
-{
-anchors = (
-{
-name = bottom;
 position = "{295, 0}";
 },
 {
@@ -311,6 +229,88 @@ nodes = (
 }
 );
 width = 381;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{221, 0}";
+},
+{
+name = center;
+position = "{215, 357}";
+},
+{
+name = top;
+position = "{216, 714}";
+},
+{
+name = topright;
+position = "{382, 714}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"357 76 LINE",
+"157 76 LINE",
+"157 335 LINE",
+"345 335 LINE",
+"345 410 LINE",
+"157 410 LINE",
+"157 639 LINE",
+"357 639 LINE",
+"357 714 LINE",
+"73 714 LINE",
+"73 0 LINE",
+"357 0 LINE"
+);
+}
+);
+width = 402;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{233, 0}";
+},
+{
+name = center;
+position = "{231, 357}";
+},
+{
+name = top;
+position = "{229, 714}";
+},
+{
+name = topright;
+position = "{423, 714}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+paths = (
+{
+closed = 1;
+nodes = (
+"403 146 LINE",
+"229 146 LINE",
+"229 297 LINE",
+"390 297 LINE",
+"390 441 LINE",
+"229 441 LINE",
+"229 570 LINE",
+"403 570 LINE",
+"403 714 LINE",
+"59 714 LINE",
+"59 0 LINE",
+"403 0 LINE"
+);
+}
+);
+width = 443;
 }
 );
 rightKerningGroup = E.left;

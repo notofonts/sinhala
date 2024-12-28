@@ -46,47 +46,6 @@ width = 723;
 anchors = (
 {
 name = bottom;
-position = "{260, 0}";
-},
-{
-name = center;
-position = "{260, 357}";
-},
-{
-name = top;
-position = "{253, 714}";
-},
-{
-name = topright;
-position = "{500, 714}";
-}
-);
-layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
-paths = (
-{
-closed = 1;
-nodes = (
-"351 363 LINE",
-"499 714 LINE",
-"319 714 LINE",
-"254 516 LINE",
-"184 714 LINE",
-"8 714 LINE",
-"161 357 LINE",
-"-2 0 LINE",
-"177 0 LINE",
-"259 206 LINE",
-"339 0 LINE",
-"522 0 LINE"
-);
-}
-);
-width = 520;
-},
-{
-anchors = (
-{
-name = bottom;
 position = "{293, 0}";
 },
 {
@@ -123,47 +82,6 @@ nodes = (
 }
 );
 width = 586;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{200, 0}";
-},
-{
-name = center;
-position = "{200, 357}";
-},
-{
-name = top;
-position = "{206, 714}";
-},
-{
-name = topright;
-position = "{380, 714}";
-}
-);
-layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-paths = (
-{
-closed = 1;
-nodes = (
-"253 367 LINE",
-"387 714 LINE",
-"299 714 LINE",
-"205 447 LINE",
-"112 714 LINE",
-"25 714 LINE",
-"158 373 LINE",
-"7 0 LINE",
-"94 0 LINE",
-"204 292 LINE",
-"304 0 LINE",
-"394 0 LINE"
-);
-}
-);
-width = 400;
 },
 {
 anchors = (
@@ -246,6 +164,88 @@ nodes = (
 }
 );
 width = 331;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{200, 0}";
+},
+{
+name = center;
+position = "{200, 357}";
+},
+{
+name = top;
+position = "{206, 714}";
+},
+{
+name = topright;
+position = "{380, 714}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"253 367 LINE",
+"387 714 LINE",
+"299 714 LINE",
+"205 447 LINE",
+"112 714 LINE",
+"25 714 LINE",
+"158 373 LINE",
+"7 0 LINE",
+"94 0 LINE",
+"204 292 LINE",
+"304 0 LINE",
+"394 0 LINE"
+);
+}
+);
+width = 400;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{260, 0}";
+},
+{
+name = center;
+position = "{260, 357}";
+},
+{
+name = top;
+position = "{253, 714}";
+},
+{
+name = topright;
+position = "{500, 714}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+paths = (
+{
+closed = 1;
+nodes = (
+"351 363 LINE",
+"499 714 LINE",
+"319 714 LINE",
+"254 516 LINE",
+"184 714 LINE",
+"8 714 LINE",
+"161 357 LINE",
+"-2 0 LINE",
+"177 0 LINE",
+"259 206 LINE",
+"339 0 LINE",
+"522 0 LINE"
+);
+}
+);
+width = 520;
 }
 );
 rightKerningGroup = K.left;

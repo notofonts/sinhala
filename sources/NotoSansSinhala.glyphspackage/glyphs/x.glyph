@@ -47,47 +47,6 @@ width = 630;
 anchors = (
 {
 name = bottom;
-position = "{238, 0}";
-},
-{
-name = center;
-position = "{237, 276}";
-},
-{
-name = top;
-position = "{239, 553}";
-},
-{
-name = topright;
-position = "{455, 553}";
-}
-);
-layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
-paths = (
-{
-closed = 1;
-nodes = (
-"5 0 LINE",
-"177 0 LINE",
-"234 156 LINE",
-"294 0 LINE",
-"470 0 LINE",
-"342 282 LINE",
-"465 553 LINE",
-"289 553 LINE",
-"238 408 LINE",
-"184 553 LINE",
-"8 553 LINE",
-"133 282 LINE"
-);
-}
-);
-width = 475;
-},
-{
-anchors = (
-{
-name = bottom;
 position = "{265, 0}";
 },
 {
@@ -193,47 +152,6 @@ width = 578;
 anchors = (
 {
 name = bottom;
-position = "{187, 0}";
-},
-{
-name = center;
-position = "{187, 268}";
-},
-{
-name = top;
-position = "{190, 537}";
-},
-{
-name = topright;
-position = "{353, 537}";
-}
-);
-layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-paths = (
-{
-closed = 1;
-nodes = (
-"14 0 LINE",
-"99 0 LINE",
-"186 207 LINE",
-"274 0 LINE",
-"360 0 LINE",
-"235 273 LINE",
-"355 537 LINE",
-"269 537 LINE",
-"188 343 LINE",
-"109 537 LINE",
-"22 537 LINE",
-"141 277 LINE"
-);
-}
-);
-width = 373;
-},
-{
-anchors = (
-{
-name = bottom;
 position = "{240, 0}";
 },
 {
@@ -311,6 +229,88 @@ nodes = (
 }
 );
 width = 314;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{187, 0}";
+},
+{
+name = center;
+position = "{187, 268}";
+},
+{
+name = top;
+position = "{190, 537}";
+},
+{
+name = topright;
+position = "{353, 537}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"14 0 LINE",
+"99 0 LINE",
+"186 207 LINE",
+"274 0 LINE",
+"360 0 LINE",
+"235 273 LINE",
+"355 537 LINE",
+"269 537 LINE",
+"188 343 LINE",
+"109 537 LINE",
+"22 537 LINE",
+"141 277 LINE"
+);
+}
+);
+width = 373;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{238, 0}";
+},
+{
+name = center;
+position = "{237, 276}";
+},
+{
+name = top;
+position = "{239, 553}";
+},
+{
+name = topright;
+position = "{455, 553}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+paths = (
+{
+closed = 1;
+nodes = (
+"5 0 LINE",
+"177 0 LINE",
+"234 156 LINE",
+"294 0 LINE",
+"470 0 LINE",
+"342 282 LINE",
+"465 553 LINE",
+"289 553 LINE",
+"238 408 LINE",
+"184 553 LINE",
+"8 553 LINE",
+"133 282 LINE"
+);
+}
+);
+width = 475;
 }
 );
 leftKerningGroup = v.right;

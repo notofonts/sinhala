@@ -69,69 +69,6 @@ width = 910;
 anchors = (
 {
 name = bottom;
-position = "{367, 0}";
-},
-{
-name = center;
-position = "{368, 276}";
-},
-{
-name = top;
-position = "{368, 553}";
-},
-{
-name = topright;
-position = "{716, 553}";
-}
-);
-layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
-paths = (
-{
-closed = 1;
-nodes = (
-"429 0 LINE",
-"615 0 LINE",
-"731 553 LINE",
-"572 553 LINE",
-"542 380 LINE SMOOTH",
-"531 320 OFFCURVE",
-"524 250 OFFCURVE",
-"520 188 CURVE",
-"516 188 LINE",
-"513 229 OFFCURVE",
-"504 294 OFFCURVE",
-"493 366 CURVE SMOOTH",
-"462 553 LINE",
-"275 553 LINE",
-"243 369 LINE SMOOTH",
-"229 298 OFFCURVE",
-"223 240 OFFCURVE",
-"219 188 CURVE",
-"215 188 LINE",
-"212 252 OFFCURVE",
-"205 325 OFFCURVE",
-"195 380 CURVE SMOOTH",
-"167 553 LINE",
-"5 553 LINE",
-"120 0 LINE",
-"303 0 LINE",
-"345 245 LINE SMOOTH",
-"352 285 OFFCURVE",
-"358 348 OFFCURVE",
-"365 402 CURVE",
-"369 402 LINE",
-"374 355 OFFCURVE",
-"381 293 OFFCURVE",
-"389 244 CURVE SMOOTH"
-);
-}
-);
-width = 736;
-},
-{
-anchors = (
-{
-name = bottom;
 position = "{391, 0}";
 },
 {
@@ -303,69 +240,6 @@ width = 856;
 anchors = (
 {
 name = bottom;
-position = "{301, 0}";
-},
-{
-name = center;
-position = "{302, 268}";
-},
-{
-name = top;
-position = "{302, 537}";
-},
-{
-name = topright;
-position = "{585, 537}";
-}
-);
-layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-paths = (
-{
-closed = 1;
-nodes = (
-"384 0 LINE",
-"478 0 LINE",
-"596 537 LINE",
-"517 537 LINE",
-"450 212 LINE",
-"441 164 OFFCURVE",
-"435 124 OFFCURVE",
-"433 98 CURVE",
-"430 98 LINE",
-"420 170 OFFCURVE",
-"411 227 OFFCURVE",
-"403 264 CURVE",
-"348 537 LINE",
-"258 537 LINE",
-"202 265 LINE SMOOTH",
-"189 202 OFFCURVE",
-"181 146 OFFCURVE",
-"175 98 CURVE",
-"172 98 LINE",
-"164 155 OFFCURVE",
-"154 214 OFFCURVE",
-"144 269 CURVE",
-"90 537 LINE",
-"9 537 LINE",
-"124 0 LINE",
-"217 0 LINE",
-"283 325 LINE",
-"290 361 OFFCURVE",
-"296 404 OFFCURVE",
-"302 443 CURVE",
-"304 443 LINE",
-"309 406 OFFCURVE",
-"315 363 OFFCURVE",
-"322 325 CURVE"
-);
-}
-);
-width = 605;
-},
-{
-anchors = (
-{
-name = bottom;
 position = "{343, 0}";
 },
 {
@@ -487,6 +361,132 @@ nodes = (
 }
 );
 width = 512;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{301, 0}";
+},
+{
+name = center;
+position = "{302, 268}";
+},
+{
+name = top;
+position = "{302, 537}";
+},
+{
+name = topright;
+position = "{585, 537}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"384 0 LINE",
+"478 0 LINE",
+"596 537 LINE",
+"517 537 LINE",
+"450 212 LINE",
+"441 164 OFFCURVE",
+"435 124 OFFCURVE",
+"433 98 CURVE",
+"430 98 LINE",
+"420 170 OFFCURVE",
+"411 227 OFFCURVE",
+"403 264 CURVE",
+"348 537 LINE",
+"258 537 LINE",
+"202 265 LINE SMOOTH",
+"189 202 OFFCURVE",
+"181 146 OFFCURVE",
+"175 98 CURVE",
+"172 98 LINE",
+"164 155 OFFCURVE",
+"154 214 OFFCURVE",
+"144 269 CURVE",
+"90 537 LINE",
+"9 537 LINE",
+"124 0 LINE",
+"217 0 LINE",
+"283 325 LINE",
+"290 361 OFFCURVE",
+"296 404 OFFCURVE",
+"302 443 CURVE",
+"304 443 LINE",
+"309 406 OFFCURVE",
+"315 363 OFFCURVE",
+"322 325 CURVE"
+);
+}
+);
+width = 605;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{367, 0}";
+},
+{
+name = center;
+position = "{368, 276}";
+},
+{
+name = top;
+position = "{368, 553}";
+},
+{
+name = topright;
+position = "{716, 553}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+paths = (
+{
+closed = 1;
+nodes = (
+"429 0 LINE",
+"615 0 LINE",
+"731 553 LINE",
+"572 553 LINE",
+"542 380 LINE SMOOTH",
+"531 320 OFFCURVE",
+"524 250 OFFCURVE",
+"520 188 CURVE",
+"516 188 LINE",
+"513 229 OFFCURVE",
+"504 294 OFFCURVE",
+"493 366 CURVE SMOOTH",
+"462 553 LINE",
+"275 553 LINE",
+"243 369 LINE SMOOTH",
+"229 298 OFFCURVE",
+"223 240 OFFCURVE",
+"219 188 CURVE",
+"215 188 LINE",
+"212 252 OFFCURVE",
+"205 325 OFFCURVE",
+"195 380 CURVE SMOOTH",
+"167 553 LINE",
+"5 553 LINE",
+"120 0 LINE",
+"303 0 LINE",
+"345 245 LINE SMOOTH",
+"352 285 OFFCURVE",
+"358 348 OFFCURVE",
+"365 402 CURVE",
+"369 402 LINE",
+"374 355 OFFCURVE",
+"381 293 OFFCURVE",
+"389 244 CURVE SMOOTH"
+);
+}
+);
+width = 736;
 }
 );
 leftKerningGroup = v.right;

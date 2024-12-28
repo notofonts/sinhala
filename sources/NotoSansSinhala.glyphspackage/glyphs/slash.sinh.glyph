@@ -2,21 +2,6 @@
 glyphname = slash.sinh;
 layers = (
 {
-layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
-paths = (
-{
-closed = 1;
-nodes = (
-"300 799 LINE",
-"37 -216 LINE",
-"64 -216 LINE",
-"327 799 LINE"
-);
-}
-);
-width = 364;
-},
-{
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -30,21 +15,6 @@ nodes = (
 }
 );
 width = 373;
-},
-{
-layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-paths = (
-{
-closed = 1;
-nodes = (
-"297 799 LINE",
-"34 -216 LINE",
-"108 -216 LINE",
-"371 799 LINE"
-);
-}
-);
-width = 405;
 },
 {
 layerId = UUID0;
@@ -75,6 +45,36 @@ nodes = (
 }
 );
 width = 494;
+},
+{
+layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
+paths = (
+{
+closed = 1;
+nodes = (
+"300 799 LINE",
+"37 -216 LINE",
+"64 -216 LINE",
+"327 799 LINE"
+);
+}
+);
+width = 364;
+},
+{
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"297 799 LINE",
+"34 -216 LINE",
+"108 -216 LINE",
+"371 799 LINE"
+);
+}
+);
+width = 405;
 },
 {
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

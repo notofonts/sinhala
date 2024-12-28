@@ -47,47 +47,6 @@ width = 440;
 anchors = (
 {
 name = bottom;
-position = "{177, 0}";
-},
-{
-name = center;
-position = "{177, 357}";
-},
-{
-name = top;
-position = "{177, 714}";
-},
-{
-name = topright;
-position = "{334, 714}";
-}
-);
-layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
-paths = (
-{
-closed = 1;
-nodes = (
-"329 91 LINE",
-"262 126 LINE",
-"262 588 LINE",
-"329 623 LINE",
-"329 714 LINE",
-"25 714 LINE",
-"25 623 LINE",
-"92 588 LINE",
-"92 126 LINE",
-"25 91 LINE",
-"25 0 LINE",
-"329 0 LINE"
-);
-}
-);
-width = 354;
-},
-{
-anchors = (
-{
-name = bottom;
 position = "{170, 0}";
 },
 {
@@ -197,47 +156,6 @@ position = "{142, 0}";
 },
 {
 name = center;
-position = "{141, 357}";
-},
-{
-name = top;
-position = "{141, 714}";
-},
-{
-name = topright;
-position = "{263, 714}";
-}
-);
-layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-paths = (
-{
-closed = 1;
-nodes = (
-"248 48 LINE",
-"183 65 LINE",
-"183 649 LINE",
-"248 666 LINE",
-"248 714 LINE",
-"34 714 LINE",
-"34 666 LINE",
-"99 649 LINE",
-"99 65 LINE",
-"34 48 LINE",
-"34 0 LINE",
-"248 0 LINE"
-);
-}
-);
-width = 283;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{142, 0}";
-},
-{
-name = center;
 position = "{142, 357}";
 },
 {
@@ -311,6 +229,88 @@ nodes = (
 }
 );
 width = 219;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{142, 0}";
+},
+{
+name = center;
+position = "{141, 357}";
+},
+{
+name = top;
+position = "{141, 714}";
+},
+{
+name = topright;
+position = "{263, 714}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"248 48 LINE",
+"183 65 LINE",
+"183 649 LINE",
+"248 666 LINE",
+"248 714 LINE",
+"34 714 LINE",
+"34 666 LINE",
+"99 649 LINE",
+"99 65 LINE",
+"34 48 LINE",
+"34 0 LINE",
+"248 0 LINE"
+);
+}
+);
+width = 283;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{177, 0}";
+},
+{
+name = center;
+position = "{177, 357}";
+},
+{
+name = top;
+position = "{177, 714}";
+},
+{
+name = topright;
+position = "{334, 714}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+paths = (
+{
+closed = 1;
+nodes = (
+"329 91 LINE",
+"262 126 LINE",
+"262 588 LINE",
+"329 623 LINE",
+"329 714 LINE",
+"25 714 LINE",
+"25 623 LINE",
+"92 588 LINE",
+"92 126 LINE",
+"25 91 LINE",
+"25 0 LINE",
+"329 0 LINE"
+);
+}
+);
+width = 354;
 }
 );
 unicode = 0049;

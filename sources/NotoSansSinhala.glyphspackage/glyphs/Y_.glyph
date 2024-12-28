@@ -43,44 +43,6 @@ width = 664;
 anchors = (
 {
 name = bottom;
-position = "{263, 0}";
-},
-{
-name = center;
-position = "{263, 357}";
-},
-{
-name = top;
-position = "{263, 714}";
-},
-{
-name = topright;
-position = "{506, 714}";
-}
-);
-layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
-paths = (
-{
-closed = 1;
-nodes = (
-"177 714 LINE",
-"0 714 LINE",
-"178 268 LINE",
-"178 0 LINE",
-"348 0 LINE",
-"348 274 LINE",
-"526 714 LINE",
-"351 714 LINE",
-"264 454 LINE"
-);
-}
-);
-width = 526;
-},
-{
-anchors = (
-{
-name = bottom;
 position = "{283, 0}";
 },
 {
@@ -114,44 +76,6 @@ nodes = (
 }
 );
 width = 566;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{196, 0}";
-},
-{
-name = center;
-position = "{196, 357}";
-},
-{
-name = top;
-position = "{196, 714}";
-},
-{
-name = topright;
-position = "{372, 714}";
-}
-);
-layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-paths = (
-{
-closed = 1;
-nodes = (
-"88 714 LINE",
-"0 714 LINE",
-"154 276 LINE",
-"154 0 LINE",
-"238 0 LINE",
-"238 278 LINE",
-"392 714 LINE",
-"304 714 LINE",
-"197 378 LINE"
-);
-}
-);
-width = 392;
 },
 {
 anchors = (
@@ -228,6 +152,82 @@ nodes = (
 }
 );
 width = 315;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{196, 0}";
+},
+{
+name = center;
+position = "{196, 357}";
+},
+{
+name = top;
+position = "{196, 714}";
+},
+{
+name = topright;
+position = "{372, 714}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"88 714 LINE",
+"0 714 LINE",
+"154 276 LINE",
+"154 0 LINE",
+"238 0 LINE",
+"238 278 LINE",
+"392 714 LINE",
+"304 714 LINE",
+"197 378 LINE"
+);
+}
+);
+width = 392;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{263, 0}";
+},
+{
+name = center;
+position = "{263, 357}";
+},
+{
+name = top;
+position = "{263, 714}";
+},
+{
+name = topright;
+position = "{506, 714}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+paths = (
+{
+closed = 1;
+nodes = (
+"177 714 LINE",
+"0 714 LINE",
+"178 268 LINE",
+"178 0 LINE",
+"348 0 LINE",
+"348 274 LINE",
+"526 714 LINE",
+"351 714 LINE",
+"264 454 LINE"
+);
+}
+);
+width = 526;
 }
 );
 leftKerningGroup = Y.right;

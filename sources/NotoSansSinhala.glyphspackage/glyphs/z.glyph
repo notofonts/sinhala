@@ -44,45 +44,6 @@ width = 507;
 anchors = (
 {
 name = bottom;
-position = "{198, 0}";
-},
-{
-name = center;
-position = "{198, 276}";
-},
-{
-name = top;
-position = "{204, 553}";
-},
-{
-name = topright;
-position = "{373, 553}";
-}
-);
-layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
-paths = (
-{
-closed = 1;
-nodes = (
-"380 135 LINE",
-"205 135 LINE",
-"372 446 LINE",
-"372 553 LINE",
-"26 553 LINE",
-"26 418 LINE",
-"191 418 LINE",
-"16 98 LINE",
-"16 0 LINE",
-"380 0 LINE"
-);
-}
-);
-width = 397;
-},
-{
-anchors = (
-{
-name = bottom;
 position = "{242, 0}";
 },
 {
@@ -117,45 +78,6 @@ nodes = (
 }
 );
 width = 470;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{159, 0}";
-},
-{
-name = center;
-position = "{153, 268}";
-},
-{
-name = top;
-position = "{158, 537}";
-},
-{
-name = topright;
-position = "{283, 537}";
-}
-);
-layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-paths = (
-{
-closed = 1;
-nodes = (
-"282 69 LINE",
-"115 69 LINE",
-"275 478 LINE",
-"275 537 LINE",
-"35 537 LINE",
-"35 468 LINE",
-"186 468 LINE",
-"25 55 LINE",
-"25 0 LINE",
-"282 0 LINE"
-);
-}
-);
-width = 303;
 },
 {
 anchors = (
@@ -234,6 +156,84 @@ nodes = (
 }
 );
 width = 258;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{159, 0}";
+},
+{
+name = center;
+position = "{153, 268}";
+},
+{
+name = top;
+position = "{158, 537}";
+},
+{
+name = topright;
+position = "{283, 537}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"282 69 LINE",
+"115 69 LINE",
+"275 478 LINE",
+"275 537 LINE",
+"35 537 LINE",
+"35 468 LINE",
+"186 468 LINE",
+"25 55 LINE",
+"25 0 LINE",
+"282 0 LINE"
+);
+}
+);
+width = 303;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{198, 0}";
+},
+{
+name = center;
+position = "{198, 276}";
+},
+{
+name = top;
+position = "{204, 553}";
+},
+{
+name = topright;
+position = "{373, 553}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+paths = (
+{
+closed = 1;
+nodes = (
+"380 135 LINE",
+"205 135 LINE",
+"372 446 LINE",
+"372 553 LINE",
+"26 553 LINE",
+"26 418 LINE",
+"191 418 LINE",
+"16 98 LINE",
+"16 0 LINE",
+"380 0 LINE"
+);
+}
+);
+width = 397;
 }
 );
 leftKerningGroup = z.right;

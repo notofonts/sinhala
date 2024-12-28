@@ -2,21 +2,6 @@
 glyphname = underscore.sinh;
 layers = (
 {
-layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
-paths = (
-{
-closed = 1;
-nodes = (
-"359 -90 LINE",
-"-2 -90 LINE",
-"-2 -115 LINE",
-"359 -115 LINE"
-);
-}
-);
-width = 357;
-},
-{
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -30,21 +15,6 @@ nodes = (
 }
 );
 width = 444;
-},
-{
-layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-paths = (
-{
-closed = 1;
-nodes = (
-"359 -90 LINE",
-"-2 -90 LINE",
-"-2 -154 LINE",
-"359 -154 LINE"
-);
-}
-);
-width = 357;
 },
 {
 layerId = UUID0;
@@ -75,6 +45,36 @@ nodes = (
 }
 );
 width = 444;
+},
+{
+layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
+paths = (
+{
+closed = 1;
+nodes = (
+"359 -90 LINE",
+"-2 -90 LINE",
+"-2 -115 LINE",
+"359 -115 LINE"
+);
+}
+);
+width = 357;
+},
+{
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"359 -90 LINE",
+"-2 -90 LINE",
+"-2 -154 LINE",
+"359 -154 LINE"
+);
+}
+);
+width = 357;
 },
 {
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

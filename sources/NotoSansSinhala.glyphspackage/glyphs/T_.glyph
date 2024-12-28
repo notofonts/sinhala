@@ -42,43 +42,6 @@ width = 591;
 anchors = (
 {
 name = bottom;
-position = "{230, 0}";
-},
-{
-name = center;
-position = "{230, 357}";
-},
-{
-name = top;
-position = "{230, 714}";
-},
-{
-name = topright;
-position = "{440, 714}";
-}
-);
-layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
-paths = (
-{
-closed = 1;
-nodes = (
-"315 567 LINE",
-"443 567 LINE",
-"443 714 LINE",
-"17 714 LINE",
-"17 567 LINE",
-"146 567 LINE",
-"146 0 LINE",
-"315 0 LINE"
-);
-}
-);
-width = 460;
-},
-{
-anchors = (
-{
-name = bottom;
 position = "{278, 0}";
 },
 {
@@ -111,43 +74,6 @@ nodes = (
 }
 );
 width = 556;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{191, 0}";
-},
-{
-name = center;
-position = "{191, 357}";
-},
-{
-name = top;
-position = "{191, 714}";
-},
-{
-name = topright;
-position = "{361, 714}";
-}
-);
-layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-paths = (
-{
-closed = 1;
-nodes = (
-"232 638 LINE",
-"370 638 LINE",
-"370 714 LINE",
-"10 714 LINE",
-"10 638 LINE",
-"148 638 LINE",
-"148 0 LINE",
-"232 0 LINE"
-);
-}
-);
-width = 381;
 },
 {
 anchors = (
@@ -222,6 +148,80 @@ nodes = (
 }
 );
 width = 336;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{191, 0}";
+},
+{
+name = center;
+position = "{191, 357}";
+},
+{
+name = top;
+position = "{191, 714}";
+},
+{
+name = topright;
+position = "{361, 714}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"232 638 LINE",
+"370 638 LINE",
+"370 714 LINE",
+"10 714 LINE",
+"10 638 LINE",
+"148 638 LINE",
+"148 0 LINE",
+"232 0 LINE"
+);
+}
+);
+width = 381;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{230, 0}";
+},
+{
+name = center;
+position = "{230, 357}";
+},
+{
+name = top;
+position = "{230, 714}";
+},
+{
+name = topright;
+position = "{440, 714}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+paths = (
+{
+closed = 1;
+nodes = (
+"315 567 LINE",
+"443 567 LINE",
+"443 714 LINE",
+"17 714 LINE",
+"17 567 LINE",
+"146 567 LINE",
+"146 0 LINE",
+"315 0 LINE"
+);
+}
+);
+width = 460;
 }
 );
 leftKerningGroup = T.right;

@@ -9,27 +9,6 @@ name = evowelsignsinh;
 },
 {
 name = period.sinh;
-transform = "{1, 0, 0, 1, 405, 249}";
-},
-{
-name = aavowelsignsinh;
-transform = "{1, 0, 0, 1, 516, 0}";
-},
-{
-name = viramasinh;
-transform = "{1, 0, 0, 1, 764, 0}";
-}
-);
-layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
-width = 764;
-},
-{
-components = (
-{
-name = evowelsignsinh;
-},
-{
-name = period.sinh;
 transform = "{1, 0, 0, 1, 566, 249}";
 },
 {
@@ -43,27 +22,6 @@ transform = "{1, 0, 0, 1, 1005, 0}";
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 width = 1005;
-},
-{
-components = (
-{
-name = evowelsignsinh;
-},
-{
-name = period.sinh;
-transform = "{1, 0, 0, 1, 437, 228}";
-},
-{
-name = aavowelsignsinh;
-transform = "{1, 0, 0, 1, 609, 0}";
-},
-{
-name = viramasinh;
-transform = "{1, 0, 0, 1, 879, 0}";
-}
-);
-layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-width = 879;
 },
 {
 components = (
@@ -106,6 +64,48 @@ transform = "{1, 0, 0, 1, 1348, 0}";
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 width = 1348;
+},
+{
+components = (
+{
+name = evowelsignsinh;
+},
+{
+name = period.sinh;
+transform = "{1, 0, 0, 1, 405, 249}";
+},
+{
+name = aavowelsignsinh;
+transform = "{1, 0, 0, 1, 516, 0}";
+},
+{
+name = viramasinh;
+transform = "{1, 0, 0, 1, 764, 0}";
+}
+);
+layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
+width = 764;
+},
+{
+components = (
+{
+name = evowelsignsinh;
+},
+{
+name = period.sinh;
+transform = "{1, 0, 0, 1, 437, 228}";
+},
+{
+name = aavowelsignsinh;
+transform = "{1, 0, 0, 1, 609, 0}";
+},
+{
+name = viramasinh;
+transform = "{1, 0, 0, 1, 879, 0}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+width = 879;
 },
 {
 components = (

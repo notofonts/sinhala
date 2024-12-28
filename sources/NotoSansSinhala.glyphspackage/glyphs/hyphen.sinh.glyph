@@ -2,21 +2,6 @@
 glyphname = hyphen.sinh;
 layers = (
 {
-layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
-paths = (
-{
-closed = 1;
-nodes = (
-"266 303 LINE",
-"266 329 LINE",
-"38 329 LINE",
-"38 303 LINE"
-);
-}
-);
-width = 304;
-},
-{
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -30,21 +15,6 @@ nodes = (
 }
 );
 width = 320;
-},
-{
-layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-paths = (
-{
-closed = 1;
-nodes = (
-"270 281 LINE",
-"270 352 LINE",
-"38 352 LINE",
-"38 281 LINE"
-);
-}
-);
-width = 308;
 },
 {
 layerId = UUID0;
@@ -75,6 +45,36 @@ nodes = (
 }
 );
 width = 354;
+},
+{
+layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
+paths = (
+{
+closed = 1;
+nodes = (
+"266 303 LINE",
+"266 329 LINE",
+"38 329 LINE",
+"38 303 LINE"
+);
+}
+);
+width = 304;
+},
+{
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"270 281 LINE",
+"270 352 LINE",
+"38 352 LINE",
+"38 281 LINE"
+);
+}
+);
+width = 308;
 },
 {
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

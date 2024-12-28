@@ -2,40 +2,6 @@
 glyphname = quotedblright.sinh;
 layers = (
 {
-layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
-paths = (
-{
-closed = 1;
-nodes = (
-"104 799 LINE",
-"97 727 OFFCURVE",
-"76 624 OFFCURVE",
-"47 554 CURVE",
-"69 554 LINE",
-"99 623 OFFCURVE",
-"124 708 OFFCURVE",
-"135 790 CURVE",
-"129 799 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"237 799 LINE",
-"230 727 OFFCURVE",
-"209 624 OFFCURVE",
-"180 554 CURVE",
-"202 554 LINE",
-"232 623 OFFCURVE",
-"257 708 OFFCURVE",
-"268 790 CURVE",
-"262 799 LINE"
-);
-}
-);
-width = 315;
-},
-{
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -68,40 +34,6 @@ nodes = (
 }
 );
 width = 326;
-},
-{
-layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-paths = (
-{
-closed = 1;
-nodes = (
-"89 799 LINE",
-"83 730 OFFCURVE",
-"65 633 OFFCURVE",
-"44 553 CURVE",
-"106 553 LINE",
-"138 628 OFFCURVE",
-"163 705 OFFCURVE",
-"182 788 CURVE",
-"175 799 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"256 799 LINE",
-"248 723 OFFCURVE",
-"233 640 OFFCURVE",
-"210 553 CURVE",
-"272 553 LINE",
-"304 628 OFFCURVE",
-"329 705 OFFCURVE",
-"348 788 CURVE",
-"341 799 LINE"
-);
-}
-);
-width = 392;
 },
 {
 layerId = UUID0;
@@ -170,6 +102,74 @@ nodes = (
 }
 );
 width = 552;
+},
+{
+layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
+paths = (
+{
+closed = 1;
+nodes = (
+"104 799 LINE",
+"97 727 OFFCURVE",
+"76 624 OFFCURVE",
+"47 554 CURVE",
+"69 554 LINE",
+"99 623 OFFCURVE",
+"124 708 OFFCURVE",
+"135 790 CURVE",
+"129 799 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"237 799 LINE",
+"230 727 OFFCURVE",
+"209 624 OFFCURVE",
+"180 554 CURVE",
+"202 554 LINE",
+"232 623 OFFCURVE",
+"257 708 OFFCURVE",
+"268 790 CURVE",
+"262 799 LINE"
+);
+}
+);
+width = 315;
+},
+{
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"89 799 LINE",
+"83 730 OFFCURVE",
+"65 633 OFFCURVE",
+"44 553 CURVE",
+"106 553 LINE",
+"138 628 OFFCURVE",
+"163 705 OFFCURVE",
+"182 788 CURVE",
+"175 799 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"256 799 LINE",
+"248 723 OFFCURVE",
+"233 640 OFFCURVE",
+"210 553 CURVE",
+"272 553 LINE",
+"304 628 OFFCURVE",
+"329 705 OFFCURVE",
+"348 788 CURVE",
+"341 799 LINE"
+);
+}
+);
+width = 392;
 },
 {
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

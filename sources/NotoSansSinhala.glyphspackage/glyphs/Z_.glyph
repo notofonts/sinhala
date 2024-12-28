@@ -45,45 +45,6 @@ width = 611;
 anchors = (
 {
 name = bottom;
-position = "{244, 0}";
-},
-{
-name = center;
-position = "{235, 357}";
-},
-{
-name = top;
-position = "{236, 714}";
-},
-{
-name = topright;
-position = "{451, 714}";
-}
-);
-layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
-paths = (
-{
-closed = 1;
-nodes = (
-"450 146 LINE",
-"206 146 LINE",
-"444 595 LINE",
-"444 714 LINE",
-"26 714 LINE",
-"26 570 LINE",
-"260 570 LINE",
-"21 119 LINE",
-"21 0 LINE",
-"450 0 LINE"
-);
-}
-);
-width = 471;
-},
-{
-anchors = (
-{
-name = bottom;
 position = "{297, 0}";
 },
 {
@@ -183,45 +144,6 @@ width = 579;
 anchors = (
 {
 name = bottom;
-position = "{187, 0}";
-},
-{
-name = center;
-position = "{183, 357}";
-},
-{
-name = top;
-position = "{181, 714}";
-},
-{
-name = topright;
-position = "{341, 714}";
-}
-);
-layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-paths = (
-{
-closed = 1;
-nodes = (
-"341 76 LINE",
-"115 76 LINE",
-"335 648 LINE",
-"335 714 LINE",
-"30 714 LINE",
-"30 638 LINE",
-"244 638 LINE",
-"26 65 LINE",
-"26 0 LINE",
-"341 0 LINE"
-);
-}
-);
-width = 361;
-},
-{
-anchors = (
-{
-name = bottom;
 position = "{289, 0}";
 },
 {
@@ -295,6 +217,84 @@ nodes = (
 }
 );
 width = 323;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{187, 0}";
+},
+{
+name = center;
+position = "{183, 357}";
+},
+{
+name = top;
+position = "{181, 714}";
+},
+{
+name = topright;
+position = "{341, 714}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"341 76 LINE",
+"115 76 LINE",
+"335 648 LINE",
+"335 714 LINE",
+"30 714 LINE",
+"30 638 LINE",
+"244 638 LINE",
+"26 65 LINE",
+"26 0 LINE",
+"341 0 LINE"
+);
+}
+);
+width = 361;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{244, 0}";
+},
+{
+name = center;
+position = "{235, 357}";
+},
+{
+name = top;
+position = "{236, 714}";
+},
+{
+name = topright;
+position = "{451, 714}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+paths = (
+{
+closed = 1;
+nodes = (
+"450 146 LINE",
+"206 146 LINE",
+"444 595 LINE",
+"444 714 LINE",
+"26 714 LINE",
+"26 570 LINE",
+"260 570 LINE",
+"21 119 LINE",
+"21 0 LINE",
+"450 0 LINE"
+);
+}
+);
+width = 471;
 }
 );
 leftKerningGroup = Z.right;
