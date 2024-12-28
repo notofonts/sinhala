@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 2;
 glyphname = hasinh;
 layers = (
 {
@@ -228,7 +228,7 @@ nodes = (
 );
 }
 );
-width = 954;
+width = 952;
 },
 {
 anchors = (
@@ -328,7 +328,7 @@ nodes = (
 );
 }
 );
-width = 970;
+width = 966;
 },
 {
 anchors = (
@@ -653,7 +653,7 @@ nodes = (
 );
 }
 );
-width = 682;
+width = 681;
 },
 {
 anchors = (
@@ -765,7 +765,7 @@ nodes = (
 );
 }
 );
-width = 715;
+width = 713;
 },
 {
 anchors = (

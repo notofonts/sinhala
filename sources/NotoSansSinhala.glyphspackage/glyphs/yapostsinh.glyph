@@ -105,7 +105,7 @@ nodes = (
 );
 }
 );
-width = 554;
+width = 556;
 },
 {
 anchors = (
@@ -228,7 +228,7 @@ nodes = (
 );
 }
 );
-width = 630;
+width = 625;
 },
 {
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -644,7 +644,7 @@ nodes = (
 );
 }
 );
-width = 495;
+width = 492;
 },
 {
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -749,7 +749,7 @@ nodes = (
 );
 }
 );
-width = 623;
+width = 629;
 }
 );
 leftKerningGroup = yapostsinh;

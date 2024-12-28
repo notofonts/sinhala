@@ -93,7 +93,7 @@ nodes = (
 );
 }
 );
-width = 529;
+width = 505;
 },
 {
 anchors = (
@@ -186,7 +186,7 @@ nodes = (
 );
 }
 );
-width = 577;
+width = 559;
 },
 {
 anchors = (
@@ -461,7 +461,7 @@ nodes = (
 );
 }
 );
-width = 399;
+width = 379;
 },
 {
 anchors = (
@@ -554,7 +554,7 @@ nodes = (
 );
 }
 );
-width = 434;
+width = 415;
 },
 {
 anchors = (
@@ -647,7 +647,7 @@ nodes = (
 );
 }
 );
-width = 502;
+width = 487;
 }
 );
 leftKerningGroup = dasinh;
