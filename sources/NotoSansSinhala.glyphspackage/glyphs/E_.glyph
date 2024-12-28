@@ -1,0 +1,321 @@
+{
+color = 10;
+glyphname = E;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{295, 0}";
+},
+{
+name = center;
+position = "{289, 357}";
+},
+{
+name = top;
+position = "{289, 714}";
+},
+{
+name = topright;
+position = "{529, 714}";
+}
+);
+layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
+paths = (
+{
+closed = 1;
+nodes = (
+"501 157 LINE",
+"270 157 LINE",
+"270 292 LINE",
+"484 292 LINE",
+"484 447 LINE",
+"270 447 LINE",
+"270 559 LINE",
+"501 559 LINE",
+"501 714 LINE",
+"77 714 LINE",
+"77 0 LINE",
+"501 0 LINE"
+);
+}
+);
+width = 549;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{233, 0}";
+},
+{
+name = center;
+position = "{231, 357}";
+},
+{
+name = top;
+position = "{229, 714}";
+},
+{
+name = topright;
+position = "{423, 714}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+paths = (
+{
+closed = 1;
+nodes = (
+"403 146 LINE",
+"229 146 LINE",
+"229 297 LINE",
+"390 297 LINE",
+"390 441 LINE",
+"229 441 LINE",
+"229 570 LINE",
+"403 570 LINE",
+"403 714 LINE",
+"59 714 LINE",
+"59 0 LINE",
+"403 0 LINE"
+);
+}
+);
+width = 443;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{300, 0}";
+},
+{
+name = center;
+position = "{296, 357}";
+},
+{
+name = top;
+position = "{305, 714}";
+},
+{
+name = topright;
+position = "{536, 714}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"496 79 LINE",
+"187 79 LINE",
+"187 334 LINE",
+"478 334 LINE",
+"478 412 LINE",
+"187 412 LINE",
+"187 635 LINE",
+"496 635 LINE",
+"496 714 LINE",
+"97 714 LINE",
+"97 0 LINE",
+"496 0 LINE"
+);
+}
+);
+width = 556;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{303, 0}";
+},
+{
+name = center;
+position = "{295, 357}";
+},
+{
+name = top;
+position = "{301, 714}";
+},
+{
+name = topright;
+position = "{540, 714}";
+}
+);
+associatedMasterId = UUID0;
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"499.05 126.58 LINE",
+"237.63 126.58 LINE",
+"237.63 308.38 LINE",
+"481.66 308.38 LINE",
+"481.66 433.35 LINE",
+"237.63 433.35 LINE",
+"237.63 588.64 LINE",
+"499.05 588.64 LINE",
+"499.05 714 LINE",
+"84.8 714 LINE",
+"84.8 0 LINE",
+"499.05 0 LINE"
+);
+}
+);
+};
+layerId = "2d27aadf-60c1-4ee2-874c-8ca5a01cf21c";
+name = "{151, 100}";
+paths = (
+{
+closed = 1;
+nodes = (
+"501 125 LINE",
+"241 125 LINE",
+"241 309 LINE",
+"483 309 LINE",
+"483 433 LINE",
+"241 433 LINE",
+"241 590 LINE",
+"501 590 LINE",
+"501 714 LINE",
+"90 714 LINE",
+"90 0 LINE",
+"501 0 LINE"
+);
+}
+);
+width = 560;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{221, 0}";
+},
+{
+name = center;
+position = "{215, 357}";
+},
+{
+name = top;
+position = "{216, 714}";
+},
+{
+name = topright;
+position = "{382, 714}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"357 76 LINE",
+"157 76 LINE",
+"157 335 LINE",
+"345 335 LINE",
+"345 410 LINE",
+"157 410 LINE",
+"157 639 LINE",
+"357 639 LINE",
+"357 714 LINE",
+"73 714 LINE",
+"73 0 LINE",
+"357 0 LINE"
+);
+}
+);
+width = 402;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{295, 0}";
+},
+{
+name = center;
+position = "{295, 357}";
+},
+{
+name = top;
+position = "{305, 714}";
+},
+{
+name = topright;
+position = "{530, 714}";
+}
+);
+layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
+paths = (
+{
+closed = 1;
+nodes = (
+"488 25 LINE",
+"129 25 LINE",
+"129 364 LINE",
+"468 364 LINE",
+"468 389 LINE",
+"129 389 LINE",
+"129 689 LINE",
+"488 689 LINE",
+"488 714 LINE",
+"103 714 LINE",
+"103 0 LINE",
+"488 0 LINE"
+);
+}
+);
+width = 550;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{201, 0}";
+},
+{
+name = center;
+position = "{205, 357}";
+},
+{
+name = top;
+position = "{216, 714}";
+},
+{
+name = topright;
+position = "{361, 714}";
+}
+);
+layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
+paths = (
+{
+closed = 1;
+nodes = (
+"333 25 LINE",
+"104 25 LINE",
+"104 363 LINE",
+"320 363 LINE",
+"320 388 LINE",
+"104 388 LINE",
+"104 689 LINE",
+"333 689 LINE",
+"333 714 LINE",
+"78 714 LINE",
+"78 0 LINE",
+"333 0 LINE"
+);
+}
+);
+width = 381;
+}
+);
+rightKerningGroup = E.left;
+unicode = 0045;
+script = latin;
+category = Letter;
+subCategory = Uppercase;
+}

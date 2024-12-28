@@ -1,0 +1,209 @@
+{
+glyphname = l;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{162, 0}";
+},
+{
+name = center;
+position = "{162, 277}";
+},
+{
+name = top;
+position = "{162, 760}";
+},
+{
+name = topright;
+position = "{278, 760}";
+}
+);
+layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
+paths = (
+{
+closed = 1;
+nodes = (
+"257 760 LINE",
+"66 760 LINE",
+"66 0 LINE",
+"257 0 LINE"
+);
+}
+);
+width = 323;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{132, 0}";
+},
+{
+name = center;
+position = "{132, 277}";
+},
+{
+name = top;
+position = "{132, 760}";
+},
+{
+name = topright;
+position = "{232, 760}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+paths = (
+{
+closed = 1;
+nodes = (
+"212 760 LINE",
+"50 760 LINE",
+"50 0 LINE",
+"212 0 LINE"
+);
+}
+);
+width = 263;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{129, 0}";
+},
+{
+name = center;
+position = "{129, 268}";
+},
+{
+name = top;
+position = "{129, 760}";
+},
+{
+name = topright;
+position = "{202, 760}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"173 760 LINE",
+"85 760 LINE",
+"85 0 LINE",
+"173 0 LINE"
+);
+}
+);
+width = 258;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{106, 0}";
+},
+{
+name = center;
+position = "{105, 269}";
+},
+{
+name = top;
+position = "{106, 760}";
+},
+{
+name = topright;
+position = "{167, 760}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"146 760 LINE",
+"65 760 LINE",
+"65 0 LINE",
+"146 0 LINE"
+);
+}
+);
+width = 210;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{104, 0}";
+},
+{
+name = center;
+position = "{104, 264}";
+},
+{
+name = top;
+position = "{104, 760}";
+},
+{
+name = topright;
+position = "{187, 760}";
+}
+);
+layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
+paths = (
+{
+closed = 1;
+nodes = (
+"117 760 LINE",
+"91 760 LINE",
+"91 0 LINE",
+"117 0 LINE"
+);
+}
+);
+width = 207;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{84, 0}";
+},
+{
+name = center;
+position = "{84, 264}";
+},
+{
+name = top;
+position = "{84, 760}";
+},
+{
+name = topright;
+position = "{118, 760}";
+}
+);
+layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
+paths = (
+{
+closed = 1;
+nodes = (
+"97 760 LINE",
+"71 760 LINE",
+"71 0 LINE",
+"97 0 LINE"
+);
+}
+);
+width = 167;
+}
+);
+leftKerningGroup = b;
+rightKerningGroup = d;
+unicode = 006C;
+script = latin;
+category = Letter;
+subCategory = Lowercase;
+}

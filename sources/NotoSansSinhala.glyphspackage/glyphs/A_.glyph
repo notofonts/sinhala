@@ -1,0 +1,317 @@
+{
+glyphname = A;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{363, 0}";
+},
+{
+name = center;
+position = "{363, 358}";
+},
+{
+name = top;
+position = "{363, 714}";
+},
+{
+name = topright;
+position = "{636, 714}";
+}
+);
+layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
+paths = (
+{
+closed = 1;
+nodes = (
+"726 0 LINE",
+"490 717 LINE",
+"233 717 LINE",
+"0 0 LINE",
+"212 0 LINE",
+"248 134 LINE",
+"480 134 LINE",
+"515 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"440 292 LINE",
+"288 292 LINE",
+"319 409 LINE SMOOTH",
+"331 456 OFFCURVE",
+"354 550 OFFCURVE",
+"363 599 CURVE",
+"372 550 OFFCURVE",
+"399 447 OFFCURVE",
+"409 409 CURVE SMOOTH"
+);
+}
+);
+width = 726;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{288, 0}";
+},
+{
+name = center;
+position = "{287, 357}";
+},
+{
+name = top;
+position = "{288, 714}";
+},
+{
+name = topright;
+position = "{526, 714}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+paths = (
+{
+closed = 1;
+nodes = (
+"574 0 LINE",
+"398 714 LINE",
+"174 714 LINE",
+"0 0 LINE",
+"184 0 LINE",
+"211 139 LINE",
+"365 139 LINE",
+"392 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"339 285 LINE",
+"236 285 LINE",
+"266 447 LINE SMOOTH",
+"276 500 OFFCURVE",
+"284 551 OFFCURVE",
+"288 589 CURVE",
+"293 549 OFFCURVE",
+"300 498 OFFCURVE",
+"310 445 CURVE SMOOTH"
+);
+}
+);
+width = 574;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{324, 0}";
+},
+{
+name = center;
+position = "{319, 358}";
+},
+{
+name = top;
+position = "{318, 714}";
+},
+{
+name = topright;
+position = "{519, 714}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"638 0 LINE",
+"360 717 LINE",
+"279 717 LINE",
+"0 0 LINE",
+"91 0 LINE",
+"176 221 LINE",
+"459 221 LINE",
+"545 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"432 301 LINE",
+"206 301 LINE",
+"287 517 LINE SMOOTH",
+"295 540 OFFCURVE",
+"308 583 OFFCURVE",
+"318 624 CURVE",
+"325 599 OFFCURVE",
+"346 533 OFFCURVE",
+"352 517 CURVE SMOOTH"
+);
+}
+);
+width = 639;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{220, 0}";
+},
+{
+name = center;
+position = "{225, 357}";
+},
+{
+name = top;
+position = "{224, 714}";
+},
+{
+name = topright;
+position = "{390, 714}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"450 0 LINE",
+"274 714 LINE",
+"173 714 LINE",
+"0 0 LINE",
+"90 0 LINE",
+"142 223 LINE",
+"309 223 LINE",
+"361 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"293 301 LINE",
+"155 301 LINE",
+"206 536 LINE SMOOTH",
+"214 571 OFFCURVE",
+"220 607 OFFCURVE",
+"223 638 CURVE",
+"227 607 OFFCURVE",
+"233 572 OFFCURVE",
+"240 535 CURVE"
+);
+}
+);
+width = 450;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{289, 0}";
+},
+{
+name = center;
+position = "{288, 358}";
+},
+{
+name = top;
+position = "{289, 714}";
+},
+{
+name = topright;
+position = "{557, 714}";
+}
+);
+layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
+paths = (
+{
+closed = 1;
+nodes = (
+"577 0 LINE",
+"307 716 LINE",
+"282 716 LINE",
+"0 0 LINE",
+"28 0 LINE",
+"135 271 LINE",
+"445 271 LINE",
+"549 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"435 296 LINE",
+"144 296 LINE",
+"260 593 LINE SMOOTH",
+"270 620 OFFCURVE",
+"283 652 OFFCURVE",
+"293 682 CURVE",
+"306 645 OFFCURVE",
+"317 617 OFFCURVE",
+"325 594 CURVE SMOOTH"
+);
+}
+);
+width = 577;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{189, 0}";
+},
+{
+name = center;
+position = "{188, 357}";
+},
+{
+name = top;
+position = "{189, 714}";
+},
+{
+name = topright;
+position = "{357, 714}";
+}
+);
+layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
+paths = (
+{
+closed = 1;
+nodes = (
+"377 0 LINE",
+"208 714 LINE",
+"170 714 LINE",
+"0 0 LINE",
+"26 0 LINE",
+"94 281 LINE",
+"284 281 LINE",
+"351 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"278 306 LINE",
+"100 306 LINE",
+"170 612 LINE SMOOTH",
+"178 646 OFFCURVE",
+"183 666 OFFCURVE",
+"189 695 CURVE",
+"195 666 OFFCURVE",
+"200 645 OFFCURVE",
+"208 612 CURVE SMOOTH"
+);
+}
+);
+width = 377;
+}
+);
+leftKerningGroup = A.right;
+rightKerningGroup = A.left;
+unicode = 0041;
+script = latin;
+category = Letter;
+subCategory = Uppercase;
+}
