@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = easinh;
 layers = (
 {
@@ -64,7 +65,7 @@ transform = "{1, 0, 0, 1, 769, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
-width = 1121;
+width = 1137;
 },
 {
 components = (
@@ -81,5 +82,6 @@ width = 931;
 }
 );
 leftKerningGroup = dasinh;
+leftMetricsKey = asinh;
 unicode = 0D87;
 }

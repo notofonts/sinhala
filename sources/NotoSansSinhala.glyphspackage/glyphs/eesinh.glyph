@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = eesinh;
 layers = (
 {
@@ -288,7 +289,7 @@ nodes = (
 "632 746 OFFCURVE",
 "633 719 OFFCURVE",
 "636 700 CURVE",
-"751 687 LINE"
+"751 628 LINE"
 );
 },
 {
@@ -324,7 +325,7 @@ nodes = (
 );
 }
 );
-width = 902;
+width = 906;
 },
 {
 components = (
@@ -392,6 +393,7 @@ nodes = (
 width = 702;
 }
 );
+leftMetricsKey = esinh;
 rightKerningGroup = thasinh;
 unicode = 0D92;
 }

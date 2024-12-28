@@ -1052,6 +1052,6 @@ nodes = (
 width = 1129;
 }
 );
-leftMetricsKey = ttasinh;
+leftMetricsKey = gasinh;
 rightMetricsKey = ttasinh;
 }

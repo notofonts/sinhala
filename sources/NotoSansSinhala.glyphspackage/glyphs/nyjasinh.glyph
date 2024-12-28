@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 7;
 glyphname = nyjasinh;
 layers = (
 {
@@ -198,17 +198,17 @@ width = 920;
 anchors = (
 {
 name = uvowel;
-position = "{1052, 176}";
+position = "{1042, 176}";
 },
 {
 name = virama;
-position = "{672, 396}";
+position = "{662, 396}";
 }
 );
 components = (
 {
 name = jasinh;
-transform = "{1, 0, 0, 1, 230, 0}";
+transform = "{1, 0, 0, 1, 220, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -216,49 +216,49 @@ paths = (
 {
 closed = 1;
 nodes = (
-"864 597 OFFCURVE",
-"872 585 OFFCURVE",
-"948 594 CURVE",
-"1022 626 OFFCURVE",
-"1059 659 OFFCURVE",
-"1107 709 CURVE",
-"1078 744 OFFCURVE",
-"1051 775 OFFCURVE",
-"1017 814 CURVE",
-"944 742 OFFCURVE",
-"902 677 OFFCURVE",
-"801 597 CURVE"
+"854 597 OFFCURVE",
+"862 585 OFFCURVE",
+"938 594 CURVE",
+"1012 626 OFFCURVE",
+"1049 659 OFFCURVE",
+"1097 709 CURVE",
+"1068 744 OFFCURVE",
+"1041 775 OFFCURVE",
+"1007 814 CURVE",
+"934 742 OFFCURVE",
+"892 677 OFFCURVE",
+"791 597 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"30 134 OFFCURVE",
-"104 -5 OFFCURVE",
-"243 -5 CURVE",
-"243 38 OFFCURVE",
-"244 91 OFFCURVE",
-"244 133 CURVE",
-"202 134 OFFCURVE",
-"170 188 OFFCURVE",
-"170 304 CURVE SMOOTH",
-"170 407 OFFCURVE",
-"178 508 OFFCURVE",
-"237 508 CURVE SMOOTH",
-"263 508 OFFCURVE",
-"276 484 OFFCURVE",
-"278 463 CURVE",
-"360 518 LINE",
-"324 583 OFFCURVE",
-"288 620 OFFCURVE",
-"212 620 CURVE SMOOTH",
-"84 620 OFFCURVE",
-"30 508 OFFCURVE",
-"30 305 CURVE SMOOTH"
+"20 134 OFFCURVE",
+"94 -5 OFFCURVE",
+"233 -5 CURVE",
+"233 38 OFFCURVE",
+"234 91 OFFCURVE",
+"234 133 CURVE",
+"192 134 OFFCURVE",
+"160 188 OFFCURVE",
+"160 304 CURVE SMOOTH",
+"160 407 OFFCURVE",
+"168 508 OFFCURVE",
+"227 508 CURVE SMOOTH",
+"253 508 OFFCURVE",
+"266 484 OFFCURVE",
+"268 463 CURVE",
+"350 518 LINE",
+"314 583 OFFCURVE",
+"278 620 OFFCURVE",
+"202 620 CURVE SMOOTH",
+"74 620 OFFCURVE",
+"20 508 OFFCURVE",
+"20 305 CURVE SMOOTH"
 );
 }
 );
-width = 1137;
+width = 1101;
 },
 {
 anchors = (
@@ -451,7 +451,7 @@ nodes = (
 width = 1043;
 }
 );
+leftMetricsKey = ttasinh;
 rightKerningGroup = pasinh;
-rightMetricsKey = jasinh;
 unicode = 0DA6;
 }

@@ -632,7 +632,7 @@ nodes = (
 );
 }
 );
-width = 952;
+width = 932;
 },
 {
 anchors = (
@@ -763,4 +763,6 @@ nodes = (
 width = 796;
 }
 );
+leftMetricsKey = khasinh;
+rightMetricsKey = khasinh;
 }

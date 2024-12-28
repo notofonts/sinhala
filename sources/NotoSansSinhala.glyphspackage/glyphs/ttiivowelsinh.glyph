@@ -514,7 +514,7 @@ nodes = (
 );
 }
 );
-width = 856;
+width = 841;
 },
 {
 anchors = (
@@ -729,5 +729,7 @@ nodes = (
 width = 856;
 }
 );
+leftMetricsKey = ttasinh;
 rightKerningGroup = casinh;
+rightMetricsKey = ttasinh;
 }

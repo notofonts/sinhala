@@ -650,7 +650,7 @@ nodes = (
 );
 }
 );
-width = 940;
+width = 932;
 },
 {
 anchors = (
@@ -905,4 +905,6 @@ nodes = (
 width = 940;
 }
 );
+leftMetricsKey = basinh;
+rightMetricsKey = basinh;
 }
