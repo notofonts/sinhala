@@ -901,6 +901,7 @@ id = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 verticalStems = (
 27
 );
+visible = 1;
 weight = Light;
 weightValue = 26;
 xHeight = 536;
@@ -924,6 +925,7 @@ id = UUID0;
 verticalStems = (
 73
 );
+visible = 1;
 weightValue = 90;
 xHeight = 536;
 },
@@ -14865,6 +14867,13 @@ c,
 0
 )
 );
+chasinh = (
+(
+pasinh,
+1,
+0
+)
+);
 d = (
 (
 c,
@@ -15233,6 +15242,13 @@ n,
 0
 )
 );
+jasinh = (
+(
+pasinh,
+1,
+0
+)
+);
 k = (
 (
 b,
@@ -15561,6 +15577,13 @@ seven = (
 (
 T,
 0,
+0
+)
+);
+shasinh = (
+(
+gasinh,
+1,
 0
 )
 );
