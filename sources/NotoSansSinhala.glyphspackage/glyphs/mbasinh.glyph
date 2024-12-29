@@ -5,14 +5,6 @@ layers = (
 {
 anchors = (
 {
-name = Anchor5;
-position = "{858, -15}";
-},
-{
-name = entry;
-position = "{53, 0}";
-},
-{
 name = uvowel;
 position = "{768, 176}";
 }
@@ -162,14 +154,6 @@ width = 832;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{879, -15}";
-},
-{
-name = entry;
-position = "{50, 0}";
-},
 {
 name = uvowel;
 position = "{809, 176}";
@@ -321,16 +305,8 @@ width = 874;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{942, -15}";
-},
-{
-name = entry;
-position = "{44, 0}";
-},
-{
 name = uvowel;
-position = "{867, 176}";
+position = "{857, 176}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -338,6 +314,10 @@ paths = (
 {
 closed = 1;
 nodes = (
+"318 -17 OFFCURVE",
+"355 -12 OFFCURVE",
+"396 -6 CURVE",
+"388 83 LINE",
 "354 83 OFFCURVE",
 "333 83 OFFCURVE",
 "275 83 CURVE",
@@ -401,57 +381,12 @@ nodes = (
 "20 284 CURVE SMOOTH",
 "20 97 OFFCURVE",
 "93 -17 OFFCURVE",
-"251 -17 CURVE SMOOTH",
-"318 -17 OFFCURVE",
-"355 -12 OFFCURVE",
-"396 -6 CURVE",
-"393 27 OFFCURVE",
-"388 76 OFFCURVE",
-"388 83 CURVE"
+"251 -17 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"483 130 OFFCURVE",
-"492 122 OFFCURVE",
-"492 105 CURVE SMOOTH",
-"492 91 OFFCURVE",
-"474 82 OFFCURVE",
-"454 82 CURVE",
-"450 -7 LINE",
-"548 67 LINE",
-"600 85 OFFCURVE",
-"618 108 OFFCURVE",
-"618 142 CURVE SMOOTH",
-"618 207 OFFCURVE",
-"554 223 OFFCURVE",
-"430 223 CURVE SMOOTH",
-"313 223 OFFCURVE",
-"241 213 OFFCURVE",
-"241 142 CURVE SMOOTH",
-"241 112 OFFCURVE",
-"264 83 OFFCURVE",
-"309 67 CURVE",
-"396 -7 LINE",
-"388 83 LINE",
-"367 83 OFFCURVE",
-"359 93 OFFCURVE",
-"359 105 CURVE SMOOTH",
-"359 118 OFFCURVE",
-"368 130 OFFCURVE",
-"431 130 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"454 62 OFFCURVE",
-"450 18 OFFCURVE",
-"450 -7 CURVE",
-"497 -12 OFFCURVE",
-"560 -17 OFFCURVE",
-"609 -17 CURVE SMOOTH",
 "768 -17 OFFCURVE",
 "891 95 OFFCURVE",
 "891 358 CURVE SMOOTH",
@@ -473,7 +408,45 @@ nodes = (
 "591 91 CURVE",
 "540 91 OFFCURVE",
 "485 82 OFFCURVE",
-"454 82 CURVE"
+"454 82 CURVE",
+"450 -7 LINE",
+"497 -12 OFFCURVE",
+"560 -17 OFFCURVE",
+"609 -17 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"483 130 OFFCURVE",
+"492 122 OFFCURVE",
+"492 105 CURVE SMOOTH",
+"492 91 OFFCURVE",
+"474 82 OFFCURVE",
+"454 82 CURVE",
+"450 -7 LINE",
+"548 67 LINE",
+"600 85 OFFCURVE",
+"618 108 OFFCURVE",
+"618 142 CURVE SMOOTH",
+"618 205 OFFCURVE",
+"557 223 OFFCURVE",
+"440 223 CURVE SMOOTH",
+"430 223 LINE SMOOTH",
+"313 223 OFFCURVE",
+"241 213 OFFCURVE",
+"241 142 CURVE SMOOTH",
+"241 112 OFFCURVE",
+"264 83 OFFCURVE",
+"309 67 CURVE",
+"396 -7 LINE",
+"388 83 LINE",
+"367 83 OFFCURVE",
+"359 93 OFFCURVE",
+"359 105 CURVE SMOOTH",
+"359 118 OFFCURVE",
+"368 130 OFFCURVE",
+"431 130 CURVE SMOOTH"
 );
 }
 );
@@ -481,14 +454,6 @@ width = 915;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{942, -15}";
-},
-{
-name = entry;
-position = "{44, 0}";
-},
 {
 name = uvowel;
 position = "{867, 176}";
@@ -642,14 +607,6 @@ width = 942;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{631, -15}";
-},
-{
-name = entry;
-position = "{50, 0}";
-},
-{
 name = uvowel;
 position = "{580, 176}";
 }
@@ -800,14 +757,6 @@ width = 629;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{674, -15}";
-},
-{
-name = entry;
-position = "{40, 0}";
-},
-{
 name = uvowel;
 position = "{620, 176}";
 }
@@ -957,14 +906,6 @@ width = 671;
 },
 {
 anchors = (
-{
-name = Anchor5;
-position = "{760, -15}";
-},
-{
-name = entry;
-position = "{28, 0}";
-},
 {
 name = uvowel;
 position = "{699, 176}";

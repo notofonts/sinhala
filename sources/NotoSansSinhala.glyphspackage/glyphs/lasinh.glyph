@@ -6,11 +6,11 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{301.231, 533}";
+position = "{301, 573}";
 },
 {
 name = virama;
-position = "{651.634, 536}";
+position = "{652, 556}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -84,7 +84,7 @@ width = 792;
 anchors = (
 {
 name = top;
-position = "{288, 583}";
+position = "{288, 582}";
 },
 {
 name = virama;

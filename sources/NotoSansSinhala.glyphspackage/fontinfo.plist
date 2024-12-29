@@ -913,7 +913,6 @@ id = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 verticalStems = (
 27
 );
-visible = 1;
 weight = Light;
 weightValue = 26;
 xHeight = 536;
@@ -929,19 +928,14 @@ capHeight = 612;
 descender = -293;
 guideLines = (
 {
-name = "pa-shoulder";
-position = "{-98, 425}";
-},
-{
 name = "pa-terminal";
-position = "{-98, 458}";
+position = "{-118, 458}";
 }
 );
 id = UUID0;
 verticalStems = (
 73
 );
-visible = 1;
 weightValue = 90;
 xHeight = 536;
 },
@@ -956,6 +950,7 @@ capHeight = 612;
 descender = -293;
 guideLines = (
 {
+angle = -1.8744;
 position = "{-6, 475}";
 },
 {
@@ -963,6 +958,9 @@ position = "{-6, 444}";
 },
 {
 position = "{-6, 463}";
+},
+{
+position = "{-6, 444}";
 }
 );
 id = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";

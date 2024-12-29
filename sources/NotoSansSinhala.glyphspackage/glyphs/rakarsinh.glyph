@@ -5,8 +5,8 @@ layers = (
 {
 anchors = (
 {
-name = _uvowel;
-position = "{-53, 176}";
+name = _rakar;
+position = "{-56, 179}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -30,12 +30,9 @@ nodes = (
 "-469 -198 OFFCURVE",
 "-512 -125 OFFCURVE",
 "-513 -48 CURVE",
-"-540 -46 LINE",
-"-540 -49 OFFCURVE",
-"-540 -52 OFFCURVE",
-"-540 -55 CURVE SMOOTH",
-"-540 -142 OFFCURVE",
-"-478 -224 OFFCURVE",
+"-540 -48 LINE",
+"-540 -175 OFFCURVE",
+"-443 -224 OFFCURVE",
 "-300 -224 CURVE SMOOTH"
 );
 }
@@ -67,15 +64,12 @@ nodes = (
 "-132 -102 OFFCURVE",
 "-166 -172 OFFCURVE",
 "-346 -172 CURVE SMOOTH",
-"-503 -172 OFFCURVE",
+"-483 -172 OFFCURVE",
 "-538 -117 OFFCURVE",
 "-541 -48 CURVE",
-"-613 -45 LINE",
-"-614 -49 OFFCURVE",
-"-614 -52 OFFCURVE",
-"-614 -55 CURVE SMOOTH",
-"-614 -158 OFFCURVE",
-"-548 -243 OFFCURVE",
+"-612 -48 LINE",
+"-612 -163 OFFCURVE",
+"-520 -243 OFFCURVE",
 "-348 -243 CURVE SMOOTH"
 );
 }
@@ -85,8 +79,8 @@ width = 0;
 {
 anchors = (
 {
-name = _uvowel;
-position = "{-53, 176}";
+name = _rakar;
+position = "{-56, 179}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -101,10 +95,10 @@ nodes = (
 "-49 161 OFFCURVE",
 "-56 175 CURVE",
 "-178 104 LINE",
-"-175 94 OFFCURVE",
-"-191 -6 OFFCURVE",
-"-191 -9 CURVE SMOOTH",
-"-191 -81 OFFCURVE",
+"-178 69 OFFCURVE",
+"-177 28 OFFCURVE",
+"-177 -9 CURVE SMOOTH",
+"-177 -81 OFFCURVE",
 "-234 -140 OFFCURVE",
 "-378 -140 CURVE SMOOTH",
 "-544 -140 OFFCURVE",
