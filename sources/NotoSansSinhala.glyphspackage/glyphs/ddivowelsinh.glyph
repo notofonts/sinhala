@@ -3,12 +3,6 @@ color = 3;
 glyphname = ddivowelsinh;
 layers = (
 {
-anchors = (
-{
-name = entry;
-position = "{44, 0}";
-}
-);
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -129,12 +123,6 @@ nodes = (
 width = 801;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{45, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -255,12 +243,6 @@ nodes = (
 width = 864;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{38, 0}";
-}
-);
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 paths = (
 {
@@ -369,12 +351,6 @@ nodes = (
 width = 921;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{38, 0}";
-}
-);
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 layerId = "BFD5732A-A73D-42BE-9FE5-FF97219DA595";
 name = "21 Dec 24, 19:19";
@@ -497,12 +473,6 @@ nodes = (
 width = 946;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{39, 0}";
-}
-);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -623,12 +593,6 @@ nodes = (
 width = 608;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{34, 0}";
-}
-);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -749,12 +713,6 @@ nodes = (
 width = 650;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{27, 0}";
-}
-);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {

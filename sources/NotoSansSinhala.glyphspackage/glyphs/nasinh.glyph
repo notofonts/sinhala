@@ -5,6 +5,10 @@ layers = (
 {
 anchors = (
 {
+name = repaya;
+position = "{509.346, 730}";
+},
+{
 name = top;
 position = "{400, 545}";
 },
@@ -239,6 +243,10 @@ width = 963;
 {
 anchors = (
 {
+name = repaya;
+position = "{554.055, 730}";
+},
+{
 name = top;
 position = "{461, 533}";
 },
@@ -258,9 +266,9 @@ closed = 1;
 nodes = (
 "604 -11 OFFCURVE",
 "666 124 OFFCURVE",
-"666 237 CURVE SMOOTH",
+"666 257 CURVE SMOOTH",
 "666 364 OFFCURVE",
-"608 430 OFFCURVE",
+"598 430 OFFCURVE",
 "489 430 CURVE SMOOTH",
 "413 430 OFFCURVE",
 "348 382 OFFCURVE",
@@ -278,8 +286,8 @@ nodes = (
 "213 123 OFFCURVE",
 "149 191 OFFCURVE",
 "149 321 CURVE",
-"8 321 LINE",
-"8 112 OFFCURVE",
+"18 321 LINE",
+"18 112 OFFCURVE",
 "148 -11 OFFCURVE",
 "362 -11 CURVE SMOOTH"
 );
@@ -303,13 +311,13 @@ nodes = (
 "164 299 OFFCURVE",
 "149 310 OFFCURVE",
 "149 319 CURVE",
-"121 263 LINE",
-"134 244 OFFCURVE",
+"121 253 LINE",
+"134 234 OFFCURVE",
 "159 200 OFFCURVE",
 "234 200 CURVE SMOOTH",
 "284 200 OFFCURVE",
-"362 231 OFFCURVE",
-"401 352 CURVE",
+"352 231 OFFCURVE",
+"391 352 CURVE",
 "417 403 LINE",
 "460 452 OFFCURVE",
 "513 478 OFFCURVE",
@@ -318,8 +326,8 @@ nodes = (
 "811 411 OFFCURVE",
 "811 292 CURVE SMOOTH",
 "811 181 OFFCURVE",
-"780 124 OFFCURVE",
-"675 124 CURVE",
+"777 124 OFFCURVE",
+"672 124 CURVE",
 "672 -2 LINE"
 );
 },
@@ -353,6 +361,10 @@ width = 979;
 },
 {
 anchors = (
+{
+name = repaya;
+position = "{563.676, 730}";
+},
 {
 name = top;
 position = "{466, 533}";
@@ -477,6 +489,10 @@ width = 996;
 {
 anchors = (
 {
+name = repaya;
+position = "{563.676, 730}";
+},
+{
 name = top;
 position = "{466, 533}";
 },
@@ -600,6 +616,10 @@ width = 996;
 {
 anchors = (
 {
+name = repaya;
+position = "{375.784, 730}";
+},
+{
 name = top;
 position = "{310.667, 533}";
 },
@@ -721,6 +741,10 @@ width = 664;
 {
 anchors = (
 {
+name = repaya;
+position = "{403.515, 730}";
+},
+{
 name = top;
 position = "{333.592, 533}";
 },
@@ -841,6 +865,10 @@ width = 713;
 },
 {
 anchors = (
+{
+name = repaya;
+position = "{452.186, 730}";
+},
 {
 name = top;
 position = "{373.829, 533}";

@@ -6,11 +6,11 @@ layers = (
 anchors = (
 {
 name = repaya;
-position = "{387, 800}";
+position = "{367, 820}";
 },
 {
 name = uvowel;
-position = "{661, 176}";
+position = "{691, 176}";
 }
 );
 background = {
