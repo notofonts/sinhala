@@ -6,33 +6,32 @@ layers = (
 anchors = (
 {
 name = below;
-position = "{697, -1}";
+position = "{677, -1}";
 },
 {
 name = repaya;
-position = "{557.23, 730}";
+position = "{537, 730}";
 },
 {
 name = top;
-position = "{443, 533}";
+position = "{423, 533}";
 },
 {
 name = virama;
-position = "{816, 536}";
+position = "{796, 536}";
 }
 );
 components = (
 {
 name = gasinh;
-transform = "{1, 0, 0, 1, 192, 0}";
+transform = "{1, 0, 0, 1, 172, 0}";
 },
 {
 name = "sanyaka-sinh";
-transform = "{1, 0, 0, 1, 20, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
-width = 997;
+width = 1052;
 },
 {
 anchors = (
@@ -70,33 +69,33 @@ width = 1118;
 anchors = (
 {
 name = below;
-position = "{804, -1}";
+position = "{834, -1}";
 },
 {
 name = repaya;
-position = "{634.359, 730}";
+position = "{664, 730}";
 },
 {
 name = top;
-position = "{508, 533}";
+position = "{538, 533}";
 },
 {
 name = virama;
-position = "{942, 536}";
+position = "{972, 536}";
 }
 );
 components = (
 {
 name = gasinh;
-transform = "{1, 0, 0, 1, 192, 0}";
+transform = "{1, 0, 0, 1, 222, 0}";
 },
 {
 name = "sanyaka-sinh";
-transform = "{1, 0, 0, 1, -20, 0}";
+transform = "{1, 0, 0, 1, 10, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
-width = 1135;
+width = 1165;
 },
 {
 anchors = (

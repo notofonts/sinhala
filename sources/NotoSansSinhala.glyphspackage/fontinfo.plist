@@ -22,7 +22,7 @@ code = "khasinh ghasinh ngasinh casinh chasinh jasinh jhasinh nyjasinh ttasinh t
 name = blwsMarkAttchmentSet1;
 },
 {
-code = "kasinh gasinh nngasinh tasinh shasinh hasinh\012";
+code = "kasinh gasinh nngasinh tasinh shasinh hasinh bhasinh\012";
 name = blwsMarkAttachementSet2;
 },
 {
@@ -937,10 +937,6 @@ ascender = 1011;
 capHeight = 612;
 descender = -293;
 guideLines = (
-{
-angle = -1.8744;
-position = "{-6, 475}";
-},
 {
 position = "{-6, 444}";
 },
