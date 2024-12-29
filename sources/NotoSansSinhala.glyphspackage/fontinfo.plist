@@ -22,7 +22,7 @@ code = "khasinh ghasinh ngasinh casinh chasinh jasinh jhasinh nyjasinh ttasinh t
 name = blwsMarkAttchmentSet1;
 },
 {
-code = "kasinh gasinh nngasinh tasinh shasinh\012";
+code = "kasinh gasinh nngasinh tasinh shasinh hasinh\012";
 name = blwsMarkAttachementSet2;
 },
 {
@@ -903,12 +903,6 @@ alignmentZones = (
 ascender = 1011;
 capHeight = 612;
 descender = -293;
-guideLines = (
-{
-name = "sa-shoulder";
-position = "{-98, 413}";
-}
-);
 id = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 verticalStems = (
 27
@@ -926,12 +920,6 @@ alignmentZones = (
 ascender = 1011;
 capHeight = 612;
 descender = -293;
-guideLines = (
-{
-name = "pa-terminal";
-position = "{-118, 458}";
-}
-);
 id = UUID0;
 verticalStems = (
 73
@@ -967,7 +955,6 @@ id = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 verticalStems = (
 140
 );
-visible = 1;
 weight = Bold;
 weightValue = 190;
 xHeight = 536;

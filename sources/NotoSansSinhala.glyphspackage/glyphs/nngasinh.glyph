@@ -92,7 +92,7 @@ transform = "{1, 0, 0, 1, 192, 0}";
 },
 {
 name = "sanyaka-sinh";
-transform = "{1, 0, 0, 1, 20, 0}";
+transform = "{1, 0, 0, 1, -20, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
