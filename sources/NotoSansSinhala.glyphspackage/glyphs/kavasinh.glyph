@@ -1093,6 +1093,50 @@ nodes = (
 }
 );
 width = 1147;
+},
+{
+anchors = (
+{
+name = repaya;
+position = "{965, 800}";
+}
+);
+associatedMasterId = UUID0;
+components = (
+{
+name = _part.ka;
+transform = "{1, 0, 0, 1, 30, 0}";
+},
+{
+name = vasinh;
+transform = "{1, 0, 0, 1, 610, 0}";
+}
+);
+layerId = "FF57CD2F-BE68-4A4B-A882-F51D8A2423FB";
+name = "29 Dec 24 at 17:19";
+width = 1392;
+},
+{
+anchors = (
+{
+name = repaya;
+position = "{965, 800}";
+}
+);
+associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
+components = (
+{
+name = _part.ka;
+transform = "{1, 0, 0, 1, 30, 0}";
+},
+{
+name = vasinh;
+transform = "{1, 0, 0, 1, 660, 0}";
+}
+);
+layerId = "67F77EEB-9249-4258-BF7D-27AF7CF40BA5";
+name = "29 Dec 24 at 17:20";
+width = 1488;
 }
 );
 rightKerningGroup = casinh;

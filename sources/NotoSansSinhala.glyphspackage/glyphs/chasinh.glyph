@@ -133,7 +133,7 @@ width = 798;
 anchors = (
 {
 name = uvowel;
-position = "{748.956, 176}";
+position = "{731, 176}";
 },
 {
 name = virama;
