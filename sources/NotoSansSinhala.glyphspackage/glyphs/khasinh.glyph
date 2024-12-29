@@ -5,6 +5,10 @@ layers = (
 {
 anchors = (
 {
+name = repaya;
+position = "{358, 800}";
+},
+{
 name = uvowel;
 position = "{776, 176}";
 }
@@ -35,7 +39,7 @@ nodes = (
 "230 15 CURVE SMOOTH",
 "160 15 OFFCURVE",
 "119 54 OFFCURVE",
-"95 105 CURVE SMOOTH",
+"95 105 CURVE",
 "75 148 OFFCURVE",
 "68 200 OFFCURVE",
 "68 243 CURVE SMOOTH",
@@ -134,9 +138,9 @@ nodes = (
 "304 57 OFFCURVE",
 "249 57 CURVE SMOOTH",
 "189 57 OFFCURVE",
-"153 86 OFFCURVE",
+"154 86 OFFCURVE",
 "132 129 CURVE",
-"114 163 OFFCURVE",
+"115 163 OFFCURVE",
 "109 204 OFFCURVE",
 "109 247 CURVE SMOOTH",
 "109 395 OFFCURVE",
@@ -201,6 +205,10 @@ width = 874;
 {
 anchors = (
 {
+name = repaya;
+position = "{402, 800}";
+},
+{
 name = uvowel;
 position = "{889, 176}";
 }
@@ -262,14 +270,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"619 128 OFFCURVE",
-"602 149 OFFCURVE",
-"613 188 CURVE",
-"547 186 LINE",
-"547 136 LINE",
-"556 22 OFFCURVE",
-"613 -11 OFFCURVE",
-"689 -11 CURVE SMOOTH",
 "808 -11 OFFCURVE",
 "908 85 OFFCURVE",
 "908 314 CURVE SMOOTH",
@@ -288,7 +288,15 @@ nodes = (
 "743 327 CURVE SMOOTH",
 "743 186 OFFCURVE",
 "711 128 OFFCURVE",
-"653 128 CURVE SMOOTH"
+"653 128 CURVE SMOOTH",
+"619 128 OFFCURVE",
+"602 149 OFFCURVE",
+"613 188 CURVE",
+"547 186 LINE",
+"547 136 LINE",
+"556 22 OFFCURVE",
+"613 -11 OFFCURVE",
+"689 -11 CURVE SMOOTH"
 );
 }
 );
@@ -296,6 +304,10 @@ width = 932;
 },
 {
 anchors = (
+{
+name = repaya;
+position = "{444, 800}";
+},
 {
 name = uvowel;
 position = "{897, 176}";
@@ -395,6 +407,10 @@ width = 952;
 {
 anchors = (
 {
+name = repaya;
+position = "{418, 800}";
+},
+{
 name = uvowel;
 position = "{897, 176}";
 }
@@ -493,6 +509,10 @@ width = 952;
 {
 anchors = (
 {
+name = repaya;
+position = "{271, 800}";
+},
+{
 name = uvowel;
 position = "{583.238, 176}";
 }
@@ -589,6 +609,10 @@ width = 614;
 {
 anchors = (
 {
+name = repaya;
+position = "{303, 800}";
+},
+{
 name = uvowel;
 position = "{626, 176}";
 }
@@ -684,6 +708,10 @@ width = 660;
 },
 {
 anchors = (
+{
+name = repaya;
+position = "{360, 800}";
+},
 {
 name = uvowel;
 position = "{745, 176}";
