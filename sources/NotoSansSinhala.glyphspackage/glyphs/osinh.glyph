@@ -104,7 +104,7 @@ nodes = (
 );
 }
 );
-width = 825;
+width = 822;
 },
 {
 layerId = UUID0;
@@ -208,7 +208,7 @@ nodes = (
 );
 }
 );
-width = 872;
+width = 867;
 },
 {
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -791,7 +791,7 @@ nodes = (
 );
 }
 );
-width = 619;
+width = 616;
 },
 {
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -895,7 +895,7 @@ nodes = (
 );
 }
 );
-width = 656;
+width = 653;
 },
 {
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -999,7 +999,7 @@ nodes = (
 );
 }
 );
-width = 751;
+width = 747;
 }
 );
 leftMetricsKey = ttasinh;
