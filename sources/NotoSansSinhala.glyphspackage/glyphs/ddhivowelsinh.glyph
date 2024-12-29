@@ -48,7 +48,7 @@ nodes = (
 );
 }
 );
-width = 802;
+width = 790;
 },
 {
 anchors = (
@@ -96,7 +96,7 @@ nodes = (
 );
 }
 );
-width = 864;
+width = 848;
 },
 {
 anchors = (
@@ -344,7 +344,7 @@ nodes = (
 );
 }
 );
-width = 608;
+width = 605;
 },
 {
 anchors = (
@@ -392,7 +392,7 @@ nodes = (
 );
 }
 );
-width = 650;
+width = 647;
 },
 {
 anchors = (
@@ -440,7 +440,7 @@ nodes = (
 );
 }
 );
-width = 739;
+width = 733;
 }
 );
 leftMetricsKey = ddasinh;
