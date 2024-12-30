@@ -6,43 +6,41 @@ layers = (
 components = (
 {
 name = darasinh;
-transform = "{1, 0, 0, 1, 211, 0}";
+transform = "{1, 0, 0, 1, 170, 0}";
 },
 {
 name = "sanyaka-sinh";
-transform = "{1, 0, 0, 1, 41, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
-width = 732;
+width = 691;
 },
 {
 components = (
 {
 name = darasinh;
-transform = "{1, 0, 0, 1, 260, 0}";
+transform = "{1, 0, 0, 1, 250, 0}";
 },
 {
 name = "sanyaka-sinh";
-transform = "{1, 0, 0, 1, 20, 0}";
+transform = "{1, 0, 0, 1, 10, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
-width = 895;
+width = 885;
 },
 {
 components = (
 {
 name = darasinh;
-transform = "{1, 0, 0, 1, 206, 0}";
+transform = "{1, 0, 0, 1, 170, 0}";
 },
 {
 name = "sanyaka-sinh";
-transform = "{1, 0, 0, 1, 36, 0}";
 }
 );
 layerId = UUID0;
-width = 763;
+width = 727;
 },
 {
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";

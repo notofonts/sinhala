@@ -6,43 +6,41 @@ layers = (
 components = (
 {
 name = duvowelsinh;
-transform = "{1, 0, 0, 1, 211, 0}";
+transform = "{1, 0, 0, 1, 170, 0}";
 },
 {
 name = "sanyaka-sinh";
-transform = "{1, 0, 0, 1, 41, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
-width = 781;
+width = 740;
 },
 {
 components = (
 {
 name = duvowelsinh;
-transform = "{1, 0, 0, 1, 206, 0}";
+transform = "{1, 0, 0, 1, 170, 0}";
 },
 {
 name = "sanyaka-sinh";
-transform = "{1, 0, 0, 1, 36, 0}";
 }
 );
 layerId = UUID0;
-width = 798;
+width = 762;
 },
 {
 components = (
 {
 name = duvowelsinh;
-transform = "{1, 0, 0, 1, 206, 0}";
+transform = "{1, 0, 0, 1, 240, 0}";
 },
 {
 name = "sanyaka-sinh";
-transform = "{1, 0, 0, 1, -24, 0}";
+transform = "{1, 0, 0, 1, 10, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
-width = 864;
+width = 875;
 },
 {
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
