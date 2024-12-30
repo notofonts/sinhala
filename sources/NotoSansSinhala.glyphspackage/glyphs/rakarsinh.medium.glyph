@@ -1,12 +1,12 @@
 {
 color = 3;
-glyphname = rakarsinh.long;
+glyphname = rakarsinh.medium;
 layers = (
 {
 anchors = (
 {
 name = _rakar;
-position = "{-69, 210}";
+position = "{-74, 210}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -14,20 +14,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-88 -294 OFFCURVE",
-"-40 12 OFFCURVE",
-"-67 210 CURVE",
-"-83 170 LINE",
-"-93 82 OFFCURVE",
-"-67 -268 OFFCURVE",
-"-478 -268 CURVE SMOOTH",
-"-769 -268 OFFCURVE",
-"-852 -195 OFFCURVE",
-"-853 -108 CURVE",
-"-880 -106 LINE",
-"-880 -281 OFFCURVE",
-"-625 -294 OFFCURVE",
-"-480 -294 CURVE SMOOTH"
+"-60 -294 OFFCURVE",
+"-50 28 OFFCURVE",
+"-75 212 CURVE",
+"-91 172 LINE",
+"-73 9 OFFCURVE",
+"-99 -263 OFFCURVE",
+"-388 -268 CURVE SMOOTH",
+"-579 -272 OFFCURVE",
+"-642 -195 OFFCURVE",
+"-643 -118 CURVE",
+"-670 -118 LINE",
+"-670 -255 OFFCURVE",
+"-526 -294 OFFCURVE",
+"-390 -294 CURVE SMOOTH"
 );
 }
 );
@@ -37,7 +37,7 @@ width = 0;
 anchors = (
 {
 name = _rakar;
-position = "{-60, 180}";
+position = "{-80, 110}";
 }
 );
 layerId = UUID0;
@@ -45,20 +45,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-87 -343 OFFCURVE",
-"-37 74 OFFCURVE",
-"-60 180 CURVE",
-"-121 150 LINE",
-"-131 -117 OFFCURVE",
-"-300 -273 OFFCURVE",
-"-497 -273 CURVE SMOOTH",
-"-683 -273 OFFCURVE",
-"-806 -190 OFFCURVE",
-"-816 -72 CURVE",
-"-887 -72 LINE",
-"-887 -273 OFFCURVE",
-"-642 -343 OFFCURVE",
-"-497 -343 CURVE SMOOTH"
+"-149 -393 OFFCURVE",
+"-62 -138 OFFCURVE",
+"-80 110 CURVE",
+"-144 41 LINE",
+"-134 -102 OFFCURVE",
+"-207 -323 OFFCURVE",
+"-468 -323 CURVE SMOOTH",
+"-705 -323 OFFCURVE",
+"-778 -217 OFFCURVE",
+"-781 -148 CURVE",
+"-852 -148 LINE",
+"-852 -263 OFFCURVE",
+"-730 -393 OFFCURVE",
+"-478 -393 CURVE SMOOTH"
 );
 }
 );
@@ -68,7 +68,7 @@ width = 0;
 anchors = (
 {
 name = _rakar;
-position = "{-66, 179}";
+position = "{-63, 180}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -76,20 +76,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"54 -263 OFFCURVE",
-"-39 106 OFFCURVE",
-"-63 185 CURVE",
-"-185 114 LINE",
-"-185 13 OFFCURVE",
-"-233 -115 OFFCURVE",
-"-418 -115 CURVE SMOOTH",
-"-634 -115 OFFCURVE",
+"54 -343 OFFCURVE",
+"-39 131 OFFCURVE",
+"-63 180 CURVE",
+"-185 109 LINE",
+"-150 -8 OFFCURVE",
+"-253 -175 OFFCURVE",
+"-428 -175 CURVE SMOOTH",
+"-634 -175 OFFCURVE",
 "-667 -88 OFFCURVE",
-"-674 5 CURVE",
-"-813 10 LINE",
-"-845 -225 OFFCURVE",
-"-615 -263 OFFCURVE",
-"-417 -263 CURVE SMOOTH"
+"-674 -35 CURVE",
+"-813 -30 LINE",
+"-846 -227 OFFCURVE",
+"-645 -343 OFFCURVE",
+"-427 -343 CURVE SMOOTH"
 );
 }
 );
@@ -99,7 +99,7 @@ width = 0;
 anchors = (
 {
 name = _rakar;
-position = "{-92, 64}";
+position = "{-54, -25}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -139,7 +139,7 @@ width = 0;
 anchors = (
 {
 name = _rakar;
-position = "{-124, 46}";
+position = "{-47, -24}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -179,7 +179,7 @@ width = 0;
 anchors = (
 {
 name = _rakar;
-position = "{-173, 29}";
+position = "{-35, -19}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -210,39 +210,6 @@ nodes = (
 "-612 -152 OFFCURVE",
 "-560 -263 OFFCURVE",
 "-323 -263 CURVE SMOOTH"
-);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _rakar;
-position = "{-60, 180}";
-}
-);
-associatedMasterId = UUID0;
-layerId = "BBED29AF-1112-4BBC-A5A7-6CFD03440FAD";
-name = "30 Dec 24 at 03:42";
-paths = (
-{
-closed = 1;
-nodes = (
-"-107 -333 OFFCURVE",
-"-37 74 OFFCURVE",
-"-60 180 CURVE",
-"-121 150 LINE",
-"-131 -117 OFFCURVE",
-"-320 -263 OFFCURVE",
-"-497 -263 CURVE SMOOTH",
-"-714 -263 OFFCURVE",
-"-806 -157 OFFCURVE",
-"-801 -88 CURVE",
-"-873 -85 LINE",
-"-877 -242 OFFCURVE",
-"-703 -333 OFFCURVE",
-"-507 -333 CURVE SMOOTH"
 );
 }
 );

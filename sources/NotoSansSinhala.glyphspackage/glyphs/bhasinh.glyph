@@ -17,8 +17,16 @@ name = entry;
 position = "{104, 0}";
 },
 {
+name = rakar;
+position = "{887.813, 210}";
+},
+{
+name = repaya;
+position = "{460, 722}";
+},
+{
 name = top;
-position = "{411, 533}";
+position = "{257, 603}";
 },
 {
 name = uvowel;
@@ -26,7 +34,7 @@ position = "{910, 176}";
 },
 {
 name = virama;
-position = "{833, 536}";
+position = "{660, 595}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -141,8 +149,16 @@ name = entry;
 position = "{73, 0}";
 },
 {
+name = rakar;
+position = "{910, 210}";
+},
+{
+name = repaya;
+position = "{415.628, 722}";
+},
+{
 name = top;
-position = "{401, 533}";
+position = "{308, 583}";
 },
 {
 name = uvowel;
@@ -265,8 +281,16 @@ name = entry;
 position = "{49, 0}";
 },
 {
+name = rakar;
+position = "{942.188, 210}";
+},
+{
+name = repaya;
+position = "{435.111, 722}";
+},
+{
 name = top;
-position = "{417, 533}";
+position = "{347, 533}";
 },
 {
 name = uvowel;
@@ -427,6 +451,14 @@ name = entry;
 position = "{38, 0}";
 },
 {
+name = rakar;
+position = "{986.25, 210}";
+},
+{
+name = repaya;
+position = "{455.459, 722}";
+},
+{
 name = top;
 position = "{406, 533}";
 },
@@ -554,6 +586,14 @@ name = entry;
 position = "{39, 0}";
 },
 {
+name = rakar;
+position = "{642.188, 210}";
+},
+{
+name = repaya;
+position = "{296.568, 722}";
+},
+{
 name = top;
 position = "{264.749, 533}";
 },
@@ -677,6 +717,14 @@ position = "{455, 0}";
 {
 name = entry;
 position = "{34, 0}";
+},
+{
+name = rakar;
+position = "{679.688, 210}";
+},
+{
+name = repaya;
+position = "{313.886, 722}";
 },
 {
 name = top;
@@ -804,6 +852,14 @@ name = entry;
 position = "{27, 0}";
 },
 {
+name = rakar;
+position = "{780.938, 210}";
+},
+{
+name = repaya;
+position = "{360.644, 722}";
+},
+{
 name = top;
 position = "{321.481, 533}";
 },
@@ -927,6 +983,14 @@ position = "{578, 0}";
 {
 name = entry;
 position = "{31, 0}";
+},
+{
+name = rakar;
+position = "{890.625, 210}";
+},
+{
+name = repaya;
+position = "{411.299, 722}";
 },
 {
 name = top;
@@ -1057,6 +1121,14 @@ name = entry;
 position = "{34, 0}";
 },
 {
+name = rakar;
+position = "{843.75, 210}";
+},
+{
+name = repaya;
+position = "{389.652, 722}";
+},
+{
 name = top;
 position = "{341, 533}";
 },
@@ -1182,6 +1254,14 @@ position = "{718, -1}";
 {
 name = entry;
 position = "{59, 0}";
+},
+{
+name = rakar;
+position = "{925.313, 210}";
+},
+{
+name = repaya;
+position = "{427.318, 722}";
 },
 {
 name = top;

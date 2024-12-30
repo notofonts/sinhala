@@ -5,6 +5,10 @@ layers = (
 {
 anchors = (
 {
+name = rakar;
+position = "{820.402, 210}";
+},
+{
 name = repaya;
 position = "{478.568, 800}";
 },
@@ -124,6 +128,10 @@ width = 907;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{940, 210}";
+},
 {
 name = repaya;
 position = "{525, 800}";
@@ -245,6 +253,10 @@ width = 995;
 {
 anchors = (
 {
+name = rakar;
+position = "{1015.779, 210}";
+},
+{
 name = repaya;
 position = "{592.538, 800}";
 },
@@ -364,6 +376,10 @@ width = 1123;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{1021.206, 210}";
+},
 {
 name = repaya;
 position = "{595.704, 800}";
@@ -490,6 +506,10 @@ width = 1129;
 {
 anchors = (
 {
+name = rakar;
+position = "{636.784, 210}";
+},
+{
 name = repaya;
 position = "{371.457, 800}";
 },
@@ -613,6 +633,10 @@ width = 704;
 {
 anchors = (
 {
+name = rakar;
+position = "{696.482, 210}";
+},
+{
 name = repaya;
 position = "{406.281, 800}";
 },
@@ -735,6 +759,10 @@ width = 770;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{814.07, 210}";
+},
 {
 name = repaya;
 position = "{474.874, 800}";

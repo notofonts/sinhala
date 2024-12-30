@@ -6,15 +6,15 @@ layers = (
 anchors = (
 {
 name = repaya;
-position = "{746, 730}";
+position = "{810, 722}";
 },
 {
 name = top;
-position = "{672, 562}";
+position = "{787, 603}";
 },
 {
 name = virama;
-position = "{1228.309, 536}";
+position = "{1180, 595}";
 }
 );
 components = (

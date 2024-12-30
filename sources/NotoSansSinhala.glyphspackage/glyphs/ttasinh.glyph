@@ -5,6 +5,10 @@ layers = (
 {
 anchors = (
 {
+name = rakar;
+position = "{698, 210}";
+},
+{
 name = repaya;
 position = "{367, 820}";
 },
@@ -85,6 +89,10 @@ width = 785;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{738, 210}";
+},
 {
 name = repaya;
 position = "{380, 800}";
@@ -197,6 +205,10 @@ width = 822;
 {
 anchors = (
 {
+name = rakar;
+position = "{714.745, 210}";
+},
+{
 name = repaya;
 position = "{380, 800}";
 },
@@ -256,6 +268,14 @@ width = 816;
 {
 anchors = (
 {
+name = rakar;
+position = "{749.781, 210}";
+},
+{
+name = repaya;
+position = "{397.258, 805}";
+},
+{
 name = uvowel;
 position = "{756, 176}";
 }
@@ -312,6 +332,14 @@ width = 856;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{749.781, 210}";
+},
+{
+name = repaya;
+position = "{397.258, 805}";
+},
 {
 name = uvowel;
 position = "{756, 176}";
@@ -370,6 +398,14 @@ width = 856;
 {
 anchors = (
 {
+name = rakar;
+position = "{749.781, 210}";
+},
+{
+name = repaya;
+position = "{397.258, 805}";
+},
+{
 name = uvowel;
 position = "{756, 176}";
 }
@@ -426,6 +462,14 @@ width = 856;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{749.781, 210}";
+},
+{
+name = repaya;
+position = "{397.258, 805}";
+},
 {
 name = uvowel;
 position = "{756, 176}";
@@ -484,6 +528,14 @@ width = 856;
 {
 anchors = (
 {
+name = rakar;
+position = "{486.131, 210}";
+},
+{
+name = repaya;
+position = "{257.568, 805}";
+},
+{
 name = uvowel;
 position = "{490.164, 176}";
 }
@@ -538,6 +590,14 @@ width = 555;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{522.044, 210}";
+},
+{
+name = repaya;
+position = "{276.596, 805}";
+},
 {
 name = uvowel;
 position = "{526.374, 176}";
@@ -594,6 +654,14 @@ width = 596;
 {
 anchors = (
 {
+name = rakar;
+position = "{574.599, 210}";
+},
+{
+name = repaya;
+position = "{304.441, 805}";
+},
+{
 name = uvowel;
 position = "{579.364, 176}";
 }
@@ -648,6 +716,10 @@ width = 656;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{693.723, 210}";
+},
 {
 name = repaya;
 position = "{365, 800}";
@@ -709,6 +781,14 @@ width = 792;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{649.051, 210}";
+},
+{
+name = repaya;
+position = "{343.888, 805}";
+},
 {
 name = uvowel;
 position = "{654.435, 176}";

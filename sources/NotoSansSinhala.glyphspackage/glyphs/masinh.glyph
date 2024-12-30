@@ -5,6 +5,10 @@ layers = (
 {
 anchors = (
 {
+name = rakar;
+position = "{716.033, 210}";
+},
+{
 name = uvowel;
 position = "{723, 176}";
 }
@@ -102,8 +106,12 @@ width = 798;
 {
 anchors = (
 {
+name = rakar;
+position = "{770, 210}";
+},
+{
 name = uvowel;
-position = "{768, 176}";
+position = "{738, 176}";
 }
 );
 layerId = UUID0;
@@ -198,6 +206,10 @@ width = 847;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{807.556, 210}";
+},
 {
 name = uvowel;
 position = "{827, 176}";
@@ -295,6 +307,10 @@ width = 900;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{818.323, 210}";
+},
 {
 name = uvowel;
 position = "{827, 176}";
@@ -395,6 +411,10 @@ width = 912;
 {
 anchors = (
 {
+name = rakar;
+position = "{541.063, 210}";
+},
+{
 name = uvowel;
 position = "{547, 176}";
 }
@@ -492,6 +512,10 @@ width = 603;
 {
 anchors = (
 {
+name = rakar;
+position = "{576.057, 210}";
+},
+{
 name = uvowel;
 position = "{582, 176}";
 }
@@ -588,6 +612,10 @@ width = 642;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{668.477, 210}";
+},
 {
 name = uvowel;
 position = "{675, 176}";

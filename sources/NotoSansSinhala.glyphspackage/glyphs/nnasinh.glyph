@@ -5,12 +5,20 @@ layers = (
 {
 anchors = (
 {
+name = rakar;
+position = "{1101, 210}";
+},
+{
+name = repaya;
+position = "{410, 722}";
+},
+{
 name = uvowel;
 position = "{1094, 176}";
 },
 {
 name = virama;
-position = "{1002.798, 526}";
+position = "{988, 543}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -153,6 +161,14 @@ width = 1152;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{1150, 210}";
+},
+{
+name = repaya;
+position = "{428.507, 722}";
+},
 {
 name = uvowel;
 position = "{1126, 176}";
@@ -303,6 +319,14 @@ width = 1204;
 {
 anchors = (
 {
+name = rakar;
+position = "{1146.894, 210}";
+},
+{
+name = repaya;
+position = "{434.913, 722}";
+},
+{
 name = uvowel;
 position = "{1181, 176}";
 },
@@ -451,6 +475,14 @@ width = 1222;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{1219.161, 210}";
+},
+{
+name = repaya;
+position = "{462.318, 722}";
+},
 {
 name = uvowel;
 position = "{1242, 176}";
@@ -610,6 +642,14 @@ width = 1299;
 {
 anchors = (
 {
+name = rakar;
+position = "{1125.307, 210}";
+},
+{
+name = repaya;
+position = "{426.727, 722}";
+},
+{
 name = uvowel;
 position = "{1146.388, 176}";
 },
@@ -767,6 +807,14 @@ width = 1199;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{1125.307, 210}";
+},
+{
+name = repaya;
+position = "{426.727, 722}";
+},
 {
 name = uvowel;
 position = "{1146.388, 176}";
@@ -936,6 +984,14 @@ width = 1199;
 {
 anchors = (
 {
+name = rakar;
+position = "{1219.161, 210}";
+},
+{
+name = repaya;
+position = "{462.318, 722}";
+},
+{
 name = uvowel;
 position = "{1242, 176}";
 },
@@ -1086,6 +1142,14 @@ width = 1299;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{805.266, 210}";
+},
+{
+name = repaya;
+position = "{305.365, 722}";
+},
 {
 name = uvowel;
 position = "{822.263, 176}";
@@ -1243,6 +1307,14 @@ width = 858;
 {
 anchors = (
 {
+name = rakar;
+position = "{861.578, 210}";
+},
+{
+name = repaya;
+position = "{326.719, 722}";
+},
+{
 name = uvowel;
 position = "{881.543, 176}";
 },
@@ -1398,6 +1470,14 @@ width = 918;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{1019.252, 210}";
+},
+{
+name = repaya;
+position = "{386.51, 722}";
+},
 {
 name = uvowel;
 position = "{1040.259, 176}";

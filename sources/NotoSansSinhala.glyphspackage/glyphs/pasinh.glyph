@@ -5,6 +5,10 @@ layers = (
 {
 anchors = (
 {
+name = rakar;
+position = "{738.889, 210}";
+},
+{
 name = top;
 position = "{183, 606}";
 },
@@ -102,8 +106,12 @@ width = 798;
 {
 anchors = (
 {
+name = rakar;
+position = "{770, 210}";
+},
+{
 name = top;
-position = "{220, 583}";
+position = "{230, 583}";
 },
 {
 name = uvowel;
@@ -198,6 +206,10 @@ width = 810;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{801.852, 210}";
+},
 {
 name = top;
 position = "{275, 565}";
@@ -375,6 +387,10 @@ width = 866;
 {
 anchors = (
 {
+name = rakar;
+position = "{731.481, 210}";
+},
+{
 name = top;
 position = "{248.841, 533}";
 },
@@ -477,6 +493,10 @@ width = 790;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{790.741, 210}";
+},
 {
 name = top;
 position = "{269, 533}";
@@ -581,6 +601,10 @@ width = 854;
 {
 anchors = (
 {
+name = rakar;
+position = "{687.963, 210}";
+},
+{
 name = top;
 position = "{234.036, 533}";
 },
@@ -684,6 +708,10 @@ width = 743;
 {
 anchors = (
 {
+name = rakar;
+position = "{731.481, 210}";
+},
+{
 name = top;
 position = "{248.841, 533}";
 },
@@ -780,6 +808,10 @@ width = 790;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{790.741, 210}";
+},
 {
 name = top;
 position = "{269, 533}";
@@ -957,6 +989,10 @@ width = 854;
 {
 anchors = (
 {
+name = rakar;
+position = "{725.926, 210}";
+},
+{
 name = top;
 position = "{183, 606}";
 },
@@ -1054,6 +1090,10 @@ width = 784;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{750, 210}";
+},
 {
 name = top;
 position = "{220, 583}";
@@ -1231,6 +1271,10 @@ width = 810;
 {
 anchors = (
 {
+name = rakar;
+position = "{801.852, 210}";
+},
+{
 name = top;
 position = "{275, 565}";
 },
@@ -1407,6 +1451,10 @@ width = 866;
 {
 anchors = (
 {
+name = rakar;
+position = "{512.963, 210}";
+},
+{
 name = top;
 position = "{174.504, 533}";
 },
@@ -1508,6 +1556,10 @@ width = 554;
 {
 anchors = (
 {
+name = rakar;
+position = "{548.148, 210}";
+},
+{
 name = top;
 position = "{186.473, 533}";
 },
@@ -1608,6 +1660,10 @@ width = 592;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{611.111, 210}";
+},
 {
 name = top;
 position = "{207.892, 533}";

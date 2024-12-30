@@ -5,6 +5,10 @@ layers = (
 {
 anchors = (
 {
+name = rakar;
+position = "{738.889, 210}";
+},
+{
 name = uvowel;
 position = "{684.708, 176}";
 },
@@ -38,6 +42,10 @@ width = 798;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{770, 210}";
+},
 {
 name = uvowel;
 position = "{728.021, 176}";
@@ -152,6 +160,10 @@ width = 810;
 {
 anchors = (
 {
+name = rakar;
+position = "{825, 210}";
+},
+{
 name = uvowel;
 position = "{794, 176}";
 },
@@ -186,8 +198,16 @@ width = 891;
 {
 anchors = (
 {
+name = rakar;
+position = "{790.741, 210}";
+},
+{
 name = uvowel;
 position = "{787, 176}";
+},
+{
+name = virama;
+position = "{441, 371}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -301,6 +321,10 @@ width = 854;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{731.481, 210}";
+},
 {
 name = uvowel;
 position = "{728.021, 176}";
@@ -422,6 +446,10 @@ width = 790;
 {
 anchors = (
 {
+name = rakar;
+position = "{687.963, 210}";
+},
+{
 name = uvowel;
 position = "{684.708, 176}";
 },
@@ -541,6 +569,10 @@ width = 743;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{750, 210}";
+},
 {
 name = uvowel;
 position = "{728.021, 176}";
@@ -672,8 +704,16 @@ width = 810;
 {
 anchors = (
 {
+name = rakar;
+position = "{527.778, 210}";
+},
+{
 name = uvowel;
 position = "{510.536, 176}";
+},
+{
+name = virama;
+position = "{289, 437}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -786,8 +826,16 @@ width = 570;
 {
 anchors = (
 {
+name = rakar;
+position = "{560.185, 210}";
+},
+{
 name = uvowel;
 position = "{545.555, 176}";
+},
+{
+name = virama;
+position = "{309, 425}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -900,8 +948,16 @@ width = 605;
 {
 anchors = (
 {
+name = rakar;
+position = "{611.111, 210}";
+},
+{
 name = uvowel;
 position = "{608.22, 176}";
+},
+{
+name = virama;
+position = "{342, 390}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -1013,6 +1069,10 @@ width = 660;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{825, 210}";
+},
 {
 name = uvowel;
 position = "{794, 176}";

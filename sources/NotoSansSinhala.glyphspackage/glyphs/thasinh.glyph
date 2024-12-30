@@ -5,6 +5,10 @@ layers = (
 {
 anchors = (
 {
+name = rakar;
+position = "{677.207, 210}";
+},
+{
 name = top;
 position = "{418.384, 676}";
 },
@@ -82,6 +86,10 @@ width = 744;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{741, 210}";
+},
 {
 name = top;
 position = "{451, 676}";
@@ -161,6 +169,10 @@ width = 802;
 {
 anchors = (
 {
+name = rakar;
+position = "{778.242, 210}";
+},
+{
 name = top;
 position = "{449, 686}";
 },
@@ -238,6 +250,10 @@ width = 855;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{779.152, 210}";
+},
 {
 name = top;
 position = "{481.367, 676}";
@@ -322,6 +338,10 @@ width = 856;
 {
 anchors = (
 {
+name = rakar;
+position = "{505.175, 210}";
+},
+{
 name = top;
 position = "{312.101, 676}";
 },
@@ -402,6 +422,10 @@ width = 555;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{542.494, 210}";
+},
 {
 name = top;
 position = "{335.157, 676}";
@@ -484,6 +508,10 @@ width = 596;
 {
 anchors = (
 {
+name = rakar;
+position = "{597.107, 210}";
+},
+{
 name = top;
 position = "{368.898, 676}";
 },
@@ -565,6 +593,10 @@ width = 656;
 {
 anchors = (
 {
+name = rakar;
+position = "{677.207, 210}";
+},
+{
 name = top;
 position = "{418.384, 676}";
 },
@@ -644,6 +676,10 @@ width = 744;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{730, 210}";
+},
 {
 name = top;
 position = "{451, 676}";

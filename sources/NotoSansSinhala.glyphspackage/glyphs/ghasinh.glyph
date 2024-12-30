@@ -5,12 +5,16 @@ layers = (
 {
 anchors = (
 {
+name = rakar;
+position = "{803.112, 210}";
+},
+{
 name = repaya;
-position = "{440, 612}";
+position = "{440, 722}";
 },
 {
 name = top;
-position = "{261, 533}";
+position = "{247, 603}";
 },
 {
 name = uvowel;
@@ -18,7 +22,7 @@ position = "{266, 176}";
 },
 {
 name = virama;
-position = "{631, 536}";
+position = "{650, 595}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -163,12 +167,16 @@ width = 856;
 {
 anchors = (
 {
+name = rakar;
+position = "{840, 210}";
+},
+{
 name = repaya;
 position = "{450, 612}";
 },
 {
 name = top;
-position = "{234, 583}";
+position = "{274, 583}";
 },
 {
 name = uvowel;
@@ -320,6 +328,10 @@ width = 874;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{851.899, 210}";
+},
 {
 name = repaya;
 position = "{464, 612}";
@@ -478,6 +490,14 @@ width = 908;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{863.158, 210}";
+},
+{
+name = repaya;
+position = "{469, 612}";
+},
 {
 name = top;
 position = "{326, 533}";
@@ -640,6 +660,14 @@ width = 920;
 {
 anchors = (
 {
+name = rakar;
+position = "{539.474, 210}";
+},
+{
+name = repaya;
+position = "{291, 612}";
+},
+{
 name = top;
 position = "{203.75, 533}";
 },
@@ -798,6 +826,14 @@ width = 575;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{583.57, 210}";
+},
+{
+name = repaya;
+position = "{315, 612}";
+},
 {
 name = top;
 position = "{220.404, 533}";
@@ -958,6 +994,14 @@ width = 622;
 {
 anchors = (
 {
+name = rakar;
+position = "{667.071, 210}";
+},
+{
+name = repaya;
+position = "{366, 612}";
+},
+{
 name = top;
 position = "{251.941, 533}";
 },
@@ -1116,6 +1160,10 @@ width = 711;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{759.954, 210}";
+},
 {
 name = repaya;
 position = "{405, 612}";
@@ -1282,6 +1330,14 @@ width = 810;
 {
 anchors = (
 {
+name = rakar;
+position = "{708.352, 210}";
+},
+{
+name = repaya;
+position = "{373, 612}";
+},
+{
 name = top;
 position = "{261, 533}";
 },
@@ -1442,6 +1498,14 @@ width = 755;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{851.899, 210}";
+},
+{
+name = repaya;
+position = "{672, 612}";
+},
 {
 name = top;
 position = "{321, 533}";

@@ -9,16 +9,20 @@ name = below;
 position = "{677, -1}";
 },
 {
+name = rakar;
+position = "{997.424, 210}";
+},
+{
 name = repaya;
-position = "{537, 730}";
+position = "{597, 730}";
 },
 {
 name = top;
-position = "{423, 533}";
+position = "{437, 603}";
 },
 {
 name = virama;
-position = "{796, 536}";
+position = "{796, 596}";
 }
 );
 components = (
@@ -37,39 +41,46 @@ width = 1052;
 anchors = (
 {
 name = below;
-position = "{758, -1}";
+position = "{722, -1}";
+},
+{
+name = rakar;
+position = "{1024, 210}";
 },
 {
 name = repaya;
-position = "{609, 730}";
+position = "{573, 730}";
 },
 {
 name = top;
-position = "{412, 583}";
+position = "{456, 583}";
 },
 {
 name = virama;
-position = "{885, 536}";
+position = "{849, 536}";
 }
 );
 components = (
 {
 name = gasinh;
-transform = "{1, 0, 0, 1, 208, 0}";
+transform = "{1, 0, 0, 1, 172, 0}";
 },
 {
 name = "sanyaka-sinh";
-transform = "{1, 0, 0, 1, 36, 0}";
 }
 );
 layerId = UUID0;
-width = 1118;
+width = 1082;
 },
 {
 anchors = (
 {
 name = below;
 position = "{834, -1}";
+},
+{
+name = rakar;
+position = "{1104.562, 210}";
 },
 {
 name = repaya;
@@ -102,6 +113,10 @@ anchors = (
 {
 name = below;
 position = "{812, -1}";
+},
+{
+name = rakar;
+position = "{1101.717, 210}";
 },
 {
 name = repaya;
@@ -217,6 +232,10 @@ anchors = (
 {
 name = below;
 position = "{806, -1}";
+},
+{
+name = rakar;
+position = "{1101.717, 210}";
 },
 {
 name = repaya;
@@ -342,6 +361,10 @@ name = below;
 position = "{524, -1}";
 },
 {
+name = rakar;
+position = "{710.143, 210}";
+},
+{
 name = repaya;
 position = "{418.621, 730}";
 },
@@ -455,6 +478,10 @@ name = below;
 position = "{562, -1}";
 },
 {
+name = rakar;
+position = "{761.342, 210}";
+},
+{
 name = repaya;
 position = "{448.802, 730}";
 },
@@ -566,6 +593,10 @@ anchors = (
 {
 name = below;
 position = "{645, -1}";
+},
+{
+name = rakar;
+position = "{876.064, 210}";
 },
 {
 name = repaya;

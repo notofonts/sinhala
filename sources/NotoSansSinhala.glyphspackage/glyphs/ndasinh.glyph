@@ -277,6 +277,12 @@ layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 width = 862;
 },
 {
+anchors = (
+{
+name = virama;
+position = "{695.92, 536}";
+}
+);
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 layerId = "0E4F0E57-E45A-4E82-B887-EF1094EDDACD";
 name = "18 Dec 24, 18:51";
@@ -498,6 +504,12 @@ nodes = (
 width = 884;
 },
 {
+anchors = (
+{
+name = virama;
+position = "{407.659, 536}";
+}
+);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -607,6 +619,12 @@ nodes = (
 width = 478;
 },
 {
+anchors = (
+{
+name = virama;
+position = "{454.566, 536}";
+}
+);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -716,6 +734,12 @@ nodes = (
 width = 533;
 },
 {
+anchors = (
+{
+name = virama;
+position = "{566.288, 536}";
+}
+);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {
@@ -825,6 +849,12 @@ nodes = (
 width = 664;
 },
 {
+anchors = (
+{
+name = virama;
+position = "{587.609, 536}";
+}
+);
 associatedMasterId = UUID0;
 layerId = "9ED4B233-0853-4048-A0B7-40C4D4B8CEAE";
 name = "29 Dec 24 at 07:50";
@@ -936,6 +966,12 @@ nodes = (
 width = 689;
 },
 {
+anchors = (
+{
+name = virama;
+position = "{521.94, 536}";
+}
+);
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 layerId = "2822EAF4-45B1-47AC-B9F6-95404A7C5E10";
 name = "29 Dec 24 at 07:50";

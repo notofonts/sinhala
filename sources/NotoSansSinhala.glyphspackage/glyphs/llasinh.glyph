@@ -6,7 +6,15 @@ layers = (
 anchors = (
 {
 name = repaya;
-position = "{422, 730}";
+position = "{400, 722}";
+},
+{
+name = top;
+position = "{257, 603}";
+},
+{
+name = virama;
+position = "{570, 595}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -96,7 +104,15 @@ width = 728;
 anchors = (
 {
 name = repaya;
-position = "{452, 730}";
+position = "{440, 722}";
+},
+{
+name = top;
+position = "{247, 603}";
+},
+{
+name = virama;
+position = "{650, 595}";
 }
 );
 layerId = UUID0;
@@ -186,7 +202,15 @@ width = 784;
 anchors = (
 {
 name = repaya;
-position = "{473, 730}";
+position = "{480, 722}";
+},
+{
+name = top;
+position = "{317, 603}";
+},
+{
+name = virama;
+position = "{650, 595}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -277,6 +301,10 @@ anchors = (
 {
 name = repaya;
 position = "{176, 730}";
+},
+{
+name = top;
+position = "{286.801, 582}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -373,6 +401,10 @@ anchors = (
 {
 name = repaya;
 position = "{187, 730}";
+},
+{
+name = top;
+position = "{286.801, 582}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -472,6 +504,10 @@ anchors = (
 {
 name = repaya;
 position = "{128, 730}";
+},
+{
+name = top;
+position = "{187.668, 582}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -566,6 +602,10 @@ anchors = (
 {
 name = repaya;
 position = "{132, 730}";
+},
+{
+name = top;
+position = "{203.735, 582}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -660,6 +700,10 @@ anchors = (
 {
 name = repaya;
 position = "{143, 730}";
+},
+{
+name = top;
+position = "{227.663, 582}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
