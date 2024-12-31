@@ -26,15 +26,11 @@ code = "kasinh gasinh nngasinh tasinh shasinh hasinh bhasinh\012";
 name = blwsMarkAttachementSet2;
 },
 {
-code = "ghasinh chasinh jasinh nyjasinh pasinh yasinh ssasinh sasinh ";
-name = paShapeGroup;
-},
-{
 code = "#ngasinh jhasinh tthasinh ddasinh ddhasinh nnasinh nnddasinh basinh bhasinh mbasinh khasinh masinh kavasinh kassasinh gadhasinh nyacasinh ttatthasinh tathasinh tavasinh dadhasinh davasinh nathasinh nadhasinh navasinh \012\012\012nnasinh hasinh nasinh jhasinh nnddasinh ddhasinh ddasinh ddhasinh khasinh basinh mbasinh ngasinh kavasinh kassasinh gadhasinh nyacasinh ttatthasinh tathasinh tavasinh dadhasinh davasinh nathasinh nadasinh nadhasinh navasinh bhasinh\012";
 name = wideBase;
 },
 {
-code = "pasinh ssasinh chasinh jasinh nyjasinh sasinh ghasinh tthasinh fasinh yasinh masinh yapostsinh   \012";
+code = "#pasinh ssasinh chasinh jasinh nyjasinh sasinh ghasinh tthasinh fasinh yasinh masinh yapostsinh   \012";
 name = mediumBase;
 },
 {
@@ -60,6 +56,18 @@ name = iVowelAlt3;
 {
 code = "chasinh jasinh nyjasinh";
 name = viramaAltSet2;
+},
+{
+code = "chasinh jasinh nyjasinh pasinh ssasinh fasinh \012";
+name = paShapeGroup;
+},
+{
+code = "ghasinh yasinh sasinh ";
+name = saShapeGroup;
+},
+{
+code = "casinh ttasinh thasinh phasinh vasinh ";
+name = vaShapeGroup;
 }
 );
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sinhala)";
@@ -878,7 +886,7 @@ code = "\012lookup RakarVowels {\012    lookupflag MarkAttachmentType @markAttac
 name = abvs;
 },
 {
-code = "lookupflag MarkAttachmentType @markAttachmentSet1;\012\012sub dasinh uvowelsignsinh by duvowelsinh;\012sub dasinh uuvowelsignsinh by duuvowelsinh;\012sub ndasinh uvowelsignsinh by nduvowelsinh;\012sub ndasinh uuvowelsignsinh by nduuvowelsinh;\012sub jnyasinh uuvowelsignsinh by jnyuuvowelsinh;\012sub jnyasinh uvowelsignsinh by jnyuvowelsinh;\012sub nyasinh uvowelsignsinh by nyuvowelsinh;\012sub nyasinh uuvowelsignsinh by nyuuvowelsinh;\012sub lasinh uvowelsignsinh by luvowelsinh;\012sub llasinh uvowelsignsinh by lluvowelsinh;\012\012\012sub @wideBase uvowelsignsinh' by uvowelsignsinh.long;\012sub @wideBase uuvowelsignsinh' by uuvowelsignsinh.long;\012\012sub @mediumBase uvowelsignsinh' by uvowelsignsinh.medium;\012sub @mediumBase uuvowelsignsinh' by uuvowelsignsinh.medium;\012\012\012sub @blwsMarkAttachementSet2 uvowelsignsinh' by uvowelsignsinh.alt;\012sub @blwsMarkAttachementSet2 uuvowelsignsinh' by uuvowelsignsinh.alt;\012\012\012\012";
+code = "lookupflag MarkAttachmentType @markAttachmentSet1;\012\012sub dasinh uvowelsignsinh by duvowelsinh;\012sub dasinh uuvowelsignsinh by duuvowelsinh;\012sub ndasinh uvowelsignsinh by nduvowelsinh;\012sub ndasinh uuvowelsignsinh by nduuvowelsinh;\012sub jnyasinh uuvowelsignsinh by jnyuuvowelsinh;\012sub jnyasinh uvowelsignsinh by jnyuvowelsinh;\012sub nyasinh uvowelsignsinh by nyuvowelsinh;\012sub nyasinh uuvowelsignsinh by nyuuvowelsinh;\012sub lasinh uvowelsignsinh by luvowelsinh;\012sub llasinh uvowelsignsinh by lluvowelsinh;\012\012\012sub @wideBase uvowelsignsinh' by uvowelsignsinh.long;\012sub @wideBase uuvowelsignsinh' by uuvowelsignsinh.long;\012\012sub @mediumBase uvowelsignsinh' by uvowelsignsinh.medium;\012sub @mediumBase uuvowelsignsinh' by uuvowelsignsinh.medium;\012\012\012sub @blwsMarkAttachementSet2 uvowelsignsinh' by uvowelsignsinh.alt;\012sub @blwsMarkAttachementSet2 uuvowelsignsinh' by uuvowelsignsinh.alt;\012\012sub @saShapeGroup uvowelsignsinh' by uvowelsignsinh.medium;\012sub @saShapeGroup uuvowelsignsinh' by uuvowelsignsinh.medium;\012\012sub @vaShapeGroup uvowelsignsinh' by uvowelsignsinh.va;\012sub @vaShapeGroup uuvowelsignsinh' by uuvowelsignsinh.va;\012\012";
 name = blws;
 },
 {
@@ -11459,6 +11467,20 @@ P,
 uni20BF = (
 (
 B,
+1,
+0
+)
+);
+uuvowelsignsinh = (
+(
+uvowelsignsinh,
+1,
+0
+)
+);
+uuvowelsignsinh.medium = (
+(
+uvowelsignsinh.medium,
 1,
 0
 )

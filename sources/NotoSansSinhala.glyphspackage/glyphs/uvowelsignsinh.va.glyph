@@ -1,6 +1,6 @@
 {
 color = 3;
-glyphname = uvowelsignsinh.medium;
+glyphname = uvowelsignsinh.va;
 layers = (
 {
 anchors = (
@@ -14,24 +14,24 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-620 -230 OFFCURVE",
-"-575 -257 OFFCURVE",
-"-497 -257 CURVE SMOOTH",
+"-630 -230 OFFCURVE",
+"-585 -257 OFFCURVE",
+"-507 -257 CURVE SMOOTH",
 "-29 -257 LINE",
 "-29 175 LINE",
 "-55 65 LINE",
 "-55 -231 LINE",
-"-498 -231 LINE SMOOTH",
-"-535 -231 OFFCURVE",
-"-595 -222 OFFCURVE",
-"-595 -178 CURVE SMOOTH",
-"-595 -155 OFFCURVE",
-"-586 -131 OFFCURVE",
-"-577 -121 CURVE",
-"-601 -121 LINE",
-"-611 -134 OFFCURVE",
-"-620 -155 OFFCURVE",
-"-620 -185 CURVE SMOOTH"
+"-508 -231 LINE SMOOTH",
+"-545 -231 OFFCURVE",
+"-605 -222 OFFCURVE",
+"-605 -178 CURVE SMOOTH",
+"-605 -155 OFFCURVE",
+"-596 -131 OFFCURVE",
+"-587 -121 CURVE",
+"-611 -121 LINE",
+"-621 -134 OFFCURVE",
+"-630 -155 OFFCURVE",
+"-630 -185 CURVE SMOOTH"
 );
 }
 );
@@ -41,39 +41,32 @@ width = 0;
 anchors = (
 {
 name = _uvowel;
-position = "{-96, 0}";
+position = "{-93, 0}";
 }
 );
-background = {
-components = (
-{
-name = uvowelsignsinh;
-}
-);
-};
 layerId = UUID0;
 paths = (
 {
 closed = 1;
 nodes = (
-"-798 -212 OFFCURVE",
-"-764 -261 OFFCURVE",
-"-657 -261 CURVE SMOOTH",
-"-60 -261 LINE",
-"-60 176 LINE",
-"-132 35 LINE",
-"-132 -193 LINE",
-"-639 -193 LINE SMOOTH",
-"-709 -193 OFFCURVE",
-"-735 -171 OFFCURVE",
-"-735 -142 CURVE SMOOTH",
-"-735 -125 OFFCURVE",
-"-729 -106 OFFCURVE",
-"-720 -87 CURVE",
-"-780 -87 LINE",
-"-793 -107 OFFCURVE",
-"-798 -135 OFFCURVE",
-"-798 -163 CURVE SMOOTH"
+"-756 -212 OFFCURVE",
+"-722 -261 OFFCURVE",
+"-615 -261 CURVE SMOOTH",
+"-57 -261 LINE",
+"-57 266 LINE",
+"-129 205 LINE",
+"-129 -193 LINE",
+"-597 -193 LINE SMOOTH",
+"-667 -193 OFFCURVE",
+"-693 -171 OFFCURVE",
+"-693 -142 CURVE SMOOTH",
+"-693 -125 OFFCURVE",
+"-687 -106 OFFCURVE",
+"-678 -87 CURVE",
+"-738 -87 LINE",
+"-751 -107 OFFCURVE",
+"-756 -135 OFFCURVE",
+"-756 -163 CURVE SMOOTH"
 );
 }
 );
@@ -91,24 +84,24 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-702 -244 OFFCURVE",
-"-616 -291 OFFCURVE",
-"-524 -291 CURVE SMOOTH",
+"-752 -244 OFFCURVE",
+"-666 -291 OFFCURVE",
+"-574 -291 CURVE SMOOTH",
 "-33 -291 LINE",
 "-33 176 LINE",
 "-170 176 LINE",
 "-170 -157 LINE",
-"-482 -157 LINE SMOOTH",
-"-524 -157 OFFCURVE",
-"-564 -147 OFFCURVE",
-"-564 -103 CURVE SMOOTH",
-"-564 -89 OFFCURVE",
-"-562 -73 OFFCURVE",
-"-556 -52 CURVE",
-"-684 -51 LINE",
-"-701 -96 OFFCURVE",
-"-702 -129 OFFCURVE",
-"-702 -150 CURVE SMOOTH"
+"-532 -157 LINE SMOOTH",
+"-574 -157 OFFCURVE",
+"-614 -147 OFFCURVE",
+"-614 -103 CURVE SMOOTH",
+"-614 -89 OFFCURVE",
+"-612 -73 OFFCURVE",
+"-606 -52 CURVE",
+"-734 -51 LINE",
+"-751 -96 OFFCURVE",
+"-752 -129 OFFCURVE",
+"-752 -150 CURVE SMOOTH"
 );
 }
 );
@@ -275,6 +268,43 @@ nodes = (
 "-575 -51 OFFCURVE",
 "-592 -91 OFFCURVE",
 "-592 -133 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _uvowel;
+position = "{-27, 176}";
+}
+);
+associatedMasterId = UUID0;
+layerId = "E264D888-53F8-43E2-9AB5-4ECBE32E5383";
+name = "29 Dec 24 at 12:49";
+paths = (
+{
+closed = 1;
+nodes = (
+"-647 -250 OFFCURVE",
+"-564 -261 OFFCURVE",
+"-504 -261 CURVE SMOOTH",
+"-27 -261 LINE",
+"-27 176 LINE",
+"-99 115 LINE",
+"-99 -193 LINE",
+"-506 -193 LINE SMOOTH",
+"-554 -193 OFFCURVE",
+"-578 -174 OFFCURVE",
+"-578 -135 CURVE SMOOTH",
+"-578 -121 OFFCURVE",
+"-575 -105 OFFCURVE",
+"-569 -87 CURVE",
+"-629 -87 LINE",
+"-636 -99 OFFCURVE",
+"-647 -125 OFFCURVE",
+"-647 -160 CURVE SMOOTH"
 );
 }
 );
