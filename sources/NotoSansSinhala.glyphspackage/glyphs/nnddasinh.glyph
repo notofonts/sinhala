@@ -138,7 +138,7 @@ position = "{525, 800}";
 },
 {
 name = uvowel;
-position = "{936.227, 176}";
+position = "{899, 0}";
 }
 );
 layerId = UUID0;

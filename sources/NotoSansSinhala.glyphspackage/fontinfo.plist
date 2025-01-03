@@ -18,22 +18,6 @@ code = "# .notdef CR \\NULL aaesinh aaevowelsignlowsinh aaevowelsignsinh aasinh 
 name = class3;
 },
 {
-code = "khasinh ghasinh ngasinh casinh chasinh jasinh jhasinh nyjasinh ttasinh tthasinh ddasinh ddhasinh nnasinh nnddasinh thasinh dhasinh nasinh pasinh phasinh basinh masinh mbasinh yasinh vasinh ssasinh sasinh hasinh fasinh kavasinh kassasinh gadhasinh nyacasinh ttatthasinh tathasinh tavasinh dadhasinh davasinh nathasinh nadhasinh navasinh ";
-name = blwsMarkAttchmentSet1;
-},
-{
-code = "kasinh gasinh nngasinh tasinh shasinh hasinh bhasinh\012";
-name = blwsMarkAttachementSet2;
-},
-{
-code = "#ngasinh jhasinh tthasinh ddasinh ddhasinh nnasinh nnddasinh basinh bhasinh mbasinh khasinh masinh kavasinh kassasinh gadhasinh nyacasinh ttatthasinh tathasinh tavasinh dadhasinh davasinh nathasinh nadhasinh navasinh \012\012\012nnasinh hasinh nasinh jhasinh nnddasinh ddhasinh ddasinh ddhasinh khasinh basinh mbasinh ngasinh kavasinh kassasinh gadhasinh nyacasinh ttatthasinh tathasinh tavasinh dadhasinh davasinh nathasinh nadasinh nadhasinh navasinh bhasinh\012";
-name = wideBase;
-},
-{
-code = "#pasinh ssasinh chasinh jasinh nyjasinh sasinh ghasinh tthasinh fasinh yasinh masinh yapostsinh   \012";
-name = mediumBase;
-},
-{
 code = " pasinh bhasinh lasinh llasinh shasinh sasinh hasinh\012";
 name = abvsMarkAttatchmentSet1;
 },
@@ -56,6 +40,22 @@ name = iVowelAlt3;
 {
 code = "chasinh jasinh nyjasinh";
 name = viramaAltSet2;
+},
+{
+code = "khasinh ghasinh ngasinh casinh chasinh jasinh jhasinh nyjasinh ttasinh tthasinh ddasinh ddhasinh nnasinh nnddasinh thasinh dhasinh nasinh pasinh phasinh basinh masinh mbasinh yasinh vasinh ssasinh sasinh hasinh fasinh kavasinh kassasinh gadhasinh nyacasinh ttatthasinh tathasinh tavasinh dadhasinh davasinh nathasinh nadhasinh navasinh ";
+name = blwsMarkAttchmentSet1;
+},
+{
+code = "kasinh gasinh nngasinh tasinh shasinh hasinh bhasinh\012";
+name = blwsMarkAttachementSet2;
+},
+{
+code = "#ngasinh jhasinh tthasinh ddasinh ddhasinh nnasinh nnddasinh basinh bhasinh mbasinh khasinh masinh kavasinh kassasinh gadhasinh nyacasinh ttatthasinh tathasinh tavasinh dadhasinh davasinh nathasinh nadhasinh navasinh \012\012#nnasinh hasinh nasinh jhasinh nnddasinh ddhasinh ddasinh ddhasinh khasinh basinh mbasinh ngasinh kavasinh kassasinh gadhasinh nyacasinh ttatthasinh tathasinh tavasinh dadhasinh davasinh nathasinh nadasinh nadhasinh navasinh bhasinh\012\012nnasinh nasinh hasinh kavasinh kassasinh gadhasinh tathasinh tavasinh nathasinh nadasinh nadhasinh navasinh ";
+name = wideBase;
+},
+{
+code = "#pasinh ssasinh chasinh jasinh nyjasinh sasinh ghasinh tthasinh fasinh yasinh masinh yapostsinh   \012khasinh ngasinh tthasinh ddasinh ddhasinh nnddasinh dhasinh basinh masinh mbasinh ";
+name = mediumBase;
 },
 {
 code = "chasinh jasinh nyjasinh pasinh ssasinh fasinh \012";
@@ -11474,6 +11474,13 @@ B,
 uuvowelsignsinh = (
 (
 uvowelsignsinh,
+1,
+0
+)
+);
+uuvowelsignsinh.long = (
+(
+uvowelsignsinh.long,
 1,
 0
 )
