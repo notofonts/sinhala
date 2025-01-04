@@ -10,7 +10,7 @@ position = "{776, 210}";
 },
 {
 name = uvowel;
-position = "{770, 176}";
+position = "{770, 0}";
 }
 );
 guideLines = (

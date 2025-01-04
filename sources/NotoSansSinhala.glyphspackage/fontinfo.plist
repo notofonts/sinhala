@@ -958,6 +958,7 @@ id = UUID0;
 verticalStems = (
 73
 );
+visible = 1;
 weightValue = 90;
 xHeight = 536;
 },
@@ -11488,6 +11489,13 @@ uvowelsignsinh.long,
 uuvowelsignsinh.medium = (
 (
 uvowelsignsinh.medium,
+1,
+0
+)
+);
+uuvowelsignsinh.va = (
+(
+uvowelsignsinh.va,
 1,
 0
 )

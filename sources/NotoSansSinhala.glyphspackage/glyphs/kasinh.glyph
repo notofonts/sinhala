@@ -21,6 +21,10 @@ name = top;
 position = "{374, 543}";
 },
 {
+name = uvowel;
+position = "{672, 1}";
+},
+{
 name = virama;
 position = "{796, 536}";
 }
@@ -168,6 +172,10 @@ position = "{595, 730}";
 {
 name = top;
 position = "{476, 553}";
+},
+{
+name = uvowel;
+position = "{772, 1}";
 },
 {
 name = virama;
@@ -322,6 +330,10 @@ position = "{622, 730}";
 {
 name = top;
 position = "{432, 533}";
+},
+{
+name = uvowel;
+position = "{772, 1}";
 },
 {
 name = virama;
