@@ -1357,6 +1357,30 @@ instanceInterpolations = {
 };
 name = Black;
 weightClass = Black;
+},
+{
+interpolationWeight = 26;
+interpolationWidth = 70;
+instanceInterpolations = {
+"7977A986-4EFB-4152-84F8-5A02CD382AAF" = 1;
+};
+name = "Light Condensed";
+},
+{
+interpolationWeight = 90;
+interpolationWidth = 70;
+instanceInterpolations = {
+UUID0 = 1;
+};
+name = Condensed;
+},
+{
+interpolationWeight = 190;
+interpolationWidth = 70;
+instanceInterpolations = {
+"C62AB4C0-B70D-46F6-9B13-45217A94AFC9" = 1;
+};
+name = "Bold Condensed";
 }
 );
 kerning = {
