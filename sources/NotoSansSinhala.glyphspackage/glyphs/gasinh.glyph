@@ -5,10 +5,6 @@ layers = (
 {
 anchors = (
 {
-name = below;
-position = "{557, 0}";
-},
-{
 name = rakar;
 position = "{831.648, 210}";
 },
@@ -22,7 +18,7 @@ position = "{257, 603}";
 },
 {
 name = uvowel;
-position = "{546, -4}";
+position = "{546, 0}";
 },
 {
 name = virama;
@@ -105,10 +101,6 @@ width = 880;
 },
 {
 anchors = (
-{
-name = below;
-position = "{637, 10}";
-},
 {
 name = rakar;
 position = "{891.187, 210}";
@@ -716,10 +708,6 @@ width = 933;
 {
 anchors = (
 {
-name = below;
-position = "{590, 0}";
-},
-{
 name = rakar;
 position = "{860, 210}";
 },
@@ -733,7 +721,7 @@ position = "{306, 583}";
 },
 {
 name = uvowel;
-position = "{625, -3}";
+position = "{595, 0}";
 },
 {
 name = virama;
@@ -763,16 +751,16 @@ nodes = (
 "799 442 OFFCURVE",
 "799 293 CURVE SMOOTH",
 "799 161 OFFCURVE",
-"746 66 OFFCURVE",
-"607 66 CURVE SMOOTH",
-"590 66 OFFCURVE",
-"573 67 OFFCURVE",
-"564 68 CURVE",
-"563 0 LINE",
-"580 -2 OFFCURVE",
-"596 -3 OFFCURVE",
-"615 -3 CURVE SMOOTH",
-"771 -3 OFFCURVE",
+"746 67 OFFCURVE",
+"607 67 CURVE SMOOTH",
+"597 67 OFFCURVE",
+"587 67 OFFCURVE",
+"578 68 CURVE",
+"578 -1 LINE",
+"590 -2 OFFCURVE",
+"602 -2 OFFCURVE",
+"615 -2 CURVE SMOOTH",
+"771 -2 OFFCURVE",
 "874 104 OFFCURVE",
 "874 293 CURVE SMOOTH",
 "874 483 OFFCURVE",

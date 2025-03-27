@@ -137,14 +137,6 @@ width = 947;
 {
 anchors = (
 {
-name = Anchor5;
-position = "{994, -15}";
-},
-{
-name = below;
-position = "{620, 0}";
-},
-{
 name = entry;
 position = "{73, 0}";
 },
@@ -162,11 +154,16 @@ position = "{308, 583}";
 },
 {
 name = uvowel;
-position = "{894, 0}";
+position = "{632, 0}";
 },
 {
 name = virama;
 position = "{799, 536}";
+}
+);
+guideLines = (
+{
+position = "{632, 0}";
 }
 );
 layerId = UUID0;
