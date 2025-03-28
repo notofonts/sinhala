@@ -1,5 +1,4 @@
 {
-color = 2;
 glyphname = dasinh;
 layers = (
 {
@@ -615,7 +614,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"92 425 OFFCURVE",
+"80 425 OFFCURVE",
 "38 303 OFFCURVE",
 "38 199 CURVE SMOOTH",
 "38 81 OFFCURVE",
@@ -632,8 +631,8 @@ nodes = (
 "65 95 OFFCURVE",
 "65 198 CURVE SMOOTH",
 "65 294 OFFCURVE",
-"116 399 OFFCURVE",
-"315 399 CURVE SMOOTH",
+"107 399 OFFCURVE",
+"267 399 CURVE SMOOTH",
 "370 399 LINE",
 "370 457 LINE SMOOTH",
 "370 548 OFFCURVE",
@@ -659,7 +658,7 @@ nodes = (
 "344 428 OFFCURVE",
 "344 416 CURVE",
 "358 425 LINE",
-"315 425 LINE SMOOTH"
+"267 425 LINE SMOOTH"
 );
 },
 {
