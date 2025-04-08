@@ -40,6 +40,12 @@ nodes = (
 width = 0;
 },
 {
+anchors = (
+{
+name = _top;
+position = "{-276, 598}";
+}
+);
 layerId = UUID0;
 paths = (
 {

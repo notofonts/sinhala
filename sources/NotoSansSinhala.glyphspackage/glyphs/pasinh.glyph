@@ -111,7 +111,7 @@ position = "{770, 210}";
 },
 {
 name = top;
-position = "{230, 583}";
+position = "{210, 583}";
 },
 {
 name = uvowel;
