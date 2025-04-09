@@ -1,5 +1,5 @@
 {
-.appVersion = "3260";
+.appVersion = "3343";
 classes = (
 {
 code = "basinh bhasinh casinh chasinh dasinh ddasinh ddhasinh dhasinh fasinh gasinh ghasinh hasinh jasinh jhasinh jnyasinh kasinh khasinh lasinh llasinh masinh mbasinh nasinh ndasinh ngasinh nnasinh nnddasinh nngasinh nyasinh nyjasinh pasinh phasinh rasinh sasinh shasinh ssasinh tasinh thasinh ttasinh tthasinh vasinh yasinh";
@@ -783,6 +783,7 @@ name = "Write DisplayStrings";
 value = 0;
 },
 {
+disabled = 1;
 name = "Disable Masters";
 value = (
 "Light Condensed",
@@ -1357,6 +1358,34 @@ instanceInterpolations = {
 };
 name = Black;
 weightClass = Black;
+},
+{
+interpolationWeight = 26;
+interpolationWidth = 70;
+instanceInterpolations = {
+"CF8E177F-0CDC-40C1-8828-F158AA64F32E" = 1;
+};
+name = "Light Condensed";
+weightClass = Thin;
+widthClass = Condensed;
+},
+{
+interpolationWeight = 90;
+interpolationWidth = 70;
+instanceInterpolations = {
+"56AEB5FB-BA14-4784-B08F-18006463EEDB" = 1;
+};
+name = Condensed;
+widthClass = Condensed;
+},
+{
+interpolationWeight = 190;
+interpolationWidth = 70;
+instanceInterpolations = {
+"DC607D84-584B-45E6-A9EB-D1AF471CA2AE" = 1;
+};
+name = "Bold Condensed";
+widthClass = Condensed;
 }
 );
 kerning = {
