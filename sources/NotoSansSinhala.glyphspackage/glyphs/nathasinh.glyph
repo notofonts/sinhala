@@ -7,6 +7,10 @@ anchors = (
 {
 name = repaya;
 position = "{733.14, 750}";
+},
+{
+name = uvowel;
+position = "{1217, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -168,6 +172,10 @@ anchors = (
 {
 name = repaya;
 position = "{775, 750}";
+},
+{
+name = uvowel;
+position = "{1217, 0}";
 }
 );
 layerId = UUID0;
@@ -329,6 +337,10 @@ anchors = (
 {
 name = repaya;
 position = "{785.465, 750}";
+},
+{
+name = uvowel;
+position = "{1217, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -490,6 +502,10 @@ anchors = (
 {
 name = repaya;
 position = "{533.721, 750}";
+},
+{
+name = uvowel;
+position = "{827, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";

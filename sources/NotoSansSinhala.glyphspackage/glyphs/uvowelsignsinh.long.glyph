@@ -41,7 +41,7 @@ width = 0;
 anchors = (
 {
 name = _uvowel;
-position = "{-60, 0}";
+position = "{-60, -10}";
 }
 );
 layerId = UUID0;
@@ -76,7 +76,7 @@ width = 0;
 anchors = (
 {
 name = _uvowel;
-position = "{-33, 176}";
+position = "{-33, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -84,24 +84,24 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-802 -244 OFFCURVE",
-"-716 -291 OFFCURVE",
-"-624 -291 CURVE SMOOTH",
-"-33 -291 LINE",
-"-33 176 LINE",
-"-170 176 LINE",
-"-170 -157 LINE",
-"-582 -157 LINE SMOOTH",
-"-624 -157 OFFCURVE",
-"-664 -147 OFFCURVE",
-"-664 -103 CURVE SMOOTH",
-"-664 -89 OFFCURVE",
-"-662 -73 OFFCURVE",
-"-656 -52 CURVE",
-"-784 -51 LINE",
-"-801 -96 OFFCURVE",
-"-802 -129 OFFCURVE",
-"-802 -150 CURVE SMOOTH"
+"-802 -290 OFFCURVE",
+"-716 -337 OFFCURVE",
+"-624 -337 CURVE SMOOTH",
+"-33 -337 LINE",
+"-33 80 LINE",
+"-170 80 LINE",
+"-170 -203 LINE",
+"-582 -203 LINE SMOOTH",
+"-624 -203 OFFCURVE",
+"-664 -193 OFFCURVE",
+"-664 -149 CURVE SMOOTH",
+"-664 -135 OFFCURVE",
+"-662 -119 OFFCURVE",
+"-656 -98 CURVE",
+"-784 -97 LINE",
+"-801 -142 OFFCURVE",
+"-802 -175 OFFCURVE",
+"-802 -196 CURVE SMOOTH"
 );
 }
 );

@@ -138,10 +138,6 @@ width = 891;
 {
 anchors = (
 {
-name = below;
-position = "{654, -5}";
-},
-{
 name = rakar;
 position = "{890, 210}";
 },
@@ -152,6 +148,10 @@ position = "{545, 730}";
 {
 name = top;
 position = "{461, 536}";
+},
+{
+name = uvowel;
+position = "{662, 0}";
 },
 {
 name = virama;
@@ -200,7 +200,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"820 -5 OFFCURVE",
+"820 -1 OFFCURVE",
 "912 103 OFFCURVE",
 "912 287 CURVE SMOOTH",
 "912 481 OFFCURVE",
@@ -227,12 +227,12 @@ nodes = (
 "837 458 OFFCURVE",
 "837 292 CURVE SMOOTH",
 "837 169 OFFCURVE",
-"795 64 OFFCURVE",
-"651 64 CURVE SMOOTH",
-"649 64 OFFCURVE",
-"646 64 OFFCURVE",
-"644 64 CURVE",
-"644 -5 LINE"
+"795 68 OFFCURVE",
+"651 68 CURVE SMOOTH",
+"649 68 OFFCURVE",
+"646 68 OFFCURVE",
+"644 68 CURVE",
+"644 -1 LINE"
 );
 },
 {

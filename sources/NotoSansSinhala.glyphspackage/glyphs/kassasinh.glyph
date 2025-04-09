@@ -11,6 +11,10 @@ position = "{795, 730}";
 {
 name = top;
 position = "{591, 533}";
+},
+{
+name = uvowel;
+position = "{1317, 0}";
 }
 );
 components = (
@@ -34,7 +38,11 @@ position = "{795, 730}";
 },
 {
 name = top;
-position = "{591, 533}";
+position = "{930, 583}";
+},
+{
+name = uvowel;
+position = "{1417, 0}";
 }
 );
 components = (
@@ -59,6 +67,10 @@ position = "{795, 730}";
 {
 name = top;
 position = "{591, 533}";
+},
+{
+name = uvowel;
+position = "{1387, 0}";
 }
 );
 components = (
@@ -83,6 +95,10 @@ position = "{694.07, 730}";
 {
 name = top;
 position = "{552.06, 533}";
+},
+{
+name = uvowel;
+position = "{917, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -322,6 +338,10 @@ position = "{726.236, 730}";
 {
 name = top;
 position = "{577.645, 533}";
+},
+{
+name = uvowel;
+position = "{917, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -561,6 +581,10 @@ position = "{823.448, 730}";
 {
 name = top;
 position = "{654.968, 533}";
+},
+{
+name = uvowel;
+position = "{1057, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
