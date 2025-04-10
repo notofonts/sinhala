@@ -1,5 +1,5 @@
 {
-.appVersion = "3260";
+.appVersion = "3343";
 classes = (
 {
 code = "gasinh nngasinh pasinh ssasinh bhasinh sasinh hasinh fasinh hasinh ghasinh kassasinh nadasinh\012shasinh nyasinh jnyasinh nadasinh nadarasinh\012";
@@ -773,6 +773,7 @@ name = "Write DisplayStrings";
 value = 0;
 },
 {
+disabled = 1;
 name = "Disable Masters";
 value = (
 "Light Condensed",
@@ -948,7 +949,6 @@ id = UUID0;
 verticalStems = (
 73
 );
-visible = 1;
 weightValue = 90;
 xHeight = 536;
 },
@@ -1352,7 +1352,7 @@ weightClass = Black;
 interpolationWeight = 26;
 interpolationWidth = 70;
 instanceInterpolations = {
-"7977A986-4EFB-4152-84F8-5A02CD382AAF" = 1;
+"CF8E177F-0CDC-40C1-8828-F158AA64F32E" = 1;
 };
 name = "Light Condensed";
 },
@@ -1360,7 +1360,7 @@ name = "Light Condensed";
 interpolationWeight = 90;
 interpolationWidth = 70;
 instanceInterpolations = {
-UUID0 = 1;
+"56AEB5FB-BA14-4784-B08F-18006463EEDB" = 1;
 };
 name = Condensed;
 },
@@ -1368,7 +1368,7 @@ name = Condensed;
 interpolationWeight = 190;
 interpolationWidth = 70;
 instanceInterpolations = {
-"C62AB4C0-B70D-46F6-9B13-45217A94AFC9" = 1;
+"DC607D84-584B-45E6-A9EB-D1AF471CA2AE" = 1;
 };
 name = "Bold Condensed";
 }
