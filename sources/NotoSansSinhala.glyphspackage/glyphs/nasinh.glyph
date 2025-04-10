@@ -251,7 +251,7 @@ width = 963;
 anchors = (
 {
 name = rakar;
-position = "{904.787, 210}";
+position = "{928, 0}";
 },
 {
 name = repaya;
@@ -263,7 +263,7 @@ position = "{461, 533}";
 },
 {
 name = uvowel;
-position = "{934, 0}";
+position = "{915, 0}";
 },
 {
 name = virama;

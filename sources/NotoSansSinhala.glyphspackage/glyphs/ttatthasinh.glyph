@@ -1,5 +1,5 @@
 {
-color = 11;
+color = 0;
 glyphname = ttatthasinh;
 layers = (
 {
@@ -236,6 +236,10 @@ width = 1007;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{598, 0}";
+},
 {
 name = repaya;
 position = "{567.676, 800}";

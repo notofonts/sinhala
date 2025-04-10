@@ -61,7 +61,7 @@ width = 669;
 anchors = (
 {
 name = virama;
-position = "{176.912, 517}";
+position = "{237, 517}";
 }
 );
 layerId = UUID0;

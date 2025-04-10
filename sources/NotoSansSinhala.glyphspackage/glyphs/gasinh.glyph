@@ -102,7 +102,7 @@ width = 880;
 anchors = (
 {
 name = rakar;
-position = "{891.187, 210}";
+position = "{900, 0}";
 },
 {
 name = repaya;
@@ -197,10 +197,6 @@ width = 943;
 },
 {
 anchors = (
-{
-name = below;
-position = "{621, 0}";
-},
 {
 name = rakar;
 position = "{901.582, 210}";
@@ -301,10 +297,6 @@ width = 954;
 {
 anchors = (
 {
-name = below;
-position = "{621, 0}";
-},
-{
 name = rakar;
 position = "{901.582, 210}";
 },
@@ -397,10 +389,6 @@ width = 954;
 },
 {
 anchors = (
-{
-name = below;
-position = "{562, 0}";
-},
 {
 name = rakar;
 position = "{857.165, 210}";
@@ -501,10 +489,6 @@ width = 907;
 {
 anchors = (
 {
-name = below;
-position = "{526, 0}";
-},
-{
 name = rakar;
 position = "{821.253, 210}";
 },
@@ -603,10 +587,6 @@ width = 869;
 },
 {
 anchors = (
-{
-name = below;
-position = "{610, 0}";
-},
 {
 name = rakar;
 position = "{881.736, 210}";
@@ -805,10 +785,6 @@ width = 910;
 {
 anchors = (
 {
-name = below;
-position = "{590, 0}";
-},
-{
 name = rakar;
 position = "{860, 210}";
 },
@@ -908,10 +884,6 @@ width = 910;
 {
 anchors = (
 {
-name = below;
-position = "{420, 0}";
-},
-{
 name = rakar;
 position = "{610.505, 210}";
 },
@@ -1008,10 +980,6 @@ width = 646;
 },
 {
 anchors = (
-{
-name = below;
-position = "{437, 0}";
-},
 {
 name = rakar;
 position = "{634.132, 210}";
@@ -1110,10 +1078,6 @@ width = 671;
 {
 anchors = (
 {
-name = below;
-position = "{474, 0}";
-},
-{
 name = rakar;
 position = "{691.78, 210}";
 },
@@ -1210,10 +1174,6 @@ width = 732;
 },
 {
 anchors = (
-{
-name = below;
-position = "{636, 0}";
-},
 {
 name = rakar;
 position = "{891.187, 210}";

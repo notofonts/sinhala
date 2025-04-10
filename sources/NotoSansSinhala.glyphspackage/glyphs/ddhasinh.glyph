@@ -4,12 +4,12 @@ layers = (
 {
 anchors = (
 {
-name = rakar;
-position = "{741, 210}";
+name = iVowel;
+position = "{373.164, 0}";
 },
 {
-name = top;
-position = "{419, 676}";
+name = rakar;
+position = "{741, 210}";
 },
 {
 name = uvowel;
@@ -125,12 +125,12 @@ width = 803;
 {
 anchors = (
 {
-name = rakar;
-position = "{790, 0}";
+name = iVowel;
+position = "{394.076, 0}";
 },
 {
-name = top;
-position = "{437, 676}";
+name = rakar;
+position = "{790, 0}";
 },
 {
 name = uvowel;
@@ -246,16 +246,20 @@ width = 848;
 {
 anchors = (
 {
-name = rakar;
-position = "{825.425, 210}";
+name = iVowel;
+position = "{428, 0}";
 },
 {
-name = top;
-position = "{460, 686}";
+name = rakar;
+position = "{848, 0}";
+},
+{
+name = repaya;
+position = "{328, 730}";
 },
 {
 name = uvowel;
-position = "{864, 176}";
+position = "{835, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -366,6 +370,10 @@ width = 921;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{439.618, 0}";
+},
 {
 name = rakar;
 position = "{847.83, 210}";
@@ -493,6 +501,10 @@ width = 946;
 {
 anchors = (
 {
+name = iVowel;
+position = "{281.151, 0}";
+},
+{
 name = rakar;
 position = "{542.217, 210}";
 },
@@ -616,6 +628,10 @@ width = 605;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{300.669, 0}";
+},
 {
 name = rakar;
 position = "{579.858, 210}";
@@ -741,6 +757,10 @@ width = 647;
 {
 anchors = (
 {
+name = iVowel;
+position = "{340.634, 0}";
+},
+{
 name = rakar;
 position = "{656.934, 210}";
 },
@@ -865,6 +885,10 @@ width = 733;
 {
 anchors = (
 {
+name = iVowel;
+position = "{394.076, 0}";
+},
+{
 name = rakar;
 position = "{760, 210}";
 },
@@ -986,6 +1010,10 @@ width = 848;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{367.123, 0}";
+},
 {
 name = rakar;
 position = "{708.019, 210}";

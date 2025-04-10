@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = rakar;
-position = "{819, 0}";
+position = "{809, 0}";
 },
 {
 name = repaya;
@@ -231,7 +231,7 @@ width = 874;
 anchors = (
 {
 name = rakar;
-position = "{851.899, 210}";
+position = "{858, 0}";
 },
 {
 name = repaya;
@@ -243,7 +243,7 @@ position = "{316, 533}";
 },
 {
 name = uvowel;
-position = "{834, 0}";
+position = "{845, 0}";
 },
 {
 name = virama;

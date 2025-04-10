@@ -1,5 +1,5 @@
 {
-color = 11;
+color = 0;
 glyphname = nyacasinh;
 layers = (
 {
@@ -109,12 +109,16 @@ width = 865;
 {
 anchors = (
 {
+name = rakar;
+position = "{838, 0}";
+},
+{
 name = repaya;
 position = "{515, 800}";
 },
 {
 name = uvowel;
-position = "{807, 0}";
+position = "{825, 0}";
 }
 );
 layerId = UUID0;

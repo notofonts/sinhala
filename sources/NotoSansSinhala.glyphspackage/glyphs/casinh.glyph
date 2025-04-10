@@ -174,7 +174,7 @@ width = 818;
 anchors = (
 {
 name = rakar;
-position = "{775.672, 210}";
+position = "{776, 0}";
 },
 {
 name = uvowel;

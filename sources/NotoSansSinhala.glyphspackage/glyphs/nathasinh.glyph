@@ -1,5 +1,5 @@
 {
-color = 11;
+color = 0;
 glyphname = nathasinh;
 layers = (
 {
@@ -170,12 +170,16 @@ width = 1261;
 {
 anchors = (
 {
+name = rakar;
+position = "{1218, 0}";
+},
+{
 name = repaya;
 position = "{775, 750}";
 },
 {
 name = uvowel;
-position = "{1217, 0}";
+position = "{1205, 0}";
 }
 );
 layerId = UUID0;
@@ -334,6 +338,10 @@ width = 1333;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{938, 0}";
+},
 {
 name = repaya;
 position = "{785.465, 750}";
