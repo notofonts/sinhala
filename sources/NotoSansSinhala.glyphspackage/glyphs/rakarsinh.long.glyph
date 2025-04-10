@@ -1,5 +1,4 @@
 {
-color = 3;
 glyphname = rakarsinh.long;
 layers = (
 {
@@ -37,7 +36,7 @@ width = 0;
 anchors = (
 {
 name = _rakar;
-position = "{-60, 180}";
+position = "{-74, 0}";
 }
 );
 layerId = UUID0;
@@ -45,20 +44,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-87 -343 OFFCURVE",
-"-37 74 OFFCURVE",
-"-60 180 CURVE",
-"-121 150 LINE",
-"-131 -117 OFFCURVE",
-"-300 -273 OFFCURVE",
-"-497 -273 CURVE SMOOTH",
-"-683 -273 OFFCURVE",
-"-806 -190 OFFCURVE",
-"-816 -72 CURVE",
-"-887 -72 LINE",
-"-887 -273 OFFCURVE",
-"-642 -343 OFFCURVE",
-"-497 -343 CURVE SMOOTH"
+"-87 -293 OFFCURVE",
+"-37 124 OFFCURVE",
+"-60 230 CURVE",
+"-121 200 LINE",
+"-131 -67 OFFCURVE",
+"-268 -225 OFFCURVE",
+"-493 -225 CURVE SMOOTH",
+"-683 -225 OFFCURVE",
+"-791 -118 OFFCURVE",
+"-827 -34 CURVE",
+"-881 -67 LINE",
+"-818 -221 OFFCURVE",
+"-642 -293 OFFCURVE",
+"-497 -293 CURVE SMOOTH"
 );
 }
 );

@@ -1,12 +1,11 @@
 {
-color = 2;
 glyphname = sasinh;
 layers = (
 {
 anchors = (
 {
 name = rakar;
-position = "{830, 210}";
+position = "{819, 0}";
 },
 {
 name = repaya;

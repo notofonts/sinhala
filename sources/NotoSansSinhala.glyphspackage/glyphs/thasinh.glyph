@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = thasinh;
 layers = (
 {
@@ -88,7 +87,7 @@ width = 744;
 anchors = (
 {
 name = rakar;
-position = "{741, 210}";
+position = "{730, 0}";
 },
 {
 name = top;

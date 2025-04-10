@@ -1,5 +1,4 @@
 {
-color = 2;
 glyphname = casinh;
 layers = (
 {
@@ -88,7 +87,7 @@ width = 780;
 anchors = (
 {
 name = rakar;
-position = "{750, 210}";
+position = "{750, 0}";
 },
 {
 name = uvowel;

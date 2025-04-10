@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = basinh;
 layers = (
 {
@@ -98,7 +97,7 @@ width = 813;
 anchors = (
 {
 name = rakar;
-position = "{810, 210}";
+position = "{800, 0}";
 },
 {
 name = uvowel;

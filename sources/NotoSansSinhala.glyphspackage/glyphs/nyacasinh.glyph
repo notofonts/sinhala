@@ -111,6 +111,10 @@ anchors = (
 {
 name = repaya;
 position = "{515, 800}";
+},
+{
+name = uvowel;
+position = "{807, 0}";
 }
 );
 layerId = UUID0;

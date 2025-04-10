@@ -1,5 +1,4 @@
 {
-color = 2;
 glyphname = ghasinh;
 layers = (
 {
@@ -168,7 +167,7 @@ width = 856;
 anchors = (
 {
 name = rakar;
-position = "{840, 210}";
+position = "{810, 0}";
 },
 {
 name = repaya;

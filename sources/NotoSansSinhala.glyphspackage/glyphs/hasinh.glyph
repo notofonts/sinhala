@@ -1,5 +1,4 @@
 {
-color = 2;
 glyphname = hasinh;
 layers = (
 {
@@ -128,7 +127,7 @@ position = "{666, -1}";
 },
 {
 name = rakar;
-position = "{910, 210}";
+position = "{889, 0}";
 },
 {
 name = repaya;

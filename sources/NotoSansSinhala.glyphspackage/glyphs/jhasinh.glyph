@@ -1,5 +1,4 @@
 {
-color = 3;
 glyphname = jhasinh;
 layers = (
 {
@@ -187,7 +186,7 @@ width = 1420;
 anchors = (
 {
 name = rakar;
-position = "{1430, 210}";
+position = "{1420, 0}";
 },
 {
 name = uvowel;

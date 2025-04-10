@@ -1,5 +1,4 @@
 {
-color = 3;
 glyphname = nngasinh;
 layers = (
 {
@@ -45,7 +44,7 @@ position = "{722, -1}";
 },
 {
 name = rakar;
-position = "{1024, 210}";
+position = "{990, 0}";
 },
 {
 name = repaya;
