@@ -75,7 +75,7 @@ width = 0;
 anchors = (
 {
 name = _uvowel;
-position = "{-33, 176}";
+position = "{-33, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -87,8 +87,8 @@ nodes = (
 "-666 -291 OFFCURVE",
 "-574 -291 CURVE SMOOTH",
 "-33 -291 LINE",
-"-33 176 LINE",
-"-170 176 LINE",
+"-33 196 LINE",
+"-170 136 LINE",
 "-170 -157 LINE",
 "-532 -157 LINE SMOOTH",
 "-574 -157 OFFCURVE",

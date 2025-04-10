@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = _rakar;
-position = "{-69, 210}";
+position = "{-74, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -13,12 +13,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-88 -294 OFFCURVE",
-"-40 12 OFFCURVE",
+"-152 -294 OFFCURVE",
+"-65 -80 OFFCURVE",
+"-61 106 CURVE SMOOTH",
+"-60 142 OFFCURVE",
+"-63 178 OFFCURVE",
 "-67 210 CURVE",
 "-83 170 LINE",
-"-93 82 OFFCURVE",
-"-67 -268 OFFCURVE",
+"-85 156 OFFCURVE",
+"-87 136 OFFCURVE",
+"-87 112 CURVE SMOOTH",
+"-87 -19 OFFCURVE",
+"-131 -268 OFFCURVE",
 "-478 -268 CURVE SMOOTH",
 "-769 -268 OFFCURVE",
 "-852 -195 OFFCURVE",

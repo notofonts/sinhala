@@ -16,6 +16,10 @@ name = top;
 position = "{437, 603}";
 },
 {
+name = uvowel;
+position = "{761, 0}";
+},
+{
 name = virama;
 position = "{796, 596}";
 }
@@ -45,6 +49,10 @@ position = "{573, 730}";
 {
 name = top;
 position = "{456, 583}";
+},
+{
+name = uvowel;
+position = "{762, 0}";
 },
 {
 name = virama;
@@ -79,7 +87,7 @@ position = "{538, 533}";
 },
 {
 name = uvowel;
-position = "{1062, 0}";
+position = "{941, 0}";
 },
 {
 name = virama;
@@ -112,6 +120,10 @@ position = "{649.45, 730}";
 {
 name = top;
 position = "{516, 533}";
+},
+{
+name = uvowel;
+position = "{1059.265, 0}";
 },
 {
 name = virama;
@@ -227,6 +239,10 @@ position = "{649.45, 730}";
 {
 name = top;
 position = "{516, 533}";
+},
+{
+name = uvowel;
+position = "{1059.265, 0}";
 },
 {
 name = virama;
@@ -352,6 +368,10 @@ name = top;
 position = "{332, 533}";
 },
 {
+name = uvowel;
+position = "{682.779, 0}";
+},
+{
 name = virama;
 position = "{613, 536}";
 }
@@ -465,6 +485,10 @@ name = top;
 position = "{357, 533}";
 },
 {
+name = uvowel;
+position = "{732.005, 0}";
+},
+{
 name = virama;
 position = "{658, 536}";
 }
@@ -576,6 +600,10 @@ position = "{516.43, 730}";
 {
 name = top;
 position = "{409, 533}";
+},
+{
+name = uvowel;
+position = "{842.307, 0}";
 },
 {
 name = virama;

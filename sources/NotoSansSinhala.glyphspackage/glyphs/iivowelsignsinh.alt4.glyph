@@ -6,6 +6,10 @@ anchors = (
 {
 name = _iVowel;
 position = "{-272, 0}";
+},
+{
+name = iVowel;
+position = "{-318, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -64,6 +68,10 @@ anchors = (
 {
 name = _iVowel;
 position = "{-462, 0}";
+},
+{
+name = iVowel;
+position = "{-370, 0}";
 }
 );
 layerId = UUID0;
@@ -343,6 +351,10 @@ anchors = (
 {
 name = _iVowel;
 position = "{-292, 0}";
+},
+{
+name = iVowel;
+position = "{-394, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

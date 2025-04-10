@@ -50,7 +50,7 @@ code = "ghasinh yasinh sasinh ";
 name = saShapeGroup;
 },
 {
-code = "casinh ttasinh thasinh phasinh vasinh ";
+code = "casinh ttasinh thasinh phasinh vasinh kavasinh nyacasinh tathasinh tavasinh davasinh nathasinh navasinh \012";
 name = vaShapeGroup;
 },
 {
@@ -965,7 +965,6 @@ id = UUID0;
 verticalStems = (
 73
 );
-visible = 1;
 weightValue = 90;
 xHeight = 536;
 },

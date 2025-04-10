@@ -12,6 +12,14 @@ name = rakar;
 position = "{659.483, 210}";
 },
 {
+name = repaya;
+position = "{269.28, 740}";
+},
+{
+name = top;
+position = "{417.45, 644}";
+},
+{
 name = uvowel;
 position = "{705, 0}";
 }
@@ -108,6 +116,10 @@ position = "{398, 0}";
 {
 name = rakar;
 position = "{740, 0}";
+},
+{
+name = repaya;
+position = "{285.824, 740}";
 },
 {
 name = top;
@@ -216,6 +228,10 @@ name = repaya;
 position = "{308, 740}";
 },
 {
+name = top;
+position = "{477.476, 644}";
+},
+{
 name = uvowel;
 position = "{805, 0}";
 }
@@ -306,8 +322,16 @@ width = 875;
 {
 anchors = (
 {
+name = iVowel;
+position = "{400, 0}";
+},
+{
 name = rakar;
 position = "{756.034, 210}";
+},
+{
+name = repaya;
+position = "{308.704, 740}";
 },
 {
 name = top;
@@ -414,8 +438,16 @@ width = 877;
 {
 anchors = (
 {
+name = iVowel;
+position = "{267, 0}";
+},
+{
 name = rakar;
 position = "{492.241, 210}";
+},
+{
+name = repaya;
+position = "{200.992, 740}";
 },
 {
 name = top;
@@ -520,8 +552,16 @@ width = 571;
 {
 anchors = (
 {
+name = iVowel;
+position = "{279, 0}";
+},
+{
 name = rakar;
 position = "{523.276, 210}";
+},
+{
+name = repaya;
+position = "{213.664, 740}";
 },
 {
 name = top;
@@ -626,8 +666,16 @@ width = 607;
 {
 anchors = (
 {
+name = iVowel;
+position = "{287, 0}";
+},
+{
 name = rakar;
 position = "{581.897, 210}";
+},
+{
+name = repaya;
+position = "{237.6, 740}";
 },
 {
 name = top;

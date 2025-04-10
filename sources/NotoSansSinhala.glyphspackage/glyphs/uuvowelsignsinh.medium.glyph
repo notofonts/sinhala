@@ -117,7 +117,7 @@ width = 0;
 anchors = (
 {
 name = _uvowel;
-position = "{-23, 176}";
+position = "{-23, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";

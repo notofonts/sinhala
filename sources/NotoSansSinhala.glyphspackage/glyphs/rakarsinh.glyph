@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = _rakar;
-position = "{-54, 210}";
+position = "{-38, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -13,12 +13,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-58 -294 OFFCURVE",
-"2 44 OFFCURVE",
+"-120 -294 OFFCURVE",
+"-32 -77 OFFCURVE",
+"-36 96 CURVE SMOOTH",
+"-37 139 OFFCURVE",
+"-44 179 OFFCURVE",
 "-55 212 CURVE",
 "-67 182 LINE",
-"-38 104 OFFCURVE",
-"-54 -268 OFFCURVE",
+"-61 165 OFFCURVE",
+"-57 136 OFFCURVE",
+"-57 99 CURVE SMOOTH",
+"-58 -37 OFFCURVE",
+"-121 -268 OFFCURVE",
 "-368 -268 CURVE SMOOTH",
 "-549 -268 OFFCURVE",
 "-614 -185 OFFCURVE",
@@ -109,8 +115,8 @@ width = 0;
 {
 anchors = (
 {
-name = _uvowel;
-position = "{-53, 176}";
+name = _rakar;
+position = "{-58, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -149,8 +155,8 @@ width = 0;
 {
 anchors = (
 {
-name = _uvowel;
-position = "{-53, 176}";
+name = _rakar;
+position = "{-58, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -189,8 +195,8 @@ width = 0;
 {
 anchors = (
 {
-name = _uvowel;
-position = "{-53, 176}";
+name = _rakar;
+position = "{-58, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -231,6 +237,10 @@ anchors = (
 {
 name = _rakar;
 position = "{-74, 0}";
+},
+{
+name = _uvowel;
+position = "{-53, 176}";
 }
 );
 associatedMasterId = UUID0;
@@ -264,6 +274,10 @@ anchors = (
 {
 name = _rakar;
 position = "{-74, 0}";
+},
+{
+name = _uvowel;
+position = "{-53, 176}";
 }
 );
 associatedMasterId = UUID0;

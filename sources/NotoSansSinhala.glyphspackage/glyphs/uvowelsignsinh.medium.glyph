@@ -43,36 +43,25 @@ name = _uvowel;
 position = "{-96, 0}";
 }
 );
-background = {
-components = (
-{
-name = uvowelsignsinh;
-}
-);
-};
 layerId = UUID0;
 paths = (
 {
 closed = 1;
 nodes = (
-"-778 -222 OFFCURVE",
-"-744 -271 OFFCURVE",
-"-637 -271 CURVE SMOOTH",
+"-781 -250 OFFCURVE",
+"-708 -271 OFFCURVE",
+"-646 -271 CURVE SMOOTH",
 "-60 -271 LINE",
-"-60 236 LINE",
-"-132 95 LINE",
+"-60 177 LINE",
+"-132 92 LINE",
 "-132 -203 LINE",
-"-619 -203 LINE SMOOTH",
-"-689 -203 OFFCURVE",
-"-715 -181 OFFCURVE",
-"-715 -152 CURVE SMOOTH",
-"-715 -135 OFFCURVE",
-"-709 -116 OFFCURVE",
-"-700 -97 CURVE",
-"-760 -97 LINE",
-"-773 -117 OFFCURVE",
-"-778 -145 OFFCURVE",
-"-778 -173 CURVE SMOOTH"
+"-637 -203 LINE SMOOTH",
+"-701 -203 OFFCURVE",
+"-711 -164 OFFCURVE",
+"-711 -137 CURVE SMOOTH",
+"-711 -118 LINE",
+"-781 -118 LINE",
+"-781 -140 LINE SMOOTH"
 );
 }
 );
@@ -82,7 +71,7 @@ width = 0;
 anchors = (
 {
 name = _uvowel;
-position = "{-96, 0}";
+position = "{-46, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -277,6 +266,51 @@ nodes = (
 );
 }
 );
+width = 0;
+},
+{
+anchors = (
+{
+name = _uvowel;
+position = "{-96, 0}";
+}
+);
+associatedMasterId = UUID0;
+background = {
+components = (
+{
+name = uvowelsignsinh;
+}
+);
+};
+layerId = "0B97FD2D-5A06-4136-99FD-C07855E8F79E";
+name = "10 Apr 25 at 23:43";
+paths = (
+{
+closed = 1;
+nodes = (
+"-778 -222 OFFCURVE",
+"-744 -271 OFFCURVE",
+"-637 -271 CURVE SMOOTH",
+"-60 -271 LINE",
+"-60 236 LINE",
+"-132 95 LINE",
+"-132 -203 LINE",
+"-619 -203 LINE SMOOTH",
+"-689 -203 OFFCURVE",
+"-715 -181 OFFCURVE",
+"-715 -152 CURVE SMOOTH",
+"-715 -135 OFFCURVE",
+"-709 -116 OFFCURVE",
+"-700 -97 CURVE",
+"-760 -97 LINE",
+"-773 -117 OFFCURVE",
+"-778 -145 OFFCURVE",
+"-778 -173 CURVE SMOOTH"
+);
+}
+);
+visible = 1;
 width = 0;
 }
 );

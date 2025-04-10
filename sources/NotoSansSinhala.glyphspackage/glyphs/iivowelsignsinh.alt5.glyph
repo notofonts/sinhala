@@ -13,9 +13,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-391 860 OFFCURVE",
-"-468 792 OFFCURVE",
-"-468 708 CURVE SMOOTH",
 "-468 626 OFFCURVE",
 "-411 584 OFFCURVE",
 "-328 560 CURVE",
@@ -53,7 +50,10 @@ nodes = (
 "-15 703 CURVE SMOOTH",
 "-15 798 OFFCURVE",
 "-109 860 OFFCURVE",
-"-248 860 CURVE SMOOTH"
+"-248 860 CURVE SMOOTH",
+"-391 860 OFFCURVE",
+"-468 792 OFFCURVE",
+"-468 708 CURVE SMOOTH"
 );
 }
 );
@@ -71,9 +71,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-558 976 OFFCURVE",
-"-633 889 OFFCURVE",
-"-633 793 CURVE SMOOTH",
 "-633 699 OFFCURVE",
 "-552 636 OFFCURVE",
 "-375 636 CURVE",
@@ -111,7 +108,10 @@ nodes = (
 "-84 805 CURVE SMOOTH",
 "-84 896 OFFCURVE",
 "-161 976 OFFCURVE",
-"-358 976 CURVE SMOOTH"
+"-358 976 CURVE SMOOTH",
+"-558 976 OFFCURVE",
+"-633 889 OFFCURVE",
+"-633 793 CURVE SMOOTH"
 );
 }
 );
@@ -214,11 +214,7 @@ width = 0;
 anchors = (
 {
 name = _iVowel;
-position = "{-492, 0}";
-},
-{
-name = iVowel;
-position = "{-306, 0}";
+position = "{-332, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -226,9 +222,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-373 860 OFFCURVE",
-"-435 803 OFFCURVE",
-"-435 717 CURVE SMOOTH",
 "-435 639 OFFCURVE",
 "-387 592 OFFCURVE",
 "-327 561 CURVE",
@@ -266,7 +259,10 @@ nodes = (
 "-84 700 CURVE SMOOTH",
 "-84 789 OFFCURVE",
 "-153 860 OFFCURVE",
-"-265 860 CURVE SMOOTH"
+"-265 860 CURVE SMOOTH",
+"-373 860 OFFCURVE",
+"-435 803 OFFCURVE",
+"-435 717 CURVE SMOOTH"
 );
 }
 );
@@ -276,11 +272,7 @@ width = 0;
 anchors = (
 {
 name = _iVowel;
-position = "{-492, 0}";
-},
-{
-name = iVowel;
-position = "{-306, 0}";
+position = "{-292, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -288,9 +280,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-402 876 OFFCURVE",
-"-452 793 OFFCURVE",
-"-452 718 CURVE SMOOTH",
 "-452 628 OFFCURVE",
 "-393 573 OFFCURVE",
 "-339 544 CURVE",
@@ -328,7 +317,10 @@ nodes = (
 "-65 700 CURVE SMOOTH",
 "-65 784 OFFCURVE",
 "-122 876 OFFCURVE",
-"-262 876 CURVE SMOOTH"
+"-262 876 CURVE SMOOTH",
+"-402 876 OFFCURVE",
+"-452 793 OFFCURVE",
+"-452 718 CURVE SMOOTH"
 );
 }
 );
@@ -346,9 +338,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-534 894 OFFCURVE",
-"-587 791 OFFCURVE",
-"-587 705 CURVE SMOOTH",
 "-587 617 OFFCURVE",
 "-543 558 OFFCURVE",
 "-467 509 CURVE",
@@ -386,7 +375,10 @@ nodes = (
 "-95 706 CURVE SMOOTH",
 "-95 784 OFFCURVE",
 "-146 894 OFFCURVE",
-"-343 894 CURVE SMOOTH"
+"-343 894 CURVE SMOOTH",
+"-534 894 OFFCURVE",
+"-587 791 OFFCURVE",
+"-587 705 CURVE SMOOTH"
 );
 }
 );

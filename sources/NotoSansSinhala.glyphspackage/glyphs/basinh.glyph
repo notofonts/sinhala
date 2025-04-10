@@ -189,11 +189,11 @@ width = 865;
 anchors = (
 {
 name = rakar;
-position = "{869, 0}";
+position = "{859, 0}";
 },
 {
 name = uvowel;
-position = "{856, 0}";
+position = "{846, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
