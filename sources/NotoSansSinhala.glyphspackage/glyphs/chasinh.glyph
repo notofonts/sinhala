@@ -4,6 +4,10 @@ layers = (
 {
 anchors = (
 {
+name = iVowel;
+position = "{302.721, 0}";
+},
+{
 name = rakar;
 position = "{748.741, 210}";
 },
@@ -134,6 +138,10 @@ width = 798;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{307.273, 0}";
+},
 {
 name = rakar;
 position = "{750, 0}";
@@ -327,6 +335,10 @@ width = 810;
 {
 anchors = (
 {
+name = iVowel;
+position = "{328, 0}";
+},
+{
 name = rakar;
 position = "{818, 0}";
 },
@@ -458,6 +470,10 @@ width = 891;
 {
 anchors = (
 {
+name = iVowel;
+position = "{326.999, 0}";
+},
+{
 name = rakar;
 position = "{808.79, 210}";
 },
@@ -579,6 +595,10 @@ width = 862;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{303.479, 0}";
+},
 {
 name = rakar;
 position = "{750.617, 210}";
@@ -702,6 +722,10 @@ width = 800;
 {
 anchors = (
 {
+name = iVowel;
+position = "{283.753, 0}";
+},
+{
 name = rakar;
 position = "{701.827, 210}";
 },
@@ -824,6 +848,10 @@ width = 748;
 {
 anchors = (
 {
+name = iVowel;
+position = "{311.066, 0}";
+},
+{
 name = rakar;
 position = "{769.383, 210}";
 },
@@ -942,6 +970,10 @@ width = 820;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{307.273, 0}";
+},
 {
 name = rakar;
 position = "{760, 210}";
@@ -1129,6 +1161,10 @@ width = 810;
 {
 anchors = (
 {
+name = iVowel;
+position = "{302.721, 0}";
+},
+{
 name = rakar;
 position = "{748.741, 210}";
 },
@@ -1254,6 +1290,10 @@ width = 798;
 {
 anchors = (
 {
+name = iVowel;
+position = "{214.712, 0}";
+},
+{
 name = rakar;
 position = "{531.062, 210}";
 },
@@ -1373,6 +1413,10 @@ width = 566;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{234.058, 0}";
+},
 {
 name = rakar;
 position = "{578.914, 210}";
@@ -1494,6 +1538,10 @@ width = 617;
 {
 anchors = (
 {
+name = iVowel;
+position = "{256.819, 0}";
+},
+{
 name = rakar;
 position = "{635.21, 210}";
 },
@@ -1613,6 +1661,10 @@ width = 677;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{338, 0}";
+},
 {
 name = rakar;
 position = "{836, 210}";
@@ -1741,6 +1793,10 @@ width = 891;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{338, 0}";
+},
 {
 name = rakar;
 position = "{836, 210}";
