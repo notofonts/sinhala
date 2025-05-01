@@ -26,7 +26,7 @@ code = "kasinh gasinh nngasinh tasinh shasinh hasinh bhasinh\012";
 name = uSign2Group;
 },
 {
-code = "#ngasinh jhasinh tthasinh ddasinh ddhasinh nnasinh nnddasinh basinh bhasinh mbasinh khasinh masinh kavasinh kassasinh gadhasinh nyacasinh ttatthasinh tathasinh tavasinh dadhasinh davasinh nathasinh nadhasinh navasinh \012\012#nnasinh hasinh nasinh jhasinh nnddasinh ddhasinh ddasinh ddhasinh khasinh basinh mbasinh ngasinh kavasinh kassasinh gadhasinh nyacasinh ttatthasinh tathasinh tavasinh dadhasinh davasinh nathasinh nadasinh nadhasinh navasinh bhasinh\012##ණුනුක්‍වුක්‍ෂුත්‍ථුත්‍වුන්‍ථුන්‍දුන්‍ධුග්‍ධුට්‍ඨුද්‍ධුද්‍වුන්‍වු\012nnasinh nasinh hasinh kavasinh kassasinh gadhasinh tathasinh tavasinh nathasinh nadasinh nadhasinh navasinh \012";
+code = "#ngasinh jhasinh tthasinh ddasinh ddhasinh nnasinh nnddasinh basinh bhasinh mbasinh khasinh masinh kavasinh kassasinh gadhasinh nyacasinh ttatthasinh tathasinh tavasinh dadhasinh davasinh nathasinh nadhasinh navasinh \012\012#nnasinh hasinh nasinh jhasinh nnddasinh ddhasinh ddasinh ddhasinh khasinh basinh mbasinh ngasinh kavasinh kassasinh gadhasinh nyacasinh ttatthasinh tathasinh tavasinh dadhasinh davasinh nathasinh nadasinh nadhasinh navasinh bhasinh\012##ණුනුක්‍වුක්‍ෂුත්‍ථුත්‍වුන්‍ථුන්‍දුන්‍ධුග්‍ධුට්‍ඨුද්‍ධුද්‍වුන්‍වු\012nnasinh nasinh hasinh kavasinh kassasinh gadhasinh tathasinh tavasinh nathasinh nadasinh nadhasinh navasinh jhasinh\012";
 name = uSignWideGroup;
 },
 {
@@ -50,7 +50,7 @@ code = "ghasinh yasinh sasinh ";
 name = saShapeGroup;
 },
 {
-code = "casinh ttasinh thasinh phasinh vasinh kavasinh nyacasinh tathasinh tavasinh davasinh nathasinh navasinh \012";
+code = "casinh ttasinh thasinh phasinh vasinh davasinh nyacasinh\012";
 name = vaShapeGroup;
 },
 {
