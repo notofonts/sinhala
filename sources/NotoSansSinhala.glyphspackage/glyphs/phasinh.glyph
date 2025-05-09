@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = iVowel;
-position = "{388, 0}";
+position = "{439, 0}";
 },
 {
 name = rakar;
@@ -14,10 +14,6 @@ position = "{659.483, 210}";
 {
 name = repaya;
 position = "{269.28, 740}";
-},
-{
-name = top;
-position = "{417.45, 644}";
 },
 {
 name = uvowel;
@@ -111,7 +107,7 @@ width = 765;
 anchors = (
 {
 name = iVowel;
-position = "{398, 0}";
+position = "{438, 0}";
 },
 {
 name = rakar;
@@ -120,10 +116,6 @@ position = "{740, 0}";
 {
 name = repaya;
 position = "{285.824, 740}";
-},
-{
-name = top;
-position = "{451, 676}";
 },
 {
 name = uvowel;
@@ -226,10 +218,6 @@ position = "{818, 0}";
 {
 name = repaya;
 position = "{308, 740}";
-},
-{
-name = top;
-position = "{477.476, 644}";
 },
 {
 name = uvowel;
