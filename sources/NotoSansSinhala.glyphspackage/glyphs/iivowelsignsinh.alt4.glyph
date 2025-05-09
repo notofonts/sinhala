@@ -130,10 +130,6 @@ anchors = (
 {
 name = _iVowel;
 position = "{-492, 0}";
-},
-{
-name = iVowel;
-position = "{-306, 0}";
 }
 );
 background = {

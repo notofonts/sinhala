@@ -115,7 +115,7 @@ position = "{351, 800}";
 },
 {
 name = uvowel;
-position = "{749, 0}";
+position = "{759, 0}";
 }
 );
 layerId = UUID0;
@@ -217,7 +217,7 @@ position = "{382.569, 800}";
 },
 {
 name = uvowel;
-position = "{825, 0}";
+position = "{855, 0}";
 }
 );
 background = {

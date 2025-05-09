@@ -30,7 +30,7 @@ code = "#ngasinh jhasinh tthasinh ddasinh ddhasinh nnasinh nnddasinh basinh bhas
 name = uSignWideGroup;
 },
 {
-code = "#pasinh ssasinh chasinh jasinh nyjasinh sasinh ghasinh tthasinh fasinh yasinh masinh yapostsinh   \012\012#ඛඞඨඩඬධබමඹ\012khasinh ngasinh tthasinh ddasinh ddhasinh nnddasinh dhasinh basinh masinh mbasinh sasinh\012";
+code = "#pasinh ssasinh chasinh jasinh nyjasinh sasinh ghasinh tthasinh fasinh yasinh masinh yapostsinh   \012\012#ඛඞඨඩඬධබමඹ\012khasinh ngasinh tthasinh ddasinh ddhasinh nnddasinh dhasinh basinh mbasinh sasinh\012";
 name = uSignMediumGroup;
 },
 {
@@ -50,7 +50,7 @@ code = "ghasinh yasinh sasinh ";
 name = saShapeGroup;
 },
 {
-code = "casinh ttasinh thasinh phasinh vasinh davasinh nyacasinh\012";
+code = "casinh ttasinh thasinh phasinh vasinh davasinh nyacasinh masinh\012";
 name = vaShapeGroup;
 },
 {
@@ -1365,6 +1365,7 @@ name = Black;
 weightClass = Black;
 },
 {
+exports = 0;
 interpolationWeight = 26;
 interpolationWidth = 70;
 instanceInterpolations = {
@@ -1373,6 +1374,7 @@ instanceInterpolations = {
 name = "Light Condensed";
 },
 {
+exports = 0;
 interpolationWeight = 90;
 interpolationWidth = 70;
 instanceInterpolations = {
@@ -1381,6 +1383,7 @@ UUID0 = 1;
 name = Condensed;
 },
 {
+exports = 0;
 interpolationWeight = 190;
 interpolationWidth = 70;
 instanceInterpolations = {

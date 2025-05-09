@@ -36,7 +36,7 @@ width = 0;
 anchors = (
 {
 name = _uvowel;
-position = "{-93, 0}";
+position = "{-59, 0}";
 }
 );
 background = {
@@ -94,7 +94,7 @@ width = 0;
 anchors = (
 {
 name = _uvowel;
-position = "{-33, 0}";
+position = "{-83, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -102,20 +102,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-836 -258 OFFCURVE",
-"-736 -297 OFFCURVE",
-"-624 -297 CURVE SMOOTH",
-"-33 -297 LINE",
-"-33 190 LINE",
-"-190 140 LINE",
-"-190 -145 LINE",
-"-602 -145 LINE SMOOTH",
-"-644 -145 OFFCURVE",
-"-684 -135 OFFCURVE",
-"-684 -91 CURVE",
-"-684 -70 LINE",
-"-836 -71 LINE",
-"-836 -116 LINE"
+"-886 -258 OFFCURVE",
+"-786 -297 OFFCURVE",
+"-674 -297 CURVE SMOOTH",
+"-83 -297 LINE",
+"-83 230 LINE",
+"-240 120 LINE",
+"-240 -145 LINE",
+"-652 -145 LINE SMOOTH",
+"-694 -145 OFFCURVE",
+"-734 -135 OFFCURVE",
+"-734 -91 CURVE",
+"-734 -70 LINE",
+"-886 -71 LINE",
+"-886 -116 LINE"
 );
 }
 );
