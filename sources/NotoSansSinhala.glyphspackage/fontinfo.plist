@@ -925,6 +925,10 @@ position = "{-6, -292}";
 locked = 1;
 name = i_sign;
 position = "{341, 543}";
+},
+{
+name = "i_sign-ASCE";
+position = "{-477, 920}";
 }
 );
 id = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -959,6 +963,10 @@ position = "{-8, 583}";
 },
 {
 position = "{-686, -49}";
+},
+{
+name = "i_sign-ASCE";
+position = "{-493, 957}";
 }
 );
 id = UUID0;

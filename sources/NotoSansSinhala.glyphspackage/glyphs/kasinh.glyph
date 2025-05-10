@@ -162,7 +162,7 @@ position = "{595, 730}";
 },
 {
 name = top;
-position = "{446, 553}";
+position = "{416, 553}";
 },
 {
 name = uvowel;
@@ -170,7 +170,7 @@ position = "{745, 0}";
 },
 {
 name = virama;
-position = "{709.686, 536}";
+position = "{740, 536}";
 }
 );
 guideLines = (
