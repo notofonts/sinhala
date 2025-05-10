@@ -1,8 +1,13 @@
 {
-color = 9;
 glyphname = iivowelsignsinh.alt2;
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{-366, 598}";
+}
+);
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -66,23 +71,23 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-448 876 OFFCURVE",
-"-532 797 OFFCURVE",
-"-532 695 CURVE SMOOTH",
-"-532 619 OFFCURVE",
+"-455 896 OFFCURVE",
+"-532 807 OFFCURVE",
+"-532 705 CURVE SMOOTH",
+"-532 629 OFFCURVE",
 "-484 556 OFFCURVE",
 "-377 533 CURVE",
 "-356 598 LINE",
 "-418 607 OFFCURVE",
-"-456 650 OFFCURVE",
-"-456 699 CURVE SMOOTH",
-"-456 752 OFFCURVE",
-"-408 806 OFFCURVE",
-"-299 806 CURVE SMOOTH",
-"-254 806 OFFCURVE",
-"-220 801 OFFCURVE",
-"-192 794 CURVE",
-"-152 780 OFFCURVE",
+"-456 660 OFFCURVE",
+"-456 709 CURVE SMOOTH",
+"-456 762 OFFCURVE",
+"-415 826 OFFCURVE",
+"-309 826 CURVE SMOOTH",
+"-244 826 OFFCURVE",
+"-214 809 OFFCURVE",
+"-192 799 CURVE",
+"-152 785 OFFCURVE",
 "-124 737 OFFCURVE",
 "-124 704 CURVE SMOOTH",
 "-124 662 OFFCURVE",
@@ -105,14 +110,20 @@ nodes = (
 "-54 617 OFFCURVE",
 "-54 699 CURVE SMOOTH",
 "-54 776 OFFCURVE",
-"-111 876 OFFCURVE",
-"-298 876 CURVE SMOOTH"
+"-111 896 OFFCURVE",
+"-308 896 CURVE SMOOTH"
 );
 }
 );
 width = 0;
 },
 {
+anchors = (
+{
+name = _top;
+position = "{-366, 598}";
+}
+);
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 paths = (
 {
@@ -165,6 +176,12 @@ nodes = (
 width = 0;
 },
 {
+anchors = (
+{
+name = _top;
+position = "{21, 598}";
+}
+);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -217,6 +234,12 @@ nodes = (
 width = 399;
 },
 {
+anchors = (
+{
+name = _top;
+position = "{-366, 598}";
+}
+);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -269,6 +292,12 @@ nodes = (
 width = 0;
 },
 {
+anchors = (
+{
+name = _top;
+position = "{21, 598}";
+}
+);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {

@@ -1,20 +1,24 @@
 {
-color = 11;
+color = 0;
 glyphname = kassasinh;
 layers = (
 {
 anchors = (
+{
+name = rakar;
+position = "{1318, 0}";
+},
 {
 name = repaya;
 position = "{795, 730}";
 },
 {
 name = top;
-position = "{591, 533}";
+position = "{759, 580}";
 },
 {
 name = uvowel;
-position = "{1317, 0}";
+position = "{1305, 0}";
 }
 );
 components = (
@@ -33,6 +37,10 @@ width = 1423;
 {
 anchors = (
 {
+name = rakar;
+position = "{1438, 0}";
+},
+{
 name = repaya;
 position = "{795, 730}";
 },
@@ -42,7 +50,7 @@ position = "{930, 583}";
 },
 {
 name = uvowel;
-position = "{1417, 0}";
+position = "{1395, 0}";
 }
 );
 components = (
@@ -61,6 +69,10 @@ width = 1490;
 {
 anchors = (
 {
+name = rakar;
+position = "{1418, 0}";
+},
+{
 name = repaya;
 position = "{795, 730}";
 },
@@ -70,7 +82,7 @@ position = "{591, 533}";
 },
 {
 name = uvowel;
-position = "{1387, 0}";
+position = "{1405, 0}";
 }
 );
 components = (

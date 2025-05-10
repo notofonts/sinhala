@@ -1,5 +1,4 @@
 {
-color = 3;
 glyphname = nnasinh;
 layers = (
 {
@@ -159,7 +158,7 @@ width = 1152;
 anchors = (
 {
 name = rakar;
-position = "{1150, 210}";
+position = "{1130, 0}";
 },
 {
 name = repaya;
@@ -167,7 +166,7 @@ position = "{428.507, 722}";
 },
 {
 name = uvowel;
-position = "{1143, 0}";
+position = "{1123, 0}";
 },
 {
 name = virama;
@@ -312,7 +311,7 @@ width = 1204;
 anchors = (
 {
 name = rakar;
-position = "{1146.894, 210}";
+position = "{1158, 0}";
 },
 {
 name = repaya;
@@ -320,7 +319,7 @@ position = "{434.913, 722}";
 },
 {
 name = uvowel;
-position = "{1114, 0}";
+position = "{1145, 0}";
 },
 {
 name = virama;

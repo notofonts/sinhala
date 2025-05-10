@@ -5,6 +5,10 @@ layers = (
 {
 anchors = (
 {
+name = rakar;
+position = "{762.254, 0}";
+},
+{
 name = repaya;
 position = "{410, 722}";
 },
@@ -86,6 +90,10 @@ width = 792;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{820, 0}";
+},
 {
 name = repaya;
 position = "{423, 722}";
@@ -169,6 +177,10 @@ width = 852;
 {
 anchors = (
 {
+name = rakar;
+position = "{864.272, 0}";
+},
+{
 name = repaya;
 position = "{423, 722}";
 },
@@ -250,6 +262,10 @@ width = 898;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{900.845, 0}";
+},
 {
 name = repaya;
 position = "{444, 722}";
@@ -335,6 +351,10 @@ width = 936;
 {
 anchors = (
 {
+name = rakar;
+position = "{572.653, 0}";
+},
+{
 name = repaya;
 position = "{305, 722}";
 },
@@ -416,6 +436,10 @@ width = 595;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{628.474, 0}";
+},
 {
 name = repaya;
 position = "{321, 722}";
@@ -499,6 +523,10 @@ width = 653;
 {
 anchors = (
 {
+name = rakar;
+position = "{720.869, 0}";
+},
+{
 name = repaya;
 position = "{348, 722}";
 },
@@ -512,86 +540,6 @@ position = "{616.255, 536}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
-paths = (
-{
-closed = 1;
-nodes = (
-"604 -271 OFFCURVE",
-"730 -152 OFFCURVE",
-"730 89 CURVE SMOOTH",
-"730 94 OFFCURVE",
-"729 105 OFFCURVE",
-"728 112 CURVE",
-"593 107 LINE",
-"593 103 OFFCURVE",
-"593 98 OFFCURVE",
-"593 92 CURVE SMOOTH",
-"593 -45 OFFCURVE",
-"526 -132 OFFCURVE",
-"392 -132 CURVE SMOOTH",
-"235 -132 OFFCURVE",
-"185 2 OFFCURVE",
-"185 178 CURVE SMOOTH",
-"185 373 OFFCURVE",
-"259 493 OFFCURVE",
-"433 493 CURVE SMOOTH",
-"540 493 OFFCURVE",
-"593 446 OFFCURVE",
-"593 351 CURVE SMOOTH",
-"593 293 OFFCURVE",
-"571 249 OFFCURVE",
-"520 249 CURVE SMOOTH",
-"487 249 OFFCURVE",
-"468 269 OFFCURVE",
-"468 294 CURVE SMOOTH",
-"468 306 OFFCURVE",
-"475 321 OFFCURVE",
-"480 336 CURVE",
-"437 303 LINE",
-"544 303 LINE",
-"544 419 LINE",
-"291 419 LINE",
-"291 303 LINE",
-"368 303 LINE",
-"399 307 LINE",
-"382 382 LINE",
-"362 359 OFFCURVE",
-"348 325 OFFCURVE",
-"348 277 CURVE SMOOTH",
-"348 184 OFFCURVE",
-"416 122 OFFCURVE",
-"523 122 CURVE SMOOTH",
-"676 122 OFFCURVE",
-"725 235 OFFCURVE",
-"725 359 CURVE SMOOTH",
-"725 506 OFFCURVE",
-"632 622 OFFCURVE",
-"428 622 CURVE SMOOTH",
-"159 622 OFFCURVE",
-"23 417 OFFCURVE",
-"23 173 CURVE SMOOTH",
-"23 -74 OFFCURVE",
-"122 -271 OFFCURVE",
-"398 -271 CURVE SMOOTH"
-);
-}
-);
-width = 749;
-},
-{
-anchors = (
-{
-name = top;
-position = "{284.876, 533}";
-},
-{
-name = virama;
-position = "{616.255, 536}";
-}
-);
-associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
-layerId = "12D437A7-DB4E-4599-A93D-102C764DCB98";
-name = "10 Mar 25, 15:57";
 paths = (
 {
 closed = 1;

@@ -1,8 +1,13 @@
 {
-color = 9;
 glyphname = ivowelsignsinh.alt2;
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{-228, 605}";
+}
+);
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -51,20 +56,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-438 876 OFFCURVE",
-"-508 795 OFFCURVE",
-"-508 698 CURVE SMOOTH",
-"-508 617 OFFCURVE",
+"-438 896 OFFCURVE",
+"-508 805 OFFCURVE",
+"-508 708 CURVE SMOOTH",
+"-508 627 OFFCURVE",
 "-447 547 OFFCURVE",
 "-310 540 CURVE",
 "-276 598 LINE",
 "-400 605 OFFCURVE",
-"-436 650 OFFCURVE",
-"-436 702 CURVE SMOOTH",
-"-436 752 OFFCURVE",
-"-398 806 OFFCURVE",
-"-269 806 CURVE SMOOTH",
-"-139 806 OFFCURVE",
+"-436 660 OFFCURVE",
+"-436 712 CURVE SMOOTH",
+"-436 762 OFFCURVE",
+"-398 826 OFFCURVE",
+"-272 826 CURVE SMOOTH",
+"-139 826 OFFCURVE",
 "-92 753 OFFCURVE",
 "-92 692 CURVE SMOOTH",
 "-92 636 OFFCURVE",
@@ -75,14 +80,20 @@ nodes = (
 "-20 635 OFFCURVE",
 "-20 695 CURVE SMOOTH",
 "-20 788 OFFCURVE",
-"-88 876 OFFCURVE",
-"-268 876 CURVE SMOOTH"
+"-88 896 OFFCURVE",
+"-271 896 CURVE SMOOTH"
 );
 }
 );
 width = 0;
 },
 {
+anchors = (
+{
+name = _top;
+position = "{-313, 599}";
+}
+);
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 paths = (
 {
@@ -120,6 +131,12 @@ nodes = (
 width = 0;
 },
 {
+anchors = (
+{
+name = _top;
+position = "{165, 584}";
+}
+);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -157,6 +174,12 @@ nodes = (
 width = 399;
 },
 {
+anchors = (
+{
+name = _top;
+position = "{194, 600}";
+}
+);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -194,6 +217,12 @@ nodes = (
 width = 434;
 },
 {
+anchors = (
+{
+name = _top;
+position = "{206, 613}";
+}
+);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {

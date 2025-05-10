@@ -1,9 +1,13 @@
 {
-color = 11;
+color = 0;
 glyphname = tavasinh;
 layers = (
 {
 anchors = (
+{
+name = rakar;
+position = "{1183.88, 0}";
+},
 {
 name = repaya;
 position = "{866.837, 800}";
@@ -176,12 +180,16 @@ width = 1272;
 {
 anchors = (
 {
+name = rakar;
+position = "{1236, 0}";
+},
+{
 name = repaya;
 position = "{905, 800}";
 },
 {
 name = uvowel;
-position = "{1217, 0}";
+position = "{1197, 0}";
 }
 );
 layerId = UUID0;
@@ -346,6 +354,10 @@ width = 1328;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{1291.843, 0}";
+},
 {
 name = repaya;
 position = "{945.889, 800}";
@@ -518,8 +530,16 @@ width = 1388;
 {
 anchors = (
 {
+name = rakar;
+position = "{863.711, 0}";
+},
+{
 name = repaya;
 position = "{632.41, 800}";
+},
+{
+name = uvowel;
+position = "{850.458, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -685,8 +705,16 @@ width = 928;
 {
 anchors = (
 {
+name = rakar;
+position = "{899.078, 0}";
+},
+{
 name = repaya;
 position = "{658.306, 800}";
+},
+{
+name = uvowel;
+position = "{885.283, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -852,8 +880,16 @@ width = 966;
 {
 anchors = (
 {
+name = rakar;
+position = "{976.328, 0}";
+},
+{
 name = repaya;
 position = "{714.868, 800}";
+},
+{
+name = uvowel;
+position = "{961.348, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

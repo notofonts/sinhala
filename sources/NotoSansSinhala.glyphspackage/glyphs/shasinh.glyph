@@ -1,5 +1,4 @@
 {
-color = 2;
 glyphname = shasinh;
 layers = (
 {
@@ -246,7 +245,7 @@ position = "{638, 0}";
 },
 {
 name = virama;
-position = "{771, 536}";
+position = "{761, 536}";
 }
 );
 layerId = UUID0;
@@ -354,7 +353,7 @@ width = 915;
 anchors = (
 {
 name = rakar;
-position = "{860, 0}";
+position = "{900, 0}";
 },
 {
 name = repaya;
