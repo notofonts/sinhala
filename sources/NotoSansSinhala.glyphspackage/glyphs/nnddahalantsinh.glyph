@@ -3,12 +3,6 @@ color = 5;
 glyphname = nnddahalantsinh;
 layers = (
 {
-anchors = (
-{
-name = entry;
-position = "{174, 0}";
-}
-);
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -153,12 +147,6 @@ nodes = (
 width = 927;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{46, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -303,12 +291,6 @@ nodes = (
 width = 1015;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{38, 0}";
-}
-);
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 paths = (
 {
@@ -453,12 +435,6 @@ nodes = (
 width = 1123;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{38, 0}";
-}
-);
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 layerId = "ED5ECF6E-067F-421B-87E1-096CBAD0BB47";
 name = "27 Dec 24, 14:24";
@@ -605,12 +581,6 @@ nodes = (
 width = 1129;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{38, 0}";
-}
-);
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 layerId = "AF25A97D-268B-4CBB-A1F6-D233C6B4C78C";
 name = "29 Dec 24, 12:51";
@@ -869,12 +839,6 @@ nodes = (
 width = 1123;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{48, 0}";
-}
-);
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 layerId = "8EF46745-9ACC-4128-B18B-80FE52645C61";
 name = "14 Apr 25, 01:16";
@@ -1020,12 +984,6 @@ nodes = (
 width = 907;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{46, 0}";
-}
-);
 associatedMasterId = UUID0;
 layerId = "02038F85-0ABD-438A-8544-3D55CDB07FCC";
 name = "14 Apr 25, 01:17";
@@ -1171,12 +1129,6 @@ nodes = (
 width = 995;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{38, 0}";
-}
-);
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 layerId = "6787D79B-C75E-478C-92FC-BFC2733287D6";
 name = "14 Apr 25, 01:18";

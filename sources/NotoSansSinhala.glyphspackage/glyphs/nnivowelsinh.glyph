@@ -131,10 +131,6 @@ width = 1222;
 {
 anchors = (
 {
-name = entry;
-position = "{47, 0}";
-},
-{
 name = uvowel;
 position = "{1181, 176}";
 },
@@ -317,10 +313,6 @@ width = 1222;
 {
 anchors = (
 {
-name = entry;
-position = "{51, 0}";
-},
-{
 name = uvowel;
 position = "{1146.388, 176}";
 },
@@ -496,10 +488,6 @@ width = 1204;
 },
 {
 anchors = (
-{
-name = entry;
-position = "{44, 0}";
-},
 {
 name = uvowel;
 position = "{1104.319, 176}";
@@ -677,10 +665,6 @@ width = 1152;
 {
 anchors = (
 {
-name = entry;
-position = "{51, 0}";
-},
-{
 name = uvowel;
 position = "{1146.388, 176}";
 },
@@ -857,10 +841,6 @@ width = 1204;
 {
 anchors = (
 {
-name = entry;
-position = "{51, 0}";
-},
-{
 name = uvowel;
 position = "{1146.388, 176}";
 },
@@ -1036,10 +1016,6 @@ width = 1204;
 },
 {
 anchors = (
-{
-name = entry;
-position = "{47, 0}";
-},
 {
 name = uvowel;
 position = "{1181, 176}";
@@ -1392,7 +1368,7 @@ nodes = (
 );
 }
 );
-width = 858;
+width = 862;
 },
 {
 components = (
@@ -1464,7 +1440,7 @@ nodes = (
 );
 }
 );
-width = 1086;
+width = 1094;
 }
 );
 leftMetricsKey = nnasinh;

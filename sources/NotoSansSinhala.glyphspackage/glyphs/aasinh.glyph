@@ -65,7 +65,7 @@ transform = "{1, 0, 0, 1, 526, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-width = 801;
+width = 804;
 },
 {
 components = (
@@ -78,7 +78,7 @@ transform = "{1, 0, 0, 1, 603, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
-width = 934;
+width = 931;
 }
 );
 leftKerningGroup = dasinh;

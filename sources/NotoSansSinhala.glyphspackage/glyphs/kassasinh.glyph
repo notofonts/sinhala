@@ -32,7 +32,7 @@ transform = "{1, 0, 0, 1, 680, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
-width = 1423;
+width = 1450;
 },
 {
 anchors = (
@@ -64,7 +64,7 @@ transform = "{1, 0, 0, 1, 700, 0}";
 }
 );
 layerId = UUID0;
-width = 1490;
+width = 1500;
 },
 {
 anchors = (

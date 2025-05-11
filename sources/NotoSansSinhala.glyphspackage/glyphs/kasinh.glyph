@@ -22,7 +22,7 @@ position = "{672, 1}";
 },
 {
 name = virama;
-position = "{796, 536}";
+position = "{783, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -140,7 +140,7 @@ nodes = (
 "877 498 OFFCURVE",
 "877 281 CURVE SMOOTH",
 "877 151 OFFCURVE",
-"812 32 OFFCURVE",
+"819 32 OFFCURVE",
 "674 20 CURVE SMOOTH",
 "669 20 OFFCURVE",
 "665 20 OFFCURVE",
@@ -171,7 +171,7 @@ position = "{745, 0}";
 },
 {
 name = virama;
-position = "{740, 536}";
+position = "{762, 0}";
 }
 );
 guideLines = (

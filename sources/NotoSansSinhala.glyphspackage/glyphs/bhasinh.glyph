@@ -5,10 +5,6 @@ layers = (
 {
 anchors = (
 {
-name = entry;
-position = "{104, 0}";
-},
-{
 name = rakar;
 position = "{863, 0}";
 },
@@ -26,7 +22,7 @@ position = "{884, 0}";
 },
 {
 name = virama;
-position = "{660, 595}";
+position = "{800, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -126,10 +122,6 @@ width = 947;
 },
 {
 anchors = (
-{
-name = entry;
-position = "{73, 0}";
-},
 {
 name = rakar;
 position = "{900, 0}";
@@ -253,10 +245,6 @@ width = 960;
 },
 {
 anchors = (
-{
-name = entry;
-position = "{49, 0}";
-},
 {
 name = rakar;
 position = "{938, 0}";
@@ -414,10 +402,6 @@ width = 1005;
 {
 anchors = (
 {
-name = entry;
-position = "{38, 0}";
-},
-{
 name = rakar;
 position = "{986.25, 210}";
 },
@@ -540,10 +524,6 @@ width = 1052;
 },
 {
 anchors = (
-{
-name = entry;
-position = "{31, 0}";
-},
 {
 name = rakar;
 position = "{890.625, 210}";
@@ -669,10 +649,6 @@ width = 950;
 {
 anchors = (
 {
-name = entry;
-position = "{34, 0}";
-},
-{
 name = rakar;
 position = "{843.75, 210}";
 },
@@ -796,10 +772,6 @@ width = 900;
 {
 anchors = (
 {
-name = entry;
-position = "{59, 0}";
-},
-{
 name = rakar;
 position = "{925.313, 210}";
 },
@@ -913,10 +885,6 @@ width = 987;
 },
 {
 anchors = (
-{
-name = entry;
-position = "{77, 0}";
-},
 {
 name = rakar;
 position = "{645.748, 120}";
@@ -1037,10 +1005,6 @@ width = 692;
 },
 {
 anchors = (
-{
-name = entry;
-position = "{235, 0}";
-},
 {
 name = rakar;
 position = "{639.216, 120}";
@@ -1165,10 +1129,6 @@ width = 685;
 {
 anchors = (
 {
-name = entry;
-position = "{59, 0}";
-},
-{
 name = rakar;
 position = "{681.208, 120}";
 },
@@ -1288,10 +1248,6 @@ width = 730;
 },
 {
 anchors = (
-{
-name = entry;
-position = "{264, 0}";
-},
 {
 name = rakar;
 position = "{676.542, 120}";
@@ -1416,10 +1372,6 @@ width = 725;
 {
 anchors = (
 {
-name = entry;
-position = "{69, 0}";
-},
-{
 name = rakar;
 position = "{781.056, 120}";
 },
@@ -1536,10 +1488,6 @@ width = 837;
 },
 {
 anchors = (
-{
-name = entry;
-position = "{318, 0}";
-},
 {
 name = rakar;
 position = "{777.324, 120}";

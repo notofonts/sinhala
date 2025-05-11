@@ -6,14 +6,6 @@ layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{21, -204}";
-},
-{
-name = center;
-position = "{98, 245}";
-},
-{
 name = top;
 position = "{176, 714}";
 },
@@ -51,14 +43,6 @@ width = 352;
 {
 anchors = (
 {
-name = bottom;
-position = "{-4, -170}";
-},
-{
-name = center;
-position = "{52, 262}";
-},
-{
 name = top;
 position = "{137, 714}";
 },
@@ -95,14 +79,6 @@ width = 273;
 },
 {
 anchors = (
-{
-name = bottom;
-position = "{15, -190}";
-},
-{
-name = center;
-position = "{83, 252}";
-},
 {
 name = top;
 position = "{166, 714}";
@@ -168,14 +144,6 @@ width = 331;
 {
 anchors = (
 {
-name = bottom;
-position = "{-19, -164}";
-},
-{
-name = center;
-position = "{17, 270}";
-},
-{
 name = top;
 position = "{119, 714}";
 },
@@ -212,14 +180,6 @@ width = 231;
 },
 {
 anchors = (
-{
-name = bottom;
-position = "{13, -164}";
-},
-{
-name = center;
-position = "{32, 269}";
-},
 {
 name = top;
 position = "{97, 714}";
@@ -258,14 +218,6 @@ width = 186;
 {
 anchors = (
 {
-name = bottom;
-position = "{16, -173}";
-},
-{
-name = center;
-position = "{52, 260}";
-},
-{
 name = top;
 position = "{112, 714}";
 },
@@ -302,14 +254,6 @@ width = 224;
 },
 {
 anchors = (
-{
-name = bottom;
-position = "{22, -204}";
-},
-{
-name = center;
-position = "{85, 245}";
-},
 {
 name = top;
 position = "{147, 714}";

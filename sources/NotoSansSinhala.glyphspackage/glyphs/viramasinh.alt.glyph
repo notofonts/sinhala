@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = _virama;
-position = "{-158, 529}";
+position = "{-132, 6}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -14,7 +14,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-132 627 LINE",
+"-132 607 LINE",
 "-132 859 LINE",
 "-142 904 LINE",
 "-148 934 OFFCURVE",
@@ -27,7 +27,7 @@ nodes = (
 "-159 893 OFFCURVE",
 "-158 876 OFFCURVE",
 "-158 840 CURVE SMOOTH",
-"-158 629 LINE"
+"-158 619 LINE"
 );
 },
 {

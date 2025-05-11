@@ -3,12 +3,6 @@ color = 5;
 glyphname = khahalantsinh;
 layers = (
 {
-anchors = (
-{
-name = entry;
-position = "{52, 0}";
-}
-);
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -130,12 +124,6 @@ nodes = (
 width = 821;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{51, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -257,12 +245,6 @@ nodes = (
 width = 873;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{35, 0}";
-}
-);
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 paths = (
 {
@@ -384,12 +366,6 @@ nodes = (
 width = 932;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{43, 0}";
-}
-);
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 layerId = "7783D0B6-413F-43D5-A1A7-946C5E1EB495";
 name = "18 Dec 24, 10:32";
@@ -513,12 +489,6 @@ nodes = (
 width = 952;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{35, 0}";
-}
-);
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 layerId = "5190BCCE-AEFB-42A0-89D0-5BB31517996F";
 name = "29 Dec 24, 12:36";
@@ -673,12 +643,6 @@ nodes = (
 width = 932;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{52, 0}";
-}
-);
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 layerId = "02DAE6D2-52CD-461F-B233-B3C7238BD271";
 name = "14 Apr 25, 01:41";
@@ -802,12 +766,6 @@ nodes = (
 width = 821;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{51, 0}";
-}
-);
 associatedMasterId = UUID0;
 layerId = "E7A16C04-264E-4699-83C0-2D46AF01E5C9";
 name = "14 Apr 25, 01:44";

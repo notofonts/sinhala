@@ -949,27 +949,6 @@ alignmentZones = (
 ascender = 1011;
 capHeight = 612;
 descender = -293;
-guideLines = (
-{
-name = i_sign;
-position = "{341, 553}";
-},
-{
-name = "i_sign-ASCE";
-position = "{-493, 896}";
-},
-{
-name = i_sign;
-position = "{-8, 583}";
-},
-{
-position = "{-686, -49}";
-},
-{
-name = "i_sign-ASCE";
-position = "{-493, 957}";
-}
-);
 id = UUID0;
 verticalStems = (
 73
@@ -986,21 +965,6 @@ alignmentZones = (
 ascender = 1011;
 capHeight = 612;
 descender = -293;
-guideLines = (
-{
-position = "{-6, 444}";
-},
-{
-position = "{-6, 444}";
-},
-{
-position = "{-679, 997}";
-},
-{
-name = "i_sign-ASCE";
-position = "{-517, 905}";
-}
-);
 id = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 verticalStems = (
 140

@@ -10,7 +10,7 @@ position = "{439, 680}";
 },
 {
 name = virama;
-position = "{609, 536}";
+position = "{602, 0}";
 }
 );
 background = {
@@ -222,7 +222,7 @@ nodes = (
 );
 }
 );
-width = 683;
+width = 693;
 },
 {
 anchors = (
@@ -444,7 +444,7 @@ nodes = (
 );
 }
 );
-width = 722;
+width = 732;
 },
 {
 anchors = (
@@ -559,7 +559,7 @@ nodes = (
 );
 }
 );
-width = 862;
+width = 828;
 },
 {
 anchors = (

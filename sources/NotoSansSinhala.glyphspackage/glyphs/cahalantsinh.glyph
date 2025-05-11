@@ -3,12 +3,6 @@ color = 5;
 glyphname = cahalantsinh;
 layers = (
 {
-anchors = (
-{
-name = entry;
-position = "{34, 0}";
-}
-);
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -112,12 +106,6 @@ nodes = (
 width = 780;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{47, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -221,12 +209,6 @@ nodes = (
 width = 828;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{54, 0}";
-}
-);
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 paths = (
 {
@@ -330,12 +312,6 @@ nodes = (
 width = 858;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{38, 0}";
-}
-);
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 layerId = "3B64295B-3155-4474-873E-EAD8828B2180";
 name = "27 Dec 24, 11:35";
@@ -442,12 +418,6 @@ nodes = (
 width = 903;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{31, 0}";
-}
-);
 associatedMasterId = UUID0;
 layerId = "8E9A0D37-1DDF-4F2C-B91C-8B29ED7828B7";
 name = "10 Apr 25, 21:33";
@@ -550,12 +520,6 @@ nodes = (
 width = 801;
 },
 {
-anchors = (
-{
-name = entry;
-position = "{34, 0}";
-}
-);
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 layerId = "3F9F0161-0F10-4C91-BCC6-19AF6A9F5A4F";
 name = "10 Apr 25, 21:37";

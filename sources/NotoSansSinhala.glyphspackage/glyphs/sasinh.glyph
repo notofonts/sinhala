@@ -1294,7 +1294,7 @@ position = "{796, 0}";
 },
 {
 name = virama;
-position = "{650, 595}";
+position = "{713, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";

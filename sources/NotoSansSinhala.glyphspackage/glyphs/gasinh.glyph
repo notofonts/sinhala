@@ -22,7 +22,7 @@ position = "{546, 0}";
 },
 {
 name = virama;
-position = "{672, 587}";
+position = "{735, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -1070,7 +1070,7 @@ nodes = (
 );
 }
 );
-width = 646;
+width = 650;
 },
 {
 anchors = (

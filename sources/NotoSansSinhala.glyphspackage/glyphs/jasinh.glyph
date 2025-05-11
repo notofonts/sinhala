@@ -22,7 +22,7 @@ position = "{738, 0}";
 },
 {
 name = virama;
-position = "{390, 430}";
+position = "{514, 0}";
 }
 );
 components = (
