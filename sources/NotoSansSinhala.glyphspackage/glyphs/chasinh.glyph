@@ -1613,7 +1613,7 @@ position = "{542.996, 128}";
 },
 {
 name = virama;
-position = "{71, 430}";
+position = "{333, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -2019,7 +2019,7 @@ position = "{238.347, 0}";
 },
 {
 name = rakar;
-position = "{589.247, 171.818}";
+position = "{404, 0}";
 },
 {
 name = repaya;
@@ -2027,11 +2027,11 @@ position = "{300.145, 711}";
 },
 {
 name = uvowel;
-position = "{577.85, 128}";
+position = "{436, 0}";
 },
 {
 name = virama;
-position = "{68, 430}";
+position = "{382, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";

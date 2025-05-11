@@ -995,7 +995,7 @@ position = "{425, -4}";
 },
 {
 name = virama;
-position = "{518, 567}";
+position = "{526, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -1175,7 +1175,7 @@ width = 646;
 anchors = (
 {
 name = rakar;
-position = "{595, 0}";
+position = "{624, 0}";
 },
 {
 name = repaya;
@@ -1191,7 +1191,7 @@ position = "{450, -3}";
 },
 {
 name = virama;
-position = "{539.936, 541.1}";
+position = "{602, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";

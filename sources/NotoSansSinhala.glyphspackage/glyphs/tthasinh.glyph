@@ -438,7 +438,7 @@ position = "{292.135, 0.75}";
 },
 {
 name = rakar;
-position = "{547.618, 87.5}";
+position = "{532, 0}";
 },
 {
 name = repaya;
@@ -446,7 +446,11 @@ position = "{214.074, 703.333}";
 },
 {
 name = uvowel;
-position = "{551.625, 44}";
+position = "{552, 0}";
+},
+{
+name = virama;
+position = "{510, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";

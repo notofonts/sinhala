@@ -1287,7 +1287,7 @@ width = 1204;
 anchors = (
 {
 name = rakar;
-position = "{809.866, 157.5}";
+position = "{775, 0}";
 },
 {
 name = repaya;
@@ -1295,11 +1295,11 @@ position = "{305.365, 722}";
 },
 {
 name = uvowel;
-position = "{814.183, 88}";
+position = "{800, 0}";
 },
 {
 name = virama;
-position = "{738.212, 528.125}";
+position = "{766, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -1383,14 +1383,14 @@ closed = 1;
 nodes = (
 "748 -11 OFFCURVE",
 "822 51 OFFCURVE",
-"822 278 CURVE SMOOTH",
-"822 472 OFFCURVE",
-"783 556 OFFCURVE",
-"713 556 CURVE SMOOTH",
-"668 556 OFFCURVE",
-"634 529 OFFCURVE",
-"621 460 CURVE",
-"610 510 OFFCURVE",
+"822 298 CURVE SMOOTH",
+"822 482 OFFCURVE",
+"793 595 OFFCURVE",
+"713 595 CURVE SMOOTH",
+"665 595 OFFCURVE",
+"625 538 OFFCURVE",
+"620 460 CURVE",
+"609 510 OFFCURVE",
 "583 529 OFFCURVE",
 "550 529 CURVE SMOOTH",
 "513 529 OFFCURVE",
@@ -1405,14 +1405,14 @@ nodes = (
 "609 374 CURVE SMOOTH",
 "609 350 LINE",
 "635 350 LINE",
-"635 375 LINE SMOOTH",
+"635 395 LINE SMOOTH",
 "635 437 OFFCURVE",
-"646 530 OFFCURVE",
-"713 530 CURVE SMOOTH",
-"773 530 OFFCURVE",
-"795 429 OFFCURVE",
-"795 276 CURVE SMOOTH",
-"795 85 OFFCURVE",
+"649 570 OFFCURVE",
+"713 570 CURVE SMOOTH",
+"781 570 OFFCURVE",
+"796 429 OFFCURVE",
+"796 292 CURVE SMOOTH",
+"796 85 OFFCURVE",
 "735 15 OFFCURVE",
 "652 15 CURVE SMOOTH",
 "609 15 OFFCURVE",
@@ -1603,7 +1603,7 @@ width = 858;
 anchors = (
 {
 name = rakar;
-position = "{866.5, 157.5}";
+position = "{824, 0}";
 },
 {
 name = repaya;
@@ -1615,7 +1615,7 @@ position = "{871.118, 88}";
 },
 {
 name = virama;
-position = "{789.835, 528.125}";
+position = "{802, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";

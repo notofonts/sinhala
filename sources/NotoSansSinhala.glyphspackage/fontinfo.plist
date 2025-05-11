@@ -950,6 +950,12 @@ alignmentZones = (
 ascender = 1011;
 capHeight = 612;
 descender = -293;
+guideLines = (
+{
+name = "i_sign-ASCE";
+position = "{-477, 920}";
+}
+);
 id = UUID0;
 verticalStems = (
 73
@@ -983,6 +989,16 @@ alignmentZones = (
 ascender = 1011;
 capHeight = 612;
 descender = -293;
+guideLines = (
+{
+name = "i_sign-ASCE";
+position = "{-477, 920}";
+},
+{
+name = "i_sign-ASCE";
+position = "{-477, 920}";
+}
+);
 id = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 verticalStems = (
 27

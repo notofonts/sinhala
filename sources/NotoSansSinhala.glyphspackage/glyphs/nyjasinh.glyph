@@ -621,7 +621,7 @@ position = "{620, 70}";
 },
 {
 name = virama;
-position = "{424, 0}";
+position = "{413, 0}";
 }
 );
 components = (
@@ -671,7 +671,7 @@ position = "{371, 0}";
 },
 {
 name = rakar;
-position = "{685, 84}";
+position = "{524, 0}";
 },
 {
 name = repaya;
@@ -679,11 +679,11 @@ position = "{390, 720}";
 },
 {
 name = uvowel;
-position = "{679, 70}";
+position = "{556, 0}";
 },
 {
 name = virama;
-position = "{443, 413}";
+position = "{482, 0}";
 }
 );
 components = (
