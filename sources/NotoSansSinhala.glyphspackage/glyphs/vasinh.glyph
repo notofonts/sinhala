@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = vasinh;
 layers = (
 {
@@ -225,9 +226,9 @@ nodes = (
 "245 504 OFFCURVE",
 "274 504 CURVE SMOOTH",
 "302 504 OFFCURVE",
-"324 478 OFFCURVE",
+"317 479 OFFCURVE",
 "317 435 CURVE SMOOTH",
-"314 417 LINE",
+"317 417 LINE",
 "336 444 LINE",
 "311 444 LINE SMOOTH",
 "136 444 OFFCURVE",
