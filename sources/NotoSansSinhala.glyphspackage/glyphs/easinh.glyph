@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = easinh;
 layers = (
 {
@@ -8,7 +9,7 @@ name = asinh;
 },
 {
 name = aevowelsignsinh;
-transform = "{1, 0, 0, 1, 710, 0}";
+transform = "{1, 0, 0, 1, 660, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
