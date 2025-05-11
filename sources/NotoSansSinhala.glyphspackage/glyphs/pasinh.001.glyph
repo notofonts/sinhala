@@ -1,5 +1,5 @@
 {
-glyphname = pasinh;
+glyphname = pasinh.001;
 layers = (
 {
 anchors = (
@@ -402,10 +402,6 @@ name = rakar;
 position = "{731.481, 210}";
 },
 {
-name = repaya;
-position = "{402.641, 667.333}";
-},
-{
 name = top;
 position = "{248.841, 533}";
 },
@@ -511,10 +507,6 @@ anchors = (
 {
 name = rakar;
 position = "{790.741, 210}";
-},
-{
-name = repaya;
-position = "{435.26, 667.333}";
 },
 {
 name = top;
@@ -624,10 +616,6 @@ name = rakar;
 position = "{687.963, 210}";
 },
 {
-name = repaya;
-position = "{378.687, 667.333}";
-},
-{
 name = top;
 position = "{234.036, 533}";
 },
@@ -735,10 +723,6 @@ name = rakar;
 position = "{731.481, 210}";
 },
 {
-name = repaya;
-position = "{402.641, 667.333}";
-},
-{
 name = top;
 position = "{248.841, 533}";
 },
@@ -838,10 +822,6 @@ anchors = (
 {
 name = rakar;
 position = "{790.741, 210}";
-},
-{
-name = repaya;
-position = "{435.26, 667.333}";
 },
 {
 name = top;
@@ -1024,10 +1004,6 @@ name = rakar;
 position = "{725.926, 210}";
 },
 {
-name = repaya;
-position = "{399.583, 667.333}";
-},
-{
 name = top;
 position = "{183, 606}";
 },
@@ -1128,10 +1104,6 @@ anchors = (
 {
 name = rakar;
 position = "{750, 210}";
-},
-{
-name = repaya;
-position = "{412.835, 667.333}";
 },
 {
 name = top;
@@ -1314,10 +1286,6 @@ name = rakar;
 position = "{801.852, 210}";
 },
 {
-name = repaya;
-position = "{441.376, 667.333}";
-},
-{
 name = top;
 position = "{275, 565}";
 },
@@ -1492,28 +1460,6 @@ nodes = (
 width = 866;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{465, 0}";
-},
-{
-name = repaya;
-position = "{286.436, 667.333}";
-},
-{
-name = top;
-position = "{65, 565}";
-},
-{
-name = uvowel;
-position = "{520.653, 128}";
-},
-{
-name = virama;
-position = "{453.551, 536}";
-}
-);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -1601,28 +1547,6 @@ nodes = (
 width = 562;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{492, 0}";
-},
-{
-name = repaya;
-position = "{282.358, 667.333}";
-},
-{
-name = top;
-position = "{65, 565}";
-},
-{
-name = uvowel;
-position = "{513.241, 128}";
-},
-{
-name = virama;
-position = "{447.095, 536}";
-}
-);
 associatedMasterId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 layerId = "B8747153-79C7-4B43-9098-ED753484FAE8";
 name = "9 Apr 25, 15:28";
@@ -1712,28 +1636,6 @@ nodes = (
 width = 554;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{488, 0}";
-},
-{
-name = repaya;
-position = "{318.036, 667.333}";
-},
-{
-name = top;
-position = "{105, 565}";
-},
-{
-name = uvowel;
-position = "{578.092, 128}";
-},
-{
-name = virama;
-position = "{503.587, 536}";
-}
-);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -1821,28 +1723,6 @@ nodes = (
 width = 624;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{541, 0}";
-},
-{
-name = repaya;
-position = "{301.726, 667.333}";
-},
-{
-name = top;
-position = "{102, 565}";
-},
-{
-name = uvowel;
-position = "{548.446, 128}";
-},
-{
-name = virama;
-position = "{477.762, 536}";
-}
-);
 associatedMasterId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 layerId = "309D6AC4-BA61-4835-9ECE-4346E4B51022";
 name = "9 Apr 25, 15:28";
@@ -1932,28 +1812,6 @@ nodes = (
 width = 592;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{520, 0}";
-},
-{
-name = repaya;
-position = "{350.655, 667.333}";
-},
-{
-name = top;
-position = "{165, 565}";
-},
-{
-name = uvowel;
-position = "{637.383, 128}";
-},
-{
-name = virama;
-position = "{555.237, 536}";
-}
-);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {
@@ -2041,28 +1899,6 @@ nodes = (
 width = 688;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{630, 0}";
-},
-{
-name = repaya;
-position = "{336.384, 667.333}";
-},
-{
-name = top;
-position = "{158, 565}";
-},
-{
-name = uvowel;
-position = "{611.443, 128}";
-},
-{
-name = virama;
-position = "{532.64, 536}";
-}
-);
 associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 layerId = "DA0FCCBC-36C4-41FD-890F-861470A50176";
 name = "9 Apr 25, 15:27";
@@ -2153,5 +1989,4 @@ width = 660;
 }
 );
 rightKerningGroup = pasinh;
-unicode = 0DB4;
 }

@@ -153,12 +153,6 @@ nodes = (
 width = 0;
 },
 {
-anchors = (
-{
-name = _below;
-position = "{464, 1}";
-}
-);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -203,12 +197,6 @@ nodes = (
 width = 707;
 },
 {
-anchors = (
-{
-name = _below;
-position = "{504, 9}";
-}
-);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -253,12 +241,6 @@ nodes = (
 width = 747;
 },
 {
-anchors = (
-{
-name = _below;
-position = "{-94, 9}";
-}
-);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {

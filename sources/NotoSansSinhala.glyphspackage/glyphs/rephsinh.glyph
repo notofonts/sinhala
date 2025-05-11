@@ -213,12 +213,6 @@ nodes = (
 width = 0;
 },
 {
-anchors = (
-{
-name = _repaya;
-position = "{-244, 720}";
-}
-);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -283,12 +277,6 @@ nodes = (
 width = 0;
 },
 {
-anchors = (
-{
-name = _repaya;
-position = "{-244, 720}";
-}
-);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -353,12 +341,6 @@ nodes = (
 width = 0;
 },
 {
-anchors = (
-{
-name = _repaya;
-position = "{-244, 720}";
-}
-);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {

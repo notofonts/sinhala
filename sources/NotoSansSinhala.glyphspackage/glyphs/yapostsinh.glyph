@@ -500,24 +500,6 @@ nodes = (
 width = 730;
 },
 {
-anchors = (
-{
-name = repaya;
-position = "{217.728, 730}";
-},
-{
-name = top;
-position = "{90.547, 533}";
-},
-{
-name = uvowel;
-position = "{405.043, 176}";
-},
-{
-name = virama;
-position = "{331.776, 566}";
-}
-);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -623,24 +605,6 @@ nodes = (
 width = 432;
 },
 {
-anchors = (
-{
-name = repaya;
-position = "{247.968, 730}";
-},
-{
-name = top;
-position = "{103.123, 533}";
-},
-{
-name = uvowel;
-position = "{461.299, 176}";
-},
-{
-name = virama;
-position = "{377.856, 566}";
-}
-);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -746,24 +710,6 @@ nodes = (
 width = 492;
 },
 {
-anchors = (
-{
-name = repaya;
-position = "{317.016, 730}";
-},
-{
-name = top;
-position = "{131.838, 533}";
-},
-{
-name = uvowel;
-position = "{589.75, 176}";
-},
-{
-name = virama;
-position = "{483.072, 566}";
-}
-);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {
