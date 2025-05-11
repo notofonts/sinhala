@@ -140,7 +140,7 @@ position = "{632, 0}";
 },
 {
 name = virama;
-position = "{799, 536}";
+position = "{842, 0}";
 }
 );
 guideLines = (
@@ -263,7 +263,7 @@ position = "{925, 0}";
 },
 {
 name = virama;
-position = "{905, 536}";
+position = "{852, 0}";
 }
 );
 background = {

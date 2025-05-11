@@ -14,7 +14,7 @@ position = "{787, 603}";
 },
 {
 name = virama;
-position = "{1180, 595}";
+position = "{1234, 0}";
 }
 );
 components = (
@@ -63,7 +63,7 @@ position = "{842, 573}";
 },
 {
 name = virama;
-position = "{1234, 546}";
+position = "{1234, 0}";
 }
 );
 components = (
@@ -112,7 +112,7 @@ position = "{872, 573}";
 },
 {
 name = virama;
-position = "{1266, 536}";
+position = "{1334, 0}";
 }
 );
 components = (
@@ -1293,7 +1293,7 @@ position = "{69, 533}";
 },
 {
 name = virama;
-position = "{828, 545}";
+position = "{834, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";

@@ -22,7 +22,7 @@ position = "{738, 0}";
 },
 {
 name = virama;
-position = "{514, 0}";
+position = "{434, 0}";
 }
 );
 components = (
@@ -68,7 +68,7 @@ position = "{728, 0}";
 },
 {
 name = virama;
-position = "{411, 430}";
+position = "{429, 0}";
 }
 );
 background = {
@@ -193,7 +193,7 @@ position = "{805, 0}";
 },
 {
 name = virama;
-position = "{508, 396}";
+position = "{462, 0}";
 }
 );
 components = (

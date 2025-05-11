@@ -1,11 +1,12 @@
 {
+color = 0;
 glyphname = viramasinh.alt2;
 layers = (
 {
 anchors = (
 {
 name = _virama;
-position = "{-124, -292}";
+position = "{-172, 2}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -26,7 +27,7 @@ nodes = (
 "-159 893 OFFCURVE",
 "-158 876 OFFCURVE",
 "-158 840 CURVE SMOOTH",
-"-158 539 LINE"
+"-158 499 LINE"
 );
 },
 {
@@ -68,7 +69,7 @@ width = 0;
 anchors = (
 {
 name = _virama;
-position = "{-208, 430}";
+position = "{-212, 2}";
 }
 );
 layerId = UUID0;
@@ -131,7 +132,7 @@ width = 0;
 anchors = (
 {
 name = _virama;
-position = "{-272, 397}";
+position = "{-262, 2}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";

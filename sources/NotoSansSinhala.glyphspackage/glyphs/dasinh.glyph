@@ -108,7 +108,7 @@ position = "{280, 583}";
 },
 {
 name = virama;
-position = "{478.73, 536}";
+position = "{512, 0}";
 }
 );
 background = {
@@ -232,7 +232,7 @@ position = "{308.146, 583}";
 },
 {
 name = virama;
-position = "{526, 536}";
+position = "{552, 0}";
 }
 );
 background = {

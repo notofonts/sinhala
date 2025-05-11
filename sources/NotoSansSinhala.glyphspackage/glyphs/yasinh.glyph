@@ -126,7 +126,7 @@ position = "{797, 0}";
 },
 {
 name = virama;
-position = "{701, 536}";
+position = "{692, 0}";
 }
 );
 guideLines = (
@@ -235,7 +235,7 @@ position = "{815, 0}";
 },
 {
 name = virama;
-position = "{721, 536}";
+position = "{682, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";

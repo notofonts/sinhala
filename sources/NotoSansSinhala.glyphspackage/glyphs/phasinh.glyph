@@ -138,6 +138,10 @@ position = "{441, 636}";
 {
 name = uvowel;
 position = "{704, 0}";
+},
+{
+name = virama;
+position = "{542, 0}";
 }
 );
 layerId = UUID0;
@@ -476,6 +480,10 @@ position = "{307, 636}";
 {
 name = uvowel;
 position = "{512, 44}";
+},
+{
+name = virama;
+position = "{470, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";

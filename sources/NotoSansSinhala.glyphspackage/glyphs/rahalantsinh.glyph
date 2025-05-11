@@ -7,6 +7,10 @@ components = (
 {
 name = rasinh;
 transform = "{1, 0, 0, 1, -24, 0}";
+},
+{
+name = viramasinh;
+transform = "{1, 0, 0, 1, 280, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -16,6 +20,10 @@ width = 669;
 components = (
 {
 name = rasinh;
+},
+{
+name = viramasinh;
+transform = "{1, 0, 0, 1, 400, 0}";
 }
 );
 layerId = UUID0;
@@ -25,6 +33,10 @@ width = 871;
 components = (
 {
 name = rasinh;
+},
+{
+name = viramasinh;
+transform = "{1, 0, 0, 1, 410, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -385,6 +397,10 @@ width = 813;
 components = (
 {
 name = rasinh;
+},
+{
+name = viramasinh;
+transform = "{1, 0, 0, 1, 280, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -515,6 +531,10 @@ width = 609;
 components = (
 {
 name = rasinh;
+},
+{
+name = viramasinh;
+transform = "{1, 0, 0, 1, 280, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -645,6 +665,10 @@ width = 653;
 components = (
 {
 name = rasinh;
+},
+{
+name = viramasinh;
+transform = "{1, 0, 0, 1, 330, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

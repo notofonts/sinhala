@@ -22,7 +22,7 @@ position = "{742, 0}";
 },
 {
 name = virama;
-position = "{608, 595}";
+position = "{660, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -109,7 +109,7 @@ position = "{767, 0}";
 },
 {
 name = virama;
-position = "{709, 536}";
+position = "{752, 0}";
 }
 );
 layerId = UUID0;
@@ -196,7 +196,7 @@ position = "{815, 0}";
 },
 {
 name = virama;
-position = "{754, 536}";
+position = "{852, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";

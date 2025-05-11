@@ -66,7 +66,7 @@ width = 0;
 anchors = (
 {
 name = _virama;
-position = "{-141, 524}";
+position = "{-128, 0}";
 }
 );
 layerId = UUID0;
@@ -74,7 +74,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-140 524 LINE",
+"-140 544 LINE",
 "-140 803 LINE",
 "-163 854 LINE",
 "-163 895 OFFCURVE",
@@ -84,7 +84,7 @@ nodes = (
 "-210 862 OFFCURVE",
 "-208 833 OFFCURVE",
 "-208 806 CURVE SMOOTH",
-"-208 534 LINE"
+"-208 554 LINE"
 );
 },
 {
@@ -126,7 +126,7 @@ width = 0;
 anchors = (
 {
 name = _virama;
-position = "{-151, 517}";
+position = "{-129, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -313,6 +313,12 @@ nodes = (
 width = 0;
 },
 {
+anchors = (
+{
+name = _virama;
+position = "{-89, 0}";
+}
+);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -367,6 +373,12 @@ nodes = (
 width = 0;
 },
 {
+anchors = (
+{
+name = _virama;
+position = "{-109, 0}";
+}
+);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -421,6 +433,12 @@ nodes = (
 width = 0;
 },
 {
+anchors = (
+{
+name = _virama;
+position = "{-109, 0}";
+}
+);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {

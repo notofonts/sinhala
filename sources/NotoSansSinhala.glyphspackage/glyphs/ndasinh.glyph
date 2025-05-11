@@ -232,7 +232,7 @@ position = "{459, 680}";
 },
 {
 name = virama;
-position = "{624, 536}";
+position = "{652, 0}";
 }
 );
 background = {
@@ -454,7 +454,7 @@ position = "{579, 690}";
 },
 {
 name = virama;
-position = "{728, 536}";
+position = "{722, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";

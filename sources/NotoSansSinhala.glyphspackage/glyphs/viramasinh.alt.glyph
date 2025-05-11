@@ -27,7 +27,7 @@ nodes = (
 "-159 893 OFFCURVE",
 "-158 876 OFFCURVE",
 "-158 840 CURVE SMOOTH",
-"-158 619 LINE"
+"-158 617 LINE"
 );
 },
 {
@@ -68,8 +68,8 @@ width = 0;
 {
 anchors = (
 {
-name = _virama;
-position = "{-208, 524}";
+name = _virama_;
+position = "{-112, 0}";
 }
 );
 layerId = UUID0;
@@ -77,7 +77,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-140 604 LINE",
+"-140 644 LINE",
 "-140 803 LINE",
 "-163 864 LINE",
 "-172 893 OFFCURVE",
@@ -90,7 +90,7 @@ nodes = (
 "-211 816 OFFCURVE",
 "-208 797 OFFCURVE",
 "-208 766 CURVE SMOOTH",
-"-208 604 LINE"
+"-208 674 LINE"
 );
 },
 {
