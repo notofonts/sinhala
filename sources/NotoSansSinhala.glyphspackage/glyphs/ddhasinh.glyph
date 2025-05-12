@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = iVowel;
-position = "{416, 0}";
+position = "{426, 0}";
 },
 {
 name = rakar;
@@ -15,10 +15,6 @@ position = "{731, 0}";
 {
 name = repaya;
 position = "{285.976, 730}";
-},
-{
-name = top;
-position = "{410, 676}";
 },
 {
 name = uvowel;
@@ -154,10 +150,6 @@ name = repaya;
 position = "{302.002, 730}";
 },
 {
-name = top;
-position = "{411, 676}";
-},
-{
 name = uvowel;
 position = "{782, 0}";
 },
@@ -291,12 +283,12 @@ name = repaya;
 position = "{328, 730}";
 },
 {
-name = top;
-position = "{410, 676}";
-},
-{
 name = uvowel;
 position = "{835, 0}";
+},
+{
+name = virama;
+position = "{747.442, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -424,12 +416,12 @@ name = repaya;
 position = "{336.903, 730}";
 },
 {
-name = top;
-position = "{540, 676}";
-},
-{
 name = uvowel;
 position = "{880, 176}";
+},
+{
+name = virama;
+position = "{767.731, 0}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -558,12 +550,12 @@ name = repaya;
 position = "{302.002, 730}";
 },
 {
-name = top;
-position = "{437, 676}";
-},
-{
 name = uvowel;
 position = "{790, 176}";
+},
+{
+name = virama;
+position = "{688.198, 0}";
 }
 );
 associatedMasterId = UUID0;
@@ -688,12 +680,12 @@ name = repaya;
 position = "{281.346, 730}";
 },
 {
-name = top;
-position = "{386, 676}";
-},
-{
 name = uvowel;
 position = "{736, 176}";
+},
+{
+name = virama;
+position = "{641.128, 0}";
 }
 );
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -889,7 +881,7 @@ width = 790;
 anchors = (
 {
 name = iVowel;
-position = "{293.433, 0}";
+position = "{304, 0}";
 },
 {
 name = rakar;
@@ -898,10 +890,6 @@ position = "{532, 0}";
 {
 name = repaya;
 position = "{216.174, 730}";
-},
-{
-name = top;
-position = "{460, 676}";
 },
 {
 name = uvowel;
@@ -1037,12 +1025,12 @@ name = repaya;
 position = "{215.461, 730}";
 },
 {
-name = top;
-position = "{304, 676}";
-},
-{
 name = uvowel;
 position = "{559.378, 88}";
+},
+{
+name = virama;
+position = "{490.99, 0}";
 }
 );
 associatedMasterId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -1160,7 +1148,7 @@ width = 605;
 anchors = (
 {
 name = iVowel;
-position = "{313.253, 0}";
+position = "{330, 0}";
 },
 {
 name = rakar;
@@ -1171,12 +1159,12 @@ name = repaya;
 position = "{230.775, 730}";
 },
 {
-name = top;
-position = "{479, 676}";
-},
-{
 name = uvowel;
 position = "{599.136, 88}";
+},
+{
+name = virama;
+position = "{525.887, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -1304,12 +1292,12 @@ name = repaya;
 position = "{230.419, 730}";
 },
 {
-name = top;
-position = "{348, 676}";
-},
-{
 name = uvowel;
 position = "{598.211, 88}";
+},
+{
+name = virama;
+position = "{525.076, 0}";
 }
 );
 associatedMasterId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -1427,7 +1415,7 @@ width = 647;
 anchors = (
 {
 name = iVowel;
-position = "{358.694, 0}";
+position = "{380, 0}";
 },
 {
 name = rakar;
@@ -1438,12 +1426,12 @@ name = repaya;
 position = "{264.252, 730}";
 },
 {
-name = top;
-position = "{507, 676}";
-},
-{
 name = uvowel;
 position = "{686.048, 88}";
+},
+{
+name = virama;
+position = "{602.173, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -1571,12 +1559,12 @@ name = repaya;
 position = "{261.047, 730}";
 },
 {
-name = top;
-position = "{432, 676}";
-},
-{
 name = uvowel;
 position = "{677.726, 88}";
+},
+{
+name = virama;
+position = "{594.869, 0}";
 }
 );
 associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -1705,12 +1693,12 @@ name = repaya;
 position = "{261.047, 730}";
 },
 {
-name = top;
-position = "{302, 676}";
-},
-{
 name = uvowel;
 position = "{677.726, 88}";
+},
+{
+name = virama;
+position = "{594.869, 0}";
 }
 );
 associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

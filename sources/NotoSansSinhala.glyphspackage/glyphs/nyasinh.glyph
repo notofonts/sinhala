@@ -5,12 +5,12 @@ layers = (
 {
 anchors = (
 {
-name = repaya;
-position = "{810, 722}";
+name = iVowel;
+position = "{741, 0}";
 },
 {
-name = top;
-position = "{787, 603}";
+name = repaya;
+position = "{810, 722}";
 },
 {
 name = virama;
@@ -54,12 +54,12 @@ width = 1350;
 {
 anchors = (
 {
-name = repaya;
-position = "{855, 730}";
+name = iVowel;
+position = "{839, 0}";
 },
 {
-name = top;
-position = "{842, 573}";
+name = repaya;
+position = "{855, 730}";
 },
 {
 name = virama;
@@ -107,10 +107,6 @@ name = repaya;
 position = "{885, 730}";
 },
 {
-name = top;
-position = "{872, 573}";
-},
-{
 name = virama;
 position = "{1334, 0}";
 }
@@ -154,10 +150,6 @@ anchors = (
 {
 name = repaya;
 position = "{880.747, 730}";
-},
-{
-name = top;
-position = "{866, 533}";
 },
 {
 name = virama;
@@ -381,10 +373,6 @@ name = repaya;
 position = "{880.747, 730}";
 },
 {
-name = top;
-position = "{866, 533}";
-},
-{
 name = virama;
 position = "{1303, 536}";
 }
@@ -601,10 +589,6 @@ anchors = (
 {
 name = repaya;
 position = "{880.747, 730}";
-},
-{
-name = top;
-position = "{866, 533}";
 },
 {
 name = virama;
@@ -841,21 +825,11 @@ name = repaya;
 position = "{959, 730}";
 },
 {
-name = top;
-position = "{944, 533}";
-},
-{
 name = virama;
 position = "{1381, 536}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
-components = (
-{
-name = "sanyaka-sinh";
-transform = "{1, 0, 0, 1, 30, 0}";
-}
-);
 layerId = "2B334369-4D2A-450E-8F3D-3B7AD67A29EA";
 name = "28 Dec 24, 16:52";
 paths = (
@@ -1048,10 +1022,6 @@ anchors = (
 {
 name = repaya;
 position = "{865, 730}";
-},
-{
-name = top;
-position = "{850, 533}";
 },
 {
 name = virama;
@@ -1284,12 +1254,12 @@ width = 1373;
 {
 anchors = (
 {
-name = repaya;
-position = "{568, 729}";
+name = iVowel;
+position = "{494, 0}";
 },
 {
-name = top;
-position = "{69, 533}";
+name = repaya;
+position = "{568, 729}";
 },
 {
 name = virama;
@@ -1511,10 +1481,6 @@ name = repaya;
 position = "{604, 729}";
 },
 {
-name = top;
-position = "{104, 533}";
-},
-{
 name = virama;
 position = "{882, 545}";
 }
@@ -1732,10 +1698,6 @@ anchors = (
 {
 name = repaya;
 position = "{704, 729}";
-},
-{
-name = top;
-position = "{703, 533}";
 },
 {
 name = virama;

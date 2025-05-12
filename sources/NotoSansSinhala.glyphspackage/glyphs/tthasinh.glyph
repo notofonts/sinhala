@@ -10,7 +10,7 @@ position = "{403, 3}";
 },
 {
 name = rakar;
-position = "{714.145, 140}";
+position = "{712.434, 73.5}";
 },
 {
 name = repaya;
@@ -129,6 +129,10 @@ position = "{328, 700}";
 {
 name = uvowel;
 position = "{773, 0}";
+},
+{
+name = virama;
+position = "{713.981, 0}";
 }
 );
 layerId = UUID0;
@@ -235,6 +239,10 @@ position = "{268, 700}";
 {
 name = uvowel;
 position = "{828, 0}";
+},
+{
+name = virama;
+position = "{754.348, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -341,6 +349,10 @@ position = "{325.01, 703.333}";
 {
 name = uvowel;
 position = "{840, 176}";
+},
+{
+name = virama;
+position = "{771.167, 0}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -434,7 +446,7 @@ width = 917;
 anchors = (
 {
 name = iVowel;
-position = "{292.135, 0.75}";
+position = "{304, 0}";
 },
 {
 name = rakar;
@@ -557,6 +569,10 @@ position = "{210.884, 703.333}";
 {
 name = uvowel;
 position = "{543.405, 44}";
+},
+{
+name = virama;
+position = "{500.375, 0}";
 }
 );
 associatedMasterId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -663,6 +679,10 @@ position = "{210.884, 703.333}";
 {
 name = uvowel;
 position = "{543.405, 44}";
+},
+{
+name = virama;
+position = "{500.375, 0}";
 }
 );
 associatedMasterId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -754,7 +774,7 @@ width = 595;
 anchors = (
 {
 name = iVowel;
-position = "{310.998, 0.75}";
+position = "{330, 0}";
 },
 {
 name = rakar;
@@ -767,6 +787,10 @@ position = "{227.897, 703.333}";
 {
 name = uvowel;
 position = "{587.243, 44}";
+},
+{
+name = virama;
+position = "{540.742, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -873,6 +897,10 @@ position = "{225.416, 703.333}";
 {
 name = uvowel;
 position = "{580.85, 44}";
+},
+{
+name = virama;
+position = "{534.855, 0}";
 }
 );
 associatedMasterId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -966,7 +994,7 @@ width = 636;
 anchors = (
 {
 name = iVowel;
-position = "{350.658, 0.75}";
+position = "{370, 0}";
 },
 {
 name = rakar;
@@ -979,6 +1007,10 @@ position = "{256.96, 703.333}";
 {
 name = uvowel;
 position = "{662.132, 44}";
+},
+{
+name = virama;
+position = "{609.701, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -1085,6 +1117,10 @@ position = "{249.517, 703.333}";
 {
 name = uvowel;
 position = "{642.953, 44}";
+},
+{
+name = virama;
+position = "{592.041, 0}";
 }
 );
 associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

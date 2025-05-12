@@ -7,9 +7,6 @@ components = (
 {
 name = duvowelsinh;
 transform = "{1, 0, 0, 1, 170, 0}";
-},
-{
-name = "sanyaka-sinh";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -20,9 +17,6 @@ components = (
 {
 name = duvowelsinh;
 transform = "{1, 0, 0, 1, 170, 0}";
-},
-{
-name = "sanyaka-sinh";
 }
 );
 layerId = UUID0;
@@ -33,10 +27,6 @@ components = (
 {
 name = duvowelsinh;
 transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-name = "sanyaka-sinh";
-transform = "{1, 0, 0, 1, 10, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";

@@ -5,16 +5,16 @@ layers = (
 {
 anchors = (
 {
+name = iVowel;
+position = "{261, 0}";
+},
+{
 name = rakar;
 position = "{765, 0}";
 },
 {
 name = repaya;
 position = "{410, 722}";
-},
-{
-name = top;
-position = "{254, 519}";
 },
 {
 name = uvowel;
@@ -109,16 +109,16 @@ width = 841;
 {
 anchors = (
 {
+name = iVowel;
+position = "{267.828, 0}";
+},
+{
 name = rakar;
 position = "{800, 0}";
 },
 {
 name = repaya;
 position = "{395, 730}";
-},
-{
-name = top;
-position = "{212.415, 603}";
 },
 {
 name = uvowel;
@@ -218,16 +218,16 @@ width = 863;
 {
 anchors = (
 {
+name = iVowel;
+position = "{273.724, 0}";
+},
+{
 name = rakar;
 position = "{828, 0}";
 },
 {
 name = repaya;
 position = "{390, 730}";
-},
-{
-name = top;
-position = "{217.092, 603}";
 },
 {
 name = uvowel;
@@ -322,16 +322,16 @@ width = 882;
 {
 anchors = (
 {
+name = iVowel;
+position = "{277.138, 0}";
+},
+{
 name = rakar;
 position = "{848.505, 210}";
 },
 {
 name = repaya;
 position = "{511, 730}";
-},
-{
-name = top;
-position = "{219.799, 603}";
 },
 {
 name = uvowel;
@@ -429,16 +429,16 @@ width = 893;
 {
 anchors = (
 {
+name = iVowel;
+position = "{252, 0}";
+},
+{
 name = rakar;
 position = "{771.541, 210}";
 },
 {
 name = repaya;
 position = "{438, 730}";
-},
-{
-name = top;
-position = "{199.862, 603}";
 },
 {
 name = uvowel;
@@ -536,16 +536,16 @@ width = 812;
 {
 anchors = (
 {
+name = iVowel;
+position = "{233.69, 0}";
+},
+{
 name = rakar;
 position = "{715.481, 210}";
 },
 {
 name = repaya;
 position = "{384, 730}";
-},
-{
-name = top;
-position = "{185.34, 603}";
 },
 {
 name = uvowel;
@@ -643,16 +643,16 @@ width = 753;
 {
 anchors = (
 {
+name = iVowel;
+position = "{247.345, 0}";
+},
+{
 name = rakar;
 position = "{757.289, 210}";
 },
 {
 name = repaya;
 position = "{387, 730}";
-},
-{
-name = top;
-position = "{196.17, 603}";
 },
 {
 name = uvowel;
@@ -748,16 +748,16 @@ width = 797;
 {
 anchors = (
 {
+name = iVowel;
+position = "{267.828, 0}";
+},
+{
 name = rakar;
 position = "{820, 210}";
 },
 {
 name = repaya;
 position = "{395, 730}";
-},
-{
-name = top;
-position = "{212.415, 603}";
 },
 {
 name = uvowel;
@@ -938,16 +938,16 @@ width = 863;
 {
 anchors = (
 {
+name = iVowel;
+position = "{275.276, 0}";
+},
+{
 name = rakar;
 position = "{842.804, 210}";
 },
 {
 name = repaya;
 position = "{375, 730}";
-},
-{
-name = top;
-position = "{218.322, 603}";
 },
 {
 name = uvowel;
@@ -1122,16 +1122,16 @@ width = 887;
 {
 anchors = (
 {
+name = iVowel;
+position = "{177.517, 0}";
+},
+{
 name = rakar;
 position = "{538.725, 140}";
 },
 {
 name = repaya;
 position = "{302, 730}";
-},
-{
-name = top;
-position = "{144.341, 593.667}";
 },
 {
 name = uvowel;
@@ -1228,16 +1228,16 @@ width = 572;
 {
 anchors = (
 {
+name = iVowel;
+position = "{175.655, 0}";
+},
+{
 name = rakar;
 position = "{533.074, 140}";
 },
 {
 name = repaya;
 position = "{295, 730}";
-},
-{
-name = top;
-position = "{142.827, 593.667}";
 },
 {
 name = uvowel;
@@ -1335,16 +1335,16 @@ width = 566;
 {
 anchors = (
 {
+name = iVowel;
+position = "{191.483, 0}";
+},
+{
 name = rakar;
 position = "{544, 0}";
 },
 {
 name = repaya;
 position = "{344, 730}";
-},
-{
-name = top;
-position = "{155.697, 593.667}";
 },
 {
 name = uvowel;
@@ -1441,16 +1441,16 @@ width = 617;
 {
 anchors = (
 {
+name = iVowel;
+position = "{189.621, 0}";
+},
+{
 name = rakar;
 position = "{575.457, 140}";
 },
 {
 name = repaya;
 position = "{337, 730}";
-},
-{
-name = top;
-position = "{154.183, 593.667}";
 },
 {
 name = uvowel;
@@ -1548,6 +1548,10 @@ width = 611;
 {
 anchors = (
 {
+name = iVowel;
+position = "{215.379, 0}";
+},
+{
 name = rakar;
 position = "{653.628, 140}";
 },
@@ -1556,16 +1560,12 @@ name = repaya;
 position = "{413, 730}";
 },
 {
-name = top;
-position = "{175.127, 593.667}";
-},
-{
 name = uvowel;
 position = "{523, 0}";
 },
 {
 name = virama;
-position = "{569.038, 542.556}";
+position = "{542, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -1654,16 +1654,16 @@ width = 694;
 {
 anchors = (
 {
+name = iVowel;
+position = "{211.655, 0}";
+},
+{
 name = rakar;
 position = "{642.326, 140}";
 },
 {
 name = repaya;
 position = "{403, 730}";
-},
-{
-name = top;
-position = "{172.099, 593.667}";
 },
 {
 name = uvowel;

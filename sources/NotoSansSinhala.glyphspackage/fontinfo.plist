@@ -14,7 +14,7 @@ code = "gasinh nngasinh pasinh ssasinh bhasinh sasinh hasinh fasinh hasinh ghasi
 name = iVowelAlt;
 },
 {
-code = "dasinh ndasinh darasinh ndarasinh\012";
+code = "dasinh ndasinh darasinh ndarasinh nyasinh\012";
 name = iVowelAlt2;
 },
 {
@@ -164,7 +164,17 @@ aavowelsignsinh,
 aevowelsignsinh,
 aaevowelsignsinh,
 ivowelsignsinh,
+ivowelsignsinh.alt,
+ivowelsignsinh.alt2,
+ivowelsignsinh.alt3,
+ivowelsignsinh.alt4,
+ivowelsignsinh.alt5,
 iivowelsignsinh,
+iivowelsignsinh.alt,
+iivowelsignsinh.alt2,
+iivowelsignsinh.alt3,
+iivowelsignsinh.alt4,
+iivowelsignsinh.alt5,
 uvowelsignsinh,
 uuvowelsignsinh,
 uvowelsignsinh.alt,
@@ -220,16 +230,6 @@ yapostsinh,
 rakarsinh,
 rakarsinh.medium,
 rakarsinh.long,
-ivowelsignsinh.alt,
-iivowelsignsinh.alt,
-ivowelsignsinh.alt2,
-iivowelsignsinh.alt2,
-ivowelsignsinh.alt3,
-iivowelsignsinh.alt3,
-ivowelsignsinh.alt4,
-iivowelsignsinh.alt4,
-iivowelsignsinh.alt5,
-ivowelsignsinh.alt5,
 uvowelsignsinh.alt,
 uuvowelsignsinh.alt,
 uuvowelsignsinh.long,
@@ -930,7 +930,11 @@ position = "{341, 543}";
 },
 {
 name = "i_sign-ASCE";
-position = "{-477, 920}";
+position = "{-485, 862}";
+},
+{
+name = "i_sign-ASCE";
+position = "{-477, 957}";
 }
 );
 id = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -953,7 +957,11 @@ descender = -293;
 guideLines = (
 {
 name = "i_sign-ASCE";
-position = "{-477, 920}";
+position = "{-507, 877}";
+},
+{
+name = "i_sign-ASCE";
+position = "{-507, 877}";
 }
 );
 id = UUID0;
@@ -972,6 +980,16 @@ alignmentZones = (
 ascender = 1011;
 capHeight = 612;
 descender = -293;
+guideLines = (
+{
+name = "i_sign-ASCE";
+position = "{-507, 953}";
+},
+{
+name = "i_sign-ASCE";
+position = "{-507, 877}";
+}
+);
 id = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 verticalStems = (
 140
@@ -992,7 +1010,7 @@ descender = -293;
 guideLines = (
 {
 name = "i_sign-ASCE";
-position = "{-477, 920}";
+position = "{-489, 860}";
 },
 {
 name = "i_sign-ASCE";
@@ -1018,6 +1036,12 @@ alignmentZones = (
 ascender = 1011;
 capHeight = 612;
 descender = -293;
+guideLines = (
+{
+name = "i_sign-ASCE";
+position = "{-507, 877}";
+}
+);
 id = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 verticalStems = (
 70
@@ -1036,6 +1060,12 @@ alignmentZones = (
 ascender = 1011;
 capHeight = 612;
 descender = -293;
+guideLines = (
+{
+name = "i_sign-ASCE";
+position = "{-509, 930}";
+}
+);
 id = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 verticalStems = (
 175
@@ -6224,7 +6254,7 @@ dasinh = -12;
 duuvowelsinh = -12;
 easinh = -12;
 iivowelsignsinh.alt2 = -12;
-ivowelsignsinh.alt2 = -12;
+ivowelsignsinh.alt2 = -8;
 llvocalicvowelsignsinh = 4;
 lvocalicvowelsignsinh = 4;
 oovowelsignaltsinh = 5;

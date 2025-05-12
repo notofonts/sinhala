@@ -5,16 +5,16 @@ layers = (
 {
 anchors = (
 {
+name = iVowel;
+position = "{244, 0}";
+},
+{
 name = rakar;
 position = "{786, 0}";
 },
 {
 name = repaya;
 position = "{440, 722}";
-},
-{
-name = top;
-position = "{247, 603}";
 },
 {
 name = uvowel;
@@ -167,16 +167,16 @@ width = 856;
 {
 anchors = (
 {
+name = iVowel;
+position = "{279, 0}";
+},
+{
 name = rakar;
 position = "{810, 0}";
 },
 {
 name = repaya;
 position = "{450, 612}";
-},
-{
-name = top;
-position = "{256, 583}";
 },
 {
 name = uvowel;
@@ -329,16 +329,16 @@ width = 874;
 {
 anchors = (
 {
+name = iVowel;
+position = "{289, 0}";
+},
+{
 name = rakar;
 position = "{850, 0}";
 },
 {
 name = repaya;
 position = "{464, 612}";
-},
-{
-name = top;
-position = "{321, 533}";
 },
 {
 name = uvowel;
@@ -497,10 +497,6 @@ position = "{863.158, 210}";
 {
 name = repaya;
 position = "{469, 612}";
-},
-{
-name = top;
-position = "{326, 533}";
 },
 {
 name = uvowel;
@@ -668,10 +664,6 @@ name = repaya;
 position = "{405, 612}";
 },
 {
-name = top;
-position = "{234, 583}";
-},
-{
 name = uvowel;
 position = "{749, 176}";
 },
@@ -835,10 +827,6 @@ position = "{708.352, 210}";
 {
 name = repaya;
 position = "{373, 612}";
-},
-{
-name = top;
-position = "{261, 533}";
 },
 {
 name = uvowel;
@@ -1006,10 +994,6 @@ name = repaya;
 position = "{672, 612}";
 },
 {
-name = top;
-position = "{321, 533}";
-},
-{
 name = uvowel;
 position = "{842, 176}";
 },
@@ -1163,16 +1147,16 @@ width = 908;
 {
 anchors = (
 {
+name = iVowel;
+position = "{139, 0}";
+},
+{
 name = rakar;
 position = "{536.72, 120}";
 },
 {
 name = repaya;
 position = "{310.813, 627.714}";
-},
-{
-name = top;
-position = "{213, 533}";
 },
 {
 name = uvowel;
@@ -1334,10 +1318,6 @@ position = "{536.72, 120}";
 {
 name = repaya;
 position = "{291, 722}";
-},
-{
-name = top;
-position = "{213, 533}";
 },
 {
 name = uvowel;
@@ -1505,10 +1485,6 @@ name = repaya;
 position = "{336.76, 627.714}";
 },
 {
-name = top;
-position = "{233, 533}";
-},
-{
 name = uvowel;
 position = "{256, 176}";
 },
@@ -1670,10 +1646,6 @@ name = repaya;
 position = "{315, 722}";
 },
 {
-name = top;
-position = "{233, 533}";
-},
-{
 name = uvowel;
 position = "{256, 176}";
 },
@@ -1832,15 +1804,11 @@ width = 622;
 anchors = (
 {
 name = rakar;
-position = "{665.533, 120}";
+position = "{643, 0}";
 },
 {
 name = repaya;
 position = "{385.409, 627.714}";
-},
-{
-name = top;
-position = "{285, 533}";
 },
 {
 name = uvowel;
@@ -1848,7 +1816,7 @@ position = "{330, 176}";
 },
 {
 name = virama;
-position = "{691, 595}";
+position = "{552, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -1997,10 +1965,6 @@ position = "{663.666, 120}";
 {
 name = repaya;
 position = "{366, 722}";
-},
-{
-name = top;
-position = "{253, 533}";
 },
 {
 name = uvowel;
@@ -2166,10 +2130,6 @@ position = "{665.533, 120}";
 {
 name = repaya;
 position = "{385.409, 627.714}";
-},
-{
-name = top;
-position = "{691, 533}";
 },
 {
 name = uvowel;

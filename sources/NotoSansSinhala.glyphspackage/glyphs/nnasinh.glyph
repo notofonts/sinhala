@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = rakar;
-position = "{1101, 210}";
+position = "{1079.874, 135}";
 },
 {
 name = repaya;
@@ -1932,7 +1932,7 @@ position = "{1038.13, 88}";
 },
 {
 name = virama;
-position = "{941.263, 528.125}";
+position = "{952, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

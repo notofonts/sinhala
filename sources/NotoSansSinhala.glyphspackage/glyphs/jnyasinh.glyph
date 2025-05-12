@@ -9,10 +9,6 @@ name = repaya;
 position = "{700, 722}";
 },
 {
-name = top;
-position = "{717, 603}";
-},
-{
 name = virama;
 position = "{1084, 0}";
 }
@@ -181,12 +177,12 @@ width = 1180;
 {
 anchors = (
 {
-name = repaya;
-position = "{633, 730}";
+name = iVowel;
+position = "{739, 0}";
 },
 {
-name = top;
-position = "{696, 583}";
+name = repaya;
+position = "{633, 730}";
 },
 {
 name = virama;
@@ -361,10 +357,6 @@ name = repaya;
 position = "{683, 730}";
 },
 {
-name = top;
-position = "{791, 583}";
-},
-{
 name = virama;
 position = "{1254, 0}";
 }
@@ -535,10 +527,6 @@ anchors = (
 {
 name = repaya;
 position = "{652.974, 730}";
-},
-{
-name = top;
-position = "{816, 533}";
 },
 {
 name = virama;
@@ -714,10 +702,6 @@ name = repaya;
 position = "{652.974, 730}";
 },
 {
-name = top;
-position = "{816, 533}";
-},
-{
 name = virama;
 position = "{1161, 536}";
 }
@@ -889,10 +873,6 @@ anchors = (
 {
 name = repaya;
 position = "{595, 730}";
-},
-{
-name = top;
-position = "{674, 563}";
 },
 {
 name = virama;
@@ -1068,10 +1048,6 @@ name = repaya;
 position = "{759, 722}";
 },
 {
-name = top;
-position = "{516, 583}";
-},
-{
 name = virama;
 position = "{724, 0}";
 }
@@ -1243,10 +1219,6 @@ name = repaya;
 position = "{823, 722}";
 },
 {
-name = top;
-position = "{575, 583}";
-},
-{
 name = virama;
 position = "{784, 0}";
 }
@@ -1416,10 +1388,6 @@ anchors = (
 {
 name = repaya;
 position = "{940, 722}";
-},
-{
-name = top;
-position = "{721, 583}";
 },
 {
 name = virama;

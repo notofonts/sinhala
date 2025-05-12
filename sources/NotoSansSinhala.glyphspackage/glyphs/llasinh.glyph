@@ -5,16 +5,16 @@ layers = (
 {
 anchors = (
 {
+name = iVowel;
+position = "{241, 0}";
+},
+{
 name = rakar;
 position = "{676.929, 0}";
 },
 {
 name = repaya;
 position = "{400, 722}";
-},
-{
-name = top;
-position = "{257, 603}";
 },
 {
 name = virama;
@@ -107,16 +107,16 @@ width = 728;
 {
 anchors = (
 {
+name = iVowel;
+position = "{279, 0}";
+},
+{
 name = rakar;
 position = "{729, 0}";
 },
 {
 name = repaya;
 position = "{440, 722}";
-},
-{
-name = top;
-position = "{270, 583}";
 },
 {
 name = virama;
@@ -209,16 +209,16 @@ width = 784;
 {
 anchors = (
 {
+name = iVowel;
+position = "{299, 0}";
+},
+{
 name = rakar;
 position = "{763.404, 0}";
 },
 {
 name = repaya;
 position = "{480, 722}";
-},
-{
-name = top;
-position = "{317, 603}";
 },
 {
 name = virama;
@@ -317,10 +317,6 @@ position = "{780.142, 0}";
 {
 name = repaya;
 position = "{176, 730}";
-},
-{
-name = top;
-position = "{286.801, 582}";
 },
 {
 name = virama;
@@ -427,10 +423,6 @@ name = repaya;
 position = "{187, 730}";
 },
 {
-name = top;
-position = "{286.801, 582}";
-},
-{
 name = virama;
 position = "{672.253, 595}";
 }
@@ -530,16 +522,16 @@ width = 839;
 {
 anchors = (
 {
+name = iVowel;
+position = "{169, 0}";
+},
+{
 name = rakar;
 position = "{510.486, 0}";
 },
 {
 name = repaya;
 position = "{128, 730}";
-},
-{
-name = top;
-position = "{194.038, 590.6}";
 },
 {
 name = virama;
@@ -650,10 +642,6 @@ name = repaya;
 position = "{128, 730}";
 },
 {
-name = top;
-position = "{194.038, 590.6}";
-},
-{
 name = virama;
 position = "{439.889, 595}";
 }
@@ -750,16 +738,16 @@ width = 549;
 {
 anchors = (
 {
+name = iVowel;
+position = "{225, 0}";
+},
+{
 name = rakar;
 position = "{554.189, 0}";
 },
 {
 name = repaya;
-position = "{126, 730}";
-},
-{
-name = top;
-position = "{210.65, 590.6}";
+position = "{337, 714}";
 },
 {
 name = virama;
@@ -870,10 +858,6 @@ name = repaya;
 position = "{132, 730}";
 },
 {
-name = top;
-position = "{210.65, 590.6}";
-},
-{
 name = virama;
 position = "{477.548, 595}";
 }
@@ -970,16 +954,16 @@ width = 596;
 {
 anchors = (
 {
+name = iVowel;
+position = "{271, 0}";
+},
+{
 name = rakar;
 position = "{622.998, 0}";
 },
 {
 name = repaya;
-position = "{223, 730}";
-},
-{
-name = top;
-position = "{236.804, 590.6}";
+position = "{366, 714}";
 },
 {
 name = virama;
@@ -1082,10 +1066,6 @@ position = "{619.278, 0}";
 {
 name = repaya;
 position = "{143, 730}";
-},
-{
-name = top;
-position = "{235.391, 590.6}";
 },
 {
 name = virama;

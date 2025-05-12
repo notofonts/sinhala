@@ -5,6 +5,10 @@ layers = (
 {
 anchors = (
 {
+name = iVowel;
+position = "{471, 0}";
+},
+{
 name = repaya;
 position = "{439, 680}";
 },
@@ -227,6 +231,10 @@ width = 693;
 {
 anchors = (
 {
+name = iVowel;
+position = "{449, 0}";
+},
+{
 name = repaya;
 position = "{459, 680}";
 },
@@ -448,6 +456,10 @@ width = 732;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{509, 0}";
+},
 {
 name = repaya;
 position = "{579, 690}";
@@ -1315,10 +1327,6 @@ components = (
 {
 name = dasinh;
 transform = "{1, 0, 0, 1, 193, 0}";
-},
-{
-name = "sanyaka-sinh";
-transform = "{1, 0, 0, 1, -24, 0}";
 }
 );
 layerId = "9ADCDB5D-E02B-415C-B962-3C5CB425CA2E";
@@ -1327,6 +1335,10 @@ width = 828;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{309, 0}";
+},
 {
 name = repaya;
 position = "{324.38, 683.333}";
@@ -1566,6 +1578,10 @@ width = 478;
 {
 anchors = (
 {
+name = iVowel;
+position = "{345, 0}";
+},
+{
 name = repaya;
 position = "{354.283, 683.333}";
 },
@@ -1804,12 +1820,16 @@ width = 533;
 {
 anchors = (
 {
+name = iVowel;
+position = "{471, 0}";
+},
+{
 name = repaya;
 position = "{442.041, 683.333}";
 },
 {
 name = virama;
-position = "{579.74, 536}";
+position = "{622, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
