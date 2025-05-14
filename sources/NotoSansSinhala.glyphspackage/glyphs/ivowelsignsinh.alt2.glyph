@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 2;
 glyphname = ivowelsignsinh.alt2;
 layers = (
 {
@@ -50,6 +50,11 @@ anchors = (
 {
 name = _iVowel;
 position = "{-271, 0}";
+}
+);
+guideLines = (
+{
+position = "{-271, 896}";
 }
 );
 layerId = UUID0;

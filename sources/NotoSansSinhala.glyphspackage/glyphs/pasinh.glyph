@@ -111,7 +111,7 @@ width = 798;
 anchors = (
 {
 name = iVowel;
-position = "{239, 0}";
+position = "{236, 0}";
 },
 {
 name = rakar;
