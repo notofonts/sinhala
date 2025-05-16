@@ -1738,12 +1738,6 @@ nodes = (
 );
 },
 {
-closed = 0;
-nodes = (
-"-465 727 LINE"
-);
-},
-{
 closed = 1;
 nodes = (
 "639 -11 OFFCURVE",
