@@ -1,16 +1,15 @@
 {
-color = 5;
+color = 0;
 glyphname = rahalantsinh;
 layers = (
 {
 components = (
 {
 name = rasinh;
-transform = "{1, 0, 0, 1, -24, 0}";
 },
 {
 name = viramasinh;
-transform = "{1, 0, 0, 1, 280, 0}";
+transform = "{1, 0, 0, 1, 304, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";

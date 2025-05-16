@@ -1307,15 +1307,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"395 568 LINE",
-"611 799 LINE",
-"591 815 LINE",
-"373 579 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "422 -11 OFFCURVE",
 "514 100 OFFCURVE",
 "514 298 CURVE SMOOTH",
@@ -1381,6 +1372,24 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"25 106 LINE",
+"135 254 LINE",
+"117 271 LINE",
+"4 122 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"395 568 LINE",
+"611 799 LINE",
+"591 815 LINE",
+"373 579 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
 "748 -11 OFFCURVE",
 "822 51 OFFCURVE",
 "822 298 CURVE SMOOTH",
@@ -1422,15 +1431,6 @@ nodes = (
 "581 0 OFFCURVE",
 "619 -11 OFFCURVE",
 "652 -11 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"117 271 LINE",
-"4 122 LINE",
-"25 106 LINE",
-"135 254 LINE"
 );
 }
 );
@@ -1623,15 +1623,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"432 552 LINE",
-"647 791 LINE",
-"597 835 LINE",
-"371 573 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "462 -11 OFFCURVE",
 "576 81 OFFCURVE",
 "576 300 CURVE SMOOTH",
@@ -1697,6 +1688,24 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"50 90 LINE",
+"164 234 LINE",
+"131 292 LINE",
+"-3 129 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"432 552 LINE",
+"647 791 LINE",
+"597 835 LINE",
+"371 573 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
 "808 -11 OFFCURVE",
 "884 50 OFFCURVE",
 "884 271 CURVE SMOOTH",
@@ -1738,15 +1747,6 @@ nodes = (
 "663 -7 OFFCURVE",
 "665 -11 OFFCURVE",
 "715 -11 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"50 90 LINE",
-"164 234 LINE",
-"131 292 LINE",
-"-3 129 LINE"
 );
 }
 );
@@ -1940,16 +1940,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"493 536 LINE",
-"712 752 LINE",
-"603 842 LINE",
-"361 572 LINE",
-"355 565 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "548 -11 OFFCURVE",
 "692 89 OFFCURVE",
 "692 309 CURVE SMOOTH",
@@ -2015,10 +2005,24 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"726 15 LINE",
-"782 -9 OFFCURVE",
-"820 -11 OFFCURVE",
-"850 -11 CURVE SMOOTH",
+"82 41 LINE",
+"248 248 LINE",
+"143 310 LINE",
+"-17 110 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"493 536 LINE",
+"712 752 LINE",
+"603 842 LINE",
+"355 565 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
 "953 -11 OFFCURVE",
 "1068 51 OFFCURVE",
 "1068 278 CURVE SMOOTH",
@@ -2055,16 +2059,11 @@ nodes = (
 "821 124 CURVE SMOOTH",
 "796 124 OFFCURVE",
 "755 132 OFFCURVE",
-"726 147 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"143 310 LINE",
-"-17 110 LINE",
-"82 41 LINE",
-"248 248 LINE"
+"726 147 CURVE",
+"726 15 LINE",
+"782 -9 OFFCURVE",
+"820 -11 OFFCURVE",
+"850 -11 CURVE SMOOTH"
 );
 }
 );
