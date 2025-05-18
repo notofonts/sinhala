@@ -1152,7 +1152,7 @@ position = "{330, 0}";
 },
 {
 name = rakar;
-position = "{588.747, 105}";
+position = "{563, 0}";
 },
 {
 name = repaya;
@@ -1160,7 +1160,7 @@ position = "{230.775, 730}";
 },
 {
 name = uvowel;
-position = "{599.136, 88}";
+position = "{605, 0}";
 },
 {
 name = virama;
@@ -1419,7 +1419,7 @@ position = "{380, 0}";
 },
 {
 name = rakar;
-position = "{674.151, 105}";
+position = "{680, 0}";
 },
 {
 name = repaya;
@@ -1427,7 +1427,7 @@ position = "{264.252, 730}";
 },
 {
 name = uvowel;
-position = "{686.048, 88}";
+position = "{676, 0}";
 },
 {
 name = virama;

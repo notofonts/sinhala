@@ -1,75 +1,40 @@
 {
-color = 3;
+color = 2;
 glyphname = uvowelsignsinh.medium;
 layers = (
 {
 anchors = (
 {
 name = _uvowel;
-position = "{-60, 0}";
+position = "{-40, 0}";
+}
+);
+components = (
+{
+name = _part.uvowelsignsinh;
+piece = {
+length = 28.45424;
+};
+transform = "{1, 0, 0, 1, 20, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
-paths = (
-{
-closed = 1;
-nodes = (
-"-599 -231 LINE SMOOTH",
-"-653 -231 OFFCURVE",
-"-700 -219 OFFCURVE",
-"-700 -172 CURVE SMOOTH",
-"-700 -152 OFFCURVE",
-"-691 -132 OFFCURVE",
-"-682 -118 CURVE",
-"-708 -118 LINE",
-"-718 -133 OFFCURVE",
-"-725 -152 OFFCURVE",
-"-725 -176 CURVE SMOOTH",
-"-725 -228 OFFCURVE",
-"-682 -257 OFFCURVE",
-"-606 -257 CURVE SMOOTH",
-"-60 -257 LINE",
-"-60 177 LINE",
-"-86 97 LINE",
-"-86 -231 LINE"
-);
-}
-);
 width = 0;
 },
 {
 anchors = (
 {
 name = _uvowel;
-position = "{-57, 0}";
+position = "{-51, 0}";
+}
+);
+components = (
+{
+name = _part.uvowelsignsinh;
+transform = "{1, 0, 0, 1, 7, 0}";
 }
 );
 layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"-731 -212 OFFCURVE",
-"-697 -261 OFFCURVE",
-"-590 -261 CURVE SMOOTH",
-"-57 -261 LINE",
-"-57 266 LINE",
-"-129 115 LINE",
-"-129 -193 LINE",
-"-588 -193 LINE SMOOTH",
-"-640 -193 OFFCURVE",
-"-664 -171 OFFCURVE",
-"-664 -142 CURVE SMOOTH",
-"-664 -125 OFFCURVE",
-"-658 -106 OFFCURVE",
-"-649 -87 CURVE",
-"-713 -87 LINE",
-"-725 -107 OFFCURVE",
-"-731 -135 OFFCURVE",
-"-731 -160 CURVE SMOOTH"
-);
-}
-);
 width = 0;
 },
 {
@@ -79,7 +44,7 @@ name = _uvowel;
 position = "{-83, 0}";
 }
 );
-layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
+background = {
 paths = (
 {
 closed = 1;
@@ -89,8 +54,8 @@ nodes = (
 "-584 -305 CURVE SMOOTH",
 "-83 -305 LINE",
 "-83 246 LINE",
-"-240 56 LINE",
-"-240 -155 LINE",
+"-230 56 LINE",
+"-230 -155 LINE",
 "-550 -155 LINE SMOOTH",
 "-601 -155 OFFCURVE",
 "-641 -145 OFFCURVE",
@@ -105,6 +70,13 @@ nodes = (
 );
 }
 );
+};
+components = (
+{
+name = _part.uvowelsignsinh;
+}
+);
+layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 width = 0;
 },
 {
@@ -195,108 +167,54 @@ nodes = (
 width = 0;
 },
 {
+anchors = (
+{
+name = _uvowel;
+position = "{-51, 0}";
+}
+);
+components = (
+{
+name = _part.uvowelsignsinh;
+piece = {
+height = 18.72768;
+length = 8.70396;
+};
+transform = "{1, 0, 0, 1, 10, 0}";
+}
+);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
-paths = (
-{
-closed = 1;
-nodes = (
-"-536 -186 OFFCURVE",
-"-529 -206 OFFCURVE",
-"-518 -220 CURVE SMOOTH",
-"-495 -249 OFFCURVE",
-"-459 -257 OFFCURVE",
-"-392 -257 CURVE SMOOTH",
-"-102 -257 LINE",
-"-102 42 LINE",
-"-128 42 LINE",
-"-128 -231 LINE",
-"-383 -231 LINE SMOOTH",
-"-447 -231 OFFCURVE",
-"-478 -226 OFFCURVE",
-"-495 -206 CURVE SMOOTH",
-"-504 -196 OFFCURVE",
-"-509 -180 OFFCURVE",
-"-509 -161 CURVE SMOOTH",
-"-509 -131 OFFCURVE",
-"-495 -104 OFFCURVE",
-"-463 -72 CURVE",
-"-482 -54 LINE",
-"-515 -88 OFFCURVE",
-"-536 -119 OFFCURVE",
-"-536 -161 CURVE SMOOTH"
-);
-}
-);
 width = 0;
 },
 {
+anchors = (
+{
+name = _uvowel;
+position = "{-61, 0}";
+}
+);
+components = (
+{
+name = _part.uvowelsignsinh;
+}
+);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-paths = (
-{
-closed = 1;
-nodes = (
-"-557 -176 OFFCURVE",
-"-549 -203 OFFCURVE",
-"-535 -220 CURVE SMOOTH",
-"-513 -247 OFFCURVE",
-"-480 -261 OFFCURVE",
-"-401 -261 CURVE SMOOTH",
-"-80 -261 LINE",
-"-80 42 LINE",
-"-146 42 LINE",
-"-146 -197 LINE",
-"-391 -197 LINE SMOOTH",
-"-446 -197 OFFCURVE",
-"-461 -194 OFFCURVE",
-"-473 -186 CURVE SMOOTH",
-"-483 -179 OFFCURVE",
-"-489 -169 OFFCURVE",
-"-489 -149 CURVE SMOOTH",
-"-489 -120 OFFCURVE",
-"-471 -96 OFFCURVE",
-"-449 -73 CURVE",
-"-499 -27 LINE",
-"-537 -65 OFFCURVE",
-"-557 -101 OFFCURVE",
-"-557 -148 CURVE SMOOTH"
-);
-}
-);
 width = 0;
 },
 {
-layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
-paths = (
+anchors = (
 {
-closed = 1;
-nodes = (
-"-592 -167 OFFCURVE",
-"-584 -193 OFFCURVE",
-"-568 -214 CURVE SMOOTH",
-"-538 -253 OFFCURVE",
-"-492 -270 OFFCURVE",
-"-396 -270 CURVE SMOOTH",
-"-25 -270 LINE",
-"-25 55 LINE",
-"-158 55 LINE",
-"-158 -141 LINE",
-"-391 -141 LINE SMOOTH",
-"-417 -141 OFFCURVE",
-"-430 -139 OFFCURVE",
-"-438 -132 CURVE SMOOTH",
-"-444 -127 OFFCURVE",
-"-447 -120 OFFCURVE",
-"-447 -109 CURVE SMOOTH",
-"-447 -98 OFFCURVE",
-"-441 -85 OFFCURVE",
-"-429 -71 CURVE",
-"-535 -4 LINE",
-"-575 -51 OFFCURVE",
-"-592 -91 OFFCURVE",
-"-592 -133 CURVE SMOOTH"
-);
+name = _uvowel;
+position = "{-61, 0}";
 }
 );
+components = (
+{
+name = _part.uvowelsignsinh;
+transform = "{1, 0, 0, 1, 20, 0}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 width = 0;
 }
 );

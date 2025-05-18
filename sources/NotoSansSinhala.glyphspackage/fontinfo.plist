@@ -22,16 +22,16 @@ code = "kasinh tasinh nasinh";
 name = iVowelAlt3;
 },
 {
-code = "kasinh gasinh nngasinh tasinh shasinh hasinh bhasinh\012";
+code = "kasinh gasinh nngasinh tasinh shasinh bhasinh\012";
 name = uSign2Group;
 },
 {
-code = "#ngasinh jhasinh tthasinh ddasinh ddhasinh nnasinh nnddasinh basinh bhasinh mbasinh khasinh masinh kavasinh kassasinh gadhasinh nyacasinh ttatthasinh tathasinh tavasinh dadhasinh davasinh nathasinh nadhasinh navasinh \012\012#nnasinh hasinh nasinh jhasinh nnddasinh ddhasinh ddasinh ddhasinh khasinh basinh mbasinh ngasinh kavasinh kassasinh gadhasinh nyacasinh ttatthasinh tathasinh tavasinh dadhasinh davasinh nathasinh nadasinh nadhasinh navasinh bhasinh\012##ණුනුක්‍වුක්‍ෂුත්‍ථුත්‍වුන්‍ථුන්‍දුන්‍ධුග්‍ධුට්‍ඨුද්‍ධුද්‍වුන්‍වු\012nnasinh nasinh hasinh kavasinh kassasinh gadhasinh tathasinh tavasinh nathasinh nadasinh nadhasinh navasinh jhasinh\012";
-name = uSignWideGroup;
+code = "#ඛඝඞඨඩඪධබඬමසඹයන\012khasinh ngasinh tthasinh ddasinh ddhasinh nnddasinh dhasinh basinh mbasinh nasinh ttatthasinh ttatthasinh dadhasinh davasinh \012";
+name = uSignMediumGroup;
 },
 {
-code = "#pasinh ssasinh chasinh jasinh nyjasinh sasinh ghasinh tthasinh fasinh yasinh masinh yapostsinh   \012\012#ඛඞඨඩඬධබමඹ\012khasinh ngasinh tthasinh ddasinh ddhasinh nnddasinh dhasinh basinh mbasinh sasinh\012";
-name = uSignMediumGroup;
+code = "#ණුනුක්‍වුක්‍ෂුත්‍ථුත්‍වුන්‍ථුන්‍දුන්‍ධුග්‍ධුට්‍ඨුද්‍ධුද්‍වුන්‍වු\012nnasinh kavasinh kassasinh gadhasinh tathasinh tavasinh nathasinh nadasinh nadhasinh navasinh jhasinh hasinh\012";
+name = uSignWideGroup;
 },
 {
 code = "\012kasinh phasinh khasinh ngasinh tthasinh ddasinh ddhasinh nnddasinh dhasinh basinh mbasinh navasinh kavasinh kassasinh gadhasinh nadasinh nadhasinh yasinh\012\012";
@@ -66,7 +66,7 @@ code = "basinh bhasinh casinh chasinh dasinh ddasinh ddhasinh dhasinh fasinh gas
 name = class1;
 },
 {
-code = "# .notdef CR \\NULL aaesinh aaevowelsignlowsinh aaevowelsignsinh aasinh aavowelsignsinh aevowelsignlowsinh aevowelsignsinh aisinh aivowelsignsinh anusvarasinh asciicircum.sinh asciitilde.sinh asinh asterisk.sinh ausinh backslash.sinh bahalantsinh bar.sinh   basinh  bhasinh  bhiivowelsinh bhivowelsinh bhuuvowelsinh bhuvowelsinh biivowelsinh bivowelsinh braceleft.sinh braceright.sinh bracketleft.sinh bracketright.sinh buuvowelsinh buvowelsinh cahalantsinh   casinh  chahalantsinh   chasinh  chiivowelsinh chivowelsinh chuuvowelsinh chuvowelsinh ciivowelsinh civowelsinh colon.sinh comma.sinh cuuvowelsinh cuvowelsinh daavowelsinh dadhahalantsinh   dadhasinh dadhiivowelsinh dadhivowelsinh dadhuuvowelsinh dadhuvowelsinh  danda.sinh  darasinh  dariivowelsinh darivowelsinh darrvocalicvowelsinh darvocalicvowelsinh dasinh  davahalantsinh   davasinh daviivowelsinh davivowelsinh davuuvowelsinh davuvowelsinh dayaavowelsinh dayahalantsinh dayasinh dayoovowelsinh dbldanda.sinh ddahalantsinh   ddasinh  ddhahalantsinh   ddhasinh  ddhiivowelsinh ddhivowelsinh ddhuuvowelsinh ddhuvowelsinh ddiivowelsinh ddivowelsinh dduuvowelsinh dduvowelsinh dhahalantsinh   dhasinh  dhiivowelsinh dhivowelsinh dhuuvowelsinh dhuvowelsinh diivowelsinh divide.sinh divowelsinh doovowelsignsinh duuvowelsinh duvowelsinh easinh eesinh eight.sinh ellipsis.sinh emdash.sinh endash.sinh equal.sinh esinh evowelsignsinh exclam.sinh    fasinh  fiivowelsinh five.sinh fivowelsinh four.sinh fuuvowelsinh fuvowelsinh gadhahalantsinh   gadhasinh gadhiivowelsinh gadhivowelsinh gadhuuvowelsinh gadhuvowelsinh  gasinh   ghasinh  ghiivowelsinh ghivowelsinh ghuuvowelsinh ghuvowelsinh giivowelsinh givowelsinh greater.sinh guuvowelsinh  hasinh  hiivowelsinh hivowelsinh huuvowelsinh huvowelsinh hyphen.sinh iisinh iivowelsignsinh isinh ivowelsignsinh jahalantsinh   jasinh  jhahalantsinh   jhasinh  jhiivowelsinh jhivowelsinh jhuuvowelsinh jhuvowelsinh jiivowelsinh jivowelsinh jnyaavowelsinh     jnyariivowelsinh jnyarivowelsinh jnyasinh  jnyiivowelsinh jnyivowelsinh jnyuuvowelsinh jnyuvowelsinh juuvowelsinh juvowelsinh   kasinh    kassasinh kassiivowelsinh kassivowelsinh kassuuvowelsinh kassuvowelsinh  kavahalantsinh   kavasinh kaviivowelsinh kavivowelsinh kavuuvowelsinh kavuvowelsinh khahalantsinh   khasinh  khiivowelsinh khivowelsinh khuuvowelsinh khuvowelsinh kiivowelsinh kivowelsinh kunddaliyasinh  kuvowelsinh       lasinh  less.sinh liivowelsinh livowelsinh       llasinh  lliivowelsinh llivowelsinh lluvowelsinh llvocalicsinh llvocalicvowelsignsinh luuvowelsinh luvowelsinh lvocalicsinh lvocalicvowelsignsinh mahalantsinh   masinh  mbahalantsinh   mbasinh  mbiivowelsinh mbivowelsinh mbuuvowelsinh mbuvowelsinh miivowelsinh minus.sinh mivowelsinh multiply.sinh muuvowelsinh muvowelsinh nadaavowelsinh   nadarasinh  nadariivowelsinh nadarivowelsinh nadasinh nadhahalantsinh   nadhasinh nadhiivowelsinh nadhivowelsinh nadhuuvowelsinh nadhuvowelsinh nadiivowelsinh nadivowelsinh naduuvowelsinh naduvowelsinh  nasinh nathahalantsinh   nathasinh nathiivowelsinh nathivowelsinh nathuuvowelsinh nathuvowelsinh  navahalantsinh   navasinh naviivowelsinh navivowelsinh navuuvowelsinh navuvowelsinh ndaavowelsinh  ndariivowelsinh ndarivowelsinh ndasinh  ndiivowelsinh ndivowelsinh nduuvowelsinh nduvowelsinh ngahalantsinh   ngasinh  ngiivowelsinh ngivowelsinh nguuvowelsinh nguvowelsinh niivowelsinh nine.sinh nivowelsinh   nnasinh  nnddahalantsinh   nnddasinh  nnddiivowelsinh nnddivowelsinh nndduuvowelsinh nndduvowelsinh   nngasinh  nngiivowelsinh nngivowelsinh nnguuvowelsinh nnguvowelsinh nniivowelsinh nnivowelsinh nnuuvowelsinh nnuvowelsinh numbersign.sinh nuuvowelsinh nuvowelsinh nyaavowelsinh nyacahalantsinh  nyacasinh nyaciivowelsinh nyacivowelsinh nyacuuvowelsinh nyacuvowelsinh     nyariivowelsinh nyarivowelsinh nyasinh  nyiivowelsinh nyivowelsinh nyjahalantsinh   nyjasinh  nyjiivowelsinh nyjivowelsinh nyjuuvowelsinh nyjuvowelsinh nyuuvowelsinh nyuvowelsinh one.sinh oosinh oovowelsignaltsinh osinh   parenleft.sinh parenright.sinh  pasinh  percent.sinh period.sinh phahalantsinh   phasinh  phiivowelsinh phivowelsinh phuuvowelsinh phuvowelsinh piivowelsinh pivowelsinh plus.sinh puuvowelsinh puvowelsinh question.sinh quotedbl.sinh quotedblleft.sinh quotedblright.sinh quoteleft.sinh quoteright.sinh quotesingle.sinh raaevowelsinh raevowelsinh rahalantsinh rakarsinh rasinh  rephsinh riivowelsinh rivowelsinh rrvocalicsinh rrvocalicvowelsignsinh rvocalicsinh rvocalicvowelsignsinh  sasinh  semicolon.sinh seven.sinh sfthyphen.sinh  shasinh  shiivowelsinh shivowelsinh shuuvowelsinh shuvowelsinh siivowelsinh sivowelsinh six.sinh slash.sinh   ssasinh  ssiivowelsinh ssivowelsinh ssuuvowelsinh ssuvowelsinh suuvowelsinh suvowelsinh  tasinh tathahalantsinh  tathasinh tathiivowelsinh tathivowelsinh tathuuvowelsinh tathuvowelsinh  tavahalantsinh  tavasinh taviivowelsinh tavivowelsinh tavuuvowelsinh tavuvowelsinh thahalantsinh  thasinh  thiivowelsinh thivowelsinh three.sinh thuuvowelsinh thuvowelsinh tiivowelsinh tivowelsinh ttahalantsinh  ttasinh  ttatthahalantsinh  ttatthasinh ttatthiivowelsinh ttatthivowelsinh ttatthuuvowelsinh ttatthuvowelsinh tthahalantsinh  tthasinh  tthiivowelsinh tthivowelsinh tthuuvowelsinh tthuvowelsinh ttiivowelsinh ttivowelsinh ttuuvowelsinh ttuvowelsinh tuuvowelsinh tuvowelsinh two.sinh u111E1 u111E2 u111E3 u111E4 u111E5 u111E6 u111E7 u111E8 u111E9 u111EA u111EB u111EC u111ED u111EE u111EF u111F0 u111F1 u111F2 u111F3 u111F4 underscore.sinh uni0DDA uni0DDC uni0DDD uni0DDE uni0DE6 uni0DE7 uni0DE8 uni0DE9 uni0DEA uni0DEB uni0DEC uni0DED uni0DEE uni0DEF uni200C uni200D usinh uusinh uuvowelsignsinh uvowelsignsinh vahalantsinh  vasinh  viivowelsinh viramasinh visargasinh vivowelsinh vuuvowelsinh vuvowelsinh  yaposthalantsinh yapostiivowelsinh yapostivowelsinh yapostrephsinh yapostsinh yapostuuvowelsinh yapostuvowelsinh yasinh  yiivowelsinh yivowelsinh yuuvowelsinh yuvowelsinh zero.sinh\012";
+code = "#.notdef CR \\NULL aaesinh aaevowelsignlowsinh aaevowelsignsinh aasinh aavowelsignsinh aevowelsignlowsinh aevowelsignsinh aisinh aivowelsignsinh anusvarasinh asciicircum.sinh asciitilde.sinh asinh asterisk.sinh ausinh backslash.sinh bahalantsinh bar.sinh   basinh  bhasinh  bhiivowelsinh bhivowelsinh bhuuvowelsinh bhuvowelsinh biivowelsinh bivowelsinh braceleft.sinh braceright.sinh bracketleft.sinh bracketright.sinh buuvowelsinh buvowelsinh cahalantsinh   casinh  chahalantsinh   chasinh  chiivowelsinh chivowelsinh chuuvowelsinh chuvowelsinh ciivowelsinh civowelsinh colon.sinh comma.sinh cuuvowelsinh cuvowelsinh daavowelsinh dadhahalantsinh   dadhasinh dadhiivowelsinh dadhivowelsinh dadhuuvowelsinh dadhuvowelsinh  danda.sinh  darasinh  dariivowelsinh darivowelsinh darrvocalicvowelsinh darvocalicvowelsinh dasinh  davahalantsinh   davasinh daviivowelsinh davivowelsinh davuuvowelsinh davuvowelsinh dayaavowelsinh dayahalantsinh dayasinh dayoovowelsinh dbldanda.sinh ddahalantsinh   ddasinh  ddhahalantsinh   ddhasinh  ddhiivowelsinh ddhivowelsinh ddhuuvowelsinh ddhuvowelsinh ddiivowelsinh ddivowelsinh dduuvowelsinh dduvowelsinh dhahalantsinh   dhasinh  dhiivowelsinh dhivowelsinh dhuuvowelsinh dhuvowelsinh diivowelsinh divide.sinh divowelsinh doovowelsignsinh duuvowelsinh duvowelsinh easinh eesinh eight.sinh ellipsis.sinh emdash.sinh endash.sinh equal.sinh esinh evowelsignsinh exclam.sinh    fasinh  fiivowelsinh five.sinh fivowelsinh four.sinh fuuvowelsinh fuvowelsinh gadhahalantsinh   gadhasinh gadhiivowelsinh gadhivowelsinh gadhuuvowelsinh gadhuvowelsinh  gasinh   ghasinh  ghiivowelsinh ghivowelsinh ghuuvowelsinh ghuvowelsinh giivowelsinh givowelsinh greater.sinh guuvowelsinh  hasinh  hiivowelsinh hivowelsinh huuvowelsinh huvowelsinh hyphen.sinh iisinh iivowelsignsinh isinh ivowelsignsinh jahalantsinh   jasinh  jhahalantsinh   jhasinh  jhiivowelsinh jhivowelsinh jhuuvowelsinh jhuvowelsinh jiivowelsinh jivowelsinh jnyaavowelsinh     jnyariivowelsinh jnyarivowelsinh jnyasinh  jnyiivowelsinh jnyivowelsinh jnyuuvowelsinh jnyuvowelsinh juuvowelsinh juvowelsinh   kasinh    kassasinh kassiivowelsinh kassivowelsinh kassuuvowelsinh kassuvowelsinh  kavahalantsinh   kavasinh kaviivowelsinh kavivowelsinh kavuuvowelsinh kavuvowelsinh khahalantsinh   khasinh  khiivowelsinh khivowelsinh khuuvowelsinh khuvowelsinh kiivowelsinh kivowelsinh kunddaliyasinh  kuvowelsinh       lasinh  less.sinh liivowelsinh livowelsinh       llasinh  lliivowelsinh llivowelsinh lluvowelsinh llvocalicsinh llvocalicvowelsignsinh luuvowelsinh luvowelsinh lvocalicsinh lvocalicvowelsignsinh mahalantsinh   masinh  mbahalantsinh   mbasinh  mbiivowelsinh mbivowelsinh mbuuvowelsinh mbuvowelsinh miivowelsinh minus.sinh mivowelsinh multiply.sinh muuvowelsinh muvowelsinh nadaavowelsinh   nadarasinh  nadariivowelsinh nadarivowelsinh nadasinh nadhahalantsinh   nadhasinh nadhiivowelsinh nadhivowelsinh nadhuuvowelsinh nadhuvowelsinh nadiivowelsinh nadivowelsinh naduuvowelsinh naduvowelsinh  nasinh nathahalantsinh   nathasinh nathiivowelsinh nathivowelsinh nathuuvowelsinh nathuvowelsinh  navahalantsinh   navasinh naviivowelsinh navivowelsinh navuuvowelsinh navuvowelsinh ndaavowelsinh  ndariivowelsinh ndarivowelsinh ndasinh  ndiivowelsinh ndivowelsinh nduuvowelsinh nduvowelsinh ngahalantsinh   ngasinh  ngiivowelsinh ngivowelsinh nguuvowelsinh nguvowelsinh niivowelsinh nine.sinh nivowelsinh   nnasinh  nnddahalantsinh   nnddasinh  nnddiivowelsinh nnddivowelsinh nndduuvowelsinh nndduvowelsinh   nngasinh  nngiivowelsinh nngivowelsinh nnguuvowelsinh nnguvowelsinh nniivowelsinh nnivowelsinh nnuuvowelsinh nnuvowelsinh numbersign.sinh nuuvowelsinh nuvowelsinh nyaavowelsinh nyacahalantsinh  nyacasinh nyaciivowelsinh nyacivowelsinh nyacuuvowelsinh nyacuvowelsinh     nyariivowelsinh nyarivowelsinh nyasinh  nyiivowelsinh nyivowelsinh nyjahalantsinh   nyjasinh  nyjiivowelsinh nyjivowelsinh nyjuuvowelsinh nyjuvowelsinh nyuuvowelsinh nyuvowelsinh one.sinh oosinh oovowelsignaltsinh osinh   parenleft.sinh parenright.sinh  pasinh  percent.sinh period.sinh phahalantsinh   phasinh  phiivowelsinh phivowelsinh phuuvowelsinh phuvowelsinh piivowelsinh pivowelsinh plus.sinh puuvowelsinh puvowelsinh question.sinh quotedbl.sinh quotedblleft.sinh quotedblright.sinh quoteleft.sinh quoteright.sinh quotesingle.sinh raaevowelsinh raevowelsinh rahalantsinh rakarsinh rasinh  rephsinh riivowelsinh rivowelsinh rrvocalicsinh rrvocalicvowelsignsinh rvocalicsinh rvocalicvowelsignsinh  sasinh  semicolon.sinh seven.sinh sfthyphen.sinh  shasinh  shiivowelsinh shivowelsinh shuuvowelsinh shuvowelsinh siivowelsinh sivowelsinh six.sinh slash.sinh   ssasinh  ssiivowelsinh ssivowelsinh ssuuvowelsinh ssuvowelsinh suuvowelsinh suvowelsinh  tasinh tathahalantsinh  tathasinh tathiivowelsinh tathivowelsinh tathuuvowelsinh tathuvowelsinh  tavahalantsinh  tavasinh taviivowelsinh tavivowelsinh tavuuvowelsinh tavuvowelsinh thahalantsinh  thasinh  thiivowelsinh thivowelsinh three.sinh thuuvowelsinh thuvowelsinh tiivowelsinh tivowelsinh ttahalantsinh  ttasinh  ttatthahalantsinh  ttatthasinh ttatthiivowelsinh ttatthivowelsinh ttatthuuvowelsinh ttatthuvowelsinh tthahalantsinh  tthasinh  tthiivowelsinh tthivowelsinh tthuuvowelsinh tthuvowelsinh ttiivowelsinh ttivowelsinh ttuuvowelsinh ttuvowelsinh tuuvowelsinh tuvowelsinh two.sinh u111E1 u111E2 u111E3 u111E4 u111E5 u111E6 u111E7 u111E8 u111E9 u111EA u111EB u111EC u111ED u111EE u111EF u111F0 u111F1 u111F2 u111F3 u111F4 underscore.sinh uni0DDA uni0DDC uni0DDD uni0DDE uni0DE6 uni0DE7 uni0DE8 uni0DE9 uni0DEA uni0DEB uni0DEC uni0DED uni0DEE uni0DEF uni200C uni200D usinh uusinh uuvowelsignsinh uvowelsignsinh vahalantsinh  vasinh  viivowelsinh viramasinh visargasinh vivowelsinh vuuvowelsinh vuvowelsinh  yaposthalantsinh yapostiivowelsinh yapostivowelsinh yapostrephsinh yapostsinh yapostuuvowelsinh yapostuvowelsinh yasinh  yiivowelsinh yivowelsinh yuuvowelsinh yuvowelsinh zero.sinh\012";
 name = class3;
 }
 );
@@ -178,12 +178,10 @@ iivowelsignsinh.alt5,
 uvowelsignsinh,
 uvowelsignsinh.medium,
 uvowelsignsinh.long,
+uvowelsignsinh.va,
 uuvowelsignsinh,
 uuvowelsignsinh.long,
 uuvowelsignsinh.medium,
-uvowelsignsinh.medium,
-uvowelsignsinh.long,
-uvowelsignsinh.va,
 uuvowelsignsinh.va,
 uvowelsignsinh.alt,
 uuvowelsignsinh.alt,
@@ -874,33 +872,25 @@ disablesNiceNames = 1;
 familyName = "Noto Sans Sinhala NIGHTLY";
 featurePrefixes = (
 {
+code = "languagesystem DFLT dflt;\012languagesystem sinh dflt;\012";
+name = Languagesystems;
+},
+{
 code = "lookup SplitReph {\012    lookupflag 0;\012    ;\012    # Original source: 10 \012    sub rephsinh by viramasinh rasinh;\012} SplitReph;\012";
 name = "Split Reph";
 },
 {
-code = "\012# For swaps\012lookup RephToYaPost {\012    sub rephsinh by yapostsinh;\012} RephToYaPost;\012\012lookup YaPostToReph {\012    sub yapostsinh by rephsinh;\012} YaPostToReph;\012";
+code = "\012# For swaps\012lookup RephToYaPost {\012    sub rephsinh by yapostsinh;\012} RephToYaPost;\012\012lookup YaPostToReph {\012    sub yapostsinh by rephsinh;\012} YaPostToReph;";
 name = "Ya Post Handling";
 },
 {
 code = "lookup LaRaUVowels {\012    sub llasinh by lluvowelsinh;\012    sub uvowelsignsinh by aevowelsignsinh;\012    sub uuvowelsignsinh by aaevowelsignsinh;\012} LaRaUVowels;\012";
 name = "La/Ra UVowels";
-},
-{
-code = "languagesystem DFLT dflt;\012languagesystem sinh dflt;\012";
-name = Languagesystems;
-},
-{
-code = "";
-name = blwsMarks;
-},
-{
-code = "";
-name = unnamed;
 }
 );
 features = (
 {
-code = "sub kasinh viramasinh uni200D ssasinh by kassasinh;\012sub kasinh viramasinh uni200D vasinh by kavasinh;\012sub gasinh viramasinh uni200D dhasinh by gadhasinh;\012sub nyasinh viramasinh uni200D casinh by nyacasinh;\012sub ttasinh viramasinh uni200D tthasinh by ttatthasinh;\012sub tasinh viramasinh uni200D thasinh by tathasinh;\012sub tasinh viramasinh uni200D vasinh by tavasinh;\012sub dasinh viramasinh uni200D dhasinh by dadhasinh;\012sub dasinh viramasinh uni200D vasinh by davasinh;\012sub nasinh viramasinh uni200D dasinh by nadasinh;\012sub nasinh viramasinh uni200D dhasinh by nadhasinh;\012sub nasinh viramasinh uni200D thasinh by nathasinh;\012sub nasinh viramasinh uni200D vasinh by navasinh;\012\012sub uni200D viramasinh by viramasinh;\012";
+code = "sub kasinh viramasinh uni200D ssasinh by kassasinh;\012sub kasinh viramasinh uni200D vasinh by kavasinh;\012sub gasinh viramasinh uni200D dhasinh by gadhasinh;\012sub nyasinh viramasinh uni200D casinh by nyacasinh;\012sub ttasinh viramasinh uni200D tthasinh by ttatthasinh;\012sub tasinh viramasinh uni200D thasinh by tathasinh;\012sub tasinh viramasinh uni200D vasinh by tavasinh;\012sub dasinh viramasinh uni200D dhasinh by dadhasinh;\012sub dasinh viramasinh uni200D vasinh by davasinh;\012sub nasinh viramasinh uni200D dasinh by nadasinh;\012sub nasinh viramasinh uni200D dhasinh by nadhasinh;\012sub nasinh viramasinh uni200D thasinh by nathasinh;\012sub nasinh viramasinh uni200D vasinh by navasinh;";
 name = akhn;
 },
 {
@@ -932,7 +922,7 @@ code = "lookup AeVowelsAfterRa {\012    sub rasinh aevowelsignsinh' by raevowels
 name = psts;
 },
 {
-code = "# Automatic Code Start\012\012pos @class3 uni0D81' <0 340 0 0>;\012pos touchsinh <0 0 -100 0>;\012";
+code = "# Automatic Code Start\012\012pos @class3 uni0D81' <0 340 0 0>;\012pos touchsinh <0 0 -90 0>;\012";
 name = dist;
 }
 );
@@ -969,6 +959,7 @@ id = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 verticalStems = (
 27
 );
+visible = 1;
 weight = Light;
 weightValue = 26;
 xHeight = 536;
@@ -984,7 +975,7 @@ capHeight = 612;
 descender = -293;
 guideLines = (
 {
-position = "{-271, 896}";
+position = "{-272, 896}";
 }
 );
 id = UUID0;
@@ -1059,12 +1050,6 @@ alignmentZones = (
 ascender = 1011;
 capHeight = 612;
 descender = -293;
-guideLines = (
-{
-name = "i_sign-ASCE";
-position = "{-507, 877}";
-}
-);
 id = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 verticalStems = (
 70

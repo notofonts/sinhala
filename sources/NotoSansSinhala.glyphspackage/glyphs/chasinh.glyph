@@ -1601,15 +1601,15 @@ position = "{214, 0}";
 },
 {
 name = rakar;
-position = "{553.705, 171.818}";
+position = "{487, 0}";
 },
 {
 name = repaya;
-position = "{282.041, 711}";
+position = "{290, 714}";
 },
 {
 name = uvowel;
-position = "{542.996, 128}";
+position = "{504, 0}";
 },
 {
 name = virama;
@@ -2017,7 +2017,7 @@ position = "{250, 0}";
 },
 {
 name = rakar;
-position = "{404, 0}";
+position = "{544, 0}";
 },
 {
 name = repaya;
@@ -2025,7 +2025,7 @@ position = "{300.145, 711}";
 },
 {
 name = uvowel;
-position = "{436, 0}";
+position = "{564, 0}";
 },
 {
 name = virama;
@@ -2433,7 +2433,7 @@ position = "{266.344, 0}";
 },
 {
 name = rakar;
-position = "{623, 0}";
+position = "{630, 0}";
 },
 {
 name = repaya;
@@ -2441,7 +2441,7 @@ position = "{335.4, 711}";
 },
 {
 name = uvowel;
-position = "{585, 0}";
+position = "{646, 0}";
 },
 {
 name = virama;

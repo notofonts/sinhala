@@ -6,218 +6,76 @@ layers = (
 anchors = (
 {
 name = _uvowel;
-position = "{-60, 0}";
+position = "{-57, 0}";
+}
+);
+components = (
+{
+name = _part.uuvowelsignsinh;
+piece = {
+height = 41.47461;
+length = 53.0971;
+};
+transform = "{1, 0, 0, 1, 4, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
-paths = (
-{
-closed = 1;
-nodes = (
-"-771 -233 OFFCURVE",
-"-719 -257 OFFCURVE",
-"-668 -257 CURVE SMOOTH",
-"-616 -257 OFFCURVE",
-"-570 -232 OFFCURVE",
-"-500 -205 CURVE SMOOTH",
-"-443 -183 OFFCURVE",
-"-392 -173 OFFCURVE",
-"-342 -173 CURVE SMOOTH",
-"-279 -173 OFFCURVE",
-"-173 -191 OFFCURVE",
-"-79 -257 CURVE",
-"-60 -257 LINE",
-"-60 152 LINE",
-"-86 72 LINE",
-"-86 -164 LINE",
-"-87 -184 OFFCURVE",
-"-86 -202 OFFCURVE",
-"-85 -229 CURVE",
-"-74 -230 LINE",
-"-174 -158 OFFCURVE",
-"-288 -147 OFFCURVE",
-"-347 -147 CURVE SMOOTH",
-"-405 -147 OFFCURVE",
-"-454 -159 OFFCURVE",
-"-516 -184 CURVE SMOOTH",
-"-590 -214 OFFCURVE",
-"-622 -231 OFFCURVE",
-"-670 -231 CURVE SMOOTH",
-"-707 -231 OFFCURVE",
-"-744 -214 OFFCURVE",
-"-744 -159 CURVE SMOOTH",
-"-744 -124 OFFCURVE",
-"-731 -103 OFFCURVE",
-"-695 -71 CURVE",
-"-714 -53 LINE",
-"-750 -86 OFFCURVE",
-"-771 -115 OFFCURVE",
-"-771 -158 CURVE SMOOTH"
-);
-}
-);
 width = 0;
 },
 {
 anchors = (
 {
 name = _uvowel;
-position = "{-62, 0}";
+position = "{-57, 0}";
+}
+);
+components = (
+{
+name = _part.uuvowelsignsinh;
+piece = {
+length = 53.0971;
+};
 }
 );
 layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"-802 -232 OFFCURVE",
-"-723 -261 OFFCURVE",
-"-662 -261 CURVE SMOOTH",
-"-614 -261 OFFCURVE",
-"-558 -245 OFFCURVE",
-"-496 -216 CURVE SMOOTH",
-"-454 -197 OFFCURVE",
-"-381 -182 OFFCURVE",
-"-345 -182 CURVE SMOOTH",
-"-291 -182 OFFCURVE",
-"-195 -199 OFFCURVE",
-"-112 -261 CURVE",
-"-60 -261 LINE",
-"-60 176 LINE",
-"-132 46 LINE",
-"-132 -130 LINE SMOOTH",
-"-132 -159 OFFCURVE",
-"-131 -187 OFFCURVE",
-"-129 -215 CURVE",
-"-93 -201 LINE",
-"-188 -132 OFFCURVE",
-"-277 -112 OFFCURVE",
-"-352 -112 CURVE SMOOTH",
-"-395 -112 OFFCURVE",
-"-466 -130 OFFCURVE",
-"-520 -153 CURVE SMOOTH",
-"-578 -178 OFFCURVE",
-"-624 -193 OFFCURVE",
-"-661 -193 CURVE SMOOTH",
-"-696 -193 OFFCURVE",
-"-729 -178 OFFCURVE",
-"-729 -139 CURVE SMOOTH",
-"-729 -115 OFFCURVE",
-"-718 -99 OFFCURVE",
-"-690 -78 CURVE",
-"-740 -27 LINE",
-"-778 -60 OFFCURVE",
-"-802 -89 OFFCURVE",
-"-802 -141 CURVE SMOOTH"
-);
-}
-);
 width = 0;
 },
 {
 anchors = (
 {
 name = _uvowel;
-position = "{-93, 0}";
+position = "{-57, 0}";
+}
+);
+components = (
+{
+name = _part.uuvowelsignsinh;
+piece = {
+length = 53.0971;
+};
+transform = "{1, 0, 0, 1, 48, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
-paths = (
-{
-closed = 1;
-nodes = (
-"-862 -250 OFFCURVE",
-"-789 -291 OFFCURVE",
-"-711 -291 CURVE SMOOTH",
-"-646 -291 OFFCURVE",
-"-607 -278 OFFCURVE",
-"-551 -249 CURVE SMOOTH",
-"-501 -224 OFFCURVE",
-"-461 -216 OFFCURVE",
-"-429 -216 CURVE SMOOTH",
-"-387 -216 OFFCURVE",
-"-239 -247 OFFCURVE",
-"-208 -291 CURVE",
-"-93 -291 LINE",
-"-93 176 LINE",
-"-233 176 LINE",
-"-233 -72 LINE SMOOTH",
-"-233 -101 OFFCURVE",
-"-232 -120 OFFCURVE",
-"-230 -138 CURVE",
-"-212 -144 LINE",
-"-253 -101 OFFCURVE",
-"-382 -82 OFFCURVE",
-"-421 -82 CURVE SMOOTH",
-"-459 -82 OFFCURVE",
-"-536 -88 OFFCURVE",
-"-592 -122 CURVE SMOOTH",
-"-638 -149 OFFCURVE",
-"-656 -155 OFFCURVE",
-"-676 -155 CURVE SMOOTH",
-"-695 -155 OFFCURVE",
-"-706 -146 OFFCURVE",
-"-706 -128 CURVE SMOOTH",
-"-706 -117 OFFCURVE",
-"-712 -68 OFFCURVE",
-"-709 -52 CURVE",
-"-818 -52 LINE",
-"-856 -101 OFFCURVE",
-"-862 -109 OFFCURVE",
-"-862 -157 CURVE SMOOTH"
-);
-}
-);
 width = 0;
 },
 {
-layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
-paths = (
+anchors = (
 {
-closed = 1;
-nodes = (
-"-536 -229 OFFCURVE",
-"-497 -257 OFFCURVE",
-"-454 -257 CURVE SMOOTH",
-"-415 -257 OFFCURVE",
-"-389 -242 OFFCURVE",
-"-338 -207 CURVE SMOOTH",
-"-306 -185 OFFCURVE",
-"-280 -173 OFFCURVE",
-"-254 -173 CURVE SMOOTH",
-"-216 -173 OFFCURVE",
-"-188 -187 OFFCURVE",
-"-122 -257 CURVE",
-"-102 -257 LINE",
-"-102 42 LINE",
-"-128 42 LINE",
-"-128 -164 LINE SMOOTH",
-"-128 -184 OFFCURVE",
-"-127 -203 OFFCURVE",
-"-125 -230 CURVE",
-"-117 -228 LINE",
-"-180 -159 OFFCURVE",
-"-217 -147 OFFCURVE",
-"-255 -147 CURVE SMOOTH",
-"-290 -147 OFFCURVE",
-"-318 -162 OFFCURVE",
-"-356 -188 CURVE SMOOTH",
-"-410 -225 OFFCURVE",
-"-423 -231 OFFCURVE",
-"-456 -231 CURVE SMOOTH",
-"-485 -231 OFFCURVE",
-"-509 -211 OFFCURVE",
-"-509 -165 CURVE SMOOTH",
-"-509 -131 OFFCURVE",
-"-495 -104 OFFCURVE",
-"-463 -72 CURVE",
-"-482 -54 LINE",
-"-515 -88 OFFCURVE",
-"-536 -119 OFFCURVE",
-"-536 -164 CURVE SMOOTH"
-);
+name = _uvowel;
+position = "{-57, 0}";
 }
 );
+components = (
+{
+name = _part.uuvowelsignsinh;
+piece = {
+length = 100;
+};
+transform = "{1, 0, 0, 1, -15, 0}";
+}
+);
+layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 width = 0;
 },
 {

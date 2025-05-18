@@ -42,7 +42,7 @@ position = "{795, 730}";
 },
 {
 name = uvowel;
-position = "{1395, 0}";
+position = "{1435, 0}";
 }
 );
 components = (

@@ -118,7 +118,7 @@ position = "{395, 800}";
 },
 {
 name = uvowel;
-position = "{808, 0}";
+position = "{786, 0}";
 }
 );
 layerId = UUID0;
@@ -538,7 +538,7 @@ position = "{278, 821}";
 },
 {
 name = uvowel;
-position = "{558, 0}";
+position = "{548, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -740,7 +740,7 @@ width = 614;
 anchors = (
 {
 name = rakar;
-position = "{615.333, 84.2}";
+position = "{600, 0}";
 },
 {
 name = repaya;
@@ -748,7 +748,7 @@ position = "{306, 800}";
 },
 {
 name = uvowel;
-position = "{618.093, 70.4}";
+position = "{596, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -950,7 +950,7 @@ width = 660;
 anchors = (
 {
 name = rakar;
-position = "{731.171, 84.2}";
+position = "{720, 0}";
 },
 {
 name = repaya;
@@ -958,7 +958,7 @@ position = "{364, 800}";
 },
 {
 name = uvowel;
-position = "{734.45, 70.4}";
+position = "{716, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
