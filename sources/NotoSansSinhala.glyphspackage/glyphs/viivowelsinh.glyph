@@ -1111,12 +1111,6 @@ width = 607;
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {
-closed = 0;
-nodes = (
-"483 727 LINE"
-);
-},
-{
 closed = 1;
 nodes = (
 "554 -11 OFFCURVE",
