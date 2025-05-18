@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 8;
 glyphname = nadasinh;
 layers = (
 {
@@ -566,6 +566,10 @@ width = 1103;
 {
 anchors = (
 {
+name = iVowel;
+position = "{611, 0}";
+},
+{
 name = repaya;
 position = "{518.569, 740}";
 },
@@ -749,6 +753,10 @@ width = 785;
 {
 anchors = (
 {
+name = iVowel;
+position = "{618, 0}";
+},
+{
 name = repaya;
 position = "{547.303, 740}";
 },
@@ -931,6 +939,10 @@ width = 828;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{600, 0}";
+},
 {
 name = repaya;
 position = "{597.928, 740}";
