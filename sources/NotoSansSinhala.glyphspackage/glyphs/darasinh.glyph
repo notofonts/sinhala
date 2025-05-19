@@ -1,8 +1,14 @@
 {
-color = 0;
+color = 8;
 glyphname = darasinh;
 layers = (
 {
+anchors = (
+{
+name = virama;
+position = "{462, 536}";
+}
+);
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -1192,6 +1198,12 @@ nodes = (
 width = 575;
 },
 {
+anchors = (
+{
+name = virama;
+position = "{334, 536}";
+}
+);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -1232,9 +1244,7 @@ nodes = (
 "303 586 OFFCURVE",
 "325 539 OFFCURVE",
 "325 467 CURVE SMOOTH",
-"325 447 OFFCURVE",
-"325 428 OFFCURVE",
-"325 416 CURVE",
+"325 416 LINE",
 "339 425 LINE",
 "239 425 LINE SMOOTH",
 "100 425 OFFCURVE",
@@ -1264,7 +1274,9 @@ nodes = (
 "89 -245 OFFCURVE",
 "46 -174 OFFCURVE",
 "46 -66 CURVE SMOOTH",
-"46 -57 LINE",
+"46 -63 OFFCURVE",
+"46 -60 OFFCURVE",
+"46 -57 CURVE",
 "20 -56 LINE",
 "19 -59 OFFCURVE",
 "19 -66 OFFCURVE",
@@ -1367,6 +1379,12 @@ nodes = (
 width = 379;
 },
 {
+anchors = (
+{
+name = virama;
+position = "{353, 536}";
+}
+);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -1407,9 +1425,7 @@ nodes = (
 "311 547 OFFCURVE",
 "323 514 OFFCURVE",
 "323 469 CURVE SMOOTH",
-"323 456 OFFCURVE",
-"323 431 OFFCURVE",
-"323 412 CURVE",
+"323 412 LINE",
 "356 435 LINE",
 "265 435 LINE SMOOTH",
 "99 435 OFFCURVE",
@@ -1544,6 +1560,12 @@ nodes = (
 width = 415;
 },
 {
+anchors = (
+{
+name = virama;
+position = "{427, 536}";
+}
+);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {
