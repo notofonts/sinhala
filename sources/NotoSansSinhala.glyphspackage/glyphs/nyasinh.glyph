@@ -2692,10 +2692,6 @@ position = "{1234, 0}";
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 components = (
 {
-name = _part.ka;
-transform = "{1, 0, 0, 1, 230, 0}";
-},
-{
 name = dasinh;
 transform = "{1, 0, 0, 1, 810, 0}";
 }
@@ -2742,10 +2738,6 @@ position = "{1234, 0}";
 );
 associatedMasterId = UUID0;
 components = (
-{
-name = _part.ka;
-transform = "{1, 0, 0, 1, 233, 0}";
-},
 {
 name = dasinh;
 transform = "{1, 0, 0, 1, 800, 0}";

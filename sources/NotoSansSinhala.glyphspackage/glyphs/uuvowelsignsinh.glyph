@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 2;
 glyphname = uuvowelsignsinh;
 layers = (
 {
@@ -79,6 +79,9 @@ position = "{-62, 0}";
 components = (
 {
 name = _part.uuvowelsignsinh;
+piece = {
+length = 27.98549;
+};
 transform = "{1, 0, 0, 1, -19, 0}";
 }
 );

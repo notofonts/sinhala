@@ -19,10 +19,6 @@ position = "{1305, 0}";
 );
 components = (
 {
-name = _part.ka;
-transform = "{1, 0, 0, 1, 30, 0}";
-},
-{
 name = ssasinh;
 transform = "{1, 0, 0, 1, 680, 0}";
 }
@@ -47,10 +43,6 @@ position = "{1435, 0}";
 );
 components = (
 {
-name = _part.ka;
-transform = "{1, 0, 0, 1, 50, 0}";
-},
-{
 name = ssasinh;
 transform = "{1, 0, 0, 1, 700, 0}";
 }
@@ -74,10 +66,6 @@ position = "{1405, 0}";
 }
 );
 components = (
-{
-name = _part.ka;
-transform = "{1, 0, 0, 1, 30, 0}";
-},
 {
 name = ssasinh;
 transform = "{1, 0, 0, 1, 620, 0}";

@@ -966,7 +966,7 @@ width = 587;
 anchors = (
 {
 name = rakar;
-position = "{558.361, 131.25}";
+position = "{500, 0}";
 },
 {
 name = repaya;
@@ -974,7 +974,7 @@ position = "{277.556, 911}";
 },
 {
 name = uvowel;
-position = "{546.087, 110}";
+position = "{498, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";

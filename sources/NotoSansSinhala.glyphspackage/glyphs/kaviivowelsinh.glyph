@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 5;
 glyphname = kaviivowelsinh;
 layers = (
 {
@@ -658,12 +658,6 @@ width = 1393;
 },
 {
 associatedMasterId = UUID0;
-components = (
-{
-name = _part.ka;
-transform = "{1, 0, 0, 1, 40, 0}";
-}
-);
 layerId = "9AF2AFD4-4270-41A3-B4C2-A551261C0087";
 name = "29 Dec 24 at 17:18";
 paths = (

@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 5;
 glyphname = kasinh;
 layers = (
 {
@@ -18,7 +18,7 @@ position = "{558.366, 730}";
 },
 {
 name = uvowel;
-position = "{672, 1}";
+position = "{656, 0}";
 },
 {
 name = virama;
@@ -171,7 +171,7 @@ position = "{595, 730}";
 },
 {
 name = uvowel;
-position = "{745, 0}";
+position = "{733, 0}";
 },
 {
 name = virama;
@@ -329,7 +329,7 @@ position = "{622, 730}";
 },
 {
 name = uvowel;
-position = "{772, 1}";
+position = "{756, 1}";
 },
 {
 name = virama;

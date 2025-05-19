@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 2;
 glyphname = uuvowelsignsinh.medium;
 layers = (
 {
@@ -53,7 +53,7 @@ name = _part.uuvowelsignsinh;
 piece = {
 length = 53.0971;
 };
-transform = "{1, 0, 0, 1, 48, 0}";
+transform = "{1, 0, 0, 1, 28, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -79,103 +79,41 @@ layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 width = 0;
 },
 {
-layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-paths = (
+anchors = (
 {
-closed = 1;
-nodes = (
-"-557 -229 OFFCURVE",
-"-502 -261 OFFCURVE",
-"-458 -261 CURVE SMOOTH",
-"-409 -261 OFFCURVE",
-"-379 -243 OFFCURVE",
-"-328 -210 CURVE SMOOTH",
-"-299 -191 OFFCURVE",
-"-279 -181 OFFCURVE",
-"-251 -181 CURVE SMOOTH",
-"-212 -181 OFFCURVE",
-"-172 -211 OFFCURVE",
-"-134 -261 CURVE",
-"-80 -261 LINE",
-"-80 42 LINE",
-"-146 42 LINE",
-"-146 -112 LINE SMOOTH",
-"-146 -139 OFFCURVE",
-"-144 -181 OFFCURVE",
-"-141 -207 CURVE",
-"-125 -187 LINE",
-"-175 -133 OFFCURVE",
-"-215 -114 OFFCURVE",
-"-257 -114 CURVE SMOOTH",
-"-297 -114 OFFCURVE",
-"-325 -129 OFFCURVE",
-"-366 -157 CURVE SMOOTH",
-"-413 -189 OFFCURVE",
-"-427 -194 OFFCURVE",
-"-451 -194 CURVE SMOOTH",
-"-473 -194 OFFCURVE",
-"-489 -181 OFFCURVE",
-"-489 -149 CURVE SMOOTH",
-"-489 -120 OFFCURVE",
-"-471 -96 OFFCURVE",
-"-449 -73 CURVE",
-"-499 -27 LINE",
-"-537 -65 OFFCURVE",
-"-557 -101 OFFCURVE",
-"-557 -148 CURVE SMOOTH"
-);
+name = _uvowel;
+position = "{-58, 0}";
 }
 );
+components = (
+{
+name = _part.uuvowelsignsinh;
+piece = {
+length = 49.94838;
+};
+transform = "{1, 0, 0, 1, -11, 0}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 width = 0;
 },
 {
-layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
-paths = (
+anchors = (
 {
-closed = 1;
-nodes = (
-"-592 -227 OFFCURVE",
-"-528 -270 OFFCURVE",
-"-455 -270 CURVE SMOOTH",
-"-395 -270 OFFCURVE",
-"-358 -258 OFFCURVE",
-"-302 -226 CURVE SMOOTH",
-"-266 -205 OFFCURVE",
-"-250 -198 OFFCURVE",
-"-228 -198 CURVE SMOOTH",
-"-193 -198 OFFCURVE",
-"-173 -220 OFFCURVE",
-"-139 -270 CURVE",
-"-25 -270 LINE",
-"-25 55 LINE",
-"-158 55 LINE",
-"-158 -61 LINE SMOOTH",
-"-158 -82 OFFCURVE",
-"-156 -121 OFFCURVE",
-"-153 -140 CURVE",
-"-129 -141 LINE",
-"-171 -88 OFFCURVE",
-"-206 -68 OFFCURVE",
-"-248 -68 CURVE SMOOTH",
-"-289 -68 OFFCURVE",
-"-311 -78 OFFCURVE",
-"-359 -110 CURVE SMOOTH",
-"-392 -132 OFFCURVE",
-"-405 -140 OFFCURVE",
-"-421 -140 CURVE SMOOTH",
-"-439 -140 OFFCURVE",
-"-447 -130 OFFCURVE",
-"-447 -111 CURVE SMOOTH",
-"-447 -98 OFFCURVE",
-"-441 -85 OFFCURVE",
-"-429 -71 CURVE",
-"-535 -4 LINE",
-"-575 -51 OFFCURVE",
-"-592 -91 OFFCURVE",
-"-592 -136 CURVE SMOOTH"
-);
+name = _uvowel;
+position = "{-57, 0}";
 }
 );
+components = (
+{
+name = _part.uuvowelsignsinh;
+piece = {
+length = 53.0971;
+};
+transform = "{1, 0, 0, 1, 16, 0}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 width = 0;
 }
 );

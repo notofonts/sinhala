@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 2;
 glyphname = uuvowelsignsinh.long;
 layers = (
 {
@@ -108,7 +108,7 @@ name = _part.uuvowelsignsinh;
 piece = {
 length = 100;
 };
-transform = "{1, 0, 0, 1, 30, 0}";
+transform = "{1, 0, 0, 1, 18, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

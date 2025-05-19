@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 2;
 glyphname = uuvowelsignsinh.va;
 layers = (
 {
@@ -94,7 +94,7 @@ position = "{-57, 0}";
 components = (
 {
 name = _part.uuvowelsignsinh;
-transform = "{1, 0, 0, 1, 48, 0}";
+transform = "{1, 0, 0, 1, 28, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -132,7 +132,7 @@ name = _part.uuvowelsignsinh;
 piece = {
 length = 36.65179;
 };
-transform = "{1, 0, 0, 1, 48, 0}";
+transform = "{1, 0, 0, 1, 14, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -151,7 +151,7 @@ name = _part.uuvowelsignsinh;
 piece = {
 length = 36.65179;
 };
-transform = "{1, 0, 0, 1, 48, 0}";
+transform = "{1, 0, 0, 1, 38, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

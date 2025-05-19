@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 5;
 glyphname = kavasinh;
 layers = (
 {
@@ -599,10 +599,6 @@ position = "{1290.822, 0}";
 associatedMasterId = UUID0;
 components = (
 {
-name = _part.ka;
-transform = "{1, 0, 0, 1, 30, 0}";
-},
-{
 name = vasinh;
 transform = "{1, 0, 0, 1, 610, 0}";
 }
@@ -628,10 +624,6 @@ position = "{1379.844, 0}";
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 components = (
-{
-name = _part.ka;
-transform = "{1, 0, 0, 1, 30, 0}";
-},
 {
 name = vasinh;
 transform = "{1, 0, 0, 1, 660, 0}";

@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 5;
 glyphname = tasinh;
 layers = (
 {
@@ -18,7 +18,7 @@ position = "{492, 730}";
 },
 {
 name = uvowel;
-position = "{580, 0}";
+position = "{567, 0}";
 },
 {
 name = virama;
@@ -231,8 +231,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"639 -13 LINE",
-"812 -13 OFFCURVE",
+"639 -11 LINE",
+"812 -11 OFFCURVE",
 "902 105 OFFCURVE",
 "902 287 CURVE SMOOTH",
 "902 481 OFFCURVE",
@@ -259,10 +259,10 @@ nodes = (
 "827 458 OFFCURVE",
 "827 292 CURVE SMOOTH",
 "827 169 OFFCURVE",
-"785 56 OFFCURVE",
-"641 56 CURVE",
-"634 56 LINE",
-"634 -13 LINE"
+"785 58 OFFCURVE",
+"641 58 CURVE",
+"634 58 LINE",
+"634 -11 LINE"
 );
 }
 );
@@ -284,7 +284,7 @@ position = "{557, 730}";
 },
 {
 name = uvowel;
-position = "{659, 0}";
+position = "{664, 0}";
 },
 {
 name = virama;
