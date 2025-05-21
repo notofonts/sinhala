@@ -953,6 +953,9 @@ position = "{-485, 862}";
 {
 name = "i_sign-ASCE";
 position = "{-477, 957}";
+},
+{
+position = "{-779, -213}";
 }
 );
 id = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -975,6 +978,9 @@ descender = -293;
 guideLines = (
 {
 position = "{-272, 896}";
+},
+{
+position = "{-208, -232}";
 }
 );
 id = UUID0;
@@ -1001,6 +1007,9 @@ position = "{-507, 953}";
 {
 name = "i_sign-ASCE";
 position = "{-347, 924}";
+},
+{
+position = "{-502, -266}";
 }
 );
 id = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
