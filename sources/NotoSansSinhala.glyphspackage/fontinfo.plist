@@ -1029,16 +1029,6 @@ alignmentZones = (
 ascender = 1011;
 capHeight = 612;
 descender = -293;
-guideLines = (
-{
-name = "i_sign-ASCE";
-position = "{-489, 860}";
-},
-{
-name = "i_sign-ASCE";
-position = "{-477, 920}";
-}
-);
 id = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 verticalStems = (
 27
@@ -1058,6 +1048,11 @@ alignmentZones = (
 ascender = 1011;
 capHeight = 612;
 descender = -293;
+guideLines = (
+{
+position = "{-430, -232}";
+}
+);
 id = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 verticalStems = (
 70
@@ -1076,12 +1071,6 @@ alignmentZones = (
 ascender = 1011;
 capHeight = 612;
 descender = -293;
-guideLines = (
-{
-name = "i_sign-ASCE";
-position = "{-316, 890}";
-}
-);
 id = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 verticalStems = (
 175
@@ -3716,6 +3705,9 @@ khasinh = {
 rrvocalicvowelsignsinh = -6;
 rvocalicvowelsignsinh = -6;
 yapostsinh = -12;
+};
+kunddaliyasinh = {
+kunddaliyasinh = -58;
 };
 lasinh = {
 aaevowelsignsinh = 5;

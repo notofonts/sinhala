@@ -675,7 +675,7 @@ position = "{383, 730}";
 },
 {
 name = uvowel;
-position = "{460, 0}";
+position = "{433, 0}";
 },
 {
 name = virama;
@@ -1017,8 +1017,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"475 -7 LINE",
-"591 -7 OFFCURVE",
+"475 -9 LINE",
+"591 -9 OFFCURVE",
 "671 86 OFFCURVE",
 "671 292 CURVE SMOOTH",
 "671 494 OFFCURVE",
@@ -1045,10 +1045,10 @@ nodes = (
 "601 458 OFFCURVE",
 "601 292 CURVE SMOOTH",
 "601 150 OFFCURVE",
-"568 57 OFFCURVE",
-"473 57 CURVE",
-"466 57 LINE",
-"466 -7 LINE"
+"568 55 OFFCURVE",
+"473 55 CURVE",
+"466 55 LINE",
+"466 -9 LINE"
 );
 }
 );
@@ -1199,7 +1199,7 @@ position = "{492, 730}";
 },
 {
 name = uvowel;
-position = "{619, 0}";
+position = "{598, 0}";
 },
 {
 name = virama;
