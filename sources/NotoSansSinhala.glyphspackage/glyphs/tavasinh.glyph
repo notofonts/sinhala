@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 8;
 glyphname = tavasinh;
 layers = (
 {
@@ -1253,7 +1253,7 @@ position = "{905, 800}";
 },
 {
 name = uvowel;
-position = "{1217, 0}";
+position = "{1197, 0}";
 }
 );
 associatedMasterId = UUID0;

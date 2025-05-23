@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 8;
 glyphname = jhasinh;
 layers = (
 {
@@ -775,6 +775,12 @@ position = "{1359, 176}";
 }
 );
 associatedMasterId = UUID0;
+components = (
+{
+name = _part.ka;
+transform = "{1, 0, 0, 1, 20, 0}";
+}
+);
 layerId = "54DD7E41-69E5-4ED0-8605-147108EE17A6";
 name = "29 Dec 24 at 17:21";
 paths = (
@@ -1165,7 +1171,7 @@ width = 1460;
 anchors = (
 {
 name = rakar;
-position = "{950, 0}";
+position = "{960, 140}";
 },
 {
 name = repaya;
@@ -1173,7 +1179,7 @@ position = "{304, 694}";
 },
 {
 name = uvowel;
-position = "{939, 0}";
+position = "{955, 88}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -1357,7 +1363,7 @@ width = 1020;
 anchors = (
 {
 name = rakar;
-position = "{990, 0}";
+position = "{995, 140}";
 },
 {
 name = repaya;
@@ -1365,7 +1371,7 @@ position = "{310, 694}";
 },
 {
 name = uvowel;
-position = "{979, 0}";
+position = "{990, 88}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -1549,7 +1555,7 @@ width = 1068;
 anchors = (
 {
 name = rakar;
-position = "{1110, 0}";
+position = "{1140, 140}";
 },
 {
 name = repaya;
@@ -1557,7 +1563,7 @@ position = "{368, 694}";
 },
 {
 name = uvowel;
-position = "{1099, 0}";
+position = "{1134, 88}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 8;
 glyphname = ttatthasinh;
 layers = (
 {
@@ -149,7 +149,7 @@ position = "{515, 800}";
 },
 {
 name = uvowel;
-position = "{917, 0}";
+position = "{897, 0}";
 }
 );
 layerId = UUID0;

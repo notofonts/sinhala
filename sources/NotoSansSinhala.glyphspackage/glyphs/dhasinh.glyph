@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 8;
 glyphname = dhasinh;
 layers = (
 {
@@ -98,7 +98,7 @@ position = "{400, 800}";
 },
 {
 name = uvowel;
-position = "{790, 0}";
+position = "{770, 0}";
 }
 );
 guideLines = (
