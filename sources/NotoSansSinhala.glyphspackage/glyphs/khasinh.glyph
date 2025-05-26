@@ -110,7 +110,7 @@ width = 821;
 anchors = (
 {
 name = rakar;
-position = "{808, 0}";
+position = "{728, 0}";
 },
 {
 name = repaya;
@@ -147,7 +147,7 @@ nodes = (
 "249 57 CURVE SMOOTH",
 "189 57 OFFCURVE",
 "153 86 OFFCURVE",
-"132 129 CURVE",
+"132 129 CURVE SMOOTH",
 "114 163 OFFCURVE",
 "109 202 OFFCURVE",
 "109 238 CURVE SMOOTH",
@@ -214,7 +214,7 @@ width = 874;
 anchors = (
 {
 name = rakar;
-position = "{860, 0}";
+position = "{700, 0}";
 },
 {
 name = repaya;
@@ -530,7 +530,7 @@ width = 952;
 anchors = (
 {
 name = rakar;
-position = "{551, 0}";
+position = "{522, 0}";
 },
 {
 name = repaya;
@@ -567,7 +567,7 @@ nodes = (
 "179 15 CURVE SMOOTH",
 "118 15 OFFCURVE",
 "89 71 OFFCURVE",
-"78 133 CURVE",
+"78 133 CURVE SMOOTH",
 "70 171 OFFCURVE",
 "69 212 OFFCURVE",
 "69 237 CURVE SMOOTH",
@@ -740,7 +740,7 @@ width = 614;
 anchors = (
 {
 name = rakar;
-position = "{600, 0}";
+position = "{530, 0}";
 },
 {
 name = repaya;
@@ -777,7 +777,7 @@ nodes = (
 "188 53 CURVE SMOOTH",
 "144 53 OFFCURVE",
 "112 94 OFFCURVE",
-"105 156 CURVE",
+"105 156 CURVE SMOOTH",
 "104 179 OFFCURVE",
 "101 209 OFFCURVE",
 "101 237 CURVE SMOOTH",
@@ -1041,7 +1041,7 @@ nodes = (
 "523 145 OFFCURVE",
 "530 184 CURVE",
 "477 184 LINE",
-"477 147 LINE",
+"477 147 LINE SMOOTH",
 "477 57 OFFCURVE",
 "529 -11 OFFCURVE",
 "593 -11 CURVE SMOOTH"

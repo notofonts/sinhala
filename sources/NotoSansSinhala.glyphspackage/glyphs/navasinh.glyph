@@ -1,12 +1,12 @@
 {
-color = 8;
+color = 5;
 glyphname = navasinh;
 layers = (
 {
 anchors = (
 {
 name = rakar;
-position = "{1201.815, 0}";
+position = "{1225, 0}";
 },
 {
 name = repaya;
@@ -102,7 +102,7 @@ nodes = (
 "132 231 CURVE SMOOTH",
 "192 231 OFFCURVE",
 "273 268 OFFCURVE",
-"307 394 CURVE",
+"307 394 CURVE SMOOTH",
 "310 405 LINE",
 "348 499 OFFCURVE",
 "437 586 OFFCURVE",
@@ -352,7 +352,7 @@ width = 1368;
 anchors = (
 {
 name = rakar;
-position = "{1279.624, 0}";
+position = "{1120, 0}";
 },
 {
 name = repaya;
@@ -500,7 +500,7 @@ nodes = (
 "726 463 LINE",
 "726 463 OFFCURVE",
 "726 464 OFFCURVE",
-"726 464 CURVE SMOOTH",
+"726 464 CURVE",
 "726 484 OFFCURVE",
 "738 504 OFFCURVE",
 "767 504 CURVE SMOOTH",
@@ -525,7 +525,7 @@ width = 1323;
 anchors = (
 {
 name = rakar;
-position = "{870.894, 0}";
+position = "{871, 0}";
 },
 {
 name = repaya;
@@ -533,7 +533,7 @@ position = "{620, 800}";
 },
 {
 name = uvowel;
-position = "{867.595, 0}";
+position = "{868, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -622,7 +622,7 @@ nodes = (
 "174 231 OFFCURVE",
 "219 261 OFFCURVE",
 "245 427 CURVE",
-"247 433 LINE",
+"247 433 LINE SMOOTH",
 "277 512 OFFCURVE",
 "324 586 OFFCURVE",
 "422 586 CURVE SMOOTH",
@@ -698,7 +698,7 @@ width = 959;
 anchors = (
 {
 name = rakar;
-position = "{914.954, 0}";
+position = "{915, 0}";
 },
 {
 name = repaya;
@@ -706,7 +706,7 @@ position = "{649, 800}";
 },
 {
 name = uvowel;
-position = "{911.489, 0}";
+position = "{911, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -871,7 +871,7 @@ width = 1015;
 anchors = (
 {
 name = rakar;
-position = "{977.764, 0}";
+position = "{978, 0}";
 },
 {
 name = repaya;
@@ -879,7 +879,7 @@ position = "{681, 800}";
 },
 {
 name = uvowel;
-position = "{974.06, 0}";
+position = "{974, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

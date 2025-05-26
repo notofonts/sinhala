@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 5;
 glyphname = ssasinh;
 layers = (
 {
@@ -10,7 +10,7 @@ position = "{211, 0}";
 },
 {
 name = rakar;
-position = "{690, 0}";
+position = "{727, 0}";
 },
 {
 name = repaya;
@@ -47,8 +47,8 @@ nodes = (
 "697 471 CURVE SMOOTH",
 "697 434 OFFCURVE",
 "684 399 OFFCURVE",
-"659 378 CURVE",
-"653 372 LINE",
+"659 378 CURVE SMOOTH",
+"653 372 LINE SMOOTH",
 "612 330 OFFCURVE",
 "534 321 OFFCURVE",
 "478 321 CURVE SMOOTH",
@@ -145,7 +145,7 @@ position = "{239, 0}";
 },
 {
 name = rakar;
-position = "{743, 0}";
+position = "{673, 0}";
 },
 {
 name = repaya;
@@ -224,7 +224,7 @@ nodes = (
 "430 516 OFFCURVE",
 "430 420 CURVE SMOOTH",
 "430 359 LINE",
-"559 359 LINE",
+"559 359 LINE SMOOTH",
 "640 359 OFFCURVE",
 "701 338 OFFCURVE",
 "701 244 CURVE SMOOTH",
@@ -280,7 +280,7 @@ position = "{249, 0}";
 },
 {
 name = rakar;
-position = "{798, 0}";
+position = "{680, 0}";
 },
 {
 name = repaya;
@@ -357,7 +357,7 @@ nodes = (
 "642 622 CURVE SMOOTH",
 "514 622 OFFCURVE",
 "448 536 OFFCURVE",
-"448 412 CURVE",
+"448 412 CURVE SMOOTH",
 "448 360 LINE",
 "510 360 LINE SMOOTH",
 "627 360 OFFCURVE",
@@ -373,7 +373,7 @@ nodes = (
 "275 360 OFFCURVE",
 "356 360 CURVE SMOOTH",
 "418 360 LINE",
-"418 412 LINE",
+"418 412 LINE SMOOTH",
 "418 536 OFFCURVE",
 "352 622 OFFCURVE",
 "224 622 CURVE SMOOTH",
@@ -558,7 +558,7 @@ position = "{139, 0}";
 },
 {
 name = rakar;
-position = "{490, 0}";
+position = "{477, 0}";
 },
 {
 name = repaya;
@@ -596,7 +596,7 @@ nodes = (
 "472 453 OFFCURVE",
 "459 413 OFFCURVE",
 "441 388 CURVE",
-"438 382 LINE",
+"438 382 LINE SMOOTH",
 "421 351 OFFCURVE",
 "379 321 OFFCURVE",
 "309 321 CURVE SMOOTH",
@@ -836,7 +836,7 @@ position = "{203, 0}";
 },
 {
 name = rakar;
-position = "{524, 0}";
+position = "{504, 0}";
 },
 {
 name = repaya;
@@ -844,7 +844,7 @@ position = "{312, 730}";
 },
 {
 name = uvowel;
-position = "{572.28, 44}";
+position = "{572, 44}";
 },
 {
 name = virama;

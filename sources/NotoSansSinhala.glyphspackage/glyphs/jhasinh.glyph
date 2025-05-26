@@ -1,12 +1,12 @@
 {
-color = 8;
+color = 5;
 glyphname = jhasinh;
 layers = (
 {
 anchors = (
 {
 name = rakar;
-position = "{1396, 0}";
+position = "{1343, 0}";
 },
 {
 name = repaya;
@@ -112,8 +112,8 @@ nodes = (
 "610 612 CURVE SMOOTH",
 "473 612 OFFCURVE",
 "373 561 OFFCURVE",
-"266 476 CURVE",
-"260 471 LINE",
+"266 476 CURVE SMOOTH",
+"260 471 LINE SMOOTH",
 "184 395 OFFCURVE",
 "77 263 OFFCURVE",
 "-2 151 CURVE",
@@ -122,7 +122,7 @@ nodes = (
 "74 202 LINE",
 "125 274 OFFCURVE",
 "177 343 OFFCURVE",
-"229 401 CURVE",
+"229 401 CURVE SMOOTH",
 "240 415 LINE",
 "364 534 OFFCURVE",
 "478 583 OFFCURVE",
@@ -198,7 +198,7 @@ width = 1420;
 anchors = (
 {
 name = rakar;
-position = "{1420, 0}";
+position = "{1320, 0}";
 },
 {
 name = repaya;
@@ -304,8 +304,8 @@ nodes = (
 "624 612 CURVE SMOOTH",
 "512 612 OFFCURVE",
 "396 580 OFFCURVE",
-"277 479 CURVE",
-"256 461 LINE",
+"277 479 CURVE SMOOTH",
+"256 461 LINE SMOOTH",
 "188 396 OFFCURVE",
 "125 321 OFFCURVE",
 "11 170 CURVE",
@@ -315,7 +315,7 @@ nodes = (
 "184 287 OFFCURVE",
 "239 356 OFFCURVE",
 "294 410 CURVE",
-"305 419 LINE",
+"305 419 LINE SMOOTH",
 "393 500 OFFCURVE",
 "504 548 OFFCURVE",
 "627 548 CURVE SMOOTH",
@@ -390,7 +390,7 @@ width = 1471;
 anchors = (
 {
 name = rakar;
-position = "{1388, 0}";
+position = "{1270, 0}";
 },
 {
 name = repaya;
@@ -503,7 +503,7 @@ nodes = (
 "8 195 CURVE",
 "93 120 LINE",
 "136 161 LINE",
-"164 195 LINE",
+"164 195 LINE SMOOTH",
 "217 257 OFFCURVE",
 "266 305 OFFCURVE",
 "350 368 CURVE",
@@ -1171,7 +1171,7 @@ width = 1460;
 anchors = (
 {
 name = rakar;
-position = "{960, 140}";
+position = "{932, 0}";
 },
 {
 name = repaya;
@@ -1284,11 +1284,11 @@ nodes = (
 "20 165 CURVE",
 "45 153 LINE",
 "62 189 LINE",
-"67 199 LINE",
+"67 199 LINE SMOOTH",
 "102 269 OFFCURVE",
 "148 353 OFFCURVE",
-"184 406 CURVE",
-"190 416 LINE",
+"184 406 CURVE SMOOTH",
+"190 416 LINE SMOOTH",
 "275 544 OFFCURVE",
 "353 586 OFFCURVE",
 "458 586 CURVE SMOOTH",
@@ -1363,7 +1363,7 @@ width = 1020;
 anchors = (
 {
 name = rakar;
-position = "{995, 140}";
+position = "{934, 0}";
 },
 {
 name = repaya;
@@ -1469,7 +1469,7 @@ nodes = (
 "476 612 CURVE SMOOTH",
 "371 612 OFFCURVE",
 "293 574 OFFCURVE",
-"209 479 CURVE",
+"209 479 CURVE SMOOTH",
 "194 462 LINE",
 "144 396 OFFCURVE",
 "81 301 OFFCURVE",
@@ -1672,7 +1672,7 @@ nodes = (
 "202 270 OFFCURVE",
 "279 339 OFFCURVE",
 "320 392 CURVE",
-"347 422 LINE",
+"347 422 LINE SMOOTH",
 "389 463 OFFCURVE",
 "443 499 OFFCURVE",
 "535 499 CURVE SMOOTH",

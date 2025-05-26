@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 5;
 glyphname = nadasinh;
 layers = (
 {
@@ -102,7 +102,7 @@ nodes = (
 "132 231 CURVE SMOOTH",
 "192 231 OFFCURVE",
 "273 268 OFFCURVE",
-"307 394 CURVE",
+"307 394 CURVE SMOOTH",
 "310 405 LINE",
 "348 499 OFFCURVE",
 "437 586 OFFCURVE",
@@ -571,7 +571,7 @@ position = "{611, 0}";
 },
 {
 name = repaya;
-position = "{518.569, 740}";
+position = "{519, 740}";
 },
 {
 name = virama;
@@ -664,7 +664,7 @@ nodes = (
 "174 231 OFFCURVE",
 "219 261 OFFCURVE",
 "245 427 CURVE",
-"247 433 LINE",
+"247 433 LINE SMOOTH",
 "277 512 OFFCURVE",
 "324 586 OFFCURVE",
 "422 586 CURVE SMOOTH",
@@ -709,7 +709,7 @@ nodes = (
 "649 586 CURVE SMOOTH",
 "708 586 OFFCURVE",
 "730 539 OFFCURVE",
-"730 467 CURVE",
+"730 467 CURVE SMOOTH",
 "730 416 LINE",
 "744 425 LINE",
 "644 425 LINE SMOOTH",
@@ -758,7 +758,7 @@ position = "{618, 0}";
 },
 {
 name = repaya;
-position = "{547.303, 740}";
+position = "{547, 740}";
 },
 {
 name = virama;
@@ -896,7 +896,7 @@ nodes = (
 "695 547 CURVE SMOOTH",
 "734 547 OFFCURVE",
 "746 514 OFFCURVE",
-"746 469 CURVE",
+"746 469 CURVE SMOOTH",
 "746 412 LINE",
 "779 435 LINE",
 "688 435 LINE SMOOTH",
@@ -945,7 +945,7 @@ position = "{600, 0}";
 },
 {
 name = repaya;
-position = "{597.928, 740}";
+position = "{598, 740}";
 },
 {
 name = virama;

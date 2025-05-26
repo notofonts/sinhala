@@ -1,20 +1,20 @@
 {
-color = 8;
+color = 5;
 glyphname = nyacasinh;
 layers = (
 {
 anchors = (
 {
 name = rakar;
-position = "{768.685, 0}";
+position = "{809, 0}";
 },
 {
 name = repaya;
-position = "{472.402, 800}";
+position = "{472, 800}";
 },
 {
 name = uvowel;
-position = "{756.76, 0}";
+position = "{757, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -115,7 +115,7 @@ width = 909;
 anchors = (
 {
 name = rakar;
-position = "{838, 0}";
+position = "{848, 0}";
 },
 {
 name = repaya;
@@ -224,11 +224,11 @@ width = 975;
 anchors = (
 {
 name = rakar;
-position = "{958.857, 0}";
+position = "{839, 0}";
 },
 {
 name = repaya;
-position = "{589.274, 800}";
+position = "{589, 800}";
 },
 {
 name = uvowel;
@@ -279,7 +279,7 @@ nodes = (
 "433 475 LINE",
 "433 475 OFFCURVE",
 "433 476 OFFCURVE",
-"433 476 CURVE SMOOTH",
+"433 476 CURVE",
 "433 487 OFFCURVE",
 "444 504 OFFCURVE",
 "473 504 CURVE SMOOTH",
@@ -333,15 +333,15 @@ width = 1052;
 anchors = (
 {
 name = rakar;
-position = "{595.398, 0}";
+position = "{575, 0}";
 },
 {
 name = repaya;
-position = "{365.907, 800}";
+position = "{366, 800}";
 },
 {
 name = uvowel;
-position = "{596.514, 0}";
+position = "{597, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -556,15 +556,15 @@ width = 669;
 anchors = (
 {
 name = rakar;
-position = "{653.16, 0}";
+position = "{653, 0}";
 },
 {
 name = repaya;
-position = "{401.405, 800}";
+position = "{401, 800}";
 },
 {
 name = uvowel;
-position = "{654.385, 0}";
+position = "{654, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -779,15 +779,15 @@ width = 729;
 anchors = (
 {
 name = rakar;
-position = "{774.906, 0}";
+position = "{775, 0}";
 },
 {
 name = repaya;
-position = "{476.225, 800}";
+position = "{476, 800}";
 },
 {
 name = uvowel;
-position = "{776.358, 0}";
+position = "{776, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

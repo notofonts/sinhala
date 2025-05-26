@@ -10,7 +10,7 @@ position = "{241, 0}";
 },
 {
 name = rakar;
-position = "{676.929, 0}";
+position = "{677, 0}";
 },
 {
 name = repaya;
@@ -38,7 +38,7 @@ nodes = (
 "68 121 CURVE SMOOTH",
 "68 250 OFFCURVE",
 "112 333 OFFCURVE",
-"164 367 CURVE",
+"164 367 CURVE SMOOTH",
 "176 374 LINE",
 "196 404 OFFCURVE",
 "238 422 OFFCURVE",
@@ -92,7 +92,7 @@ nodes = (
 "243 448 OFFCURVE",
 "192 429 OFFCURVE",
 "171 401 CURVE",
-"161 396 LINE",
+"161 396 LINE SMOOTH",
 "88 353 OFFCURVE",
 "41 263 OFFCURVE",
 "41 121 CURVE SMOOTH",
@@ -214,7 +214,7 @@ position = "{319, 0}";
 },
 {
 name = rakar;
-position = "{763.404, 0}";
+position = "{763, 0}";
 },
 {
 name = repaya;
@@ -527,7 +527,7 @@ position = "{169, 0}";
 },
 {
 name = rakar;
-position = "{510.486, 0}";
+position = "{510, 0}";
 },
 {
 name = repaya;
@@ -733,7 +733,7 @@ position = "{225, 0}";
 },
 {
 name = rakar;
-position = "{554.189, 0}";
+position = "{554, 0}";
 },
 {
 name = repaya;
@@ -750,8 +750,8 @@ paths = (
 closed = 1;
 nodes = (
 "491 -211 OFFCURVE",
-"564 -74 OFFCURVE",
-"564 81 CURVE",
+"564 -78 OFFCURVE",
+"564 77 CURVE",
 "496 77 LINE",
 "496 -11 OFFCURVE",
 "454 -143 OFFCURVE",
@@ -939,7 +939,7 @@ position = "{271, 0}";
 },
 {
 name = rakar;
-position = "{622.998, 0}";
+position = "{623, 0}";
 },
 {
 name = repaya;

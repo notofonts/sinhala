@@ -1,16 +1,16 @@
 {
-color = 8;
+color = 5;
 glyphname = gadhasinh;
 layers = (
 {
 anchors = (
 {
 name = rakar;
-position = "{1164.348, 0}";
+position = "{1222, 0}";
 },
 {
 name = repaya;
-position = "{826.897, 800}";
+position = "{827, 800}";
 },
 {
 name = uvowel;
@@ -142,7 +142,7 @@ width = 1300;
 anchors = (
 {
 name = rakar;
-position = "{1218, 0}";
+position = "{1178, 0}";
 },
 {
 name = repaya;
@@ -278,11 +278,11 @@ width = 1328;
 anchors = (
 {
 name = rakar;
-position = "{1264.122, 0}";
+position = "{1144, 0}";
 },
 {
 name = repaya;
-position = "{897.755, 800}";
+position = "{898, 800}";
 },
 {
 name = uvowel;
@@ -414,15 +414,15 @@ width = 1353;
 anchors = (
 {
 name = rakar;
-position = "{880.085, 0}";
+position = "{839, 0}";
 },
 {
 name = repaya;
-position = "{625.019, 800}";
+position = "{625, 800}";
 },
 {
 name = uvowel;
-position = "{873.649, 0}";
+position = "{874, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -688,15 +688,15 @@ width = 913;
 anchors = (
 {
 name = rakar;
-position = "{917.736, 0}";
+position = "{918, 0}";
 },
 {
 name = repaya;
-position = "{651.758, 800}";
+position = "{652, 800}";
 },
 {
 name = uvowel;
-position = "{911.024, 0}";
+position = "{911, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -962,15 +962,15 @@ width = 950;
 anchors = (
 {
 name = rakar;
-position = "{1000.567, 0}";
+position = "{1001, 0}";
 },
 {
 name = repaya;
-position = "{710.583, 800}";
+position = "{711, 800}";
 },
 {
 name = uvowel;
-position = "{993.25, 0}";
+position = "{993, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

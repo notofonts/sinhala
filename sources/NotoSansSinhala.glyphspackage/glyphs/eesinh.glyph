@@ -14,7 +14,7 @@ paths = (
 closed = 1;
 nodes = (
 "633 859 LINE",
-"623 904 LINE",
+"623 904 LINE SMOOTH",
 "617 934 OFFCURVE",
 "600 958 OFFCURVE",
 "565 973 CURVE",
@@ -79,7 +79,7 @@ paths = (
 closed = 1;
 nodes = (
 "674 853 LINE",
-"651 914 LINE",
+"651 914 LINE SMOOTH",
 "642 943 OFFCURVE",
 "623 961 OFFCURVE",
 "582 973 CURVE",

@@ -124,7 +124,7 @@ position = "{309, 0}";
 },
 {
 name = rakar;
-position = "{869, 0}";
+position = "{840, 0}";
 },
 {
 name = repaya;
@@ -280,7 +280,7 @@ position = "{319, 0}";
 },
 {
 name = rakar;
-position = "{948, 0}";
+position = "{919, 0}";
 },
 {
 name = repaya;
@@ -365,7 +365,7 @@ nodes = (
 "181 463 LINE",
 "181 463 OFFCURVE",
 "181 464 OFFCURVE",
-"181 464 CURVE SMOOTH",
+"181 464 CURVE",
 "181 484 OFFCURVE",
 "193 504 OFFCURVE",
 "222 504 CURVE SMOOTH",
@@ -1028,7 +1028,7 @@ nodes = (
 "165 586 CURVE SMOOTH",
 "224 586 OFFCURVE",
 "243 529 OFFCURVE",
-"243 457 CURVE",
+"243 457 CURVE SMOOTH",
 "243 416 LINE",
 "257 425 LINE",
 "214 425 LINE SMOOTH",
@@ -1165,7 +1165,7 @@ position = "{250, 0}";
 },
 {
 name = rakar;
-position = "{624, 0}";
+position = "{584, 0}";
 },
 {
 name = repaya;

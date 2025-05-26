@@ -1,20 +1,20 @@
 {
-color = 8;
+color = 5;
 glyphname = nadhasinh;
 layers = (
 {
 anchors = (
 {
 name = rakar;
-position = "{1233.334, 0}";
+position = "{1302, 0}";
 },
 {
 name = repaya;
-position = "{916.924, 800}";
+position = "{917, 800}";
 },
 {
 name = uvowel;
-position = "{1220.982, 0}";
+position = "{1221, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -102,7 +102,7 @@ nodes = (
 "132 231 CURVE SMOOTH",
 "192 231 OFFCURVE",
 "273 268 OFFCURVE",
-"307 394 CURVE",
+"307 394 CURVE SMOOTH",
 "310 405 LINE",
 "348 499 OFFCURVE",
 "437 586 OFFCURVE",
@@ -178,7 +178,7 @@ width = 1378;
 anchors = (
 {
 name = rakar;
-position = "{1298, 0}";
+position = "{1288, 0}";
 },
 {
 name = repaya;
@@ -350,15 +350,15 @@ width = 1423;
 anchors = (
 {
 name = rakar;
-position = "{1312.995, 0}";
+position = "{1173, 0}";
 },
 {
 name = repaya;
-position = "{976.148, 800}";
+position = "{976, 800}";
 },
 {
 name = uvowel;
-position = "{1299.845, 0}";
+position = "{1300, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -522,15 +522,15 @@ width = 1382;
 anchors = (
 {
 name = rakar;
-position = "{898.76, 0}";
+position = "{899, 0}";
 },
 {
 name = repaya;
-position = "{668.184, 800}";
+position = "{668, 800}";
 },
 {
 name = uvowel;
-position = "{889.758, 0}";
+position = "{890, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -619,7 +619,7 @@ nodes = (
 "174 231 OFFCURVE",
 "219 261 OFFCURVE",
 "245 427 CURVE",
-"247 433 LINE",
+"247 433 LINE SMOOTH",
 "277 512 OFFCURVE",
 "331 586 OFFCURVE",
 "444 586 CURVE SMOOTH",
@@ -694,15 +694,15 @@ width = 986;
 anchors = (
 {
 name = rakar;
-position = "{943.744, 0}";
+position = "{944, 0}";
 },
 {
 name = repaya;
-position = "{701.628, 800}";
+position = "{702, 800}";
 },
 {
 name = uvowel;
-position = "{934.292, 0}";
+position = "{934, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -866,15 +866,15 @@ width = 1042;
 anchors = (
 {
 name = rakar;
-position = "{1011.222, 0}";
+position = "{1011, 0}";
 },
 {
 name = repaya;
-position = "{751.794, 800}";
+position = "{752, 800}";
 },
 {
 name = uvowel;
-position = "{1001.094, 0}";
+position = "{1001, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

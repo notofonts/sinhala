@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 5;
 glyphname = lasinh;
 layers = (
 {
@@ -10,7 +10,7 @@ position = "{281, 0}";
 },
 {
 name = rakar;
-position = "{762.254, 0}";
+position = "{762, 0}";
 },
 {
 name = repaya;
@@ -182,7 +182,7 @@ position = "{349, 0}";
 },
 {
 name = rakar;
-position = "{864.272, 0}";
+position = "{864, 0}";
 },
 {
 name = repaya;
@@ -604,7 +604,7 @@ position = "{179, 0}";
 },
 {
 name = rakar;
-position = "{572.653, 0}";
+position = "{573, 0}";
 },
 {
 name = repaya;
@@ -774,7 +774,7 @@ position = "{243, 0}";
 },
 {
 name = rakar;
-position = "{628.474, 0}";
+position = "{628, 0}";
 },
 {
 name = repaya;
@@ -782,7 +782,7 @@ position = "{347, 714}";
 },
 {
 name = virama;
-position = "{529.57, 550}";
+position = "{530, 550}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -944,7 +944,7 @@ position = "{281, 0}";
 },
 {
 name = rakar;
-position = "{720.869, 0}";
+position = "{721, 0}";
 },
 {
 name = repaya;

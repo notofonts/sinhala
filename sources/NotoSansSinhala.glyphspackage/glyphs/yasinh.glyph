@@ -10,7 +10,7 @@ position = "{261, 0}";
 },
 {
 name = rakar;
-position = "{765, 0}";
+position = "{774, 0}";
 },
 {
 name = repaya;
@@ -110,11 +110,11 @@ width = 841;
 anchors = (
 {
 name = iVowel;
-position = "{267.828, 0}";
+position = "{268, 0}";
 },
 {
 name = rakar;
-position = "{800, 0}";
+position = "{720, 0}";
 },
 {
 name = repaya;
@@ -219,11 +219,11 @@ width = 863;
 anchors = (
 {
 name = iVowel;
-position = "{273.724, 0}";
+position = "{274, 0}";
 },
 {
 name = rakar;
-position = "{828, 0}";
+position = "{688, 0}";
 },
 {
 name = repaya;
@@ -257,7 +257,7 @@ nodes = (
 "633 504 CURVE SMOOTH",
 "662 504 OFFCURVE",
 "674 484 OFFCURVE",
-"674 464 CURVE SMOOTH",
+"674 464 CURVE",
 "674 464 OFFCURVE",
 "674 463 OFFCURVE",
 "674 463 CURVE",
@@ -270,7 +270,7 @@ nodes = (
 "646 622 CURVE SMOOTH",
 "518 622 OFFCURVE",
 "452 536 OFFCURVE",
-"452 412 CURVE",
+"452 412 CURVE SMOOTH",
 "452 330 LINE",
 "546 330 LINE SMOOTH",
 "629 330 OFFCURVE",
@@ -1123,11 +1123,11 @@ width = 887;
 anchors = (
 {
 name = iVowel;
-position = "{177.517, 0}";
+position = "{178, 0}";
 },
 {
 name = rakar;
-position = "{477, 0}";
+position = "{488, 0}";
 },
 {
 name = repaya;
@@ -1155,7 +1155,7 @@ nodes = (
 "356 425 CURVE SMOOTH",
 "313 425 LINE",
 "327 416 LINE",
-"327 457 LINE",
+"327 457 LINE SMOOTH",
 "327 529 OFFCURVE",
 "346 586 OFFCURVE",
 "405 586 CURVE SMOOTH",
@@ -1334,11 +1334,11 @@ width = 566;
 anchors = (
 {
 name = iVowel;
-position = "{191.483, 0}";
+position = "{191, 0}";
 },
 {
 name = rakar;
-position = "{544, 0}";
+position = "{506, 0}";
 },
 {
 name = repaya;
@@ -1366,7 +1366,7 @@ nodes = (
 "412 437 CURVE SMOOTH",
 "358 437 LINE",
 "391 414 LINE",
-"391 471 LINE",
+"391 471 LINE SMOOTH",
 "391 516 OFFCURVE",
 "403 549 OFFCURVE",
 "442 549 CURVE SMOOTH",
@@ -1545,7 +1545,7 @@ width = 611;
 anchors = (
 {
 name = iVowel;
-position = "{215.379, 0}";
+position = "{215, 0}";
 },
 {
 name = rakar;
@@ -1577,7 +1577,7 @@ nodes = (
 "493 455 CURVE SMOOTH",
 "448 455 LINE",
 "472 425 LINE",
-"472 466 LINE",
+"472 466 LINE SMOOTH",
 "472 493 OFFCURVE",
 "481 508 OFFCURVE",
 "501 508 CURVE SMOOTH",

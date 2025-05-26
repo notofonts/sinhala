@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 5;
 glyphname = nyjasinh;
 layers = (
 {
@@ -10,7 +10,7 @@ position = "{356, 0}";
 },
 {
 name = rakar;
-position = "{832, 0}";
+position = "{843, 0}";
 },
 {
 name = repaya;
@@ -153,7 +153,7 @@ position = "{434, 0}";
 },
 {
 name = rakar;
-position = "{903, 0}";
+position = "{823, 0}";
 },
 {
 name = repaya;
@@ -296,11 +296,11 @@ position = "{538, 0}";
 },
 {
 name = rakar;
-position = "{1024, 0}";
+position = "{890, 0}";
 },
 {
 name = repaya;
-position = "{588.57, 720}";
+position = "{589, 720}";
 },
 {
 name = uvowel;
@@ -330,7 +330,7 @@ nodes = (
 "849 504 CURVE SMOOTH",
 "878 504 OFFCURVE",
 "890 484 OFFCURVE",
-"890 464 CURVE SMOOTH",
+"890 464 CURVE",
 "890 464 OFFCURVE",
 "890 463 OFFCURVE",
 "890 463 CURVE",
@@ -372,7 +372,7 @@ nodes = (
 "416 463 LINE",
 "416 463 OFFCURVE",
 "416 464 OFFCURVE",
-"416 464 CURVE SMOOTH",
+"416 464 CURVE",
 "416 484 OFFCURVE",
 "428 504 OFFCURVE",
 "457 504 CURVE SMOOTH",
@@ -679,7 +679,7 @@ position = "{314, 0}";
 },
 {
 name = rakar;
-position = "{626, 84}";
+position = "{575, 0}";
 },
 {
 name = repaya;
@@ -687,7 +687,7 @@ position = "{356, 720}";
 },
 {
 name = uvowel;
-position = "{620, 70}";
+position = "{588, 0}";
 },
 {
 name = virama;
@@ -707,7 +707,7 @@ nodes = (
 "445 425 CURVE SMOOTH",
 "402 425 LINE",
 "416 416 LINE",
-"416 457 LINE",
+"416 457 LINE SMOOTH",
 "416 529 OFFCURVE",
 "435 586 OFFCURVE",
 "494 586 CURVE SMOOTH",
@@ -761,7 +761,7 @@ nodes = (
 "267 579 CURVE SMOOTH",
 "321 579 OFFCURVE",
 "340 529 OFFCURVE",
-"340 457 CURVE",
+"340 457 CURVE SMOOTH",
 "340 416 LINE",
 "354 425 LINE",
 "311 425 LINE SMOOTH",
@@ -850,7 +850,7 @@ nodes = (
 "546 437 CURVE SMOOTH",
 "492 437 LINE",
 "525 414 LINE",
-"525 471 LINE",
+"525 471 LINE SMOOTH",
 "525 516 OFFCURVE",
 "537 549 OFFCURVE",
 "576 549 CURVE SMOOTH",
@@ -904,7 +904,7 @@ nodes = (
 "314 549 CURVE SMOOTH",
 "353 549 OFFCURVE",
 "365 516 OFFCURVE",
-"365 471 CURVE",
+"365 471 CURVE SMOOTH",
 "365 414 LINE",
 "398 437 LINE",
 "344 437 LINE SMOOTH",
@@ -993,7 +993,7 @@ nodes = (
 "674 455 CURVE SMOOTH",
 "631 455 LINE",
 "655 425 LINE",
-"655 466 LINE",
+"655 466 LINE SMOOTH",
 "655 492 OFFCURVE",
 "664 508 OFFCURVE",
 "684 508 CURVE SMOOTH",
@@ -1047,7 +1047,7 @@ nodes = (
 "376 508 CURVE SMOOTH",
 "396 508 OFFCURVE",
 "405 493 OFFCURVE",
-"405 466 CURVE",
+"405 466 CURVE SMOOTH",
 "405 425 LINE",
 "429 455 LINE",
 "386 455 LINE SMOOTH",

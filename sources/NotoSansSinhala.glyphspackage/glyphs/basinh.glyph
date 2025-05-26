@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = rakar;
-position = "{726, 0}";
+position = "{724, 0}";
 },
 {
 name = repaya;
@@ -102,7 +102,7 @@ width = 813;
 anchors = (
 {
 name = rakar;
-position = "{800, 0}";
+position = "{720, 0}";
 },
 {
 name = repaya;
@@ -139,7 +139,7 @@ nodes = (
 "249 57 CURVE SMOOTH",
 "189 57 OFFCURVE",
 "153 85 OFFCURVE",
-"132 129 CURVE",
+"132 129 CURVE SMOOTH",
 "114 163 OFFCURVE",
 "109 204 OFFCURVE",
 "109 247 CURVE SMOOTH",
@@ -198,7 +198,7 @@ width = 871;
 anchors = (
 {
 name = rakar;
-position = "{859, 0}";
+position = "{699, 0}";
 },
 {
 name = repaya;
@@ -496,7 +496,7 @@ width = 865;
 anchors = (
 {
 name = rakar;
-position = "{486, 0}";
+position = "{509, 0}";
 },
 {
 name = repaya;
@@ -533,7 +533,7 @@ nodes = (
 "182 15 CURVE SMOOTH",
 "121 15 OFFCURVE",
 "92 71 OFFCURVE",
-"81 133 CURVE",
+"81 133 CURVE SMOOTH",
 "73 171 OFFCURVE",
 "69 212 OFFCURVE",
 "69 238 CURVE SMOOTH",
@@ -696,11 +696,11 @@ width = 609;
 anchors = (
 {
 name = rakar;
-position = "{580, 0}";
+position = "{520, 0}";
 },
 {
 name = repaya;
-position = "{298.873, 807.667}";
+position = "{299, 808}";
 },
 {
 name = uvowel;
@@ -900,7 +900,7 @@ position = "{710, 0}";
 },
 {
 name = repaya;
-position = "{357.556, 807.667}";
+position = "{358, 808}";
 },
 {
 name = uvowel;

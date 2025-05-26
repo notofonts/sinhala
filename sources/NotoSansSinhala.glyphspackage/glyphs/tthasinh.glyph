@@ -10,7 +10,7 @@ position = "{403, 3}";
 },
 {
 name = rakar;
-position = "{712.434, 73.5}";
+position = "{713, 0}";
 },
 {
 name = repaya;
@@ -47,7 +47,7 @@ nodes = (
 "397 799 LINE",
 "481 754 OFFCURVE",
 "552 707 OFFCURVE",
-"606 645 CURVE",
+"606 645 CURVE SMOOTH",
 "679 562 OFFCURVE",
 "720 453 OFFCURVE",
 "720 307 CURVE SMOOTH",
@@ -120,7 +120,7 @@ position = "{436, 0}";
 },
 {
 name = rakar;
-position = "{790, 0}";
+position = "{710, 0}";
 },
 {
 name = repaya;
@@ -132,7 +132,7 @@ position = "{773, 0}";
 },
 {
 name = virama;
-position = "{713.981, 0}";
+position = "{714, 0}";
 }
 );
 layerId = UUID0;
@@ -154,10 +154,10 @@ nodes = (
 "672 750 OFFCURVE",
 "410 836 CURVE",
 "384 775 LINE",
-"453 747 LINE",
+"453 747 LINE SMOOTH",
 "523 716 OFFCURVE",
 "581 680 OFFCURVE",
-"626 634 CURVE",
+"626 634 CURVE SMOOTH",
 "700 558 OFFCURVE",
 "738 457 OFFCURVE",
 "738 314 CURVE SMOOTH",
@@ -230,7 +230,7 @@ position = "{408, 0}";
 },
 {
 name = rakar;
-position = "{793, 0}";
+position = "{683, 0}";
 },
 {
 name = repaya;
@@ -242,7 +242,7 @@ position = "{828, 0}";
 },
 {
 name = virama;
-position = "{754.348, 0}";
+position = "{754, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -267,7 +267,7 @@ nodes = (
 "473 695 LINE",
 "528 675 OFFCURVE",
 "573 648 OFFCURVE",
-"608 611 CURVE",
+"608 611 CURVE SMOOTH",
 "669 547 OFFCURVE",
 "700 456 OFFCURVE",
 "700 333 CURVE SMOOTH",
@@ -450,11 +450,11 @@ position = "{304, 0}";
 },
 {
 name = rakar;
-position = "{532, 0}";
+position = "{502, 0}";
 },
 {
 name = repaya;
-position = "{214.074, 703.333}";
+position = "{214, 703}";
 },
 {
 name = uvowel;
@@ -487,7 +487,7 @@ nodes = (
 "307 794 LINE",
 "355 759 OFFCURVE",
 "425 689 OFFCURVE",
-"457 633 CURVE",
+"457 633 CURVE SMOOTH",
 "506 551 OFFCURVE",
 "535 446 OFFCURVE",
 "535 307 CURVE SMOOTH",
@@ -778,11 +778,11 @@ position = "{330, 0}";
 },
 {
 name = rakar;
-position = "{570, 0}";
+position = "{520, 0}";
 },
 {
 name = repaya;
-position = "{227.897, 703.333}";
+position = "{228, 703}";
 },
 {
 name = uvowel;
@@ -790,7 +790,7 @@ position = "{559, 0}";
 },
 {
 name = virama;
-position = "{540.742, 0}";
+position = "{541, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -815,7 +815,7 @@ nodes = (
 "352 743 LINE",
 "405 704 OFFCURVE",
 "445 658 OFFCURVE",
-"474 604 CURVE",
+"474 604 CURVE SMOOTH",
 "518 524 OFFCURVE",
 "537 423 OFFCURVE",
 "537 313 CURVE SMOOTH",
@@ -1002,7 +1002,7 @@ position = "{650, 0}";
 },
 {
 name = repaya;
-position = "{256.96, 703.333}";
+position = "{257, 703}";
 },
 {
 name = uvowel;
@@ -1010,7 +1010,7 @@ position = "{639, 0}";
 },
 {
 name = virama;
-position = "{609.701, 0}";
+position = "{610, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -1035,7 +1035,7 @@ nodes = (
 "352 741 LINE",
 "401 711 OFFCURVE",
 "452 671 OFFCURVE",
-"490 609 CURVE",
+"490 609 CURVE SMOOTH",
 "532 540 OFFCURVE",
 "554 445 OFFCURVE",
 "554 332 CURVE SMOOTH",

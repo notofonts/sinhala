@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 5;
 glyphname = fasinh;
 layers = (
 {
@@ -97,7 +97,7 @@ position = "{249, 0}";
 },
 {
 name = rakar;
-position = "{779, 0}";
+position = "{690, 0}";
 },
 {
 name = repaya;
@@ -184,11 +184,11 @@ position = "{270, 0}";
 },
 {
 name = rakar;
-position = "{828, 0}";
+position = "{690, 0}";
 },
 {
 name = repaya;
-position = "{452.73, 722}";
+position = "{453, 722}";
 },
 {
 name = uvowel;
@@ -373,7 +373,7 @@ position = "{538, 0}";
 },
 {
 name = virama;
-position = "{496, 0}";
+position = "{495, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -538,7 +538,7 @@ position = "{203, 0}";
 },
 {
 name = rakar;
-position = "{554, 0}";
+position = "{514, 0}";
 },
 {
 name = repaya;

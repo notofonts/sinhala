@@ -10,11 +10,11 @@ position = "{401, 0}";
 },
 {
 name = rakar;
-position = "{815, 0}";
+position = "{845, 0}";
 },
 {
 name = repaya;
-position = "{509.346, 730}";
+position = "{509, 730}";
 },
 {
 name = uvowel;
@@ -112,7 +112,7 @@ nodes = (
 "132 231 CURVE SMOOTH",
 "192 231 OFFCURVE",
 "273 268 OFFCURVE",
-"307 394 CURVE",
+"307 394 CURVE SMOOTH",
 "310 405 LINE",
 "348 499 OFFCURVE",
 "437 586 OFFCURVE",
@@ -137,7 +137,7 @@ position = "{451, 0}";
 },
 {
 name = rakar;
-position = "{890, 0}";
+position = "{831, 0}";
 },
 {
 name = repaya;
@@ -268,7 +268,7 @@ position = "{908, 0}";
 },
 {
 name = repaya;
-position = "{554.055, 730}";
+position = "{554, 730}";
 },
 {
 name = uvowel;
@@ -748,7 +748,7 @@ nodes = (
 "174 231 OFFCURVE",
 "219 261 OFFCURVE",
 "245 427 CURVE",
-"247 433 LINE",
+"247 433 LINE SMOOTH",
 "277 512 OFFCURVE",
 "324 586 OFFCURVE",
 "422 586 CURVE SMOOTH",
@@ -899,11 +899,11 @@ position = "{365, 0}";
 },
 {
 name = rakar;
-position = "{650, 0}";
+position = "{590, 0}";
 },
 {
 name = repaya;
-position = "{410.306, 730}";
+position = "{410, 730}";
 },
 {
 name = uvowel;
@@ -1286,15 +1286,15 @@ position = "{471, 0}";
 },
 {
 name = rakar;
-position = "{753.12, 84}";
+position = "{753, 84}";
 },
 {
 name = repaya;
-position = "{460.675, 730}";
+position = "{461, 730}";
 },
 {
 name = uvowel;
-position = "{759.523, 70.4}";
+position = "{760, 70}";
 },
 {
 name = virama;

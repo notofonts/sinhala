@@ -1,5 +1,5 @@
 {
-.appVersion = "3343";
+.appVersion = "3260";
 classes = (
 {
 code = "tthasinh ddhasinh thasinh phasinh ttatthasinh tathasinh";
@@ -34,11 +34,11 @@ code = "#ණුනුක්‍වුක්‍ෂුත්‍ථුත්‍ව�
 name = uSignWideGroup;
 },
 {
-code = "\012kasinh phasinh khasinh ngasinh tthasinh ddasinh ddhasinh nnddasinh dhasinh basinh mbasinh navasinh kavasinh kassasinh gadhasinh nadasinh nadhasinh yasinh\012\012";
-name = rakarMediumGroup;
+code = "\012casinh ttasinh thasinh phasinh vasinh davasinh nyacasinh masinh tathasinh nathasinh navasinh\012#  gadhasinh nadasinh nadhasinh yasinh\012\012";
+name = rakarVaShapeGroup;
 },
 {
-code = "nnasinh nasinh hasinh bhasinh shasinh gasinh\012";
+code = "nnasinh nasinh hasinh bhasinh shasinh gasinh nngasinh kasinh\012";
 name = rakarWideGroup;
 },
 {
@@ -914,7 +914,7 @@ code = "\012lookup RakarVowels {\012    sub rakarsinh uvowelsignsinh' by aevowel
 name = abvs;
 },
 {
-code = "\012sub dasinh uvowelsignsinh by duvowelsinh;\012sub dasinh uuvowelsignsinh by duuvowelsinh;\012sub ndasinh uvowelsignsinh by nduvowelsinh;\012sub ndasinh uuvowelsignsinh by nduuvowelsinh;\012sub jnyasinh uuvowelsignsinh by jnyuuvowelsinh;\012sub jnyasinh uvowelsignsinh by jnyuvowelsinh;\012sub nyasinh uvowelsignsinh by nyuvowelsinh;\012sub nyasinh uuvowelsignsinh by nyuuvowelsinh;\012sub nadasinh uvowelsignsinh by naduvowelsinh;\012sub nadasinh uuvowelsignsinh by naduuvowelsinh;\012sub lasinh uvowelsignsinh by luvowelsinh;\012sub lasinh uvowelsignsinh by luuvowelsinh;\012sub llasinh uvowelsignsinh by lluvowelsinh;\012sub shasinh uvowelsignsinh by shuvowelsinh;\012sub shasinh uuvowelsignsinh by shuuvowelsinh;\012\012\012sub @uSignWideGroup uvowelsignsinh' by uvowelsignsinh.long;\012sub @uSignWideGroup uuvowelsignsinh' by uuvowelsignsinh.long;\012\012sub @uSignMediumGroup uvowelsignsinh' by uvowelsignsinh.medium;\012sub @uSignMediumGroup uuvowelsignsinh' by uuvowelsignsinh.medium;\012\012\012sub @uSign2Group uvowelsignsinh' by uvowelsignsinh.alt;\012sub @uSign2Group uuvowelsignsinh' by uuvowelsignsinh.alt;\012\012sub @saShapeGroup uvowelsignsinh' by uvowelsignsinh.medium;\012sub @saShapeGroup uuvowelsignsinh' by uuvowelsignsinh.medium;\012\012sub @vaShapeGroup uvowelsignsinh' by uvowelsignsinh.va;\012sub @vaShapeGroup uuvowelsignsinh' by uuvowelsignsinh.va;\012\012\012\012lookup Rakara {\012\012sub @rakarWideGroup rakarsinh' by rakarsinh.long;\012#    sub gasinh rakarsinh' by rakarsinh.long;\012#    sub nnasinh rakarsinh' by rakarsinh.long;\012#    sub bhasinh rakarsinh' by rakarsinh.long;\012#    sub hasinh rakarsinh' by rakarsinh.long;\012#    sub jhasinh rakarsinh' by rakarsinh.long;\012#    sub kasinh rakarsinh' by rakarsinh.long;\012#    sub nngasinh rakarsinh' by rakarsinh.long;\012\012\012sub @rakarMediumGroup rakarsinh' by rakarsinh.medium;\012 \012#    sub nasinh rakarsinh' by rakarsinh.medium;\012#    sub kasinh rakarsinh' by rakarsinh.medium;\012#    sub kasinh rakarsinh' by rakarsinh.medium;\012\012\012} Rakara;\012";
+code = "\012sub dasinh uvowelsignsinh by duvowelsinh;\012sub dasinh uuvowelsignsinh by duuvowelsinh;\012sub ndasinh uvowelsignsinh by nduvowelsinh;\012sub ndasinh uuvowelsignsinh by nduuvowelsinh;\012sub jnyasinh uuvowelsignsinh by jnyuuvowelsinh;\012sub jnyasinh uvowelsignsinh by jnyuvowelsinh;\012sub nyasinh uvowelsignsinh by nyuvowelsinh;\012sub nyasinh uuvowelsignsinh by nyuuvowelsinh;\012sub nadasinh uvowelsignsinh by naduvowelsinh;\012sub nadasinh uuvowelsignsinh by naduuvowelsinh;\012sub lasinh uvowelsignsinh by luvowelsinh;\012sub lasinh uvowelsignsinh by luuvowelsinh;\012sub llasinh uvowelsignsinh by lluvowelsinh;\012sub shasinh uvowelsignsinh by shuvowelsinh;\012sub shasinh uuvowelsignsinh by shuuvowelsinh;\012\012\012sub @uSignWideGroup uvowelsignsinh' by uvowelsignsinh.long;\012sub @uSignWideGroup uuvowelsignsinh' by uuvowelsignsinh.long;\012\012sub @uSignMediumGroup uvowelsignsinh' by uvowelsignsinh.medium;\012sub @uSignMediumGroup uuvowelsignsinh' by uuvowelsignsinh.medium;\012\012\012sub @uSign2Group uvowelsignsinh' by uvowelsignsinh.alt;\012sub @uSign2Group uuvowelsignsinh' by uuvowelsignsinh.alt;\012\012sub @saShapeGroup uvowelsignsinh' by uvowelsignsinh.medium;\012sub @saShapeGroup uuvowelsignsinh' by uuvowelsignsinh.medium;\012\012sub @vaShapeGroup uvowelsignsinh' by uvowelsignsinh.va;\012sub @vaShapeGroup uuvowelsignsinh' by uuvowelsignsinh.va;\012\012\012\012lookup Rakara {\012\012sub @rakarWideGroup rakarsinh' by rakarsinh.long;\012#    sub gasinh rakarsinh' by rakarsinh.long;\012#    sub nnasinh rakarsinh' by rakarsinh.long;\012#    sub bhasinh rakarsinh' by rakarsinh.long;\012#    sub hasinh rakarsinh' by rakarsinh.long;\012#    sub jhasinh rakarsinh' by rakarsinh.long;\012#    sub kasinh rakarsinh' by rakarsinh.long;\012#    sub nngasinh rakarsinh' by rakarsinh.long;\012\012\012sub @rakarVaShapeGroup rakarsinh' by rakarsinh.medium;\012 \012#    sub nasinh rakarsinh' by rakarsinh.medium;\012#    sub kasinh rakarsinh' by rakarsinh.medium;\012#    sub kasinh rakarsinh' by rakarsinh.medium;\012\012\012} Rakara;\012";
 name = blws;
 },
 {
@@ -956,6 +956,9 @@ position = "{-477, 957}";
 },
 {
 position = "{-779, -213}";
+},
+{
+position = "{-835, -58}";
 }
 );
 id = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -981,6 +984,9 @@ position = "{-272, 896}";
 },
 {
 position = "{-208, -232}";
+},
+{
+position = "{-701, -293}";
 }
 );
 id = UUID0;
@@ -1009,7 +1015,7 @@ name = "i_sign-ASCE";
 position = "{-347, 924}";
 },
 {
-position = "{-502, -266}";
+position = "{-383, -340}";
 }
 );
 id = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";

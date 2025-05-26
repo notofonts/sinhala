@@ -10,7 +10,7 @@ position = "{261, 0}";
 },
 {
 name = rakar;
-position = "{822.308, 131.6}";
+position = "{827, 0}";
 },
 {
 name = repaya;
@@ -111,7 +111,7 @@ position = "{900, 0}";
 },
 {
 name = repaya;
-position = "{489.096, 730}";
+position = "{489, 730}";
 },
 {
 name = uvowel;
@@ -693,7 +693,7 @@ position = "{299, 0}";
 },
 {
 name = rakar;
-position = "{830, 0}";
+position = "{800, 0}";
 },
 {
 name = repaya;
@@ -1179,11 +1179,11 @@ position = "{250, 0}";
 },
 {
 name = rakar;
-position = "{624, 0}";
+position = "{534, 0}";
 },
 {
 name = repaya;
-position = "{343.68, 730}";
+position = "{344, 730}";
 },
 {
 name = uvowel;
@@ -1379,7 +1379,7 @@ position = "{668, 0}";
 },
 {
 name = repaya;
-position = "{376.824, 730}";
+position = "{377, 730}";
 },
 {
 name = uvowel;
@@ -1439,7 +1439,7 @@ nodes = (
 "362 225 CURVE SMOOTH",
 "362 165 OFFCURVE",
 "325 126 OFFCURVE",
-"274 126 CURVE",
+"274 126 CURVE SMOOTH",
 "212 126 OFFCURVE",
 "161 178 OFFCURVE",
 "161 292 CURVE SMOOTH",

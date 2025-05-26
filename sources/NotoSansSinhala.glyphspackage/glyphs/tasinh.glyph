@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 5;
 glyphname = tasinh;
 layers = (
 {
@@ -10,7 +10,7 @@ position = "{381, 0}";
 },
 {
 name = rakar;
-position = "{798, 0}";
+position = "{795, 0}";
 },
 {
 name = repaya;
@@ -98,7 +98,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"573 -1 LINE",
+"573 -1 LINE SMOOTH",
 "732 -1 OFFCURVE",
 "830 86 OFFCURVE",
 "830 286 CURVE SMOOTH",
@@ -107,8 +107,8 @@ nodes = (
 "538 612 CURVE SMOOTH",
 "424 612 OFFCURVE",
 "332 561 OFFCURVE",
-"247 480 CURVE",
-"240 473 LINE",
+"247 480 CURVE SMOOTH",
+"240 473 LINE SMOOTH",
 "159 390 OFFCURVE",
 "77 283 OFFCURVE",
 "-2 171 CURVE",
@@ -117,7 +117,7 @@ nodes = (
 "87 247 LINE",
 "125 301 OFFCURVE",
 "168 355 OFFCURVE",
-"210 403 CURVE",
+"210 403 CURVE SMOOTH",
 "223 419 LINE",
 "319 521 OFFCURVE",
 "415 586 OFFCURVE",
@@ -143,7 +143,7 @@ position = "{391, 0}";
 },
 {
 name = rakar;
-position = "{870, 0}";
+position = "{790, 0}";
 },
 {
 name = repaya;
@@ -231,7 +231,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"639 -13 LINE",
+"639 -13 LINE SMOOTH",
 "812 -13 OFFCURVE",
 "902 105 OFFCURVE",
 "902 287 CURVE SMOOTH",
@@ -240,7 +240,7 @@ nodes = (
 "576 612 CURVE SMOOTH",
 "456 612 OFFCURVE",
 "355 563 OFFCURVE",
-"264 483 CURVE",
+"264 483 CURVE SMOOTH",
 "246 468 LINE",
 "165 391 OFFCURVE",
 "89 287 OFFCURVE",
@@ -250,8 +250,8 @@ nodes = (
 "132 230 LINE",
 "171 285 OFFCURVE",
 "208 331 OFFCURVE",
-"261 391 CURVE",
-"274 405 LINE",
+"261 391 CURVE SMOOTH",
+"274 405 LINE SMOOTH",
 "351 484 OFFCURVE",
 "456 541 OFFCURVE",
 "572 541 CURVE SMOOTH",
@@ -260,7 +260,7 @@ nodes = (
 "827 292 CURVE SMOOTH",
 "827 169 OFFCURVE",
 "785 56 OFFCURVE",
-"641 56 CURVE",
+"641 56 CURVE SMOOTH",
 "634 56 LINE",
 "634 -13 LINE"
 );
@@ -276,7 +276,7 @@ position = "{366, 0}";
 },
 {
 name = rakar;
-position = "{917, 0}";
+position = "{770, 0}";
 },
 {
 name = repaya;
@@ -364,7 +364,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"672 -4 LINE",
+"672 -4 LINE SMOOTH",
 "844 -4 OFFCURVE",
 "952 114 OFFCURVE",
 "952 296 CURVE SMOOTH",
@@ -373,7 +373,7 @@ nodes = (
 "619 622 CURVE SMOOTH",
 "497 622 OFFCURVE",
 "364 569 OFFCURVE",
-"277 483 CURVE",
+"277 483 CURVE SMOOTH",
 "249 456 LINE",
 "187 410 OFFCURVE",
 "84 295 OFFCURVE",
@@ -393,7 +393,7 @@ nodes = (
 "800 293 CURVE SMOOTH",
 "800 199 OFFCURVE",
 "756 122 OFFCURVE",
-"675 122 CURVE",
+"675 122 CURVE SMOOTH",
 "664 122 LINE",
 "664 -4 LINE"
 );
@@ -667,7 +667,7 @@ position = "{270, 0}";
 },
 {
 name = rakar;
-position = "{591, 0}";
+position = "{571, 0}";
 },
 {
 name = repaya;
@@ -755,7 +755,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"442 -3 LINE",
+"442 -3 LINE SMOOTH",
 "562 -3 OFFCURVE",
 "626 70 OFFCURVE",
 "626 289 CURVE SMOOTH",
@@ -774,8 +774,8 @@ nodes = (
 "82 222 LINE",
 "109 276 OFFCURVE",
 "152 361 OFFCURVE",
-"184 409 CURVE",
-"189 417 LINE",
+"184 409 CURVE SMOOTH",
+"189 417 LINE SMOOTH",
 "250 517 OFFCURVE",
 "323 586 OFFCURVE",
 "414 586 CURVE SMOOTH",
@@ -784,7 +784,7 @@ nodes = (
 "599 291 CURVE SMOOTH",
 "599 107 OFFCURVE",
 "558 23 OFFCURVE",
-"440 23 CURVE",
+"440 23 CURVE SMOOTH",
 "433 23 LINE",
 "433 -3 LINE"
 );
@@ -929,7 +929,7 @@ position = "{312, 0}";
 },
 {
 name = rakar;
-position = "{621, 0}";
+position = "{571, 0}";
 },
 {
 name = repaya;
@@ -1017,7 +1017,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"475 -3 LINE",
+"475 -3 LINE SMOOTH",
 "591 -3 OFFCURVE",
 "671 86 OFFCURVE",
 "671 292 CURVE SMOOTH",
@@ -1026,14 +1026,14 @@ nodes = (
 "435 612 CURVE SMOOTH",
 "343 612 OFFCURVE",
 "274 567 OFFCURVE",
-"207 483 CURVE",
-"194 467 LINE",
+"207 483 CURVE SMOOTH",
+"194 467 LINE SMOOTH",
 "139 391 OFFCURVE",
 "72 279 OFFCURVE",
 "13 167 CURVE",
 "69 140 LINE",
 "112 219 LINE",
-"119 231 LINE",
+"119 231 LINE SMOOTH",
 "148 286 OFFCURVE",
 "181 339 OFFCURVE",
 "220 400 CURVE",
@@ -1046,7 +1046,7 @@ nodes = (
 "601 292 CURVE SMOOTH",
 "601 150 OFFCURVE",
 "568 61 OFFCURVE",
-"473 61 CURVE",
+"473 61 CURVE SMOOTH",
 "466 61 LINE",
 "466 -3 LINE"
 );
@@ -1279,7 +1279,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"616 -2 LINE",
+"616 -2 LINE SMOOTH",
 "724 -2 OFFCURVE",
 "809 80 OFFCURVE",
 "809 285 CURVE SMOOTH",
@@ -1288,7 +1288,7 @@ nodes = (
 "530 622 CURVE SMOOTH",
 "417 622 OFFCURVE",
 "338 573 OFFCURVE",
-"258 488 CURVE",
+"258 488 CURVE SMOOTH",
 "234 464 LINE",
 "186 404 OFFCURVE",
 "107 331 OFFCURVE",

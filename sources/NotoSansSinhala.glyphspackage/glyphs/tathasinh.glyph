@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 5;
 glyphname = tathasinh;
 layers = (
 {
@@ -10,7 +10,7 @@ position = "{817, 0}";
 },
 {
 name = rakar;
-position = "{1143, 0}";
+position = "{1153, 0}";
 },
 {
 name = repaya;
@@ -100,8 +100,8 @@ nodes = (
 "546 612 CURVE SMOOTH",
 "424 612 OFFCURVE",
 "332 561 OFFCURVE",
-"247 480 CURVE",
-"240 473 LINE",
+"247 480 CURVE SMOOTH",
+"240 473 LINE SMOOTH",
 "159 390 OFFCURVE",
 "77 283 OFFCURVE",
 "-2 171 CURVE",
@@ -110,7 +110,7 @@ nodes = (
 "87 247 LINE",
 "125 301 OFFCURVE",
 "168 355 OFFCURVE",
-"210 403 CURVE",
+"210 403 CURVE SMOOTH",
 "223 419 LINE",
 "319 521 OFFCURVE",
 "415 586 OFFCURVE",
@@ -133,7 +133,7 @@ nodes = (
 "908 800 LINE",
 "1000 763 OFFCURVE",
 "1075 699 OFFCURVE",
-"1115 633 CURVE",
+"1115 633 CURVE SMOOTH",
 "1157 564 OFFCURVE",
 "1184 470 OFFCURVE",
 "1184 364 CURVE SMOOTH",
@@ -193,7 +193,7 @@ width = 1252;
 anchors = (
 {
 name = iVowel;
-position = "{892.777, 0}";
+position = "{893, 0}";
 },
 {
 name = rakar;
@@ -287,7 +287,7 @@ nodes = (
 "602 612 CURVE SMOOTH",
 "456 612 OFFCURVE",
 "355 563 OFFCURVE",
-"264 483 CURVE",
+"264 483 CURVE SMOOTH",
 "246 468 LINE",
 "165 391 OFFCURVE",
 "89 287 OFFCURVE",
@@ -297,8 +297,8 @@ nodes = (
 "132 230 LINE",
 "171 285 OFFCURVE",
 "208 331 OFFCURVE",
-"261 391 CURVE",
-"274 405 LINE",
+"261 391 CURVE SMOOTH",
+"274 405 LINE SMOOTH",
 "351 484 OFFCURVE",
 "458 544 OFFCURVE",
 "600 544 CURVE SMOOTH",
@@ -320,7 +320,7 @@ nodes = (
 "982 748 LINE",
 "1057 711 OFFCURVE",
 "1110 663 OFFCURVE",
-"1146 611 CURVE",
+"1146 611 CURVE SMOOTH",
 "1203 530 OFFCURVE",
 "1220 439 OFFCURVE",
 "1220 367 CURVE SMOOTH",
@@ -384,11 +384,11 @@ position = "{928, 0}";
 },
 {
 name = rakar;
-position = "{1284.765, 0}";
+position = "{1135, 0}";
 },
 {
 name = repaya;
-position = "{930.311, 800}";
+position = "{930, 800}";
 },
 {
 name = uvowel;
@@ -474,7 +474,7 @@ nodes = (
 "592 612 CURVE SMOOTH",
 "477 612 OFFCURVE",
 "364 569 OFFCURVE",
-"277 483 CURVE",
+"277 483 CURVE SMOOTH",
 "249 456 LINE",
 "187 410 OFFCURVE",
 "84 295 OFFCURVE",
@@ -507,7 +507,7 @@ nodes = (
 "954 693 LINE",
 "1011 671 OFFCURVE",
 "1054 638 OFFCURVE",
-"1084 597 CURVE",
+"1084 597 CURVE SMOOTH",
 "1124 542 OFFCURVE",
 "1142 470 OFFCURVE",
 "1142 384 CURVE SMOOTH",
@@ -567,19 +567,19 @@ width = 1327;
 anchors = (
 {
 name = iVowel;
-position = "{621.151, 0}";
+position = "{621, 0}";
 },
 {
 name = rakar;
-position = "{859.948, 0}";
+position = "{850, 0}";
 },
 {
 name = repaya;
-position = "{622.697, 800}";
+position = "{623, 800}";
 },
 {
 name = uvowel;
-position = "{853.011, 0}";
+position = "{853, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -671,8 +671,8 @@ nodes = (
 "82 222 LINE",
 "109 276 OFFCURVE",
 "152 361 OFFCURVE",
-"184 409 CURVE",
-"189 417 LINE",
+"184 409 CURVE SMOOTH",
+"189 417 LINE SMOOTH",
 "250 517 OFFCURVE",
 "319 573 OFFCURVE",
 "426 573 CURVE SMOOTH",
@@ -694,7 +694,7 @@ nodes = (
 "640 794 LINE",
 "688 759 OFFCURVE",
 "758 689 OFFCURVE",
-"790 633 CURVE",
+"790 633 CURVE SMOOTH",
 "834 564 OFFCURVE",
 "868 455 OFFCURVE",
 "868 326 CURVE SMOOTH",
@@ -754,19 +754,19 @@ width = 937;
 anchors = (
 {
 name = iVowel;
-position = "{649.6, 0}";
+position = "{650, 0}";
 },
 {
 name = rakar;
-position = "{899.335, 0}";
+position = "{839, 0}";
 },
 {
 name = repaya;
-position = "{651.218, 800}";
+position = "{651, 800}";
 },
 {
 name = uvowel;
-position = "{892.081, 0}";
+position = "{892, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -848,14 +848,14 @@ nodes = (
 "448 604 CURVE SMOOTH",
 "356 604 OFFCURVE",
 "274 567 OFFCURVE",
-"207 483 CURVE",
-"194 467 LINE",
+"207 483 CURVE SMOOTH",
+"194 467 LINE SMOOTH",
 "139 391 OFFCURVE",
 "72 279 OFFCURVE",
 "13 167 CURVE",
 "69 140 LINE",
 "112 219 LINE",
-"119 231 LINE",
+"119 231 LINE SMOOTH",
 "148 286 OFFCURVE",
 "181 339 OFFCURVE",
 "220 400 CURVE",
@@ -881,7 +881,7 @@ nodes = (
 "680 743 LINE",
 "733 704 OFFCURVE",
 "773 658 OFFCURVE",
-"802 604 CURVE",
+"802 604 CURVE SMOOTH",
 "846 524 OFFCURVE",
 "865 429 OFFCURVE",
 "865 326 CURVE SMOOTH",
@@ -941,19 +941,19 @@ width = 971;
 anchors = (
 {
 name = iVowel;
-position = "{701.758, 0}";
+position = "{702, 0}";
 },
 {
 name = rakar;
-position = "{971.545, 0}";
+position = "{972, 0}";
 },
 {
 name = repaya;
-position = "{703.505, 800}";
+position = "{704, 800}";
 },
 {
 name = uvowel;
-position = "{963.708, 0}";
+position = "{964, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -1035,7 +1035,7 @@ nodes = (
 "522 605 CURVE SMOOTH",
 "417 605 OFFCURVE",
 "338 573 OFFCURVE",
-"258 488 CURVE",
+"258 488 CURVE SMOOTH",
 "234 464 LINE",
 "186 404 OFFCURVE",
 "107 331 OFFCURVE",
@@ -1068,7 +1068,7 @@ nodes = (
 "744 741 LINE",
 "793 711 OFFCURVE",
 "844 671 OFFCURVE",
-"882 609 CURVE",
+"882 609 CURVE SMOOTH",
 "915 552 OFFCURVE",
 "938 478 OFFCURVE",
 "938 375 CURVE SMOOTH",

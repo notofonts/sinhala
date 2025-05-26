@@ -22,8 +22,8 @@ nodes = (
 "339 565 CURVE SMOOTH",
 "320 565 OFFCURVE",
 "279 557 OFFCURVE",
-"264 549 CURVE",
-"202 513 LINE",
+"264 549 CURVE SMOOTH",
+"202 513 LINE SMOOTH",
 "234 532 OFFCURVE",
 "270 539 OFFCURVE",
 "331 539 CURVE SMOOTH",
@@ -232,7 +232,7 @@ width = 746;
 anchors = (
 {
 name = virama;
-position = "{135.316, 517}";
+position = "{135, 517}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -346,7 +346,7 @@ width = 498;
 anchors = (
 {
 name = virama;
-position = "{143.705, 517}";
+position = "{144, 517}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -460,7 +460,7 @@ width = 528;
 anchors = (
 {
 name = virama;
-position = "{149.388, 517}";
+position = "{149, 517}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

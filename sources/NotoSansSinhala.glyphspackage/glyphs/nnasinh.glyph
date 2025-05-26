@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = rakar;
-position = "{1079.874, 135}";
+position = "{1093, 0}";
 },
 {
 name = repaya;
@@ -159,11 +159,11 @@ width = 1152;
 anchors = (
 {
 name = rakar;
-position = "{1130, 0}";
+position = "{1060, 0}";
 },
 {
 name = repaya;
-position = "{428.507, 722}";
+position = "{429, 722}";
 },
 {
 name = uvowel;
@@ -184,7 +184,7 @@ nodes = (
 "731 300 CURVE SMOOTH",
 "731 430 OFFCURVE",
 "666 548 OFFCURVE",
-"537 589 CURVE",
+"537 589 CURVE SMOOTH",
 "507 600 LINE",
 "470 608 OFFCURVE",
 "431 612 OFFCURVE",
@@ -316,7 +316,7 @@ position = "{1158, 0}";
 },
 {
 name = repaya;
-position = "{434.913, 722}";
+position = "{435, 722}";
 },
 {
 name = uvowel;
@@ -337,8 +337,8 @@ nodes = (
 "764 319 CURVE SMOOTH",
 "764 474 OFFCURVE",
 "670 567 OFFCURVE",
-"556 611 CURVE",
-"534 619 LINE",
+"556 611 CURVE SMOOTH",
+"534 619 LINE SMOOTH",
 "488 634 OFFCURVE",
 "440 641 OFFCURVE",
 "394 641 CURVE SMOOTH",
@@ -1291,7 +1291,7 @@ position = "{775, 0}";
 },
 {
 name = repaya;
-position = "{305.365, 722}";
+position = "{305, 722}";
 },
 {
 name = uvowel;
@@ -1312,8 +1312,8 @@ nodes = (
 "514 298 CURVE SMOOTH",
 "514 426 OFFCURVE",
 "473 534 OFFCURVE",
-"395 583 CURVE",
-"385 589 LINE",
+"395 583 CURVE SMOOTH",
+"385 589 LINE SMOOTH",
 "357 604 OFFCURVE",
 "325 612 OFFCURVE",
 "289 612 CURVE SMOOTH",
@@ -1603,11 +1603,11 @@ width = 858;
 anchors = (
 {
 name = rakar;
-position = "{823, 0}";
+position = "{783, 0}";
 },
 {
 name = repaya;
-position = "{326.719, 722}";
+position = "{327, 722}";
 },
 {
 name = uvowel;
@@ -1628,8 +1628,8 @@ nodes = (
 "576 300 CURVE SMOOTH",
 "576 463 OFFCURVE",
 "510 544 OFFCURVE",
-"440 582 CURVE",
-"420 592 LINE",
+"440 582 CURVE SMOOTH",
+"420 592 LINE SMOOTH",
 "389 606 OFFCURVE",
 "361 612 OFFCURVE",
 "323 612 CURVE SMOOTH",
@@ -1660,7 +1660,7 @@ nodes = (
 "323 359 CURVE SMOOTH",
 "353 359 OFFCURVE",
 "380 331 OFFCURVE",
-"380 296 CURVE",
+"380 296 CURVE SMOOTH",
 "380 247 OFFCURVE",
 "354 214 OFFCURVE",
 "297 214 CURVE SMOOTH",
@@ -1924,7 +1924,7 @@ position = "{973, 0}";
 },
 {
 name = repaya;
-position = "{389.358, 722}";
+position = "{389, 722}";
 },
 {
 name = uvowel;
@@ -1945,8 +1945,8 @@ nodes = (
 "692 309 CURVE SMOOTH",
 "692 473 OFFCURVE",
 "605 556 OFFCURVE",
-"500 595 CURVE",
-"459 608 LINE",
+"500 595 CURVE SMOOTH",
+"459 608 LINE SMOOTH",
 "424 617 OFFCURVE",
 "390 622 OFFCURVE",
 "358 622 CURVE SMOOTH",
