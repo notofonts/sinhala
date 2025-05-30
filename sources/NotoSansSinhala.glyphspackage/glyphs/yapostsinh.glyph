@@ -6,11 +6,11 @@ layers = (
 anchors = (
 {
 name = repaya;
-position = "{280.224, 730}";
+position = "{280, 714}";
 },
 {
 name = top;
-position = "{116.538, 533}";
+position = "{144, 0}";
 },
 {
 name = uvowel;
@@ -18,7 +18,7 @@ position = "{496, 1}";
 },
 {
 name = virama;
-position = "{427.008, 566}";
+position = "{457, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -154,8 +154,8 @@ nodes = (
 "7 575 OFFCURVE",
 "7 496 CURVE SMOOTH",
 "7 484 OFFCURVE",
-"9 473 OFFCURVE",
-"11 459 CURVE",
+"9 472 OFFCURVE",
+"11 458 CURVE",
 "84 458 LINE",
 "82 468 OFFCURVE",
 "80 479 OFFCURVE",
@@ -517,8 +517,8 @@ nodes = (
 "14 486 OFFCURVE",
 "16 462 OFFCURVE",
 "19 449 CURVE",
-"45 452 LINE",
-"43 462 OFFCURVE",
+"45 449 LINE",
+"43 459 OFFCURVE",
 "41 478 OFFCURVE",
 "41 498 CURVE SMOOTH",
 "41 554 OFFCURVE",
@@ -567,8 +567,8 @@ nodes = (
 "364 558 OFFCURVE",
 "364 498 CURVE SMOOTH",
 "364 478 OFFCURVE",
-"362 462 OFFCURVE",
-"360 452 CURVE",
+"362 459 OFFCURVE",
+"360 449 CURVE",
 "386 449 LINE",
 "389 462 OFFCURVE",
 "391 487 OFFCURVE",

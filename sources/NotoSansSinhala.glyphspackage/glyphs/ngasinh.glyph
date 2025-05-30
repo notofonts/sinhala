@@ -804,7 +804,7 @@ width = 668;
 anchors = (
 {
 name = rakar;
-position = "{654, 0}";
+position = "{634, 0}";
 },
 {
 name = uvowel;

@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 5;
 glyphname = rahalantsinh;
 layers = (
 {
@@ -74,14 +74,14 @@ closed = 1;
 nodes = (
 "244 541 LINE",
 "244 803 LINE",
-"221 864 LINE",
-"212 893 OFFCURVE",
-"193 911 OFFCURVE",
-"152 923 CURVE",
+"231 834 LINE",
+"232 893 OFFCURVE",
+"196 923 OFFCURVE",
+"126 923 CURVE",
 "126 862 LINE",
-"171 846 OFFCURVE",
-"176 813 OFFCURVE",
-"176 766 CURVE SMOOTH",
+"166 862 OFFCURVE",
+"176 833 OFFCURVE",
+"176 806 CURVE SMOOTH",
 "176 491 LINE"
 );
 },

@@ -694,7 +694,7 @@ width = 986;
 anchors = (
 {
 name = rakar;
-position = "{944, 0}";
+position = "{904, 0}";
 },
 {
 name = repaya;
