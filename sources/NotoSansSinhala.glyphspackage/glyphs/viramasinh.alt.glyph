@@ -17,14 +17,14 @@ nodes = (
 "-132 617 LINE",
 "-132 806 LINE",
 "-142 851 LINE",
-"-148 881 OFFCURVE",
-"-165 905 OFFCURVE",
-"-200 920 CURVE",
+"-142 881 OFFCURVE",
+"-150 920 OFFCURVE",
+"-211 920 CURVE",
 "-211 895 LINE",
-"-190 886 OFFCURVE",
-"-175 869 OFFCURVE",
-"-168 856 CURVE SMOOTH",
-"-159 840 OFFCURVE",
+"-179 895 OFFCURVE",
+"-158 874 OFFCURVE",
+"-158 845 CURVE SMOOTH",
+"-158 824 OFFCURVE",
 "-158 823 OFFCURVE",
 "-158 787 CURVE SMOOTH",
 "-158 627 LINE"
@@ -39,9 +39,9 @@ nodes = (
 "0 896 OFFCURVE",
 "-37 920 OFFCURVE",
 "-75 920 CURVE SMOOTH",
-"-119 920 OFFCURVE",
-"-143 888 OFFCURVE",
-"-148 861 CURVE",
+"-129 920 OFFCURVE",
+"-150 871 OFFCURVE",
+"-150 841 CURVE",
 "-132 797 LINE",
 "-132 809 LINE SMOOTH",
 "-132 858 OFFCURVE",
@@ -68,8 +68,8 @@ width = 0;
 {
 anchors = (
 {
-name = _virama_;
-position = "{-112, 0}";
+name = _virama;
+position = "{-140, 6}";
 }
 );
 layerId = UUID0;
@@ -81,15 +81,15 @@ nodes = (
 "-140 803 LINE",
 "-163 864 LINE",
 "-172 893 OFFCURVE",
-"-191 911 OFFCURVE",
-"-232 923 CURVE",
+"-187 923 OFFCURVE",
+"-258 923 CURVE",
 "-258 862 LINE",
-"-236 854 OFFCURVE",
-"-224 843 OFFCURVE",
-"-217 828 CURVE SMOOTH",
-"-211 816 OFFCURVE",
-"-208 797 OFFCURVE",
-"-208 766 CURVE SMOOTH",
+"-219 862 OFFCURVE",
+"-207 840 OFFCURVE",
+"-207 811 CURVE SMOOTH",
+"-207 809 OFFCURVE",
+"-207 797 OFFCURVE",
+"-207 766 CURVE SMOOTH",
 "-208 674 LINE"
 );
 },
@@ -132,7 +132,7 @@ width = 0;
 anchors = (
 {
 name = _virama;
-position = "{-272, 517}";
+position = "{-232, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -144,8 +144,8 @@ nodes = (
 "-151 837 LINE",
 "-189 887 LINE",
 "-193 938 OFFCURVE",
-"-222 969 OFFCURVE",
-"-278 979 CURVE",
+"-231 992 OFFCURVE",
+"-325 992 CURVE",
 "-325 878 LINE",
 "-307 870 OFFCURVE",
 "-293 862 OFFCURVE",
@@ -196,6 +196,10 @@ anchors = (
 {
 name = _virama;
 position = "{-272, 517}";
+},
+{
+name = _virama_;
+position = "{-129, 0}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -268,7 +272,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-105 524 LINE",
+"-105 614 LINE",
 "-105 861 LINE",
 "-115 901 LINE",
 "-116 929 OFFCURVE",
@@ -281,7 +285,7 @@ nodes = (
 "-132 899 OFFCURVE",
 "-131 880 OFFCURVE",
 "-131 837 CURVE SMOOTH",
-"-131 534 LINE"
+"-131 624 LINE"
 );
 },
 {
@@ -320,6 +324,12 @@ nodes = (
 width = 0;
 },
 {
+anchors = (
+{
+name = _virama;
+position = "{-132, 6}";
+}
+);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -377,6 +387,12 @@ nodes = (
 width = 0;
 },
 {
+anchors = (
+{
+name = _virama;
+position = "{-132, 6}";
+}
+);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {
