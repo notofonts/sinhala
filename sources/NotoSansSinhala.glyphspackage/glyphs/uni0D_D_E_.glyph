@@ -105,4 +105,5 @@ width = 1342;
 }
 );
 unicode = 0DDE;
+subCategory = "Spacing Combining";
 }

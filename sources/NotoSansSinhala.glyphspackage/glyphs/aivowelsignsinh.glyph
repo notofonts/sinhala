@@ -82,4 +82,5 @@ width = 1164;
 );
 unicode = 0DDB;
 category = Letter;
+subCategory = "Spacing Combining";
 }

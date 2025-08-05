@@ -258,7 +258,7 @@ position = "{939, 0}";
 },
 {
 name = rakar;
-position = "{1278, 0}";
+position = "{1298, 0}";
 },
 {
 name = repaya;
@@ -270,7 +270,7 @@ position = "{1395, 0}";
 },
 {
 name = virama;
-position = "{1397, 0}";
+position = "{1282, 0}";
 }
 );
 layerId = UUID0;
@@ -514,7 +514,7 @@ position = "{795, 730}";
 },
 {
 name = uvowel;
-position = "{1215, 0}";
+position = "{1375, 0}";
 },
 {
 name = virama;

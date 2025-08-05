@@ -133,7 +133,7 @@ position = "{739, 0}";
 },
 {
 name = virama;
-position = "{542, 0}";
+position = "{672, 0}";
 }
 );
 layerId = UUID0;
@@ -471,7 +471,7 @@ position = "{492, 0}";
 },
 {
 name = virama;
-position = "{470, 0}";
+position = "{420, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
