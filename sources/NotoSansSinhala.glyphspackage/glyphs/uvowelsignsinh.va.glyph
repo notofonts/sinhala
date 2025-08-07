@@ -12,9 +12,6 @@ position = "{-40, 0}";
 components = (
 {
 name = _part.uvowelsignsinh;
-piece = {
-length = 14.64983;
-};
 transform = "{1, 0, 0, 1, 20, 0}";
 }
 );
