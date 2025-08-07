@@ -19,6 +19,10 @@ position = "{820, 800}";
 {
 name = uvowel;
 position = "{1187, 0}";
+},
+{
+name = virama;
+position = "{1124.072, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -206,6 +210,10 @@ position = "{895, 800}";
 {
 name = uvowel;
 position = "{1177, 0}";
+},
+{
+name = virama;
+position = "{1195, 0}";
 }
 );
 layerId = UUID0;
@@ -393,6 +401,10 @@ position = "{930, 800}";
 {
 name = uvowel;
 position = "{1267, 0}";
+},
+{
+name = virama;
+position = "{1191.409, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -580,6 +592,10 @@ position = "{623, 800}";
 {
 name = uvowel;
 position = "{853, 0}";
+},
+{
+name = virama;
+position = "{791, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -767,6 +783,10 @@ position = "{651, 800}";
 {
 name = uvowel;
 position = "{892, 0}";
+},
+{
+name = virama;
+position = "{871.784, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -954,6 +974,10 @@ position = "{704, 800}";
 {
 name = uvowel;
 position = "{964, 0}";
+},
+{
+name = virama;
+position = "{988.501, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -1141,6 +1165,10 @@ position = "{849.503, 800}";
 {
 name = uvowel;
 position = "{1217, 0}";
+},
+{
+name = virama;
+position = "{1123.174, 0}";
 }
 );
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -1318,6 +1346,10 @@ position = "{895, 800}";
 {
 name = uvowel;
 position = "{1177, 0}";
+},
+{
+name = virama;
+position = "{1183.328, 0}";
 }
 );
 associatedMasterId = UUID0;
@@ -1495,6 +1527,10 @@ position = "{930.311, 800}";
 {
 name = uvowel;
 position = "{1267, 0}";
+},
+{
+name = virama;
+position = "{1230.015, 0}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -1672,6 +1708,10 @@ position = "{622.697, 800}";
 {
 name = uvowel;
 position = "{853.011, 0}";
+},
+{
+name = virama;
+position = "{823.302, 0}";
 }
 );
 associatedMasterId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -1849,6 +1889,10 @@ position = "{651.218, 800}";
 {
 name = uvowel;
 position = "{892.081, 0}";
+},
+{
+name = virama;
+position = "{861.011, 0}";
 }
 );
 associatedMasterId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -2026,6 +2070,10 @@ position = "{703.505, 800}";
 {
 name = uvowel;
 position = "{963.708, 0}";
+},
+{
+name = virama;
+position = "{930.143, 0}";
 }
 );
 associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

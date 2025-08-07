@@ -19,6 +19,10 @@ position = "{469, 800}";
 {
 name = uvowel;
 position = "{817, 0}";
+},
+{
+name = virama;
+position = "{734.578, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -150,6 +154,10 @@ position = "{515, 800}";
 {
 name = uvowel;
 position = "{897, 0}";
+},
+{
+name = virama;
+position = "{815, 0}";
 }
 );
 layerId = UUID0;
@@ -281,6 +289,10 @@ position = "{568, 800}";
 {
 name = uvowel;
 position = "{989, 0}";
+},
+{
+name = virama;
+position = "{899.568, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -412,6 +424,10 @@ position = "{351, 800}";
 {
 name = uvowel;
 position = "{611, 0}";
+},
+{
+name = virama;
+position = "{539, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -543,6 +559,10 @@ position = "{357.994, 800}";
 {
 name = uvowel;
 position = "{623.535, 0}";
+},
+{
+name = virama;
+position = "{580.366, 0}";
 }
 );
 associatedMasterId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -669,6 +689,10 @@ position = "{390, 800}";
 {
 name = uvowel;
 position = "{679, 0}";
+},
+{
+name = virama;
+position = "{631.77, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -800,6 +824,10 @@ position = "{392.259, 800}";
 {
 name = uvowel;
 position = "{683.216, 0}";
+},
+{
+name = virama;
+position = "{635.916, 0}";
 }
 );
 associatedMasterId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -926,6 +954,10 @@ position = "{464, 800}";
 {
 name = uvowel;
 position = "{808, 0}";
+},
+{
+name = virama;
+position = "{751.989, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -1057,6 +1089,10 @@ position = "{459.255, 800}";
 {
 name = uvowel;
 position = "{799.907, 0}";
+},
+{
+name = virama;
+position = "{744.527, 0}";
 }
 );
 associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -1183,6 +1219,10 @@ position = "{468.972, 800}";
 {
 name = uvowel;
 position = "{816.831, 0}";
+},
+{
+name = virama;
+position = "{760.28, 0}";
 }
 );
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -1309,6 +1349,10 @@ position = "{515, 800}";
 {
 name = uvowel;
 position = "{897, 0}";
+},
+{
+name = virama;
+position = "{834.898, 0}";
 }
 );
 associatedMasterId = UUID0;
@@ -1435,6 +1479,10 @@ position = "{567.676, 800}";
 {
 name = uvowel;
 position = "{988.749, 0}";
+},
+{
+name = virama;
+position = "{920.295, 0}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";

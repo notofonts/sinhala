@@ -575,7 +575,7 @@ position = "{519, 740}";
 },
 {
 name = virama;
-position = "{694, -3}";
+position = "{724, -3}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -762,7 +762,7 @@ position = "{547, 740}";
 },
 {
 name = virama;
-position = "{694, -3}";
+position = "{744, -3}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
