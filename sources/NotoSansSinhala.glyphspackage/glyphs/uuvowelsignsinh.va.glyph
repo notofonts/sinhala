@@ -60,6 +60,9 @@ nodes = (
 components = (
 {
 name = _part.uuvowelsignsinh;
+piece = {
+height = 41.72991;
+};
 transform = "{1, 0, 0, 1, -4, 0}";
 }
 );

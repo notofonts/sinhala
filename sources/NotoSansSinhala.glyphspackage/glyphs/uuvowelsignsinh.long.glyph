@@ -13,7 +13,7 @@ components = (
 {
 name = _part.uuvowelsignsinh;
 piece = {
-height = 26.07003;
+height = 49.94977;
 length = 100;
 };
 transform = "{1, 0, 0, 1, 4, 0}";

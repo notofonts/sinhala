@@ -155,7 +155,7 @@ position = "{782, 0}";
 },
 {
 name = virama;
-position = "{674, 0}";
+position = "{684, 0}";
 }
 );
 layerId = UUID0;
@@ -280,7 +280,7 @@ position = "{698, 0}";
 },
 {
 name = repaya;
-position = "{328, 730}";
+position = "{218, 730}";
 },
 {
 name = uvowel;

@@ -10,11 +10,11 @@ position = "{694, 0}";
 },
 {
 name = repaya;
-position = "{367, 820}";
+position = "{367, 770}";
 },
 {
 name = uvowel;
-position = "{695, 0}";
+position = "{694, 0}";
 }
 );
 background = {
@@ -163,7 +163,7 @@ position = "{670, 0}";
 },
 {
 name = repaya;
-position = "{380, 800}";
+position = "{400, 920}";
 },
 {
 name = uvowel;

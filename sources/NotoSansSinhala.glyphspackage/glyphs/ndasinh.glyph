@@ -10,7 +10,7 @@ position = "{471, 0}";
 },
 {
 name = repaya;
-position = "{439, 680}";
+position = "{439, 710}";
 },
 {
 name = virama;
@@ -355,7 +355,7 @@ position = "{459, 0}";
 },
 {
 name = repaya;
-position = "{579, 690}";
+position = "{449, 740}";
 },
 {
 name = virama;

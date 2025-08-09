@@ -10,7 +10,7 @@ position = "{747, 0}";
 },
 {
 name = repaya;
-position = "{388, 820}";
+position = "{388, 780}";
 },
 {
 name = uvowel;
@@ -218,7 +218,7 @@ position = "{700, 0}";
 },
 {
 name = repaya;
-position = "{402, 800}";
+position = "{452, 930}";
 },
 {
 name = uvowel;

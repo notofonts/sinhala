@@ -6,11 +6,11 @@ layers = (
 anchors = (
 {
 name = rakar;
-position = "{721, 0}";
+position = "{731, 0}";
 },
 {
 name = repaya;
-position = "{340, 800}";
+position = "{390, 770}";
 },
 {
 name = uvowel;
@@ -214,7 +214,7 @@ position = "{688, 0}";
 },
 {
 name = repaya;
-position = "{383, 800}";
+position = "{413, 920}";
 },
 {
 name = uvowel;
