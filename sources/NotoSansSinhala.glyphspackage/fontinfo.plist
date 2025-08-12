@@ -890,6 +890,11 @@ name = "La/Ra UVowels";
 );
 features = (
 {
+automatic = 1;
+code = "feature akhn;\012feature rphf;\012feature vatu;\012feature pstf;\012feature pres;\012feature abvs;\012feature blws;\012feature psts;\012";
+name = aalt;
+},
+{
 code = "sub kasinh viramasinh uni200D ssasinh by kassasinh;\012sub kasinh viramasinh uni200D vasinh by kavasinh;\012sub gasinh viramasinh uni200D dhasinh by gadhasinh;\012sub nyasinh viramasinh uni200D casinh by nyacasinh;\012sub ttasinh viramasinh uni200D tthasinh by ttatthasinh;\012sub tasinh viramasinh uni200D thasinh by tathasinh;\012sub tasinh viramasinh uni200D vasinh by tavasinh;\012sub dasinh viramasinh uni200D dhasinh by dadhasinh;\012sub dasinh viramasinh uni200D vasinh by davasinh;\012sub nasinh viramasinh uni200D dasinh by nadasinh;\012sub nasinh viramasinh uni200D dhasinh by nadhasinh;\012sub nasinh viramasinh uni200D thasinh by nathasinh;\012sub nasinh viramasinh uni200D vasinh by navasinh;";
 name = akhn;
 },
