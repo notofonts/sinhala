@@ -1,5 +1,5 @@
 {
-.appVersion = "3343";
+.appVersion = "3260";
 classes = (
 {
 code = "tthasinh ddhasinh thasinh phasinh ttatthasinh tathasinh nathasinh \012";
@@ -1071,6 +1071,9 @@ position = "{-430, -232}";
 },
 {
 position = "{-40, 176}";
+},
+{
+position = "{-257, 976}";
 }
 );
 id = "56AEB5FB-BA14-4784-B08F-18006463EEDB";

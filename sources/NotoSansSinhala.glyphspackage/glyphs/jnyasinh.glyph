@@ -366,7 +366,7 @@ position = "{683, 730}";
 },
 {
 name = virama;
-position = "{1254, 0}";
+position = "{1154, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -1053,7 +1053,7 @@ width = 1170;
 anchors = (
 {
 name = iVowel;
-position = "{549, 0}";
+position = "{469, 0}";
 },
 {
 name = repaya;
@@ -1229,7 +1229,7 @@ width = 833;
 anchors = (
 {
 name = iVowel;
-position = "{590, 0}";
+position = "{530, 0}";
 },
 {
 name = repaya;
