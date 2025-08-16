@@ -99,7 +99,7 @@ position = "{380, 800}";
 },
 {
 name = uvowel;
-position = "{734, 0}";
+position = "{724, 0}";
 }
 );
 guideLines = (
@@ -612,7 +612,7 @@ width = 741;
 anchors = (
 {
 name = rakar;
-position = "{480, -11}";
+position = "{480, 0}";
 },
 {
 name = repaya;
@@ -620,7 +620,7 @@ position = "{263, 805}";
 },
 {
 name = uvowel;
-position = "{485, 0}";
+position = "{475, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";

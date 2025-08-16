@@ -57,13 +57,13 @@ width = 0;
 anchors = (
 {
 name = _uvowel;
-position = "{-62, 0}";
+position = "{-42, 0}";
 }
 );
 components = (
 {
 name = _part.uuvowelsignsinh;
-transform = "{1, 0, 0, 1, -19, 0}";
+transform = "{1, 0, 0, 1, 19, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -80,9 +80,10 @@ components = (
 {
 name = _part.uuvowelsignsinh;
 piece = {
-length = 27.98549;
+height = 0;
+length = 28.38309;
 };
-transform = "{1, 0, 0, 1, -19, 0}";
+transform = "{1, 0, 0, 1, -16, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
