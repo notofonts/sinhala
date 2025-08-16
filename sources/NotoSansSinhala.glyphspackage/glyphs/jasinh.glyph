@@ -217,7 +217,7 @@ nodes = (
 );
 }
 );
-width = 891;
+width = 881;
 },
 {
 anchors = (
@@ -1412,10 +1412,57 @@ nodes = (
 }
 );
 width = 660;
+},
+{
+anchors = (
+{
+name = iVowel;
+position = "{328, 0}";
+},
+{
+name = rakar;
+position = "{680, 0}";
+},
+{
+name = repaya;
+position = "{427, 701}";
+},
+{
+name = uvowel;
+position = "{805, 0}";
+},
+{
+name = virama;
+position = "{462, 0}";
+}
+);
+associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
+components = (
+{
+name = pasinh;
+}
+);
+layerId = "347E482C-54D3-4FEC-9C82-786E8DE1AC13";
+name = "16 Aug 25, 14:25";
+paths = (
+{
+closed = 1;
+nodes = (
+"725 594 LINE",
+"793 633 OFFCURVE",
+"823 664 OFFCURVE",
+"871 714 CURVE",
+"781 819 LINE",
+"718 738 OFFCURVE",
+"670 686 OFFCURVE",
+"578 597 CURVE"
+);
+}
+);
+width = 891;
 }
 );
 leftMetricsKey = pasinh;
 rightKerningGroup = pasinh;
-rightMetricsKey = pasinh;
 unicode = 0DA2;
 }
