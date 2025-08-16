@@ -71,7 +71,7 @@ name = _part.uuvowelsignsinh;
 piece = {
 length = 100;
 };
-transform = "{1, 0, 0, 1, -15, 0}";
+transform = "{1, 0, 0, 1, 3, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";

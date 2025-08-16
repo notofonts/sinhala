@@ -22,10 +22,6 @@ code = "kasinh tasinh nasinh";
 name = iVowelAlt3;
 },
 {
-code = "kasinh gasinh nngasinh tasinh shasinh bhasinh\012";
-name = uSign2Group;
-},
-{
 code = "#ඛඝඞඨඩඪධබඬමසඹයන\012khasinh ngasinh tthasinh ddasinh ddhasinh nnddasinh dhasinh basinh mbasinh nasinh ttatthasinh ttatthasinh dadhasinh davasinh \012";
 name = uSignMediumGroup;
 },
@@ -922,7 +918,7 @@ code = "sub rasinh rephsinh' lookup SplitReph;\012";
 name = pres;
 },
 {
-code = "\012sub dasinh uvowelsignsinh by duvowelsinh;\012sub dasinh uuvowelsignsinh by duuvowelsinh;\012sub ndasinh uvowelsignsinh by nduvowelsinh;\012sub ndasinh uuvowelsignsinh by nduuvowelsinh;\012sub jnyasinh uuvowelsignsinh by jnyuuvowelsinh;\012sub jnyasinh uvowelsignsinh by jnyuvowelsinh;\012sub nyasinh uvowelsignsinh by nyuvowelsinh;\012sub nyasinh uuvowelsignsinh by nyuuvowelsinh;\012sub nadasinh uvowelsignsinh by naduvowelsinh;\012sub nadasinh uuvowelsignsinh by naduuvowelsinh;\012sub lasinh uvowelsignsinh by luvowelsinh;\012sub lasinh uuvowelsignsinh by luuvowelsinh;\012sub llasinh uvowelsignsinh by lluvowelsinh;\012sub shasinh uvowelsignsinh by shuvowelsinh;\012sub shasinh uuvowelsignsinh by shuuvowelsinh;\012\012sub kasinh uvowelsignsinh by kuvowelsinh;\012sub kasinh uuvowelsignsinh by kuuvowelsinh;\012\012\012sub tasinh uvowelsignsinh by tuvowelsinh;\012sub tasinh uuvowelsignsinh by tuuvowelsinh;\012\012sub bhasinh uvowelsignsinh by bhuvowelsinh;\012sub bhasinh uuvowelsignsinh by bhuuvowelsinh;\012\012\012sub gasinh uvowelsignsinh by guvowelsinh;\012sub gasinh uuvowelsignsinh by guuvowelsinh;\012\012\012sub nngasinh uvowelsignsinh by nnguvowelsinh;\012sub nngasinh uuvowelsignsinh by nnguuvowelsinh;\012\012\012sub @uSignWideGroup uvowelsignsinh' by uvowelsignsinh.long;\012sub @uSignWideGroup uuvowelsignsinh' by uuvowelsignsinh.long;\012\012sub @uSignMediumGroup uvowelsignsinh' by uvowelsignsinh.medium;\012sub @uSignMediumGroup uuvowelsignsinh' by uuvowelsignsinh.medium;\012\012\012sub @uSign2Group uvowelsignsinh' by uvowelsignsinh.alt;\012sub @uSign2Group uuvowelsignsinh' by uuvowelsignsinh.alt;\012\012sub @saShapeGroup uvowelsignsinh' by uvowelsignsinh.medium;\012sub @saShapeGroup uuvowelsignsinh' by uuvowelsignsinh.medium;\012\012sub @vaShapeGroup uvowelsignsinh' by uvowelsignsinh.va;\012sub @vaShapeGroup uuvowelsignsinh' by uuvowelsignsinh.va;\012\012\012\012lookup Rakar {\012sub @rakarWideGroup rakarsinh' by rakarsinh.long;\012sub @rakarVaShapeGroup rakarsinh' by rakarsinh.medium;\012} Rakar;\012";
+code = "\012sub dasinh uvowelsignsinh by duvowelsinh;\012sub dasinh uuvowelsignsinh by duuvowelsinh;\012sub ndasinh uvowelsignsinh by nduvowelsinh;\012sub ndasinh uuvowelsignsinh by nduuvowelsinh;\012sub jnyasinh uuvowelsignsinh by jnyuuvowelsinh;\012sub jnyasinh uvowelsignsinh by jnyuvowelsinh;\012sub nyasinh uvowelsignsinh by nyuvowelsinh;\012sub nyasinh uuvowelsignsinh by nyuuvowelsinh;\012sub nadasinh uvowelsignsinh by naduvowelsinh;\012sub nadasinh uuvowelsignsinh by naduuvowelsinh;\012sub lasinh uvowelsignsinh by luvowelsinh;\012sub lasinh uuvowelsignsinh by luuvowelsinh;\012sub llasinh uvowelsignsinh by lluvowelsinh;\012sub shasinh uvowelsignsinh by shuvowelsinh;\012sub shasinh uuvowelsignsinh by shuuvowelsinh;\012\012sub kasinh uvowelsignsinh by kuvowelsinh;\012sub kasinh uuvowelsignsinh by kuuvowelsinh;\012\012\012sub tasinh uvowelsignsinh by tuvowelsinh;\012sub tasinh uuvowelsignsinh by tuuvowelsinh;\012\012sub bhasinh uvowelsignsinh by bhuvowelsinh;\012sub bhasinh uuvowelsignsinh by bhuuvowelsinh;\012\012\012sub gasinh uvowelsignsinh by guvowelsinh;\012sub gasinh uuvowelsignsinh by guuvowelsinh;\012\012\012sub nngasinh uvowelsignsinh by nnguvowelsinh;\012sub nngasinh uuvowelsignsinh by nnguuvowelsinh;\012\012\012sub @uSignWideGroup uvowelsignsinh' by uvowelsignsinh.long;\012sub @uSignWideGroup uuvowelsignsinh' by uuvowelsignsinh.long;\012\012sub @uSignMediumGroup uvowelsignsinh' by uvowelsignsinh.medium;\012sub @uSignMediumGroup uuvowelsignsinh' by uuvowelsignsinh.medium;\012\012\012sub @saShapeGroup uvowelsignsinh' by uvowelsignsinh.medium;\012sub @saShapeGroup uuvowelsignsinh' by uuvowelsignsinh.medium;\012\012sub @vaShapeGroup uvowelsignsinh' by uvowelsignsinh.va;\012sub @vaShapeGroup uuvowelsignsinh' by uuvowelsignsinh.va;\012\012\012\012lookup Rakar {\012sub @rakarWideGroup rakarsinh' by rakarsinh.long;\012sub @rakarVaShapeGroup rakarsinh' by rakarsinh.medium;\012} Rakar;\012";
 name = blws;
 },
 {
@@ -965,7 +961,7 @@ position = "{-779, -213}";
 position = "{-835, -58}";
 },
 {
-position = "{-60, 155}";
+position = "{-40, 162}";
 }
 );
 id = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -1045,6 +1041,11 @@ alignmentZones = (
 ascender = 1011;
 capHeight = 612;
 descender = -293;
+guideLines = (
+{
+position = "{-50, 147}";
+}
+);
 id = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 verticalStems = (
 27
@@ -1067,6 +1068,9 @@ descender = -293;
 guideLines = (
 {
 position = "{-430, -232}";
+},
+{
+position = "{-40, 176}";
 }
 );
 id = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
