@@ -10,11 +10,11 @@ code = "chasinh jasinh nyjasinh";
 name = viramaAlt2Group;
 },
 {
-code = "gasinh nngasinh pasinh ssasinh bhasinh sasinh hasinh fasinh hasinh ghasinh kassasinh nadasinh\012shasinh nyasinh jnyasinh nadasinh nadarasinh\012";
+code = "gasinh nngasinh bhasinh hasinh fasinh hasinh kassasinh shasinh ";
 name = iVowelAlt;
 },
 {
-code = "dasinh ndasinh darasinh ndarasinh nyasinh\012";
+code = "dasinh ndasinh darasinh nyasinh jnyasinh nadasinh ndarasinh  nadarasinh\012";
 name = iVowelAlt2;
 },
 {
