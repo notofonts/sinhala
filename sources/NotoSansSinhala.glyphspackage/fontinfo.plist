@@ -3470,6 +3470,9 @@ yapostsinh = -28;
 };
 };
 UUID0 = {
+"@MMK_L_lasinh" = {
+kunddaliyasinh = 0;
+};
 basinh = {
 rrvocalicvowelsignsinh = -9;
 rvocalicvowelsignsinh = -9;
@@ -3726,7 +3729,7 @@ rvocalicvowelsignsinh = -6;
 yapostsinh = -12;
 };
 kunddaliyasinh = {
-kunddaliyasinh = -58;
+kunddaliyasinh = 0;
 };
 lasinh = {
 aaevowelsignsinh = 5;
