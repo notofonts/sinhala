@@ -380,7 +380,7 @@ width = 1358;
 anchors = (
 {
 name = iVowel;
-position = "{938, 0}";
+position = "{889, 0}";
 },
 {
 name = rakar;
@@ -579,7 +579,7 @@ position = "{534, 750}";
 },
 {
 name = uvowel;
-position = "{827, 0}";
+position = "{867, 0}";
 },
 {
 name = virama;
@@ -766,7 +766,7 @@ position = "{563, 750}";
 },
 {
 name = uvowel;
-position = "{868, 0}";
+position = "{928, 0}";
 },
 {
 name = virama;

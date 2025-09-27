@@ -62,7 +62,7 @@ width = 0;
 anchors = (
 {
 name = _uvowel;
-position = "{-60, 0}";
+position = "{-54, 0}";
 }
 );
 components = (
@@ -71,7 +71,7 @@ name = _part.uvowelsignsinh;
 piece = {
 length = 100;
 };
-transform = "{1, 0, 0, 1, -1, 0}";
+transform = "{1, 0, 0, 1, 5, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";

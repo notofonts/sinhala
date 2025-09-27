@@ -653,7 +653,7 @@ position = "{679, 836}";
 },
 {
 name = uvowel;
-position = "{921, 0}";
+position = "{901, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
