@@ -1,5 +1,4 @@
 {
-color = 3;
 glyphname = evowelsignsinh;
 layers = (
 {
@@ -713,4 +712,5 @@ width = 706;
 );
 unicode = 0DD9;
 category = Letter;
+subCategory = "Spacing Combining";
 }

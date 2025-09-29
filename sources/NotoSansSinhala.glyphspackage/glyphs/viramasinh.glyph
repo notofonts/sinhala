@@ -1,5 +1,4 @@
 {
-color = 2;
 glyphname = viramasinh;
 layers = (
 {
@@ -448,12 +447,12 @@ nodes = (
 "-121 840 LINE",
 "-159 886 LINE",
 "-159 939 OFFCURVE",
-"-186 967 OFFCURVE",
-"-230 978 CURVE",
+"-185 988 OFFCURVE",
+"-277 988 CURVE",
 "-277 879 LINE",
-"-231 858 OFFCURVE",
+"-231 879 OFFCURVE",
 "-229 844 OFFCURVE",
-"-229 793 CURVE SMOOTH",
+"-229 813 CURVE SMOOTH",
 "-229 518 LINE"
 );
 },

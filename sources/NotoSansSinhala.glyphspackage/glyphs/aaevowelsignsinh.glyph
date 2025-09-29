@@ -1,5 +1,4 @@
 {
-color = 2;
 glyphname = aaevowelsignsinh;
 layers = (
 {
@@ -342,4 +341,5 @@ width = 295;
 leftKerningGroup = aevowelsignsinh;
 unicode = 0DD1;
 category = Letter;
+subCategory = "Spacing Combining";
 }

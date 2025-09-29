@@ -1,5 +1,4 @@
 {
-color = 2;
 glyphname = uvowelsignsinh.long;
 layers = (
 {
@@ -190,5 +189,5 @@ width = 0;
 }
 );
 category = Mark;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 }

@@ -1,5 +1,4 @@
 {
-color = 3;
 glyphname = aevowelsignlowsinh;
 layers = (
 {
@@ -231,4 +230,5 @@ nodes = (
 width = 295;
 }
 );
+subCategory = "Spacing Combining";
 }
