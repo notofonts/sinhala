@@ -1,5 +1,4 @@
 {
-color = 2;
 glyphname = ivowelsignsinh.alt2;
 layers = (
 {
@@ -274,7 +273,7 @@ width = 8;
 );
 script = sinhala;
 category = Mark;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 userData = {
 RMXScaler = {
 source = ivowelsignsinh.alt2;

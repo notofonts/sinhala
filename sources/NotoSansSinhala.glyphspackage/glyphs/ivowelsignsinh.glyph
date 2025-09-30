@@ -1,5 +1,4 @@
 {
-color = 2;
 glyphname = ivowelsignsinh;
 layers = (
 {
@@ -353,5 +352,5 @@ width = 0;
 );
 unicode = 0DD2;
 category = Mark;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 }

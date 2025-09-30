@@ -1,5 +1,4 @@
 {
-color = 3;
 glyphname = llvocalicvowelsignsinh;
 layers = (
 {
@@ -546,4 +545,5 @@ width = 549;
 leftKerningGroup = lvocalicvowelsignsinh;
 unicode = 0DF3;
 category = Letter;
+subCategory = "Spacing Combining";
 }

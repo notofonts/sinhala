@@ -1,5 +1,4 @@
 {
-color = 3;
 glyphname = rakarsinh.long;
 layers = (
 {
@@ -264,7 +263,7 @@ width = 0;
 }
 );
 category = Mark;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 userData = {
 RMXScaler = {
 source = rakarsinh.long;

@@ -84,4 +84,5 @@ width = 828;
 leftKerningGroup = rvocalicvowelsignsinh;
 unicode = 0DF2;
 category = Letter;
+subCategory = "Spacing Combining";
 }

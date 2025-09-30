@@ -1,5 +1,4 @@
 {
-color = 2;
 glyphname = ivowelsignsinh.alt;
 layers = (
 {
@@ -438,7 +437,7 @@ width = 0;
 }
 );
 category = Mark;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 userData = {
 RMXScaler = {
 source = ivowelsignsinh.alt;

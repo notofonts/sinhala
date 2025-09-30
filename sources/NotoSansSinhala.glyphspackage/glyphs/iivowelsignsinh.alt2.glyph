@@ -1,5 +1,4 @@
 {
-color = 2;
 glyphname = iivowelsignsinh.alt2;
 layers = (
 {
@@ -605,5 +604,5 @@ leftKerningGroup = dasinh;
 rightKerningGroup = dasinh;
 script = sinhala;
 category = Mark;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 }

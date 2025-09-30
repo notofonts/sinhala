@@ -1,5 +1,4 @@
 {
-color = 2;
 glyphname = iivowelsignsinh.alt;
 layers = (
 {
@@ -388,5 +387,5 @@ width = 0;
 );
 script = sinhala;
 category = Mark;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 }

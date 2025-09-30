@@ -238,7 +238,7 @@ width = 1290;
 anchors = (
 {
 name = iVowel;
-position = "{1008, 0}";
+position = "{1048, 0}";
 },
 {
 name = repaya;
