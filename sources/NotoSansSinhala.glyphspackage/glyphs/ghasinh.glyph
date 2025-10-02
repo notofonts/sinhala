@@ -14,7 +14,7 @@ position = "{788, 0}";
 },
 {
 name = repaya;
-position = "{410, 702}";
+position = "{400, 695}";
 },
 {
 name = uvowel;
@@ -330,7 +330,7 @@ width = 874;
 anchors = (
 {
 name = iVowel;
-position = "{289, 0}";
+position = "{299, 0}";
 },
 {
 name = rakar;
@@ -1810,7 +1810,7 @@ position = "{660, 0}";
 },
 {
 name = repaya;
-position = "{365, 628}";
+position = "{315, 718}";
 },
 {
 name = uvowel;

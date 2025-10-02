@@ -62,7 +62,7 @@ width = 669;
 anchors = (
 {
 name = virama;
-position = "{237, 517}";
+position = "{254, 0}";
 }
 );
 layerId = UUID0;
@@ -460,7 +460,7 @@ width = 528;
 anchors = (
 {
 name = virama;
-position = "{149, 517}";
+position = "{222, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
