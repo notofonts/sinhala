@@ -218,7 +218,7 @@ position = "{413, 920}";
 },
 {
 name = uvowel;
-position = "{855, 0}";
+position = "{835, 0}";
 }
 );
 background = {
