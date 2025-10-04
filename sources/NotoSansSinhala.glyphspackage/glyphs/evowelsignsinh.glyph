@@ -139,7 +139,7 @@ nodes = (
 );
 }
 );
-width = 624;
+width = 631;
 },
 {
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -209,7 +209,7 @@ nodes = (
 );
 }
 );
-width = 706;
+width = 675;
 },
 {
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
