@@ -487,6 +487,51 @@ width = 60;
 };
 };
 width = 0;
+},
+{
+anchors = (
+{
+name = _iVowel;
+position = "{-492, 0}";
+}
+);
+associatedMasterId = UUID0;
+layerId = "BBE6C70C-B535-47B1-BFEA-9FA458AFF8C3";
+name = "4 Oct 25, 16:18";
+paths = (
+{
+closed = 1;
+nodes = (
+"-483 904 OFFCURVE",
+"-583 794 OFFCURVE",
+"-583 671 CURVE SMOOTH",
+"-583 619 OFFCURVE",
+"-558 567 OFFCURVE",
+"-505 549 CURVE",
+"-481 576 LINE",
+"-506 600 OFFCURVE",
+"-512 630 OFFCURVE",
+"-512 658 CURVE SMOOTH",
+"-512 744 OFFCURVE",
+"-452 834 OFFCURVE",
+"-327 834 CURVE SMOOTH",
+"-230 834 OFFCURVE",
+"-178 788 OFFCURVE",
+"-178 712 CURVE SMOOTH",
+"-178 695 OFFCURVE",
+"-181 676 OFFCURVE",
+"-188 654 CURVE",
+"-139 679 LINE",
+"-126 706 OFFCURVE",
+"-121 723 OFFCURVE",
+"-121 745 CURVE SMOOTH",
+"-121 828 OFFCURVE",
+"-194 904 OFFCURVE",
+"-326 904 CURVE SMOOTH"
+);
+}
+);
+width = 0;
 }
 );
 script = sinhala;

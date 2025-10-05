@@ -2567,7 +2567,7 @@ position = "{360, 729}";
 },
 {
 name = uvowel;
-position = "{638, 0}";
+position = "{657, 0}";
 },
 {
 name = virama;
