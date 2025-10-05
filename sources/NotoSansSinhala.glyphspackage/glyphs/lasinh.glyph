@@ -9,6 +9,10 @@ name = iVowel;
 position = "{281, 0}";
 },
 {
+name = iiVowel;
+position = "{245, 0}";
+},
+{
 name = rakar;
 position = "{762, 0}";
 },
