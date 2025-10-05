@@ -9,6 +9,10 @@ name = iVowel;
 position = "{241, 0}";
 },
 {
+name = iiVowel;
+position = "{205, 0}";
+},
+{
 name = rakar;
 position = "{677, 0}";
 },
@@ -108,7 +112,11 @@ width = 728;
 anchors = (
 {
 name = iVowel;
-position = "{309, 0}";
+position = "{279, 0}";
+},
+{
+name = iiVowel;
+position = "{275, 0}";
 },
 {
 name = rakar;
