@@ -6,11 +6,11 @@ layers = (
 anchors = (
 {
 name = iVowel;
-position = "{241, 0}";
+position = "{401, 0}";
 },
 {
 name = iiVowel;
-position = "{205, 0}";
+position = "{405, 0}";
 },
 {
 name = rakar;
@@ -112,11 +112,11 @@ width = 728;
 anchors = (
 {
 name = iVowel;
-position = "{279, 0}";
+position = "{429, 0}";
 },
 {
 name = iiVowel;
-position = "{275, 0}";
+position = "{444, 0}";
 },
 {
 name = rakar;
@@ -218,7 +218,11 @@ width = 784;
 anchors = (
 {
 name = iVowel;
-position = "{319, 0}";
+position = "{459, 0}";
+},
+{
+name = iiVowel;
+position = "{468, 0}";
 },
 {
 name = rakar;
@@ -247,7 +251,7 @@ nodes = (
 "428 -95 CURVE SMOOTH",
 "261 -95 OFFCURVE",
 "152 -18 OFFCURVE",
-"152 125 CURVE SMOOTH",
+"152 105 CURVE SMOOTH",
 "152 179 OFFCURVE",
 "187 234 OFFCURVE",
 "226 265 CURVE",
@@ -307,9 +311,9 @@ nodes = (
 "176 380 LINE",
 "69 316 OFFCURVE",
 "8 221 OFFCURVE",
-"8 101 CURVE SMOOTH",
+"8 91 CURVE SMOOTH",
 "8 -100 OFFCURVE",
-"176 -247 OFFCURVE",
+"166 -247 OFFCURVE",
 "428 -247 CURVE SMOOTH"
 );
 }
@@ -318,6 +322,14 @@ width = 821;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{798, 0}";
+},
+{
+name = iiVowel;
+position = "{555, 0}";
+},
 {
 name = rakar;
 position = "{780.142, 0}";
@@ -422,6 +434,14 @@ width = 839;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{558, 0}";
+},
+{
+name = iiVowel;
+position = "{482, 0}";
+},
 {
 name = rakar;
 position = "{780.142, 0}";
@@ -531,7 +551,11 @@ width = 839;
 anchors = (
 {
 name = iVowel;
-position = "{169, 0}";
+position = "{299, 0}";
+},
+{
+name = iiVowel;
+position = "{304, 0}";
 },
 {
 name = rakar;
@@ -631,6 +655,14 @@ width = 547;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{496, 0}";
+},
+{
+name = iiVowel;
+position = "{355, 0}";
+},
 {
 name = rakar;
 position = "{510.486, 0}";
@@ -737,7 +769,11 @@ width = 549;
 anchors = (
 {
 name = iVowel;
-position = "{225, 0}";
+position = "{351, 0}";
+},
+{
+name = iiVowel;
+position = "{345, 0}";
 },
 {
 name = rakar;
@@ -837,6 +873,14 @@ width = 594;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{542, 0}";
+},
+{
+name = iiVowel;
+position = "{382, 0}";
+},
 {
 name = rakar;
 position = "{554.189, 0}";
@@ -943,7 +987,11 @@ width = 596;
 anchors = (
 {
 name = iVowel;
-position = "{271, 0}";
+position = "{390, 0}";
+},
+{
+name = iiVowel;
+position = "{371, 0}";
 },
 {
 name = rakar;
@@ -1043,6 +1091,14 @@ width = 670;
 },
 {
 anchors = (
+{
+name = iVowel;
+position = "{628, 0}";
+},
+{
+name = iiVowel;
+position = "{438, 0}";
+},
 {
 name = rakar;
 position = "{619.278, 0}";
