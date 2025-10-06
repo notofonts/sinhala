@@ -6,11 +6,11 @@ layers = (
 anchors = (
 {
 name = iVowel;
-position = "{421, 0}";
+position = "{281, 0}";
 },
 {
 name = iiVowel;
-position = "{445, 0}";
+position = "{245, 0}";
 },
 {
 name = rakar;
@@ -96,11 +96,7 @@ width = 792;
 anchors = (
 {
 name = iVowel;
-position = "{439, 0}";
-},
-{
-name = iiVowel;
-position = "{444, 0}";
+position = "{329, 0}";
 },
 {
 name = rakar;
@@ -186,23 +182,19 @@ width = 852;
 anchors = (
 {
 name = iVowel;
-position = "{471, 0}";
-},
-{
-name = iiVowel;
-position = "{490, 0}";
+position = "{349, 0}";
 },
 {
 name = rakar;
-position = "{866, 0}";
+position = "{864, 0}";
 },
 {
 name = repaya;
-position = "{425, 722}";
+position = "{423, 722}";
 },
 {
 name = virama;
-position = "{824, 0}";
+position = "{822, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -210,78 +202,70 @@ paths = (
 {
 closed = 1;
 nodes = (
-"718 -271 OFFCURVE",
-"892 -157 OFFCURVE",
-"892 83 CURVE SMOOTH",
-"892 89 OFFCURVE",
-"892 100 OFFCURVE",
-"891 107 CURVE",
-"750 107 LINE",
-"750 102 OFFCURVE",
-"750 96 OFFCURVE",
-"750 91 CURVE SMOOTH",
-"750 -43 OFFCURVE",
-"639 -122 OFFCURVE",
-"480 -122 CURVE SMOOTH",
-"254 -122 OFFCURVE",
-"177 16 OFFCURVE",
-"177 184 CURVE SMOOTH",
-"177 378 OFFCURVE",
-"289 487 OFFCURVE",
-"503 487 CURVE SMOOTH",
-"666 487 OFFCURVE",
-"743 449 OFFCURVE",
-"743 364 CURVE SMOOTH",
-"743 296 OFFCURVE",
-"708 262 OFFCURVE",
-"638 262 CURVE SMOOTH",
-"584 262 OFFCURVE",
-"565 271 OFFCURVE",
-"565 296 CURVE SMOOTH",
-"565 309 OFFCURVE",
-"571 319 OFFCURVE",
-"580 328 CURVE",
-"526 300 LINE",
-"676 300 LINE",
-"676 418 LINE",
-"349 418 LINE",
-"349 300 LINE",
-"434 300 LINE",
-"476 303 LINE",
-"456 380 LINE",
-"435 355 OFFCURVE",
-"425 319 OFFCURVE",
-"425 290 CURVE SMOOTH",
-"425 178 OFFCURVE",
-"502 127 OFFCURVE",
-"629 127 CURVE SMOOTH",
-"807 127 OFFCURVE",
-"883 230 OFFCURVE",
-"883 360 CURVE SMOOTH",
-"883 506 OFFCURVE",
-"776 622 OFFCURVE",
-"503 622 CURVE SMOOTH",
-"178 622 OFFCURVE",
-"10 418 OFFCURVE",
-"10 180 CURVE SMOOTH",
-"10 -73 OFFCURVE",
-"152 -271 OFFCURVE",
-"470 -271 CURVE SMOOTH"
+"716 -271 OFFCURVE",
+"890 -157 OFFCURVE",
+"890 83 CURVE SMOOTH",
+"890 89 OFFCURVE",
+"890 100 OFFCURVE",
+"889 107 CURVE",
+"748 107 LINE",
+"748 102 OFFCURVE",
+"748 96 OFFCURVE",
+"748 91 CURVE SMOOTH",
+"748 -43 OFFCURVE",
+"637 -122 OFFCURVE",
+"478 -122 CURVE SMOOTH",
+"252 -122 OFFCURVE",
+"175 16 OFFCURVE",
+"175 184 CURVE SMOOTH",
+"175 378 OFFCURVE",
+"287 487 OFFCURVE",
+"501 487 CURVE SMOOTH",
+"664 487 OFFCURVE",
+"741 449 OFFCURVE",
+"741 364 CURVE SMOOTH",
+"741 296 OFFCURVE",
+"706 262 OFFCURVE",
+"636 262 CURVE SMOOTH",
+"582 262 OFFCURVE",
+"563 271 OFFCURVE",
+"563 296 CURVE SMOOTH",
+"563 309 OFFCURVE",
+"569 319 OFFCURVE",
+"578 328 CURVE",
+"524 300 LINE",
+"674 300 LINE",
+"674 418 LINE",
+"347 418 LINE",
+"347 300 LINE",
+"432 300 LINE",
+"474 303 LINE",
+"454 380 LINE",
+"433 355 OFFCURVE",
+"423 319 OFFCURVE",
+"423 290 CURVE SMOOTH",
+"423 178 OFFCURVE",
+"500 127 OFFCURVE",
+"627 127 CURVE SMOOTH",
+"805 127 OFFCURVE",
+"881 230 OFFCURVE",
+"881 360 CURVE SMOOTH",
+"881 506 OFFCURVE",
+"774 622 OFFCURVE",
+"501 622 CURVE SMOOTH",
+"176 622 OFFCURVE",
+"8 418 OFFCURVE",
+"8 180 CURVE SMOOTH",
+"8 -73 OFFCURVE",
+"150 -271 OFFCURVE",
+"468 -271 CURVE SMOOTH"
 );
 }
 );
-width = 902;
+width = 898;
 },
 {
 anchors = (
-{
-name = iVowel;
-position = "{359.35, 0}";
-},
-{
-name = iiVowel;
-position = "{289.545, 0}";
-},
 {
 name = rakar;
 position = "{900.845, 0}";
@@ -367,14 +351,6 @@ width = 936;
 {
 anchors = (
 {
-name = iVowel;
-position = "{327.101, 0}";
-},
-{
-name = iiVowel;
-position = "{263.561, 0}";
-},
-{
 name = rakar;
 position = "{820, 0}";
 },
@@ -459,14 +435,6 @@ width = 852;
 {
 anchors = (
 {
-name = iVowel;
-position = "{304.066, 0}";
-},
-{
-name = iiVowel;
-position = "{245, 0}";
-},
-{
 name = rakar;
 position = "{762.254, 0}";
 },
@@ -550,14 +518,6 @@ width = 792;
 },
 {
 anchors = (
-{
-name = iVowel;
-position = "{344.761, 0}";
-},
-{
-name = iiVowel;
-position = "{277.79, 0}";
-},
 {
 name = rakar;
 position = "{864.272, 0}";
@@ -644,11 +604,7 @@ width = 898;
 anchors = (
 {
 name = iVowel;
-position = "{319, 0}";
-},
-{
-name = iiVowel;
-position = "{324, 0}";
+position = "{179, 0}";
 },
 {
 name = rakar;
@@ -732,14 +688,6 @@ width = 595;
 },
 {
 anchors = (
-{
-name = iVowel;
-position = "{228.433, 0}";
-},
-{
-name = iiVowel;
-position = "{184.059, 0}";
-},
 {
 name = rakar;
 position = "{572.653, 0}";
@@ -826,11 +774,7 @@ width = 595;
 anchors = (
 {
 name = iVowel;
-position = "{371, 0}";
-},
-{
-name = iiVowel;
-position = "{365, 0}";
+position = "{243, 0}";
 },
 {
 name = rakar;
@@ -914,14 +858,6 @@ width = 653;
 },
 {
 anchors = (
-{
-name = iVowel;
-position = "{250.7, 0}";
-},
-{
-name = iiVowel;
-position = "{202.001, 0}";
-},
 {
 name = rakar;
 position = "{628.474, 0}";
@@ -1008,11 +944,7 @@ width = 653;
 anchors = (
 {
 name = iVowel;
-position = "{401, 0}";
-},
-{
-name = iiVowel;
-position = "{382, 0}";
+position = "{281, 0}";
 },
 {
 name = rakar;
@@ -1096,14 +1028,6 @@ width = 749;
 },
 {
 anchors = (
-{
-name = iVowel;
-position = "{287.557, 0}";
-},
-{
-name = iiVowel;
-position = "{231.698, 0}";
-},
 {
 name = rakar;
 position = "{720.869, 0}";
@@ -1191,10 +1115,6 @@ anchors = (
 {
 name = iVowel;
 position = "{329, 0}";
-},
-{
-name = iiVowel;
-position = "{263.561, 0}";
 },
 {
 name = rakar;
@@ -1285,10 +1205,6 @@ name = iVowel;
 position = "{281, 0}";
 },
 {
-name = iiVowel;
-position = "{245, 0}";
-},
-{
 name = rakar;
 position = "{762.254, 0}";
 },
@@ -1375,10 +1291,6 @@ anchors = (
 {
 name = iVowel;
 position = "{349, 0}";
-},
-{
-name = iiVowel;
-position = "{277.79, 0}";
 },
 {
 name = rakar;
@@ -1469,10 +1381,6 @@ name = iVowel;
 position = "{179, 0}";
 },
 {
-name = iiVowel;
-position = "{184.059, 0}";
-},
-{
 name = rakar;
 position = "{572.653, 0}";
 },
@@ -1561,10 +1469,6 @@ name = iVowel;
 position = "{243, 0}";
 },
 {
-name = iiVowel;
-position = "{202.001, 0}";
-},
-{
 name = rakar;
 position = "{628.474, 0}";
 },
@@ -1651,10 +1555,6 @@ anchors = (
 {
 name = iVowel;
 position = "{281, 0}";
-},
-{
-name = iiVowel;
-position = "{231.698, 0}";
 },
 {
 name = rakar;

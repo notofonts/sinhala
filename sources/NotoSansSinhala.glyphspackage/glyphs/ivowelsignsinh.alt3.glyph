@@ -42,7 +42,7 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 0;
 },
 {
 anchors = (
@@ -85,7 +85,7 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 0;
 },
 {
 anchors = (
@@ -136,7 +136,7 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 0;
 },
 {
 anchors = (
@@ -617,7 +617,7 @@ nodes = (
 );
 }
 );
-width = 350;
+width = 20;
 },
 {
 anchors = (
@@ -656,7 +656,7 @@ nodes = (
 );
 }
 );
-width = 474;
+width = 144;
 },
 {
 anchors = (
@@ -701,7 +701,7 @@ width = 50;
 widthAxis = -10;
 };
 };
-width = 350;
+width = 20;
 }
 );
 script = sinhala;

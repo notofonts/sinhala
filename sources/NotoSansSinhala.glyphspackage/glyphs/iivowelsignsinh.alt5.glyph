@@ -57,7 +57,7 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 0;
 },
 {
 anchors = (
@@ -150,7 +150,7 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 0;
 },
 {
 anchors = (
@@ -243,7 +243,7 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 0;
 },
 {
 anchors = (
@@ -301,7 +301,7 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 0;
 },
 {
 anchors = (
@@ -359,7 +359,7 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 0;
 },
 {
 anchors = (
@@ -422,7 +422,7 @@ RMXScaler = {
 width = 60;
 };
 };
-width = 330;
+width = 0;
 }
 );
 script = sinhala;
