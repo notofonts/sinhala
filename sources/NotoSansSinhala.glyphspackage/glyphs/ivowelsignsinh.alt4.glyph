@@ -42,7 +42,7 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 330;
 },
 {
 anchors = (
@@ -120,7 +120,7 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 330;
 },
 {
 anchors = (
@@ -163,7 +163,7 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 330;
 },
 {
 anchors = (
@@ -296,7 +296,7 @@ nodes = (
 );
 }
 );
-width = 20;
+width = 350;
 },
 {
 anchors = (
@@ -346,7 +346,7 @@ width = 80;
 widthAxis = -3;
 };
 };
-width = 77;
+width = 407;
 },
 {
 anchors = (
@@ -395,7 +395,7 @@ weight = -10;
 width = 40;
 };
 };
-width = 0;
+width = 330;
 },
 {
 anchors = (
