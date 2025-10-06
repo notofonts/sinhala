@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = virama;
-position = "{462, 536}";
+position = "{462, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -98,7 +98,7 @@ width = 560;
 anchors = (
 {
 name = virama;
-position = "{462, 536}";
+position = "{501, 0}";
 }
 );
 layerId = UUID0;
@@ -190,7 +190,7 @@ width = 615;
 anchors = (
 {
 name = virama;
-position = "{537, 536}";
+position = "{541, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -1201,7 +1201,7 @@ width = 575;
 anchors = (
 {
 name = virama;
-position = "{334, 536}";
+position = "{341, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -1382,7 +1382,7 @@ width = 379;
 anchors = (
 {
 name = virama;
-position = "{353, 536}";
+position = "{381, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -1563,7 +1563,7 @@ width = 415;
 anchors = (
 {
 name = virama;
-position = "{427, 536}";
+position = "{461, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
