@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = _iVowel;
-position = "{-322, 0}";
+position = "{165, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -13,32 +13,32 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-477 920 OFFCURVE",
-"-543 835 OFFCURVE",
-"-543 759 CURVE SMOOTH",
-"-543 665 OFFCURVE",
-"-441 614 OFFCURVE",
-"-317 610 CURVE",
-"-312 637 LINE",
-"-417 638 OFFCURVE",
-"-516 677 OFFCURVE",
-"-516 761 CURVE SMOOTH",
-"-516 832 OFFCURVE",
-"-446 893 OFFCURVE",
-"-307 893 CURVE SMOOTH",
-"-150 893 OFFCURVE",
-"-55 835 OFFCURVE",
-"-55 753 CURVE SMOOTH",
-"-55 704 OFFCURVE",
-"-85 655 OFFCURVE",
-"-126 645 CURVE",
-"-118 620 LINE",
-"-71 628 OFFCURVE",
-"-26 680 OFFCURVE",
-"-26 754 CURVE SMOOTH",
-"-26 840 OFFCURVE",
-"-119 920 OFFCURVE",
-"-303 920 CURVE SMOOTH"
+"-27 920 OFFCURVE",
+"-93 835 OFFCURVE",
+"-93 759 CURVE SMOOTH",
+"-93 665 OFFCURVE",
+"9 614 OFFCURVE",
+"133 610 CURVE",
+"138 637 LINE",
+"33 638 OFFCURVE",
+"-66 677 OFFCURVE",
+"-66 761 CURVE SMOOTH",
+"-66 832 OFFCURVE",
+"4 893 OFFCURVE",
+"143 893 CURVE SMOOTH",
+"300 893 OFFCURVE",
+"395 835 OFFCURVE",
+"395 753 CURVE SMOOTH",
+"395 704 OFFCURVE",
+"365 655 OFFCURVE",
+"324 645 CURVE",
+"332 620 LINE",
+"379 628 OFFCURVE",
+"424 680 OFFCURVE",
+"424 754 CURVE SMOOTH",
+"424 840 OFFCURVE",
+"331 920 OFFCURVE",
+"147 920 CURVE SMOOTH"
 );
 }
 );
@@ -48,7 +48,7 @@ width = 330;
 anchors = (
 {
 name = _iVowel;
-position = "{-365, 0}";
+position = "{-344, 0}";
 }
 );
 background = {
@@ -120,13 +120,13 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 350;
 },
 {
 anchors = (
 {
 name = _iVowel;
-position = "{-492, 0}";
+position = "{-406, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -163,7 +163,7 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 350;
 },
 {
 anchors = (
@@ -259,7 +259,7 @@ width = 0;
 anchors = (
 {
 name = _iVowel;
-position = "{-237, 0}";
+position = "{-203, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -296,13 +296,13 @@ nodes = (
 );
 }
 );
-width = 350;
+width = 370;
 },
 {
 anchors = (
 {
 name = _iVowel;
-position = "{-255, 0}";
+position = "{-233, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -346,13 +346,13 @@ width = 80;
 widthAxis = -3;
 };
 };
-width = 407;
+width = 427;
 },
 {
 anchors = (
 {
 name = _iVowel;
-position = "{-389, 0}";
+position = "{-344, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -395,7 +395,7 @@ weight = -10;
 width = 40;
 };
 };
-width = 330;
+width = 350;
 },
 {
 anchors = (

@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = _iVowel;
-position = "{-525, 0}";
+position = "{165, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -13,26 +13,26 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-445 855 OFFCURVE",
-"-545 709 OFFCURVE",
-"-545 531 CURVE",
-"-517 533 LINE",
-"-517 705 OFFCURVE",
-"-423 828 OFFCURVE",
-"-259 828 CURVE SMOOTH",
-"-152 828 OFFCURVE",
-"-84 746 OFFCURVE",
-"-84 669 CURVE SMOOTH",
-"-84 622 OFFCURVE",
-"-109 568 OFFCURVE",
-"-169 548 CURVE",
-"-145 533 LINE",
-"-90 553 OFFCURVE",
-"-57 607 OFFCURVE",
-"-57 670 CURVE SMOOTH",
-"-57 763 OFFCURVE",
-"-138 855 OFFCURVE",
-"-256 855 CURVE SMOOTH"
+"21 855 OFFCURVE",
+"-79 709 OFFCURVE",
+"-79 531 CURVE",
+"-51 533 LINE",
+"-51 705 OFFCURVE",
+"43 828 OFFCURVE",
+"207 828 CURVE SMOOTH",
+"314 828 OFFCURVE",
+"382 746 OFFCURVE",
+"382 669 CURVE SMOOTH",
+"382 622 OFFCURVE",
+"357 568 OFFCURVE",
+"297 548 CURVE",
+"321 533 LINE",
+"376 553 OFFCURVE",
+"409 607 OFFCURVE",
+"409 670 CURVE SMOOTH",
+"409 763 OFFCURVE",
+"328 855 OFFCURVE",
+"210 855 CURVE SMOOTH"
 );
 }
 );
@@ -42,7 +42,7 @@ width = 330;
 anchors = (
 {
 name = _iVowel;
-position = "{-525, 0}";
+position = "{-319, 0}";
 }
 );
 layerId = UUID0;
@@ -73,13 +73,13 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 350;
 },
 {
 anchors = (
 {
 name = _iVowel;
-position = "{-605, 0}";
+position = "{-327, 0}";
 }
 );
 background = {
@@ -118,7 +118,7 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 350;
 },
 {
 anchors = (
@@ -345,7 +345,7 @@ width = 0;
 anchors = (
 {
 name = _iVowel;
-position = "{-395, 0}";
+position = "{-228, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -376,13 +376,13 @@ nodes = (
 );
 }
 );
-width = 350;
+width = 370;
 },
 {
 anchors = (
 {
 name = _iVowel;
-position = "{-368, 0}";
+position = "{-236, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -413,13 +413,13 @@ nodes = (
 );
 }
 );
-width = 474;
+width = 494;
 },
 {
 anchors = (
 {
 name = _iVowel;
-position = "{-332, 0}";
+position = "{-244, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -456,7 +456,7 @@ width = 50;
 widthAxis = -10;
 };
 };
-width = 350;
+width = 370;
 }
 );
 script = sinhala;

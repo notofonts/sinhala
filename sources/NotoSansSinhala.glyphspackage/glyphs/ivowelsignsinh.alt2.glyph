@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = _iVowel;
-position = "{-207, 0}";
+position = "{165, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -13,32 +13,32 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-381 860 OFFCURVE",
-"-448 802 OFFCURVE",
-"-448 718 CURVE SMOOTH",
-"-448 636 OFFCURVE",
-"-381 585 OFFCURVE",
-"-228 581 CURVE",
-"-228 605 LINE",
-"-353 606 OFFCURVE",
-"-421 650 OFFCURVE",
-"-421 718 CURVE SMOOTH",
-"-421 791 OFFCURVE",
-"-362 834 OFFCURVE",
-"-238 834 CURVE SMOOTH",
-"-107 834 OFFCURVE",
-"-45 784 OFFCURVE",
-"-45 696 CURVE SMOOTH",
-"-45 644 OFFCURVE",
-"-74 605 OFFCURVE",
-"-101 584 CURVE",
-"-77 573 LINE",
-"-50 591 OFFCURVE",
-"-18 640 OFFCURVE",
-"-18 696 CURVE SMOOTH",
-"-18 790 OFFCURVE",
-"-80 860 OFFCURVE",
-"-238 860 CURVE SMOOTH"
+"17 860 OFFCURVE",
+"-50 802 OFFCURVE",
+"-50 718 CURVE SMOOTH",
+"-50 636 OFFCURVE",
+"17 585 OFFCURVE",
+"170 581 CURVE",
+"170 605 LINE",
+"45 606 OFFCURVE",
+"-23 650 OFFCURVE",
+"-23 718 CURVE SMOOTH",
+"-23 791 OFFCURVE",
+"36 834 OFFCURVE",
+"160 834 CURVE SMOOTH",
+"291 834 OFFCURVE",
+"353 784 OFFCURVE",
+"353 696 CURVE SMOOTH",
+"353 644 OFFCURVE",
+"324 605 OFFCURVE",
+"297 584 CURVE",
+"321 573 LINE",
+"348 591 OFFCURVE",
+"380 640 OFFCURVE",
+"380 696 CURVE SMOOTH",
+"380 790 OFFCURVE",
+"318 860 OFFCURVE",
+"160 860 CURVE SMOOTH"
 );
 }
 );
@@ -48,7 +48,7 @@ width = 330;
 anchors = (
 {
 name = _iVowel;
-position = "{-271, 0}";
+position = "{-264, 0}";
 }
 );
 guideLines = (
@@ -90,13 +90,13 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 350;
 },
 {
 anchors = (
 {
 name = _iVowel;
-position = "{-338, 0}";
+position = "{-308, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -133,13 +133,13 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 350;
 },
 {
 anchors = (
 {
 name = _iVowel;
-position = "{-245, 0}";
+position = "{-186, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -176,13 +176,13 @@ nodes = (
 );
 }
 );
-width = 340;
+width = 360;
 },
 {
 anchors = (
 {
 name = _iVowel;
-position = "{-306, 0}";
+position = "{-256, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -219,13 +219,13 @@ nodes = (
 );
 }
 );
-width = 350;
+width = 370;
 },
 {
 anchors = (
 {
 name = _iVowel;
-position = "{-270, 0}";
+position = "{-249, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -268,7 +268,7 @@ width = 70;
 widthAxis = 14;
 };
 };
-width = 338;
+width = 358;
 }
 );
 script = sinhala;
