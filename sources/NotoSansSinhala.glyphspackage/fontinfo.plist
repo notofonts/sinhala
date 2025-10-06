@@ -1042,6 +1042,10 @@ descender = -293;
 guideLines = (
 {
 position = "{-50, 147}";
+},
+{
+name = "i_sign-ASCE";
+position = "{271, 876}";
 }
 );
 id = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -1072,6 +1076,9 @@ position = "{-40, 176}";
 },
 {
 position = "{-257, 976}";
+},
+{
+position = "{-272, 896}";
 }
 );
 id = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -1092,6 +1099,11 @@ alignmentZones = (
 ascender = 1011;
 capHeight = 612;
 descender = -293;
+guideLines = (
+{
+position = "{0, 0}";
+}
+);
 id = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 verticalStems = (
 175
