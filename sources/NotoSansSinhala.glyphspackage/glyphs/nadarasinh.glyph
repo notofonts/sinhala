@@ -195,7 +195,7 @@ width = 1098;
 anchors = (
 {
 name = iVowel;
-position = "{834, 0}";
+position = "{844, 0}";
 },
 {
 name = virama;
@@ -384,7 +384,7 @@ width = 1171;
 anchors = (
 {
 name = iVowel;
-position = "{866.276, 0}";
+position = "{796, 0}";
 },
 {
 name = virama;
@@ -951,7 +951,7 @@ width = 842;
 anchors = (
 {
 name = iVowel;
-position = "{694.706, 0}";
+position = "{615, 0}";
 },
 {
 name = virama;

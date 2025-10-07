@@ -127,7 +127,7 @@ width = 713;
 anchors = (
 {
 name = iVowel;
-position = "{581, 0}";
+position = "{521, 0}";
 },
 {
 name = virama;
@@ -252,7 +252,7 @@ position = "{481, 0}";
 },
 {
 name = virama;
-position = "{631, 0}";
+position = "{641, 0}";
 }
 );
 layerId = UUID0;
