@@ -973,7 +973,7 @@ position = "{272, 876}";
 },
 {
 name = "i_sign-ASCE";
-position = "{-477, 957}";
+position = "{260, 920}";
 },
 {
 position = "{-779, -213}";
@@ -1004,7 +1004,7 @@ capHeight = 612;
 descender = -293;
 guideLines = (
 {
-position = "{-272, 896}";
+position = "{-67, 976}";
 },
 {
 position = "{-208, -232}";
@@ -1035,7 +1035,7 @@ descender = -293;
 guideLines = (
 {
 name = "i_sign-ASCE";
-position = "{-507, 953}";
+position = "{362, 993}";
 },
 {
 name = "i_sign-ASCE";
