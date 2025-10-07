@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = rakar;
-position = "{805, 0}";
+position = "{815, 0}";
 },
 {
 name = repaya;
