@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = _iVowel;
-position = "{-442, 0}";
+position = "{165, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -13,47 +13,47 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-382 880 OFFCURVE",
-"-515 790 OFFCURVE",
-"-515 686 CURVE SMOOTH",
-"-515 645 OFFCURVE",
-"-501 601 OFFCURVE",
-"-449 585 CURVE",
-"-437 600 LINE",
-"-477 614 OFFCURVE",
-"-488 651 OFFCURVE",
-"-488 686 CURVE SMOOTH",
-"-488 780 OFFCURVE",
-"-363 855 OFFCURVE",
-"-242 855 CURVE SMOOTH",
-"-206 855 OFFCURVE",
-"-173 850 OFFCURVE",
-"-158 847 CURVE SMOOTH",
-"-111 837 OFFCURVE",
-"-60 805 OFFCURVE",
-"-60 748 CURVE SMOOTH",
-"-60 700 OFFCURVE",
-"-86 671 OFFCURVE",
-"-132 671 CURVE SMOOTH",
-"-173 671 OFFCURVE",
-"-207 691 OFFCURVE",
-"-207 741 CURVE SMOOTH",
-"-207 793 OFFCURVE",
-"-170 839 OFFCURVE",
-"-119 854 CURVE",
-"-141 867 LINE",
-"-198 846 OFFCURVE",
-"-234 796 OFFCURVE",
-"-234 741 CURVE SMOOTH",
-"-234 677 OFFCURVE",
-"-192 644 OFFCURVE",
-"-131 644 CURVE SMOOTH",
-"-71 644 OFFCURVE",
-"-34 684 OFFCURVE",
-"-34 748 CURVE SMOOTH",
-"-34 813 OFFCURVE",
-"-87 880 OFFCURVE",
-"-232 880 CURVE"
+"58 880 OFFCURVE",
+"-75 790 OFFCURVE",
+"-75 686 CURVE SMOOTH",
+"-75 645 OFFCURVE",
+"-61 601 OFFCURVE",
+"-9 585 CURVE",
+"3 600 LINE",
+"-37 614 OFFCURVE",
+"-48 651 OFFCURVE",
+"-48 686 CURVE SMOOTH",
+"-48 780 OFFCURVE",
+"77 855 OFFCURVE",
+"198 855 CURVE SMOOTH",
+"234 855 OFFCURVE",
+"267 850 OFFCURVE",
+"282 847 CURVE SMOOTH",
+"329 837 OFFCURVE",
+"380 805 OFFCURVE",
+"380 748 CURVE SMOOTH",
+"380 700 OFFCURVE",
+"354 671 OFFCURVE",
+"308 671 CURVE SMOOTH",
+"267 671 OFFCURVE",
+"233 691 OFFCURVE",
+"233 741 CURVE SMOOTH",
+"233 793 OFFCURVE",
+"270 839 OFFCURVE",
+"321 854 CURVE",
+"299 867 LINE",
+"242 846 OFFCURVE",
+"206 796 OFFCURVE",
+"206 741 CURVE SMOOTH",
+"206 677 OFFCURVE",
+"248 644 OFFCURVE",
+"309 644 CURVE SMOOTH",
+"369 644 OFFCURVE",
+"406 684 OFFCURVE",
+"406 748 CURVE SMOOTH",
+"406 813 OFFCURVE",
+"353 880 OFFCURVE",
+"208 880 CURVE"
 );
 }
 );
@@ -63,7 +63,7 @@ width = 330;
 anchors = (
 {
 name = _iVowel;
-position = "{-462, 0}";
+position = "{-328, 0}";
 }
 );
 background = {
@@ -150,13 +150,13 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 350;
 },
 {
 anchors = (
 {
 name = _iVowel;
-position = "{-492, 0}";
+position = "{-338, 0}";
 }
 );
 background = {
@@ -243,13 +243,13 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 350;
 },
 {
 anchors = (
 {
 name = _iVowel;
-position = "{-352, 0}";
+position = "{-244, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -301,13 +301,13 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 350;
 },
 {
 anchors = (
 {
 name = _iVowel;
-position = "{-323, 0}";
+position = "{-244, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -359,13 +359,13 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 350;
 },
 {
 anchors = (
 {
 name = _iVowel;
-position = "{-356, 0}";
+position = "{-277, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -422,7 +422,7 @@ RMXScaler = {
 width = 60;
 };
 };
-width = 330;
+width = 350;
 }
 );
 script = sinhala;

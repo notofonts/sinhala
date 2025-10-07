@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = _iVowel;
-position = "{-385, 0}";
+position = "{165, 0}";
 }
 );
 background = {
@@ -48,47 +48,47 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-571 920 OFFCURVE",
-"-634 832 OFFCURVE",
-"-634 756 CURVE SMOOTH",
-"-634 666 OFFCURVE",
-"-541 620 OFFCURVE",
-"-388 620 CURVE",
-"-382 646 LINE",
-"-517 646 OFFCURVE",
-"-607 680 OFFCURVE",
-"-607 756 CURVE SMOOTH",
-"-607 821 OFFCURVE",
-"-552 894 OFFCURVE",
-"-368 894 CURVE SMOOTH",
-"-260 894 OFFCURVE",
-"-204 880 OFFCURVE",
-"-162 860 CURVE SMOOTH",
-"-124 842 OFFCURVE",
-"-75 810 OFFCURVE",
-"-75 753 CURVE SMOOTH",
-"-75 705 OFFCURVE",
-"-100 681 OFFCURVE",
-"-146 681 CURVE SMOOTH",
-"-187 681 OFFCURVE",
-"-221 701 OFFCURVE",
-"-221 751 CURVE SMOOTH",
-"-221 806 OFFCURVE",
-"-184 839 OFFCURVE",
-"-133 864 CURVE",
-"-155 878 LINE",
-"-212 847 OFFCURVE",
-"-248 809 OFFCURVE",
-"-248 751 CURVE SMOOTH",
-"-248 687 OFFCURVE",
-"-206 654 OFFCURVE",
-"-145 654 CURVE SMOOTH",
-"-83 654 OFFCURVE",
-"-48 690 OFFCURVE",
-"-48 753 CURVE SMOOTH",
-"-48 848 OFFCURVE",
-"-152 920 OFFCURVE",
-"-368 920 CURVE SMOOTH"
+"-65 920 OFFCURVE",
+"-128 832 OFFCURVE",
+"-128 756 CURVE SMOOTH",
+"-128 666 OFFCURVE",
+"-35 620 OFFCURVE",
+"118 620 CURVE",
+"124 646 LINE",
+"-11 646 OFFCURVE",
+"-101 680 OFFCURVE",
+"-101 756 CURVE SMOOTH",
+"-101 821 OFFCURVE",
+"-46 894 OFFCURVE",
+"138 894 CURVE SMOOTH",
+"246 894 OFFCURVE",
+"302 880 OFFCURVE",
+"344 860 CURVE SMOOTH",
+"382 842 OFFCURVE",
+"431 810 OFFCURVE",
+"431 753 CURVE SMOOTH",
+"431 705 OFFCURVE",
+"406 681 OFFCURVE",
+"360 681 CURVE SMOOTH",
+"319 681 OFFCURVE",
+"285 701 OFFCURVE",
+"285 751 CURVE SMOOTH",
+"285 806 OFFCURVE",
+"322 839 OFFCURVE",
+"373 864 CURVE",
+"351 878 LINE",
+"294 847 OFFCURVE",
+"258 809 OFFCURVE",
+"258 751 CURVE SMOOTH",
+"258 687 OFFCURVE",
+"300 654 OFFCURVE",
+"361 654 CURVE SMOOTH",
+"423 654 OFFCURVE",
+"458 690 OFFCURVE",
+"458 753 CURVE SMOOTH",
+"458 848 OFFCURVE",
+"354 920 OFFCURVE",
+"138 920 CURVE SMOOTH"
 );
 }
 );
@@ -98,7 +98,7 @@ width = 330;
 anchors = (
 {
 name = _iVowel;
-position = "{-365, 0}";
+position = "{-334, 0}";
 }
 );
 layerId = UUID0;
@@ -150,13 +150,13 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 350;
 },
 {
 anchors = (
 {
 name = _iVowel;
-position = "{-492, 0}";
+position = "{-407, 0}";
 }
 );
 background = {
@@ -243,13 +243,13 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 350;
 },
 {
 anchors = (
 {
 name = _iVowel;
-position = "{-339, 0}";
+position = "{-266, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -301,13 +301,13 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 350;
 },
 {
 anchors = (
 {
 name = _iVowel;
-position = "{-290, 0}";
+position = "{-253, 0}";
 }
 );
 guideLines = (
@@ -369,13 +369,13 @@ RMXScaler = {
 width = 70;
 };
 };
-width = 330;
+width = 350;
 },
 {
 anchors = (
 {
 name = _iVowel;
-position = "{-492, 0}";
+position = "{-433, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -427,7 +427,7 @@ nodes = (
 );
 }
 );
-width = 330;
+width = 350;
 }
 );
 script = sinhala;
