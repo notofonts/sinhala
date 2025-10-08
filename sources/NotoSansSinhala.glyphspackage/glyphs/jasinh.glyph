@@ -10,7 +10,7 @@ position = "{403, 0}";
 },
 {
 name = rakar;
-position = "{733, 0}";
+position = "{757, 0}";
 },
 {
 name = repaya;
@@ -56,7 +56,7 @@ position = "{417, 0}";
 },
 {
 name = rakar;
-position = "{680, 0}";
+position = "{774, 0}";
 },
 {
 name = repaya;
@@ -181,7 +181,7 @@ position = "{448, 0}";
 },
 {
 name = rakar;
-position = "{680, 0}";
+position = "{871, 0}";
 },
 {
 name = repaya;
@@ -227,7 +227,7 @@ position = "{323.964, 0}";
 },
 {
 name = rakar;
-position = "{790.741, 210}";
+position = "{826, 0}";
 },
 {
 name = repaya;
@@ -359,7 +359,7 @@ position = "{299.686, 0}";
 },
 {
 name = rakar;
-position = "{731.481, 210}";
+position = "{759, 0}";
 },
 {
 name = repaya;
@@ -491,7 +491,7 @@ position = "{281.856, 0}";
 },
 {
 name = rakar;
-position = "{687.963, 210}";
+position = "{703, 0}";
 },
 {
 name = repaya;
@@ -623,7 +623,7 @@ position = "{307.273, 0}";
 },
 {
 name = rakar;
-position = "{750, 210}";
+position = "{774, 0}";
 },
 {
 name = repaya;
@@ -765,7 +765,7 @@ position = "{338, 0}";
 },
 {
 name = rakar;
-position = "{825, 210}";
+position = "{871, 0}";
 },
 {
 name = repaya;
@@ -887,7 +887,7 @@ position = "{325, 0}";
 },
 {
 name = rakar;
-position = "{473, 0}";
+position = "{558, 0}";
 },
 {
 name = repaya;
@@ -933,7 +933,7 @@ position = "{215.429, 0}";
 },
 {
 name = rakar;
-position = "{528.098, 157.5}";
+position = "{532, 0}";
 },
 {
 name = repaya;
@@ -1065,7 +1065,7 @@ position = "{320, 0}";
 },
 {
 name = rakar;
-position = "{494, 0}";
+position = "{594, 0}";
 },
 {
 name = repaya;
@@ -1111,7 +1111,7 @@ position = "{228.657, 0}";
 },
 {
 name = rakar;
-position = "{560.525, 157.5}";
+position = "{572, 0}";
 },
 {
 name = repaya;
@@ -1243,7 +1243,7 @@ position = "{336, 0}";
 },
 {
 name = rakar;
-position = "{620, 0}";
+position = "{684, 0}";
 },
 {
 name = repaya;
@@ -1289,7 +1289,7 @@ position = "{249.445, 0}";
 },
 {
 name = rakar;
-position = "{611.481, 157.5}";
+position = "{637, 0}";
 },
 {
 name = repaya;
@@ -1421,7 +1421,7 @@ position = "{328, 0}";
 },
 {
 name = rakar;
-position = "{680, 0}";
+position = "{871, 0}";
 },
 {
 name = repaya;
