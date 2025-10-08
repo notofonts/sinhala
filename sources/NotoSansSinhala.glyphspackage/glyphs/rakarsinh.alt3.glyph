@@ -1,5 +1,6 @@
 {
-glyphname = rakarsinh.long;
+color = 3;
+glyphname = rakarsinh.alt3;
 layers = (
 {
 anchors = (
