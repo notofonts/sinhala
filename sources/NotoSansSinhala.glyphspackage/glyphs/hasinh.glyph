@@ -14,7 +14,7 @@ position = "{888, 0}";
 },
 {
 name = repaya;
-position = "{400, 684}";
+position = "{400, 555}";
 },
 {
 name = uvowel;
@@ -130,7 +130,7 @@ position = "{840, 0}";
 },
 {
 name = repaya;
-position = "{484, 730}";
+position = "{428, 546}";
 },
 {
 name = uvowel;
@@ -288,7 +288,7 @@ position = "{919, 0}";
 },
 {
 name = repaya;
-position = "{404, 700}";
+position = "{443, 572}";
 },
 {
 name = uvowel;
@@ -947,7 +947,7 @@ position = "{599, 0}";
 },
 {
 name = repaya;
-position = "{360, 714}";
+position = "{295, 581}";
 },
 {
 name = uvowel;
@@ -1177,7 +1177,7 @@ position = "{584, 0}";
 },
 {
 name = repaya;
-position = "{54, 730}";
+position = "{316, 561}";
 },
 {
 name = uvowel;
@@ -1407,7 +1407,7 @@ position = "{710, 0}";
 },
 {
 name = repaya;
-position = "{508, 730}";
+position = "{377, 547}";
 },
 {
 name = uvowel;

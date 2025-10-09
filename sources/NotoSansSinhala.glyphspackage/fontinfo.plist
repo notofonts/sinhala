@@ -1,5 +1,5 @@
 {
-.appVersion = "3260";
+.appVersion = "3343";
 classes = (
 {
 code = "tthasinh ddhasinh thasinh phasinh ttatthasinh tathasinh nathasinh \012";
@@ -1049,6 +1049,7 @@ id = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 verticalStems = (
 140
 );
+visible = 1;
 weight = Bold;
 weightValue = 190;
 xHeight = 536;
