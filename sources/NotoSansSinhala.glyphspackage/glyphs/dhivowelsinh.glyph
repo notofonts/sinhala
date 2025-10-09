@@ -683,7 +683,7 @@ width = 786;
 anchors = (
 {
 name = rakar;
-position = "{562, 0}";
+position = "{572, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
