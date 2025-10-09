@@ -22,7 +22,7 @@ position = "{738, 0}";
 },
 {
 name = virama;
-position = "{434, 0}";
+position = "{394, 0}";
 }
 );
 components = (
@@ -68,7 +68,7 @@ position = "{728, 0}";
 },
 {
 name = virama;
-position = "{429, 0}";
+position = "{399, 0}";
 }
 );
 background = {
@@ -193,7 +193,7 @@ position = "{805, 0}";
 },
 {
 name = virama;
-position = "{462, 0}";
+position = "{418, 0}";
 }
 );
 components = (
@@ -899,7 +899,7 @@ position = "{510, 0}";
 },
 {
 name = virama;
-position = "{321, 0}";
+position = "{271, 0}";
 }
 );
 components = (
@@ -1077,7 +1077,7 @@ position = "{564, 0}";
 },
 {
 name = virama;
-position = "{382, 0}";
+position = "{282, 0}";
 }
 );
 components = (
@@ -1255,7 +1255,7 @@ position = "{636, 0}";
 },
 {
 name = virama;
-position = "{372, 0}";
+position = "{312, 0}";
 }
 );
 components = (
