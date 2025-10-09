@@ -1071,7 +1071,7 @@ width = 1170;
 anchors = (
 {
 name = iVowel;
-position = "{469, 0}";
+position = "{659, 0}";
 },
 {
 name = repaya;
@@ -1253,7 +1253,7 @@ width = 865;
 anchors = (
 {
 name = iVowel;
-position = "{690, 0}";
+position = "{720, 0}";
 },
 {
 name = repaya;
@@ -1435,7 +1435,7 @@ width = 907;
 anchors = (
 {
 name = iVowel;
-position = "{635, 0}";
+position = "{755, 0}";
 },
 {
 name = repaya;
