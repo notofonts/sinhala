@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = iVowel;
-position = "{440, 0}";
+position = "{451, 0}";
 },
 {
 name = rakar;
@@ -2013,7 +2013,7 @@ width = 604;
 anchors = (
 {
 name = iVowel;
-position = "{355, 0}";
+position = "{335, 0}";
 },
 {
 name = rakar;
@@ -2429,7 +2429,7 @@ width = 635;
 anchors = (
 {
 name = iVowel;
-position = "{392, 0}";
+position = "{353, 0}";
 },
 {
 name = rakar;
