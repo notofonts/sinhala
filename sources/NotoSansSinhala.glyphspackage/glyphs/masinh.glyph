@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = rakar;
-position = "{757, 0}";
+position = "{706, 0}";
 },
 {
 name = repaya;
@@ -111,7 +111,7 @@ width = 798;
 anchors = (
 {
 name = rakar;
-position = "{811, 0}";
+position = "{710, 0}";
 },
 {
 name = repaya;
@@ -216,7 +216,7 @@ width = 847;
 anchors = (
 {
 name = rakar;
-position = "{876, 0}";
+position = "{700, 0}";
 },
 {
 name = repaya;
@@ -428,7 +428,7 @@ width = 912;
 anchors = (
 {
 name = rakar;
-position = "{557, 0}";
+position = "{513, 0}";
 },
 {
 name = repaya;
@@ -640,7 +640,7 @@ width = 603;
 anchors = (
 {
 name = rakar;
-position = "{610, 0}";
+position = "{520, 0}";
 },
 {
 name = repaya;
@@ -1066,7 +1066,7 @@ width = 646;
 anchors = (
 {
 name = rakar;
-position = "{727, 0}";
+position = "{600, 0}";
 },
 {
 name = repaya;

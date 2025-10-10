@@ -6,11 +6,11 @@ layers = (
 anchors = (
 {
 name = rakar;
-position = "{1337, 0}";
+position = "{1302, 0}";
 },
 {
 name = repaya;
-position = "{917, 800}";
+position = "{869, 810}";
 },
 {
 name = uvowel;
@@ -178,11 +178,11 @@ width = 1378;
 anchors = (
 {
 name = rakar;
-position = "{1387, 0}";
+position = "{1288, 0}";
 },
 {
 name = repaya;
-position = "{965, 800}";
+position = "{980, 781}";
 },
 {
 name = uvowel;
@@ -350,11 +350,11 @@ width = 1423;
 anchors = (
 {
 name = rakar;
-position = "{1358, 0}";
+position = "{1173, 0}";
 },
 {
 name = repaya;
-position = "{976, 800}";
+position = "{874, 750}";
 },
 {
 name = uvowel;
@@ -522,11 +522,11 @@ width = 1382;
 anchors = (
 {
 name = rakar;
-position = "{954, 0}";
+position = "{899, 0}";
 },
 {
 name = repaya;
-position = "{668, 800}";
+position = "{587, 810}";
 },
 {
 name = uvowel;
@@ -694,11 +694,11 @@ width = 986;
 anchors = (
 {
 name = rakar;
-position = "{1006, 0}";
+position = "{904, 0}";
 },
 {
 name = repaya;
-position = "{702, 800}";
+position = "{677, 782}";
 },
 {
 name = uvowel;
@@ -866,11 +866,11 @@ width = 1042;
 anchors = (
 {
 name = rakar;
-position = "{1093, 0}";
+position = "{1011, 0}";
 },
 {
 name = repaya;
-position = "{752, 800}";
+position = "{698, 752}";
 },
 {
 name = uvowel;

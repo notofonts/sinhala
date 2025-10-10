@@ -3,12 +3,6 @@ color = 5;
 glyphname = rivowelsinh;
 layers = (
 {
-anchors = (
-{
-name = rakar;
-position = "{629, 0}";
-}
-);
 components = (
 {
 name = rasinh;
@@ -45,12 +39,6 @@ nodes = (
 width = 669;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{666, 0}";
-}
-);
 components = (
 {
 name = rasinh;
@@ -87,12 +75,6 @@ nodes = (
 width = 702;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{702, 0}";
-}
-);
 components = (
 {
 name = rasinh;
@@ -129,12 +111,6 @@ nodes = (
 width = 746;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{460, 0}";
-}
-);
 components = (
 {
 name = rasinh;
@@ -171,12 +147,6 @@ nodes = (
 width = 498;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{495, 0}";
-}
-);
 components = (
 {
 name = rasinh;
@@ -213,12 +183,6 @@ nodes = (
 width = 528;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{540, 0}";
-}
-);
 components = (
 {
 name = rasinh;
@@ -255,12 +219,6 @@ nodes = (
 width = 572;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{629, 0}";
-}
-);
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 components = (
 {
@@ -299,12 +257,6 @@ nodes = (
 width = 669;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{666, 0}";
-}
-);
 associatedMasterId = UUID0;
 components = (
 {
@@ -343,12 +295,6 @@ nodes = (
 width = 702;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{702, 0}";
-}
-);
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 components = (
 {
@@ -387,12 +333,6 @@ nodes = (
 width = 746;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{460, 0}";
-}
-);
 associatedMasterId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 components = (
 {
@@ -431,12 +371,6 @@ nodes = (
 width = 498;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{495, 0}";
-}
-);
 associatedMasterId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 components = (
 {
@@ -475,12 +409,6 @@ nodes = (
 width = 528;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{540, 0}";
-}
-);
 associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 components = (
 {
@@ -519,12 +447,6 @@ nodes = (
 width = 572;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{629, 0}";
-}
-);
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 components = (
 {

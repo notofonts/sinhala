@@ -5,10 +5,6 @@ layers = (
 {
 anchors = (
 {
-name = rakar;
-position = "{629, 0}";
-},
-{
 name = virama;
 position = "{200, 0}";
 }
@@ -113,10 +109,6 @@ width = 669;
 },
 {
 anchors = (
-{
-name = rakar;
-position = "{666, 0}";
-},
 {
 name = virama;
 position = "{200, 0}";
@@ -223,10 +215,6 @@ width = 702;
 {
 anchors = (
 {
-name = rakar;
-position = "{702, 0}";
-},
-{
 name = virama;
 position = "{200, 0}";
 }
@@ -331,10 +319,6 @@ width = 714;
 },
 {
 anchors = (
-{
-name = rakar;
-position = "{460, 0}";
-},
 {
 name = virama;
 position = "{200, 0}";
@@ -441,10 +425,6 @@ width = 500;
 {
 anchors = (
 {
-name = rakar;
-position = "{495, 0}";
-},
-{
 name = virama;
 position = "{200, 0}";
 }
@@ -550,10 +530,6 @@ width = 531;
 {
 anchors = (
 {
-name = rakar;
-position = "{540, 0}";
-},
-{
 name = virama;
 position = "{200, 0}";
 }
@@ -657,12 +633,6 @@ nodes = (
 width = 552;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{629, 0}";
-}
-);
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 components = (
 {
@@ -725,12 +695,6 @@ nodes = (
 width = 669;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{666, 0}";
-}
-);
 associatedMasterId = UUID0;
 components = (
 {
@@ -793,12 +757,6 @@ nodes = (
 width = 702;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{702, 0}";
-}
-);
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 components = (
 {
@@ -861,12 +819,6 @@ nodes = (
 width = 746;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{482, 0}";
-}
-);
 associatedMasterId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 layerId = "E3093A46-1014-4BA5-86D2-55DE87120413";
 name = "24 May 25, 18:32";
@@ -968,12 +920,6 @@ nodes = (
 width = 498;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{520, 0}";
-}
-);
 associatedMasterId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 layerId = "1ED37F6C-85EA-41F3-BFF3-B660B8729A6E";
 name = "24 May 25, 18:32";
@@ -1075,12 +1021,6 @@ nodes = (
 width = 528;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{571, 0}";
-}
-);
 associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 layerId = "4DD835B1-366B-4A4B-9113-4F5B180A4BAD";
 name = "24 May 25, 18:32";
@@ -1182,12 +1122,6 @@ nodes = (
 width = 572;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{666, 0}";
-}
-);
 associatedMasterId = UUID0;
 components = (
 {
@@ -1251,10 +1185,6 @@ width = 702;
 },
 {
 anchors = (
-{
-name = rakar;
-position = "{702, 0}";
-},
 {
 name = virama;
 position = "{200, 0}";
@@ -1362,10 +1292,6 @@ width = 714;
 },
 {
 anchors = (
-{
-name = rakar;
-position = "{702, 0}";
-},
 {
 name = virama;
 position = "{200, 0}";

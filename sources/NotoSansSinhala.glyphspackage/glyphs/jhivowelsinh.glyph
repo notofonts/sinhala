@@ -3,12 +3,6 @@ color = 5;
 glyphname = jhivowelsinh;
 layers = (
 {
-anchors = (
-{
-name = rakar;
-position = "{1368, 0}";
-}
-);
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -211,12 +205,6 @@ nodes = (
 width = 1409;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{1431, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -629,10 +617,6 @@ width = 1457;
 {
 anchors = (
 {
-name = rakar;
-position = "{1493, 0}";
-},
-{
 name = uvowel;
 position = "{3191.971, 176}";
 }
@@ -838,10 +822,6 @@ width = 1526;
 {
 anchors = (
 {
-name = rakar;
-position = "{1384, 0}";
-},
-{
 name = uvowel;
 position = "{2970.248, 176}";
 }
@@ -1045,12 +1025,6 @@ nodes = (
 width = 1420;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{978, 0}";
-}
-);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -1253,12 +1227,6 @@ nodes = (
 width = 1020;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{1032, 0}";
-}
-);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -1461,12 +1429,6 @@ nodes = (
 width = 1068;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{1180, 0}";
-}
-);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {
@@ -1671,10 +1633,6 @@ width = 1204;
 {
 anchors = (
 {
-name = rakar;
-position = "{1324, 0}";
-},
-{
 name = uvowel;
 position = "{2792.452, 176}";
 }
@@ -1876,12 +1834,6 @@ nodes = (
 width = 1365;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{963, 0}";
-}
-);
 associatedMasterId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 layerId = "BB24A510-828E-4B9A-87B3-729043DA8E76";
 name = "18 May 25, 16:54";
@@ -2081,12 +2033,6 @@ nodes = (
 width = 1005;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{1005, 0}";
-}
-);
 associatedMasterId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 layerId = "CCC197DC-6453-4373-9EC5-36756732A677";
 name = "18 May 25, 16:54";
@@ -2286,12 +2232,6 @@ nodes = (
 width = 1041;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{1168, 0}";
-}
-);
 associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 layerId = "239351BD-B765-448A-B9A8-713BC772583A";
 name = "18 May 25, 16:54";
@@ -2492,10 +2432,6 @@ width = 1192;
 },
 {
 anchors = (
-{
-name = rakar;
-position = "{1447, 0}";
-},
 {
 name = uvowel;
 position = "{3054, 176}";

@@ -26,7 +26,7 @@ code = "hasinh bhasinh\012#";
 name = iVowelAlt7;
 },
 {
-code = "nyasinh jnyasinh nadasinh nyarasinh jnyarasinh nadarasinh\012\012";
+code = "nyasinh jnyasinh nadasinh nadarasinh\012\012";
 name = iVowelAlt8;
 },
 {
@@ -42,8 +42,8 @@ code = "#ණුනුක්‍වුක්‍ෂුත්‍ථුත්‍ව�
 name = uSignWideGroup;
 },
 {
-code = "pasinh  ssasinh  fasinh kassasinh\012#පෂසඝෆ\012 ";
-name = rakarAlt1Group;
+code = "\012casinh ttasinh thasinh phasinh vasinh davasinh nyacasinh masinh tathasinh nathasinh navasinh\012#  gadhasinh nadasinh nadhasinh yasinh\012\012";
+name = rakarVaShapeGroup;
 },
 {
 code = "nnasinh nasinh hasinh bhasinh shasinh gasinh nngasinh kasinh\012";
@@ -70,16 +70,12 @@ code = "casinh ttasinh thasinh phasinh vasinh davasinh nyacasinh masinh kavasinh
 name = vaShapeGroup;
 },
 {
-code = "#ඨිඪිථිඵිථින්‍ථි\012esinh tthasinh ddhasinh thasinh phasinh ttatthasinh nathasinh tathasinh\012";
+code = "esinh tthasinh ddhasinh thasinh phasinh ttatthasinh nathasinh tathasinh nnasinh\012#ඨිඪිථිඵිථින්‍ථි\012";
 name = phaShapeGroup;
 },
 {
-code = "chasinh jasinh nyjasinh\012#ඡී ජී ඦී ඡි ජි ඦි\012\012";
+code = "chasinh jasinh nyjasinh\012#ඡී ජී ඦී ඡි ජි ඦි";
 name = jaShapeGroup;
-},
-{
-code = "darasinh ndarasinh nyarasinh jnyarasinh nadarasinh";
-name = daShapeGroup;
 }
 );
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sinhala)";
@@ -170,7 +166,7 @@ nadasinh,
 nadhasinh,
 navasinh,
 viramasinh,
-viramasinh.alt1,
+viramasinh.alt,
 viramasinh.alt2,
 aavowelsignsinh,
 aevowelsignsinh,
@@ -251,12 +247,8 @@ rephsinh,
 rephsinh.alt1,
 yapostsinh,
 rakarsinh,
-rakarsinh.alt1,
-rakarsinh.alt2,
-rakarsinh.alt3,
-rakarsinh.alt4,
-rakarsinh.alt5,
-rakarsinh.alt6,
+rakarsinh.medium,
+rakarsinh.long,
 oovowelsignaltsinh,
 aevowelsignlowsinh,
 aaevowelsignlowsinh,
@@ -856,41 +848,6 @@ name = "Enforce Compatibility Check";
 value = 0;
 },
 {
-name = "Export on Save";
-value = true;
-},
-{
-disabled = 1;
-name = "Export on Save";
-value = "New Value";
-},
-{
-disabled = 1;
-name = "Export on Save";
-value = "New Value";
-},
-{
-disabled = 1;
-name = glyphOrder;
-value = (
-);
-},
-{
-name = glyphOrder;
-value = (
-);
-},
-{
-name = glyphOrder;
-value = (
-);
-},
-{
-name = glyphOrder;
-value = (
-);
-},
-{
 name = description;
 value = "Designed by Monotype design team.";
 },
@@ -946,6 +903,10 @@ name = "Split Reph";
 {
 code = "lookup LaRaUVowels {\012    sub llasinh by lluvowelsinh;\012    sub uvowelsignsinh by aevowelsignsinh;\012    sub uuvowelsignsinh by aaevowelsignsinh;\012} LaRaUVowels;\012";
 name = "La/Ra UVowels";
+},
+{
+code = "";
+name = unnamed;
 }
 );
 features = (
@@ -974,7 +935,7 @@ code = "\012lookup RakarDouble {\012	sub @allBaseGroup rakarsinh rakarsinh' by r
 name = blws;
 },
 {
-code = "lookup VowelLigatures {\012    lookupflag UseMarkFilteringSet [viramasinh iivowelsignsinh ivowelsignsinh];\012    # KHA\012    sub khasinh viramasinh by khahalantsinh;\012    sub khasinh iivowelsignsinh by khiivowelsinh;\012    sub khasinh ivowelsignsinh by khivowelsinh;\012\012    # NGA\012    sub ngasinh viramasinh by ngahalantsinh;\012    sub ngasinh iivowelsignsinh by ngiivowelsinh;\012    sub ngasinh ivowelsignsinh by ngivowelsinh;\012\012    # CA\012    sub casinh viramasinh by cahalantsinh;\012    sub casinh iivowelsignsinh by ciivowelsinh;\012    sub casinh ivowelsignsinh by civowelsinh;\012\012    # RA\012    sub rasinh viramasinh by rahalantsinh;\012    sub rasinh iivowelsignsinh by riivowelsinh;\012    sub rasinh ivowelsignsinh by rivowelsinh;\012\012    # JHA\012    sub jhasinh viramasinh by jhahalantsinh;\012    sub jhasinh iivowelsignsinh by jhiivowelsinh;\012    sub jhasinh ivowelsignsinh by jhivowelsinh;\012\012    # TTA\012    sub ttasinh viramasinh by ttahalantsinh;\012    sub ttasinh iivowelsignsinh by ttiivowelsinh;\012    sub ttasinh ivowelsignsinh by ttivowelsinh;\012\012    # DDA\012    sub ddasinh viramasinh by ddahalantsinh;\012    sub ddasinh iivowelsignsinh by ddiivowelsinh;\012    sub ddasinh ivowelsignsinh by ddivowelsinh;\012\012    # NNA\012    sub nnasinh iivowelsignsinh by nniivowelsinh;\012    sub nnasinh ivowelsignsinh by nnivowelsinh;\012\012    # NNDDA\012    sub nnddasinh viramasinh by nnddahalantsinh;\012    sub nnddasinh iivowelsignsinh by nnddiivowelsinh;\012    sub nnddasinh ivowelsignsinh by nnddivowelsinh;\012\012    # DHA\012    sub dhasinh viramasinh by dhahalantsinh;\012    sub dhasinh iivowelsignsinh by dhiivowelsinh;\012    sub dhasinh ivowelsignsinh by dhivowelsinh;\012\012#	# NDA\012#    sub ndasinh iivowelsignsinh by ndiivowelsinh;\012#    sub ndasinh ivowelsignsinh by ndivowelsinh;\012\012    # BA\012    sub basinh viramasinh by bahalantsinh;\012    sub basinh iivowelsignsinh by biivowelsinh;\012    sub basinh ivowelsignsinh by bivowelsinh;\012\012    # MA\012    sub masinh viramasinh by mahalantsinh;\012    sub masinh iivowelsignsinh by miivowelsinh;\012    sub masinh ivowelsignsinh by mivowelsinh;\012\012    # MBA\012    sub mbasinh viramasinh by mbahalantsinh;\012    sub mbasinh iivowelsignsinh by mbiivowelsinh;\012    sub mbasinh ivowelsignsinh by mbivowelsinh;\012\012    # YA\012    sub yasinh iivowelsignsinh by yiivowelsinh;\012    sub yasinh ivowelsignsinh by yivowelsinh;\012\012    # VA\012    sub vasinh viramasinh by vahalantsinh;\012    sub vasinh iivowelsignsinh by viivowelsinh;\012    sub vasinh ivowelsignsinh by vivowelsinh;\012\012    # KAVA\012    sub kavasinh viramasinh by kavahalantsinh;\012    sub kavasinh iivowelsignsinh by kaviivowelsinh;\012    sub kavasinh ivowelsignsinh by kavivowelsinh;\012\012    # GADHA\012    sub gadhasinh viramasinh by gadhahalantsinh;\012    sub gadhasinh iivowelsignsinh by gadhiivowelsinh;\012    sub gadhasinh ivowelsignsinh by gadhivowelsinh;\012\012    # NYACA\012    sub nyacasinh viramasinh by nyacahalantsinh;\012    sub nyacasinh iivowelsignsinh by nyaciivowelsinh;\012    sub nyacasinh ivowelsignsinh by nyacivowelsinh;\012\012    # TAVA\012    sub tavasinh viramasinh by tavahalantsinh;\012    sub tavasinh iivowelsignsinh by taviivowelsinh;\012    sub tavasinh ivowelsignsinh by tavivowelsinh;\012\012    # DADHA\012    sub dadhasinh viramasinh by dadhahalantsinh;\012    sub dadhasinh iivowelsignsinh by dadhiivowelsinh;\012    sub dadhasinh ivowelsignsinh by dadhivowelsinh;\012\012    # DAVA\012    sub davasinh viramasinh by davahalantsinh;\012    sub davasinh iivowelsignsinh by daviivowelsinh;\012    sub davasinh ivowelsignsinh by davivowelsinh;\012\012    # NADHA\012    sub nadhasinh viramasinh by nadhahalantsinh;\012    sub nadhasinh iivowelsignsinh by nadhiivowelsinh;\012    sub nadhasinh ivowelsignsinh by nadhivowelsinh;\012\012    # NAVA\012    sub navasinh viramasinh by navahalantsinh;\012    sub navasinh iivowelsignsinh by naviivowelsinh;\012    sub navasinh ivowelsignsinh by navivowelsinh;\012\012} VowelLigatures;\012\012\012sub aavowelsignsinh viramasinh by oovowelsignaltsinh;\012\012\012sub @phaShapeGroup viramasinh' by viramasinh.alt1;\012sub @jaShapeGroup viramasinh' by viramasinh.alt2;\012\012sub @iVowelAlt ivowelsignsinh' by ivowelsignsinh.alt1; \012sub @iVowelAlt iivowelsignsinh' by iivowelsignsinh.alt1; \012\012sub @iVowelAlt2 ivowelsignsinh' by ivowelsignsinh.alt2;\012sub @iVowelAlt2 iivowelsignsinh' by iivowelsignsinh.alt2;\012\012sub @iVowelAlt3 ivowelsignsinh' by ivowelsignsinh.alt3;\012sub @iVowelAlt3 iivowelsignsinh' by iivowelsignsinh.alt3;\012\012sub @phaShapeGroup ivowelsignsinh' by ivowelsignsinh.alt4;\012sub @phaShapeGroup iivowelsignsinh' by iivowelsignsinh.alt4;\012\012sub @jaShapeGroup ivowelsignsinh' by ivowelsignsinh.alt5;\012sub @jaShapeGroup iivowelsignsinh' by iivowelsignsinh.alt5;\012\012# ලිළි\012sub @iVowelAlt6 ivowelsignsinh' by ivowelsignsinh.alt6;\012sub @iVowelAlt6 iivowelsignsinh' by iivowelsignsinh.alt6;\012\012# භිහිභීහී\012sub @iVowelAlt7 ivowelsignsinh' by ivowelsignsinh.alt7;\012sub @iVowelAlt7 iivowelsignsinh' by iivowelsignsinh.alt7;\012\012sub @iVowelAlt8 ivowelsignsinh' by ivowelsignsinh.alt8;\012sub @iVowelAlt8 iivowelsignsinh' by iivowelsignsinh.alt8;\012\012sub @iVowelAlt9 ivowelsignsinh' by ivowelsignsinh.alt9;\012sub @iVowelAlt9 iivowelsignsinh' by iivowelsignsinh.alt9;\012\012# Alternative Rephaya\012sub @phaShapeGroup rephsinh' by rephsinh.alt1;\012\012\012\012#sub @iVowelAlt rakarsinh ivowelsignsinh' by ivowelsignsinh.alt; \012#sub @iVowelAlt rakarsinh iivowelsignsinh' by iivowelsignsinh.alt; \012#\012#sub @iVowelAlt2 rakarsinh ivowelsignsinh' by ivowelsignsinh.alt2;\012#sub @iVowelAlt2 rakarsinh iivowelsignsinh' by iivowelsignsinh.alt2;\012#\012#sub @iVowelAlt3 rakarsinh ivowelsignsinh' by ivowelsignsinh.alt3;\012#sub @iVowelAlt3 rakarsinh iivowelsignsinh' by iivowelsignsinh.alt3;\012\012\012#sub @phaShapeGroup rakarsinh ivowelsignsinh' by ivowelsignsinh.alt4;\012#sub @phaShapeGroup rakarsinh iivowelsignsinh' by iivowelsignsinh.alt4;\012#\012#sub @jaShapeGroup rakarsinh ivowelsignsinh' by ivowelsignsinh.alt5;\012#sub @jaShapeGroup rakarsinh iivowelsignsinh' by iivowelsignsinh.alt5;\012\012\012\012\012";
+code = "# Alternative Rephaya\012sub @phaShapeGroup rephsinh' by rephsinh.alt1;\012\012lookup VowelLigatures {\012    lookupflag UseMarkFilteringSet [viramasinh iivowelsignsinh ivowelsignsinh];\012    # KHA\012    sub khasinh viramasinh by khahalantsinh;\012    sub khasinh iivowelsignsinh by khiivowelsinh;\012    sub khasinh ivowelsignsinh by khivowelsinh;\012\012    # NGA\012    sub ngasinh viramasinh by ngahalantsinh;\012    sub ngasinh iivowelsignsinh by ngiivowelsinh;\012    sub ngasinh ivowelsignsinh by ngivowelsinh;\012\012    # CA\012    sub casinh viramasinh by cahalantsinh;\012    sub casinh iivowelsignsinh by ciivowelsinh;\012    sub casinh ivowelsignsinh by civowelsinh;\012\012    # RA\012    sub rasinh viramasinh by rahalantsinh;\012    sub rasinh iivowelsignsinh by riivowelsinh;\012    sub rasinh ivowelsignsinh by rivowelsinh;\012\012    # JHA\012    sub jhasinh viramasinh by jhahalantsinh;\012    sub jhasinh iivowelsignsinh by jhiivowelsinh;\012    sub jhasinh ivowelsignsinh by jhivowelsinh;\012\012    # TTA\012    sub ttasinh viramasinh by ttahalantsinh;\012    sub ttasinh iivowelsignsinh by ttiivowelsinh;\012    sub ttasinh ivowelsignsinh by ttivowelsinh;\012\012    # DDA\012    sub ddasinh viramasinh by ddahalantsinh;\012    sub ddasinh iivowelsignsinh by ddiivowelsinh;\012    sub ddasinh ivowelsignsinh by ddivowelsinh;\012\012    # NNA\012    sub nnasinh iivowelsignsinh by nniivowelsinh;\012    sub nnasinh ivowelsignsinh by nnivowelsinh;\012\012    # NNDDA\012    sub nnddasinh viramasinh by nnddahalantsinh;\012    sub nnddasinh iivowelsignsinh by nnddiivowelsinh;\012    sub nnddasinh ivowelsignsinh by nnddivowelsinh;\012\012    # DHA\012    sub dhasinh viramasinh by dhahalantsinh;\012    sub dhasinh iivowelsignsinh by dhiivowelsinh;\012    sub dhasinh ivowelsignsinh by dhivowelsinh;\012\012#	# NDA\012#    sub ndasinh iivowelsignsinh by ndiivowelsinh;\012#    sub ndasinh ivowelsignsinh by ndivowelsinh;\012\012    # BA\012    sub basinh viramasinh by bahalantsinh;\012    sub basinh iivowelsignsinh by biivowelsinh;\012    sub basinh ivowelsignsinh by bivowelsinh;\012\012    # MA\012    sub masinh viramasinh by mahalantsinh;\012    sub masinh iivowelsignsinh by miivowelsinh;\012    sub masinh ivowelsignsinh by mivowelsinh;\012\012    # MBA\012    sub mbasinh viramasinh by mbahalantsinh;\012    sub mbasinh iivowelsignsinh by mbiivowelsinh;\012    sub mbasinh ivowelsignsinh by mbivowelsinh;\012\012    # YA\012    sub yasinh iivowelsignsinh by yiivowelsinh;\012    sub yasinh ivowelsignsinh by yivowelsinh;\012\012    # VA\012    sub vasinh viramasinh by vahalantsinh;\012    sub vasinh iivowelsignsinh by viivowelsinh;\012    sub vasinh ivowelsignsinh by vivowelsinh;\012\012    # KAVA\012    sub kavasinh viramasinh by kavahalantsinh;\012    sub kavasinh iivowelsignsinh by kaviivowelsinh;\012    sub kavasinh ivowelsignsinh by kavivowelsinh;\012\012    # GADHA\012    sub gadhasinh viramasinh by gadhahalantsinh;\012    sub gadhasinh iivowelsignsinh by gadhiivowelsinh;\012    sub gadhasinh ivowelsignsinh by gadhivowelsinh;\012\012    # NYACA\012    sub nyacasinh viramasinh by nyacahalantsinh;\012    sub nyacasinh iivowelsignsinh by nyaciivowelsinh;\012    sub nyacasinh ivowelsignsinh by nyacivowelsinh;\012\012    # TAVA\012    sub tavasinh viramasinh by tavahalantsinh;\012    sub tavasinh iivowelsignsinh by taviivowelsinh;\012    sub tavasinh ivowelsignsinh by tavivowelsinh;\012\012    # DADHA\012    sub dadhasinh viramasinh by dadhahalantsinh;\012    sub dadhasinh iivowelsignsinh by dadhiivowelsinh;\012    sub dadhasinh ivowelsignsinh by dadhivowelsinh;\012\012    # DAVA\012    sub davasinh viramasinh by davahalantsinh;\012    sub davasinh iivowelsignsinh by daviivowelsinh;\012    sub davasinh ivowelsignsinh by davivowelsinh;\012\012    # NADHA\012    sub nadhasinh viramasinh by nadhahalantsinh;\012    sub nadhasinh iivowelsignsinh by nadhiivowelsinh;\012    sub nadhasinh ivowelsignsinh by nadhivowelsinh;\012\012    # NAVA\012    sub navasinh viramasinh by navahalantsinh;\012    sub navasinh iivowelsignsinh by naviivowelsinh;\012    sub navasinh ivowelsignsinh by navivowelsinh;\012\012} VowelLigatures;\012\012\012sub aavowelsignsinh viramasinh by oovowelsignaltsinh;\012\012\012sub @viramaAltGroup viramasinh' by viramasinh.alt;\012sub @viramaAlt2Group viramasinh' by viramasinh.alt2;\012\012sub @iVowelAlt ivowelsignsinh' by ivowelsignsinh.alt1; \012sub @iVowelAlt iivowelsignsinh' by iivowelsignsinh.alt1; \012\012sub @iVowelAlt2 ivowelsignsinh' by ivowelsignsinh.alt2;\012sub @iVowelAlt2 iivowelsignsinh' by iivowelsignsinh.alt2;\012\012sub @iVowelAlt3 ivowelsignsinh' by ivowelsignsinh.alt3;\012sub @iVowelAlt3 iivowelsignsinh' by iivowelsignsinh.alt3;\012\012sub @phaShapeGroup ivowelsignsinh' by ivowelsignsinh.alt4;\012sub @phaShapeGroup iivowelsignsinh' by iivowelsignsinh.alt4;\012\012sub @jaShapeGroup ivowelsignsinh' by ivowelsignsinh.alt5;\012sub @jaShapeGroup iivowelsignsinh' by iivowelsignsinh.alt5;\012\012# ලිළි\012sub @iVowelAlt6 ivowelsignsinh' by ivowelsignsinh.alt6;\012sub @iVowelAlt6 iivowelsignsinh' by iivowelsignsinh.alt6;\012\012# භිහිභීහී\012sub @iVowelAlt7 ivowelsignsinh' by ivowelsignsinh.alt7;\012sub @iVowelAlt7 iivowelsignsinh' by iivowelsignsinh.alt7;\012\012sub @iVowelAlt8 ivowelsignsinh' by ivowelsignsinh.alt8;\012sub @iVowelAlt8 iivowelsignsinh' by iivowelsignsinh.alt8;\012\012sub @iVowelAlt9 ivowelsignsinh' by ivowelsignsinh.alt9;\012sub @iVowelAlt9 iivowelsignsinh' by iivowelsignsinh.alt9;\012\012\012\012\012\012#sub @iVowelAlt rakarsinh ivowelsignsinh' by ivowelsignsinh.alt; \012#sub @iVowelAlt rakarsinh iivowelsignsinh' by iivowelsignsinh.alt; \012#\012#sub @iVowelAlt2 rakarsinh ivowelsignsinh' by ivowelsignsinh.alt2;\012#sub @iVowelAlt2 rakarsinh iivowelsignsinh' by iivowelsignsinh.alt2;\012#\012#sub @iVowelAlt3 rakarsinh ivowelsignsinh' by ivowelsignsinh.alt3;\012#sub @iVowelAlt3 rakarsinh iivowelsignsinh' by iivowelsignsinh.alt3;\012\012\012#sub @phaShapeGroup rakarsinh ivowelsignsinh' by ivowelsignsinh.alt4;\012#sub @phaShapeGroup rakarsinh iivowelsignsinh' by iivowelsignsinh.alt4;\012#\012#sub @jaShapeGroup rakarsinh ivowelsignsinh' by ivowelsignsinh.alt5;\012#sub @jaShapeGroup rakarsinh iivowelsignsinh' by iivowelsignsinh.alt5;\012\012\012\012\012";
 name = abvs;
 },
 {
@@ -1012,7 +973,7 @@ position = "{272, 876}";
 },
 {
 name = "i_sign-ASCE";
-position = "{260, 920}";
+position = "{-477, 957}";
 },
 {
 position = "{-779, -213}";
@@ -1043,7 +1004,7 @@ capHeight = 612;
 descender = -293;
 guideLines = (
 {
-position = "{-67, 976}";
+position = "{-272, 896}";
 },
 {
 position = "{-208, -232}";
@@ -1052,10 +1013,7 @@ position = "{-208, -232}";
 position = "{-701, -293}";
 },
 {
-position = "{371, -300}";
-},
-{
-position = "{-106, 923}";
+position = "{-109, -261}";
 }
 );
 id = UUID0;
@@ -1077,7 +1035,7 @@ descender = -293;
 guideLines = (
 {
 name = "i_sign-ASCE";
-position = "{362, 993}";
+position = "{-507, 953}";
 },
 {
 name = "i_sign-ASCE";
@@ -1085,9 +1043,6 @@ position = "{-347, 924}";
 },
 {
 position = "{-383, -340}";
-},
-{
-position = "{238, 979}";
 }
 );
 id = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -1114,10 +1069,6 @@ position = "{-50, 147}";
 {
 name = "i_sign-ASCE";
 position = "{271, 876}";
-},
-{
-name = "i_sign-ASCE";
-position = "{260, 920}";
 }
 );
 id = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -1151,9 +1102,6 @@ position = "{-257, 976}";
 },
 {
 position = "{-272, 896}";
-},
-{
-position = "{-106, 923}";
 }
 );
 id = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
