@@ -7289,6 +7289,11 @@ yapostsinh = -17;
 };
 };
 "DC607D84-584B-45E6-A9EB-D1AF471CA2AE" = {
+"@MMK_L_ivowelsignsinh" = {
+"@MMK_R_dasinh" = 0;
+ivowelsignsinh.alt9 = 0;
+nasinh = 0;
+};
 aisinh = {
 aaesinh = -6;
 aasinh = -6;
@@ -7363,7 +7368,7 @@ asinh = -12;
 backslash.sinh = 60;
 braceright.sinh = 60;
 bracketright.sinh = 60;
-dasinh = -12;
+dasinh = 18;
 duuvowelsinh = -12;
 easinh = -12;
 iivowelsignsinh.alt2 = -12;
