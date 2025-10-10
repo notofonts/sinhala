@@ -254,7 +254,7 @@ width = 1379;
 anchors = (
 {
 name = iVowel;
-position = "{707, 0}";
+position = "{1007, 0}";
 },
 {
 name = rakar;
@@ -502,7 +502,7 @@ width = 1414;
 anchors = (
 {
 name = iVowel;
-position = "{703, 0}";
+position = "{973, 0}";
 },
 {
 name = rakar;
@@ -995,7 +995,7 @@ width = 1488;
 anchors = (
 {
 name = iVowel;
-position = "{491, 0}";
+position = "{701, 0}";
 },
 {
 name = rakar;
@@ -1488,7 +1488,7 @@ width = 971;
 anchors = (
 {
 name = iVowel;
-position = "{524, 0}";
+position = "{737, 0}";
 },
 {
 name = rakar;
@@ -1981,7 +1981,7 @@ width = 1016;
 anchors = (
 {
 name = iVowel;
-position = "{590, 0}";
+position = "{840, 0}";
 },
 {
 name = rakar;
