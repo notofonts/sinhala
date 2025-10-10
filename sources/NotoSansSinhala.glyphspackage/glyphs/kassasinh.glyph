@@ -10,7 +10,7 @@ position = "{979, 0}";
 },
 {
 name = rakar;
-position = "{1313, 0}";
+position = "{1338, 0}";
 },
 {
 name = repaya;
@@ -22,7 +22,7 @@ position = "{1325, 0}";
 },
 {
 name = virama;
-position = "{1283, 0}";
+position = "{1183, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -254,11 +254,11 @@ width = 1379;
 anchors = (
 {
 name = iVowel;
-position = "{707, 0}";
+position = "{1007, 0}";
 },
 {
 name = rakar;
-position = "{1298, 0}";
+position = "{1378, 0}";
 },
 {
 name = repaya;
@@ -270,7 +270,7 @@ position = "{1345, 0}";
 },
 {
 name = virama;
-position = "{1282, 0}";
+position = "{1132, 0}";
 }
 );
 layerId = UUID0;
@@ -502,11 +502,11 @@ width = 1414;
 anchors = (
 {
 name = iVowel;
-position = "{709, 0}";
+position = "{989, 0}";
 },
 {
 name = rakar;
-position = "{1228, 0}";
+position = "{1399, 0}";
 },
 {
 name = repaya;
@@ -518,7 +518,7 @@ position = "{1375, 0}";
 },
 {
 name = virama;
-position = "{1332, 0}";
+position = "{1152, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -995,11 +995,11 @@ width = 1488;
 anchors = (
 {
 name = iVowel;
-position = "{491, 0}";
+position = "{701, 0}";
 },
 {
 name = rakar;
-position = "{891, 0}";
+position = "{944, 0}";
 },
 {
 name = repaya;
@@ -1011,7 +1011,7 @@ position = "{916, 0}";
 },
 {
 name = virama;
-position = "{887, 0}";
+position = "{807, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -1488,11 +1488,11 @@ width = 971;
 anchors = (
 {
 name = iVowel;
-position = "{524, 0}";
+position = "{732, 0}";
 },
 {
 name = rakar;
-position = "{915, 0}";
+position = "{1013, 0}";
 },
 {
 name = repaya;
@@ -1504,7 +1504,7 @@ position = "{979, 0}";
 },
 {
 name = virama;
-position = "{909, 0}";
+position = "{807, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -1981,11 +1981,11 @@ width = 1016;
 anchors = (
 {
 name = iVowel;
-position = "{590, 0}";
+position = "{838, 0}";
 },
 {
 name = rakar;
-position = "{1101, 0}";
+position = "{1161, 0}";
 },
 {
 name = repaya;
@@ -1997,7 +1997,7 @@ position = "{1083, 0}";
 },
 {
 name = virama;
-position = "{1036, 0}";
+position = "{894, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

@@ -3,6 +3,12 @@ color = 5;
 glyphname = mahalantsinh;
 layers = (
 {
+anchors = (
+{
+name = rakar;
+position = "{754.008, 0}";
+}
+);
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -125,6 +131,12 @@ nodes = (
 width = 795;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{809, 0}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -247,6 +259,12 @@ nodes = (
 width = 845;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{876, 0}";
+}
+);
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 paths = (
 {
@@ -369,6 +387,12 @@ nodes = (
 width = 900;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{884, 0}";
+}
+);
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 layerId = "EA714E12-8D39-46EB-B943-CB756C120D2E";
 name = "27 Dec 24, 17:05";
@@ -493,6 +517,12 @@ nodes = (
 width = 912;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{811, 0}";
+}
+);
 associatedMasterId = UUID0;
 layerId = "57DAF299-2380-4C3B-BCBF-8CFD236D7422";
 name = "10 Apr 25, 20:43";
@@ -617,6 +647,12 @@ nodes = (
 width = 847;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{757, 0}";
+}
+);
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 layerId = "BF577DBD-95CD-49BD-9AF9-B35081815B63";
 name = "13 Apr 25, 19:43";
@@ -741,6 +777,12 @@ nodes = (
 width = 798;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{876, 0}";
+}
+);
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 layerId = "0A84972C-5A8D-4244-B012-9889302AB4C5";
 name = "13 Apr 25, 19:48";
@@ -865,6 +907,12 @@ nodes = (
 width = 900;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{567, 0}";
+}
+);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -987,6 +1035,12 @@ nodes = (
 width = 609;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{563, 0}";
+}
+);
 associatedMasterId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 layerId = "9103AD36-B07D-41FB-80E8-27ADE8F4BBE0";
 name = "13 Apr 25, 19:50";
@@ -1111,6 +1165,12 @@ nodes = (
 width = 603;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{609, 0}";
+}
+);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -1233,6 +1293,12 @@ nodes = (
 width = 645;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{607, 0}";
+}
+);
 associatedMasterId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 layerId = "CA4B76F6-E086-403F-B0DD-321790A29BDD";
 name = "13 Apr 25, 19:50";
@@ -1357,6 +1423,12 @@ nodes = (
 width = 642;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{727, 0}";
+}
+);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {
@@ -1479,6 +1551,12 @@ nodes = (
 width = 751;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{723, 0}";
+}
+);
 associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 layerId = "F22D9DDE-BF13-4EE1-A0E1-32F81A17A816";
 name = "13 Apr 25, 19:50";
