@@ -260,7 +260,6 @@ nodes = (
 width = 525;
 }
 );
-rightKerningGroup = dasinh;
 script = sinhala;
 category = Mark;
 subCategory = Nonspacing;
