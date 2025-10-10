@@ -10,7 +10,7 @@ position = "{899, 0}";
 },
 {
 name = repaya;
-position = "{688, 591}";
+position = "{721, 588}";
 },
 {
 name = virama;
@@ -186,7 +186,7 @@ position = "{930, 0}";
 },
 {
 name = repaya;
-position = "{633, 730}";
+position = "{746, 561}";
 },
 {
 name = virama;
@@ -362,7 +362,7 @@ position = "{969, 0}";
 },
 {
 name = repaya;
-position = "{683, 730}";
+position = "{796, 591}";
 },
 {
 name = virama;
@@ -1057,7 +1057,7 @@ position = "{679, 0}";
 },
 {
 name = repaya;
-position = "{759, 722}";
+position = "{545, 587}";
 },
 {
 name = virama;
@@ -1233,7 +1233,7 @@ position = "{710, 0}";
 },
 {
 name = repaya;
-position = "{823, 722}";
+position = "{588, 559}";
 },
 {
 name = virama;
@@ -1409,7 +1409,7 @@ position = "{715, 0}";
 },
 {
 name = repaya;
-position = "{650, 712}";
+position = "{638, 590}";
 },
 {
 name = virama;
