@@ -31,11 +31,11 @@ name = iVowelAlt9;
 },
 {
 code = "kha-sinh nga-sinh ttha-sinh dda-sinh ddha-sinh nndda-sinh dha-sinh ba-sinh mba-sinh na-sinh tta_ttha-sinh tta_ttha-sinh da_dha-sinh ";
-name = uSignMediumGroup;
+name = uSignAlt2Group;
 },
 {
 code = "nna-sinh ka_va-sinh ka_ssa-sinh ga_dha-sinh ta_tha-sinh ta_va-sinh na_tha-sinh na_da-sinh na_dha-sinh na_va-sinh jha-sinh ha-sinh\012";
-name = uSignWideGroup;
+name = uSignAlt3Group;
 },
 {
 code = "pa-sinh  ssa-sinh  fa-sinh ka_ssa-sinh";
@@ -196,15 +196,17 @@ space,
 "ii-sign-sinh.alt8",
 "ii-sign-sinh.alt9",
 "u-sign-sinh",
+"u-sign-sinh.alt1",
+"u-sign-sinh.alt2",
+"u-sign-sinh.alt3",
 "u-sign-sinh.medium",
 "u-sign-sinh.long",
-"u-sign-sinh.va",
 "uu-sign-sinh",
 "uu-sign-sinh.long",
 "uu-sign-sinh.medium",
-"uu-sign-sinh.va",
-"u-sign-sinh.alt",
-"uu-sign-sinh.alt",
+"uu-sign-sinh.alt1",
+"uu-sign-sinh.alt2",
+"uu-sign-sinh.alt3",
 "vocalicR-sign-sinh",
 "e-sign-sinh",
 uni0DDA,
@@ -934,7 +936,7 @@ code = "lookup AeVowelsAfterRa {\012    sub ra-sinh ae-sign-sinh' by ra-ae-sinh;
 name = psts;
 },
 {
-code = "lookup RakarDouble {\012	sub rakar-sign-sinh rakar-sign-sinh' by rakar-sign-sinh.alone;\012} RakarDouble;\012\012lookup RakarLigatures {\012    sub da-sinh rakar-sign-sinh by da-rakar-sinh;\012    sub nda-sinh rakar-sign-sinh by nda-rakar-sinh;\012    sub nya-sinh rakar-sign-sinh by nya-rakar-sinh;\012	sub jnya-sinh rakar-sign-sinh by jnya-rakar-sinh;\012	sub na_da-sinh rakar-sign-sinh by na_da-rakar-sinh;\012} RakarLigatures;\012\012sub da-sinh u-sign-sinh by da-u-sinh;\012sub da-sinh uu-sign-sinh by da-uu-sinh;\012sub nda-sinh u-sign-sinh by nda-u-sinh;\012sub nda-sinh uu-sign-sinh by nda-uu-sinh;\012sub jnya-sinh uu-sign-sinh by jnya-uu-sinh;\012sub jnya-sinh u-sign-sinh by jnya-u-sinh;\012sub nya-sinh u-sign-sinh by nya-u-sinh;\012sub nya-sinh uu-sign-sinh by nya-uu-sinh;\012sub na_da-sinh u-sign-sinh by na_da-u-sinh;\012sub na_da-sinh uu-sign-sinh by na_da-uu-sinh;\012sub la-sinh u-sign-sinh by la-u-sinh;\012sub la-sinh uu-sign-sinh by la-uu-sinh;\012sub lla-sinh u-sign-sinh by lla-u-sinh;\012sub sha-sinh u-sign-sinh by sha-u-sinh;\012sub sha-sinh uu-sign-sinh by sha-uu-sinh;\012\012sub ka-sinh u-sign-sinh by ka-u-sinh;\012sub ka-sinh uu-sign-sinh by ka-uu-sinh;\012sub ta-sinh u-sign-sinh by ta-u-sinh;\012sub ta-sinh uu-sign-sinh by ta-uu-sinh;\012sub bha-sinh u-sign-sinh by bha-u-sinh;\012sub bha-sinh uu-sign-sinh by bha-uu-sinh;\012sub ga-sinh u-sign-sinh by ga-u-sinh;\012sub ga-sinh uu-sign-sinh by ga-uu-sinh;\012sub ngga-sinh u-sign-sinh by ngga-u-sinh;\012sub ngga-sinh uu-sign-sinh by ngga-uu-sinh;\012\012sub @uSignWideGroup u-sign-sinh' by u-sign-sinh.long;\012sub @uSignWideGroup uu-sign-sinh' by uu-sign-sinh.long;\012\012sub @uSignMediumGroup u-sign-sinh' by u-sign-sinh.medium;\012sub @uSignMediumGroup uu-sign-sinh' by uu-sign-sinh.medium;\012\012sub @saShapeGroup u-sign-sinh' by u-sign-sinh.medium;\012sub @saShapeGroup uu-sign-sinh' by uu-sign-sinh.medium;\012\012sub @vaShapeGroup u-sign-sinh' by u-sign-sinh.va;\012sub @vaShapeGroup uu-sign-sinh' by uu-sign-sinh.va;\012\012lookup RakarVowels {\012    sub rakar-sign-sinh u-sign-sinh' by ae-sign-sinh.low;\012    sub rakar-sign-sinh uu-sign-sinh' by aae-sign-sinh.low;\012	sub @daShapeGroup u-sign-sinh' by ae-sign-sinh.low;\012	sub @daShapeGroup uu-sign-sinh' by ae-sign-sinh.low;\012\012} RakarVowels;\012\012lookup RakarAlts {\012sub @rakarAlt3Group rakar-sign-sinh' by rakar-sign-sinh.alt3;\012sub @rakarVaShapeGroup rakar-sign-sinh' by rakar-sign-sinh.alt2;\012sub @rakarAlt1Group rakar-sign-sinh' by rakar-sign-sinh.alt1;\012sub @rakarAlt4Group rakar-sign-sinh' by rakar-sign-sinh.alt4;\012sub [la-sinh ra-sinh lla-sinh] rakar-sign-sinh' by rakar-sign-sinh.alone;\012} RakarAlts;\012\012\012\012\012";
+code = "lookup RakarDouble {\012	sub rakar-sign-sinh rakar-sign-sinh' by rakar-sign-sinh.alone;\012} RakarDouble;\012\012lookup RakarLigatures {\012    sub da-sinh rakar-sign-sinh by da-rakar-sinh;\012    sub nda-sinh rakar-sign-sinh by nda-rakar-sinh;\012    sub nya-sinh rakar-sign-sinh by nya-rakar-sinh;\012	sub jnya-sinh rakar-sign-sinh by jnya-rakar-sinh;\012	sub na_da-sinh rakar-sign-sinh by na_da-rakar-sinh;\012} RakarLigatures;\012\012sub da-sinh u-sign-sinh by da-u-sinh;\012sub da-sinh uu-sign-sinh by da-uu-sinh;\012sub nda-sinh u-sign-sinh by nda-u-sinh;\012sub nda-sinh uu-sign-sinh by nda-uu-sinh;\012sub jnya-sinh uu-sign-sinh by jnya-uu-sinh;\012sub jnya-sinh u-sign-sinh by jnya-u-sinh;\012sub nya-sinh u-sign-sinh by nya-u-sinh;\012sub nya-sinh uu-sign-sinh by nya-uu-sinh;\012sub na_da-sinh u-sign-sinh by na_da-u-sinh;\012sub na_da-sinh uu-sign-sinh by na_da-uu-sinh;\012sub la-sinh u-sign-sinh by la-u-sinh;\012sub la-sinh uu-sign-sinh by la-uu-sinh;\012sub lla-sinh u-sign-sinh by lla-u-sinh;\012sub sha-sinh u-sign-sinh by sha-u-sinh;\012sub sha-sinh uu-sign-sinh by sha-uu-sinh;\012\012sub ka-sinh u-sign-sinh by ka-u-sinh;\012sub ka-sinh uu-sign-sinh by ka-uu-sinh;\012sub ta-sinh u-sign-sinh by ta-u-sinh;\012sub ta-sinh uu-sign-sinh by ta-uu-sinh;\012sub bha-sinh u-sign-sinh by bha-u-sinh;\012sub bha-sinh uu-sign-sinh by bha-uu-sinh;\012sub ga-sinh u-sign-sinh by ga-u-sinh;\012sub ga-sinh uu-sign-sinh by ga-uu-sinh;\012sub ngga-sinh u-sign-sinh by ngga-u-sinh;\012sub ngga-sinh uu-sign-sinh by ngga-uu-sinh;\012\012sub @uSignAlt3Group u-sign-sinh' by u-sign-sinh.alt3;\012sub @uSignAlt3Group uu-sign-sinh' by uu-sign-sinh.alt3;\012\012sub @uSignAlt2Group u-sign-sinh' by u-sign-sinh.alt2;\012sub @uSignAlt2Group uu-sign-sinh' by uu-sign-sinh.alt2;\012\012sub @saShapeGroup u-sign-sinh' by u-sign-sinh.alt2;\012sub @saShapeGroup uu-sign-sinh' by uu-sign-sinh.alt2;\012\012sub @vaShapeGroup u-sign-sinh' by u-sign-sinh.alt1;\012sub @vaShapeGroup uu-sign-sinh' by uu-sign-sinh.alt1;\012\012lookup RakarVowels {\012    sub rakar-sign-sinh u-sign-sinh' by ae-sign-sinh.low;\012    sub rakar-sign-sinh uu-sign-sinh' by aae-sign-sinh.low;\012	sub @daShapeGroup u-sign-sinh' by ae-sign-sinh.low;\012	sub @daShapeGroup uu-sign-sinh' by ae-sign-sinh.low;\012\012} RakarVowels;\012\012lookup RakarAlts {\012sub @rakarAlt3Group rakar-sign-sinh' by rakar-sign-sinh.alt3;\012sub @rakarVaShapeGroup rakar-sign-sinh' by rakar-sign-sinh.alt2;\012sub @rakarAlt1Group rakar-sign-sinh' by rakar-sign-sinh.alt1;\012sub @rakarAlt4Group rakar-sign-sinh' by rakar-sign-sinh.alt4;\012sub [la-sinh ra-sinh lla-sinh] rakar-sign-sinh' by rakar-sign-sinh.alone;\012} RakarAlts;\012\012\012\012\012";
 name = blws;
 },
 {

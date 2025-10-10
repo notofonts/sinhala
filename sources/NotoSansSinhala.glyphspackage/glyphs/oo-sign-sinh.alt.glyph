@@ -359,5 +359,5 @@ width = 337;
 leftKerningGroup = "aa-sign-sinh";
 script = Sinhala;
 category = Mark;
-subCategory = "Spacing Combining";
+subCategory = Spacing;
 }
