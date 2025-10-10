@@ -1344,7 +1344,7 @@ width = 1204;
 anchors = (
 {
 name = rakar;
-position = "{1130, 0}";
+position = "{1314, 0}";
 }
 );
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -1567,7 +1567,7 @@ width = 1358;
 anchors = (
 {
 name = rakar;
-position = "{1185, 0}";
+position = "{1394, 0}";
 }
 );
 associatedMasterId = UUID0;
@@ -1790,7 +1790,7 @@ width = 1434;
 anchors = (
 {
 name = rakar;
-position = "{1258, 0}";
+position = "{1493, 0}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -2013,7 +2013,7 @@ width = 1526;
 anchors = (
 {
 name = rakar;
-position = "{816, 0}";
+position = "{962, 0}";
 }
 );
 associatedMasterId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -2236,7 +2236,7 @@ width = 1005;
 anchors = (
 {
 name = rakar;
-position = "{844, 0}";
+position = "{1011, 0}";
 }
 );
 associatedMasterId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -2459,7 +2459,7 @@ width = 1049;
 anchors = (
 {
 name = rakar;
-position = "{956, 0}";
+position = "{1157, 0}";
 }
 );
 associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

@@ -642,7 +642,7 @@ width = 1457;
 anchors = (
 {
 name = rakar;
-position = "{1024, 0}";
+position = "{1493, 0}";
 },
 {
 name = uvowel;
@@ -851,7 +851,7 @@ width = 1526;
 anchors = (
 {
 name = rakar;
-position = "{950, 0}";
+position = "{1384, 0}";
 },
 {
 name = uvowel;
@@ -1696,7 +1696,7 @@ width = 1204;
 anchors = (
 {
 name = rakar;
-position = "{72, 0}";
+position = "{1324, 0}";
 },
 {
 name = uvowel;
@@ -1903,7 +1903,7 @@ width = 1365;
 anchors = (
 {
 name = rakar;
-position = "{663, 0}";
+position = "{963, 0}";
 },
 {
 name = uvowel;
@@ -2112,7 +2112,7 @@ width = 1005;
 anchors = (
 {
 name = rakar;
-position = "{660, 0}";
+position = "{1005, 0}";
 },
 {
 name = uvowel;
@@ -2321,7 +2321,7 @@ width = 1041;
 anchors = (
 {
 name = rakar;
-position = "{769, 0}";
+position = "{1168, 0}";
 },
 {
 name = uvowel;
@@ -2530,7 +2530,7 @@ width = 1192;
 anchors = (
 {
 name = rakar;
-position = "{188, 0}";
+position = "{1447, 0}";
 },
 {
 name = uvowel;

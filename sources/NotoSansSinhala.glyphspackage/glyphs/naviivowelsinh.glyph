@@ -3,6 +3,12 @@ color = 5;
 glyphname = naviivowelsinh;
 layers = (
 {
+anchors = (
+{
+name = rakar;
+position = "{1282, 0}";
+}
+);
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -201,6 +207,12 @@ nodes = (
 width = 1323;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{1332, 0}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -399,6 +411,12 @@ nodes = (
 width = 1368;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{1297, 0}";
+}
+);
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 paths = (
 {
@@ -597,6 +615,12 @@ nodes = (
 width = 1321;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{917, 0}";
+}
+);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -795,6 +819,12 @@ nodes = (
 width = 959;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{979, 0}";
+}
+);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -993,6 +1023,12 @@ nodes = (
 width = 1015;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{1040, 0}";
+}
+);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {
@@ -1191,6 +1227,12 @@ nodes = (
 width = 1064;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{1241, 0}";
+}
+);
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 layerId = "1A6A77A6-3399-4F34-B80F-8A9E550C819C";
 name = "18 May 25, 12:29";
@@ -1402,6 +1444,12 @@ nodes = (
 width = 1282;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{1307, 0}";
+}
+);
 associatedMasterId = UUID0;
 layerId = "1876FE5D-E074-433A-B551-BEAF7E057D01";
 name = "18 May 25, 12:29";
@@ -1613,6 +1661,12 @@ nodes = (
 width = 1343;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{1337, 0}";
+}
+);
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 layerId = "568AB96B-679A-4F22-8329-498C6467ECBF";
 name = "18 May 25, 12:29";
@@ -1824,6 +1878,12 @@ nodes = (
 width = 1365;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{889, 0}";
+}
+);
 associatedMasterId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 layerId = "4B4EA6C8-8559-4E8E-A746-3D6E6A09D36F";
 name = "18 May 25, 12:29";
@@ -2035,6 +2095,12 @@ nodes = (
 width = 929;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{941, 0}";
+}
+);
 associatedMasterId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 layerId = "0B5CA98C-49BF-4973-A4EB-0B49C80DC5ED";
 name = "18 May 25, 12:29";
@@ -2246,6 +2312,12 @@ nodes = (
 width = 976;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{1026, 0}";
+}
+);
 associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 layerId = "45AA4F6E-A720-4673-8CDE-FF91067E2D9C";
 name = "18 May 25, 12:29";

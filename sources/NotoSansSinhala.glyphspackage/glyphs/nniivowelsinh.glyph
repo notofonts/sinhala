@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = rakar;
-position = "{1079.874, 135}";
+position = "{1111, 0}";
 },
 {
 name = repaya;
@@ -205,7 +205,7 @@ width = 1155;
 anchors = (
 {
 name = rakar;
-position = "{1130, 0}";
+position = "{1168, 0}";
 },
 {
 name = repaya;
@@ -404,7 +404,7 @@ width = 1199;
 anchors = (
 {
 name = rakar;
-position = "{1158, 0}";
+position = "{1206, 0}";
 },
 {
 name = repaya;
@@ -600,6 +600,12 @@ nodes = (
 width = 1299;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{1206, 0}";
+}
+);
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 components = (
 {
@@ -662,7 +668,7 @@ width = 1299;
 anchors = (
 {
 name = rakar;
-position = "{775, 0}";
+position = "{822, 0}";
 },
 {
 name = repaya;
@@ -861,7 +867,7 @@ width = 860;
 anchors = (
 {
 name = rakar;
-position = "{824, 0}";
+position = "{884, 0}";
 },
 {
 name = repaya;
@@ -1060,7 +1066,7 @@ width = 922;
 anchors = (
 {
 name = rakar;
-position = "{1032.626, 157.5}";
+position = "{1068, 0}";
 },
 {
 name = repaya;
@@ -1256,6 +1262,12 @@ nodes = (
 width = 1088;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{1111, 0}";
+}
+);
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 components = (
 {
@@ -1315,6 +1327,12 @@ nodes = (
 width = 1155;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{1168, 0}";
+}
+);
 associatedMasterId = UUID0;
 components = (
 {
@@ -1374,6 +1392,12 @@ nodes = (
 width = 1199;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{822, 0}";
+}
+);
 associatedMasterId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 components = (
 {
@@ -1433,6 +1457,12 @@ nodes = (
 width = 860;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{884, 0}";
+}
+);
 associatedMasterId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 components = (
 {
@@ -1492,6 +1522,12 @@ nodes = (
 width = 922;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{1068, 0}";
+}
+);
 associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 components = (
 {
@@ -1551,6 +1587,12 @@ nodes = (
 width = 1088;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{1168, 0}";
+}
+);
 associatedMasterId = UUID0;
 components = (
 {
@@ -1613,7 +1655,7 @@ width = 1199;
 anchors = (
 {
 name = rakar;
-position = "{1158, 0}";
+position = "{1206, 0}";
 },
 {
 name = repaya;

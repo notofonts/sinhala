@@ -678,7 +678,7 @@ width = 1387;
 anchors = (
 {
 name = rakar;
-position = "{1367.913, 0}";
+position = "{1356, 0}";
 }
 );
 associatedMasterId = UUID0;

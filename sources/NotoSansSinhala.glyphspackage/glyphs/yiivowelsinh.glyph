@@ -3,6 +3,12 @@ color = 5;
 glyphname = yiivowelsinh;
 layers = (
 {
+anchors = (
+{
+name = rakar;
+position = "{800, 0}";
+}
+);
 components = (
 {
 name = yasinh;
@@ -60,6 +66,12 @@ nodes = (
 width = 841;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{827, 0}";
+}
+);
 components = (
 {
 name = yasinh;
@@ -117,6 +129,12 @@ nodes = (
 width = 863;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{862, 0}";
+}
+);
 components = (
 {
 name = yasinh;
@@ -174,6 +192,12 @@ nodes = (
 width = 882;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{534, 0}";
+}
+);
 components = (
 {
 name = yasinh;
@@ -231,6 +255,12 @@ nodes = (
 width = 572;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{584, 0}";
+}
+);
 components = (
 {
 name = yasinh;
@@ -288,6 +318,12 @@ nodes = (
 width = 617;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{672, 0}";
+}
+);
 components = (
 {
 name = yasinh;
@@ -345,6 +381,12 @@ nodes = (
 width = 694;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{800, 0}";
+}
+);
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 components = (
 {
@@ -404,6 +446,12 @@ nodes = (
 width = 753;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{827, 0}";
+}
+);
 associatedMasterId = UUID0;
 components = (
 {
@@ -463,6 +511,12 @@ nodes = (
 width = 812;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{862, 0}";
+}
+);
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 components = (
 {
@@ -522,6 +576,12 @@ nodes = (
 width = 893;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{534, 0}";
+}
+);
 associatedMasterId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 components = (
 {
@@ -581,6 +641,12 @@ nodes = (
 width = 566;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{584, 0}";
+}
+);
 associatedMasterId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 components = (
 {
@@ -640,6 +706,12 @@ nodes = (
 width = 611;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{672, 0}";
+}
+);
 associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 components = (
 {
