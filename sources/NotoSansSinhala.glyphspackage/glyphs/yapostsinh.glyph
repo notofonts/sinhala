@@ -874,4 +874,7 @@ width = 629;
 leftKerningGroup = yapostsinh;
 rightKerningGroup = yapostsinh;
 rightMetricsKey = sasinh;
+script = sinhala;
+category = Mark;
+subCategory = "Spacing Combining";
 }

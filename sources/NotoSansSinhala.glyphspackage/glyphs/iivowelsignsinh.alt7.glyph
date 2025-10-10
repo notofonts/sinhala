@@ -603,5 +603,5 @@ width = 747;
 );
 script = sinhala;
 category = Mark;
-subCategory = "Spacing Combining";
+subCategory = Nonspacing;
 }

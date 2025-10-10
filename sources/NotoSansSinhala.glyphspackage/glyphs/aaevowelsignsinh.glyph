@@ -676,6 +676,7 @@ width = 295;
 );
 leftKerningGroup = aevowelsignsinh;
 unicode = 0DD1;
+script = sinhala;
 category = Letter;
 subCategory = "Spacing Combining";
 }

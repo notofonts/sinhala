@@ -354,5 +354,5 @@ width = 411;
 );
 unicode = 0DD2;
 category = Mark;
-subCategory = "Spacing Combining";
+subCategory = Nonspacing;
 }

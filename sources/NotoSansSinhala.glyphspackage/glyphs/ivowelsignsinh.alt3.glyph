@@ -707,7 +707,7 @@ width = 20;
 );
 script = sinhala;
 category = Mark;
-subCategory = "Spacing Combining";
+subCategory = Nonspacing;
 userData = {
 RMXScaler = {
 source = ivowelsignsinh.alt3;

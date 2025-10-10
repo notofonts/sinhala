@@ -98,7 +98,7 @@ position = "{367, 911}";
 },
 {
 name = uvowel;
-position = "{704, 0}";
+position = "{744, 0}";
 }
 );
 guideLines = (
@@ -974,7 +974,7 @@ position = "{269, 782}";
 },
 {
 name = uvowel;
-position = "{498, 0}";
+position = "{540, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -1233,7 +1233,7 @@ position = "{301, 752}";
 },
 {
 name = uvowel;
-position = "{606, 0}";
+position = "{616, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

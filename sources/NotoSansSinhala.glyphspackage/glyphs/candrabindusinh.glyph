@@ -1,5 +1,5 @@
 {
-glyphname = uni0D81;
+glyphname = candrabindusinh;
 layers = (
 {
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -326,7 +326,6 @@ nodes = (
 width = 0;
 }
 );
-unicode = 0D81;
 category = Mark;
 subCategory = Nonspacing;
 }

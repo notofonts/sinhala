@@ -14,7 +14,7 @@ position = "{874, 800}";
 },
 {
 name = uvowel;
-position = "{1222, 0}";
+position = "{1225, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -187,7 +187,7 @@ position = "{915, 800}";
 },
 {
 name = uvowel;
-position = "{1252, 0}";
+position = "{1272, 0}";
 }
 );
 layerId = UUID0;
@@ -879,7 +879,7 @@ position = "{681, 800}";
 },
 {
 name = uvowel;
-position = "{974, 0}";
+position = "{998, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

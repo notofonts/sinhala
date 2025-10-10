@@ -99,7 +99,7 @@ position = "{404, 781}";
 },
 {
 name = uvowel;
-position = "{724, 0}";
+position = "{734, 0}";
 }
 );
 guideLines = (

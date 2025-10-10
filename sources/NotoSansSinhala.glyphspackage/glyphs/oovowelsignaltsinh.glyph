@@ -357,4 +357,7 @@ width = 337;
 }
 );
 leftKerningGroup = aavowelsignsinh;
+script = Sinhala;
+category = Mark;
+subCategory = "Spacing Combining";
 }

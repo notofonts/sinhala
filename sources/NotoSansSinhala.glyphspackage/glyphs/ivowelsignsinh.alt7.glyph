@@ -483,7 +483,7 @@ width = 559;
 }
 );
 category = Mark;
-subCategory = "Spacing Combining";
+subCategory = Nonspacing;
 userData = {
 RMXScaler = {
 source = ivowelsignsinh.alt;

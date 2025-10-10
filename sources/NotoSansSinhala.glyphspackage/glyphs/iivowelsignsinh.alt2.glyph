@@ -535,5 +535,5 @@ leftKerningGroup = dasinh;
 rightKerningGroup = dasinh;
 script = sinhala;
 category = Mark;
-subCategory = "Spacing Combining";
+subCategory = Nonspacing;
 }

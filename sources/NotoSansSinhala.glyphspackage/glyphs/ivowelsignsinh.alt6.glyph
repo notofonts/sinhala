@@ -442,5 +442,5 @@ width = 600;
 }
 );
 category = Mark;
-subCategory = "Spacing Combining";
+subCategory = Nonspacing;
 }

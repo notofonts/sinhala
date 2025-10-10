@@ -1,5 +1,6 @@
 {
 glyphname = kunddaliyasinh;
+production = uni0DF4;
 layers = (
 {
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -2379,4 +2380,6 @@ width = 1625;
 }
 );
 unicode = 0DF4;
+script = sinhala;
+category = Punctuation;
 }
