@@ -4,18 +4,18 @@ layers = (
 {
 components = (
 {
-name = evowelsignsinh;
+name = "e-sign-sinh";
 },
 {
 name = period.sinh;
 transform = "{1, 0, 0, 1, 566, 249}";
 },
 {
-name = aavowelsignsinh;
+name = "aa-sign-sinh";
 transform = "{1, 0, 0, 1, 695, 0}";
 },
 {
-name = viramasinh;
+name = "al-sign-sinh";
 transform = "{1, 0, 0, 1, 1005, 0}";
 }
 );
@@ -25,18 +25,18 @@ width = 1005;
 {
 components = (
 {
-name = evowelsignsinh;
+name = "e-sign-sinh";
 },
 {
 name = period.sinh;
 transform = "{1, 0, 0, 1, 602, 227}";
 },
 {
-name = aavowelsignsinh;
+name = "aa-sign-sinh";
 transform = "{1, 0, 0, 1, 792, 0}";
 },
 {
-name = viramasinh;
+name = "al-sign-sinh";
 transform = "{1, 0, 0, 1, 1136, 0}";
 }
 );
@@ -46,18 +46,18 @@ width = 1135;
 {
 components = (
 {
-name = evowelsignsinh;
+name = "e-sign-sinh";
 },
 {
 name = period.sinh;
 transform = "{1, 0, 0, 1, 684, 192}";
 },
 {
-name = aavowelsignsinh;
+name = "aa-sign-sinh";
 transform = "{1, 0, 0, 1, 944, 0}";
 },
 {
-name = viramasinh;
+name = "al-sign-sinh";
 transform = "{1, 0, 0, 1, 1348, 0}";
 }
 );
@@ -67,18 +67,18 @@ width = 1348;
 {
 components = (
 {
-name = evowelsignsinh;
+name = "e-sign-sinh";
 },
 {
 name = period.sinh;
 transform = "{1, 0, 0, 1, 405, 249}";
 },
 {
-name = aavowelsignsinh;
+name = "aa-sign-sinh";
 transform = "{1, 0, 0, 1, 516, 0}";
 },
 {
-name = viramasinh;
+name = "al-sign-sinh";
 transform = "{1, 0, 0, 1, 764, 0}";
 }
 );
@@ -88,18 +88,18 @@ width = 764;
 {
 components = (
 {
-name = evowelsignsinh;
+name = "e-sign-sinh";
 },
 {
 name = period.sinh;
 transform = "{1, 0, 0, 1, 437, 228}";
 },
 {
-name = aavowelsignsinh;
+name = "aa-sign-sinh";
 transform = "{1, 0, 0, 1, 609, 0}";
 },
 {
-name = viramasinh;
+name = "al-sign-sinh";
 transform = "{1, 0, 0, 1, 879, 0}";
 }
 );
@@ -109,18 +109,18 @@ width = 879;
 {
 components = (
 {
-name = evowelsignsinh;
+name = "e-sign-sinh";
 },
 {
 name = period.sinh;
 transform = "{1, 0, 0, 1, 550, 197}";
 },
 {
-name = aavowelsignsinh;
+name = "aa-sign-sinh";
 transform = "{1, 0, 0, 1, 749, 0}";
 },
 {
-name = viramasinh;
+name = "al-sign-sinh";
 transform = "{1, 0, 0, 1, 1086, 0}";
 }
 );

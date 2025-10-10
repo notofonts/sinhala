@@ -4,10 +4,10 @@ layers = (
 {
 components = (
 {
-name = evowelsignsinh;
+name = "e-sign-sinh";
 },
 {
-name = viramasinh;
+name = "al-sign-sinh";
 transform = "{1, 0, 0, 1, 849, 0}";
 },
 {
@@ -21,10 +21,10 @@ width = 849;
 {
 components = (
 {
-name = evowelsignsinh;
+name = "e-sign-sinh";
 },
 {
-name = viramasinh;
+name = "al-sign-sinh";
 transform = "{1, 0, 0, 1, 936, 0}";
 },
 {
@@ -38,10 +38,10 @@ width = 936;
 {
 components = (
 {
-name = evowelsignsinh;
+name = "e-sign-sinh";
 },
 {
-name = viramasinh;
+name = "al-sign-sinh";
 transform = "{1, 0, 0, 1, 1059, 0}";
 },
 {
@@ -55,10 +55,10 @@ width = 1059;
 {
 components = (
 {
-name = evowelsignsinh;
+name = "e-sign-sinh";
 },
 {
-name = viramasinh;
+name = "al-sign-sinh";
 transform = "{1, 0, 0, 1, 636, 0}";
 },
 {
@@ -72,10 +72,10 @@ width = 636;
 {
 components = (
 {
-name = evowelsignsinh;
+name = "e-sign-sinh";
 },
 {
-name = viramasinh;
+name = "al-sign-sinh";
 transform = "{1, 0, 0, 1, 711, 0}";
 },
 {
@@ -89,10 +89,10 @@ width = 711;
 {
 components = (
 {
-name = evowelsignsinh;
+name = "e-sign-sinh";
 },
 {
-name = viramasinh;
+name = "al-sign-sinh";
 transform = "{1, 0, 0, 1, 859, 0}";
 },
 {

@@ -7,7 +7,7 @@ components = (
 name = uni0DE8;
 },
 {
-name = aavowelsignsinh;
+name = "aa-sign-sinh";
 transform = "{1, 0, 0, 1, 1105, 0}";
 }
 );
@@ -20,7 +20,7 @@ components = (
 name = uni0DE8;
 },
 {
-name = aavowelsignsinh;
+name = "aa-sign-sinh";
 transform = "{1, 0, 0, 1, 1160, 0}";
 }
 );
@@ -33,7 +33,7 @@ components = (
 name = uni0DE8;
 },
 {
-name = aavowelsignsinh;
+name = "aa-sign-sinh";
 transform = "{1, 0, 0, 1, 1270, 0}";
 }
 );
@@ -46,7 +46,7 @@ components = (
 name = uni0DE8;
 },
 {
-name = aavowelsignsinh;
+name = "aa-sign-sinh";
 transform = "{1, 0, 0, 1, 822, 0}";
 }
 );
@@ -59,7 +59,7 @@ components = (
 name = uni0DE8;
 },
 {
-name = aavowelsignsinh;
+name = "aa-sign-sinh";
 transform = "{1, 0, 0, 1, 865, 0}";
 }
 );
@@ -72,7 +72,7 @@ components = (
 name = uni0DE8;
 },
 {
-name = aavowelsignsinh;
+name = "aa-sign-sinh";
 transform = "{1, 0, 0, 1, 1083, 0}";
 }
 );

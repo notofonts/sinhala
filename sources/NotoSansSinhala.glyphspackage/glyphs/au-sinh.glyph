@@ -1,0 +1,85 @@
+{
+color = 5;
+glyphname = "au-sinh";
+layers = (
+{
+components = (
+{
+name = "o-sinh";
+},
+{
+name = "vocalicL-sign-sinh";
+transform = "{1, 0, 0, 1, 828, 0}";
+}
+);
+layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
+width = 1308;
+},
+{
+components = (
+{
+name = "o-sinh";
+},
+{
+name = "vocalicL-sign-sinh";
+transform = "{1, 0, 0, 1, 877, 0}";
+}
+);
+layerId = UUID0;
+width = 1405;
+},
+{
+components = (
+{
+name = "o-sinh";
+},
+{
+name = "vocalicL-sign-sinh";
+transform = "{1, 0, 0, 1, 935, 0}";
+}
+);
+layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
+width = 1552;
+},
+{
+components = (
+{
+name = "o-sinh";
+},
+{
+name = "vocalicL-sign-sinh";
+transform = "{1, 0, 0, 1, 623, 0}";
+}
+);
+layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
+width = 1002;
+},
+{
+components = (
+{
+name = "o-sinh";
+},
+{
+name = "vocalicL-sign-sinh";
+transform = "{1, 0, 0, 1, 658, 0}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+width = 1082;
+},
+{
+components = (
+{
+name = "o-sinh";
+},
+{
+name = "vocalicL-sign-sinh";
+transform = "{1, 0, 0, 1, 761, 0}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+width = 1310;
+}
+);
+unicode = 0D96;
+}
