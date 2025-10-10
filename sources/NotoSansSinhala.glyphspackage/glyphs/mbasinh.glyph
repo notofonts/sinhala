@@ -10,7 +10,7 @@ position = "{757, 0}";
 },
 {
 name = repaya;
-position = "{366, 922}";
+position = "{325, 810}";
 },
 {
 name = uvowel;
@@ -168,7 +168,7 @@ position = "{707, 0}";
 },
 {
 name = repaya;
-position = "{453, 813}";
+position = "{418, 781}";
 },
 {
 name = uvowel;
@@ -326,7 +326,7 @@ position = "{693, 0}";
 },
 {
 name = repaya;
-position = "{394, 932}";
+position = "{440, 750}";
 },
 {
 name = uvowel;
@@ -417,8 +417,8 @@ nodes = (
 "891 678 OFFCURVE",
 "708 836 OFFCURVE",
 "430 836 CURVE SMOOTH",
-"255 836 OFFCURVE",
-"192 810 OFFCURVE",
+"285 836 OFFCURVE",
+"181 807 OFFCURVE",
 "73 761 CURVE",
 "125 628 LINE",
 "211 667 OFFCURVE",
@@ -644,7 +644,7 @@ position = "{503, 0}";
 },
 {
 name = repaya;
-position = "{283, 816}";
+position = "{240, 810}";
 },
 {
 name = uvowel;
@@ -962,7 +962,7 @@ position = "{510, 0}";
 },
 {
 name = repaya;
-position = "{304, 816}";
+position = "{297, 782}";
 },
 {
 name = uvowel;
@@ -1280,7 +1280,7 @@ position = "{660, 0}";
 },
 {
 name = repaya;
-position = "{320, 916}";
+position = "{336, 752}";
 },
 {
 name = uvowel;
