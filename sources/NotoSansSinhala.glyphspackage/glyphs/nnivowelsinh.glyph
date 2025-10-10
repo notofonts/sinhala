@@ -3,12 +3,6 @@ color = 5;
 glyphname = nnivowelsinh;
 layers = (
 {
-anchors = (
-{
-name = rakar;
-position = "{1111, 0}";
-}
-);
 components = (
 {
 name = nnasinh;
@@ -51,12 +45,6 @@ nodes = (
 width = 1152;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{1168, 0}";
-}
-);
 components = (
 {
 name = nnasinh;
@@ -99,12 +87,6 @@ nodes = (
 width = 1204;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{1206, 0}";
-}
-);
 components = (
 {
 name = nnasinh;
@@ -148,10 +130,6 @@ width = 1222;
 },
 {
 anchors = (
-{
-name = rakar;
-position = "{1206, 0}";
-},
 {
 name = uvowel;
 position = "{1181, 176}";
@@ -335,10 +313,6 @@ width = 1222;
 {
 anchors = (
 {
-name = rakar;
-position = "{1168, 0}";
-},
-{
 name = uvowel;
 position = "{1146.388, 176}";
 },
@@ -514,10 +488,6 @@ width = 1204;
 },
 {
 anchors = (
-{
-name = rakar;
-position = "{1111, 0}";
-},
 {
 name = uvowel;
 position = "{1104.319, 176}";
@@ -695,10 +665,6 @@ width = 1152;
 {
 anchors = (
 {
-name = rakar;
-position = "{1168, 0}";
-},
-{
 name = uvowel;
 position = "{1146.388, 176}";
 },
@@ -875,10 +841,6 @@ width = 1204;
 {
 anchors = (
 {
-name = rakar;
-position = "{1168, 0}";
-},
-{
 name = uvowel;
 position = "{1146.388, 176}";
 },
@@ -1054,10 +1016,6 @@ width = 1204;
 },
 {
 anchors = (
-{
-name = rakar;
-position = "{1206, 0}";
-},
 {
 name = uvowel;
 position = "{1181, 176}";
@@ -1245,12 +1203,6 @@ nodes = (
 width = 1222;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{1206, 0}";
-}
-);
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 components = (
 {
@@ -1295,12 +1247,6 @@ nodes = (
 width = 1222;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{1206, 0}";
-}
-);
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 components = (
 {
@@ -1345,12 +1291,6 @@ nodes = (
 width = 1222;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{1206, 0}";
-}
-);
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 components = (
 {
@@ -1395,12 +1335,6 @@ nodes = (
 width = 1222;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{822, 0}";
-}
-);
 components = (
 {
 name = nnasinh;
@@ -1443,12 +1377,6 @@ nodes = (
 width = 862;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{884, 0}";
-}
-);
 components = (
 {
 name = nnasinh;
@@ -1491,12 +1419,6 @@ nodes = (
 width = 918;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{1068, 0}";
-}
-);
 components = (
 {
 name = nnasinh;
@@ -1539,12 +1461,6 @@ nodes = (
 width = 1094;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{822, 0}";
-}
-);
 associatedMasterId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 components = (
 {
@@ -1583,12 +1499,6 @@ nodes = (
 width = 862;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{884, 0}";
-}
-);
 associatedMasterId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 components = (
 {
@@ -1627,12 +1537,6 @@ nodes = (
 width = 918;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{1068, 0}";
-}
-);
 associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 components = (
 {
@@ -1671,12 +1575,6 @@ nodes = (
 width = 1094;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{1111, 0}";
-}
-);
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 components = (
 {
@@ -1721,12 +1619,6 @@ nodes = (
 width = 1152;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{1168, 0}";
-}
-);
 associatedMasterId = UUID0;
 components = (
 {
@@ -1771,12 +1663,6 @@ nodes = (
 width = 1204;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{1111, 0}";
-}
-);
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 components = (
 {
@@ -1821,12 +1707,6 @@ nodes = (
 width = 1152;
 },
 {
-anchors = (
-{
-name = rakar;
-position = "{884, 0}";
-}
-);
 associatedMasterId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 components = (
 {

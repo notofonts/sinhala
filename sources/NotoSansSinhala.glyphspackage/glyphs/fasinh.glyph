@@ -10,7 +10,7 @@ position = "{401, 0}";
 },
 {
 name = rakar;
-position = "{761, 0}";
+position = "{731, 0}";
 },
 {
 name = repaya;
@@ -22,7 +22,7 @@ position = "{742, 0}";
 },
 {
 name = virama;
-position = "{560, 0}";
+position = "{660, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -97,7 +97,7 @@ position = "{420, 0}";
 },
 {
 name = rakar;
-position = "{793, 0}";
+position = "{714, 0}";
 },
 {
 name = repaya;
@@ -109,7 +109,7 @@ position = "{767, 0}";
 },
 {
 name = virama;
-position = "{552, 0}";
+position = "{702, 0}";
 }
 );
 layerId = UUID0;
@@ -184,7 +184,7 @@ position = "{445, 0}";
 },
 {
 name = rakar;
-position = "{860, 0}";
+position = "{690, 0}";
 },
 {
 name = repaya;
@@ -196,7 +196,7 @@ position = "{815, 0}";
 },
 {
 name = virama;
-position = "{612, 0}";
+position = "{792, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -361,7 +361,7 @@ position = "{303, 0}";
 },
 {
 name = rakar;
-position = "{566, 0}";
+position = "{521, 0}";
 },
 {
 name = repaya;
@@ -373,7 +373,7 @@ position = "{538, 0}";
 },
 {
 name = virama;
-position = "{415, 0}";
+position = "{495, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -538,7 +538,7 @@ position = "{318, 0}";
 },
 {
 name = rakar;
-position = "{602, 0}";
+position = "{514, 0}";
 },
 {
 name = repaya;
@@ -550,7 +550,7 @@ position = "{584, 0}";
 },
 {
 name = virama;
-position = "{400, 0}";
+position = "{522, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -715,7 +715,7 @@ position = "{348, 0}";
 },
 {
 name = rakar;
-position = "{661, 0}";
+position = "{630, 0}";
 },
 {
 name = repaya;
@@ -727,7 +727,7 @@ position = "{636, 0}";
 },
 {
 name = virama;
-position = "{410, 0}";
+position = "{552, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
