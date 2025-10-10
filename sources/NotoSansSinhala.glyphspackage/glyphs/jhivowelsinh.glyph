@@ -3,6 +3,16 @@ color = 5;
 glyphname = jhivowelsinh;
 layers = (
 {
+anchors = (
+{
+name = rakar;
+position = "{1368, 0}";
+},
+{
+name = uvowel;
+position = "{2925.556, 176}";
+}
+);
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -205,6 +215,16 @@ nodes = (
 width = 1409;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{1431, 0}";
+},
+{
+name = uvowel;
+position = "{3045.983, 176}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -411,6 +431,10 @@ anchors = (
 {
 name = rakar;
 position = "{1433, 0}";
+},
+{
+name = uvowel;
+position = "{3025.22, 176}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -617,6 +641,10 @@ width = 1457;
 {
 anchors = (
 {
+name = rakar;
+position = "{1024, 0}";
+},
+{
 name = uvowel;
 position = "{3191.971, 176}";
 }
@@ -822,6 +850,10 @@ width = 1526;
 {
 anchors = (
 {
+name = rakar;
+position = "{950, 0}";
+},
+{
 name = uvowel;
 position = "{2970.248, 176}";
 }
@@ -1025,6 +1057,16 @@ nodes = (
 width = 1420;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{978, 0}";
+},
+{
+name = uvowel;
+position = "{2117.861, 176}";
+}
+);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -1227,6 +1269,16 @@ nodes = (
 width = 1020;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{1032, 0}";
+},
+{
+name = uvowel;
+position = "{2217.526, 176}";
+}
+);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -1429,6 +1481,16 @@ nodes = (
 width = 1068;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{1180, 0}";
+},
+{
+name = uvowel;
+position = "{2499.907, 176}";
+}
+);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {
@@ -1633,6 +1695,10 @@ width = 1204;
 {
 anchors = (
 {
+name = rakar;
+position = "{72, 0}";
+},
+{
 name = uvowel;
 position = "{2792.452, 176}";
 }
@@ -1834,6 +1900,16 @@ nodes = (
 width = 1365;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{663, 0}";
+},
+{
+name = uvowel;
+position = "{2086.716, 176}";
+}
+);
 associatedMasterId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 layerId = "BB24A510-828E-4B9A-87B3-729043DA8E76";
 name = "18 May 25, 16:54";
@@ -2033,6 +2109,16 @@ nodes = (
 width = 1005;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{660, 0}";
+},
+{
+name = uvowel;
+position = "{2161.465, 176}";
+}
+);
 associatedMasterId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 layerId = "CCC197DC-6453-4373-9EC5-36756732A677";
 name = "18 May 25, 16:54";
@@ -2232,6 +2318,16 @@ nodes = (
 width = 1041;
 },
 {
+anchors = (
+{
+name = rakar;
+position = "{769, 0}";
+},
+{
+name = uvowel;
+position = "{2474.991, 176}";
+}
+);
 associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 layerId = "239351BD-B765-448A-B9A8-713BC772583A";
 name = "18 May 25, 16:54";
@@ -2432,6 +2528,10 @@ width = 1192;
 },
 {
 anchors = (
+{
+name = rakar;
+position = "{188, 0}";
+},
 {
 name = uvowel;
 position = "{3054, 176}";

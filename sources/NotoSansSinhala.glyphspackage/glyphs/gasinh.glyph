@@ -10,7 +10,7 @@ position = "{440, 0}";
 },
 {
 name = rakar;
-position = "{827, 0}";
+position = "{839, 0}";
 },
 {
 name = repaya;
@@ -107,7 +107,7 @@ position = "{471, 0}";
 },
 {
 name = rakar;
-position = "{900, 0}";
+position = "{927, 0}";
 },
 {
 name = repaya;
@@ -693,7 +693,7 @@ position = "{455, 0}";
 },
 {
 name = rakar;
-position = "{800, 0}";
+position = "{874, 0}";
 },
 {
 name = repaya;
@@ -983,7 +983,7 @@ position = "{325, 0}";
 },
 {
 name = rakar;
-position = "{570, 0}";
+position = "{610, 0}";
 },
 {
 name = repaya;
@@ -1179,7 +1179,7 @@ position = "{337, 0}";
 },
 {
 name = rakar;
-position = "{534, 0}";
+position = "{640, 0}";
 },
 {
 name = repaya;
@@ -1375,7 +1375,7 @@ position = "{369, 0}";
 },
 {
 name = rakar;
-position = "{668, 0}";
+position = "{713, 0}";
 },
 {
 name = repaya;
