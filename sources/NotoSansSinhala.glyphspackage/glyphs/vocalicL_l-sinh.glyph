@@ -9,11 +9,11 @@ name = "vocalicL-sinh";
 },
 {
 name = "vocalicL-sign-sinh";
-transform = "{1, 0, 0, 1, 945, 0}";
+transform = "{1, 0, 0, 1, 979, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
-width = 1425;
+width = 1455;
 },
 {
 components = (
@@ -22,11 +22,11 @@ name = "vocalicL-sinh";
 },
 {
 name = "vocalicL-sign-sinh";
-transform = "{1, 0, 0, 1, 1051, 0}";
+transform = "{1, 0, 0, 1, 1079, 0}";
 }
 );
 layerId = UUID0;
-width = 1579;
+width = 1602;
 },
 {
 components = (
@@ -35,11 +35,11 @@ name = "vocalicL-sinh";
 },
 {
 name = "vocalicL-sign-sinh";
-transform = "{1, 0, 0, 1, 1226, 0}";
+transform = "{1, 0, 0, 1, 1281, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
-width = 1843;
+width = 1886;
 },
 {
 components = (
@@ -48,11 +48,11 @@ name = "vocalicL-sinh";
 },
 {
 name = "vocalicL-sign-sinh";
-transform = "{1, 0, 0, 1, 739, 0}";
+transform = "{1, 0, 0, 1, 706, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
-width = 1118;
+width = 1085;
 },
 {
 components = (
@@ -61,11 +61,11 @@ name = "vocalicL-sinh";
 },
 {
 name = "vocalicL-sign-sinh";
-transform = "{1, 0, 0, 1, 827, 0}";
+transform = "{1, 0, 0, 1, 847, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-width = 1249;
+width = 1267;
 },
 {
 components = (
@@ -74,11 +74,11 @@ name = "vocalicL-sinh";
 },
 {
 name = "vocalicL-sign-sinh";
-transform = "{1, 0, 0, 1, 1018, 0}";
+transform = "{1, 0, 0, 1, 1039, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
-width = 1567;
+width = 1583;
 }
 );
 unicode = 0D90;
