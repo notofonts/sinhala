@@ -1,0 +1,83 @@
+{
+glyphname = "nine-lith-sinh";
+layers = (
+{
+components = (
+{
+name = "two-lith-sinh";
+},
+{
+name = "ii-sign-sinh";
+transform = "{1, 0, 0, 1, 310, -5}";
+}
+);
+layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
+width = 1138;
+},
+{
+components = (
+{
+name = "two-lith-sinh";
+},
+{
+name = "ii-sign-sinh";
+transform = "{1, 0, 0, 1, 279, 0}";
+}
+);
+layerId = UUID0;
+width = 1189;
+},
+{
+components = (
+{
+name = "two-lith-sinh";
+},
+{
+name = "ii-sign-sinh";
+transform = "{1, 0, 0, 1, 267, 27}";
+}
+);
+layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
+width = 1296;
+},
+{
+components = (
+{
+name = "two-lith-sinh";
+},
+{
+name = "ii-sign-sinh";
+transform = "{1, 0, 0, 1, 199, 0}";
+}
+);
+layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
+width = 854;
+},
+{
+components = (
+{
+name = "two-lith-sinh";
+},
+{
+name = "ii-sign-sinh";
+transform = "{1, 0, 0, 1, 183, 6}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+width = 901;
+},
+{
+components = (
+{
+name = "two-lith-sinh";
+},
+{
+name = "ii-sign-sinh";
+transform = "{1, 0, 0, 1, 229, 27}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+width = 1103;
+}
+);
+}
