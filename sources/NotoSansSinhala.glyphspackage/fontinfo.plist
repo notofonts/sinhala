@@ -582,6 +582,7 @@ name = "i_sign-ASCE";
 position = "{-477, 957}";
 },
 {
+angle = 90;
 position = "{-779, -213}";
 },
 {

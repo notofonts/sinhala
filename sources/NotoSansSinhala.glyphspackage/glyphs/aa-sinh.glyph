@@ -9,11 +9,11 @@ name = "a-sinh";
 },
 {
 name = "aa-sign-sinh";
-transform = "{1, 0, 0, 1, 639, 0}";
+transform = "{1, 0, 0, 1, 659, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
-width = 945;
+width = 1010;
 },
 {
 components = (
@@ -22,11 +22,11 @@ name = "a-sinh";
 },
 {
 name = "aa-sign-sinh";
-transform = "{1, 0, 0, 1, 694, 0}";
+transform = "{1, 0, 0, 1, 714, 0}";
 }
 );
 layerId = UUID0;
-width = 1032;
+width = 1062;
 },
 {
 components = (
@@ -35,11 +35,11 @@ name = "a-sinh";
 },
 {
 name = "aa-sign-sinh";
-transform = "{1, 0, 0, 1, 751, 0}";
+transform = "{1, 0, 0, 1, 761, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
-width = 1129;
+width = 1144;
 },
 {
 components = (

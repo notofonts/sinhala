@@ -37,7 +37,7 @@ nodes = (
 );
 }
 );
-width = 275;
+width = 291;
 },
 {
 layerId = UUID0;
@@ -75,7 +75,7 @@ nodes = (
 );
 }
 );
-width = 309;
+width = 323;
 },
 {
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -113,7 +113,7 @@ nodes = (
 );
 }
 );
-width = 354;
+width = 364;
 },
 {
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -151,7 +151,7 @@ nodes = (
 );
 }
 );
-width = 213;
+width = 234;
 },
 {
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -189,7 +189,7 @@ nodes = (
 );
 }
 );
-width = 239;
+width = 252;
 },
 {
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -227,7 +227,7 @@ nodes = (
 );
 }
 );
-width = 295;
+width = 307;
 },
 {
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
