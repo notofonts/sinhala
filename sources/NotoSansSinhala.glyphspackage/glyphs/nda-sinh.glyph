@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = "nda-sinh";
 layers = (
 {
@@ -119,7 +118,7 @@ nodes = (
 );
 }
 );
-width = 712;
+width = 722;
 },
 {
 anchors = (
@@ -238,7 +237,7 @@ nodes = (
 );
 }
 );
-width = 732;
+width = 737;
 },
 {
 anchors = (
@@ -1115,7 +1114,7 @@ nodes = (
 );
 }
 );
-width = 499;
+width = 501;
 },
 {
 anchors = (
@@ -1355,7 +1354,7 @@ nodes = (
 );
 }
 );
-width = 545;
+width = 547;
 },
 {
 anchors = (

@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = "nya-sinh";
 layers = (
 {
@@ -232,7 +231,7 @@ nodes = (
 );
 }
 );
-width = 1309;
+width = 1319;
 },
 {
 anchors = (
@@ -464,7 +463,7 @@ nodes = (
 );
 }
 );
-width = 1347;
+width = 1352;
 },
 {
 anchors = (
@@ -2034,7 +2033,7 @@ nodes = (
 );
 }
 );
-width = 947;
+width = 949;
 },
 {
 anchors = (
@@ -2266,7 +2265,7 @@ nodes = (
 );
 }
 );
-width = 1006;
+width = 1008;
 },
 {
 anchors = (

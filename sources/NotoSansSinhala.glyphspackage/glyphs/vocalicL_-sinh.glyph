@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = "vocalicL-sinh";
 layers = (
 {
@@ -133,7 +132,7 @@ nodes = (
 );
 }
 );
-width = 1062;
+width = 1055;
 },
 {
 layerId = UUID0;

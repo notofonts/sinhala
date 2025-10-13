@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = "da-sinh";
 layers = (
 {
@@ -14,7 +13,7 @@ position = "{274, 581}";
 },
 {
 name = virama;
-position = "{479, 0}";
+position = "{439, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -94,7 +93,7 @@ nodes = (
 );
 }
 );
-width = 559;
+width = 569;
 },
 {
 anchors = (
@@ -108,7 +107,7 @@ position = "{313, 560}";
 },
 {
 name = virama;
-position = "{522, 0}";
+position = "{472, 0}";
 }
 );
 background = {
@@ -218,7 +217,7 @@ nodes = (
 );
 }
 );
-width = 587;
+width = 592;
 },
 {
 anchors = (
@@ -232,7 +231,7 @@ position = "{335, 541}";
 },
 {
 name = virama;
-position = "{557, 0}";
+position = "{527, 0}";
 }
 );
 background = {
@@ -969,7 +968,7 @@ nodes = (
 );
 }
 );
-width = 399;
+width = 401;
 },
 {
 anchors = (
@@ -1159,7 +1158,7 @@ nodes = (
 );
 }
 );
-width = 430;
+width = 432;
 },
 {
 anchors = (
@@ -1269,7 +1268,7 @@ position = "{246, 530}";
 },
 {
 name = virama;
-position = "{426, 0}";
+position = "{416, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

@@ -3109,6 +3109,9 @@ slash.sinh = 30;
 };
 };
 UUID0 = {
+"@MMK_L_alSign" = {
+"va-i-sinh" = 0;
+};
 "@MMK_L_lasinh" = {
 "kunddaliya-sinh" = 0;
 };
@@ -5711,6 +5714,9 @@ slash.sinh = 30;
 };
 };
 "56AEB5FB-BA14-4784-B08F-18006463EEDB" = {
+"@MMK_L_alSign" = {
+"va-i-sinh" = 20;
+};
 "a-sinh" = {
 "a-sinh" = -16;
 "aa-sinh" = -16;
@@ -5738,6 +5744,12 @@ slash.sinh = 30;
 "vocalicR-sign-sinh" = -20;
 "vocalicRr-sign-sinh" = -20;
 "yansa-sign-sinh" = -10;
+};
+"al-sign-sinh" = {
+"va-i-sinh" = 30;
+};
+"al-sign-sinh.alt1" = {
+"va-i-sinh" = 20;
 };
 "ba-sinh" = {
 "vocalicR-sign-sinh" = -12;

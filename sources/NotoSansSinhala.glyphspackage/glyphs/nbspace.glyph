@@ -15,15 +15,15 @@ width = 320;
 },
 {
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
-width = 357;
+width = 297;
 },
 {
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
-width = 357;
+width = 305;
 },
 {
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
-width = 357;
+width = 317;
 }
 );
 widthMetricsKey = space;

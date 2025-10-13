@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = "ee-sinh";
 layers = (
 {
@@ -62,7 +61,7 @@ nodes = (
 );
 }
 );
-width = 753;
+width = 785;
 },
 {
 components = (
@@ -124,7 +123,7 @@ nodes = (
 );
 }
 );
-width = 802;
+width = 860;
 },
 {
 components = (
@@ -186,7 +185,7 @@ nodes = (
 );
 }
 );
-width = 906;
+width = 940;
 },
 {
 components = (
@@ -248,7 +247,7 @@ nodes = (
 );
 }
 );
-width = 571;
+width = 585;
 },
 {
 components = (
@@ -310,7 +309,7 @@ nodes = (
 );
 }
 );
-width = 610;
+width = 656;
 },
 {
 components = (
@@ -372,7 +371,7 @@ nodes = (
 );
 }
 );
-width = 702;
+width = 736;
 },
 {
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -777,5 +776,6 @@ width = 702;
 );
 leftMetricsKey = "e-sinh";
 rightKerningGroup = "tha-sinh";
+rightMetricsKey = "=e-sinh+10";
 unicode = 0D92;
 }

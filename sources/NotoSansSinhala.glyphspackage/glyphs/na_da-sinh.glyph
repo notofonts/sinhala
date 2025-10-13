@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = "na_da-sinh";
 layers = (
 {
@@ -187,7 +186,7 @@ nodes = (
 );
 }
 );
-width = 1110;
+width = 1120;
 },
 {
 anchors = (
@@ -374,7 +373,7 @@ nodes = (
 );
 }
 );
-width = 1128;
+width = 1133;
 },
 {
 anchors = (
@@ -748,7 +747,7 @@ nodes = (
 );
 }
 );
-width = 785;
+width = 787;
 },
 {
 anchors = (
@@ -935,7 +934,7 @@ nodes = (
 );
 }
 );
-width = 828;
+width = 830;
 },
 {
 anchors = (

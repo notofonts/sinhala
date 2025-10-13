@@ -492,6 +492,7 @@ nodes = (
 width = 317;
 }
 );
+rightKerningGroup = alSign;
 unicode = 0DCA;
 category = Mark;
 subCategory = Nonspacing;

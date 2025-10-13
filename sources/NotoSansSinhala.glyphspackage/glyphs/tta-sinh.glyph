@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = "tta-sinh";
 layers = (
 {
@@ -17,23 +16,6 @@ name = uvowel;
 position = "{694, 0}";
 }
 );
-background = {
-paths = (
-{
-closed = 0;
-nodes = (
-"305 461 LINE",
-"358 461 OFFCURVE",
-"399 459 OFFCURVE",
-"431 454 CURVE",
-"431 479 LINE",
-"400 484 OFFCURVE",
-"367 487 OFFCURVE",
-"306 487 CURVE"
-);
-}
-);
-};
 guideLines = (
 {
 position = "{116, 487}";

@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = "jnya-sinh";
 layers = (
 {
@@ -176,7 +175,7 @@ nodes = (
 );
 }
 );
-width = 1130;
+width = 1140;
 },
 {
 anchors = (
@@ -352,7 +351,7 @@ nodes = (
 );
 }
 );
-width = 1172;
+width = 1177;
 },
 {
 anchors = (
@@ -1223,7 +1222,7 @@ nodes = (
 );
 }
 );
-width = 833;
+width = 835;
 },
 {
 anchors = (
@@ -1399,7 +1398,7 @@ nodes = (
 );
 }
 );
-width = 888;
+width = 890;
 },
 {
 anchors = (
