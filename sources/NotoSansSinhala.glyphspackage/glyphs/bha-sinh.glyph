@@ -2011,4 +2011,7 @@ leftMetricsKey = "sa-sinh";
 rightKerningGroup = "ga-sinh";
 rightMetricsKey = "ka-sinh";
 unicode = 0DB7;
+script = sinhala;
+category = Letter;
+subCategory = Letter;
 }

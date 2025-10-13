@@ -799,4 +799,7 @@ leftMetricsKey = "ga-sinh";
 rightKerningGroup = "fa-sinh";
 rightMetricsKey = "ka-sinh";
 unicode = 0DC6;
+script = sinhala;
+category = Letter;
+subCategory = Letter;
 }

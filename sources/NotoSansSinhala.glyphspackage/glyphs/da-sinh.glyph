@@ -1452,4 +1452,7 @@ leftKerningGroup = "da-sinh";
 leftMetricsKey = "a-sinh";
 rightKerningGroup = "da-sinh";
 unicode = 0DAF;
+script = sinhala;
+category = Letter;
+subCategory = Letter;
 }

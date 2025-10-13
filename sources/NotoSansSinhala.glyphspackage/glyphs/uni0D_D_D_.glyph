@@ -17,7 +17,7 @@ transform = "{1, 0, 0, 1, 695, 0}";
 },
 {
 name = "al-sign-sinh";
-transform = "{1, 0, 0, 1, 1005, 0}";
+transform = "{1, 0, 0, 1, 705, -30}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
