@@ -1742,4 +1742,7 @@ width = 749;
 leftKerningGroup = "la-sinh";
 rightKerningGroup = "la-sinh";
 unicode = 0DBD;
+script = sinhala;
+category = Letter;
+subCategory = Letter;
 }

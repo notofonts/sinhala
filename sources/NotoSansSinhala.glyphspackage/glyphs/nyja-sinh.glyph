@@ -1738,4 +1738,7 @@ leftMetricsKey = "nndda-sinh";
 rightKerningGroup = "pa-sinh";
 rightMetricsKey = "ja-sinh";
 unicode = 0DA6;
+script = sinhala;
+category = Letter;
+subCategory = Letter;
 }

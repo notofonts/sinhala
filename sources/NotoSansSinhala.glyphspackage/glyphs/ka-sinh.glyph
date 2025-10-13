@@ -3388,4 +3388,7 @@ width = 1013;
 );
 rightKerningGroup = "ka-sinh";
 unicode = 0D9A;
+script = sinhala;
+category = Letter;
+subCategory = Letter;
 }

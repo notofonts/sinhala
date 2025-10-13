@@ -2052,4 +2052,7 @@ width = 814;
 rightKerningGroup = "ta-sinh";
 rightMetricsKey = "ka-sinh";
 unicode = 0DB1;
+script = sinhala;
+category = Letter;
+subCategory = Letter;
 }

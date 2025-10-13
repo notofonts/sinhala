@@ -2238,4 +2238,7 @@ width = 1036;
 leftMetricsKey = "ta-sinh";
 rightKerningGroup = "tha-sinh";
 rightMetricsKey = "tta-sinh";
+script = sinhala;
+category = Letter;
+subCategory = Conjunct;
 }

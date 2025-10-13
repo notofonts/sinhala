@@ -1596,4 +1596,7 @@ width = 1110;
 leftMetricsKey = "nndda-sinh";
 rightKerningGroup = "ttha-sinh";
 rightMetricsKey = "tta-sinh";
+script = sinhala;
+category = Letter;
+subCategory = Conjunct;
 }

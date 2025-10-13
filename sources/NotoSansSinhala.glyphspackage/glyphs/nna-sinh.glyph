@@ -2702,4 +2702,7 @@ width = 1204;
 rightKerningGroup = "nna-sinh";
 rightMetricsKey = "ga-sinh";
 unicode = 0DAB;
+script = sinhala;
+category = Letter;
+subCategory = Letter;
 }

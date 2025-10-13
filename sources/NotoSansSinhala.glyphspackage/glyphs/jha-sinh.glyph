@@ -2474,4 +2474,7 @@ leftMetricsKey = "ka-sinh";
 rightKerningGroup = "nga-sinh";
 rightMetricsKey = "tta-sinh";
 unicode = 0DA3;
+script = sinhala;
+category = Letter;
+subCategory = Letter;
 }

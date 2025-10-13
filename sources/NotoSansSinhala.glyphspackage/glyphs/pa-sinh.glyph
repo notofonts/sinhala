@@ -2329,4 +2329,7 @@ width = 866;
 );
 rightKerningGroup = "pa-sinh";
 unicode = 0DB4;
+script = sinhala;
+category = Letter;
+subCategory = Letter;
 }

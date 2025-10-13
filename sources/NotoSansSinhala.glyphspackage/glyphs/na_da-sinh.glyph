@@ -2022,4 +2022,7 @@ width = 899;
 leftMetricsKey = "na-sinh";
 rightKerningGroup = "da-sinh";
 rightMetricsKey = "da-sinh";
+script = sinhala;
+category = Letter;
+subCategory = Conjunct;
 }

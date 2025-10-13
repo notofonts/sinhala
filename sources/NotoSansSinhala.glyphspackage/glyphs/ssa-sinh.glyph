@@ -1953,4 +1953,7 @@ leftMetricsKey = "pa-sinh";
 rightKerningGroup = "pa-sinh";
 rightMetricsKey = "pa-sinh";
 unicode = 0DC2;
+script = sinhala;
+category = Letter;
+subCategory = Letter;
 }
