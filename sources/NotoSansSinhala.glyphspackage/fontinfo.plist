@@ -864,7 +864,7 @@ value = 0;
 },
 {
 name = description;
-value = "Designed by Mooniak in Sri Lanka";
+value = "Designed by Mooniak in Sri Lanka based off from the previous outines and design by Jelle Bosma from Monotype Design Team";
 },
 {
 name = license;
@@ -897,7 +897,7 @@ Tag = wdth;
 }
 );
 date = "2016-04-19 09:49:30 +0000";
-designer = "Pathum Egodawatta and Rajitha Manamperi from Mooniak. Jelle Bosma from Monotype Design Team";
+designer = "Pathum Egodawatta and Rajitha Manamperi and Kosala Senevirthane from Mooniak";
 designerURL = "http://www.monotype.com/studio";
 disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
