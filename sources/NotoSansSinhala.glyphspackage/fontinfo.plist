@@ -510,7 +510,7 @@ designer = "Pathum Egodawatta and Rajitha Manamperi and Kosala Senevirthane from
 designerURL = "http://www.monotype.com/studio";
 disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
-familyName = "Noto Sans Sinhala NIGHTLY";
+familyName = "Noto Sans Sinhala";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;\012languagesystem sinh dflt;\012";
