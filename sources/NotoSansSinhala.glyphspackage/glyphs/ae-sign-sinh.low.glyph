@@ -472,5 +472,5 @@ width = 295;
 );
 script = Sinhala;
 category = Mark;
-subCategory = "Spacing Combining";
+subCategory = Spacing;
 }
