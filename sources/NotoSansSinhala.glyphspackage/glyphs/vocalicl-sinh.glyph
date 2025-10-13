@@ -1,5 +1,5 @@
 {
-glyphname = "vocalicL-sinh";
+glyphname = "vocalicl-sinh";
 layers = (
 {
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -1672,5 +1672,4 @@ width = 1016;
 );
 leftMetricsKey = "ngga-sinh";
 rightMetricsKey = "ga-sinh";
-unicode = 0D8F;
 }

@@ -1,17 +1,17 @@
 {
-glyphname = "vocalicRr-sinh";
+glyphname = "vocalicrr-sinh";
 layers = (
 {
 components = (
 {
-name = "vocalicRbase-sinh";
+name = "vocalicrbase-sinh";
 },
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 768, 0}";
 },
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 1168, 0}";
 }
 );
@@ -21,14 +21,14 @@ width = 1568;
 {
 components = (
 {
-name = "vocalicRbase-sinh";
+name = "vocalicrbase-sinh";
 },
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 816, 0}";
 },
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 1260, 0}";
 }
 );
@@ -38,14 +38,14 @@ width = 1705;
 {
 components = (
 {
-name = "vocalicRbase-sinh";
+name = "vocalicrbase-sinh";
 },
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 904, 0}";
 },
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 1418, 0}";
 }
 );
@@ -55,14 +55,14 @@ width = 1928;
 {
 components = (
 {
-name = "vocalicRbase-sinh";
+name = "vocalicrbase-sinh";
 },
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 568, 0}";
 },
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 876, 0}";
 }
 );
@@ -72,14 +72,14 @@ width = 1184;
 {
 components = (
 {
-name = "vocalicRbase-sinh";
+name = "vocalicrbase-sinh";
 },
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 613, 0}";
 },
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 955, 0}";
 }
 );
@@ -89,14 +89,14 @@ width = 1299;
 {
 components = (
 {
-name = "vocalicRbase-sinh";
+name = "vocalicrbase-sinh";
 },
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 688, 0}";
 },
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 1102, 0}";
 }
 );
@@ -104,5 +104,4 @@ layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 width = 1516;
 }
 );
-unicode = 0D8E;
 }

@@ -104,10 +104,10 @@ nbspace,
 "ii-sinh",
 "u-sinh",
 "uu-sinh",
-"vocalicR-sinh",
-"vocalicRr-sinh",
-"vocalicL-sinh",
-"vocalicLl-sinh",
+"vocalicr-sinh",
+"vocalicrr-sinh",
+"vocalicl-sinh",
+"vocalicll-sinh",
 "e-sinh",
 "ee-sinh",
 "ai-sinh",
@@ -175,12 +175,8 @@ nbspace,
 "al-sign-sinh.alt2",
 "al-sign-sinh.alt3",
 "aa-sign-sinh",
-"aae-sign-sinh",
 "ae-sign-sinh",
-"ai-sign-sinh",
-"au-sign-sinh",
-"e-sign-sinh",
-"ee-sign-sinh",
+"aae-sign-sinh",
 "i-sign-sinh",
 "i-sign-sinh.alt1",
 "i-sign-sinh.alt2",
@@ -213,14 +209,16 @@ nbspace,
 "uu-sign-sinh.alt1",
 "uu-sign-sinh.alt2",
 "uu-sign-sinh.alt3",
-"vocalicR-sign-sinh",
+"vocalicr-sign-sinh",
 "e-sign-sinh",
+"ee-sign-sinh",
+"ai-sign-sinh",
 "o-sign-sinh",
 "oo-sign-sinh",
-"ai-sign-sinh",
-"vocalicL-sign-sinh",
-"vocalicRr-sign-sinh",
-"vocalicLl-sign-sinh",
+"au-sign-sinh",
+"vocalicl-sign-sinh",
+"vocalicrr-sign-sinh",
+"vocalicll-sign-sinh",
 "kunddaliya-sinh",
 "repha-sign-sinh",
 "repha-sign-sinh.alt1",
@@ -419,7 +417,7 @@ zerowidthspace,
 zerowidthnonjoiner,
 zerowidthjoiner,
 dottedcircle,
-"vocalicRbase-sinh"
+"vocalicrbase-sinh"
 );
 },
 {
@@ -521,7 +519,7 @@ name = Languagesystems;
 );
 features = (
 {
-code = "sub ka-sinh al-sign-sinh zerowidthjoiner ssa-sinh by ka_ssa-sinh;\012sub ka-sinh al-sign-sinh zerowidthjoiner va-sinh by ka_va-sinh;\012sub ga-sinh al-sign-sinh zerowidthjoiner dha-sinh by ga_dha-sinh;\012sub nya-sinh al-sign-sinh zerowidthjoiner ca-sinh by nya_ca-sinh;\012sub tta-sinh al-sign-sinh zerowidthjoiner ttha-sinh by tta_ttha-sinh;\012sub ta-sinh al-sign-sinh zerowidthjoiner tha-sinh by ta_tha-sinh;\012sub ta-sinh al-sign-sinh zerowidthjoiner va-sinh by ta_va-sinh;\012sub da-sinh al-sign-sinh zerowidthjoiner dha-sinh by da_dha-sinh;\012sub da-sinh al-sign-sinh zerowidthjoiner va-sinh by da_va-sinh;\012sub na-sinh al-sign-sinh zerowidthjoiner da-sinh by na_da-sinh;\012sub na-sinh al-sign-sinh zerowidthjoiner dha-sinh by na_dha-sinh;\012sub na-sinh al-sign-sinh zerowidthjoiner tha-sinh by na_tha-sinh;\012sub na-sinh al-sign-sinh zerowidthjoiner va-sinh by na_va-sinh;\012";
+code = "sub ka-sinh al-sign-sinh zerowidthjoiner ssa-sinh by ka_ssa-sinh;\012sub ka-sinh al-sign-sinh zerowidthjoiner va-sinh by ka_va-sinh;\012sub ga-sinh al-sign-sinh zerowidthjoiner dha-sinh by ga_dha-sinh;\012sub nya-sinh al-sign-sinh zerowidthjoiner ca-sinh by nya_ca-sinh;\012sub tta-sinh al-sign-sinh zerowidthjoiner ttha-sinh by tta_ttha-sinh;\012sub ta-sinh al-sign-sinh zerowidthjoiner tha-sinh by ta_tha-sinh;\012sub ta-sinh al-sign-sinh zerowidthjoiner va-sinh by ta_va-sinh;\012sub da-sinh al-sign-sinh zerowidthjoiner dha-sinh by da_dha-sinh;\012sub da-sinh al-sign-sinh zerowidthjoiner va-sinh by da_va-sinh;\012sub na-sinh al-sign-sinh zerowidthjoiner da-sinh by na_da-sinh;\012sub na-sinh al-sign-sinh zerowidthjoiner dha-sinh by na_dha-sinh;\012sub na-sinh al-sign-sinh zerowidthjoiner tha-sinh by na_tha-sinh;\012sub na-sinh al-sign-sinh zerowidthjoiner va-sinh by na_va-sinh;";
 name = akhn;
 },
 {
@@ -529,7 +527,7 @@ code = "sub ra-sinh al-sign-sinh zerowidthjoiner by repha-sign-sinh;\012";
 name = rphf;
 },
 {
-code = "sub ee-sign-sinh by al-sign-sinh;\012sub o-sign-sinh by aa-sign-sinh;\012sub oo-sign-sinh by aa-sign.al;\012sub au-sign-sinh by vocalicL-sign-sinh;\012";
+code = "sub ee-sign-sinh by al-sign-sinh;\012sub o-sign-sinh by aa-sign-sinh;\012sub oo-sign-sinh by aa-sign.al;\012sub au-sign-sinh by vocalicl-sign-sinh;\012";
 name = pstf;
 },
 {
@@ -537,7 +535,7 @@ code = "sub al-sign-sinh zerowidthjoiner ra-sinh by rakar-sign-sinh;\012sub al-s
 name = vatu;
 },
 {
-code = "\012lookup raSignAe {\012    sub ra-sinh ae-sign-sinh by ra-ae-sinh;\012    sub ra-sinh aae-sign-sinh by ra-aae-sinh;\012} raSignAe;\012\012lookup raSignU {\012	sub ra-sinh u-sign-sinh' by ae-sign-sinh;\012	sub ra-sinh uu-sign-sinh' by aae-sign-sinh;\012} raSignU;";
+code = "lookup raSignAe {\012    sub ra-sinh ae-sign-sinh by ra-ae-sinh;\012    sub ra-sinh aae-sign-sinh by ra-aae-sinh;\012} raSignAe;\012\012lookup raSignU {\012	sub ra-sinh u-sign-sinh' by ae-sign-sinh;\012	sub ra-sinh uu-sign-sinh' by aae-sign-sinh;\012} raSignU;";
 name = psts;
 },
 {
@@ -545,7 +543,7 @@ code = "lookup RakarTwiceReplacement {\012	sub rakar-sign-sinh rakar-sign-sinh' 
 name = blws;
 },
 {
-code = "# Alternative Rephaya\012sub @rephAltGroup repha-sign-sinh' by repha-sign-sinh.alt1;\012\012lookup VowelLigatures {\012    lookupflag UseMarkFilteringSet [al-sign-sinh ii-sign-sinh i-sign-sinh];\012    # KHA\012    sub kha-sinh al-sign-sinh by kha-al-sinh;\012    sub kha-sinh ii-sign-sinh by kha-ii-sinh;\012    sub kha-sinh i-sign-sinh by kha-i-sinh;\012\012    # NGA\012    sub nga-sinh al-sign-sinh by nga-al-sinh;\012    sub nga-sinh ii-sign-sinh by nga-ii-sinh;\012    sub nga-sinh i-sign-sinh by nga-i-sinh;\012\012    # CA\012    sub ca-sinh al-sign-sinh by ca-al-sinh;\012    sub ca-sinh ii-sign-sinh by ca-ii-sinh;\012    sub ca-sinh i-sign-sinh by ca-i-sinh;\012\012    # RA\012    sub ra-sinh al-sign-sinh by ra-al-sinh;\012    sub ra-sinh ii-sign-sinh by ra-ii-sinh;\012    sub ra-sinh i-sign-sinh by ra-i-sinh;\012\012    # JHA\012    sub jha-sinh al-sign-sinh by jha-al-sinh;\012    sub jha-sinh ii-sign-sinh by jha-ii-sinh;\012    sub jha-sinh i-sign-sinh by jha-i-sinh;\012\012    # TTA\012    sub tta-sinh al-sign-sinh by tta-al-sinh;\012    sub tta-sinh ii-sign-sinh by tta-ii-sinh;\012    sub tta-sinh i-sign-sinh by tta-i-sinh;\012\012    # DDA\012    sub dda-sinh al-sign-sinh by dda-al-sinh;\012    sub dda-sinh ii-sign-sinh by dda-ii-sinh;\012    sub dda-sinh i-sign-sinh by dda-i-sinh;\012\012    # NNA\012    sub nna-sinh ii-sign-sinh by nna-ii-sinh;\012    sub nna-sinh i-sign-sinh by nna-i-sinh;\012\012    # NNDDA\012    sub nndda-sinh al-sign-sinh by nndda-al-sinh;\012    sub nndda-sinh ii-sign-sinh by nndda-ii-sinh;\012    sub nndda-sinh i-sign-sinh by nndda-i-sinh;\012\012    # DHA\012    sub dha-sinh al-sign-sinh by dha-al-sinh;\012    sub dha-sinh ii-sign-sinh by dha-ii-sinh;\012    sub dha-sinh i-sign-sinh by dha-i-sinh;\012\012#	# NDA\012#    sub nda-sinh ii-sign-sinh by ndiivowelsinh;\012#    sub nda-sinh i-sign-sinh by ndivowelsinh;\012\012    # BA\012    sub ba-sinh al-sign-sinh by ba-al-sinh;\012    sub ba-sinh ii-sign-sinh by ba-ii-sinh;\012    sub ba-sinh i-sign-sinh by ba-i-sinh;\012\012    # MA\012    sub ma-sinh al-sign-sinh by ma-al-sinh;\012    sub ma-sinh ii-sign-sinh by ma-ii-sinh;\012    sub ma-sinh i-sign-sinh by ma-i-sinh;\012\012    # MBA\012    sub mba-sinh al-sign-sinh by mba-al-sinh;\012    sub mba-sinh ii-sign-sinh by mba-ii-sinh;\012    sub mba-sinh i-sign-sinh by mba-i-sinh;\012\012    # YA\012    sub ya-sinh ii-sign-sinh by ya-ii-sinh;\012    sub ya-sinh i-sign-sinh by ya-i-sinh;\012\012    # VA\012    sub va-sinh al-sign-sinh by va-al-sinh;\012    sub va-sinh ii-sign-sinh by va-ii-sinh;\012    sub va-sinh i-sign-sinh by va-i-sinh;\012\012    # KAVA\012    sub ka_va-sinh al-sign-sinh by ka_va-al-sinh;\012    sub ka_va-sinh ii-sign-sinh by ka_va-ii-sinh;\012    sub ka_va-sinh i-sign-sinh by ka_va-i-sinh;\012\012    # GADHA\012    sub ga_dha-sinh al-sign-sinh by ga_dha-al-sinh;\012    sub ga_dha-sinh ii-sign-sinh by ga_dha-ii-sinh;\012    sub ga_dha-sinh i-sign-sinh by ga_dha-i-sinh;\012\012    # NYACA\012    sub nya_ca-sinh al-sign-sinh by nya_ca-al-sinh;\012    sub nya_ca-sinh ii-sign-sinh by nya_ca-ii-sinh;\012    sub nya_ca-sinh i-sign-sinh by nya_ca-i-sinh;\012\012    # TAVA\012    sub ta_va-sinh al-sign-sinh by ta_va-al-sinh;\012    sub ta_va-sinh ii-sign-sinh by ta_va-ii-sinh;\012    sub ta_va-sinh i-sign-sinh by ta_va-i-sinh;\012\012    # DADHA\012    sub da_dha-sinh al-sign-sinh by da_dha-al-sinh;\012    sub da_dha-sinh ii-sign-sinh by da_dha-ii-sinh;\012    sub da_dha-sinh i-sign-sinh by da_dha-i-sinh;\012\012    # DAVA\012    sub da_va-sinh al-sign-sinh by da_va-al-sinh;\012    sub da_va-sinh ii-sign-sinh by da_va-ii-sinh;\012    sub da_va-sinh i-sign-sinh by da_va-i-sinh;\012\012    # NADHA\012    sub na_dha-sinh al-sign-sinh by na_dha-al-sinh;\012    sub na_dha-sinh ii-sign-sinh by na_dha-ii-sinh;\012    sub na_dha-sinh i-sign-sinh by na_dha-i-sinh;\012\012    # NAVA\012    sub na_va-sinh al-sign-sinh by na_va-al-sinh;\012    sub na_va-sinh ii-sign-sinh by na_va-ii-sinh;\012    sub na_va-sinh i-sign-sinh by na_va-i-sinh;\012\012} VowelLigatures;\012\012sub aa-sign-sinh al-sign-sinh by aa-sign.al;\012\012sub @phaShapeGroup al-sign-sinh' by al-sign-sinh.alt1;\012sub @jaShapeGroup al-sign-sinh' by al-sign-sinh.alt2;\012\012sub @iVowelAlt i-sign-sinh' by i-sign-sinh.alt1; \012sub @iVowelAlt ii-sign-sinh' by ii-sign-sinh.alt1; \012\012sub @iVowelAlt2 i-sign-sinh' by i-sign-sinh.alt2;\012sub @iVowelAlt2 ii-sign-sinh' by ii-sign-sinh.alt2;\012\012sub @iVowelAlt3 i-sign-sinh' by i-sign-sinh.alt3;\012sub @iVowelAlt3 ii-sign-sinh' by ii-sign-sinh.alt3;\012\012sub @phaShapeGroup i-sign-sinh' by i-sign-sinh.alt4;\012sub @phaShapeGroup ii-sign-sinh' by ii-sign-sinh.alt4;\012\012sub @jaShapeGroup i-sign-sinh' by i-sign-sinh.alt5;\012sub @jaShapeGroup ii-sign-sinh' by ii-sign-sinh.alt5;\012\012\012sub @iVowelAlt6 i-sign-sinh' by i-sign-sinh.alt6;\012sub @iVowelAlt6 ii-sign-sinh' by ii-sign-sinh.alt6;\012\012sub @iVowelAlt7 i-sign-sinh' by i-sign-sinh.alt7;\012sub @iVowelAlt7 ii-sign-sinh' by ii-sign-sinh.alt7;\012\012sub @iVowelAlt8 i-sign-sinh' by i-sign-sinh.alt8;\012sub @iVowelAlt8 ii-sign-sinh' by ii-sign-sinh.alt8;\012\012sub @iVowelAlt9 i-sign-sinh' by i-sign-sinh.alt9;\012sub @iVowelAlt9 ii-sign-sinh' by ii-sign-sinh.alt9;\012";
+code = "sub @rephAltGroup repha-sign-sinh' by repha-sign-sinh.alt1;\012\012lookup VowelLigatures {\012    lookupflag UseMarkFilteringSet [al-sign-sinh ii-sign-sinh i-sign-sinh];\012    sub kha-sinh al-sign-sinh by kha-al-sinh;\012    sub kha-sinh ii-sign-sinh by kha-ii-sinh;\012    sub kha-sinh i-sign-sinh by kha-i-sinh;\012\012    sub nga-sinh al-sign-sinh by nga-al-sinh;\012    sub nga-sinh ii-sign-sinh by nga-ii-sinh;\012    sub nga-sinh i-sign-sinh by nga-i-sinh;\012\012    sub ca-sinh al-sign-sinh by ca-al-sinh;\012    sub ca-sinh ii-sign-sinh by ca-ii-sinh;\012    sub ca-sinh i-sign-sinh by ca-i-sinh;\012\012    sub ra-sinh al-sign-sinh by ra-al-sinh;\012    sub ra-sinh ii-sign-sinh by ra-ii-sinh;\012    sub ra-sinh i-sign-sinh by ra-i-sinh;\012\012    sub jha-sinh al-sign-sinh by jha-al-sinh;\012    sub jha-sinh ii-sign-sinh by jha-ii-sinh;\012    sub jha-sinh i-sign-sinh by jha-i-sinh;\012\012    sub tta-sinh al-sign-sinh by tta-al-sinh;\012    sub tta-sinh ii-sign-sinh by tta-ii-sinh;\012    sub tta-sinh i-sign-sinh by tta-i-sinh;\012\012    sub dda-sinh al-sign-sinh by dda-al-sinh;\012    sub dda-sinh ii-sign-sinh by dda-ii-sinh;\012    sub dda-sinh i-sign-sinh by dda-i-sinh;\012\012    sub nna-sinh ii-sign-sinh by nna-ii-sinh;\012    sub nna-sinh i-sign-sinh by nna-i-sinh;\012\012    sub nndda-sinh al-sign-sinh by nndda-al-sinh;\012    sub nndda-sinh ii-sign-sinh by nndda-ii-sinh;\012    sub nndda-sinh i-sign-sinh by nndda-i-sinh;\012\012    sub dha-sinh al-sign-sinh by dha-al-sinh;\012    sub dha-sinh ii-sign-sinh by dha-ii-sinh;\012    sub dha-sinh i-sign-sinh by dha-i-sinh;\012\012    sub ba-sinh al-sign-sinh by ba-al-sinh;\012    sub ba-sinh ii-sign-sinh by ba-ii-sinh;\012    sub ba-sinh i-sign-sinh by ba-i-sinh;\012\012    sub ma-sinh al-sign-sinh by ma-al-sinh;\012    sub ma-sinh ii-sign-sinh by ma-ii-sinh;\012    sub ma-sinh i-sign-sinh by ma-i-sinh;\012\012    sub mba-sinh al-sign-sinh by mba-al-sinh;\012    sub mba-sinh ii-sign-sinh by mba-ii-sinh;\012    sub mba-sinh i-sign-sinh by mba-i-sinh;\012\012    sub ya-sinh ii-sign-sinh by ya-ii-sinh;\012    sub ya-sinh i-sign-sinh by ya-i-sinh;\012\012    sub va-sinh al-sign-sinh by va-al-sinh;\012    sub va-sinh ii-sign-sinh by va-ii-sinh;\012    sub va-sinh i-sign-sinh by va-i-sinh;\012\012    sub ka_va-sinh al-sign-sinh by ka_va-al-sinh;\012    sub ka_va-sinh ii-sign-sinh by ka_va-ii-sinh;\012    sub ka_va-sinh i-sign-sinh by ka_va-i-sinh;\012\012    sub ga_dha-sinh al-sign-sinh by ga_dha-al-sinh;\012    sub ga_dha-sinh ii-sign-sinh by ga_dha-ii-sinh;\012    sub ga_dha-sinh i-sign-sinh by ga_dha-i-sinh;\012\012    sub nya_ca-sinh al-sign-sinh by nya_ca-al-sinh;\012    sub nya_ca-sinh ii-sign-sinh by nya_ca-ii-sinh;\012    sub nya_ca-sinh i-sign-sinh by nya_ca-i-sinh;\012\012    sub ta_va-sinh al-sign-sinh by ta_va-al-sinh;\012    sub ta_va-sinh ii-sign-sinh by ta_va-ii-sinh;\012    sub ta_va-sinh i-sign-sinh by ta_va-i-sinh;\012\012    sub da_dha-sinh al-sign-sinh by da_dha-al-sinh;\012    sub da_dha-sinh ii-sign-sinh by da_dha-ii-sinh;\012    sub da_dha-sinh i-sign-sinh by da_dha-i-sinh;\012\012    sub da_va-sinh al-sign-sinh by da_va-al-sinh;\012    sub da_va-sinh ii-sign-sinh by da_va-ii-sinh;\012    sub da_va-sinh i-sign-sinh by da_va-i-sinh;\012\012    sub na_dha-sinh al-sign-sinh by na_dha-al-sinh;\012    sub na_dha-sinh ii-sign-sinh by na_dha-ii-sinh;\012    sub na_dha-sinh i-sign-sinh by na_dha-i-sinh;\012\012    sub na_va-sinh al-sign-sinh by na_va-al-sinh;\012    sub na_va-sinh ii-sign-sinh by na_va-ii-sinh;\012    sub na_va-sinh i-sign-sinh by na_va-i-sinh;\012} VowelLigatures;\012\012sub aa-sign-sinh al-sign-sinh by aa-sign.al;\012\012sub @phaShapeGroup al-sign-sinh' by al-sign-sinh.alt1;\012sub @jaShapeGroup al-sign-sinh' by al-sign-sinh.alt2;\012\012sub @iVowelAlt i-sign-sinh' by i-sign-sinh.alt1; \012sub @iVowelAlt ii-sign-sinh' by ii-sign-sinh.alt1; \012\012sub @iVowelAlt2 i-sign-sinh' by i-sign-sinh.alt2;\012sub @iVowelAlt2 ii-sign-sinh' by ii-sign-sinh.alt2;\012\012sub @iVowelAlt3 i-sign-sinh' by i-sign-sinh.alt3;\012sub @iVowelAlt3 ii-sign-sinh' by ii-sign-sinh.alt3;\012\012sub @phaShapeGroup i-sign-sinh' by i-sign-sinh.alt4;\012sub @phaShapeGroup ii-sign-sinh' by ii-sign-sinh.alt4;\012\012sub @jaShapeGroup i-sign-sinh' by i-sign-sinh.alt5;\012sub @jaShapeGroup ii-sign-sinh' by ii-sign-sinh.alt5;\012\012\012sub @iVowelAlt6 i-sign-sinh' by i-sign-sinh.alt6;\012sub @iVowelAlt6 ii-sign-sinh' by ii-sign-sinh.alt6;\012\012sub @iVowelAlt7 i-sign-sinh' by i-sign-sinh.alt7;\012sub @iVowelAlt7 ii-sign-sinh' by ii-sign-sinh.alt7;\012\012sub @iVowelAlt8 i-sign-sinh' by i-sign-sinh.alt8;\012sub @iVowelAlt8 ii-sign-sinh' by ii-sign-sinh.alt8;\012\012sub @iVowelAlt9 i-sign-sinh' by i-sign-sinh.alt9;\012sub @iVowelAlt9 ii-sign-sinh' by ii-sign-sinh.alt9;\012";
 name = abvs;
 },
 {
@@ -2416,8 +2414,8 @@ widthClass = "Extra Condensed";
 kerning = {
 "7977A986-4EFB-4152-84F8-5A02CD382AAF" = {
 "ba-sinh" = {
-"vocalicR-sign-sinh" = -7;
-"vocalicRr-sign-sinh" = -7;
+"vocalicr-sign-sinh" = -7;
+"vocalicrr-sign-sinh" = -7;
 "yansa-sign-sinh" = -10;
 };
 "ca-sinh" = {
@@ -2426,8 +2424,8 @@ kerning = {
 "i-sign-sinh.alt2" = -6;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -24;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -7;
 };
 "cha-sinh" = {
@@ -2435,8 +2433,8 @@ kerning = {
 "aa-sign.al" = -38;
 "aae-sign-sinh" = -13;
 "ae-sign-sinh" = -13;
-"vocalicL-sign-sinh" = -21;
-"vocalicLl-sign-sinh" = -21;
+"vocalicl-sign-sinh" = -21;
+"vocalicll-sign-sinh" = -21;
 "yansa-sign-sinh" = -44;
 };
 "da-sinh" = {
@@ -2466,8 +2464,8 @@ parenright.sinh = 60;
 "da_dha-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -9;
-"vocalicRr-sign-sinh" = -9;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
 "yansa-sign-sinh" = -20;
 };
 "da_va-i-sinh" = {
@@ -2476,8 +2474,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -6;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -24;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -7;
 };
 "da_va-sinh" = {
@@ -2486,29 +2484,29 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -6;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -24;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -7;
 };
 "dda-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -9;
-"vocalicRr-sign-sinh" = -9;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
 "yansa-sign-sinh" = -20;
 };
 "ddha-sinh" = {
 "aa-sign-sinh" = -13;
 "aa-sign.al" = -13;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = -23;
 };
 "dha-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -9;
-"vocalicRr-sign-sinh" = -9;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
 "yansa-sign-sinh" = -20;
 };
 "fa-sinh" = {
@@ -2519,15 +2517,15 @@ parenright.sinh = 60;
 "ga-sinh" = {
 "aa-sign-sinh" = -23;
 "aa-sign.al" = -23;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 "yansa-sign-sinh" = -31;
 };
 "ga_dha-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -9;
-"vocalicRr-sign-sinh" = -9;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
 "yansa-sign-sinh" = -20;
 };
 "gha-sinh" = {
@@ -2535,15 +2533,15 @@ parenright.sinh = 60;
 "aa-sign.al" = -25;
 "aae-sign-sinh" = -13;
 "ae-sign-sinh" = -13;
-"vocalicL-sign-sinh" = -24;
-"vocalicLl-sign-sinh" = -24;
+"vocalicl-sign-sinh" = -24;
+"vocalicll-sign-sinh" = -24;
 "yansa-sign-sinh" = -28;
 };
 "ha-sinh" = {
 "aa-sign-sinh" = -23;
 "aa-sign.al" = -23;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 "yansa-sign-sinh" = -31;
 };
 "i-sign-sinh.alt2" = {
@@ -2579,17 +2577,17 @@ parenright.sinh = 60;
 "aa-sign.al" = -27;
 "aae-sign-sinh" = -9;
 "ae-sign-sinh" = -9;
-"vocalicL-sign-sinh" = -16;
-"vocalicLl-sign-sinh" = -16;
-"vocalicR-sign-sinh" = -2;
-"vocalicRr-sign-sinh" = -2;
+"vocalicl-sign-sinh" = -16;
+"vocalicll-sign-sinh" = -16;
+"vocalicr-sign-sinh" = -2;
+"vocalicrr-sign-sinh" = -2;
 "yansa-sign-sinh" = -36;
 };
 "jha-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -9;
-"vocalicRr-sign-sinh" = -9;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
 "yansa-sign-sinh" = -20;
 };
 "jnya-sinh" = {
@@ -2629,10 +2627,10 @@ parenright.sinh = 60;
 "ka-sinh" = {
 "aa-sign-sinh" = -36;
 "aa-sign.al" = -36;
-"vocalicL-sign-sinh" = -10;
-"vocalicLl-sign-sinh" = -10;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicl-sign-sinh" = -10;
+"vocalicll-sign-sinh" = -10;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 "yansa-sign-sinh" = -44;
 };
 "ka_va-i-sinh" = {
@@ -2641,8 +2639,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -6;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -24;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -7;
 };
 "ka_va-ii-sinh" = {
@@ -2651,8 +2649,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -6;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -24;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -7;
 };
 "ka_va-sinh" = {
@@ -2661,13 +2659,13 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -6;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -24;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -7;
 };
 "kha-sinh" = {
-"vocalicR-sign-sinh" = -6;
-"vocalicRr-sign-sinh" = -6;
+"vocalicr-sign-sinh" = -6;
+"vocalicrr-sign-sinh" = -6;
 "yansa-sign-sinh" = -12;
 };
 "la-sinh" = {
@@ -2692,8 +2690,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -5;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -10;
 };
 "ma-sinh" = {
@@ -2702,17 +2700,17 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -6;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -21;
-"vocalicR-sign-sinh" = -11;
-"vocalicRr-sign-sinh" = -11;
+"vocalicr-sign-sinh" = -11;
+"vocalicrr-sign-sinh" = -11;
 "yansa-sign-sinh" = -7;
 };
 "na-sinh" = {
 "aa-sign-sinh" = -29;
 "aa-sign.al" = -29;
-"vocalicL-sign-sinh" = -6;
-"vocalicLl-sign-sinh" = -6;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = -45;
 };
 "na_da-sinh" = {
@@ -2742,8 +2740,8 @@ parenright.sinh = 60;
 "na_dha-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -9;
-"vocalicRr-sign-sinh" = -9;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
 "yansa-sign-sinh" = -20;
 };
 "na_tha-sinh" = {
@@ -2752,8 +2750,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -5;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -10;
 };
 "na_va-i-sinh" = {
@@ -2762,8 +2760,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -6;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -24;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -7;
 };
 "na_va-ii-sinh" = {
@@ -2772,8 +2770,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -6;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -24;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -7;
 };
 "na_va-sinh" = {
@@ -2782,8 +2780,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -6;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -24;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -7;
 };
 "nda-sinh" = {
@@ -2823,15 +2821,15 @@ parenright.sinh = 60;
 "nga-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -9;
-"vocalicRr-sign-sinh" = -9;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
 "yansa-sign-sinh" = -20;
 };
 "ngga-sinh" = {
 "aa-sign-sinh" = -23;
 "aa-sign.al" = -23;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 "yansa-sign-sinh" = -31;
 };
 "nna-sinh" = {
@@ -2842,8 +2840,8 @@ parenright.sinh = 60;
 "nndda-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -9;
-"vocalicRr-sign-sinh" = -9;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
 "yansa-sign-sinh" = -20;
 };
 "nya-sinh" = {
@@ -2886,8 +2884,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -6;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -24;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -7;
 };
 "nyja-sinh" = {
@@ -2895,10 +2893,10 @@ parenright.sinh = 60;
 "aa-sign.al" = -27;
 "aae-sign-sinh" = -9;
 "ae-sign-sinh" = -9;
-"vocalicL-sign-sinh" = -16;
-"vocalicLl-sign-sinh" = -16;
-"vocalicR-sign-sinh" = -2;
-"vocalicRr-sign-sinh" = -2;
+"vocalicl-sign-sinh" = -16;
+"vocalicll-sign-sinh" = -16;
+"vocalicr-sign-sinh" = -2;
+"vocalicrr-sign-sinh" = -2;
 "yansa-sign-sinh" = -36;
 };
 "pa-sinh" = {
@@ -2906,10 +2904,10 @@ parenright.sinh = 60;
 "aa-sign.al" = -27;
 "aae-sign-sinh" = -9;
 "ae-sign-sinh" = -9;
-"vocalicL-sign-sinh" = -16;
-"vocalicLl-sign-sinh" = -16;
-"vocalicR-sign-sinh" = -2;
-"vocalicRr-sign-sinh" = -2;
+"vocalicl-sign-sinh" = -16;
+"vocalicll-sign-sinh" = -16;
+"vocalicr-sign-sinh" = -2;
+"vocalicrr-sign-sinh" = -2;
 "yansa-sign-sinh" = -36;
 };
 "pha-sinh" = {
@@ -2918,8 +2916,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -5;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -10;
 };
 "ra-aae-sinh" = {
@@ -2951,8 +2949,8 @@ slash.sinh = 30;
 "aa-sign.al" = -39;
 "aae-sign-sinh" = -2;
 "ae-sign-sinh" = -2;
-"vocalicL-sign-sinh" = -12;
-"vocalicLl-sign-sinh" = -12;
+"vocalicl-sign-sinh" = -12;
+"vocalicll-sign-sinh" = -12;
 "yansa-sign-sinh" = -48;
 };
 "sa-sinh" = {
@@ -2960,32 +2958,32 @@ slash.sinh = 30;
 "aa-sign.al" = -25;
 "aae-sign-sinh" = -13;
 "ae-sign-sinh" = -13;
-"vocalicL-sign-sinh" = -24;
-"vocalicLl-sign-sinh" = -24;
+"vocalicl-sign-sinh" = -24;
+"vocalicll-sign-sinh" = -24;
 "yansa-sign-sinh" = -28;
 };
 "sha-sinh" = {
 "aa-sign-sinh" = -20;
 "aa-sign.al" = -20;
 "lla-sinh" = -6;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -32;
 };
 "sha-u-sinh" = {
 "aa-sign-sinh" = -20;
 "aa-sign.al" = -20;
 "lla-sinh" = -6;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -32;
 };
 "sha-uu-sinh" = {
 "aa-sign-sinh" = -20;
 "aa-sign.al" = -20;
 "lla-sinh" = -6;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -32;
 };
 "ssa-sinh" = {
@@ -2993,19 +2991,19 @@ slash.sinh = 30;
 "aa-sign.al" = -27;
 "aae-sign-sinh" = -9;
 "ae-sign-sinh" = -9;
-"vocalicL-sign-sinh" = -16;
-"vocalicLl-sign-sinh" = -16;
-"vocalicR-sign-sinh" = -2;
-"vocalicRr-sign-sinh" = -2;
+"vocalicl-sign-sinh" = -16;
+"vocalicll-sign-sinh" = -16;
+"vocalicr-sign-sinh" = -2;
+"vocalicrr-sign-sinh" = -2;
 "yansa-sign-sinh" = -36;
 };
 "ta-sinh" = {
 "aa-sign-sinh" = -29;
 "aa-sign.al" = -29;
-"vocalicL-sign-sinh" = -6;
-"vocalicLl-sign-sinh" = -6;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = -45;
 };
 "ta_tha-sinh" = {
@@ -3014,8 +3012,8 @@ slash.sinh = 30;
 "i-sign-sinh.alt2" = -5;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -10;
 };
 "ta_va-i-sinh" = {
@@ -3024,8 +3022,8 @@ slash.sinh = 30;
 "i-sign-sinh.alt2" = -6;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -24;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -7;
 };
 "ta_va-ii-sinh" = {
@@ -3034,8 +3032,8 @@ slash.sinh = 30;
 "i-sign-sinh.alt2" = -6;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -24;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -7;
 };
 "ta_va-sinh" = {
@@ -3044,8 +3042,8 @@ slash.sinh = 30;
 "i-sign-sinh.alt2" = -6;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -24;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -7;
 };
 "tha-sinh" = {
@@ -3054,8 +3052,8 @@ slash.sinh = 30;
 "i-sign-sinh.alt2" = -5;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -10;
 };
 "tta-sinh" = {
@@ -3064,22 +3062,22 @@ slash.sinh = 30;
 "i-sign-sinh.alt2" = -6;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -24;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -7;
 };
 "tta_ttha-sinh" = {
 "aa-sign-sinh" = -13;
 "aa-sign.al" = -13;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = -23;
 };
 "ttha-sinh" = {
 "aa-sign-sinh" = -13;
 "aa-sign.al" = -13;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = -23;
 };
 "va-sinh" = {
@@ -3088,8 +3086,8 @@ slash.sinh = 30;
 "i-sign-sinh.alt2" = -6;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -24;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -7;
 };
 "ya-sinh" = {
@@ -3097,8 +3095,8 @@ slash.sinh = 30;
 "aa-sign.al" = -25;
 "aae-sign-sinh" = -13;
 "ae-sign-sinh" = -13;
-"vocalicL-sign-sinh" = -24;
-"vocalicLl-sign-sinh" = -24;
+"vocalicl-sign-sinh" = -24;
+"vocalicll-sign-sinh" = -24;
 "yansa-sign-sinh" = -28;
 };
 "yansa-sign-sinh" = {
@@ -3116,8 +3114,8 @@ UUID0 = {
 "kunddaliya-sinh" = 0;
 };
 "ba-sinh" = {
-"vocalicR-sign-sinh" = -9;
-"vocalicRr-sign-sinh" = -9;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
 "yansa-sign-sinh" = -10;
 };
 "ca-sinh" = {
@@ -3126,8 +3124,8 @@ UUID0 = {
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -22;
-"vocalicR-sign-sinh" = -17;
-"vocalicRr-sign-sinh" = -17;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
 "yansa-sign-sinh" = -7;
 };
 "cha-sinh" = {
@@ -3135,8 +3133,8 @@ UUID0 = {
 "aa-sign.al" = -29;
 "aae-sign-sinh" = -11;
 "ae-sign-sinh" = -11;
-"vocalicL-sign-sinh" = -19;
-"vocalicLl-sign-sinh" = -19;
+"vocalicl-sign-sinh" = -19;
+"vocalicll-sign-sinh" = -19;
 "yansa-sign-sinh" = -43;
 };
 "da-sinh" = {
@@ -3166,8 +3164,8 @@ parenright.sinh = 60;
 "da_dha-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -13;
-"vocalicRr-sign-sinh" = -13;
+"vocalicr-sign-sinh" = -13;
+"vocalicrr-sign-sinh" = -13;
 "yansa-sign-sinh" = -20;
 };
 "da_va-i-sinh" = {
@@ -3176,8 +3174,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -22;
-"vocalicR-sign-sinh" = -17;
-"vocalicRr-sign-sinh" = -17;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
 "yansa-sign-sinh" = -7;
 };
 "da_va-sinh" = {
@@ -3186,29 +3184,29 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -22;
-"vocalicR-sign-sinh" = -17;
-"vocalicRr-sign-sinh" = -17;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
 "yansa-sign-sinh" = -7;
 };
 "dda-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -13;
-"vocalicRr-sign-sinh" = -13;
+"vocalicr-sign-sinh" = -13;
+"vocalicrr-sign-sinh" = -13;
 "yansa-sign-sinh" = -20;
 };
 "ddha-sinh" = {
 "aa-sign-sinh" = -10;
 "aa-sign.al" = -10;
-"vocalicR-sign-sinh" = -7;
-"vocalicRr-sign-sinh" = -7;
+"vocalicr-sign-sinh" = -7;
+"vocalicrr-sign-sinh" = -7;
 "yansa-sign-sinh" = -23;
 };
 "dha-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -13;
-"vocalicRr-sign-sinh" = -13;
+"vocalicr-sign-sinh" = -13;
+"vocalicrr-sign-sinh" = -13;
 "yansa-sign-sinh" = -20;
 };
 "fa-sinh" = {
@@ -3219,15 +3217,15 @@ parenright.sinh = 60;
 "ga-sinh" = {
 "aa-sign-sinh" = -20;
 "aa-sign.al" = -20;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -31;
 };
 "ga_dha-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -13;
-"vocalicRr-sign-sinh" = -13;
+"vocalicr-sign-sinh" = -13;
+"vocalicrr-sign-sinh" = -13;
 "yansa-sign-sinh" = -20;
 };
 "gha-sinh" = {
@@ -3235,15 +3233,15 @@ parenright.sinh = 60;
 "aa-sign.al" = -22;
 "aae-sign-sinh" = -10;
 "ae-sign-sinh" = -10;
-"vocalicL-sign-sinh" = -22;
-"vocalicLl-sign-sinh" = -22;
+"vocalicl-sign-sinh" = -22;
+"vocalicll-sign-sinh" = -22;
 "yansa-sign-sinh" = -28;
 };
 "ha-sinh" = {
 "aa-sign-sinh" = -20;
 "aa-sign.al" = -20;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -31;
 };
 "i-sign-sinh.alt2" = {
@@ -3279,17 +3277,17 @@ parenright.sinh = 60;
 "aa-sign.al" = -24;
 "aae-sign-sinh" = -7;
 "ae-sign-sinh" = -7;
-"vocalicL-sign-sinh" = -13;
-"vocalicLl-sign-sinh" = -13;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicl-sign-sinh" = -13;
+"vocalicll-sign-sinh" = -13;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 "yansa-sign-sinh" = -34;
 };
 "jha-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -13;
-"vocalicRr-sign-sinh" = -13;
+"vocalicr-sign-sinh" = -13;
+"vocalicrr-sign-sinh" = -13;
 "yansa-sign-sinh" = -20;
 };
 "jnya-sinh" = {
@@ -3329,10 +3327,10 @@ parenright.sinh = 60;
 "ka-sinh" = {
 "aa-sign-sinh" = -32;
 "aa-sign.al" = -32;
-"vocalicL-sign-sinh" = -10;
-"vocalicLl-sign-sinh" = -10;
-"vocalicR-sign-sinh" = -2;
-"vocalicRr-sign-sinh" = -2;
+"vocalicl-sign-sinh" = -10;
+"vocalicll-sign-sinh" = -10;
+"vocalicr-sign-sinh" = -2;
+"vocalicrr-sign-sinh" = -2;
 "yansa-sign-sinh" = -44;
 };
 "ka_va-i-sinh" = {
@@ -3341,8 +3339,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -22;
-"vocalicR-sign-sinh" = -17;
-"vocalicRr-sign-sinh" = -17;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
 "yansa-sign-sinh" = -7;
 };
 "ka_va-ii-sinh" = {
@@ -3351,8 +3349,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -22;
-"vocalicR-sign-sinh" = -17;
-"vocalicRr-sign-sinh" = -17;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
 "yansa-sign-sinh" = -7;
 };
 "ka_va-sinh" = {
@@ -3361,13 +3359,13 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -22;
-"vocalicR-sign-sinh" = -17;
-"vocalicRr-sign-sinh" = -17;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
 "yansa-sign-sinh" = -7;
 };
 "kha-sinh" = {
-"vocalicR-sign-sinh" = -6;
-"vocalicRr-sign-sinh" = -6;
+"vocalicr-sign-sinh" = -6;
+"vocalicrr-sign-sinh" = -6;
 "yansa-sign-sinh" = -12;
 };
 "kunddaliya-sinh" = {
@@ -3395,8 +3393,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -20;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -10;
 };
 "ma-sinh" = {
@@ -3405,17 +3403,17 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -21;
-"vocalicR-sign-sinh" = -13;
-"vocalicRr-sign-sinh" = -13;
+"vocalicr-sign-sinh" = -13;
+"vocalicrr-sign-sinh" = -13;
 "yansa-sign-sinh" = -7;
 };
 "na-sinh" = {
 "aa-sign-sinh" = -26;
 "aa-sign.al" = -26;
-"vocalicL-sign-sinh" = -6;
-"vocalicLl-sign-sinh" = -6;
-"vocalicR-sign-sinh" = -6;
-"vocalicRr-sign-sinh" = -6;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
+"vocalicr-sign-sinh" = -6;
+"vocalicrr-sign-sinh" = -6;
 "yansa-sign-sinh" = -45;
 };
 "na_da-sinh" = {
@@ -3445,8 +3443,8 @@ parenright.sinh = 60;
 "na_dha-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -13;
-"vocalicRr-sign-sinh" = -13;
+"vocalicr-sign-sinh" = -13;
+"vocalicrr-sign-sinh" = -13;
 "yansa-sign-sinh" = -20;
 };
 "na_tha-sinh" = {
@@ -3455,8 +3453,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -20;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -10;
 };
 "na_va-i-sinh" = {
@@ -3465,8 +3463,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -22;
-"vocalicR-sign-sinh" = -17;
-"vocalicRr-sign-sinh" = -17;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
 "yansa-sign-sinh" = -7;
 };
 "na_va-ii-sinh" = {
@@ -3475,8 +3473,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -22;
-"vocalicR-sign-sinh" = -17;
-"vocalicRr-sign-sinh" = -17;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
 "yansa-sign-sinh" = -7;
 };
 "na_va-sinh" = {
@@ -3485,8 +3483,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -22;
-"vocalicR-sign-sinh" = -17;
-"vocalicRr-sign-sinh" = -17;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
 "yansa-sign-sinh" = -7;
 };
 "nda-sinh" = {
@@ -3526,15 +3524,15 @@ parenright.sinh = 60;
 "nga-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -13;
-"vocalicRr-sign-sinh" = -13;
+"vocalicr-sign-sinh" = -13;
+"vocalicrr-sign-sinh" = -13;
 "yansa-sign-sinh" = -20;
 };
 "ngga-sinh" = {
 "aa-sign-sinh" = -20;
 "aa-sign.al" = -20;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -31;
 };
 "nna-sinh" = {
@@ -3545,8 +3543,8 @@ parenright.sinh = 60;
 "nndda-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -13;
-"vocalicRr-sign-sinh" = -13;
+"vocalicr-sign-sinh" = -13;
+"vocalicrr-sign-sinh" = -13;
 "yansa-sign-sinh" = -20;
 };
 "nya-sinh" = {
@@ -3589,8 +3587,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -22;
-"vocalicR-sign-sinh" = -17;
-"vocalicRr-sign-sinh" = -17;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
 "yansa-sign-sinh" = -7;
 };
 "nyja-sinh" = {
@@ -3598,10 +3596,10 @@ parenright.sinh = 60;
 "aa-sign.al" = -24;
 "aae-sign-sinh" = -7;
 "ae-sign-sinh" = -7;
-"vocalicL-sign-sinh" = -13;
-"vocalicLl-sign-sinh" = -13;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicl-sign-sinh" = -13;
+"vocalicll-sign-sinh" = -13;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 "yansa-sign-sinh" = -34;
 };
 "pa-sinh" = {
@@ -3609,10 +3607,10 @@ parenright.sinh = 60;
 "aa-sign.al" = -24;
 "aae-sign-sinh" = -7;
 "ae-sign-sinh" = -7;
-"vocalicL-sign-sinh" = -13;
-"vocalicLl-sign-sinh" = -13;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicl-sign-sinh" = -13;
+"vocalicll-sign-sinh" = -13;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 "yansa-sign-sinh" = -34;
 };
 "pha-sinh" = {
@@ -3621,8 +3619,8 @@ parenright.sinh = 60;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -20;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -10;
 };
 "ra-aae-sinh" = {
@@ -3652,8 +3650,8 @@ slash.sinh = 30;
 "ra-sinh" = {
 "aa-sign-sinh" = -35;
 "aa-sign.al" = -35;
-"vocalicL-sign-sinh" = -12;
-"vocalicLl-sign-sinh" = -12;
+"vocalicl-sign-sinh" = -12;
+"vocalicll-sign-sinh" = -12;
 "yansa-sign-sinh" = -48;
 };
 "sa-sinh" = {
@@ -3661,32 +3659,32 @@ slash.sinh = 30;
 "aa-sign.al" = -22;
 "aae-sign-sinh" = -10;
 "ae-sign-sinh" = -10;
-"vocalicL-sign-sinh" = -22;
-"vocalicLl-sign-sinh" = -22;
+"vocalicl-sign-sinh" = -22;
+"vocalicll-sign-sinh" = -22;
 "yansa-sign-sinh" = -28;
 };
 "sha-sinh" = {
 "aa-sign-sinh" = -17;
 "aa-sign.al" = -17;
 "lla-sinh" = -7;
-"vocalicR-sign-sinh" = -10;
-"vocalicRr-sign-sinh" = -10;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
 "yansa-sign-sinh" = -32;
 };
 "sha-u-sinh" = {
 "aa-sign-sinh" = -17;
 "aa-sign.al" = -17;
 "lla-sinh" = -7;
-"vocalicR-sign-sinh" = -10;
-"vocalicRr-sign-sinh" = -10;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
 "yansa-sign-sinh" = -32;
 };
 "sha-uu-sinh" = {
 "aa-sign-sinh" = -17;
 "aa-sign.al" = -17;
 "lla-sinh" = -7;
-"vocalicR-sign-sinh" = -10;
-"vocalicRr-sign-sinh" = -10;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
 "yansa-sign-sinh" = -32;
 };
 "ssa-sinh" = {
@@ -3694,19 +3692,19 @@ slash.sinh = 30;
 "aa-sign.al" = -24;
 "aae-sign-sinh" = -7;
 "ae-sign-sinh" = -7;
-"vocalicL-sign-sinh" = -13;
-"vocalicLl-sign-sinh" = -13;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicl-sign-sinh" = -13;
+"vocalicll-sign-sinh" = -13;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 "yansa-sign-sinh" = -34;
 };
 "ta-sinh" = {
 "aa-sign-sinh" = -26;
 "aa-sign.al" = -26;
-"vocalicL-sign-sinh" = -6;
-"vocalicLl-sign-sinh" = -6;
-"vocalicR-sign-sinh" = -6;
-"vocalicRr-sign-sinh" = -6;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
+"vocalicr-sign-sinh" = -6;
+"vocalicrr-sign-sinh" = -6;
 "yansa-sign-sinh" = -45;
 };
 "ta_tha-sinh" = {
@@ -3715,8 +3713,8 @@ slash.sinh = 30;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -20;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -10;
 };
 "ta_va-i-sinh" = {
@@ -3725,8 +3723,8 @@ slash.sinh = 30;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -22;
-"vocalicR-sign-sinh" = -17;
-"vocalicRr-sign-sinh" = -17;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
 "yansa-sign-sinh" = -7;
 };
 "ta_va-ii-sinh" = {
@@ -3735,8 +3733,8 @@ slash.sinh = 30;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -22;
-"vocalicR-sign-sinh" = -17;
-"vocalicRr-sign-sinh" = -17;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
 "yansa-sign-sinh" = -7;
 };
 "ta_va-sinh" = {
@@ -3745,8 +3743,8 @@ slash.sinh = 30;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -22;
-"vocalicR-sign-sinh" = -17;
-"vocalicRr-sign-sinh" = -17;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
 "yansa-sign-sinh" = -7;
 };
 "tha-sinh" = {
@@ -3755,8 +3753,8 @@ slash.sinh = 30;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -20;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -10;
 };
 "tta-sinh" = {
@@ -3765,22 +3763,22 @@ slash.sinh = 30;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -22;
-"vocalicR-sign-sinh" = -17;
-"vocalicRr-sign-sinh" = -17;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
 "yansa-sign-sinh" = -7;
 };
 "tta_ttha-sinh" = {
 "aa-sign-sinh" = -10;
 "aa-sign.al" = -10;
-"vocalicR-sign-sinh" = -7;
-"vocalicRr-sign-sinh" = -7;
+"vocalicr-sign-sinh" = -7;
+"vocalicrr-sign-sinh" = -7;
 "yansa-sign-sinh" = -23;
 };
 "ttha-sinh" = {
 "aa-sign-sinh" = -10;
 "aa-sign.al" = -10;
-"vocalicR-sign-sinh" = -7;
-"vocalicRr-sign-sinh" = -7;
+"vocalicr-sign-sinh" = -7;
+"vocalicrr-sign-sinh" = -7;
 "yansa-sign-sinh" = -23;
 };
 "va-sinh" = {
@@ -3789,8 +3787,8 @@ slash.sinh = 30;
 "i-sign-sinh.alt2" = -7;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -22;
-"vocalicR-sign-sinh" = -17;
-"vocalicRr-sign-sinh" = -17;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
 "yansa-sign-sinh" = -7;
 };
 "ya-sinh" = {
@@ -3798,8 +3796,8 @@ slash.sinh = 30;
 "aa-sign.al" = -22;
 "aae-sign-sinh" = -10;
 "ae-sign-sinh" = -10;
-"vocalicL-sign-sinh" = -22;
-"vocalicLl-sign-sinh" = -22;
+"vocalicl-sign-sinh" = -22;
+"vocalicll-sign-sinh" = -22;
 "yansa-sign-sinh" = -28;
 };
 "yansa-sign-sinh" = {
@@ -3811,8 +3809,8 @@ slash.sinh = 30;
 };
 "C62AB4C0-B70D-46F6-9B13-45217A94AFC9" = {
 "ba-sinh" = {
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -9;
 };
 "ca-sinh" = {
@@ -3822,8 +3820,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -10;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -6;
 };
 "cha-sinh" = {
@@ -3831,8 +3829,8 @@ slash.sinh = 30;
 "aa-sign.al" = -25;
 "aae-sign-sinh" = -6;
 "ae-sign-sinh" = -6;
-"vocalicL-sign-sinh" = -17;
-"vocalicLl-sign-sinh" = -17;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
 "yansa-sign-sinh" = -20;
 };
 "da-sinh" = {
@@ -3848,8 +3846,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -16;
 "ii-sign-sinh.alt2" = -16;
 parenright.sinh = 60;
-"vocalicL-sign-sinh" = 7;
-"vocalicLl-sign-sinh" = 7;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
 };
 "da-uu-sinh" = {
 "aa-sign-sinh" = 6;
@@ -3860,14 +3858,14 @@ parenright.sinh = 60;
 "da-uu-sinh" = -16;
 "i-sign-sinh.alt2" = -16;
 "ii-sign-sinh.alt2" = -16;
-"vocalicL-sign-sinh" = 7;
-"vocalicLl-sign-sinh" = 7;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
 };
 "da_dha-sinh" = {
 "aa-sign-sinh" = -7;
 "aa-sign.al" = -7;
-"vocalicR-sign-sinh" = -12;
-"vocalicRr-sign-sinh" = -12;
+"vocalicr-sign-sinh" = -12;
+"vocalicrr-sign-sinh" = -12;
 "yansa-sign-sinh" = -19;
 };
 "da_va-i-sinh" = {
@@ -3877,8 +3875,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -10;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -6;
 };
 "da_va-sinh" = {
@@ -3888,36 +3886,36 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -10;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -6;
 };
 "dda-sinh" = {
 "aa-sign-sinh" = -7;
 "aa-sign.al" = -7;
-"vocalicR-sign-sinh" = -12;
-"vocalicRr-sign-sinh" = -12;
+"vocalicr-sign-sinh" = -12;
+"vocalicrr-sign-sinh" = -12;
 "yansa-sign-sinh" = -19;
 };
 "ddha-sinh" = {
 "aa-sign-sinh" = -12;
 "aa-sign.al" = -12;
-"vocalicR-sign-sinh" = -9;
-"vocalicRr-sign-sinh" = -9;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
 "yansa-sign-sinh" = -25;
 };
 "dha-sinh" = {
 "aa-sign-sinh" = -7;
 "aa-sign.al" = -7;
-"vocalicR-sign-sinh" = -12;
-"vocalicRr-sign-sinh" = -12;
+"vocalicr-sign-sinh" = -12;
+"vocalicrr-sign-sinh" = -12;
 "yansa-sign-sinh" = -19;
 };
 "fa-sinh" = {
 "aa-sign-sinh" = -17;
 "aa-sign.al" = -17;
-"vocalicR-sign-sinh" = -10;
-"vocalicRr-sign-sinh" = -10;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
 "yansa-sign-sinh" = -26;
 };
 "ga-sinh" = {
@@ -3928,8 +3926,8 @@ parenright.sinh = 60;
 "ga_dha-sinh" = {
 "aa-sign-sinh" = -7;
 "aa-sign.al" = -7;
-"vocalicR-sign-sinh" = -12;
-"vocalicRr-sign-sinh" = -12;
+"vocalicr-sign-sinh" = -12;
+"vocalicrr-sign-sinh" = -12;
 "yansa-sign-sinh" = -19;
 };
 "gha-sinh" = {
@@ -3937,8 +3935,8 @@ parenright.sinh = 60;
 "aa-sign.al" = -27;
 "aae-sign-sinh" = -10;
 "ae-sign-sinh" = -10;
-"vocalicL-sign-sinh" = -27;
-"vocalicLl-sign-sinh" = -27;
+"vocalicl-sign-sinh" = -27;
+"vocalicll-sign-sinh" = -27;
 "yansa-sign-sinh" = -31;
 };
 "ha-sinh" = {
@@ -3959,8 +3957,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -16;
 "ii-sign-sinh.alt2" = -16;
 parenright.sinh = 60;
-"vocalicL-sign-sinh" = 7;
-"vocalicLl-sign-sinh" = 7;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
 };
 "ii-sign-sinh.alt2" = {
 "aa-sign-sinh" = 6;
@@ -3975,23 +3973,23 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -16;
 "ii-sign-sinh.alt2" = -16;
 parenright.sinh = 60;
-"vocalicL-sign-sinh" = 7;
-"vocalicLl-sign-sinh" = 7;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
 };
 "ja-sinh" = {
 "aa-sign-sinh" = -20;
 "aa-sign.al" = -20;
 "aae-sign-sinh" = -6;
 "ae-sign-sinh" = -6;
-"vocalicL-sign-sinh" = -17;
-"vocalicLl-sign-sinh" = -17;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
 "yansa-sign-sinh" = -22;
 };
 "jha-sinh" = {
 "aa-sign-sinh" = -7;
 "aa-sign.al" = -7;
-"vocalicR-sign-sinh" = -12;
-"vocalicRr-sign-sinh" = -12;
+"vocalicr-sign-sinh" = -12;
+"vocalicrr-sign-sinh" = -12;
 "yansa-sign-sinh" = -19;
 };
 "jnya-sinh" = {
@@ -4007,8 +4005,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -16;
 "ii-sign-sinh.alt2" = -16;
 parenright.sinh = 60;
-"vocalicL-sign-sinh" = 7;
-"vocalicLl-sign-sinh" = 7;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
 };
 "jnya-u-sinh" = {
 "aa-sign-sinh" = 6;
@@ -4019,8 +4017,8 @@ parenright.sinh = 60;
 "da-uu-sinh" = -16;
 "i-sign-sinh.alt2" = -16;
 "ii-sign-sinh.alt2" = -16;
-"vocalicL-sign-sinh" = 7;
-"vocalicLl-sign-sinh" = 7;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
 };
 "jnya-uu-sinh" = {
 "aa-sign-sinh" = 6;
@@ -4031,16 +4029,16 @@ parenright.sinh = 60;
 "da-uu-sinh" = -16;
 "i-sign-sinh.alt2" = -16;
 "ii-sign-sinh.alt2" = -16;
-"vocalicL-sign-sinh" = 7;
-"vocalicLl-sign-sinh" = 7;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
 };
 "ka-sinh" = {
 "aa-sign-sinh" = -27;
 "aa-sign.al" = -27;
-"vocalicL-sign-sinh" = -8;
-"vocalicLl-sign-sinh" = -8;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicl-sign-sinh" = -8;
+"vocalicll-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 "yansa-sign-sinh" = -39;
 };
 "ka_va-i-sinh" = {
@@ -4050,8 +4048,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -10;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -6;
 };
 "ka_va-ii-sinh" = {
@@ -4061,8 +4059,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -10;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -6;
 };
 "ka_va-sinh" = {
@@ -4072,8 +4070,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -10;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -6;
 };
 "kha-sinh" = {
@@ -4103,8 +4101,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -12;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -23;
-"vocalicRr-sign-sinh" = -23;
+"vocalicr-sign-sinh" = -23;
+"vocalicrr-sign-sinh" = -23;
 "yansa-sign-sinh" = -1;
 };
 "ma-sinh" = {
@@ -4114,17 +4112,17 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -18;
 "la-sinh" = -11;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -23;
-"vocalicRr-sign-sinh" = -23;
+"vocalicr-sign-sinh" = -23;
+"vocalicrr-sign-sinh" = -23;
 "yansa-sign-sinh" = -5;
 };
 "na-sinh" = {
 "aa-sign-sinh" = -29;
 "aa-sign.al" = -29;
-"vocalicL-sign-sinh" = -7;
-"vocalicLl-sign-sinh" = -7;
-"vocalicR-sign-sinh" = -6;
-"vocalicRr-sign-sinh" = -6;
+"vocalicl-sign-sinh" = -7;
+"vocalicll-sign-sinh" = -7;
+"vocalicr-sign-sinh" = -6;
+"vocalicrr-sign-sinh" = -6;
 "yansa-sign-sinh" = -40;
 };
 "na_da-sinh" = {
@@ -4140,8 +4138,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -16;
 "ii-sign-sinh.alt2" = -16;
 parenright.sinh = 60;
-"vocalicL-sign-sinh" = 7;
-"vocalicLl-sign-sinh" = 7;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
 };
 "na_da-uu-sinh" = {
 "aa-sign-sinh" = 6;
@@ -4152,14 +4150,14 @@ parenright.sinh = 60;
 "da-uu-sinh" = -16;
 "i-sign-sinh.alt2" = -16;
 "ii-sign-sinh.alt2" = -16;
-"vocalicL-sign-sinh" = 7;
-"vocalicLl-sign-sinh" = 7;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
 };
 "na_dha-sinh" = {
 "aa-sign-sinh" = -7;
 "aa-sign.al" = -7;
-"vocalicR-sign-sinh" = -12;
-"vocalicRr-sign-sinh" = -12;
+"vocalicr-sign-sinh" = -12;
+"vocalicrr-sign-sinh" = -12;
 "yansa-sign-sinh" = -19;
 };
 "na_tha-sinh" = {
@@ -4169,8 +4167,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -12;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -23;
-"vocalicRr-sign-sinh" = -23;
+"vocalicr-sign-sinh" = -23;
+"vocalicrr-sign-sinh" = -23;
 "yansa-sign-sinh" = -1;
 };
 "na_va-i-sinh" = {
@@ -4180,8 +4178,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -10;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -6;
 };
 "na_va-ii-sinh" = {
@@ -4191,8 +4189,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -10;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -6;
 };
 "na_va-sinh" = {
@@ -4202,8 +4200,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -10;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -6;
 };
 "nda-sinh" = {
@@ -4219,8 +4217,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -16;
 "ii-sign-sinh.alt2" = -16;
 parenright.sinh = 60;
-"vocalicL-sign-sinh" = 7;
-"vocalicLl-sign-sinh" = 7;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
 };
 "nda-u-sinh" = {
 "aa-sign-sinh" = 6;
@@ -4231,8 +4229,8 @@ parenright.sinh = 60;
 "da-uu-sinh" = -16;
 "i-sign-sinh.alt2" = -16;
 "ii-sign-sinh.alt2" = -16;
-"vocalicL-sign-sinh" = 7;
-"vocalicLl-sign-sinh" = 7;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
 };
 "nda-uu-sinh" = {
 "aa-sign-sinh" = 6;
@@ -4243,14 +4241,14 @@ parenright.sinh = 60;
 "da-uu-sinh" = -16;
 "i-sign-sinh.alt2" = -16;
 "ii-sign-sinh.alt2" = -16;
-"vocalicL-sign-sinh" = 7;
-"vocalicLl-sign-sinh" = 7;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
 };
 "nga-sinh" = {
 "aa-sign-sinh" = -7;
 "aa-sign.al" = -7;
-"vocalicR-sign-sinh" = -12;
-"vocalicRr-sign-sinh" = -12;
+"vocalicr-sign-sinh" = -12;
+"vocalicrr-sign-sinh" = -12;
 "yansa-sign-sinh" = -19;
 };
 "ngga-sinh" = {
@@ -4266,8 +4264,8 @@ parenright.sinh = 60;
 "nndda-sinh" = {
 "aa-sign-sinh" = -7;
 "aa-sign.al" = -7;
-"vocalicR-sign-sinh" = -12;
-"vocalicRr-sign-sinh" = -12;
+"vocalicr-sign-sinh" = -12;
+"vocalicrr-sign-sinh" = -12;
 "yansa-sign-sinh" = -19;
 };
 "nya-sinh" = {
@@ -4283,8 +4281,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -16;
 "ii-sign-sinh.alt2" = -16;
 parenright.sinh = 60;
-"vocalicL-sign-sinh" = 7;
-"vocalicLl-sign-sinh" = 7;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
 };
 "nya-u-sinh" = {
 "aa-sign-sinh" = 6;
@@ -4295,8 +4293,8 @@ parenright.sinh = 60;
 "da-uu-sinh" = -16;
 "i-sign-sinh.alt2" = -16;
 "ii-sign-sinh.alt2" = -16;
-"vocalicL-sign-sinh" = 7;
-"vocalicLl-sign-sinh" = 7;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
 };
 "nya-uu-sinh" = {
 "aa-sign-sinh" = 6;
@@ -4307,8 +4305,8 @@ parenright.sinh = 60;
 "da-uu-sinh" = -16;
 "i-sign-sinh.alt2" = -16;
 "ii-sign-sinh.alt2" = -16;
-"vocalicL-sign-sinh" = 7;
-"vocalicLl-sign-sinh" = 7;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
 };
 "nya_ca-sinh" = {
 "da-sinh" = -16;
@@ -4317,8 +4315,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -10;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -6;
 };
 "nyja-sinh" = {
@@ -4326,8 +4324,8 @@ parenright.sinh = 60;
 "aa-sign.al" = -20;
 "aae-sign-sinh" = -6;
 "ae-sign-sinh" = -6;
-"vocalicL-sign-sinh" = -17;
-"vocalicLl-sign-sinh" = -17;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
 "yansa-sign-sinh" = -22;
 };
 "pa-sinh" = {
@@ -4335,8 +4333,8 @@ parenright.sinh = 60;
 "aa-sign.al" = -20;
 "aae-sign-sinh" = -6;
 "ae-sign-sinh" = -6;
-"vocalicL-sign-sinh" = -17;
-"vocalicLl-sign-sinh" = -17;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
 "yansa-sign-sinh" = -22;
 };
 "pha-sinh" = {
@@ -4346,8 +4344,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -12;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -23;
-"vocalicRr-sign-sinh" = -23;
+"vocalicr-sign-sinh" = -23;
+"vocalicrr-sign-sinh" = -23;
 "yansa-sign-sinh" = -1;
 };
 "ra-aae-sinh" = {
@@ -4377,8 +4375,8 @@ slash.sinh = 30;
 "ra-sinh" = {
 "aa-sign-sinh" = -36;
 "aa-sign.al" = -36;
-"vocalicL-sign-sinh" = -12;
-"vocalicLl-sign-sinh" = -12;
+"vocalicl-sign-sinh" = -12;
+"vocalicll-sign-sinh" = -12;
 "yansa-sign-sinh" = -32;
 };
 "sa-sinh" = {
@@ -4386,8 +4384,8 @@ slash.sinh = 30;
 "aa-sign.al" = -27;
 "aae-sign-sinh" = -10;
 "ae-sign-sinh" = -10;
-"vocalicL-sign-sinh" = -27;
-"vocalicLl-sign-sinh" = -27;
+"vocalicl-sign-sinh" = -27;
+"vocalicll-sign-sinh" = -27;
 "yansa-sign-sinh" = -31;
 };
 "sha-sinh" = {
@@ -4398,10 +4396,10 @@ slash.sinh = 30;
 "i-sign-sinh.alt2" = -10;
 "ii-sign-sinh.alt2" = -10;
 "lla-sinh" = -11;
-"vocalicL-sign-sinh" = -5;
-"vocalicLl-sign-sinh" = -5;
-"vocalicR-sign-sinh" = -11;
-"vocalicRr-sign-sinh" = -11;
+"vocalicl-sign-sinh" = -5;
+"vocalicll-sign-sinh" = -5;
+"vocalicr-sign-sinh" = -11;
+"vocalicrr-sign-sinh" = -11;
 "yansa-sign-sinh" = -25;
 };
 "sha-u-sinh" = {
@@ -4412,10 +4410,10 @@ slash.sinh = 30;
 "i-sign-sinh.alt2" = -10;
 "ii-sign-sinh.alt2" = -10;
 "lla-sinh" = -11;
-"vocalicL-sign-sinh" = -5;
-"vocalicLl-sign-sinh" = -5;
-"vocalicR-sign-sinh" = -11;
-"vocalicRr-sign-sinh" = -11;
+"vocalicl-sign-sinh" = -5;
+"vocalicll-sign-sinh" = -5;
+"vocalicr-sign-sinh" = -11;
+"vocalicrr-sign-sinh" = -11;
 "yansa-sign-sinh" = -25;
 };
 "sha-uu-sinh" = {
@@ -4426,10 +4424,10 @@ slash.sinh = 30;
 "i-sign-sinh.alt2" = -10;
 "ii-sign-sinh.alt2" = -10;
 "lla-sinh" = -11;
-"vocalicL-sign-sinh" = -5;
-"vocalicLl-sign-sinh" = -5;
-"vocalicR-sign-sinh" = -11;
-"vocalicRr-sign-sinh" = -11;
+"vocalicl-sign-sinh" = -5;
+"vocalicll-sign-sinh" = -5;
+"vocalicr-sign-sinh" = -11;
+"vocalicrr-sign-sinh" = -11;
 "yansa-sign-sinh" = -25;
 };
 "ssa-sinh" = {
@@ -4437,17 +4435,17 @@ slash.sinh = 30;
 "aa-sign.al" = -20;
 "aae-sign-sinh" = -6;
 "ae-sign-sinh" = -6;
-"vocalicL-sign-sinh" = -17;
-"vocalicLl-sign-sinh" = -17;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
 "yansa-sign-sinh" = -22;
 };
 "ta-sinh" = {
 "aa-sign-sinh" = -29;
 "aa-sign.al" = -29;
-"vocalicL-sign-sinh" = -7;
-"vocalicLl-sign-sinh" = -7;
-"vocalicR-sign-sinh" = -6;
-"vocalicRr-sign-sinh" = -6;
+"vocalicl-sign-sinh" = -7;
+"vocalicll-sign-sinh" = -7;
+"vocalicr-sign-sinh" = -6;
+"vocalicrr-sign-sinh" = -6;
 "yansa-sign-sinh" = -40;
 };
 "ta_tha-sinh" = {
@@ -4457,8 +4455,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -12;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -23;
-"vocalicRr-sign-sinh" = -23;
+"vocalicr-sign-sinh" = -23;
+"vocalicrr-sign-sinh" = -23;
 "yansa-sign-sinh" = -1;
 };
 "ta_va-i-sinh" = {
@@ -4468,8 +4466,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -10;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -6;
 };
 "ta_va-ii-sinh" = {
@@ -4479,8 +4477,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -10;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -6;
 };
 "ta_va-sinh" = {
@@ -4490,8 +4488,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -10;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -6;
 };
 "tha-sinh" = {
@@ -4501,8 +4499,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -12;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -23;
-"vocalicRr-sign-sinh" = -23;
+"vocalicr-sign-sinh" = -23;
+"vocalicrr-sign-sinh" = -23;
 "yansa-sign-sinh" = -1;
 };
 "tta-sinh" = {
@@ -4512,22 +4510,22 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -10;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -6;
 };
 "tta_ttha-sinh" = {
 "aa-sign-sinh" = -12;
 "aa-sign.al" = -12;
-"vocalicR-sign-sinh" = -9;
-"vocalicRr-sign-sinh" = -9;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
 "yansa-sign-sinh" = -25;
 };
 "ttha-sinh" = {
 "aa-sign-sinh" = -12;
 "aa-sign.al" = -12;
-"vocalicR-sign-sinh" = -9;
-"vocalicRr-sign-sinh" = -9;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
 "yansa-sign-sinh" = -25;
 };
 "va-sinh" = {
@@ -4537,8 +4535,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -16;
 "la-sinh" = -10;
 "lla-sinh" = -28;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -6;
 };
 "ya-sinh" = {
@@ -4546,8 +4544,8 @@ slash.sinh = 30;
 "aa-sign.al" = -27;
 "aae-sign-sinh" = -10;
 "ae-sign-sinh" = -10;
-"vocalicL-sign-sinh" = -27;
-"vocalicLl-sign-sinh" = -27;
+"vocalicl-sign-sinh" = -27;
+"vocalicll-sign-sinh" = -27;
 "yansa-sign-sinh" = -31;
 };
 "yansa-sign-sinh" = {
@@ -4582,13 +4580,13 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -14;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -10;
 };
 "ba-sinh" = {
-"vocalicR-sign-sinh" = -7;
-"vocalicRr-sign-sinh" = -7;
+"vocalicr-sign-sinh" = -7;
+"vocalicrr-sign-sinh" = -7;
 "yansa-sign-sinh" = -10;
 };
 "ca-sinh" = {
@@ -4603,8 +4601,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "cha-sinh" = {
@@ -4612,8 +4610,8 @@ slash.sinh = 30;
 "aa-sign.al" = -34;
 "aae-sign-sinh" = -14;
 "ae-sign-sinh" = -14;
-"vocalicL-sign-sinh" = -19;
-"vocalicLl-sign-sinh" = -19;
+"vocalicl-sign-sinh" = -19;
+"vocalicll-sign-sinh" = -19;
 "yansa-sign-sinh" = -29;
 };
 "da-sinh" = {
@@ -4634,8 +4632,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -24;
 "ii-sign-sinh.alt2" = -24;
 parenright.sinh = 60;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 };
 "da-uu-sinh" = {
 "a-sinh" = -24;
@@ -4651,8 +4649,8 @@ parenright.sinh = 60;
 "ea-sinh" = -24;
 "i-sign-sinh.alt2" = -24;
 "ii-sign-sinh.alt2" = -24;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 };
 "da_dha-sinh" = {
 "aa-sign-sinh" = -7;
@@ -4671,8 +4669,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "da_va-i-sinh" = {
@@ -4687,8 +4685,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "da_va-ii-sinh" = {
@@ -4703,8 +4701,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "da_va-sinh" = {
@@ -4719,8 +4717,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "dda-sinh" = {
@@ -4752,8 +4750,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -14;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -10;
 };
 "ee-sinh" = {
@@ -4770,8 +4768,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -14;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -10;
 };
 "fa-sinh" = {
@@ -4795,8 +4793,8 @@ parenright.sinh = 60;
 "aae-sign-sinh" = -12;
 "ae-sign-sinh" = -12;
 "anusvara-sinh" = -3;
-"vocalicL-sign-sinh" = -22;
-"vocalicLl-sign-sinh" = -22;
+"vocalicl-sign-sinh" = -22;
+"vocalicll-sign-sinh" = -22;
 "yansa-sign-sinh" = -21;
 };
 "ha-sinh" = {
@@ -4822,8 +4820,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -24;
 "ii-sign-sinh.alt2" = 0;
 parenright.sinh = 60;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 };
 "ii-sign-sinh.alt2" = {
 "a-sinh" = -24;
@@ -4843,16 +4841,16 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -24;
 "ii-sign-sinh.alt2" = -24;
 parenright.sinh = 60;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 };
 "ja-sinh" = {
 "aa-sign-sinh" = -23;
 "aa-sign.al" = -23;
 "aae-sign-sinh" = -10;
 "ae-sign-sinh" = -10;
-"vocalicL-sign-sinh" = -17;
-"vocalicLl-sign-sinh" = -17;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
 "yansa-sign-sinh" = -27;
 };
 "jha-sinh" = {
@@ -4878,8 +4876,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -24;
 "ii-sign-sinh.alt2" = -24;
 parenright.sinh = 60;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 };
 "jnya-u-sinh" = {
 "a-sinh" = -24;
@@ -4895,8 +4893,8 @@ parenright.sinh = 60;
 "ea-sinh" = -24;
 "i-sign-sinh.alt2" = -24;
 "ii-sign-sinh.alt2" = -24;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 };
 "jnya-uu-sinh" = {
 "a-sinh" = -24;
@@ -4912,16 +4910,16 @@ parenright.sinh = 60;
 "ea-sinh" = -24;
 "i-sign-sinh.alt2" = -24;
 "ii-sign-sinh.alt2" = -24;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 };
 "ka-sinh" = {
 "aa-sign-sinh" = -41;
 "aa-sign.al" = -41;
-"vocalicL-sign-sinh" = -10;
-"vocalicLl-sign-sinh" = -10;
-"vocalicR-sign-sinh" = -5;
-"vocalicRr-sign-sinh" = -5;
+"vocalicl-sign-sinh" = -10;
+"vocalicll-sign-sinh" = -10;
+"vocalicr-sign-sinh" = -5;
+"vocalicrr-sign-sinh" = -5;
 "yansa-sign-sinh" = -29;
 };
 "ka_va-al-sinh" = {
@@ -4936,8 +4934,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "ka_va-i-sinh" = {
@@ -4952,8 +4950,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "ka_va-ii-sinh" = {
@@ -4968,8 +4966,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "ka_va-sinh" = {
@@ -4984,8 +4982,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "kha-sinh" = {
@@ -5022,8 +5020,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -14;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -10;
 };
 "ma-al-sinh" = {
@@ -5037,8 +5035,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -22;
 "uu-sinh" = -20;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -5;
 };
 "ma-i-sinh" = {
@@ -5052,8 +5050,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -22;
 "uu-sinh" = -20;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -5;
 };
 "ma-ii-sinh" = {
@@ -5067,8 +5065,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -22;
 "uu-sinh" = -20;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -5;
 };
 "ma-sinh" = {
@@ -5082,15 +5080,15 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -22;
 "uu-sinh" = -20;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -5;
 };
 "na-sinh" = {
 "aa-sign-sinh" = -32;
 "aa-sign.al" = -32;
-"vocalicL-sign-sinh" = -6;
-"vocalicLl-sign-sinh" = -6;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
 "yansa-sign-sinh" = -25;
 };
 "na_da-rakar-sinh" = {
@@ -5107,8 +5105,8 @@ parenright.sinh = 60;
 "ea-sinh" = -24;
 "i-sign-sinh.alt2" = -24;
 "ii-sign-sinh.alt2" = -24;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 };
 "na_da-sinh" = {
 "a-sinh" = -24;
@@ -5128,8 +5126,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -24;
 "ii-sign-sinh.alt2" = -24;
 parenright.sinh = 60;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 };
 "na_da-uu-sinh" = {
 "a-sinh" = -24;
@@ -5145,8 +5143,8 @@ parenright.sinh = 60;
 "ea-sinh" = -24;
 "i-sign-sinh.alt2" = -24;
 "ii-sign-sinh.alt2" = -24;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 };
 "na_dha-sinh" = {
 "aa-sign-sinh" = -7;
@@ -5167,8 +5165,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -14;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -10;
 };
 "na_va-al-sinh" = {
@@ -5183,8 +5181,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "na_va-i-sinh" = {
@@ -5199,8 +5197,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "na_va-ii-sinh" = {
@@ -5215,8 +5213,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "na_va-sinh" = {
@@ -5231,8 +5229,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "nda-sinh" = {
@@ -5253,8 +5251,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -24;
 "ii-sign-sinh.alt2" = -24;
 parenright.sinh = 60;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 };
 "nda-u-sinh" = {
 "a-sinh" = -24;
@@ -5270,8 +5268,8 @@ parenright.sinh = 60;
 "ea-sinh" = -24;
 "i-sign-sinh.alt2" = -24;
 "ii-sign-sinh.alt2" = -24;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 };
 "nda-uu-sinh" = {
 "a-sinh" = -24;
@@ -5287,8 +5285,8 @@ parenright.sinh = 60;
 "ea-sinh" = -24;
 "i-sign-sinh.alt2" = -24;
 "ii-sign-sinh.alt2" = -24;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 };
 "nga-sinh" = {
 "aa-sign-sinh" = -7;
@@ -5328,8 +5326,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -24;
 "ii-sign-sinh.alt2" = -24;
 parenright.sinh = 60;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 };
 "nya-u-sinh" = {
 "a-sinh" = -24;
@@ -5345,8 +5343,8 @@ parenright.sinh = 60;
 "ea-sinh" = -24;
 "i-sign-sinh.alt2" = -24;
 "ii-sign-sinh.alt2" = -24;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 };
 "nya-uu-sinh" = {
 "a-sinh" = -24;
@@ -5362,8 +5360,8 @@ parenright.sinh = 60;
 "ea-sinh" = -24;
 "i-sign-sinh.alt2" = -24;
 "ii-sign-sinh.alt2" = -24;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 };
 "nya_ca-al-sinh" = {
 "a-sinh" = -5;
@@ -5377,8 +5375,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "nya_ca-i-sinh" = {
@@ -5393,8 +5391,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "nya_ca-ii-sinh" = {
@@ -5409,8 +5407,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "nya_ca-sinh" = {
@@ -5425,8 +5423,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "nyja-sinh" = {
@@ -5434,8 +5432,8 @@ parenright.sinh = 60;
 "aa-sign.al" = -23;
 "aae-sign-sinh" = -10;
 "ae-sign-sinh" = -10;
-"vocalicL-sign-sinh" = -17;
-"vocalicLl-sign-sinh" = -17;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
 "yansa-sign-sinh" = -27;
 };
 "pa-sinh" = {
@@ -5443,8 +5441,8 @@ parenright.sinh = 60;
 "aa-sign.al" = -23;
 "aae-sign-sinh" = -10;
 "ae-sign-sinh" = -10;
-"vocalicL-sign-sinh" = -17;
-"vocalicLl-sign-sinh" = -17;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
 "yansa-sign-sinh" = -27;
 };
 "pha-sinh" = {
@@ -5461,8 +5459,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -14;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -10;
 };
 "ra-aae-sinh" = {
@@ -5496,8 +5494,8 @@ slash.sinh = 30;
 "ra-sinh" = {
 "aa-sign-sinh" = -40;
 "aa-sign.al" = -40;
-"vocalicL-sign-sinh" = -11;
-"vocalicLl-sign-sinh" = -11;
+"vocalicl-sign-sinh" = -11;
+"vocalicll-sign-sinh" = -11;
 "yansa-sign-sinh" = -35;
 };
 "sa-sinh" = {
@@ -5506,8 +5504,8 @@ slash.sinh = 30;
 "aae-sign-sinh" = -12;
 "ae-sign-sinh" = -12;
 "anusvara-sinh" = -3;
-"vocalicL-sign-sinh" = -22;
-"vocalicLl-sign-sinh" = -22;
+"vocalicl-sign-sinh" = -22;
+"vocalicll-sign-sinh" = -22;
 "yansa-sign-sinh" = -21;
 };
 "sha-sinh" = {
@@ -5515,8 +5513,8 @@ slash.sinh = 30;
 "aa-sign.al" = -21;
 "lla-sinh" = -8;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -10;
-"vocalicRr-sign-sinh" = -10;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
 "yansa-sign-sinh" = -21;
 };
 "sha-u-sinh" = {
@@ -5524,8 +5522,8 @@ slash.sinh = 30;
 "aa-sign.al" = -21;
 "lla-sinh" = -8;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -10;
-"vocalicRr-sign-sinh" = -10;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
 "yansa-sign-sinh" = -21;
 };
 "sha-uu-sinh" = {
@@ -5533,8 +5531,8 @@ slash.sinh = 30;
 "aa-sign.al" = -21;
 "lla-sinh" = -8;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -10;
-"vocalicRr-sign-sinh" = -10;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
 "yansa-sign-sinh" = -21;
 };
 "ssa-sinh" = {
@@ -5542,15 +5540,15 @@ slash.sinh = 30;
 "aa-sign.al" = -23;
 "aae-sign-sinh" = -10;
 "ae-sign-sinh" = -10;
-"vocalicL-sign-sinh" = -17;
-"vocalicLl-sign-sinh" = -17;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
 "yansa-sign-sinh" = -27;
 };
 "ta-sinh" = {
 "aa-sign-sinh" = -32;
 "aa-sign.al" = -32;
-"vocalicL-sign-sinh" = -6;
-"vocalicLl-sign-sinh" = -6;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
 "yansa-sign-sinh" = -25;
 };
 "ta_tha-sinh" = {
@@ -5567,8 +5565,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -14;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -10;
 };
 "ta_va-al-sinh" = {
@@ -5583,8 +5581,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "ta_va-i-sinh" = {
@@ -5599,8 +5597,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "ta_va-ii-sinh" = {
@@ -5615,8 +5613,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "ta_va-sinh" = {
@@ -5631,8 +5629,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "tha-sinh" = {
@@ -5649,8 +5647,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -14;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -10;
 };
 "tta-sinh" = {
@@ -5665,8 +5663,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "tta_ttha-sinh" = {
@@ -5691,8 +5689,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -5;
 "lla-sinh" = -20;
 "uu-sinh" = -18;
-"vocalicR-sign-sinh" = -19;
-"vocalicRr-sign-sinh" = -19;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
 "yansa-sign-sinh" = -8;
 };
 "ya-sinh" = {
@@ -5701,8 +5699,8 @@ slash.sinh = 30;
 "aae-sign-sinh" = -12;
 "ae-sign-sinh" = -12;
 "anusvara-sinh" = -3;
-"vocalicL-sign-sinh" = -22;
-"vocalicLl-sign-sinh" = -22;
+"vocalicl-sign-sinh" = -22;
+"vocalicll-sign-sinh" = -22;
 "yansa-sign-sinh" = -21;
 };
 "yansa-sign-sinh" = {
@@ -5741,8 +5739,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -13;
 "lla-sinh" = -15;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -10;
 };
 "al-sign-sinh" = {
@@ -5752,8 +5750,8 @@ slash.sinh = 30;
 "va-i-sinh" = 20;
 };
 "ba-sinh" = {
-"vocalicR-sign-sinh" = -12;
-"vocalicRr-sign-sinh" = -12;
+"vocalicr-sign-sinh" = -12;
+"vocalicrr-sign-sinh" = -12;
 "yansa-sign-sinh" = -8;
 };
 "ca-sinh" = {
@@ -5768,8 +5766,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "cha-sinh" = {
@@ -5777,8 +5775,8 @@ slash.sinh = 30;
 "aa-sign.al" = -31;
 "aae-sign-sinh" = -10;
 "ae-sign-sinh" = -10;
-"vocalicL-sign-sinh" = -19;
-"vocalicLl-sign-sinh" = -19;
+"vocalicl-sign-sinh" = -19;
+"vocalicll-sign-sinh" = -19;
 "yansa-sign-sinh" = -27;
 };
 "da-sinh" = {
@@ -5799,8 +5797,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -21;
 "ii-sign-sinh.alt2" = -21;
 parenright.sinh = 60;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = 3;
 };
 "da-uu-sinh" = {
@@ -5817,15 +5815,15 @@ parenright.sinh = 60;
 "ea-sinh" = -21;
 "i-sign-sinh.alt2" = -21;
 "ii-sign-sinh.alt2" = -21;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = 3;
 };
 "da_dha-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -8;
 };
 "da_va-al-sinh" = {
@@ -5840,8 +5838,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "da_va-i-sinh" = {
@@ -5856,8 +5854,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "da_va-ii-sinh" = {
@@ -5872,8 +5870,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "da_va-sinh" = {
@@ -5888,29 +5886,29 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "dda-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -8;
 };
 "ddha-sinh" = {
 "aa-sign-sinh" = -14;
 "aa-sign.al" = -14;
-"vocalicR-sign-sinh" = -7;
-"vocalicRr-sign-sinh" = -7;
+"vocalicr-sign-sinh" = -7;
+"vocalicrr-sign-sinh" = -7;
 "yansa-sign-sinh" = -16;
 };
 "dha-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -8;
 };
 "e-sinh" = {
@@ -5925,8 +5923,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -13;
 "lla-sinh" = -15;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -10;
 };
 "ee-sinh" = {
@@ -5941,8 +5939,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -13;
 "lla-sinh" = -15;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -10;
 };
 "fa-sinh" = {
@@ -5958,8 +5956,8 @@ parenright.sinh = 60;
 "ga_dha-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -8;
 };
 "gha-sinh" = {
@@ -5968,8 +5966,8 @@ parenright.sinh = 60;
 "aae-sign-sinh" = -7;
 "ae-sign-sinh" = -7;
 "anusvara-sinh" = -5;
-"vocalicL-sign-sinh" = -27;
-"vocalicLl-sign-sinh" = -27;
+"vocalicl-sign-sinh" = -27;
+"vocalicll-sign-sinh" = -27;
 "yansa-sign-sinh" = -17;
 };
 "ha-sinh" = {
@@ -5995,8 +5993,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -21;
 "ii-sign-sinh.alt2" = -21;
 parenright.sinh = 60;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = 3;
 };
 "ii-sign-sinh.alt2" = {
@@ -6017,8 +6015,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -21;
 "ii-sign-sinh.alt2" = -21;
 parenright.sinh = 60;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = 3;
 };
 "ja-sinh" = {
@@ -6026,15 +6024,15 @@ parenright.sinh = 60;
 "aa-sign.al" = -21;
 "aae-sign-sinh" = -10;
 "ae-sign-sinh" = -10;
-"vocalicL-sign-sinh" = -15;
-"vocalicLl-sign-sinh" = -15;
+"vocalicl-sign-sinh" = -15;
+"vocalicll-sign-sinh" = -15;
 "yansa-sign-sinh" = -18;
 };
 "jha-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -8;
 };
 "jnya-sinh" = {
@@ -6055,8 +6053,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -21;
 "ii-sign-sinh.alt2" = -21;
 parenright.sinh = 60;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = 3;
 };
 "jnya-u-sinh" = {
@@ -6073,8 +6071,8 @@ parenright.sinh = 60;
 "ea-sinh" = -21;
 "i-sign-sinh.alt2" = -21;
 "ii-sign-sinh.alt2" = -21;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = 3;
 };
 "jnya-uu-sinh" = {
@@ -6091,17 +6089,17 @@ parenright.sinh = 60;
 "ea-sinh" = -21;
 "i-sign-sinh.alt2" = -21;
 "ii-sign-sinh.alt2" = -21;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = 3;
 };
 "ka-sinh" = {
 "aa-sign-sinh" = -34;
 "aa-sign.al" = -34;
-"vocalicL-sign-sinh" = -8;
-"vocalicLl-sign-sinh" = -8;
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicl-sign-sinh" = -8;
+"vocalicll-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 "yansa-sign-sinh" = -25;
 };
 "ka_va-al-sinh" = {
@@ -6116,8 +6114,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "ka_va-i-sinh" = {
@@ -6132,8 +6130,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "ka_va-ii-sinh" = {
@@ -6148,8 +6146,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "ka_va-sinh" = {
@@ -6164,13 +6162,13 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "kha-sinh" = {
-"vocalicR-sign-sinh" = -6;
-"vocalicRr-sign-sinh" = -6;
+"vocalicr-sign-sinh" = -6;
+"vocalicrr-sign-sinh" = -6;
 "yansa-sign-sinh" = -10;
 };
 "la-sinh" = {
@@ -6204,8 +6202,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -13;
 "lla-sinh" = -15;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -10;
 };
 "ma-al-sinh" = {
@@ -6219,8 +6217,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -11;
 "lla-sinh" = -14;
 "uu-sinh" = -21;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -3;
 };
 "ma-i-sinh" = {
@@ -6234,8 +6232,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -11;
 "lla-sinh" = -14;
 "uu-sinh" = -21;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -3;
 };
 "ma-ii-sinh" = {
@@ -6249,8 +6247,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -11;
 "lla-sinh" = -14;
 "uu-sinh" = -21;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -3;
 };
 "ma-sinh" = {
@@ -6264,17 +6262,17 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -11;
 "lla-sinh" = -14;
 "uu-sinh" = -21;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -3;
 };
 "na-sinh" = {
 "aa-sign-sinh" = -27;
 "aa-sign.al" = -27;
-"vocalicL-sign-sinh" = -3;
-"vocalicLl-sign-sinh" = -3;
-"vocalicR-sign-sinh" = -5;
-"vocalicRr-sign-sinh" = -5;
+"vocalicl-sign-sinh" = -3;
+"vocalicll-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -5;
+"vocalicrr-sign-sinh" = -5;
 "yansa-sign-sinh" = -23;
 };
 "na_da-rakar-sinh" = {
@@ -6291,8 +6289,8 @@ parenright.sinh = 60;
 "ea-sinh" = -21;
 "i-sign-sinh.alt2" = -21;
 "ii-sign-sinh.alt2" = -21;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = 3;
 };
 "na_da-sinh" = {
@@ -6313,8 +6311,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -21;
 "ii-sign-sinh.alt2" = -21;
 parenright.sinh = 60;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = 3;
 };
 "na_da-uu-sinh" = {
@@ -6331,15 +6329,15 @@ parenright.sinh = 60;
 "ea-sinh" = -21;
 "i-sign-sinh.alt2" = -21;
 "ii-sign-sinh.alt2" = -21;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = 3;
 };
 "na_dha-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -8;
 };
 "na_tha-sinh" = {
@@ -6354,8 +6352,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -13;
 "lla-sinh" = -15;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -10;
 };
 "na_va-al-sinh" = {
@@ -6370,8 +6368,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "na_va-i-sinh" = {
@@ -6386,8 +6384,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "na_va-ii-sinh" = {
@@ -6402,8 +6400,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "na_va-sinh" = {
@@ -6418,8 +6416,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "nda-sinh" = {
@@ -6440,8 +6438,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -21;
 "ii-sign-sinh.alt2" = -21;
 parenright.sinh = 60;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = 3;
 };
 "nda-u-sinh" = {
@@ -6458,8 +6456,8 @@ parenright.sinh = 60;
 "ea-sinh" = -21;
 "i-sign-sinh.alt2" = -21;
 "ii-sign-sinh.alt2" = -21;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = 3;
 };
 "nda-uu-sinh" = {
@@ -6476,15 +6474,15 @@ parenright.sinh = 60;
 "ea-sinh" = -21;
 "i-sign-sinh.alt2" = -21;
 "ii-sign-sinh.alt2" = -21;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = 3;
 };
 "nga-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -8;
 };
 "ngga-sinh" = {
@@ -6500,8 +6498,8 @@ parenright.sinh = 60;
 "nndda-sinh" = {
 "aa-sign-sinh" = -5;
 "aa-sign.al" = -5;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -8;
 };
 "nya-sinh" = {
@@ -6522,8 +6520,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -21;
 "ii-sign-sinh.alt2" = -21;
 parenright.sinh = 60;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = 3;
 };
 "nya-u-sinh" = {
@@ -6540,8 +6538,8 @@ parenright.sinh = 60;
 "ea-sinh" = -21;
 "i-sign-sinh.alt2" = -21;
 "ii-sign-sinh.alt2" = -21;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = 3;
 };
 "nya-uu-sinh" = {
@@ -6558,8 +6556,8 @@ parenright.sinh = 60;
 "ea-sinh" = -21;
 "i-sign-sinh.alt2" = -21;
 "ii-sign-sinh.alt2" = -21;
-"vocalicR-sign-sinh" = -3;
-"vocalicRr-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
 "yansa-sign-sinh" = 3;
 };
 "nya_ca-al-sinh" = {
@@ -6574,8 +6572,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "nya_ca-i-sinh" = {
@@ -6590,8 +6588,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "nya_ca-ii-sinh" = {
@@ -6606,8 +6604,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "nya_ca-sinh" = {
@@ -6622,8 +6620,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "nyja-sinh" = {
@@ -6631,8 +6629,8 @@ parenright.sinh = 60;
 "aa-sign.al" = -21;
 "aae-sign-sinh" = -10;
 "ae-sign-sinh" = -10;
-"vocalicL-sign-sinh" = -15;
-"vocalicLl-sign-sinh" = -15;
+"vocalicl-sign-sinh" = -15;
+"vocalicll-sign-sinh" = -15;
 "yansa-sign-sinh" = -18;
 };
 "pa-sinh" = {
@@ -6640,8 +6638,8 @@ parenright.sinh = 60;
 "aa-sign.al" = -21;
 "aae-sign-sinh" = -10;
 "ae-sign-sinh" = -10;
-"vocalicL-sign-sinh" = -15;
-"vocalicLl-sign-sinh" = -15;
+"vocalicl-sign-sinh" = -15;
+"vocalicll-sign-sinh" = -15;
 "yansa-sign-sinh" = -18;
 };
 "pha-sinh" = {
@@ -6656,8 +6654,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -13;
 "lla-sinh" = -15;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -10;
 };
 "ra-aae-sinh" = {
@@ -6691,8 +6689,8 @@ slash.sinh = 30;
 "ra-sinh" = {
 "aa-sign-sinh" = -35;
 "aa-sign.al" = -35;
-"vocalicL-sign-sinh" = -9;
-"vocalicLl-sign-sinh" = -9;
+"vocalicl-sign-sinh" = -9;
+"vocalicll-sign-sinh" = -9;
 "yansa-sign-sinh" = -29;
 };
 "sa-sinh" = {
@@ -6701,8 +6699,8 @@ slash.sinh = 30;
 "aae-sign-sinh" = -7;
 "ae-sign-sinh" = -7;
 "anusvara-sinh" = -5;
-"vocalicL-sign-sinh" = -27;
-"vocalicLl-sign-sinh" = -27;
+"vocalicl-sign-sinh" = -27;
+"vocalicll-sign-sinh" = -27;
 "yansa-sign-sinh" = -17;
 };
 "sha-sinh" = {
@@ -6710,8 +6708,8 @@ slash.sinh = 30;
 "aa-sign.al" = -17;
 "lla-sinh" = -12;
 "uu-sinh" = -9;
-"vocalicR-sign-sinh" = -10;
-"vocalicRr-sign-sinh" = -10;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
 "yansa-sign-sinh" = -19;
 };
 "sha-u-sinh" = {
@@ -6719,8 +6717,8 @@ slash.sinh = 30;
 "aa-sign.al" = -17;
 "lla-sinh" = -12;
 "uu-sinh" = -9;
-"vocalicR-sign-sinh" = -10;
-"vocalicRr-sign-sinh" = -10;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
 "yansa-sign-sinh" = -19;
 };
 "sha-uu-sinh" = {
@@ -6728,8 +6726,8 @@ slash.sinh = 30;
 "aa-sign.al" = -17;
 "lla-sinh" = -12;
 "uu-sinh" = -9;
-"vocalicR-sign-sinh" = -10;
-"vocalicRr-sign-sinh" = -10;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
 "yansa-sign-sinh" = -19;
 };
 "ssa-sinh" = {
@@ -6737,17 +6735,17 @@ slash.sinh = 30;
 "aa-sign.al" = -21;
 "aae-sign-sinh" = -10;
 "ae-sign-sinh" = -10;
-"vocalicL-sign-sinh" = -15;
-"vocalicLl-sign-sinh" = -15;
+"vocalicl-sign-sinh" = -15;
+"vocalicll-sign-sinh" = -15;
 "yansa-sign-sinh" = -18;
 };
 "ta-sinh" = {
 "aa-sign-sinh" = -27;
 "aa-sign.al" = -27;
-"vocalicL-sign-sinh" = -3;
-"vocalicLl-sign-sinh" = -3;
-"vocalicR-sign-sinh" = -5;
-"vocalicRr-sign-sinh" = -5;
+"vocalicl-sign-sinh" = -3;
+"vocalicll-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -5;
+"vocalicrr-sign-sinh" = -5;
 "yansa-sign-sinh" = -23;
 };
 "ta_tha-sinh" = {
@@ -6762,8 +6760,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -13;
 "lla-sinh" = -15;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -10;
 };
 "ta_va-al-sinh" = {
@@ -6778,8 +6776,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "ta_va-i-sinh" = {
@@ -6794,8 +6792,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "ta_va-ii-sinh" = {
@@ -6810,8 +6808,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "ta_va-sinh" = {
@@ -6826,8 +6824,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "tha-sinh" = {
@@ -6842,8 +6840,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -13;
 "lla-sinh" = -15;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -20;
-"vocalicRr-sign-sinh" = -20;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
 "yansa-sign-sinh" = -10;
 };
 "tta-sinh" = {
@@ -6858,22 +6856,22 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "tta_ttha-sinh" = {
 "aa-sign-sinh" = -14;
 "aa-sign.al" = -14;
-"vocalicR-sign-sinh" = -7;
-"vocalicRr-sign-sinh" = -7;
+"vocalicr-sign-sinh" = -7;
+"vocalicrr-sign-sinh" = -7;
 "yansa-sign-sinh" = -16;
 };
 "ttha-sinh" = {
 "aa-sign-sinh" = -14;
 "aa-sign.al" = -14;
-"vocalicR-sign-sinh" = -7;
-"vocalicRr-sign-sinh" = -7;
+"vocalicr-sign-sinh" = -7;
+"vocalicrr-sign-sinh" = -7;
 "yansa-sign-sinh" = -16;
 };
 "va-sinh" = {
@@ -6888,8 +6886,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -15;
 "lla-sinh" = -20;
 "uu-sinh" = -14;
-"vocalicR-sign-sinh" = -22;
-"vocalicRr-sign-sinh" = -22;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
 "yansa-sign-sinh" = -6;
 };
 "ya-sinh" = {
@@ -6898,8 +6896,8 @@ slash.sinh = 30;
 "aae-sign-sinh" = -7;
 "ae-sign-sinh" = -7;
 "anusvara-sinh" = -5;
-"vocalicL-sign-sinh" = -27;
-"vocalicLl-sign-sinh" = -27;
+"vocalicl-sign-sinh" = -27;
+"vocalicll-sign-sinh" = -27;
 "yansa-sign-sinh" = -17;
 };
 "yansa-sign-sinh" = {
@@ -6940,13 +6938,13 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -31;
 "uu-sinh" = -20;
-"vocalicR-sign-sinh" = -16;
-"vocalicRr-sign-sinh" = -16;
+"vocalicr-sign-sinh" = -16;
+"vocalicrr-sign-sinh" = -16;
 "yansa-sign-sinh" = -3;
 };
 "ba-sinh" = {
-"vocalicR-sign-sinh" = -4;
-"vocalicRr-sign-sinh" = -4;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
 "yansa-sign-sinh" = -7;
 };
 "ca-sinh" = {
@@ -6961,8 +6959,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "cha-sinh" = {
@@ -6970,8 +6968,8 @@ slash.sinh = 30;
 "aa-sign.al" = -20;
 "aae-sign-sinh" = -10;
 "ae-sign-sinh" = -10;
-"vocalicL-sign-sinh" = -6;
-"vocalicLl-sign-sinh" = -6;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
 "yansa-sign-sinh" = -13;
 };
 "da-sinh" = {
@@ -6992,8 +6990,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -12;
 "ii-sign-sinh.alt2" = -12;
 parenright.sinh = 60;
-"vocalicL-sign-sinh" = 4;
-"vocalicLl-sign-sinh" = 4;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
 };
 "da-uu-sinh" = {
 "a-sinh" = -12;
@@ -7009,8 +7007,8 @@ parenright.sinh = 60;
 "ea-sinh" = -12;
 "i-sign-sinh.alt2" = -12;
 "ii-sign-sinh.alt2" = -12;
-"vocalicL-sign-sinh" = 4;
-"vocalicLl-sign-sinh" = 4;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
 };
 "da_dha-sinh" = {
 "aa-sign-sinh" = -7;
@@ -7029,8 +7027,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "da_va-i-sinh" = {
@@ -7045,8 +7043,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "da_va-ii-sinh" = {
@@ -7061,8 +7059,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "da_va-sinh" = {
@@ -7077,8 +7075,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "dda-sinh" = {
@@ -7108,8 +7106,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -31;
 "uu-sinh" = -20;
-"vocalicR-sign-sinh" = -16;
-"vocalicRr-sign-sinh" = -16;
+"vocalicr-sign-sinh" = -16;
+"vocalicrr-sign-sinh" = -16;
 "yansa-sign-sinh" = -3;
 };
 "ee-sinh" = {
@@ -7124,8 +7122,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -31;
 "uu-sinh" = -20;
-"vocalicR-sign-sinh" = -16;
-"vocalicRr-sign-sinh" = -16;
+"vocalicr-sign-sinh" = -16;
+"vocalicrr-sign-sinh" = -16;
 "yansa-sign-sinh" = -3;
 };
 "fa-sinh" = {
@@ -7149,8 +7147,8 @@ parenright.sinh = 60;
 "aae-sign-sinh" = -6;
 "ae-sign-sinh" = -6;
 "anusvara-sinh" = -3;
-"vocalicL-sign-sinh" = -17;
-"vocalicLl-sign-sinh" = -17;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
 "yansa-sign-sinh" = -16;
 };
 "ha-sinh" = {
@@ -7176,8 +7174,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -8;
 "ii-sign-sinh.alt2" = -12;
 parenright.sinh = 60;
-"vocalicL-sign-sinh" = 4;
-"vocalicLl-sign-sinh" = 4;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
 };
 "ii-sign-sinh.alt2" = {
 "a-sinh" = -12;
@@ -7197,16 +7195,16 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -12;
 "ii-sign-sinh.alt2" = -12;
 parenright.sinh = 60;
-"vocalicL-sign-sinh" = 4;
-"vocalicLl-sign-sinh" = 4;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
 };
 "ja-sinh" = {
 "aa-sign-sinh" = -16;
 "aa-sign.al" = -16;
 "aae-sign-sinh" = -7;
 "ae-sign-sinh" = -7;
-"vocalicL-sign-sinh" = -6;
-"vocalicLl-sign-sinh" = -6;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
 "yansa-sign-sinh" = -7;
 };
 "jha-sinh" = {
@@ -7232,8 +7230,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -12;
 "ii-sign-sinh.alt2" = -12;
 parenright.sinh = 60;
-"vocalicL-sign-sinh" = 4;
-"vocalicLl-sign-sinh" = 4;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
 };
 "jnya-u-sinh" = {
 "a-sinh" = -12;
@@ -7249,8 +7247,8 @@ parenright.sinh = 60;
 "ea-sinh" = -12;
 "i-sign-sinh.alt2" = -12;
 "ii-sign-sinh.alt2" = -12;
-"vocalicL-sign-sinh" = 4;
-"vocalicLl-sign-sinh" = 4;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
 };
 "jnya-uu-sinh" = {
 "a-sinh" = -12;
@@ -7266,18 +7264,18 @@ parenright.sinh = 60;
 "ea-sinh" = -12;
 "i-sign-sinh.alt2" = -12;
 "ii-sign-sinh.alt2" = -12;
-"vocalicL-sign-sinh" = 4;
-"vocalicLl-sign-sinh" = 4;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
 };
 "ka-sinh" = {
 "aa-sign-sinh" = -37;
 "aa-sign.al" = -37;
 "aae-sign-sinh" = -3;
 "ae-sign-sinh" = -3;
-"vocalicL-sign-sinh" = -9;
-"vocalicLl-sign-sinh" = -9;
-"vocalicR-sign-sinh" = -5;
-"vocalicRr-sign-sinh" = -5;
+"vocalicl-sign-sinh" = -9;
+"vocalicll-sign-sinh" = -9;
+"vocalicr-sign-sinh" = -5;
+"vocalicrr-sign-sinh" = -5;
 "yansa-sign-sinh" = -29;
 };
 "ka_va-al-sinh" = {
@@ -7292,8 +7290,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "ka_va-i-sinh" = {
@@ -7308,8 +7306,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "ka_va-ii-sinh" = {
@@ -7324,8 +7322,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "ka_va-sinh" = {
@@ -7340,8 +7338,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "kha-sinh" = {
@@ -7378,8 +7376,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -31;
 "uu-sinh" = -20;
-"vocalicR-sign-sinh" = -16;
-"vocalicRr-sign-sinh" = -16;
+"vocalicr-sign-sinh" = -16;
+"vocalicrr-sign-sinh" = -16;
 "yansa-sign-sinh" = -3;
 };
 "ma-al-sinh" = {
@@ -7393,8 +7391,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -27;
 "uu-sinh" = -26;
-"vocalicR-sign-sinh" = -11;
-"vocalicRr-sign-sinh" = -11;
+"vocalicr-sign-sinh" = -11;
+"vocalicrr-sign-sinh" = -11;
 "yansa-sign-sinh" = -2;
 };
 "ma-i-sinh" = {
@@ -7408,8 +7406,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -27;
 "uu-sinh" = -26;
-"vocalicR-sign-sinh" = -11;
-"vocalicRr-sign-sinh" = -11;
+"vocalicr-sign-sinh" = -11;
+"vocalicrr-sign-sinh" = -11;
 "yansa-sign-sinh" = -2;
 };
 "ma-ii-sinh" = {
@@ -7423,8 +7421,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -27;
 "uu-sinh" = -26;
-"vocalicR-sign-sinh" = -11;
-"vocalicRr-sign-sinh" = -11;
+"vocalicr-sign-sinh" = -11;
+"vocalicrr-sign-sinh" = -11;
 "yansa-sign-sinh" = -2;
 };
 "ma-sinh" = {
@@ -7438,15 +7436,15 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -7;
 "lla-sinh" = -27;
 "uu-sinh" = -26;
-"vocalicR-sign-sinh" = -11;
-"vocalicRr-sign-sinh" = -11;
+"vocalicr-sign-sinh" = -11;
+"vocalicrr-sign-sinh" = -11;
 "yansa-sign-sinh" = -2;
 };
 "na-sinh" = {
 "aa-sign-sinh" = -33;
 "aa-sign.al" = -33;
-"vocalicL-sign-sinh" = -5;
-"vocalicLl-sign-sinh" = -5;
+"vocalicl-sign-sinh" = -5;
+"vocalicll-sign-sinh" = -5;
 "yansa-sign-sinh" = -31;
 };
 "na_da-rakar-sinh" = {
@@ -7463,8 +7461,8 @@ parenright.sinh = 60;
 "ea-sinh" = -12;
 "i-sign-sinh.alt2" = -12;
 "ii-sign-sinh.alt2" = -12;
-"vocalicL-sign-sinh" = 4;
-"vocalicLl-sign-sinh" = 4;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
 };
 "na_da-sinh" = {
 "a-sinh" = -12;
@@ -7484,8 +7482,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -12;
 "ii-sign-sinh.alt2" = -12;
 parenright.sinh = 60;
-"vocalicL-sign-sinh" = 4;
-"vocalicLl-sign-sinh" = 4;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
 };
 "na_da-uu-sinh" = {
 "a-sinh" = -12;
@@ -7501,8 +7499,8 @@ parenright.sinh = 60;
 "ea-sinh" = -12;
 "i-sign-sinh.alt2" = -12;
 "ii-sign-sinh.alt2" = -12;
-"vocalicL-sign-sinh" = 4;
-"vocalicLl-sign-sinh" = 4;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
 };
 "na_dha-sinh" = {
 "aa-sign-sinh" = -7;
@@ -7521,8 +7519,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -31;
 "uu-sinh" = -20;
-"vocalicR-sign-sinh" = -16;
-"vocalicRr-sign-sinh" = -16;
+"vocalicr-sign-sinh" = -16;
+"vocalicrr-sign-sinh" = -16;
 "yansa-sign-sinh" = -3;
 };
 "na_va-al-sinh" = {
@@ -7537,8 +7535,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "na_va-i-sinh" = {
@@ -7553,8 +7551,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "na_va-ii-sinh" = {
@@ -7569,8 +7567,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "na_va-sinh" = {
@@ -7585,8 +7583,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "nda-sinh" = {
@@ -7607,8 +7605,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -12;
 "ii-sign-sinh.alt2" = -12;
 parenright.sinh = 60;
-"vocalicL-sign-sinh" = 4;
-"vocalicLl-sign-sinh" = 4;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
 };
 "nda-u-sinh" = {
 "a-sinh" = -12;
@@ -7624,8 +7622,8 @@ parenright.sinh = 60;
 "ea-sinh" = -12;
 "i-sign-sinh.alt2" = -12;
 "ii-sign-sinh.alt2" = -12;
-"vocalicL-sign-sinh" = 4;
-"vocalicLl-sign-sinh" = 4;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
 };
 "nda-uu-sinh" = {
 "a-sinh" = -12;
@@ -7641,8 +7639,8 @@ parenright.sinh = 60;
 "ea-sinh" = -12;
 "i-sign-sinh.alt2" = -12;
 "ii-sign-sinh.alt2" = -12;
-"vocalicL-sign-sinh" = 4;
-"vocalicLl-sign-sinh" = 4;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
 };
 "nga-sinh" = {
 "aa-sign-sinh" = -7;
@@ -7682,8 +7680,8 @@ bracketright.sinh = 60;
 "i-sign-sinh.alt2" = -12;
 "ii-sign-sinh.alt2" = -12;
 parenright.sinh = 60;
-"vocalicL-sign-sinh" = 4;
-"vocalicLl-sign-sinh" = 4;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
 };
 "nya-u-sinh" = {
 "a-sinh" = -12;
@@ -7699,8 +7697,8 @@ parenright.sinh = 60;
 "ea-sinh" = -12;
 "i-sign-sinh.alt2" = -12;
 "ii-sign-sinh.alt2" = -12;
-"vocalicL-sign-sinh" = 4;
-"vocalicLl-sign-sinh" = 4;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
 };
 "nya-uu-sinh" = {
 "a-sinh" = -12;
@@ -7716,8 +7714,8 @@ parenright.sinh = 60;
 "ea-sinh" = -12;
 "i-sign-sinh.alt2" = -12;
 "ii-sign-sinh.alt2" = -12;
-"vocalicL-sign-sinh" = 4;
-"vocalicLl-sign-sinh" = 4;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
 };
 "nya_ca-al-sinh" = {
 "a-sinh" = -6;
@@ -7731,8 +7729,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "nya_ca-i-sinh" = {
@@ -7747,8 +7745,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "nya_ca-ii-sinh" = {
@@ -7763,8 +7761,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "nya_ca-sinh" = {
@@ -7779,8 +7777,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "nyja-sinh" = {
@@ -7788,8 +7786,8 @@ parenright.sinh = 60;
 "aa-sign.al" = -16;
 "aae-sign-sinh" = -7;
 "ae-sign-sinh" = -7;
-"vocalicL-sign-sinh" = -6;
-"vocalicLl-sign-sinh" = -6;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
 "yansa-sign-sinh" = -7;
 };
 "pa-sinh" = {
@@ -7797,8 +7795,8 @@ parenright.sinh = 60;
 "aa-sign.al" = -16;
 "aae-sign-sinh" = -7;
 "ae-sign-sinh" = -7;
-"vocalicL-sign-sinh" = -6;
-"vocalicLl-sign-sinh" = -6;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
 "yansa-sign-sinh" = -7;
 };
 "pha-sinh" = {
@@ -7813,8 +7811,8 @@ parenright.sinh = 60;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -31;
 "uu-sinh" = -20;
-"vocalicR-sign-sinh" = -16;
-"vocalicRr-sign-sinh" = -16;
+"vocalicr-sign-sinh" = -16;
+"vocalicrr-sign-sinh" = -16;
 "yansa-sign-sinh" = -3;
 };
 "ra-aae-sinh" = {
@@ -7856,8 +7854,8 @@ slash.sinh = 30;
 "aae-sign-sinh" = -6;
 "ae-sign-sinh" = -6;
 "anusvara-sinh" = -3;
-"vocalicL-sign-sinh" = -17;
-"vocalicLl-sign-sinh" = -17;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
 "yansa-sign-sinh" = -16;
 };
 "sha-sinh" = {
@@ -7865,8 +7863,8 @@ slash.sinh = 30;
 "aa-sign.al" = -27;
 "lla-sinh" = -13;
 "uu-sinh" = -7;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -20;
 };
 "sha-u-sinh" = {
@@ -7874,8 +7872,8 @@ slash.sinh = 30;
 "aa-sign.al" = -27;
 "lla-sinh" = -13;
 "uu-sinh" = -7;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -20;
 };
 "sha-uu-sinh" = {
@@ -7883,8 +7881,8 @@ slash.sinh = 30;
 "aa-sign.al" = -27;
 "lla-sinh" = -13;
 "uu-sinh" = -7;
-"vocalicR-sign-sinh" = -8;
-"vocalicRr-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
 "yansa-sign-sinh" = -20;
 };
 "ssa-sinh" = {
@@ -7892,15 +7890,15 @@ slash.sinh = 30;
 "aa-sign.al" = -16;
 "aae-sign-sinh" = -7;
 "ae-sign-sinh" = -7;
-"vocalicL-sign-sinh" = -6;
-"vocalicLl-sign-sinh" = -6;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
 "yansa-sign-sinh" = -7;
 };
 "ta-sinh" = {
 "aa-sign-sinh" = -33;
 "aa-sign.al" = -33;
-"vocalicL-sign-sinh" = -5;
-"vocalicLl-sign-sinh" = -5;
+"vocalicl-sign-sinh" = -5;
+"vocalicll-sign-sinh" = -5;
 "yansa-sign-sinh" = -31;
 };
 "ta_tha-sinh" = {
@@ -7915,8 +7913,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -31;
 "uu-sinh" = -20;
-"vocalicR-sign-sinh" = -16;
-"vocalicRr-sign-sinh" = -16;
+"vocalicr-sign-sinh" = -16;
+"vocalicrr-sign-sinh" = -16;
 "yansa-sign-sinh" = -3;
 };
 "ta_va-al-sinh" = {
@@ -7931,8 +7929,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "ta_va-i-sinh" = {
@@ -7947,8 +7945,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "ta_va-ii-sinh" = {
@@ -7963,8 +7961,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "ta_va-sinh" = {
@@ -7979,8 +7977,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "tha-sinh" = {
@@ -7995,8 +7993,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -31;
 "uu-sinh" = -20;
-"vocalicR-sign-sinh" = -16;
-"vocalicRr-sign-sinh" = -16;
+"vocalicr-sign-sinh" = -16;
+"vocalicrr-sign-sinh" = -16;
 "yansa-sign-sinh" = -3;
 };
 "tta-sinh" = {
@@ -8011,8 +8009,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "tta_ttha-sinh" = {
@@ -8037,8 +8035,8 @@ slash.sinh = 30;
 "ii-sign-sinh.alt2" = -6;
 "lla-sinh" = -29;
 "uu-sinh" = -24;
-"vocalicR-sign-sinh" = -18;
-"vocalicRr-sign-sinh" = -18;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
 "yansa-sign-sinh" = -1;
 };
 "ya-sinh" = {
@@ -8047,8 +8045,8 @@ slash.sinh = 30;
 "aae-sign-sinh" = -6;
 "ae-sign-sinh" = -6;
 "anusvara-sinh" = -3;
-"vocalicL-sign-sinh" = -17;
-"vocalicLl-sign-sinh" = -17;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
 "yansa-sign-sinh" = -16;
 };
 "yansa-sign-sinh" = {

@@ -7,7 +7,7 @@ components = (
 name = "u-sinh";
 },
 {
-name = "vocalicL-sign-sinh";
+name = "vocalicl-sign-sinh";
 transform = "{1, 0, 0, 1, 646, 0}";
 }
 );
@@ -20,7 +20,7 @@ components = (
 name = "u-sinh";
 },
 {
-name = "vocalicL-sign-sinh";
+name = "vocalicl-sign-sinh";
 transform = "{1, 0, 0, 1, 698, 0}";
 }
 );
@@ -33,7 +33,7 @@ components = (
 name = "u-sinh";
 },
 {
-name = "vocalicL-sign-sinh";
+name = "vocalicl-sign-sinh";
 transform = "{1, 0, 0, 1, 765, 0}";
 }
 );
@@ -46,7 +46,7 @@ components = (
 name = "u-sinh";
 },
 {
-name = "vocalicL-sign-sinh";
+name = "vocalicl-sign-sinh";
 transform = "{1, 0, 0, 1, 475, 0}";
 }
 );
@@ -59,7 +59,7 @@ components = (
 name = "u-sinh";
 },
 {
-name = "vocalicL-sign-sinh";
+name = "vocalicl-sign-sinh";
 transform = "{1, 0, 0, 1, 514, 0}";
 }
 );
@@ -72,7 +72,7 @@ components = (
 name = "u-sinh";
 },
 {
-name = "vocalicL-sign-sinh";
+name = "vocalicl-sign-sinh";
 transform = "{1, 0, 0, 1, 609, 0}";
 }
 );

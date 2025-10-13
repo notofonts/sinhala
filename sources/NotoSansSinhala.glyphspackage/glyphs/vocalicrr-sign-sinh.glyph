@@ -1,13 +1,13 @@
 {
-glyphname = "vocalicRr-sign-sinh";
+glyphname = "vocalicrr-sign-sinh";
 layers = (
 {
 components = (
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 },
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 400, 0}";
 }
 );
@@ -17,10 +17,10 @@ width = 800;
 {
 components = (
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 },
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 445, 0}";
 }
 );
@@ -30,11 +30,11 @@ width = 890;
 {
 components = (
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 4, 0}";
 },
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 518, 0}";
 }
 );
@@ -44,10 +44,10 @@ width = 1028;
 {
 components = (
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 },
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 308, 0}";
 }
 );
@@ -57,10 +57,10 @@ width = 616;
 {
 components = (
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 },
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 341, 0}";
 }
 );
@@ -70,10 +70,10 @@ width = 685;
 {
 components = (
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 },
 {
-name = "vocalicR-sign-sinh";
+name = "vocalicr-sign-sinh";
 transform = "{1, 0, 0, 1, 414, 0}";
 }
 );

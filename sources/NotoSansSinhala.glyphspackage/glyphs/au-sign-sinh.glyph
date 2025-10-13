@@ -7,7 +7,7 @@ components = (
 name = "e-sign-sinh";
 },
 {
-name = "vocalicL-sign-sinh";
+name = "vocalicl-sign-sinh";
 transform = "{1, 0, 0, 1, 700, 0}";
 },
 {
@@ -24,7 +24,7 @@ components = (
 name = "e-sign-sinh";
 },
 {
-name = "vocalicL-sign-sinh";
+name = "vocalicl-sign-sinh";
 transform = "{1, 0, 0, 1, 832, 0}";
 },
 {
@@ -41,7 +41,7 @@ components = (
 name = "e-sign-sinh";
 },
 {
-name = "vocalicL-sign-sinh";
+name = "vocalicl-sign-sinh";
 transform = "{1, 0, 0, 1, 960, 0}";
 },
 {
@@ -58,7 +58,7 @@ components = (
 name = "e-sign-sinh";
 },
 {
-name = "vocalicL-sign-sinh";
+name = "vocalicl-sign-sinh";
 transform = "{1, 0, 0, 1, 526, 0}";
 },
 {
@@ -75,7 +75,7 @@ components = (
 name = "e-sign-sinh";
 },
 {
-name = "vocalicL-sign-sinh";
+name = "vocalicl-sign-sinh";
 transform = "{1, 0, 0, 1, 623, 0}";
 },
 {
@@ -92,7 +92,7 @@ components = (
 name = "e-sign-sinh";
 },
 {
-name = "vocalicL-sign-sinh";
+name = "vocalicl-sign-sinh";
 transform = "{1, 0, 0, 1, 793, 0}";
 },
 {
@@ -104,5 +104,6 @@ layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 width = 1342;
 }
 );
+unicode = 0DDE;
 subCategory = "Spacing Combining";
 }
