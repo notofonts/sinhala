@@ -4,7 +4,7 @@ layers = (
 {
 anchors = (
 {
-name = virama;
+name = alSign;
 position = "{219, 0}";
 }
 );
@@ -60,7 +60,7 @@ width = 698;
 {
 anchors = (
 {
-name = virama;
+name = alSign;
 position = "{252, 0}";
 }
 );
@@ -116,8 +116,8 @@ width = 690;
 {
 anchors = (
 {
-name = virama;
-position = "{172, 517}";
+name = alSign;
+position = "{172, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -172,7 +172,7 @@ width = 722;
 {
 anchors = (
 {
-name = virama;
+name = alSign;
 position = "{188, 517}";
 }
 );
@@ -230,8 +230,8 @@ width = 746;
 {
 anchors = (
 {
-name = virama;
-position = "{129, 517}";
+name = alSign;
+position = "{129, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -286,7 +286,7 @@ width = 492;
 {
 anchors = (
 {
-name = virama;
+name = alSign;
 position = "{134.774, 517}";
 }
 );
@@ -344,8 +344,8 @@ width = 498;
 {
 anchors = (
 {
-name = virama;
-position = "{139, 517}";
+name = alSign;
+position = "{139, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -400,7 +400,7 @@ width = 526;
 {
 anchors = (
 {
-name = virama;
+name = alSign;
 position = "{142.893, 517}";
 }
 );
@@ -458,7 +458,7 @@ width = 528;
 {
 anchors = (
 {
-name = virama;
+name = alSign;
 position = "{231, 0}";
 }
 );
@@ -514,7 +514,7 @@ width = 569;
 {
 anchors = (
 {
-name = virama;
+name = alSign;
 position = "{154.801, 517}";
 }
 );
@@ -572,7 +572,7 @@ width = 572;
 {
 anchors = (
 {
-name = virama;
+name = alSign;
 position = "{172, 517}";
 }
 );

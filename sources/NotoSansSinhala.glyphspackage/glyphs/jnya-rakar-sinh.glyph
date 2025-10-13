@@ -4,16 +4,16 @@ layers = (
 {
 anchors = (
 {
+name = alSign;
+position = "{1013, 0}";
+},
+{
 name = iVowel;
 position = "{888, 0}";
 },
 {
 name = repaya;
 position = "{769, 702}";
-},
-{
-name = virama;
-position = "{1013, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -186,16 +186,16 @@ width = 1187;
 {
 anchors = (
 {
+name = alSign;
+position = "{1084, 0}";
+},
+{
 name = iVowel;
 position = "{879, 0}";
 },
 {
 name = repaya;
 position = "{633, 730}";
-},
-{
-name = virama;
-position = "{1084, 0}";
 }
 );
 layerId = UUID0;
@@ -368,16 +368,16 @@ width = 1225;
 {
 anchors = (
 {
+name = alSign;
+position = "{1154, 0}";
+},
+{
 name = iVowel;
 position = "{949, 0}";
 },
 {
 name = repaya;
 position = "{683, 730}";
-},
-{
-name = virama;
-position = "{1154, 0}";
 }
 );
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -550,12 +550,12 @@ width = 1258;
 {
 anchors = (
 {
-name = repaya;
-position = "{652.974, 730}";
+name = alSign;
+position = "{1161, 536}";
 },
 {
-name = virama;
-position = "{1161, 536}";
+name = repaya;
+position = "{652.974, 730}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -723,12 +723,12 @@ width = 1284;
 {
 anchors = (
 {
-name = repaya;
-position = "{652.974, 730}";
+name = alSign;
+position = "{1161, 536}";
 },
 {
-name = virama;
-position = "{1161, 536}";
+name = repaya;
+position = "{652.974, 730}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -896,12 +896,12 @@ width = 1284;
 {
 anchors = (
 {
-name = repaya;
-position = "{595, 730}";
+name = alSign;
+position = "{1057.921, 536}";
 },
 {
-name = virama;
-position = "{1057.921, 536}";
+name = repaya;
+position = "{595, 730}";
 }
 );
 associatedMasterId = UUID0;
@@ -1069,16 +1069,16 @@ width = 1170;
 {
 anchors = (
 {
+name = alSign;
+position = "{764, 0}";
+},
+{
 name = iVowel;
 position = "{469, 0}";
 },
 {
 name = repaya;
 position = "{759, 722}";
-},
-{
-name = virama;
-position = "{764, 0}";
 }
 );
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -1251,16 +1251,16 @@ width = 865;
 {
 anchors = (
 {
+name = alSign;
+position = "{784, 0}";
+},
+{
 name = iVowel;
 position = "{690, 0}";
 },
 {
 name = repaya;
 position = "{823, 722}";
-},
-{
-name = virama;
-position = "{784, 0}";
 }
 );
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -1433,16 +1433,16 @@ width = 907;
 {
 anchors = (
 {
+name = alSign;
+position = "{884, 0}";
+},
+{
 name = iVowel;
 position = "{635, 0}";
 },
 {
 name = repaya;
 position = "{650, 712}";
-},
-{
-name = virama;
-position = "{884, 0}";
 }
 );
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -1615,12 +1615,12 @@ width = 986;
 {
 anchors = (
 {
-name = repaya;
-position = "{700, 722}";
+name = alSign;
+position = "{1084, 0}";
 },
 {
-name = virama;
-position = "{1084, 0}";
+name = repaya;
+position = "{700, 722}";
 }
 );
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -1789,16 +1789,16 @@ width = 1180;
 {
 anchors = (
 {
+name = alSign;
+position = "{1084, 0}";
+},
+{
 name = iVowel;
 position = "{739, 0}";
 },
 {
 name = repaya;
 position = "{633, 730}";
-},
-{
-name = virama;
-position = "{1084, 0}";
 }
 );
 associatedMasterId = UUID0;
@@ -1967,12 +1967,12 @@ width = 1221;
 {
 anchors = (
 {
-name = repaya;
-position = "{683, 730}";
+name = alSign;
+position = "{1254, 0}";
 },
 {
-name = virama;
-position = "{1254, 0}";
+name = repaya;
+position = "{683, 730}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -2141,12 +2141,12 @@ width = 1385;
 {
 anchors = (
 {
-name = repaya;
-position = "{759, 722}";
+name = alSign;
+position = "{724, 0}";
 },
 {
-name = virama;
-position = "{724, 0}";
+name = repaya;
+position = "{759, 722}";
 }
 );
 associatedMasterId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -2314,16 +2314,16 @@ width = 817;
 {
 anchors = (
 {
+name = alSign;
+position = "{784, 0}";
+},
+{
 name = iVowel;
 position = "{203, 0}";
 },
 {
 name = repaya;
 position = "{823, 722}";
-},
-{
-name = virama;
-position = "{784, 0}";
 }
 );
 associatedMasterId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -2491,12 +2491,12 @@ width = 882;
 {
 anchors = (
 {
-name = repaya;
-position = "{940, 722}";
+name = alSign;
+position = "{884, 0}";
 },
 {
-name = virama;
-position = "{884, 0}";
+name = repaya;
+position = "{940, 722}";
 }
 );
 associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";

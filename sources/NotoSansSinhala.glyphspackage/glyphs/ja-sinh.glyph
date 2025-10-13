@@ -4,6 +4,10 @@ layers = (
 {
 anchors = (
 {
+name = alSign;
+position = "{434, 0}";
+},
+{
 name = iVowel;
 position = "{409, 0}";
 },
@@ -18,10 +22,6 @@ position = "{365, 573}";
 {
 name = uvowel;
 position = "{738, 0}";
-},
-{
-name = virama;
-position = "{434, 0}";
 }
 );
 components = (
@@ -50,6 +50,10 @@ width = 826;
 {
 anchors = (
 {
+name = alSign;
+position = "{429, 0}";
+},
+{
 name = iVowel;
 position = "{417, 0}";
 },
@@ -64,10 +68,6 @@ position = "{397, 557}";
 {
 name = uvowel;
 position = "{728, 0}";
-},
-{
-name = virama;
-position = "{429, 0}";
 }
 );
 background = {
@@ -175,6 +175,10 @@ width = 810;
 {
 anchors = (
 {
+name = alSign;
+position = "{462, 0}";
+},
+{
 name = iVowel;
 position = "{458, 0}";
 },
@@ -189,10 +193,6 @@ position = "{427, 573}";
 {
 name = uvowel;
 position = "{805, 0}";
-},
-{
-name = virama;
-position = "{462, 0}";
 }
 );
 components = (
@@ -221,6 +221,10 @@ width = 891;
 {
 anchors = (
 {
+name = alSign;
+position = "{441, 371}";
+},
+{
 name = iVowel;
 position = "{323.964, 0}";
 },
@@ -235,10 +239,6 @@ position = "{417.564, 701}";
 {
 name = uvowel;
 position = "{787, 176}";
-},
-{
-name = virama;
-position = "{441, 371}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -353,6 +353,10 @@ width = 854;
 {
 anchors = (
 {
+name = alSign;
+position = "{411, 430}";
+},
+{
 name = iVowel;
 position = "{299.686, 0}";
 },
@@ -367,10 +371,6 @@ position = "{386.272, 701}";
 {
 name = uvowel;
 position = "{728.021, 176}";
-},
-{
-name = virama;
-position = "{411, 430}";
 }
 );
 associatedMasterId = UUID0;
@@ -485,6 +485,10 @@ width = 790;
 {
 anchors = (
 {
+name = alSign;
+position = "{390, 430}";
+},
+{
 name = iVowel;
 position = "{281.856, 0}";
 },
@@ -499,10 +503,6 @@ position = "{363.291, 701}";
 {
 name = uvowel;
 position = "{684.708, 176}";
-},
-{
-name = virama;
-position = "{390, 430}";
 }
 );
 associatedMasterId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
@@ -617,6 +617,10 @@ width = 743;
 {
 anchors = (
 {
+name = alSign;
+position = "{411, 430}";
+},
+{
 name = iVowel;
 position = "{307.273, 0}";
 },
@@ -631,10 +635,6 @@ position = "{396.051, 701}";
 {
 name = uvowel;
 position = "{728.021, 176}";
-},
-{
-name = virama;
-position = "{411, 430}";
 }
 );
 associatedMasterId = UUID0;
@@ -759,6 +759,10 @@ width = 810;
 {
 anchors = (
 {
+name = alSign;
+position = "{447, 396}";
+},
+{
 name = iVowel;
 position = "{338, 0}";
 },
@@ -773,10 +777,6 @@ position = "{435.656, 701}";
 {
 name = uvowel;
 position = "{794, 176}";
-},
-{
-name = virama;
-position = "{447, 396}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
@@ -881,6 +881,10 @@ width = 891;
 {
 anchors = (
 {
+name = alSign;
+position = "{321, 0}";
+},
+{
 name = iVowel;
 position = "{328, 0}";
 },
@@ -895,10 +899,6 @@ position = "{242, 583}";
 {
 name = uvowel;
 position = "{510, 0}";
-},
-{
-name = virama;
-position = "{321, 0}";
 }
 );
 components = (
@@ -927,6 +927,10 @@ width = 596;
 {
 anchors = (
 {
+name = alSign;
+position = "{289, 437}";
+},
+{
 name = iVowel;
 position = "{215.429, 0}";
 },
@@ -941,10 +945,6 @@ position = "{278.702, 701}";
 {
 name = uvowel;
 position = "{518.815, 110}";
-},
-{
-name = virama;
-position = "{289, 437}";
 }
 );
 associatedMasterId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
@@ -1059,6 +1059,10 @@ width = 570;
 {
 anchors = (
 {
+name = alSign;
+position = "{382, 0}";
+},
+{
 name = iVowel;
 position = "{330, 0}";
 },
@@ -1073,10 +1077,6 @@ position = "{294, 576}";
 {
 name = uvowel;
 position = "{564, 0}";
-},
-{
-name = virama;
-position = "{382, 0}";
 }
 );
 components = (
@@ -1105,6 +1105,10 @@ width = 630;
 {
 anchors = (
 {
+name = alSign;
+position = "{309, 425}";
+},
+{
 name = iVowel;
 position = "{228.657, 0}";
 },
@@ -1119,10 +1123,6 @@ position = "{295.816, 701}";
 {
 name = uvowel;
 position = "{550.672, 110}";
-},
-{
-name = virama;
-position = "{309, 425}";
 }
 );
 associatedMasterId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
@@ -1237,6 +1237,10 @@ width = 605;
 {
 anchors = (
 {
+name = alSign;
+position = "{372, 0}";
+},
+{
 name = iVowel;
 position = "{352, 0}";
 },
@@ -1251,10 +1255,6 @@ position = "{306, 557}";
 {
 name = uvowel;
 position = "{636, 0}";
-},
-{
-name = virama;
-position = "{372, 0}";
 }
 );
 components = (
@@ -1283,6 +1283,10 @@ width = 704;
 {
 anchors = (
 {
+name = alSign;
+position = "{342, 390}";
+},
+{
 name = iVowel;
 position = "{249.445, 0}";
 },
@@ -1297,10 +1301,6 @@ position = "{322.708, 701}";
 {
 name = uvowel;
 position = "{600.733, 110}";
-},
-{
-name = virama;
-position = "{342, 390}";
 }
 );
 associatedMasterId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
@@ -1415,6 +1415,10 @@ width = 660;
 {
 anchors = (
 {
+name = alSign;
+position = "{462, 0}";
+},
+{
 name = iVowel;
 position = "{328, 0}";
 },
@@ -1429,10 +1433,6 @@ position = "{427, 701}";
 {
 name = uvowel;
 position = "{805, 0}";
-},
-{
-name = virama;
-position = "{462, 0}";
 }
 );
 associatedMasterId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";

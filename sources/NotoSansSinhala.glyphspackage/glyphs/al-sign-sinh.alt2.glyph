@@ -4,7 +4,7 @@ layers = (
 {
 anchors = (
 {
-name = _virama;
+name = _alSign;
 position = "{59, 2}";
 }
 );
@@ -64,7 +64,7 @@ width = 251;
 {
 anchors = (
 {
-name = _virama;
+name = _alSign;
 position = "{57, 2}";
 }
 );
@@ -124,7 +124,7 @@ width = 289;
 {
 anchors = (
 {
-name = _virama;
+name = _alSign;
 position = "{83, 2}";
 }
 );
@@ -236,7 +236,7 @@ width = 369;
 {
 anchors = (
 {
-name = _virama;
+name = _alSign;
 position = "{-272, 517}";
 }
 );
@@ -301,7 +301,7 @@ width = 0;
 {
 anchors = (
 {
-name = _virama;
+name = _alSign;
 position = "{59, 0}";
 }
 );
@@ -413,7 +413,7 @@ width = 210;
 {
 anchors = (
 {
-name = _virama;
+name = _alSign;
 position = "{87, 0}";
 }
 );
@@ -473,7 +473,7 @@ width = 259;
 {
 anchors = (
 {
-name = _virama;
+name = _alSign;
 position = "{68, 0}";
 }
 );
