@@ -1,10 +1,10 @@
 {
-glyphname = uni0DEF;
+glyphname = "nine-lith";
 layers = (
 {
 components = (
 {
-name = uni0DE8;
+name = "two-lith";
 },
 {
 name = "ii-sign-sinh";
@@ -17,7 +17,7 @@ width = 1138;
 {
 components = (
 {
-name = uni0DE8;
+name = "two-lith";
 },
 {
 name = "ii-sign-sinh";
@@ -30,7 +30,7 @@ width = 1189;
 {
 components = (
 {
-name = uni0DE8;
+name = "two-lith";
 },
 {
 name = "ii-sign-sinh";
@@ -43,7 +43,7 @@ width = 1296;
 {
 components = (
 {
-name = uni0DE8;
+name = "two-lith";
 },
 {
 name = "ii-sign-sinh";
@@ -56,7 +56,7 @@ width = 854;
 {
 components = (
 {
-name = uni0DE8;
+name = "two-lith";
 },
 {
 name = "ii-sign-sinh";
@@ -69,7 +69,7 @@ width = 901;
 {
 components = (
 {
-name = uni0DE8;
+name = "two-lith";
 },
 {
 name = "ii-sign-sinh";
