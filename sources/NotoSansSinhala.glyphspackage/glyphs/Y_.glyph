@@ -1,0 +1,191 @@
+{
+glyphname = Y;
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{332, 714}";
+},
+{
+name = topright;
+position = "{644, 714}";
+}
+);
+layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
+paths = (
+{
+closed = 1;
+nodes = (
+"210 714 LINE",
+"0 714 LINE",
+"235 273 LINE",
+"235 0 LINE",
+"429 0 LINE",
+"429 279 LINE",
+"664 714 LINE",
+"455 714 LINE",
+"332 449 LINE"
+);
+}
+);
+width = 664;
+},
+{
+anchors = (
+{
+name = top;
+position = "{283, 714}";
+},
+{
+name = topright;
+position = "{546, 714}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"98 714 LINE",
+"0 714 LINE",
+"238 273 LINE",
+"238 0 LINE",
+"328 0 LINE",
+"328 277 LINE",
+"566 714 LINE",
+"469 714 LINE",
+"283 363 LINE"
+);
+}
+);
+width = 566;
+},
+{
+anchors = (
+{
+name = top;
+position = "{253, 714}";
+},
+{
+name = topright;
+position = "{485, 714}";
+}
+);
+layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
+paths = (
+{
+closed = 1;
+nodes = (
+"30 714 LINE",
+"0 714 LINE",
+"241 271 LINE",
+"241 0 LINE",
+"267 0 LINE",
+"267 275 LINE",
+"505 714 LINE",
+"475 714 LINE",
+"253 301 LINE"
+);
+}
+);
+width = 505;
+},
+{
+anchors = (
+{
+name = top;
+position = "{158, 714}";
+},
+{
+name = topright;
+position = "{295, 714}";
+}
+);
+layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
+paths = (
+{
+closed = 1;
+nodes = (
+"27 714 LINE",
+"0 714 LINE",
+"145 278 LINE",
+"145 0 LINE",
+"171 0 LINE",
+"171 278 LINE",
+"315 714 LINE",
+"288 714 LINE",
+"158 315 LINE"
+);
+}
+);
+width = 315;
+},
+{
+anchors = (
+{
+name = top;
+position = "{196, 714}";
+},
+{
+name = topright;
+position = "{372, 714}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"88 714 LINE",
+"0 714 LINE",
+"154 276 LINE",
+"154 0 LINE",
+"238 0 LINE",
+"238 278 LINE",
+"392 714 LINE",
+"304 714 LINE",
+"197 378 LINE"
+);
+}
+);
+width = 392;
+},
+{
+anchors = (
+{
+name = top;
+position = "{263, 714}";
+},
+{
+name = topright;
+position = "{506, 714}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+paths = (
+{
+closed = 1;
+nodes = (
+"177 714 LINE",
+"0 714 LINE",
+"178 268 LINE",
+"178 0 LINE",
+"348 0 LINE",
+"348 274 LINE",
+"526 714 LINE",
+"351 714 LINE",
+"264 454 LINE"
+);
+}
+);
+width = 526;
+}
+);
+leftKerningGroup = Y.right;
+rightKerningGroup = Y.left;
+unicode = 0059;
+script = latin;
+category = Letter;
+subCategory = Uppercase;
+}

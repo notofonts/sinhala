@@ -1,0 +1,88 @@
+{
+glyphname = "ai-sign-sinh";
+layers = (
+{
+components = (
+{
+name = "e-sign-sinh";
+},
+{
+name = "e-sign-sinh";
+transform = "{1, 0, 0, 1, 576, 0}";
+}
+);
+layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
+width = 1193;
+},
+{
+components = (
+{
+name = "e-sign-sinh";
+},
+{
+name = "e-sign-sinh";
+transform = "{1, 0, 0, 1, 631, 0}";
+}
+);
+layerId = UUID0;
+width = 1262;
+},
+{
+components = (
+{
+name = "e-sign-sinh";
+},
+{
+name = "e-sign-sinh";
+transform = "{1, 0, 0, 1, 706, 0}";
+}
+);
+layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
+width = 1381;
+},
+{
+components = (
+{
+name = "e-sign-sinh";
+},
+{
+name = "e-sign-sinh";
+transform = "{1, 0, 0, 1, 437, 0}";
+}
+);
+layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
+width = 874;
+},
+{
+components = (
+{
+name = "e-sign-sinh";
+},
+{
+name = "e-sign-sinh";
+transform = "{1, 0, 0, 1, 479, 0}";
+}
+);
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+width = 958;
+},
+{
+components = (
+{
+name = "e-sign-sinh";
+},
+{
+name = "e-sign-sinh";
+transform = "{1, 0, 0, 1, 582, 0}";
+}
+);
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+width = 1164;
+}
+);
+leftMetricsKey = "e-sign-sinh";
+rightMetricsKey = "e-sign-sinh";
+unicode = 0DDB;
+category = Letter;
+subCategory = "Spacing Combining";
+}
