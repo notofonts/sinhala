@@ -560,6 +560,12 @@ alignmentZones = (
 );
 ascender = 1011;
 capHeight = 612;
+customParameters = (
+{
+name = winDescent;
+value = 301;
+}
+);
 descender = -293;
 guideLines = (
 {
@@ -606,6 +612,12 @@ alignmentZones = (
 );
 ascender = 1011;
 capHeight = 612;
+customParameters = (
+{
+name = winDescent;
+value = 301;
+}
+);
 descender = -293;
 guideLines = (
 {
@@ -636,6 +648,12 @@ alignmentZones = (
 );
 ascender = 1011;
 capHeight = 612;
+customParameters = (
+{
+name = winDescent;
+value = 301;
+}
+);
 descender = -293;
 guideLines = (
 {
@@ -666,6 +684,12 @@ alignmentZones = (
 );
 ascender = 1011;
 capHeight = 612;
+customParameters = (
+{
+name = winDescent;
+value = 301;
+}
+);
 descender = -293;
 guideLines = (
 {
@@ -694,6 +718,12 @@ alignmentZones = (
 );
 ascender = 1011;
 capHeight = 612;
+customParameters = (
+{
+name = winDescent;
+value = 301;
+}
+);
 descender = -293;
 guideLines = (
 {
@@ -726,6 +756,12 @@ alignmentZones = (
 );
 ascender = 1011;
 capHeight = 612;
+customParameters = (
+{
+name = winDescent;
+value = 301;
+}
+);
 descender = -293;
 guideLines = (
 {
