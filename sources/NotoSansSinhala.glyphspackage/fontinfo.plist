@@ -1093,7 +1093,7 @@ instanceInterpolations = {
 };
 name = "Thin Condensed";
 weightClass = Thin;
-widthClass = Condensed;
+widthClass = "Extra Condensed";
 },
 {
 interpolationWeight = 90;
@@ -1102,7 +1102,7 @@ instanceInterpolations = {
 "56AEB5FB-BA14-4784-B08F-18006463EEDB" = 1;
 };
 name = Condensed;
-widthClass = Condensed;
+widthClass = "Extra Condensed";
 },
 {
 interpolationWeight = 190;
@@ -1112,7 +1112,7 @@ instanceInterpolations = {
 };
 name = "Black Condensed";
 weightClass = Black;
-widthClass = Condensed;
+widthClass = "Extra Condensed";
 }
 );
 kerning = {
