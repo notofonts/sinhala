@@ -6726,7 +6726,7 @@ slash.sinh = 30;
 };
 };
 };
-manufacturer = "Mooniak ";
+manufacturer = Mooniak;
 manufacturerURL = "http://www.google.com/get/noto/";
 unitsPerEm = 1000;
 userData = {
