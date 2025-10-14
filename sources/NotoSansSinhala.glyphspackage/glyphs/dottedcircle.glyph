@@ -2,6 +2,44 @@
 glyphname = dottedcircle;
 layers = (
 {
+anchors = (
+{
+name = alSign;
+position = "{505.417, 139.368}";
+},
+{
+name = iVowel;
+position = "{329.106, 0.028}";
+},
+{
+name = iiVowel;
+position = "{270.084, 0}";
+},
+{
+name = rakar;
+position = "{583.95, 21.092}";
+},
+{
+name = repaya;
+position = "{319.549, 712.017}";
+},
+{
+name = top;
+position = "{308.853, 657.808}";
+},
+{
+name = topright;
+position = "{595.312, 662.442}";
+},
+{
+name = uvowel;
+position = "{558.54, 40.059}";
+},
+{
+name = virama;
+position = "{458.502, 105.2}";
+}
+);
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
 paths = (
 {
@@ -144,6 +182,44 @@ nodes = (
 width = 622;
 },
 {
+anchors = (
+{
+name = alSign;
+position = "{506.886, 192.825}";
+},
+{
+name = iVowel;
+position = "{323.748, 0}";
+},
+{
+name = iiVowel;
+position = "{265.305, 0}";
+},
+{
+name = rakar;
+position = "{590.069, 30.247}";
+},
+{
+name = repaya;
+position = "{326.16, 706.675}";
+},
+{
+name = top;
+position = "{310.545, 661.038}";
+},
+{
+name = topright;
+position = "{577.688, 666.058}";
+},
+{
+name = uvowel;
+position = "{559.895, 50.658}";
+},
+{
+name = virama;
+position = "{464.948, 263}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -286,6 +362,44 @@ nodes = (
 width = 622;
 },
 {
+anchors = (
+{
+name = alSign;
+position = "{503.064, 279.131}";
+},
+{
+name = iVowel;
+position = "{315.932, -0.012}";
+},
+{
+name = iiVowel;
+position = "{291.181, 0}";
+},
+{
+name = rakar;
+position = "{592.523, 45.199}";
+},
+{
+name = repaya;
+position = "{321.373, 716.652}";
+},
+{
+name = top;
+position = "{306.447, 668.192}";
+},
+{
+name = topright;
+position = "{585.702, 675.038}";
+},
+{
+name = uvowel;
+position = "{568.886, 74.553}";
+},
+{
+name = virama;
+position = "{409.127, 179.778}";
+}
+);
 layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
 paths = (
 {
@@ -428,6 +542,44 @@ nodes = (
 width = 622;
 },
 {
+anchors = (
+{
+name = alSign;
+position = "{485.772, 163.002}";
+},
+{
+name = iVowel;
+position = "{343.864, 0.025}";
+},
+{
+name = iiVowel;
+position = "{294.282, 0}";
+},
+{
+name = rakar;
+position = "{578.844, 18.158}";
+},
+{
+name = repaya;
+position = "{315.632, 726.74}";
+},
+{
+name = top;
+position = "{309.934, 657.538}";
+},
+{
+name = topright;
+position = "{575.064, 660.808}";
+},
+{
+name = uvowel;
+position = "{555.781, 32.047}";
+},
+{
+name = virama;
+position = "{421.445, 0}";
+}
+);
 layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
 paths = (
 {
@@ -570,6 +722,44 @@ nodes = (
 width = 622;
 },
 {
+anchors = (
+{
+name = alSign;
+position = "{491.253, 186.433}";
+},
+{
+name = iVowel;
+position = "{335.258, 0.012}";
+},
+{
+name = iiVowel;
+position = "{298.484, 0}";
+},
+{
+name = rakar;
+position = "{583.986, 18.256}";
+},
+{
+name = repaya;
+position = "{323.481, 717.163}";
+},
+{
+name = top;
+position = "{314.128, 661.423}";
+},
+{
+name = topright;
+position = "{573.298, 666.462}";
+},
+{
+name = uvowel;
+position = "{559.654, 31.001}";
+},
+{
+name = virama;
+position = "{426.429, 0}";
+}
+);
 layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
 paths = (
 {
@@ -712,6 +902,44 @@ nodes = (
 width = 622;
 },
 {
+anchors = (
+{
+name = alSign;
+position = "{485.937, 191.026}";
+},
+{
+name = iVowel;
+position = "{344.139, 0.012}";
+},
+{
+name = iiVowel;
+position = "{291.107, 0}";
+},
+{
+name = rakar;
+position = "{596.237, 18.926}";
+},
+{
+name = repaya;
+position = "{320.946, 709.436}";
+},
+{
+name = top;
+position = "{310.382, 668.192}";
+},
+{
+name = topright;
+position = "{582.897, 674.654}";
+},
+{
+name = uvowel;
+position = "{559.599, 33.084}";
+},
+{
+name = virama;
+position = "{435.145, 0}";
+}
+);
 layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 paths = (
 {
