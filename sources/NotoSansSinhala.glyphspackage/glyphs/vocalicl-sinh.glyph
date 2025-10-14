@@ -1672,4 +1672,5 @@ width = 1016;
 );
 leftMetricsKey = "ngga-sinh";
 rightMetricsKey = "ga-sinh";
+unicode = 0D8F;
 }
