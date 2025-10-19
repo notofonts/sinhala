@@ -1,0 +1,294 @@
+{
+glyphname = numbersign.sinh;
+layers = (
+{
+layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
+paths = (
+{
+closed = 1;
+nodes = (
+"618 462 LINE",
+"618 488 LINE",
+"473 488 LINE",
+"516 714 LINE",
+"489 714 LINE",
+"446 488 LINE",
+"249 488 LINE",
+"292 714 LINE",
+"265 714 LINE",
+"222 488 LINE",
+"72 488 LINE",
+"72 462 LINE",
+"217 462 LINE",
+"178 252 LINE",
+"28 252 LINE",
+"28 226 LINE",
+"173 226 LINE",
+"130 0 LINE",
+"157 0 LINE",
+"200 226 LINE",
+"397 226 LINE",
+"354 0 LINE",
+"381 0 LINE",
+"424 226 LINE",
+"574 226 LINE",
+"574 252 LINE",
+"429 252 LINE",
+"468 462 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"244 462 LINE",
+"441 462 LINE",
+"402 252 LINE",
+"205 252 LINE"
+);
+}
+);
+width = 646;
+},
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"620 443 LINE",
+"620 507 LINE",
+"494 507 LINE",
+"535 714 LINE",
+"466 714 LINE",
+"428 507 LINE",
+"278 507 LINE",
+"317 714 LINE",
+"248 714 LINE",
+"209 507 LINE",
+"62 507 LINE",
+"62 443 LINE",
+"197 443 LINE",
+"165 278 LINE",
+"25 278 LINE",
+"25 214 LINE",
+"152 214 LINE",
+"112 0 LINE",
+"180 0 LINE",
+"220 214 LINE",
+"369 214 LINE",
+"327 0 LINE",
+"395 0 LINE",
+"437 214 LINE",
+"586 214 LINE",
+"586 278 LINE",
+"450 278 LINE",
+"481 443 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"265 443 LINE",
+"414 443 LINE",
+"381 278 LINE",
+"232 278 LINE"
+);
+}
+);
+width = 646;
+},
+{
+layerId = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
+paths = (
+{
+closed = 1;
+nodes = (
+"651 399 LINE",
+"651 522 LINE",
+"538 522 LINE",
+"575 714 LINE",
+"444 714 LINE",
+"409 522 LINE",
+"322 522 LINE",
+"359 714 LINE",
+"228 714 LINE",
+"193 522 LINE",
+"53 522 LINE",
+"53 399 LINE",
+"170 399 LINE",
+"154 313 LINE",
+"20 313 LINE",
+"20 193 LINE",
+"131 193 LINE",
+"95 0 LINE",
+"225 0 LINE",
+"260 193 LINE",
+"348 193 LINE",
+"311 0 LINE",
+"442 0 LINE",
+"478 193 LINE",
+"620 193 LINE",
+"620 313 LINE",
+"500 313 LINE",
+"516 399 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"299 399 LINE",
+"386 399 LINE",
+"370 313 LINE",
+"284 313 LINE"
+);
+}
+);
+width = 671;
+},
+{
+layerId = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
+paths = (
+{
+closed = 1;
+nodes = (
+"474 462 LINE",
+"474 488 LINE",
+"374 488 LINE",
+"417 714 LINE",
+"390 714 LINE",
+"347 488 LINE",
+"203 488 LINE",
+"246 714 LINE",
+"219 714 LINE",
+"176 488 LINE",
+"71 488 LINE",
+"71 462 LINE",
+"171 462 LINE",
+"132 252 LINE",
+"27 252 LINE",
+"27 226 LINE",
+"127 226 LINE",
+"84 0 LINE",
+"111 0 LINE",
+"154 226 LINE",
+"298 226 LINE",
+"255 0 LINE",
+"282 0 LINE",
+"325 226 LINE",
+"430 226 LINE",
+"430 252 LINE",
+"330 252 LINE",
+"369 462 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"198 462 LINE",
+"342 462 LINE",
+"303 252 LINE",
+"159 252 LINE"
+);
+}
+);
+width = 501;
+},
+{
+layerId = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+paths = (
+{
+closed = 1;
+nodes = (
+"473 444 LINE",
+"473 507 LINE",
+"394 507 LINE",
+"434 714 LINE",
+"372 714 LINE",
+"332 507 LINE",
+"221 507 LINE",
+"261 714 LINE",
+"199 714 LINE",
+"159 507 LINE",
+"47 507 LINE",
+"47 444 LINE",
+"147 444 LINE",
+"116 277 LINE",
+"24 277 LINE",
+"24 214 LINE",
+"104 214 LINE",
+"63 0 LINE",
+"125 0 LINE",
+"166 214 LINE",
+"277 214 LINE",
+"236 0 LINE",
+"298 0 LINE",
+"339 214 LINE",
+"450 214 LINE",
+"450 277 LINE",
+"351 277 LINE",
+"382 444 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"209 444 LINE",
+"320 444 LINE",
+"289 277 LINE",
+"178 277 LINE"
+);
+}
+);
+width = 497;
+},
+{
+layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+paths = (
+{
+closed = 1;
+nodes = (
+"531 409 LINE",
+"531 522 LINE",
+"461 522 LINE",
+"498 714 LINE",
+"381 714 LINE",
+"344 522 LINE",
+"270 522 LINE",
+"307 714 LINE",
+"190 714 LINE",
+"153 522 LINE",
+"44 522 LINE",
+"44 409 LINE",
+"132 409 LINE",
+"112 305 LINE",
+"21 305 LINE",
+"21 192 LINE",
+"90 192 LINE",
+"54 0 LINE",
+"171 0 LINE",
+"207 192 LINE",
+"281 192 LINE",
+"245 0 LINE",
+"362 0 LINE",
+"398 192 LINE",
+"508 192 LINE",
+"508 305 LINE",
+"420 305 LINE",
+"440 409 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"249 409 LINE",
+"323 409 LINE",
+"303 305 LINE",
+"229 305 LINE"
+);
+}
+);
+width = 552;
+}
+);
+unicode = 0023;
+}

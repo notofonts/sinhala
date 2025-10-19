@@ -1,0 +1,8690 @@
+{
+.appVersion = "3414";
+classes = (
+{
+code = "ga-sinh ngga-sinh fa-sinh sha-sinh ";
+name = iVowelAlt;
+},
+{
+code = "da-sinh da-rakar-sinh  ";
+name = iVowelAlt2;
+},
+{
+code = "ka-sinh ta-sinh na-sinh";
+name = iVowelAlt3;
+},
+{
+code = "la-sinh lla-sinh";
+name = iVowelAlt6;
+},
+{
+code = "ha-sinh bha-sinh";
+name = iVowelAlt7;
+},
+{
+code = "nya-sinh jnya-sinh na_da-sinh na_da-rakar-sinh\012\012";
+name = iVowelAlt8;
+},
+{
+code = "nda-sinh nda-rakar-sinh";
+name = iVowelAlt9;
+},
+{
+code = "kha-sinh nga-sinh ttha-sinh dda-sinh ddha-sinh nndda-sinh dha-sinh ba-sinh mba-sinh na-sinh tta_ttha-sinh tta_ttha-sinh da_dha-sinh ";
+name = uSignAlt2Group;
+},
+{
+code = "nna-sinh ka_va-sinh ka_ssa-sinh ga_dha-sinh ta_tha-sinh ta_va-sinh na_tha-sinh na_da-sinh na_dha-sinh na_va-sinh jha-sinh ha-sinh\012";
+name = uSignAlt3Group;
+},
+{
+code = "pa-sinh  ssa-sinh  fa-sinh ka_ssa-sinh";
+name = rakarAlt1Group;
+},
+{
+code = "nna-sinh na-sinh ha-sinh bha-sinh sha-sinh ga-sinh ngga-sinh ka-sinh\012";
+name = rakarAlt3Group;
+},
+{
+code = "sa-sinh gha-sinh\012";
+name = rakarAlt4Group;
+},
+{
+code = "ca-sinh tha-sinh pha-sinh va-sinh da_va-sinh nya_ca-sinh ta_tha-sinh na_tha-sinh na_va-sinh tta-sinh ka_va-sinh ta_va-sinh da_va-sinh";
+name = rakarVaShapeGroup;
+},
+{
+code = "cha-sinh ja-sinh nyja-sinh pa-sinh ssa-sinh fa-sinh \012";
+name = paShapeGroup;
+},
+{
+code = "gha-sinh ya-sinh sa-sinh ";
+name = saShapeGroup;
+},
+{
+code = "ca-sinh tta-sinh tha-sinh pha-sinh va-sinh da_va-sinh nya_ca-sinh ma-sinh ka_va-sinh\012";
+name = vaShapeGroup;
+},
+{
+code = "e-sinh ttha-sinh ddha-sinh tha-sinh pha-sinh tta_ttha-sinh na_tha-sinh ta_tha-sinh\012";
+name = phaShapeGroup;
+},
+{
+code = "cha-sinh ja-sinh nyja-sinh";
+name = jaShapeGroup;
+},
+{
+code = "da-rakar-sinh nda-rakar-sinh nya-rakar-sinh jnya-rakar-sinh na_da-rakar-sinh";
+name = daShapeGroup;
+},
+{
+code = "e-sinh ttha-sinh ddha-sinh tha-sinh pha-sinh tta_ttha-sinh na_tha-sinh ta_tha-sinh";
+name = rephAltGroup;
+}
+);
+copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sinhala)";
+customParameters = (
+{
+name = openTypeOS2VendorID;
+value = GOOG;
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+NULL,
+CR,
+space,
+nbspace,
+"a-sinh",
+"aa-sinh",
+"ea-sinh",
+"aae-sinh",
+"i-sinh",
+"ii-sinh",
+"u-sinh",
+"uu-sinh",
+"vocalicr-sinh",
+"vocalicrr-sinh",
+"vocalicl-sinh",
+"vocalicll-sinh",
+"e-sinh",
+"ee-sinh",
+"ai-sinh",
+"o-sinh",
+"oo-sinh",
+"au-sinh",
+"ka-sinh",
+"kha-sinh",
+"ga-sinh",
+"gha-sinh",
+"nga-sinh",
+"ngga-sinh",
+"ca-sinh",
+"cha-sinh",
+"ja-sinh",
+"jha-sinh",
+"nya-sinh",
+"jnya-sinh",
+"nyja-sinh",
+"tta-sinh",
+"ttha-sinh",
+"dda-sinh",
+"ddha-sinh",
+"nna-sinh",
+"nndda-sinh",
+"ta-sinh",
+"tha-sinh",
+"da-sinh",
+"dha-sinh",
+"na-sinh",
+"nda-sinh",
+"pa-sinh",
+"pha-sinh",
+"ba-sinh",
+"bha-sinh",
+"ma-sinh",
+"mba-sinh",
+"ya-sinh",
+"ra-sinh",
+"la-sinh",
+"va-sinh",
+"sha-sinh",
+"ssa-sinh",
+"sa-sinh",
+"ha-sinh",
+"lla-sinh",
+"fa-sinh",
+"anusvara-sinh",
+"visarga-sinh",
+"ka_va-sinh",
+"ka_ssa-sinh",
+"ga_dha-sinh",
+"nya_ca-sinh",
+"tta_ttha-sinh",
+"ta_tha-sinh",
+"ta_va-sinh",
+"da_dha-sinh",
+"da_va-sinh",
+"na_tha-sinh",
+"na_da-sinh",
+"na_dha-sinh",
+"na_va-sinh",
+"al-sign-sinh",
+"al-sign-sinh.alt1",
+"al-sign-sinh.alt2",
+"al-sign-sinh.alt3",
+"aa-sign-sinh",
+"ae-sign-sinh",
+"aae-sign-sinh",
+"i-sign-sinh",
+"i-sign-sinh.alt1",
+"i-sign-sinh.alt2",
+"i-sign-sinh.alt3",
+"i-sign-sinh.alt4",
+"i-sign-sinh.alt5",
+"i-sign-sinh.alt6",
+"i-sign-sinh.alt7",
+"i-sign-sinh.alt8",
+"i-sign-sinh.alt9",
+"ii-sign-sinh",
+"ii-sign-sinh.alt1",
+"ii-sign-sinh.alt2",
+"ii-sign-sinh.alt3",
+"ii-sign-sinh.alt4",
+"ii-sign-sinh.alt5",
+"ii-sign-sinh.alt6",
+"ii-sign-sinh.alt7",
+"ii-sign-sinh.alt8",
+"ii-sign-sinh.alt9",
+"u-sign-sinh",
+"u-sign-sinh.alt1",
+"u-sign-sinh.alt2",
+"u-sign-sinh.alt3",
+"u-sign-sinh.medium",
+"u-sign-sinh.long",
+"uu-sign-sinh",
+"uu-sign-sinh.long",
+"uu-sign-sinh.medium",
+"uu-sign-sinh.alt1",
+"uu-sign-sinh.alt2",
+"uu-sign-sinh.alt3",
+"vocalicr-sign-sinh",
+"e-sign-sinh",
+"ee-sign-sinh",
+"ai-sign-sinh",
+"o-sign-sinh",
+"oo-sign-sinh",
+"au-sign-sinh",
+"vocalicl-sign-sinh",
+"vocalicrr-sign-sinh",
+"vocalicll-sign-sinh",
+"kunddaliya-sinh",
+"repha-sign-sinh",
+"repha-sign-sinh.alt1",
+"yansa-sign-sinh",
+"rakar-sign-sinh",
+"rakar-sign-sinh.alt1",
+"rakar-sign-sinh.alt2",
+"rakar-sign-sinh.alt3",
+"rakar-sign-sinh.alt4",
+"rakar-sign-sinh.alone",
+"aa-sign.al",
+"ae-sign-sinh.low",
+"aae-sign-sinh.low",
+"candrabindu-sinh",
+"nya-rakar-sinh",
+"jnya-rakar-sinh",
+"da-rakar-sinh",
+"nda-rakar-sinh",
+"na_da-rakar-sinh",
+"kha-al-sinh",
+"nga-al-sinh",
+"ca-al-sinh",
+"jha-al-sinh",
+"tta-al-sinh",
+"dda-al-sinh",
+"nndda-al-sinh",
+"dha-al-sinh",
+"ba-al-sinh",
+"ma-al-sinh",
+"mba-al-sinh",
+"ra-al-sinh",
+"va-al-sinh",
+"ka_va-al-sinh",
+"ga_dha-al-sinh",
+"nya_ca-al-sinh",
+"ta_va-al-sinh",
+"da_dha-al-sinh",
+"da_va-al-sinh",
+"na_dha-al-sinh",
+"na_va-al-sinh",
+"kha-i-sinh",
+"nga-i-sinh",
+"ca-i-sinh",
+"jha-i-sinh",
+"tta-i-sinh",
+"dda-i-sinh",
+"nna-i-sinh",
+"nndda-i-sinh",
+"dha-i-sinh",
+"ba-i-sinh",
+"ma-i-sinh",
+"mba-i-sinh",
+"ya-i-sinh",
+"ra-i-sinh",
+"va-i-sinh",
+"ka_va-i-sinh",
+"ga_dha-i-sinh",
+"nya_ca-i-sinh",
+"ta_va-i-sinh",
+"da_dha-i-sinh",
+"da_va-i-sinh",
+"na_dha-i-sinh",
+"na_va-i-sinh",
+"kha-ii-sinh",
+"nga-ii-sinh",
+"ca-ii-sinh",
+"jha-ii-sinh",
+"tta-ii-sinh",
+"dda-ii-sinh",
+"nna-ii-sinh",
+"nndda-ii-sinh",
+"dha-ii-sinh",
+"ba-ii-sinh",
+"ma-ii-sinh",
+"mba-ii-sinh",
+"ya-ii-sinh",
+"ra-ii-sinh",
+"va-ii-sinh",
+"ka_va-ii-sinh",
+"ga_dha-ii-sinh",
+"nya_ca-ii-sinh",
+"ta_va-ii-sinh",
+"da_dha-ii-sinh",
+"da_va-ii-sinh",
+"na_dha-ii-sinh",
+"na_va-ii-sinh",
+"ka-u-sinh",
+"ga-u-sinh",
+"ngga-u-sinh",
+"nya-u-sinh",
+"jnya-u-sinh",
+"ta-u-sinh",
+"da-u-sinh",
+"nda-u-sinh",
+"bha-u-sinh",
+"la-u-sinh",
+"sha-u-sinh",
+"lla-u-sinh",
+"na_da-u-sinh",
+"ka-uu-sinh",
+"ga-uu-sinh",
+"ngga-uu-sinh",
+"nya-uu-sinh",
+"jnya-uu-sinh",
+"ta-uu-sinh",
+"da-uu-sinh",
+"nda-uu-sinh",
+"bha-uu-sinh",
+"la-uu-sinh",
+"sha-uu-sinh",
+"na_da-uu-sinh",
+"ra-ae-sinh",
+"ra-aae-sinh",
+exclam.sinh,
+quotedbl.sinh,
+numbersign.sinh,
+percent.sinh,
+quotesingle.sinh,
+parenleft.sinh,
+parenright.sinh,
+asterisk.sinh,
+plus.sinh,
+comma.sinh,
+hyphen.sinh,
+period.sinh,
+slash.sinh,
+zero.sinh,
+one.sinh,
+two.sinh,
+three.sinh,
+four.sinh,
+five.sinh,
+six.sinh,
+seven.sinh,
+eight.sinh,
+nine.sinh,
+"zero-lith-sinh",
+"one-lith-sinh",
+"two-lith-sinh",
+"three-lith-sinh",
+"four-lith-sinh",
+"five-lith-sinh",
+"six-lith-sinh",
+"seven-lith-sinh",
+"eight-lith-sinh",
+"nine-lith-sinh",
+"one-archaic-sinh",
+"two-archaic-sinh",
+"three-archaic-sinh",
+"four-archaic-sinh",
+"five-archaic-sinh",
+"six-archaic-sinh",
+"seven-archaic-sinh",
+"eight-archaic-sinh",
+"nine-archaic-sinh",
+"ten-archaic-sinh",
+"twenty-archaic-sinh",
+"thirty-archaic-sinh",
+"forty-archaic-sinh",
+"fifty-archaic-sinh",
+"sixty-archaic-sinh",
+"seventy-archaic-sinh",
+"eighty-archaic-sinh",
+"ninety-archaic-sinh",
+"onehundred-archaic-sinh",
+"onethousand-archaic-sinh",
+colon.sinh,
+semicolon.sinh,
+less.sinh,
+equal.sinh,
+greater.sinh,
+question.sinh,
+bracketleft.sinh,
+backslash.sinh,
+bracketright.sinh,
+asciicircum.sinh,
+underscore.sinh,
+braceleft.sinh,
+bar.sinh,
+braceright.sinh,
+asciitilde.sinh,
+uni00A0.sinh,
+sfthyphen.sinh,
+endash.sinh,
+emdash.sinh,
+quoteleft.sinh,
+quoteright.sinh,
+quotedblleft.sinh,
+quotedblright.sinh,
+ellipsis.sinh,
+multiply.sinh,
+divide.sinh,
+minus.sinh,
+"touch-sinh",
+zerowidthspace,
+zerowidthnonjoiner,
+zerowidthjoiner,
+dottedcircle,
+"vocalicrbase-sinh"
+);
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1,
+15,
+31,
+38,
+45,
+57,
+73
+);
+},
+{
+name = DisableAllAutomaticBehaviour;
+value = 1;
+},
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Disable Last Change";
+value = 1;
+},
+{
+name = "Write DisplayStrings";
+value = 0;
+},
+{
+disabled = 1;
+name = "Disable Masters";
+value = (
+"Light Condensed",
+Condensed,
+"Bold Condensed"
+);
+},
+{
+name = "Enforce Compatibility Check";
+value = 0;
+},
+{
+name = description;
+value = "Designed by Mooniak in Sri Lanka based off from the previous outines and design by Jelle Bosma from Monotype Design Team";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = trademark;
+value = "Noto is a trademark of Google Inc.";
+},
+{
+name = versionString;
+value = "Version 3.000";
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+},
+{
+Name = Width;
+Tag = wdth;
+}
+);
+}
+);
+date = "2016-04-19 09:49:30 +0000";
+designer = "Pathum Egodawatta and Rajitha Manamperi and Kosala Senevirthane from Mooniak";
+designerURL = "http://www.monotype.com/studio";
+disablesAutomaticAlignment = 1;
+disablesNiceNames = 1;
+familyName = "Noto Sans Sinhala";
+featurePrefixes = (
+{
+code = "languagesystem DFLT dflt;\012languagesystem sinh dflt;\012";
+name = Languagesystems;
+}
+);
+features = (
+{
+code = "sub ka-sinh al-sign-sinh zerowidthjoiner ssa-sinh by ka_ssa-sinh;\012sub ka-sinh al-sign-sinh zerowidthjoiner va-sinh by ka_va-sinh;\012sub ga-sinh al-sign-sinh zerowidthjoiner dha-sinh by ga_dha-sinh;\012sub nya-sinh al-sign-sinh zerowidthjoiner ca-sinh by nya_ca-sinh;\012sub tta-sinh al-sign-sinh zerowidthjoiner ttha-sinh by tta_ttha-sinh;\012sub ta-sinh al-sign-sinh zerowidthjoiner tha-sinh by ta_tha-sinh;\012sub ta-sinh al-sign-sinh zerowidthjoiner va-sinh by ta_va-sinh;\012sub da-sinh al-sign-sinh zerowidthjoiner dha-sinh by da_dha-sinh;\012sub da-sinh al-sign-sinh zerowidthjoiner va-sinh by da_va-sinh;\012sub na-sinh al-sign-sinh zerowidthjoiner da-sinh by na_da-sinh;\012sub na-sinh al-sign-sinh zerowidthjoiner dha-sinh by na_dha-sinh;\012sub na-sinh al-sign-sinh zerowidthjoiner tha-sinh by na_tha-sinh;\012sub na-sinh al-sign-sinh zerowidthjoiner va-sinh by na_va-sinh;";
+name = akhn;
+},
+{
+code = "sub ra-sinh al-sign-sinh zerowidthjoiner by repha-sign-sinh;\012";
+name = rphf;
+},
+{
+code = "sub ee-sign-sinh by al-sign-sinh;\012sub o-sign-sinh by aa-sign-sinh;\012sub oo-sign-sinh by aa-sign.al;\012sub au-sign-sinh by vocalicl-sign-sinh;\012";
+name = pstf;
+},
+{
+code = "sub al-sign-sinh zerowidthjoiner ra-sinh by rakar-sign-sinh;\012sub al-sign-sinh zerowidthjoiner ya-sinh by yansa-sign-sinh;\012sub zerowidthjoiner al-sign-sinh by touch-sinh;\012";
+name = vatu;
+},
+{
+code = "lookup raSignAe {\012    sub ra-sinh ae-sign-sinh by ra-ae-sinh;\012    sub ra-sinh aae-sign-sinh by ra-aae-sinh;\012} raSignAe;\012\012lookup raSignU {\012	sub ra-sinh u-sign-sinh' by ae-sign-sinh;\012	sub ra-sinh uu-sign-sinh' by aae-sign-sinh;\012} raSignU;";
+name = psts;
+},
+{
+code = "lookup RakarTwiceReplacement {\012	sub rakar-sign-sinh rakar-sign-sinh' by rakar-sign-sinh.alone;\012} RakarTwiceReplacement;\012\012lookup RakarLigatures {\012    sub da-sinh rakar-sign-sinh by da-rakar-sinh;\012    sub nda-sinh rakar-sign-sinh by nda-rakar-sinh;\012    sub nya-sinh rakar-sign-sinh by nya-rakar-sinh;\012	sub jnya-sinh rakar-sign-sinh by jnya-rakar-sinh;\012	sub na_da-sinh rakar-sign-sinh by na_da-rakar-sinh;\012} RakarLigatures;\012\012sub da-sinh u-sign-sinh by da-u-sinh;\012sub da-sinh uu-sign-sinh by da-uu-sinh;\012sub nda-sinh u-sign-sinh by nda-u-sinh;\012sub nda-sinh uu-sign-sinh by nda-uu-sinh;\012sub jnya-sinh uu-sign-sinh by jnya-uu-sinh;\012sub jnya-sinh u-sign-sinh by jnya-u-sinh;\012sub nya-sinh u-sign-sinh by nya-u-sinh;\012sub nya-sinh uu-sign-sinh by nya-uu-sinh;\012sub na_da-sinh u-sign-sinh by na_da-u-sinh;\012sub na_da-sinh uu-sign-sinh by na_da-uu-sinh;\012sub la-sinh u-sign-sinh by la-u-sinh;\012sub la-sinh uu-sign-sinh by la-uu-sinh;\012sub lla-sinh u-sign-sinh by lla-u-sinh;\012sub sha-sinh u-sign-sinh by sha-u-sinh;\012sub sha-sinh uu-sign-sinh by sha-uu-sinh;\012\012sub ka-sinh u-sign-sinh by ka-u-sinh;\012sub ka-sinh uu-sign-sinh by ka-uu-sinh;\012sub ta-sinh u-sign-sinh by ta-u-sinh;\012sub ta-sinh uu-sign-sinh by ta-uu-sinh;\012sub bha-sinh u-sign-sinh by bha-u-sinh;\012sub bha-sinh uu-sign-sinh by bha-uu-sinh;\012sub ga-sinh u-sign-sinh by ga-u-sinh;\012sub ga-sinh uu-sign-sinh by ga-uu-sinh;\012sub ngga-sinh u-sign-sinh by ngga-u-sinh;\012sub ngga-sinh uu-sign-sinh by ngga-uu-sinh;\012\012sub @uSignAlt3Group u-sign-sinh' by u-sign-sinh.alt3;\012sub @uSignAlt3Group uu-sign-sinh' by uu-sign-sinh.alt3;\012\012sub @uSignAlt2Group u-sign-sinh' by u-sign-sinh.alt2;\012sub @uSignAlt2Group uu-sign-sinh' by uu-sign-sinh.alt2;\012\012sub @saShapeGroup u-sign-sinh' by u-sign-sinh.alt2;\012sub @saShapeGroup uu-sign-sinh' by uu-sign-sinh.alt2;\012\012sub @vaShapeGroup u-sign-sinh' by u-sign-sinh.alt1;\012sub @vaShapeGroup uu-sign-sinh' by uu-sign-sinh.alt1;\012\012lookup RakarUSign {\012    sub rakar-sign-sinh u-sign-sinh' by ae-sign-sinh.low;\012    sub rakar-sign-sinh uu-sign-sinh' by aae-sign-sinh.low;\012	sub @daShapeGroup u-sign-sinh' by ae-sign-sinh.low;\012	sub @daShapeGroup uu-sign-sinh' by ae-sign-sinh.low;\012} RakarUSign;\012\012lookup RakarAlternates {\012sub @rakarAlt3Group rakar-sign-sinh' by rakar-sign-sinh.alt3;\012sub @rakarVaShapeGroup rakar-sign-sinh' by rakar-sign-sinh.alt2;\012sub @rakarAlt1Group rakar-sign-sinh' by rakar-sign-sinh.alt1;\012sub @rakarAlt4Group rakar-sign-sinh' by rakar-sign-sinh.alt4;\012sub [la-sinh ra-sinh lla-sinh] rakar-sign-sinh' by rakar-sign-sinh.alone;\012} RakarAlternates;\012\012\012\012\012";
+name = blws;
+},
+{
+code = "sub @rephAltGroup repha-sign-sinh' by repha-sign-sinh.alt1;\012\012lookup VowelLigatures {\012    lookupflag UseMarkFilteringSet [al-sign-sinh ii-sign-sinh i-sign-sinh];\012    sub kha-sinh al-sign-sinh by kha-al-sinh;\012    sub kha-sinh ii-sign-sinh by kha-ii-sinh;\012    sub kha-sinh i-sign-sinh by kha-i-sinh;\012\012    sub nga-sinh al-sign-sinh by nga-al-sinh;\012    sub nga-sinh ii-sign-sinh by nga-ii-sinh;\012    sub nga-sinh i-sign-sinh by nga-i-sinh;\012\012    sub ca-sinh al-sign-sinh by ca-al-sinh;\012    sub ca-sinh ii-sign-sinh by ca-ii-sinh;\012    sub ca-sinh i-sign-sinh by ca-i-sinh;\012\012    sub ra-sinh al-sign-sinh by ra-al-sinh;\012    sub ra-sinh ii-sign-sinh by ra-ii-sinh;\012    sub ra-sinh i-sign-sinh by ra-i-sinh;\012\012    sub jha-sinh al-sign-sinh by jha-al-sinh;\012    sub jha-sinh ii-sign-sinh by jha-ii-sinh;\012    sub jha-sinh i-sign-sinh by jha-i-sinh;\012\012    sub tta-sinh al-sign-sinh by tta-al-sinh;\012    sub tta-sinh ii-sign-sinh by tta-ii-sinh;\012    sub tta-sinh i-sign-sinh by tta-i-sinh;\012\012    sub dda-sinh al-sign-sinh by dda-al-sinh;\012    sub dda-sinh ii-sign-sinh by dda-ii-sinh;\012    sub dda-sinh i-sign-sinh by dda-i-sinh;\012\012    sub nna-sinh ii-sign-sinh by nna-ii-sinh;\012    sub nna-sinh i-sign-sinh by nna-i-sinh;\012\012    sub nndda-sinh al-sign-sinh by nndda-al-sinh;\012    sub nndda-sinh ii-sign-sinh by nndda-ii-sinh;\012    sub nndda-sinh i-sign-sinh by nndda-i-sinh;\012\012    sub dha-sinh al-sign-sinh by dha-al-sinh;\012    sub dha-sinh ii-sign-sinh by dha-ii-sinh;\012    sub dha-sinh i-sign-sinh by dha-i-sinh;\012\012    sub ba-sinh al-sign-sinh by ba-al-sinh;\012    sub ba-sinh ii-sign-sinh by ba-ii-sinh;\012    sub ba-sinh i-sign-sinh by ba-i-sinh;\012\012    sub ma-sinh al-sign-sinh by ma-al-sinh;\012    sub ma-sinh ii-sign-sinh by ma-ii-sinh;\012    sub ma-sinh i-sign-sinh by ma-i-sinh;\012\012    sub mba-sinh al-sign-sinh by mba-al-sinh;\012    sub mba-sinh ii-sign-sinh by mba-ii-sinh;\012    sub mba-sinh i-sign-sinh by mba-i-sinh;\012\012    sub ya-sinh ii-sign-sinh by ya-ii-sinh;\012    sub ya-sinh i-sign-sinh by ya-i-sinh;\012\012    sub va-sinh al-sign-sinh by va-al-sinh;\012    sub va-sinh ii-sign-sinh by va-ii-sinh;\012    sub va-sinh i-sign-sinh by va-i-sinh;\012\012    sub ka_va-sinh al-sign-sinh by ka_va-al-sinh;\012    sub ka_va-sinh ii-sign-sinh by ka_va-ii-sinh;\012    sub ka_va-sinh i-sign-sinh by ka_va-i-sinh;\012\012    sub ga_dha-sinh al-sign-sinh by ga_dha-al-sinh;\012    sub ga_dha-sinh ii-sign-sinh by ga_dha-ii-sinh;\012    sub ga_dha-sinh i-sign-sinh by ga_dha-i-sinh;\012\012    sub nya_ca-sinh al-sign-sinh by nya_ca-al-sinh;\012    sub nya_ca-sinh ii-sign-sinh by nya_ca-ii-sinh;\012    sub nya_ca-sinh i-sign-sinh by nya_ca-i-sinh;\012\012    sub ta_va-sinh al-sign-sinh by ta_va-al-sinh;\012    sub ta_va-sinh ii-sign-sinh by ta_va-ii-sinh;\012    sub ta_va-sinh i-sign-sinh by ta_va-i-sinh;\012\012    sub da_dha-sinh al-sign-sinh by da_dha-al-sinh;\012    sub da_dha-sinh ii-sign-sinh by da_dha-ii-sinh;\012    sub da_dha-sinh i-sign-sinh by da_dha-i-sinh;\012\012    sub da_va-sinh al-sign-sinh by da_va-al-sinh;\012    sub da_va-sinh ii-sign-sinh by da_va-ii-sinh;\012    sub da_va-sinh i-sign-sinh by da_va-i-sinh;\012\012    sub na_dha-sinh al-sign-sinh by na_dha-al-sinh;\012    sub na_dha-sinh ii-sign-sinh by na_dha-ii-sinh;\012    sub na_dha-sinh i-sign-sinh by na_dha-i-sinh;\012\012    sub na_va-sinh al-sign-sinh by na_va-al-sinh;\012    sub na_va-sinh ii-sign-sinh by na_va-ii-sinh;\012    sub na_va-sinh i-sign-sinh by na_va-i-sinh;\012} VowelLigatures;\012\012sub aa-sign-sinh al-sign-sinh by aa-sign.al;\012\012sub @phaShapeGroup al-sign-sinh' by al-sign-sinh.alt1;\012sub @jaShapeGroup al-sign-sinh' by al-sign-sinh.alt2;\012\012sub @iVowelAlt i-sign-sinh' by i-sign-sinh.alt1; \012sub @iVowelAlt ii-sign-sinh' by ii-sign-sinh.alt1; \012\012sub @iVowelAlt2 i-sign-sinh' by i-sign-sinh.alt2;\012sub @iVowelAlt2 ii-sign-sinh' by ii-sign-sinh.alt2;\012\012sub @iVowelAlt3 i-sign-sinh' by i-sign-sinh.alt3;\012sub @iVowelAlt3 ii-sign-sinh' by ii-sign-sinh.alt3;\012\012sub @phaShapeGroup i-sign-sinh' by i-sign-sinh.alt4;\012sub @phaShapeGroup ii-sign-sinh' by ii-sign-sinh.alt4;\012\012sub @jaShapeGroup i-sign-sinh' by i-sign-sinh.alt5;\012sub @jaShapeGroup ii-sign-sinh' by ii-sign-sinh.alt5;\012\012\012sub @iVowelAlt6 i-sign-sinh' by i-sign-sinh.alt6;\012sub @iVowelAlt6 ii-sign-sinh' by ii-sign-sinh.alt6;\012\012sub @iVowelAlt7 i-sign-sinh' by i-sign-sinh.alt7;\012sub @iVowelAlt7 ii-sign-sinh' by ii-sign-sinh.alt7;\012\012sub @iVowelAlt8 i-sign-sinh' by i-sign-sinh.alt8;\012sub @iVowelAlt8 ii-sign-sinh' by ii-sign-sinh.alt8;\012\012sub @iVowelAlt9 i-sign-sinh' by i-sign-sinh.alt9;\012sub @iVowelAlt9 ii-sign-sinh' by ii-sign-sinh.alt9;\012";
+name = abvs;
+},
+{
+code = "pos touch-sinh <0 0 -90 0>;\012";
+name = dist;
+}
+);
+fontMaster = (
+{
+alignmentZones = (
+"{714, 11}",
+"{-11, 11}",
+"{-271, 16}"
+);
+ascender = 1011;
+capHeight = 612;
+customParameters = (
+{
+name = winDescent;
+value = 301;
+}
+);
+descender = -293;
+guideLines = (
+{
+name = "rakar–DESC";
+position = "{-6, -292}";
+},
+{
+locked = 1;
+name = i_sign;
+position = "{341, 543}";
+},
+{
+name = "i_sign-ASCE";
+position = "{272, 876}";
+},
+{
+name = "i_sign-ASCE";
+position = "{-477, 957}";
+},
+{
+angle = 90;
+position = "{-779, -213}";
+},
+{
+position = "{-835, -58}";
+},
+{
+position = "{-40, 162}";
+}
+);
+id = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
+verticalStems = (
+27
+);
+weight = Light;
+weightValue = 26;
+xHeight = 536;
+},
+{
+alignmentZones = (
+"{714, 11}",
+"{-11, 11}",
+"{-271, 10}"
+);
+ascender = 1011;
+capHeight = 612;
+customParameters = (
+{
+name = winDescent;
+value = 301;
+}
+);
+descender = -293;
+guideLines = (
+{
+position = "{-272, 896}";
+},
+{
+position = "{-208, -232}";
+},
+{
+position = "{-701, -293}";
+},
+{
+position = "{-109, -261}";
+}
+);
+id = UUID0;
+verticalStems = (
+73
+);
+weightValue = 90;
+xHeight = 536;
+},
+{
+alignmentZones = (
+"{714, 11}",
+"{-11, 11}",
+"{-271, 1}"
+);
+ascender = 1011;
+capHeight = 612;
+customParameters = (
+{
+name = winDescent;
+value = 301;
+}
+);
+descender = -293;
+guideLines = (
+{
+name = "i_sign-ASCE";
+position = "{-507, 979}";
+},
+{
+name = "i_sign-ASCE";
+position = "{-347, 924}";
+},
+{
+position = "{-383, -340}";
+}
+);
+id = "C62AB4C0-B70D-46F6-9B13-45217A94AFC9";
+verticalStems = (
+140
+);
+weight = Bold;
+weightValue = 190;
+xHeight = 536;
+},
+{
+alignmentZones = (
+"{714, 11}",
+"{-11, 11}",
+"{-271, 16}"
+);
+ascender = 1011;
+capHeight = 612;
+customParameters = (
+{
+name = winDescent;
+value = 301;
+}
+);
+descender = -293;
+guideLines = (
+{
+position = "{-50, 147}";
+},
+{
+name = "i_sign-ASCE";
+position = "{271, 876}";
+}
+);
+id = "CF8E177F-0CDC-40C1-8828-F158AA64F32E";
+verticalStems = (
+27
+);
+weight = Light;
+weightValue = 26;
+width = Condensed;
+widthValue = 70;
+xHeight = 536;
+},
+{
+alignmentZones = (
+"{714, 11}",
+"{-11, 11}",
+"{-271, 10}"
+);
+ascender = 1011;
+capHeight = 612;
+customParameters = (
+{
+name = winDescent;
+value = 301;
+}
+);
+descender = -293;
+guideLines = (
+{
+position = "{-430, -232}";
+},
+{
+position = "{-40, 176}";
+},
+{
+position = "{-257, 976}";
+},
+{
+position = "{-272, 896}";
+}
+);
+id = "56AEB5FB-BA14-4784-B08F-18006463EEDB";
+verticalStems = (
+70
+);
+weightValue = 90;
+width = Condensed;
+widthValue = 70;
+xHeight = 536;
+},
+{
+alignmentZones = (
+"{714, 11}",
+"{-11, 11}",
+"{-271, 2}"
+);
+ascender = 1011;
+capHeight = 612;
+customParameters = (
+{
+name = winDescent;
+value = 301;
+}
+);
+descender = -293;
+guideLines = (
+{
+name = "i_sign-ASCE";
+position = "{-507, 979}";
+}
+);
+id = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
+verticalStems = (
+175
+);
+weight = Bold;
+weightValue = 190;
+width = Condensed;
+widthValue = 70;
+xHeight = 536;
+}
+);
+instances = (
+{
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+2,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+interpolationWeight = 26;
+instanceInterpolations = {
+"7977A986-4EFB-4152-84F8-5A02CD382AAF" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+3,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+interpolationWeight = 39;
+instanceInterpolations = {
+"7977A986-4EFB-4152-84F8-5A02CD382AAF" = 0.79688;
+UUID0 = 0.20313;
+};
+name = ExtraLight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+4,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+interpolationWeight = 58;
+instanceInterpolations = {
+"7977A986-4EFB-4152-84F8-5A02CD382AAF" = 0.5;
+UUID0 = 0.5;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+interpolationWeight = 90;
+instanceInterpolations = {
+UUID0 = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+interpolationWeight = 108;
+instanceInterpolations = {
+"C62AB4C0-B70D-46F6-9B13-45217A94AFC9" = 0.18;
+UUID0 = 0.82;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+7,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+interpolationWeight = 128;
+instanceInterpolations = {
+"C62AB4C0-B70D-46F6-9B13-45217A94AFC9" = 0.38;
+UUID0 = 0.62;
+};
+name = SemiBold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+8,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+interpolationWeight = 151;
+instanceInterpolations = {
+"C62AB4C0-B70D-46F6-9B13-45217A94AFC9" = 0.61;
+UUID0 = 0.39;
+};
+isBold = 1;
+linkStyle = Regular;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+9,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+interpolationWeight = 169;
+instanceInterpolations = {
+"C62AB4C0-B70D-46F6-9B13-45217A94AFC9" = 0.79;
+UUID0 = 0.21;
+};
+name = ExtraBold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+10,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+interpolationWeight = 190;
+instanceInterpolations = {
+"C62AB4C0-B70D-46F6-9B13-45217A94AFC9" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+interpolationWeight = 26;
+interpolationWidth = 70;
+instanceInterpolations = {
+"CF8E177F-0CDC-40C1-8828-F158AA64F32E" = 1;
+};
+name = "Thin Condensed";
+weightClass = Thin;
+widthClass = "Extra Condensed";
+},
+{
+interpolationWeight = 90;
+interpolationWidth = 70;
+instanceInterpolations = {
+"56AEB5FB-BA14-4784-B08F-18006463EEDB" = 1;
+};
+name = Condensed;
+widthClass = "Extra Condensed";
+},
+{
+interpolationWeight = 190;
+interpolationWidth = 70;
+instanceInterpolations = {
+"DC607D84-584B-45E6-A9EB-D1AF471CA2AE" = 1;
+};
+name = "Black Condensed";
+weightClass = Black;
+widthClass = "Extra Condensed";
+}
+);
+kerning = {
+"7977A986-4EFB-4152-84F8-5A02CD382AAF" = {
+"ba-sinh" = {
+"vocalicr-sign-sinh" = -7;
+"vocalicrr-sign-sinh" = -7;
+"yansa-sign-sinh" = -10;
+};
+"ca-sinh" = {
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -24;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -7;
+};
+"cha-sinh" = {
+"aa-sign-sinh" = -38;
+"aa-sign.al" = -38;
+"aae-sign-sinh" = -13;
+"ae-sign-sinh" = -13;
+"vocalicl-sign-sinh" = -21;
+"vocalicll-sign-sinh" = -21;
+"yansa-sign-sinh" = -44;
+};
+"da-sinh" = {
+"aa-sign-sinh" = 8;
+"aa-sign.al" = 8;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -18;
+"da-uu-sinh" = -18;
+"i-sign-sinh.alt2" = -18;
+"ii-sign-sinh.alt2" = -18;
+parenright.sinh = 60;
+};
+"da-uu-sinh" = {
+"aa-sign-sinh" = 8;
+"aa-sign.al" = 8;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+"da-sinh" = -18;
+"da-uu-sinh" = -18;
+"i-sign-sinh.alt2" = -18;
+"ii-sign-sinh.alt2" = -18;
+};
+"da_dha-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
+"yansa-sign-sinh" = -20;
+};
+"da_va-i-sinh" = {
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -24;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -7;
+};
+"da_va-sinh" = {
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -24;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -7;
+};
+"dda-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
+"yansa-sign-sinh" = -20;
+};
+"ddha-sinh" = {
+"aa-sign-sinh" = -13;
+"aa-sign.al" = -13;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = -23;
+};
+"dha-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
+"yansa-sign-sinh" = -20;
+};
+"fa-sinh" = {
+"aa-sign-sinh" = -18;
+"aa-sign.al" = -18;
+"yansa-sign-sinh" = -30;
+};
+"ga-sinh" = {
+"aa-sign-sinh" = -23;
+"aa-sign.al" = -23;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+"yansa-sign-sinh" = -31;
+};
+"ga_dha-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
+"yansa-sign-sinh" = -20;
+};
+"gha-sinh" = {
+"aa-sign-sinh" = -25;
+"aa-sign.al" = -25;
+"aae-sign-sinh" = -13;
+"ae-sign-sinh" = -13;
+"vocalicl-sign-sinh" = -24;
+"vocalicll-sign-sinh" = -24;
+"yansa-sign-sinh" = -28;
+};
+"ha-sinh" = {
+"aa-sign-sinh" = -23;
+"aa-sign.al" = -23;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+"yansa-sign-sinh" = -31;
+};
+"i-sign-sinh.alt2" = {
+"aa-sign-sinh" = 8;
+"aa-sign.al" = 8;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -18;
+"da-uu-sinh" = -18;
+"i-sign-sinh.alt2" = -18;
+"ii-sign-sinh.alt2" = -18;
+parenright.sinh = 60;
+};
+"ii-sign-sinh.alt2" = {
+"aa-sign-sinh" = 8;
+"aa-sign.al" = 8;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -18;
+"da-uu-sinh" = -18;
+"i-sign-sinh.alt2" = -18;
+"ii-sign-sinh.alt2" = -18;
+parenright.sinh = 60;
+};
+"ja-sinh" = {
+"aa-sign-sinh" = -27;
+"aa-sign.al" = -27;
+"aae-sign-sinh" = -9;
+"ae-sign-sinh" = -9;
+"vocalicl-sign-sinh" = -16;
+"vocalicll-sign-sinh" = -16;
+"vocalicr-sign-sinh" = -2;
+"vocalicrr-sign-sinh" = -2;
+"yansa-sign-sinh" = -36;
+};
+"jha-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
+"yansa-sign-sinh" = -20;
+};
+"jnya-sinh" = {
+"aa-sign-sinh" = 8;
+"aa-sign.al" = 8;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -18;
+"da-uu-sinh" = -18;
+"i-sign-sinh.alt2" = -18;
+"ii-sign-sinh.alt2" = -18;
+parenright.sinh = 60;
+};
+"jnya-u-sinh" = {
+"aa-sign-sinh" = 8;
+"aa-sign.al" = 8;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+"da-sinh" = -18;
+"da-uu-sinh" = -18;
+"i-sign-sinh.alt2" = -18;
+"ii-sign-sinh.alt2" = -18;
+};
+"jnya-uu-sinh" = {
+"aa-sign-sinh" = 8;
+"aa-sign.al" = 8;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+"da-sinh" = -18;
+"da-uu-sinh" = -18;
+"i-sign-sinh.alt2" = -18;
+"ii-sign-sinh.alt2" = -18;
+};
+"ka-sinh" = {
+"aa-sign-sinh" = -36;
+"aa-sign.al" = -36;
+"vocalicl-sign-sinh" = -10;
+"vocalicll-sign-sinh" = -10;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+"yansa-sign-sinh" = -44;
+};
+"ka_va-i-sinh" = {
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -24;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -7;
+};
+"ka_va-ii-sinh" = {
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -24;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -7;
+};
+"ka_va-sinh" = {
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -24;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -7;
+};
+"kha-sinh" = {
+"vocalicr-sign-sinh" = -6;
+"vocalicrr-sign-sinh" = -6;
+"yansa-sign-sinh" = -12;
+};
+"la-sinh" = {
+"aae-sign-sinh" = 5;
+"ae-sign-sinh" = 5;
+"yansa-sign-sinh" = -12;
+};
+"la-u-sinh" = {
+"aae-sign-sinh" = 5;
+"ae-sign-sinh" = 5;
+"yansa-sign-sinh" = -12;
+};
+"lla-sinh" = {
+"aa-sign-sinh" = 13;
+"aa-sign.al" = 13;
+"aae-sign-sinh" = 9;
+"ae-sign-sinh" = 9;
+};
+"lla-u-sinh" = {
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -10;
+};
+"ma-sinh" = {
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -21;
+"vocalicr-sign-sinh" = -11;
+"vocalicrr-sign-sinh" = -11;
+"yansa-sign-sinh" = -7;
+};
+"na-sinh" = {
+"aa-sign-sinh" = -29;
+"aa-sign.al" = -29;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = -45;
+};
+"na_da-sinh" = {
+"aa-sign-sinh" = 8;
+"aa-sign.al" = 8;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -18;
+"da-uu-sinh" = -18;
+"i-sign-sinh.alt2" = -18;
+"ii-sign-sinh.alt2" = -18;
+parenright.sinh = 60;
+};
+"na_da-uu-sinh" = {
+"aa-sign-sinh" = 8;
+"aa-sign.al" = 8;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+"da-sinh" = -18;
+"da-uu-sinh" = -18;
+"i-sign-sinh.alt2" = -18;
+"ii-sign-sinh.alt2" = -18;
+};
+"na_dha-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
+"yansa-sign-sinh" = -20;
+};
+"na_tha-sinh" = {
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -10;
+};
+"na_va-i-sinh" = {
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -24;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -7;
+};
+"na_va-ii-sinh" = {
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -24;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -7;
+};
+"na_va-sinh" = {
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -24;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -7;
+};
+"nda-sinh" = {
+"aa-sign-sinh" = 8;
+"aa-sign.al" = 8;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -18;
+"da-uu-sinh" = -18;
+"i-sign-sinh.alt2" = -18;
+"ii-sign-sinh.alt2" = -18;
+parenright.sinh = 60;
+};
+"nda-u-sinh" = {
+"aa-sign-sinh" = 8;
+"aa-sign.al" = 8;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+"da-sinh" = -18;
+"da-uu-sinh" = -18;
+"i-sign-sinh.alt2" = -18;
+"ii-sign-sinh.alt2" = -18;
+};
+"nda-uu-sinh" = {
+"aa-sign-sinh" = 8;
+"aa-sign.al" = 8;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+"da-sinh" = -18;
+"da-uu-sinh" = -18;
+"i-sign-sinh.alt2" = -18;
+"ii-sign-sinh.alt2" = -18;
+};
+"nga-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
+"yansa-sign-sinh" = -20;
+};
+"ngga-sinh" = {
+"aa-sign-sinh" = -23;
+"aa-sign.al" = -23;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+"yansa-sign-sinh" = -31;
+};
+"nna-sinh" = {
+"aa-sign-sinh" = -26;
+"aa-sign.al" = -26;
+"yansa-sign-sinh" = -32;
+};
+"nndda-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
+"yansa-sign-sinh" = -20;
+};
+"nya-sinh" = {
+"aa-sign-sinh" = 8;
+"aa-sign.al" = 8;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -18;
+"da-uu-sinh" = -18;
+"i-sign-sinh.alt2" = -18;
+"ii-sign-sinh.alt2" = -18;
+parenright.sinh = 60;
+};
+"nya-u-sinh" = {
+"aa-sign-sinh" = 8;
+"aa-sign.al" = 8;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+"da-sinh" = -18;
+"da-uu-sinh" = -18;
+"i-sign-sinh.alt2" = -18;
+"ii-sign-sinh.alt2" = -18;
+};
+"nya-uu-sinh" = {
+"aa-sign-sinh" = 8;
+"aa-sign.al" = 8;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+"da-sinh" = -18;
+"da-uu-sinh" = -18;
+"i-sign-sinh.alt2" = -18;
+"ii-sign-sinh.alt2" = -18;
+};
+"nya_ca-sinh" = {
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -24;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -7;
+};
+"nyja-sinh" = {
+"aa-sign-sinh" = -27;
+"aa-sign.al" = -27;
+"aae-sign-sinh" = -9;
+"ae-sign-sinh" = -9;
+"vocalicl-sign-sinh" = -16;
+"vocalicll-sign-sinh" = -16;
+"vocalicr-sign-sinh" = -2;
+"vocalicrr-sign-sinh" = -2;
+"yansa-sign-sinh" = -36;
+};
+"pa-sinh" = {
+"aa-sign-sinh" = -27;
+"aa-sign.al" = -27;
+"aae-sign-sinh" = -9;
+"ae-sign-sinh" = -9;
+"vocalicl-sign-sinh" = -16;
+"vocalicll-sign-sinh" = -16;
+"vocalicr-sign-sinh" = -2;
+"vocalicrr-sign-sinh" = -2;
+"yansa-sign-sinh" = -36;
+};
+"pha-sinh" = {
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -10;
+};
+"ra-aae-sinh" = {
+backslash.sinh = 30;
+braceright.sinh = 30;
+bracketright.sinh = 30;
+comma.sinh = 30;
+"la-sinh" = 18;
+"lla-sinh" = 35;
+parenright.sinh = 30;
+period.sinh = 30;
+semicolon.sinh = 30;
+slash.sinh = 30;
+};
+"ra-ae-sinh" = {
+backslash.sinh = 30;
+braceright.sinh = 30;
+bracketright.sinh = 30;
+comma.sinh = 30;
+"la-sinh" = 18;
+"lla-sinh" = 35;
+parenright.sinh = 30;
+period.sinh = 30;
+semicolon.sinh = 30;
+slash.sinh = 30;
+};
+"ra-sinh" = {
+"aa-sign-sinh" = -39;
+"aa-sign.al" = -39;
+"aae-sign-sinh" = -2;
+"ae-sign-sinh" = -2;
+"vocalicl-sign-sinh" = -12;
+"vocalicll-sign-sinh" = -12;
+"yansa-sign-sinh" = -48;
+};
+"sa-sinh" = {
+"aa-sign-sinh" = -25;
+"aa-sign.al" = -25;
+"aae-sign-sinh" = -13;
+"ae-sign-sinh" = -13;
+"vocalicl-sign-sinh" = -24;
+"vocalicll-sign-sinh" = -24;
+"yansa-sign-sinh" = -28;
+};
+"sha-sinh" = {
+"aa-sign-sinh" = -20;
+"aa-sign.al" = -20;
+"lla-sinh" = -6;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -32;
+};
+"sha-u-sinh" = {
+"aa-sign-sinh" = -20;
+"aa-sign.al" = -20;
+"lla-sinh" = -6;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -32;
+};
+"sha-uu-sinh" = {
+"aa-sign-sinh" = -20;
+"aa-sign.al" = -20;
+"lla-sinh" = -6;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -32;
+};
+"ssa-sinh" = {
+"aa-sign-sinh" = -27;
+"aa-sign.al" = -27;
+"aae-sign-sinh" = -9;
+"ae-sign-sinh" = -9;
+"vocalicl-sign-sinh" = -16;
+"vocalicll-sign-sinh" = -16;
+"vocalicr-sign-sinh" = -2;
+"vocalicrr-sign-sinh" = -2;
+"yansa-sign-sinh" = -36;
+};
+"ta-sinh" = {
+"aa-sign-sinh" = -29;
+"aa-sign.al" = -29;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = -45;
+};
+"ta_tha-sinh" = {
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -10;
+};
+"ta_va-i-sinh" = {
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -24;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -7;
+};
+"ta_va-ii-sinh" = {
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -24;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -7;
+};
+"ta_va-sinh" = {
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -24;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -7;
+};
+"tha-sinh" = {
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -10;
+};
+"tta-sinh" = {
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -24;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -7;
+};
+"tta_ttha-sinh" = {
+"aa-sign-sinh" = -13;
+"aa-sign.al" = -13;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = -23;
+};
+"ttha-sinh" = {
+"aa-sign-sinh" = -13;
+"aa-sign.al" = -13;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = -23;
+};
+"va-sinh" = {
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -24;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -7;
+};
+"ya-sinh" = {
+"aa-sign-sinh" = -25;
+"aa-sign.al" = -25;
+"aae-sign-sinh" = -13;
+"ae-sign-sinh" = -13;
+"vocalicl-sign-sinh" = -24;
+"vocalicll-sign-sinh" = -24;
+"yansa-sign-sinh" = -28;
+};
+"yansa-sign-sinh" = {
+"aa-sign-sinh" = -12;
+"aa-sign.al" = -12;
+"aae-sign-sinh" = -15;
+"ae-sign-sinh" = -15;
+};
+};
+UUID0 = {
+"@MMK_L_alSign" = {
+"va-i-sinh" = 0;
+};
+"@MMK_L_lasinh" = {
+"kunddaliya-sinh" = 0;
+};
+"ba-sinh" = {
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
+"yansa-sign-sinh" = -10;
+};
+"ca-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -22;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
+"yansa-sign-sinh" = -7;
+};
+"cha-sinh" = {
+"aa-sign-sinh" = -29;
+"aa-sign.al" = -29;
+"aae-sign-sinh" = -11;
+"ae-sign-sinh" = -11;
+"vocalicl-sign-sinh" = -19;
+"vocalicll-sign-sinh" = -19;
+"yansa-sign-sinh" = -43;
+};
+"da-sinh" = {
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+parenright.sinh = 60;
+};
+"da-uu-sinh" = {
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+};
+"da_dha-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -13;
+"vocalicrr-sign-sinh" = -13;
+"yansa-sign-sinh" = -20;
+};
+"da_va-i-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -22;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
+"yansa-sign-sinh" = -7;
+};
+"da_va-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -22;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
+"yansa-sign-sinh" = -7;
+};
+"dda-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -13;
+"vocalicrr-sign-sinh" = -13;
+"yansa-sign-sinh" = -20;
+};
+"ddha-sinh" = {
+"aa-sign-sinh" = -10;
+"aa-sign.al" = -10;
+"vocalicr-sign-sinh" = -7;
+"vocalicrr-sign-sinh" = -7;
+"yansa-sign-sinh" = -23;
+};
+"dha-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -13;
+"vocalicrr-sign-sinh" = -13;
+"yansa-sign-sinh" = -20;
+};
+"fa-sinh" = {
+"aa-sign-sinh" = -15;
+"aa-sign.al" = -15;
+"yansa-sign-sinh" = -33;
+};
+"ga-sinh" = {
+"aa-sign-sinh" = -20;
+"aa-sign.al" = -20;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -31;
+};
+"ga_dha-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -13;
+"vocalicrr-sign-sinh" = -13;
+"yansa-sign-sinh" = -20;
+};
+"gha-sinh" = {
+"aa-sign-sinh" = -22;
+"aa-sign.al" = -22;
+"aae-sign-sinh" = -10;
+"ae-sign-sinh" = -10;
+"vocalicl-sign-sinh" = -22;
+"vocalicll-sign-sinh" = -22;
+"yansa-sign-sinh" = -28;
+};
+"ha-sinh" = {
+"aa-sign-sinh" = -20;
+"aa-sign.al" = -20;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -31;
+};
+"i-sign-sinh.alt2" = {
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+parenright.sinh = 60;
+};
+"ii-sign-sinh.alt2" = {
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+parenright.sinh = 60;
+};
+"ja-sinh" = {
+"aa-sign-sinh" = -24;
+"aa-sign.al" = -24;
+"aae-sign-sinh" = -7;
+"ae-sign-sinh" = -7;
+"vocalicl-sign-sinh" = -13;
+"vocalicll-sign-sinh" = -13;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+"yansa-sign-sinh" = -34;
+};
+"jha-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -13;
+"vocalicrr-sign-sinh" = -13;
+"yansa-sign-sinh" = -20;
+};
+"jnya-sinh" = {
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+parenright.sinh = 60;
+};
+"jnya-u-sinh" = {
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+};
+"jnya-uu-sinh" = {
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+};
+"ka-sinh" = {
+"aa-sign-sinh" = -32;
+"aa-sign.al" = -32;
+"vocalicl-sign-sinh" = -10;
+"vocalicll-sign-sinh" = -10;
+"vocalicr-sign-sinh" = -2;
+"vocalicrr-sign-sinh" = -2;
+"yansa-sign-sinh" = -44;
+};
+"ka_va-i-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -22;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
+"yansa-sign-sinh" = -7;
+};
+"ka_va-ii-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -22;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
+"yansa-sign-sinh" = -7;
+};
+"ka_va-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -22;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
+"yansa-sign-sinh" = -7;
+};
+"kha-sinh" = {
+"vocalicr-sign-sinh" = -6;
+"vocalicrr-sign-sinh" = -6;
+"yansa-sign-sinh" = -12;
+};
+"kunddaliya-sinh" = {
+"kunddaliya-sinh" = 0;
+};
+"la-sinh" = {
+"aae-sign-sinh" = 5;
+"ae-sign-sinh" = 5;
+"yansa-sign-sinh" = -12;
+};
+"la-u-sinh" = {
+"aae-sign-sinh" = 5;
+"ae-sign-sinh" = 5;
+"yansa-sign-sinh" = -12;
+};
+"lla-sinh" = {
+"aa-sign-sinh" = 13;
+"aa-sign.al" = 13;
+"aae-sign-sinh" = 9;
+"ae-sign-sinh" = 9;
+};
+"lla-u-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -20;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -10;
+};
+"ma-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -21;
+"vocalicr-sign-sinh" = -13;
+"vocalicrr-sign-sinh" = -13;
+"yansa-sign-sinh" = -7;
+};
+"na-sinh" = {
+"aa-sign-sinh" = -26;
+"aa-sign.al" = -26;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
+"vocalicr-sign-sinh" = -6;
+"vocalicrr-sign-sinh" = -6;
+"yansa-sign-sinh" = -45;
+};
+"na_da-sinh" = {
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+parenright.sinh = 60;
+};
+"na_da-uu-sinh" = {
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+};
+"na_dha-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -13;
+"vocalicrr-sign-sinh" = -13;
+"yansa-sign-sinh" = -20;
+};
+"na_tha-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -20;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -10;
+};
+"na_va-i-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -22;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
+"yansa-sign-sinh" = -7;
+};
+"na_va-ii-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -22;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
+"yansa-sign-sinh" = -7;
+};
+"na_va-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -22;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
+"yansa-sign-sinh" = -7;
+};
+"nda-sinh" = {
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+parenright.sinh = 60;
+};
+"nda-u-sinh" = {
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+};
+"nda-uu-sinh" = {
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+};
+"nga-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -13;
+"vocalicrr-sign-sinh" = -13;
+"yansa-sign-sinh" = -20;
+};
+"ngga-sinh" = {
+"aa-sign-sinh" = -20;
+"aa-sign.al" = -20;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -31;
+};
+"nna-sinh" = {
+"aa-sign-sinh" = -24;
+"aa-sign.al" = -24;
+"yansa-sign-sinh" = -32;
+};
+"nndda-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -13;
+"vocalicrr-sign-sinh" = -13;
+"yansa-sign-sinh" = -20;
+};
+"nya-sinh" = {
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+parenright.sinh = 60;
+};
+"nya-u-sinh" = {
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+};
+"nya-uu-sinh" = {
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aae-sign-sinh" = 8;
+"ae-sign-sinh" = 8;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+};
+"nya_ca-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -22;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
+"yansa-sign-sinh" = -7;
+};
+"nyja-sinh" = {
+"aa-sign-sinh" = -24;
+"aa-sign.al" = -24;
+"aae-sign-sinh" = -7;
+"ae-sign-sinh" = -7;
+"vocalicl-sign-sinh" = -13;
+"vocalicll-sign-sinh" = -13;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+"yansa-sign-sinh" = -34;
+};
+"pa-sinh" = {
+"aa-sign-sinh" = -24;
+"aa-sign.al" = -24;
+"aae-sign-sinh" = -7;
+"ae-sign-sinh" = -7;
+"vocalicl-sign-sinh" = -13;
+"vocalicll-sign-sinh" = -13;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+"yansa-sign-sinh" = -34;
+};
+"pha-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -20;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -10;
+};
+"ra-aae-sinh" = {
+backslash.sinh = 30;
+braceright.sinh = 30;
+bracketright.sinh = 30;
+comma.sinh = 30;
+"la-sinh" = 23;
+"lla-sinh" = 36;
+parenright.sinh = 30;
+period.sinh = 30;
+semicolon.sinh = 30;
+slash.sinh = 30;
+};
+"ra-ae-sinh" = {
+backslash.sinh = 30;
+braceright.sinh = 30;
+bracketright.sinh = 30;
+comma.sinh = 30;
+"la-sinh" = 23;
+"lla-sinh" = 36;
+parenright.sinh = 30;
+period.sinh = 30;
+semicolon.sinh = 30;
+slash.sinh = 30;
+};
+"ra-sinh" = {
+"aa-sign-sinh" = -35;
+"aa-sign.al" = -35;
+"vocalicl-sign-sinh" = -12;
+"vocalicll-sign-sinh" = -12;
+"yansa-sign-sinh" = -48;
+};
+"sa-sinh" = {
+"aa-sign-sinh" = -22;
+"aa-sign.al" = -22;
+"aae-sign-sinh" = -10;
+"ae-sign-sinh" = -10;
+"vocalicl-sign-sinh" = -22;
+"vocalicll-sign-sinh" = -22;
+"yansa-sign-sinh" = -28;
+};
+"sha-sinh" = {
+"aa-sign-sinh" = -17;
+"aa-sign.al" = -17;
+"lla-sinh" = -7;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
+"yansa-sign-sinh" = -32;
+};
+"sha-u-sinh" = {
+"aa-sign-sinh" = -17;
+"aa-sign.al" = -17;
+"lla-sinh" = -7;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
+"yansa-sign-sinh" = -32;
+};
+"sha-uu-sinh" = {
+"aa-sign-sinh" = -17;
+"aa-sign.al" = -17;
+"lla-sinh" = -7;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
+"yansa-sign-sinh" = -32;
+};
+"ssa-sinh" = {
+"aa-sign-sinh" = -24;
+"aa-sign.al" = -24;
+"aae-sign-sinh" = -7;
+"ae-sign-sinh" = -7;
+"vocalicl-sign-sinh" = -13;
+"vocalicll-sign-sinh" = -13;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+"yansa-sign-sinh" = -34;
+};
+"ta-sinh" = {
+"aa-sign-sinh" = -26;
+"aa-sign.al" = -26;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
+"vocalicr-sign-sinh" = -6;
+"vocalicrr-sign-sinh" = -6;
+"yansa-sign-sinh" = -45;
+};
+"ta_tha-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -20;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -10;
+};
+"ta_va-i-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -22;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
+"yansa-sign-sinh" = -7;
+};
+"ta_va-ii-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -22;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
+"yansa-sign-sinh" = -7;
+};
+"ta_va-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -22;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
+"yansa-sign-sinh" = -7;
+};
+"tha-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -20;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -10;
+};
+"tta-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -22;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
+"yansa-sign-sinh" = -7;
+};
+"tta_ttha-sinh" = {
+"aa-sign-sinh" = -10;
+"aa-sign.al" = -10;
+"vocalicr-sign-sinh" = -7;
+"vocalicrr-sign-sinh" = -7;
+"yansa-sign-sinh" = -23;
+};
+"ttha-sinh" = {
+"aa-sign-sinh" = -10;
+"aa-sign.al" = -10;
+"vocalicr-sign-sinh" = -7;
+"vocalicrr-sign-sinh" = -7;
+"yansa-sign-sinh" = -23;
+};
+"va-sinh" = {
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -22;
+"vocalicr-sign-sinh" = -17;
+"vocalicrr-sign-sinh" = -17;
+"yansa-sign-sinh" = -7;
+};
+"ya-sinh" = {
+"aa-sign-sinh" = -22;
+"aa-sign.al" = -22;
+"aae-sign-sinh" = -10;
+"ae-sign-sinh" = -10;
+"vocalicl-sign-sinh" = -22;
+"vocalicll-sign-sinh" = -22;
+"yansa-sign-sinh" = -28;
+};
+"yansa-sign-sinh" = {
+"aa-sign-sinh" = -13;
+"aa-sign.al" = -13;
+"aae-sign-sinh" = -11;
+"ae-sign-sinh" = -11;
+};
+};
+"C62AB4C0-B70D-46F6-9B13-45217A94AFC9" = {
+"ba-sinh" = {
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -9;
+};
+"ca-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -10;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -6;
+};
+"cha-sinh" = {
+"aa-sign-sinh" = -25;
+"aa-sign.al" = -25;
+"aae-sign-sinh" = -6;
+"ae-sign-sinh" = -6;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
+"yansa-sign-sinh" = -20;
+};
+"da-sinh" = {
+"aa-sign-sinh" = 6;
+"aa-sign.al" = 6;
+"aae-sign-sinh" = 6;
+"ae-sign-sinh" = 6;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+parenright.sinh = 60;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
+};
+"da-uu-sinh" = {
+"aa-sign-sinh" = 6;
+"aa-sign.al" = 6;
+"aae-sign-sinh" = 6;
+"ae-sign-sinh" = 6;
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
+};
+"da_dha-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"vocalicr-sign-sinh" = -12;
+"vocalicrr-sign-sinh" = -12;
+"yansa-sign-sinh" = -19;
+};
+"da_va-i-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -10;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -6;
+};
+"da_va-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -10;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -6;
+};
+"dda-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"vocalicr-sign-sinh" = -12;
+"vocalicrr-sign-sinh" = -12;
+"yansa-sign-sinh" = -19;
+};
+"ddha-sinh" = {
+"aa-sign-sinh" = -12;
+"aa-sign.al" = -12;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
+"yansa-sign-sinh" = -25;
+};
+"dha-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"vocalicr-sign-sinh" = -12;
+"vocalicrr-sign-sinh" = -12;
+"yansa-sign-sinh" = -19;
+};
+"fa-sinh" = {
+"aa-sign-sinh" = -17;
+"aa-sign.al" = -17;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
+"yansa-sign-sinh" = -26;
+};
+"ga-sinh" = {
+"aa-sign-sinh" = -20;
+"aa-sign.al" = -20;
+"yansa-sign-sinh" = -23;
+};
+"ga_dha-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"vocalicr-sign-sinh" = -12;
+"vocalicrr-sign-sinh" = -12;
+"yansa-sign-sinh" = -19;
+};
+"gha-sinh" = {
+"aa-sign-sinh" = -27;
+"aa-sign.al" = -27;
+"aae-sign-sinh" = -10;
+"ae-sign-sinh" = -10;
+"vocalicl-sign-sinh" = -27;
+"vocalicll-sign-sinh" = -27;
+"yansa-sign-sinh" = -31;
+};
+"ha-sinh" = {
+"aa-sign-sinh" = -20;
+"aa-sign.al" = -20;
+"yansa-sign-sinh" = -23;
+};
+"i-sign-sinh.alt2" = {
+"aa-sign-sinh" = 6;
+"aa-sign.al" = 6;
+"aae-sign-sinh" = 6;
+"ae-sign-sinh" = 6;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+parenright.sinh = 60;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
+};
+"ii-sign-sinh.alt2" = {
+"aa-sign-sinh" = 6;
+"aa-sign.al" = 6;
+"aae-sign-sinh" = 6;
+"ae-sign-sinh" = 6;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+parenright.sinh = 60;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
+};
+"ja-sinh" = {
+"aa-sign-sinh" = -20;
+"aa-sign.al" = -20;
+"aae-sign-sinh" = -6;
+"ae-sign-sinh" = -6;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
+"yansa-sign-sinh" = -22;
+};
+"jha-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"vocalicr-sign-sinh" = -12;
+"vocalicrr-sign-sinh" = -12;
+"yansa-sign-sinh" = -19;
+};
+"jnya-sinh" = {
+"aa-sign-sinh" = 6;
+"aa-sign.al" = 6;
+"aae-sign-sinh" = 6;
+"ae-sign-sinh" = 6;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+parenright.sinh = 60;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
+};
+"jnya-u-sinh" = {
+"aa-sign-sinh" = 6;
+"aa-sign.al" = 6;
+"aae-sign-sinh" = 6;
+"ae-sign-sinh" = 6;
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
+};
+"jnya-uu-sinh" = {
+"aa-sign-sinh" = 6;
+"aa-sign.al" = 6;
+"aae-sign-sinh" = 6;
+"ae-sign-sinh" = 6;
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
+};
+"ka-sinh" = {
+"aa-sign-sinh" = -27;
+"aa-sign.al" = -27;
+"vocalicl-sign-sinh" = -8;
+"vocalicll-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+"yansa-sign-sinh" = -39;
+};
+"ka_va-i-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -10;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -6;
+};
+"ka_va-ii-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -10;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -6;
+};
+"ka_va-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -10;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -6;
+};
+"kha-sinh" = {
+"yansa-sign-sinh" = -11;
+};
+"la-sinh" = {
+"aae-sign-sinh" = 7;
+"ae-sign-sinh" = 7;
+"yansa-sign-sinh" = -10;
+};
+"la-u-sinh" = {
+"aae-sign-sinh" = 7;
+"ae-sign-sinh" = 7;
+"yansa-sign-sinh" = -10;
+};
+"lla-sinh" = {
+"aa-sign-sinh" = 5;
+"aa-sign.al" = 5;
+"aae-sign-sinh" = 12;
+"ae-sign-sinh" = 12;
+"yansa-sign-sinh" = -2;
+};
+"lla-u-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -12;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -23;
+"vocalicrr-sign-sinh" = -23;
+"yansa-sign-sinh" = -1;
+};
+"ma-sinh" = {
+"da-sinh" = -18;
+"da-uu-sinh" = -18;
+"i-sign-sinh.alt2" = -18;
+"ii-sign-sinh.alt2" = -18;
+"la-sinh" = -11;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -23;
+"vocalicrr-sign-sinh" = -23;
+"yansa-sign-sinh" = -5;
+};
+"na-sinh" = {
+"aa-sign-sinh" = -29;
+"aa-sign.al" = -29;
+"vocalicl-sign-sinh" = -7;
+"vocalicll-sign-sinh" = -7;
+"vocalicr-sign-sinh" = -6;
+"vocalicrr-sign-sinh" = -6;
+"yansa-sign-sinh" = -40;
+};
+"na_da-sinh" = {
+"aa-sign-sinh" = 6;
+"aa-sign.al" = 6;
+"aae-sign-sinh" = 6;
+"ae-sign-sinh" = 6;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+parenright.sinh = 60;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
+};
+"na_da-uu-sinh" = {
+"aa-sign-sinh" = 6;
+"aa-sign.al" = 6;
+"aae-sign-sinh" = 6;
+"ae-sign-sinh" = 6;
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
+};
+"na_dha-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"vocalicr-sign-sinh" = -12;
+"vocalicrr-sign-sinh" = -12;
+"yansa-sign-sinh" = -19;
+};
+"na_tha-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -12;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -23;
+"vocalicrr-sign-sinh" = -23;
+"yansa-sign-sinh" = -1;
+};
+"na_va-i-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -10;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -6;
+};
+"na_va-ii-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -10;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -6;
+};
+"na_va-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -10;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -6;
+};
+"nda-sinh" = {
+"aa-sign-sinh" = 6;
+"aa-sign.al" = 6;
+"aae-sign-sinh" = 6;
+"ae-sign-sinh" = 6;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+parenright.sinh = 60;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
+};
+"nda-u-sinh" = {
+"aa-sign-sinh" = 6;
+"aa-sign.al" = 6;
+"aae-sign-sinh" = 6;
+"ae-sign-sinh" = 6;
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
+};
+"nda-uu-sinh" = {
+"aa-sign-sinh" = 6;
+"aa-sign.al" = 6;
+"aae-sign-sinh" = 6;
+"ae-sign-sinh" = 6;
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
+};
+"nga-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"vocalicr-sign-sinh" = -12;
+"vocalicrr-sign-sinh" = -12;
+"yansa-sign-sinh" = -19;
+};
+"ngga-sinh" = {
+"aa-sign-sinh" = -20;
+"aa-sign.al" = -20;
+"yansa-sign-sinh" = -23;
+};
+"nna-sinh" = {
+"aa-sign-sinh" = -22;
+"aa-sign.al" = -22;
+"yansa-sign-sinh" = -29;
+};
+"nndda-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"vocalicr-sign-sinh" = -12;
+"vocalicrr-sign-sinh" = -12;
+"yansa-sign-sinh" = -19;
+};
+"nya-sinh" = {
+"aa-sign-sinh" = 6;
+"aa-sign.al" = 6;
+"aae-sign-sinh" = 6;
+"ae-sign-sinh" = 6;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+parenright.sinh = 60;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
+};
+"nya-u-sinh" = {
+"aa-sign-sinh" = 6;
+"aa-sign.al" = 6;
+"aae-sign-sinh" = 6;
+"ae-sign-sinh" = 6;
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
+};
+"nya-uu-sinh" = {
+"aa-sign-sinh" = 6;
+"aa-sign.al" = 6;
+"aae-sign-sinh" = 6;
+"ae-sign-sinh" = 6;
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"vocalicl-sign-sinh" = 7;
+"vocalicll-sign-sinh" = 7;
+};
+"nya_ca-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -10;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -6;
+};
+"nyja-sinh" = {
+"aa-sign-sinh" = -20;
+"aa-sign.al" = -20;
+"aae-sign-sinh" = -6;
+"ae-sign-sinh" = -6;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
+"yansa-sign-sinh" = -22;
+};
+"pa-sinh" = {
+"aa-sign-sinh" = -20;
+"aa-sign.al" = -20;
+"aae-sign-sinh" = -6;
+"ae-sign-sinh" = -6;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
+"yansa-sign-sinh" = -22;
+};
+"pha-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -12;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -23;
+"vocalicrr-sign-sinh" = -23;
+"yansa-sign-sinh" = -1;
+};
+"ra-aae-sinh" = {
+backslash.sinh = 30;
+braceright.sinh = 30;
+bracketright.sinh = 30;
+comma.sinh = 30;
+"la-sinh" = 8;
+"lla-sinh" = 30;
+parenright.sinh = 30;
+period.sinh = 30;
+semicolon.sinh = 30;
+slash.sinh = 30;
+};
+"ra-ae-sinh" = {
+backslash.sinh = 30;
+braceright.sinh = 30;
+bracketright.sinh = 30;
+comma.sinh = 30;
+"la-sinh" = 8;
+"lla-sinh" = 30;
+parenright.sinh = 30;
+period.sinh = 30;
+semicolon.sinh = 30;
+slash.sinh = 30;
+};
+"ra-sinh" = {
+"aa-sign-sinh" = -36;
+"aa-sign.al" = -36;
+"vocalicl-sign-sinh" = -12;
+"vocalicll-sign-sinh" = -12;
+"yansa-sign-sinh" = -32;
+};
+"sa-sinh" = {
+"aa-sign-sinh" = -27;
+"aa-sign.al" = -27;
+"aae-sign-sinh" = -10;
+"ae-sign-sinh" = -10;
+"vocalicl-sign-sinh" = -27;
+"vocalicll-sign-sinh" = -27;
+"yansa-sign-sinh" = -31;
+};
+"sha-sinh" = {
+"aa-sign-sinh" = -20;
+"aa-sign.al" = -20;
+"da-sinh" = -10;
+"da-uu-sinh" = -10;
+"i-sign-sinh.alt2" = -10;
+"ii-sign-sinh.alt2" = -10;
+"lla-sinh" = -11;
+"vocalicl-sign-sinh" = -5;
+"vocalicll-sign-sinh" = -5;
+"vocalicr-sign-sinh" = -11;
+"vocalicrr-sign-sinh" = -11;
+"yansa-sign-sinh" = -25;
+};
+"sha-u-sinh" = {
+"aa-sign-sinh" = -20;
+"aa-sign.al" = -20;
+"da-sinh" = -10;
+"da-uu-sinh" = -10;
+"i-sign-sinh.alt2" = -10;
+"ii-sign-sinh.alt2" = -10;
+"lla-sinh" = -11;
+"vocalicl-sign-sinh" = -5;
+"vocalicll-sign-sinh" = -5;
+"vocalicr-sign-sinh" = -11;
+"vocalicrr-sign-sinh" = -11;
+"yansa-sign-sinh" = -25;
+};
+"sha-uu-sinh" = {
+"aa-sign-sinh" = -20;
+"aa-sign.al" = -20;
+"da-sinh" = -10;
+"da-uu-sinh" = -10;
+"i-sign-sinh.alt2" = -10;
+"ii-sign-sinh.alt2" = -10;
+"lla-sinh" = -11;
+"vocalicl-sign-sinh" = -5;
+"vocalicll-sign-sinh" = -5;
+"vocalicr-sign-sinh" = -11;
+"vocalicrr-sign-sinh" = -11;
+"yansa-sign-sinh" = -25;
+};
+"ssa-sinh" = {
+"aa-sign-sinh" = -20;
+"aa-sign.al" = -20;
+"aae-sign-sinh" = -6;
+"ae-sign-sinh" = -6;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
+"yansa-sign-sinh" = -22;
+};
+"ta-sinh" = {
+"aa-sign-sinh" = -29;
+"aa-sign.al" = -29;
+"vocalicl-sign-sinh" = -7;
+"vocalicll-sign-sinh" = -7;
+"vocalicr-sign-sinh" = -6;
+"vocalicrr-sign-sinh" = -6;
+"yansa-sign-sinh" = -40;
+};
+"ta_tha-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -12;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -23;
+"vocalicrr-sign-sinh" = -23;
+"yansa-sign-sinh" = -1;
+};
+"ta_va-i-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -10;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -6;
+};
+"ta_va-ii-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -10;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -6;
+};
+"ta_va-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -10;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -6;
+};
+"tha-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -12;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -23;
+"vocalicrr-sign-sinh" = -23;
+"yansa-sign-sinh" = -1;
+};
+"tta-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -10;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -6;
+};
+"tta_ttha-sinh" = {
+"aa-sign-sinh" = -12;
+"aa-sign.al" = -12;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
+"yansa-sign-sinh" = -25;
+};
+"ttha-sinh" = {
+"aa-sign-sinh" = -12;
+"aa-sign.al" = -12;
+"vocalicr-sign-sinh" = -9;
+"vocalicrr-sign-sinh" = -9;
+"yansa-sign-sinh" = -25;
+};
+"va-sinh" = {
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"la-sinh" = -10;
+"lla-sinh" = -28;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -6;
+};
+"ya-sinh" = {
+"aa-sign-sinh" = -27;
+"aa-sign.al" = -27;
+"aae-sign-sinh" = -10;
+"ae-sign-sinh" = -10;
+"vocalicl-sign-sinh" = -27;
+"vocalicll-sign-sinh" = -27;
+"yansa-sign-sinh" = -31;
+};
+"yansa-sign-sinh" = {
+"aae-sign-sinh" = -13;
+"ae-sign-sinh" = -13;
+};
+};
+"CF8E177F-0CDC-40C1-8828-F158AA64F32E" = {
+"a-sinh" = {
+"a-sinh" = -13;
+"aa-sinh" = -13;
+"aae-sinh" = -13;
+"da-sinh" = -13;
+"da-uu-sinh" = -13;
+"ea-sinh" = -13;
+"i-sign-sinh.alt2" = -13;
+"ii-sign-sinh.alt2" = -13;
+"lla-sinh" = -26;
+"uu-sinh" = -32;
+};
+"ai-sinh" = {
+"a-sinh" = -5;
+"aa-sign-sinh" = -4;
+"aa-sign.al" = -4;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -14;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -10;
+};
+"ba-sinh" = {
+"vocalicr-sign-sinh" = -7;
+"vocalicrr-sign-sinh" = -7;
+"yansa-sign-sinh" = -10;
+};
+"ca-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"cha-sinh" = {
+"aa-sign-sinh" = -34;
+"aa-sign.al" = -34;
+"aae-sign-sinh" = -14;
+"ae-sign-sinh" = -14;
+"vocalicl-sign-sinh" = -19;
+"vocalicll-sign-sinh" = -19;
+"yansa-sign-sinh" = -29;
+};
+"da-sinh" = {
+"a-sinh" = -24;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -24;
+"aae-sign-sinh" = 11;
+"aae-sinh" = -24;
+"ae-sign-sinh" = 11;
+"anusvara-sinh" = -40;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -24;
+"da-uu-sinh" = -24;
+"ea-sinh" = -24;
+"i-sign-sinh.alt2" = -24;
+"ii-sign-sinh.alt2" = -24;
+parenright.sinh = 60;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+};
+"da-uu-sinh" = {
+"a-sinh" = -24;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -24;
+"aae-sign-sinh" = 11;
+"aae-sinh" = -24;
+"ae-sign-sinh" = 11;
+"anusvara-sinh" = -40;
+"da-sinh" = -24;
+"da-uu-sinh" = -24;
+"ea-sinh" = -24;
+"i-sign-sinh.alt2" = -24;
+"ii-sign-sinh.alt2" = -24;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+};
+"da_dha-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"yansa-sign-sinh" = -10;
+};
+"da_va-al-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"da_va-i-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"da_va-ii-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"da_va-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"dda-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"yansa-sign-sinh" = -10;
+};
+"ddha-sinh" = {
+"aa-sign-sinh" = -14;
+"aa-sign.al" = -14;
+"yansa-sign-sinh" = -16;
+};
+"dha-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"yansa-sign-sinh" = -10;
+};
+"e-sinh" = {
+"a-sinh" = -5;
+"aa-sign-sinh" = -4;
+"aa-sign.al" = -4;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -14;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -10;
+};
+"ee-sinh" = {
+"a-sinh" = -5;
+"aa-sign-sinh" = -4;
+"aa-sign.al" = -4;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -14;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -10;
+};
+"fa-sinh" = {
+"aa-sign-sinh" = -18;
+"aa-sign.al" = -18;
+"yansa-sign-sinh" = -20;
+};
+"ga-sinh" = {
+"aa-sign-sinh" = -25;
+"aa-sign.al" = -25;
+"yansa-sign-sinh" = -23;
+};
+"ga_dha-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"yansa-sign-sinh" = -10;
+};
+"gha-sinh" = {
+"aa-sign-sinh" = -28;
+"aa-sign.al" = -28;
+"aae-sign-sinh" = -12;
+"ae-sign-sinh" = -12;
+"anusvara-sinh" = -3;
+"vocalicl-sign-sinh" = -22;
+"vocalicll-sign-sinh" = -22;
+"yansa-sign-sinh" = -21;
+};
+"ha-sinh" = {
+"aa-sign-sinh" = -25;
+"aa-sign.al" = -25;
+"yansa-sign-sinh" = -23;
+};
+"i-sign-sinh.alt2" = {
+"a-sinh" = -24;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -24;
+"aae-sign-sinh" = 11;
+"aae-sinh" = -24;
+"ae-sign-sinh" = 11;
+"anusvara-sinh" = -40;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -24;
+"da-uu-sinh" = -24;
+"ea-sinh" = -24;
+"i-sign-sinh.alt2" = -24;
+"ii-sign-sinh.alt2" = 0;
+parenright.sinh = 60;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+};
+"ii-sign-sinh.alt2" = {
+"a-sinh" = -24;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -24;
+"aae-sign-sinh" = 11;
+"aae-sinh" = -24;
+"ae-sign-sinh" = 11;
+"anusvara-sinh" = -40;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -24;
+"da-uu-sinh" = -24;
+"ea-sinh" = -24;
+"i-sign-sinh.alt2" = -24;
+"ii-sign-sinh.alt2" = -24;
+parenright.sinh = 60;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+};
+"ja-sinh" = {
+"aa-sign-sinh" = -23;
+"aa-sign.al" = -23;
+"aae-sign-sinh" = -10;
+"ae-sign-sinh" = -10;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
+"yansa-sign-sinh" = -27;
+};
+"jha-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"yansa-sign-sinh" = -10;
+};
+"jnya-sinh" = {
+"a-sinh" = -24;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -24;
+"aae-sign-sinh" = 11;
+"aae-sinh" = -24;
+"ae-sign-sinh" = 11;
+"anusvara-sinh" = -40;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -24;
+"da-uu-sinh" = -24;
+"ea-sinh" = -24;
+"i-sign-sinh.alt2" = -24;
+"ii-sign-sinh.alt2" = -24;
+parenright.sinh = 60;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+};
+"jnya-u-sinh" = {
+"a-sinh" = -24;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -24;
+"aae-sign-sinh" = 11;
+"aae-sinh" = -24;
+"ae-sign-sinh" = 11;
+"anusvara-sinh" = -40;
+"da-sinh" = -24;
+"da-uu-sinh" = -24;
+"ea-sinh" = -24;
+"i-sign-sinh.alt2" = -24;
+"ii-sign-sinh.alt2" = -24;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+};
+"jnya-uu-sinh" = {
+"a-sinh" = -24;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -24;
+"aae-sign-sinh" = 11;
+"aae-sinh" = -24;
+"ae-sign-sinh" = 11;
+"anusvara-sinh" = -40;
+"da-sinh" = -24;
+"da-uu-sinh" = -24;
+"ea-sinh" = -24;
+"i-sign-sinh.alt2" = -24;
+"ii-sign-sinh.alt2" = -24;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+};
+"ka-sinh" = {
+"aa-sign-sinh" = -41;
+"aa-sign.al" = -41;
+"vocalicl-sign-sinh" = -10;
+"vocalicll-sign-sinh" = -10;
+"vocalicr-sign-sinh" = -5;
+"vocalicrr-sign-sinh" = -5;
+"yansa-sign-sinh" = -29;
+};
+"ka_va-al-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"ka_va-i-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"ka_va-ii-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"ka_va-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"kha-sinh" = {
+"yansa-sign-sinh" = -14;
+};
+"la-sinh" = {
+"aae-sign-sinh" = 5;
+"ae-sign-sinh" = 5;
+"anusvara-sinh" = -7;
+};
+"la-u-sinh" = {
+"aae-sign-sinh" = 5;
+"ae-sign-sinh" = 5;
+"anusvara-sinh" = -7;
+};
+"lla-sinh" = {
+"aa-sign-sinh" = 11;
+"aa-sign.al" = 11;
+"aae-sign-sinh" = 17;
+"ae-sign-sinh" = 17;
+"anusvara-sinh" = -10;
+};
+"lla-u-sinh" = {
+"a-sinh" = -5;
+"aa-sign-sinh" = -4;
+"aa-sign.al" = -4;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -14;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -10;
+};
+"ma-al-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -22;
+"uu-sinh" = -20;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -5;
+};
+"ma-i-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -22;
+"uu-sinh" = -20;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -5;
+};
+"ma-ii-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -22;
+"uu-sinh" = -20;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -5;
+};
+"ma-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -22;
+"uu-sinh" = -20;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -5;
+};
+"na-sinh" = {
+"aa-sign-sinh" = -32;
+"aa-sign.al" = -32;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
+"yansa-sign-sinh" = -25;
+};
+"na_da-rakar-sinh" = {
+"a-sinh" = -24;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -24;
+"aae-sign-sinh" = 11;
+"aae-sinh" = -24;
+"ae-sign-sinh" = 11;
+"anusvara-sinh" = -40;
+"da-sinh" = -24;
+"da-uu-sinh" = -24;
+"ea-sinh" = -24;
+"i-sign-sinh.alt2" = -24;
+"ii-sign-sinh.alt2" = -24;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+};
+"na_da-sinh" = {
+"a-sinh" = -24;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -24;
+"aae-sign-sinh" = 11;
+"aae-sinh" = -24;
+"ae-sign-sinh" = 11;
+"anusvara-sinh" = -40;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -24;
+"da-uu-sinh" = -24;
+"ea-sinh" = -24;
+"i-sign-sinh.alt2" = -24;
+"ii-sign-sinh.alt2" = -24;
+parenright.sinh = 60;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+};
+"na_da-uu-sinh" = {
+"a-sinh" = -24;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -24;
+"aae-sign-sinh" = 11;
+"aae-sinh" = -24;
+"ae-sign-sinh" = 11;
+"anusvara-sinh" = -40;
+"da-sinh" = -24;
+"da-uu-sinh" = -24;
+"ea-sinh" = -24;
+"i-sign-sinh.alt2" = -24;
+"ii-sign-sinh.alt2" = -24;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+};
+"na_dha-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"yansa-sign-sinh" = -10;
+};
+"na_tha-sinh" = {
+"a-sinh" = -5;
+"aa-sign-sinh" = -4;
+"aa-sign.al" = -4;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -14;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -10;
+};
+"na_va-al-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"na_va-i-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"na_va-ii-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"na_va-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"nda-sinh" = {
+"a-sinh" = -24;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -24;
+"aae-sign-sinh" = 11;
+"aae-sinh" = -24;
+"ae-sign-sinh" = 11;
+"anusvara-sinh" = -40;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -24;
+"da-uu-sinh" = -24;
+"ea-sinh" = -24;
+"i-sign-sinh.alt2" = -24;
+"ii-sign-sinh.alt2" = -24;
+parenright.sinh = 60;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+};
+"nda-u-sinh" = {
+"a-sinh" = -24;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -24;
+"aae-sign-sinh" = 11;
+"aae-sinh" = -24;
+"ae-sign-sinh" = 11;
+"anusvara-sinh" = -40;
+"da-sinh" = -24;
+"da-uu-sinh" = -24;
+"ea-sinh" = -24;
+"i-sign-sinh.alt2" = -24;
+"ii-sign-sinh.alt2" = -24;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+};
+"nda-uu-sinh" = {
+"a-sinh" = -24;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -24;
+"aae-sign-sinh" = 11;
+"aae-sinh" = -24;
+"ae-sign-sinh" = 11;
+"anusvara-sinh" = -40;
+"da-sinh" = -24;
+"da-uu-sinh" = -24;
+"ea-sinh" = -24;
+"i-sign-sinh.alt2" = -24;
+"ii-sign-sinh.alt2" = -24;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+};
+"nga-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"yansa-sign-sinh" = -10;
+};
+"ngga-sinh" = {
+"aa-sign-sinh" = -25;
+"aa-sign.al" = -25;
+"yansa-sign-sinh" = -23;
+};
+"nna-sinh" = {
+"aa-sign-sinh" = -28;
+"aa-sign.al" = -28;
+"yansa-sign-sinh" = -21;
+};
+"nndda-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"yansa-sign-sinh" = -10;
+};
+"nya-sinh" = {
+"a-sinh" = -24;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -24;
+"aae-sign-sinh" = 11;
+"aae-sinh" = -24;
+"ae-sign-sinh" = 11;
+"anusvara-sinh" = -40;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -24;
+"da-uu-sinh" = -24;
+"ea-sinh" = -24;
+"i-sign-sinh.alt2" = -24;
+"ii-sign-sinh.alt2" = -24;
+parenright.sinh = 60;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+};
+"nya-u-sinh" = {
+"a-sinh" = -24;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -24;
+"aae-sign-sinh" = 11;
+"aae-sinh" = -24;
+"ae-sign-sinh" = 11;
+"anusvara-sinh" = -40;
+"da-sinh" = -24;
+"da-uu-sinh" = -24;
+"ea-sinh" = -24;
+"i-sign-sinh.alt2" = -24;
+"ii-sign-sinh.alt2" = -24;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+};
+"nya-uu-sinh" = {
+"a-sinh" = -24;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -24;
+"aae-sign-sinh" = 11;
+"aae-sinh" = -24;
+"ae-sign-sinh" = 11;
+"anusvara-sinh" = -40;
+"da-sinh" = -24;
+"da-uu-sinh" = -24;
+"ea-sinh" = -24;
+"i-sign-sinh.alt2" = -24;
+"ii-sign-sinh.alt2" = -24;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+};
+"nya_ca-al-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"nya_ca-i-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"nya_ca-ii-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"nya_ca-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"nyja-sinh" = {
+"aa-sign-sinh" = -23;
+"aa-sign.al" = -23;
+"aae-sign-sinh" = -10;
+"ae-sign-sinh" = -10;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
+"yansa-sign-sinh" = -27;
+};
+"pa-sinh" = {
+"aa-sign-sinh" = -23;
+"aa-sign.al" = -23;
+"aae-sign-sinh" = -10;
+"ae-sign-sinh" = -10;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
+"yansa-sign-sinh" = -27;
+};
+"pha-sinh" = {
+"a-sinh" = -5;
+"aa-sign-sinh" = -4;
+"aa-sign.al" = -4;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -14;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -10;
+};
+"ra-aae-sinh" = {
+"anusvara-sinh" = -55;
+backslash.sinh = 30;
+braceright.sinh = 30;
+bracketright.sinh = 30;
+comma.sinh = 30;
+"la-sinh" = 13;
+"lla-sinh" = 25;
+parenright.sinh = 30;
+period.sinh = 30;
+semicolon.sinh = 30;
+slash.sinh = 30;
+"uu-sinh" = 28;
+};
+"ra-ae-sinh" = {
+"anusvara-sinh" = -55;
+backslash.sinh = 30;
+braceright.sinh = 30;
+bracketright.sinh = 30;
+comma.sinh = 30;
+"la-sinh" = 13;
+"lla-sinh" = 25;
+parenright.sinh = 30;
+period.sinh = 30;
+semicolon.sinh = 30;
+slash.sinh = 30;
+"uu-sinh" = 28;
+};
+"ra-sinh" = {
+"aa-sign-sinh" = -40;
+"aa-sign.al" = -40;
+"vocalicl-sign-sinh" = -11;
+"vocalicll-sign-sinh" = -11;
+"yansa-sign-sinh" = -35;
+};
+"sa-sinh" = {
+"aa-sign-sinh" = -28;
+"aa-sign.al" = -28;
+"aae-sign-sinh" = -12;
+"ae-sign-sinh" = -12;
+"anusvara-sinh" = -3;
+"vocalicl-sign-sinh" = -22;
+"vocalicll-sign-sinh" = -22;
+"yansa-sign-sinh" = -21;
+};
+"sha-sinh" = {
+"aa-sign-sinh" = -21;
+"aa-sign.al" = -21;
+"lla-sinh" = -8;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
+"yansa-sign-sinh" = -21;
+};
+"sha-u-sinh" = {
+"aa-sign-sinh" = -21;
+"aa-sign.al" = -21;
+"lla-sinh" = -8;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
+"yansa-sign-sinh" = -21;
+};
+"sha-uu-sinh" = {
+"aa-sign-sinh" = -21;
+"aa-sign.al" = -21;
+"lla-sinh" = -8;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
+"yansa-sign-sinh" = -21;
+};
+"ssa-sinh" = {
+"aa-sign-sinh" = -23;
+"aa-sign.al" = -23;
+"aae-sign-sinh" = -10;
+"ae-sign-sinh" = -10;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
+"yansa-sign-sinh" = -27;
+};
+"ta-sinh" = {
+"aa-sign-sinh" = -32;
+"aa-sign.al" = -32;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
+"yansa-sign-sinh" = -25;
+};
+"ta_tha-sinh" = {
+"a-sinh" = -5;
+"aa-sign-sinh" = -4;
+"aa-sign.al" = -4;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -14;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -10;
+};
+"ta_va-al-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"ta_va-i-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"ta_va-ii-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"ta_va-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"tha-sinh" = {
+"a-sinh" = -5;
+"aa-sign-sinh" = -4;
+"aa-sign.al" = -4;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -14;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -10;
+};
+"tta-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"tta_ttha-sinh" = {
+"aa-sign-sinh" = -14;
+"aa-sign.al" = -14;
+"yansa-sign-sinh" = -16;
+};
+"ttha-sinh" = {
+"aa-sign-sinh" = -14;
+"aa-sign.al" = -14;
+"yansa-sign-sinh" = -16;
+};
+"va-sinh" = {
+"a-sinh" = -5;
+"aa-sinh" = -5;
+"aae-sinh" = -5;
+"anusvara-sinh" = -5;
+"da-sinh" = -5;
+"da-uu-sinh" = -5;
+"ea-sinh" = -5;
+"i-sign-sinh.alt2" = -5;
+"ii-sign-sinh.alt2" = -5;
+"lla-sinh" = -20;
+"uu-sinh" = -18;
+"vocalicr-sign-sinh" = -19;
+"vocalicrr-sign-sinh" = -19;
+"yansa-sign-sinh" = -8;
+};
+"ya-sinh" = {
+"aa-sign-sinh" = -28;
+"aa-sign.al" = -28;
+"aae-sign-sinh" = -12;
+"ae-sign-sinh" = -12;
+"anusvara-sinh" = -3;
+"vocalicl-sign-sinh" = -22;
+"vocalicll-sign-sinh" = -22;
+"yansa-sign-sinh" = -21;
+};
+"yansa-sign-sinh" = {
+"aa-sign-sinh" = -13;
+"aa-sign.al" = -13;
+"aae-sign-sinh" = -14;
+"ae-sign-sinh" = -14;
+"anusvara-sinh" = -6;
+};
+};
+"56AEB5FB-BA14-4784-B08F-18006463EEDB" = {
+"@MMK_L_alSign" = {
+"va-i-sinh" = 20;
+};
+"a-sinh" = {
+"a-sinh" = -16;
+"aa-sinh" = -16;
+"aae-sinh" = -16;
+"da-sinh" = -16;
+"da-uu-sinh" = -16;
+"ea-sinh" = -16;
+"i-sign-sinh.alt2" = -16;
+"ii-sign-sinh.alt2" = -16;
+"lla-sinh" = -24;
+"uu-sinh" = -19;
+};
+"ai-sinh" = {
+"a-sinh" = -13;
+"aa-sinh" = -13;
+"aae-sinh" = -13;
+"anusvara-sinh" = -6;
+"da-sinh" = -13;
+"da-uu-sinh" = -13;
+"ea-sinh" = -13;
+"i-sign-sinh.alt2" = -13;
+"ii-sign-sinh.alt2" = -13;
+"lla-sinh" = -15;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -10;
+};
+"al-sign-sinh" = {
+"va-i-sinh" = 30;
+};
+"al-sign-sinh.alt1" = {
+"va-i-sinh" = 20;
+};
+"ba-sinh" = {
+"vocalicr-sign-sinh" = -12;
+"vocalicrr-sign-sinh" = -12;
+"yansa-sign-sinh" = -8;
+};
+"ca-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"cha-sinh" = {
+"aa-sign-sinh" = -31;
+"aa-sign.al" = -31;
+"aae-sign-sinh" = -10;
+"ae-sign-sinh" = -10;
+"vocalicl-sign-sinh" = -19;
+"vocalicll-sign-sinh" = -19;
+"yansa-sign-sinh" = -27;
+};
+"da-sinh" = {
+"a-sinh" = -21;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -21;
+"aae-sign-sinh" = 8;
+"aae-sinh" = -21;
+"ae-sign-sinh" = 8;
+"anusvara-sinh" = -34;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"ea-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+parenright.sinh = 60;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = 3;
+};
+"da-uu-sinh" = {
+"a-sinh" = -21;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -21;
+"aae-sign-sinh" = 8;
+"aae-sinh" = -21;
+"ae-sign-sinh" = 8;
+"anusvara-sinh" = -34;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"ea-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = 3;
+};
+"da_dha-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -8;
+};
+"da_va-al-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"da_va-i-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"da_va-ii-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"da_va-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"dda-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -8;
+};
+"ddha-sinh" = {
+"aa-sign-sinh" = -14;
+"aa-sign.al" = -14;
+"vocalicr-sign-sinh" = -7;
+"vocalicrr-sign-sinh" = -7;
+"yansa-sign-sinh" = -16;
+};
+"dha-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -8;
+};
+"e-sinh" = {
+"a-sinh" = -13;
+"aa-sinh" = -13;
+"aae-sinh" = -13;
+"anusvara-sinh" = -6;
+"da-sinh" = -13;
+"da-uu-sinh" = -13;
+"ea-sinh" = -13;
+"i-sign-sinh.alt2" = -13;
+"ii-sign-sinh.alt2" = -13;
+"lla-sinh" = -15;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -10;
+};
+"ee-sinh" = {
+"a-sinh" = -13;
+"aa-sinh" = -13;
+"aae-sinh" = -13;
+"anusvara-sinh" = -6;
+"da-sinh" = -13;
+"da-uu-sinh" = -13;
+"ea-sinh" = -13;
+"i-sign-sinh.alt2" = -13;
+"ii-sign-sinh.alt2" = -13;
+"lla-sinh" = -15;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -10;
+};
+"fa-sinh" = {
+"aa-sign-sinh" = -17;
+"aa-sign.al" = -17;
+"yansa-sign-sinh" = -17;
+};
+"ga-sinh" = {
+"aa-sign-sinh" = -23;
+"aa-sign.al" = -23;
+"yansa-sign-sinh" = -17;
+};
+"ga_dha-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -8;
+};
+"gha-sinh" = {
+"aa-sign-sinh" = -24;
+"aa-sign.al" = -24;
+"aae-sign-sinh" = -7;
+"ae-sign-sinh" = -7;
+"anusvara-sinh" = -5;
+"vocalicl-sign-sinh" = -27;
+"vocalicll-sign-sinh" = -27;
+"yansa-sign-sinh" = -17;
+};
+"ha-sinh" = {
+"aa-sign-sinh" = -23;
+"aa-sign.al" = -23;
+"yansa-sign-sinh" = -17;
+};
+"i-sign-sinh.alt2" = {
+"a-sinh" = -21;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -21;
+"aae-sign-sinh" = 8;
+"aae-sinh" = -21;
+"ae-sign-sinh" = 8;
+"anusvara-sinh" = -34;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"ea-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+parenright.sinh = 60;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = 3;
+};
+"ii-sign-sinh.alt2" = {
+"a-sinh" = -21;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -21;
+"aae-sign-sinh" = 8;
+"aae-sinh" = -21;
+"ae-sign-sinh" = 8;
+"anusvara-sinh" = -34;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"ea-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+parenright.sinh = 60;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = 3;
+};
+"ja-sinh" = {
+"aa-sign-sinh" = -21;
+"aa-sign.al" = -21;
+"aae-sign-sinh" = -10;
+"ae-sign-sinh" = -10;
+"vocalicl-sign-sinh" = -15;
+"vocalicll-sign-sinh" = -15;
+"yansa-sign-sinh" = -18;
+};
+"jha-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -8;
+};
+"jnya-sinh" = {
+"a-sinh" = -21;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -21;
+"aae-sign-sinh" = 8;
+"aae-sinh" = -21;
+"ae-sign-sinh" = 8;
+"anusvara-sinh" = -34;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"ea-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+parenright.sinh = 60;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = 3;
+};
+"jnya-u-sinh" = {
+"a-sinh" = -21;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -21;
+"aae-sign-sinh" = 8;
+"aae-sinh" = -21;
+"ae-sign-sinh" = 8;
+"anusvara-sinh" = -34;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"ea-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = 3;
+};
+"jnya-uu-sinh" = {
+"a-sinh" = -21;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -21;
+"aae-sign-sinh" = 8;
+"aae-sinh" = -21;
+"ae-sign-sinh" = 8;
+"anusvara-sinh" = -34;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"ea-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = 3;
+};
+"ka-sinh" = {
+"aa-sign-sinh" = -34;
+"aa-sign.al" = -34;
+"vocalicl-sign-sinh" = -8;
+"vocalicll-sign-sinh" = -8;
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+"yansa-sign-sinh" = -25;
+};
+"ka_va-al-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"ka_va-i-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"ka_va-ii-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"ka_va-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"kha-sinh" = {
+"vocalicr-sign-sinh" = -6;
+"vocalicrr-sign-sinh" = -6;
+"yansa-sign-sinh" = -10;
+};
+"la-sinh" = {
+"aae-sign-sinh" = 5;
+"ae-sign-sinh" = 5;
+"anusvara-sinh" = -11;
+"yansa-sign-sinh" = -3;
+};
+"la-u-sinh" = {
+"aae-sign-sinh" = 5;
+"ae-sign-sinh" = 5;
+"anusvara-sinh" = -11;
+"yansa-sign-sinh" = -3;
+};
+"lla-sinh" = {
+"aa-sign-sinh" = 11;
+"aa-sign.al" = 11;
+"aae-sign-sinh" = 13;
+"ae-sign-sinh" = 13;
+"anusvara-sinh" = -10;
+};
+"lla-u-sinh" = {
+"a-sinh" = -13;
+"aa-sinh" = -13;
+"aae-sinh" = -13;
+"anusvara-sinh" = -6;
+"da-sinh" = -13;
+"da-uu-sinh" = -13;
+"ea-sinh" = -13;
+"i-sign-sinh.alt2" = -13;
+"ii-sign-sinh.alt2" = -13;
+"lla-sinh" = -15;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -10;
+};
+"ma-al-sinh" = {
+"a-sinh" = -11;
+"aa-sinh" = -11;
+"aae-sinh" = -11;
+"da-sinh" = -11;
+"da-uu-sinh" = -11;
+"ea-sinh" = -11;
+"i-sign-sinh.alt2" = -11;
+"ii-sign-sinh.alt2" = -11;
+"lla-sinh" = -14;
+"uu-sinh" = -21;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -3;
+};
+"ma-i-sinh" = {
+"a-sinh" = -11;
+"aa-sinh" = -11;
+"aae-sinh" = -11;
+"da-sinh" = -11;
+"da-uu-sinh" = -11;
+"ea-sinh" = -11;
+"i-sign-sinh.alt2" = -11;
+"ii-sign-sinh.alt2" = -11;
+"lla-sinh" = -14;
+"uu-sinh" = -21;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -3;
+};
+"ma-ii-sinh" = {
+"a-sinh" = -11;
+"aa-sinh" = -11;
+"aae-sinh" = -11;
+"da-sinh" = -11;
+"da-uu-sinh" = -11;
+"ea-sinh" = -11;
+"i-sign-sinh.alt2" = -11;
+"ii-sign-sinh.alt2" = -11;
+"lla-sinh" = -14;
+"uu-sinh" = -21;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -3;
+};
+"ma-sinh" = {
+"a-sinh" = -11;
+"aa-sinh" = -11;
+"aae-sinh" = -11;
+"da-sinh" = -11;
+"da-uu-sinh" = -11;
+"ea-sinh" = -11;
+"i-sign-sinh.alt2" = -11;
+"ii-sign-sinh.alt2" = -11;
+"lla-sinh" = -14;
+"uu-sinh" = -21;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -3;
+};
+"na-sinh" = {
+"aa-sign-sinh" = -27;
+"aa-sign.al" = -27;
+"vocalicl-sign-sinh" = -3;
+"vocalicll-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -5;
+"vocalicrr-sign-sinh" = -5;
+"yansa-sign-sinh" = -23;
+};
+"na_da-rakar-sinh" = {
+"a-sinh" = -21;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -21;
+"aae-sign-sinh" = 8;
+"aae-sinh" = -21;
+"ae-sign-sinh" = 8;
+"anusvara-sinh" = -34;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"ea-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = 3;
+};
+"na_da-sinh" = {
+"a-sinh" = -21;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -21;
+"aae-sign-sinh" = 8;
+"aae-sinh" = -21;
+"ae-sign-sinh" = 8;
+"anusvara-sinh" = -34;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"ea-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+parenright.sinh = 60;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = 3;
+};
+"na_da-uu-sinh" = {
+"a-sinh" = -21;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -21;
+"aae-sign-sinh" = 8;
+"aae-sinh" = -21;
+"ae-sign-sinh" = 8;
+"anusvara-sinh" = -34;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"ea-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = 3;
+};
+"na_dha-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -8;
+};
+"na_tha-sinh" = {
+"a-sinh" = -13;
+"aa-sinh" = -13;
+"aae-sinh" = -13;
+"anusvara-sinh" = -6;
+"da-sinh" = -13;
+"da-uu-sinh" = -13;
+"ea-sinh" = -13;
+"i-sign-sinh.alt2" = -13;
+"ii-sign-sinh.alt2" = -13;
+"lla-sinh" = -15;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -10;
+};
+"na_va-al-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"na_va-i-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"na_va-ii-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"na_va-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"nda-sinh" = {
+"a-sinh" = -21;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -21;
+"aae-sign-sinh" = 8;
+"aae-sinh" = -21;
+"ae-sign-sinh" = 8;
+"anusvara-sinh" = -34;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"ea-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+parenright.sinh = 60;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = 3;
+};
+"nda-u-sinh" = {
+"a-sinh" = -21;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -21;
+"aae-sign-sinh" = 8;
+"aae-sinh" = -21;
+"ae-sign-sinh" = 8;
+"anusvara-sinh" = -34;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"ea-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = 3;
+};
+"nda-uu-sinh" = {
+"a-sinh" = -21;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -21;
+"aae-sign-sinh" = 8;
+"aae-sinh" = -21;
+"ae-sign-sinh" = 8;
+"anusvara-sinh" = -34;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"ea-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = 3;
+};
+"nga-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -8;
+};
+"ngga-sinh" = {
+"aa-sign-sinh" = -23;
+"aa-sign.al" = -23;
+"yansa-sign-sinh" = -17;
+};
+"nna-sinh" = {
+"aa-sign-sinh" = -24;
+"aa-sign.al" = -24;
+"yansa-sign-sinh" = -21;
+};
+"nndda-sinh" = {
+"aa-sign-sinh" = -5;
+"aa-sign.al" = -5;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -8;
+};
+"nya-sinh" = {
+"a-sinh" = -21;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -21;
+"aae-sign-sinh" = 8;
+"aae-sinh" = -21;
+"ae-sign-sinh" = 8;
+"anusvara-sinh" = -34;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"ea-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+parenright.sinh = 60;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = 3;
+};
+"nya-u-sinh" = {
+"a-sinh" = -21;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -21;
+"aae-sign-sinh" = 8;
+"aae-sinh" = -21;
+"ae-sign-sinh" = 8;
+"anusvara-sinh" = -34;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"ea-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = 3;
+};
+"nya-uu-sinh" = {
+"a-sinh" = -21;
+"aa-sign-sinh" = 7;
+"aa-sign.al" = 7;
+"aa-sinh" = -21;
+"aae-sign-sinh" = 8;
+"aae-sinh" = -21;
+"ae-sign-sinh" = 8;
+"anusvara-sinh" = -34;
+"da-sinh" = -21;
+"da-uu-sinh" = -21;
+"ea-sinh" = -21;
+"i-sign-sinh.alt2" = -21;
+"ii-sign-sinh.alt2" = -21;
+"vocalicr-sign-sinh" = -3;
+"vocalicrr-sign-sinh" = -3;
+"yansa-sign-sinh" = 3;
+};
+"nya_ca-al-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"nya_ca-i-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"nya_ca-ii-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"nya_ca-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"nyja-sinh" = {
+"aa-sign-sinh" = -21;
+"aa-sign.al" = -21;
+"aae-sign-sinh" = -10;
+"ae-sign-sinh" = -10;
+"vocalicl-sign-sinh" = -15;
+"vocalicll-sign-sinh" = -15;
+"yansa-sign-sinh" = -18;
+};
+"pa-sinh" = {
+"aa-sign-sinh" = -21;
+"aa-sign.al" = -21;
+"aae-sign-sinh" = -10;
+"ae-sign-sinh" = -10;
+"vocalicl-sign-sinh" = -15;
+"vocalicll-sign-sinh" = -15;
+"yansa-sign-sinh" = -18;
+};
+"pha-sinh" = {
+"a-sinh" = -13;
+"aa-sinh" = -13;
+"aae-sinh" = -13;
+"anusvara-sinh" = -6;
+"da-sinh" = -13;
+"da-uu-sinh" = -13;
+"ea-sinh" = -13;
+"i-sign-sinh.alt2" = -13;
+"ii-sign-sinh.alt2" = -13;
+"lla-sinh" = -15;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -10;
+};
+"ra-aae-sinh" = {
+"anusvara-sinh" = -50;
+backslash.sinh = 30;
+braceright.sinh = 30;
+bracketright.sinh = 30;
+comma.sinh = 30;
+"la-sinh" = 16;
+"lla-sinh" = 31;
+parenright.sinh = 30;
+period.sinh = 30;
+semicolon.sinh = 30;
+slash.sinh = 30;
+"uu-sinh" = 28;
+};
+"ra-ae-sinh" = {
+"anusvara-sinh" = -50;
+backslash.sinh = 30;
+braceright.sinh = 30;
+bracketright.sinh = 30;
+comma.sinh = 30;
+"la-sinh" = 16;
+"lla-sinh" = 31;
+parenright.sinh = 30;
+period.sinh = 30;
+semicolon.sinh = 30;
+slash.sinh = 30;
+"uu-sinh" = 28;
+};
+"ra-sinh" = {
+"aa-sign-sinh" = -35;
+"aa-sign.al" = -35;
+"vocalicl-sign-sinh" = -9;
+"vocalicll-sign-sinh" = -9;
+"yansa-sign-sinh" = -29;
+};
+"sa-sinh" = {
+"aa-sign-sinh" = -24;
+"aa-sign.al" = -24;
+"aae-sign-sinh" = -7;
+"ae-sign-sinh" = -7;
+"anusvara-sinh" = -5;
+"vocalicl-sign-sinh" = -27;
+"vocalicll-sign-sinh" = -27;
+"yansa-sign-sinh" = -17;
+};
+"sha-sinh" = {
+"aa-sign-sinh" = -17;
+"aa-sign.al" = -17;
+"lla-sinh" = -12;
+"uu-sinh" = -9;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
+"yansa-sign-sinh" = -19;
+};
+"sha-u-sinh" = {
+"aa-sign-sinh" = -17;
+"aa-sign.al" = -17;
+"lla-sinh" = -12;
+"uu-sinh" = -9;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
+"yansa-sign-sinh" = -19;
+};
+"sha-uu-sinh" = {
+"aa-sign-sinh" = -17;
+"aa-sign.al" = -17;
+"lla-sinh" = -12;
+"uu-sinh" = -9;
+"vocalicr-sign-sinh" = -10;
+"vocalicrr-sign-sinh" = -10;
+"yansa-sign-sinh" = -19;
+};
+"ssa-sinh" = {
+"aa-sign-sinh" = -21;
+"aa-sign.al" = -21;
+"aae-sign-sinh" = -10;
+"ae-sign-sinh" = -10;
+"vocalicl-sign-sinh" = -15;
+"vocalicll-sign-sinh" = -15;
+"yansa-sign-sinh" = -18;
+};
+"ta-sinh" = {
+"aa-sign-sinh" = -27;
+"aa-sign.al" = -27;
+"vocalicl-sign-sinh" = -3;
+"vocalicll-sign-sinh" = -3;
+"vocalicr-sign-sinh" = -5;
+"vocalicrr-sign-sinh" = -5;
+"yansa-sign-sinh" = -23;
+};
+"ta_tha-sinh" = {
+"a-sinh" = -13;
+"aa-sinh" = -13;
+"aae-sinh" = -13;
+"anusvara-sinh" = -6;
+"da-sinh" = -13;
+"da-uu-sinh" = -13;
+"ea-sinh" = -13;
+"i-sign-sinh.alt2" = -13;
+"ii-sign-sinh.alt2" = -13;
+"lla-sinh" = -15;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -10;
+};
+"ta_va-al-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"ta_va-i-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"ta_va-ii-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"ta_va-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"tha-sinh" = {
+"a-sinh" = -13;
+"aa-sinh" = -13;
+"aae-sinh" = -13;
+"anusvara-sinh" = -6;
+"da-sinh" = -13;
+"da-uu-sinh" = -13;
+"ea-sinh" = -13;
+"i-sign-sinh.alt2" = -13;
+"ii-sign-sinh.alt2" = -13;
+"lla-sinh" = -15;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -20;
+"vocalicrr-sign-sinh" = -20;
+"yansa-sign-sinh" = -10;
+};
+"tta-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"tta_ttha-sinh" = {
+"aa-sign-sinh" = -14;
+"aa-sign.al" = -14;
+"vocalicr-sign-sinh" = -7;
+"vocalicrr-sign-sinh" = -7;
+"yansa-sign-sinh" = -16;
+};
+"ttha-sinh" = {
+"aa-sign-sinh" = -14;
+"aa-sign.al" = -14;
+"vocalicr-sign-sinh" = -7;
+"vocalicrr-sign-sinh" = -7;
+"yansa-sign-sinh" = -16;
+};
+"va-sinh" = {
+"a-sinh" = -15;
+"aa-sinh" = -15;
+"aae-sinh" = -15;
+"anusvara-sinh" = -7;
+"da-sinh" = -15;
+"da-uu-sinh" = -15;
+"ea-sinh" = -15;
+"i-sign-sinh.alt2" = -15;
+"ii-sign-sinh.alt2" = -15;
+"lla-sinh" = -20;
+"uu-sinh" = -14;
+"vocalicr-sign-sinh" = -22;
+"vocalicrr-sign-sinh" = -22;
+"yansa-sign-sinh" = -6;
+};
+"ya-sinh" = {
+"aa-sign-sinh" = -24;
+"aa-sign.al" = -24;
+"aae-sign-sinh" = -7;
+"ae-sign-sinh" = -7;
+"anusvara-sinh" = -5;
+"vocalicl-sign-sinh" = -27;
+"vocalicll-sign-sinh" = -27;
+"yansa-sign-sinh" = -17;
+};
+"yansa-sign-sinh" = {
+"aa-sign-sinh" = -11;
+"aa-sign.al" = -11;
+"aae-sign-sinh" = -14;
+"ae-sign-sinh" = -14;
+"anusvara-sinh" = -6;
+};
+};
+"DC607D84-584B-45E6-A9EB-D1AF471CA2AE" = {
+"@MMK_L_ivowelsignsinh" = {
+"@MMK_R_dasinh" = 0;
+"i-sign-sinh.alt9" = 0;
+"na-sinh" = 0;
+};
+"a-sinh" = {
+"a-sinh" = -7;
+"aa-sinh" = -7;
+"aae-sinh" = -7;
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"ea-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -36;
+"uu-sinh" = -24;
+};
+"ai-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -6;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -31;
+"uu-sinh" = -20;
+"vocalicr-sign-sinh" = -16;
+"vocalicrr-sign-sinh" = -16;
+"yansa-sign-sinh" = -3;
+};
+"ba-sinh" = {
+"vocalicr-sign-sinh" = -4;
+"vocalicrr-sign-sinh" = -4;
+"yansa-sign-sinh" = -7;
+};
+"ca-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"cha-sinh" = {
+"aa-sign-sinh" = -20;
+"aa-sign.al" = -20;
+"aae-sign-sinh" = -10;
+"ae-sign-sinh" = -10;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
+"yansa-sign-sinh" = -13;
+};
+"da-sinh" = {
+"a-sinh" = -12;
+"aa-sign-sinh" = 5;
+"aa-sign.al" = 5;
+"aa-sinh" = -12;
+"aae-sign-sinh" = 7;
+"aae-sinh" = -12;
+"ae-sign-sinh" = 7;
+"anusvara-sinh" = -16;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = 18;
+"da-uu-sinh" = -12;
+"ea-sinh" = -12;
+"i-sign-sinh.alt2" = -12;
+"ii-sign-sinh.alt2" = -12;
+parenright.sinh = 60;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
+};
+"da-uu-sinh" = {
+"a-sinh" = -12;
+"aa-sign-sinh" = 5;
+"aa-sign.al" = 5;
+"aa-sinh" = -12;
+"aae-sign-sinh" = 7;
+"aae-sinh" = -12;
+"ae-sign-sinh" = 7;
+"anusvara-sinh" = -16;
+"da-sinh" = -12;
+"da-uu-sinh" = -12;
+"ea-sinh" = -12;
+"i-sign-sinh.alt2" = -12;
+"ii-sign-sinh.alt2" = -12;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
+};
+"da_dha-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"yansa-sign-sinh" = -8;
+};
+"da_va-al-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"da_va-i-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"da_va-ii-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"da_va-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"dda-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"yansa-sign-sinh" = -8;
+};
+"ddha-sinh" = {
+"aa-sign-sinh" = -17;
+"aa-sign.al" = -17;
+"yansa-sign-sinh" = -16;
+};
+"dha-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"yansa-sign-sinh" = -8;
+};
+"e-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -6;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -31;
+"uu-sinh" = -20;
+"vocalicr-sign-sinh" = -16;
+"vocalicrr-sign-sinh" = -16;
+"yansa-sign-sinh" = -3;
+};
+"ee-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -6;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -31;
+"uu-sinh" = -20;
+"vocalicr-sign-sinh" = -16;
+"vocalicrr-sign-sinh" = -16;
+"yansa-sign-sinh" = -3;
+};
+"fa-sinh" = {
+"aa-sign-sinh" = -21;
+"aa-sign.al" = -21;
+"yansa-sign-sinh" = -18;
+};
+"ga-sinh" = {
+"aa-sign-sinh" = -26;
+"aa-sign.al" = -26;
+"yansa-sign-sinh" = -21;
+};
+"ga_dha-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"yansa-sign-sinh" = -8;
+};
+"gha-sinh" = {
+"aa-sign-sinh" = -24;
+"aa-sign.al" = -24;
+"aae-sign-sinh" = -6;
+"ae-sign-sinh" = -6;
+"anusvara-sinh" = -3;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
+"yansa-sign-sinh" = -16;
+};
+"ha-sinh" = {
+"aa-sign-sinh" = -26;
+"aa-sign.al" = -26;
+"yansa-sign-sinh" = -21;
+};
+"i-sign-sinh.alt2" = {
+"a-sinh" = -12;
+"aa-sign-sinh" = 5;
+"aa-sign.al" = 5;
+"aa-sinh" = -12;
+"aae-sign-sinh" = 7;
+"aae-sinh" = -12;
+"ae-sign-sinh" = 7;
+"anusvara-sinh" = -16;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -12;
+"da-uu-sinh" = -12;
+"ea-sinh" = -12;
+"i-sign-sinh.alt2" = -8;
+"ii-sign-sinh.alt2" = -12;
+parenright.sinh = 60;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
+};
+"ii-sign-sinh.alt2" = {
+"a-sinh" = -12;
+"aa-sign-sinh" = 5;
+"aa-sign.al" = 5;
+"aa-sinh" = -12;
+"aae-sign-sinh" = 7;
+"aae-sinh" = -12;
+"ae-sign-sinh" = 7;
+"anusvara-sinh" = -16;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -12;
+"da-uu-sinh" = -12;
+"ea-sinh" = -12;
+"i-sign-sinh.alt2" = -12;
+"ii-sign-sinh.alt2" = -12;
+parenright.sinh = 60;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
+};
+"ja-sinh" = {
+"aa-sign-sinh" = -16;
+"aa-sign.al" = -16;
+"aae-sign-sinh" = -7;
+"ae-sign-sinh" = -7;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
+"yansa-sign-sinh" = -7;
+};
+"jha-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"yansa-sign-sinh" = -8;
+};
+"jnya-sinh" = {
+"a-sinh" = -12;
+"aa-sign-sinh" = 5;
+"aa-sign.al" = 5;
+"aa-sinh" = -12;
+"aae-sign-sinh" = 7;
+"aae-sinh" = -12;
+"ae-sign-sinh" = 7;
+"anusvara-sinh" = -16;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -12;
+"da-uu-sinh" = -12;
+"ea-sinh" = -12;
+"i-sign-sinh.alt2" = -12;
+"ii-sign-sinh.alt2" = -12;
+parenright.sinh = 60;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
+};
+"jnya-u-sinh" = {
+"a-sinh" = -12;
+"aa-sign-sinh" = 5;
+"aa-sign.al" = 5;
+"aa-sinh" = -12;
+"aae-sign-sinh" = 7;
+"aae-sinh" = -12;
+"ae-sign-sinh" = 7;
+"anusvara-sinh" = -16;
+"da-sinh" = -12;
+"da-uu-sinh" = -12;
+"ea-sinh" = -12;
+"i-sign-sinh.alt2" = -12;
+"ii-sign-sinh.alt2" = -12;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
+};
+"jnya-uu-sinh" = {
+"a-sinh" = -12;
+"aa-sign-sinh" = 5;
+"aa-sign.al" = 5;
+"aa-sinh" = -12;
+"aae-sign-sinh" = 7;
+"aae-sinh" = -12;
+"ae-sign-sinh" = 7;
+"anusvara-sinh" = -16;
+"da-sinh" = -12;
+"da-uu-sinh" = -12;
+"ea-sinh" = -12;
+"i-sign-sinh.alt2" = -12;
+"ii-sign-sinh.alt2" = -12;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
+};
+"ka-sinh" = {
+"aa-sign-sinh" = -37;
+"aa-sign.al" = -37;
+"aae-sign-sinh" = -3;
+"ae-sign-sinh" = -3;
+"vocalicl-sign-sinh" = -9;
+"vocalicll-sign-sinh" = -9;
+"vocalicr-sign-sinh" = -5;
+"vocalicrr-sign-sinh" = -5;
+"yansa-sign-sinh" = -29;
+};
+"ka_va-al-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"ka_va-i-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"ka_va-ii-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"ka_va-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"kha-sinh" = {
+"yansa-sign-sinh" = -9;
+};
+"la-sinh" = {
+"aae-sign-sinh" = 7;
+"ae-sign-sinh" = 7;
+"anusvara-sinh" = -7;
+"yansa-sign-sinh" = -2;
+};
+"la-u-sinh" = {
+"aae-sign-sinh" = 7;
+"ae-sign-sinh" = 7;
+"anusvara-sinh" = -7;
+"yansa-sign-sinh" = -2;
+};
+"lla-sinh" = {
+"aa-sign-sinh" = 5;
+"aa-sign.al" = 5;
+"aae-sign-sinh" = 13;
+"ae-sign-sinh" = 13;
+"anusvara-sinh" = -11;
+};
+"lla-u-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -6;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -31;
+"uu-sinh" = -20;
+"vocalicr-sign-sinh" = -16;
+"vocalicrr-sign-sinh" = -16;
+"yansa-sign-sinh" = -3;
+};
+"ma-al-sinh" = {
+"a-sinh" = -7;
+"aa-sinh" = -7;
+"aae-sinh" = -7;
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"ea-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -27;
+"uu-sinh" = -26;
+"vocalicr-sign-sinh" = -11;
+"vocalicrr-sign-sinh" = -11;
+"yansa-sign-sinh" = -2;
+};
+"ma-i-sinh" = {
+"a-sinh" = -7;
+"aa-sinh" = -7;
+"aae-sinh" = -7;
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"ea-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -27;
+"uu-sinh" = -26;
+"vocalicr-sign-sinh" = -11;
+"vocalicrr-sign-sinh" = -11;
+"yansa-sign-sinh" = -2;
+};
+"ma-ii-sinh" = {
+"a-sinh" = -7;
+"aa-sinh" = -7;
+"aae-sinh" = -7;
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"ea-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -27;
+"uu-sinh" = -26;
+"vocalicr-sign-sinh" = -11;
+"vocalicrr-sign-sinh" = -11;
+"yansa-sign-sinh" = -2;
+};
+"ma-sinh" = {
+"a-sinh" = -7;
+"aa-sinh" = -7;
+"aae-sinh" = -7;
+"da-sinh" = -7;
+"da-uu-sinh" = -7;
+"ea-sinh" = -7;
+"i-sign-sinh.alt2" = -7;
+"ii-sign-sinh.alt2" = -7;
+"lla-sinh" = -27;
+"uu-sinh" = -26;
+"vocalicr-sign-sinh" = -11;
+"vocalicrr-sign-sinh" = -11;
+"yansa-sign-sinh" = -2;
+};
+"na-sinh" = {
+"aa-sign-sinh" = -33;
+"aa-sign.al" = -33;
+"vocalicl-sign-sinh" = -5;
+"vocalicll-sign-sinh" = -5;
+"yansa-sign-sinh" = -31;
+};
+"na_da-rakar-sinh" = {
+"a-sinh" = -12;
+"aa-sign-sinh" = 5;
+"aa-sign.al" = 5;
+"aa-sinh" = -12;
+"aae-sign-sinh" = 7;
+"aae-sinh" = -12;
+"ae-sign-sinh" = 7;
+"anusvara-sinh" = -16;
+"da-sinh" = -12;
+"da-uu-sinh" = -12;
+"ea-sinh" = -12;
+"i-sign-sinh.alt2" = -12;
+"ii-sign-sinh.alt2" = -12;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
+};
+"na_da-sinh" = {
+"a-sinh" = -12;
+"aa-sign-sinh" = 5;
+"aa-sign.al" = 5;
+"aa-sinh" = -12;
+"aae-sign-sinh" = 7;
+"aae-sinh" = -12;
+"ae-sign-sinh" = 7;
+"anusvara-sinh" = -16;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -12;
+"da-uu-sinh" = -12;
+"ea-sinh" = -12;
+"i-sign-sinh.alt2" = -12;
+"ii-sign-sinh.alt2" = -12;
+parenright.sinh = 60;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
+};
+"na_da-uu-sinh" = {
+"a-sinh" = -12;
+"aa-sign-sinh" = 5;
+"aa-sign.al" = 5;
+"aa-sinh" = -12;
+"aae-sign-sinh" = 7;
+"aae-sinh" = -12;
+"ae-sign-sinh" = 7;
+"anusvara-sinh" = -16;
+"da-sinh" = -12;
+"da-uu-sinh" = -12;
+"ea-sinh" = -12;
+"i-sign-sinh.alt2" = -12;
+"ii-sign-sinh.alt2" = -12;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
+};
+"na_dha-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"yansa-sign-sinh" = -8;
+};
+"na_tha-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -6;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -31;
+"uu-sinh" = -20;
+"vocalicr-sign-sinh" = -16;
+"vocalicrr-sign-sinh" = -16;
+"yansa-sign-sinh" = -3;
+};
+"na_va-al-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"na_va-i-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"na_va-ii-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"na_va-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"nda-sinh" = {
+"a-sinh" = -12;
+"aa-sign-sinh" = 5;
+"aa-sign.al" = 5;
+"aa-sinh" = -12;
+"aae-sign-sinh" = 7;
+"aae-sinh" = -12;
+"ae-sign-sinh" = 7;
+"anusvara-sinh" = -16;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -12;
+"da-uu-sinh" = -12;
+"ea-sinh" = -12;
+"i-sign-sinh.alt2" = -12;
+"ii-sign-sinh.alt2" = -12;
+parenright.sinh = 60;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
+};
+"nda-u-sinh" = {
+"a-sinh" = -12;
+"aa-sign-sinh" = 5;
+"aa-sign.al" = 5;
+"aa-sinh" = -12;
+"aae-sign-sinh" = 7;
+"aae-sinh" = -12;
+"ae-sign-sinh" = 7;
+"anusvara-sinh" = -16;
+"da-sinh" = -12;
+"da-uu-sinh" = -12;
+"ea-sinh" = -12;
+"i-sign-sinh.alt2" = -12;
+"ii-sign-sinh.alt2" = -12;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
+};
+"nda-uu-sinh" = {
+"a-sinh" = -12;
+"aa-sign-sinh" = 5;
+"aa-sign.al" = 5;
+"aa-sinh" = -12;
+"aae-sign-sinh" = 7;
+"aae-sinh" = -12;
+"ae-sign-sinh" = 7;
+"anusvara-sinh" = -16;
+"da-sinh" = -12;
+"da-uu-sinh" = -12;
+"ea-sinh" = -12;
+"i-sign-sinh.alt2" = -12;
+"ii-sign-sinh.alt2" = -12;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
+};
+"nga-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"yansa-sign-sinh" = -8;
+};
+"ngga-sinh" = {
+"aa-sign-sinh" = -26;
+"aa-sign.al" = -26;
+"yansa-sign-sinh" = -21;
+};
+"nna-sinh" = {
+"aa-sign-sinh" = -29;
+"aa-sign.al" = -29;
+"yansa-sign-sinh" = -29;
+};
+"nndda-sinh" = {
+"aa-sign-sinh" = -7;
+"aa-sign.al" = -7;
+"yansa-sign-sinh" = -8;
+};
+"nya-sinh" = {
+"a-sinh" = -12;
+"aa-sign-sinh" = 5;
+"aa-sign.al" = 5;
+"aa-sinh" = -12;
+"aae-sign-sinh" = 7;
+"aae-sinh" = -12;
+"ae-sign-sinh" = 7;
+"anusvara-sinh" = -16;
+backslash.sinh = 60;
+braceright.sinh = 60;
+bracketright.sinh = 60;
+"da-sinh" = -12;
+"da-uu-sinh" = -12;
+"ea-sinh" = -12;
+"i-sign-sinh.alt2" = -12;
+"ii-sign-sinh.alt2" = -12;
+parenright.sinh = 60;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
+};
+"nya-u-sinh" = {
+"a-sinh" = -12;
+"aa-sign-sinh" = 5;
+"aa-sign.al" = 5;
+"aa-sinh" = -12;
+"aae-sign-sinh" = 7;
+"aae-sinh" = -12;
+"ae-sign-sinh" = 7;
+"anusvara-sinh" = -16;
+"da-sinh" = -12;
+"da-uu-sinh" = -12;
+"ea-sinh" = -12;
+"i-sign-sinh.alt2" = -12;
+"ii-sign-sinh.alt2" = -12;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
+};
+"nya-uu-sinh" = {
+"a-sinh" = -12;
+"aa-sign-sinh" = 5;
+"aa-sign.al" = 5;
+"aa-sinh" = -12;
+"aae-sign-sinh" = 7;
+"aae-sinh" = -12;
+"ae-sign-sinh" = 7;
+"anusvara-sinh" = -16;
+"da-sinh" = -12;
+"da-uu-sinh" = -12;
+"ea-sinh" = -12;
+"i-sign-sinh.alt2" = -12;
+"ii-sign-sinh.alt2" = -12;
+"vocalicl-sign-sinh" = 4;
+"vocalicll-sign-sinh" = 4;
+};
+"nya_ca-al-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"nya_ca-i-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"nya_ca-ii-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"nya_ca-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"nyja-sinh" = {
+"aa-sign-sinh" = -16;
+"aa-sign.al" = -16;
+"aae-sign-sinh" = -7;
+"ae-sign-sinh" = -7;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
+"yansa-sign-sinh" = -7;
+};
+"pa-sinh" = {
+"aa-sign-sinh" = -16;
+"aa-sign.al" = -16;
+"aae-sign-sinh" = -7;
+"ae-sign-sinh" = -7;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
+"yansa-sign-sinh" = -7;
+};
+"pha-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -6;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -31;
+"uu-sinh" = -20;
+"vocalicr-sign-sinh" = -16;
+"vocalicrr-sign-sinh" = -16;
+"yansa-sign-sinh" = -3;
+};
+"ra-aae-sinh" = {
+"anusvara-sinh" = -32;
+backslash.sinh = 30;
+braceright.sinh = 30;
+bracketright.sinh = 30;
+comma.sinh = 30;
+"la-sinh" = 17;
+"lla-sinh" = 30;
+parenright.sinh = 30;
+period.sinh = 30;
+semicolon.sinh = 30;
+slash.sinh = 30;
+"uu-sinh" = 30;
+};
+"ra-ae-sinh" = {
+"anusvara-sinh" = -32;
+backslash.sinh = 30;
+braceright.sinh = 30;
+bracketright.sinh = 30;
+comma.sinh = 30;
+"la-sinh" = 17;
+"lla-sinh" = 30;
+parenright.sinh = 30;
+period.sinh = 30;
+semicolon.sinh = 30;
+slash.sinh = 30;
+"uu-sinh" = 30;
+};
+"ra-sinh" = {
+"aa-sign-sinh" = -33;
+"aa-sign.al" = -33;
+"yansa-sign-sinh" = -25;
+};
+"sa-sinh" = {
+"aa-sign-sinh" = -24;
+"aa-sign.al" = -24;
+"aae-sign-sinh" = -6;
+"ae-sign-sinh" = -6;
+"anusvara-sinh" = -3;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
+"yansa-sign-sinh" = -16;
+};
+"sha-sinh" = {
+"aa-sign-sinh" = -27;
+"aa-sign.al" = -27;
+"lla-sinh" = -13;
+"uu-sinh" = -7;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -20;
+};
+"sha-u-sinh" = {
+"aa-sign-sinh" = -27;
+"aa-sign.al" = -27;
+"lla-sinh" = -13;
+"uu-sinh" = -7;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -20;
+};
+"sha-uu-sinh" = {
+"aa-sign-sinh" = -27;
+"aa-sign.al" = -27;
+"lla-sinh" = -13;
+"uu-sinh" = -7;
+"vocalicr-sign-sinh" = -8;
+"vocalicrr-sign-sinh" = -8;
+"yansa-sign-sinh" = -20;
+};
+"ssa-sinh" = {
+"aa-sign-sinh" = -16;
+"aa-sign.al" = -16;
+"aae-sign-sinh" = -7;
+"ae-sign-sinh" = -7;
+"vocalicl-sign-sinh" = -6;
+"vocalicll-sign-sinh" = -6;
+"yansa-sign-sinh" = -7;
+};
+"ta-sinh" = {
+"aa-sign-sinh" = -33;
+"aa-sign.al" = -33;
+"vocalicl-sign-sinh" = -5;
+"vocalicll-sign-sinh" = -5;
+"yansa-sign-sinh" = -31;
+};
+"ta_tha-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -6;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -31;
+"uu-sinh" = -20;
+"vocalicr-sign-sinh" = -16;
+"vocalicrr-sign-sinh" = -16;
+"yansa-sign-sinh" = -3;
+};
+"ta_va-al-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"ta_va-i-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"ta_va-ii-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"ta_va-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"tha-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -6;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -31;
+"uu-sinh" = -20;
+"vocalicr-sign-sinh" = -16;
+"vocalicrr-sign-sinh" = -16;
+"yansa-sign-sinh" = -3;
+};
+"tta-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"tta_ttha-sinh" = {
+"aa-sign-sinh" = -17;
+"aa-sign.al" = -17;
+"yansa-sign-sinh" = -16;
+};
+"ttha-sinh" = {
+"aa-sign-sinh" = -17;
+"aa-sign.al" = -17;
+"yansa-sign-sinh" = -16;
+};
+"va-sinh" = {
+"a-sinh" = -6;
+"aa-sinh" = -6;
+"aae-sinh" = -6;
+"anusvara-sinh" = -7;
+"da-sinh" = -6;
+"da-uu-sinh" = -6;
+"ea-sinh" = -6;
+"i-sign-sinh.alt2" = -6;
+"ii-sign-sinh.alt2" = -6;
+"lla-sinh" = -29;
+"uu-sinh" = -24;
+"vocalicr-sign-sinh" = -18;
+"vocalicrr-sign-sinh" = -18;
+"yansa-sign-sinh" = -1;
+};
+"ya-sinh" = {
+"aa-sign-sinh" = -24;
+"aa-sign.al" = -24;
+"aae-sign-sinh" = -6;
+"ae-sign-sinh" = -6;
+"anusvara-sinh" = -3;
+"vocalicl-sign-sinh" = -17;
+"vocalicll-sign-sinh" = -17;
+"yansa-sign-sinh" = -16;
+};
+"yansa-sign-sinh" = {
+"aa-sign-sinh" = -4;
+"aa-sign.al" = -4;
+"aae-sign-sinh" = -8;
+"ae-sign-sinh" = -8;
+"anusvara-sinh" = -6;
+};
+};
+};
+manufacturer = Mooniak;
+manufacturerURL = "http://www.google.com/get/noto/";
+unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+UUID0 = {
+};
+};
+backdropGlyphLib = {
+AE = (
+(
+A,
+1,
+0
+),
+(
+E,
+1,
+0
+),
+(
+OE,
+1,
+0
+)
+);
+B = (
+(
+D,
+1,
+0
+),
+(
+E,
+1,
+0
+),
+(
+H,
+0,
+0
+),
+(
+P,
+1,
+0
+),
+(
+R,
+0,
+0
+),
+(
+Germandbls,
+0,
+0
+),
+(
+germandbls,
+0,
+0
+),
+(
+three,
+0,
+0
+),
+(
+eight,
+0,
+0
+)
+);
+C = (
+(
+D,
+0,
+0
+),
+(
+G,
+1,
+0
+),
+(
+O,
+1,
+0
+),
+(
+Q,
+0,
+0
+)
+);
+D = (
+(
+B,
+0,
+0
+),
+(
+C,
+0,
+0
+),
+(
+E,
+0,
+0
+),
+(
+G,
+0,
+0
+),
+(
+O,
+1,
+0
+),
+(
+Q,
+0,
+0
+)
+);
+E = (
+(
+B,
+1,
+0
+),
+(
+D,
+0,
+0
+),
+(
+F,
+1,
+0
+),
+(
+H,
+0,
+0
+)
+);
+Eng = (
+(
+N,
+1,
+0
+),
+(
+j,
+1,
+0
+)
+);
+F = (
+(
+E,
+1,
+0
+),
+(
+H,
+0,
+0
+)
+);
+G = (
+(
+A,
+0,
+0
+),
+(
+C,
+0,
+0
+),
+(
+D,
+0,
+0
+),
+(
+H,
+0,
+0
+),
+(
+O,
+1,
+0
+),
+(
+Q,
+0,
+0
+),
+(
+x,
+0,
+0
+)
+);
+Germandbls = (
+(
+B,
+1,
+0
+),
+(
+S,
+1,
+0
+),
+(
+T,
+0,
+0
+),
+(
+germandbls,
+0,
+0
+)
+);
+H = (
+(
+B,
+0,
+0
+),
+(
+D,
+0,
+0
+),
+(
+E,
+0,
+0
+),
+(
+F,
+0,
+0
+),
+(
+I,
+0,
+0
+),
+(
+J,
+0,
+0
+),
+(
+K,
+0,
+0
+),
+(
+L,
+0,
+0
+),
+(
+M,
+0,
+0
+),
+(
+N,
+1,
+0
+),
+(
+P,
+0,
+0
+),
+(
+R,
+0,
+0
+),
+(
+U,
+1,
+0
+)
+);
+I = (
+(
+B,
+0,
+0
+),
+(
+D,
+0,
+0
+),
+(
+E,
+0,
+0
+),
+(
+F,
+0,
+0
+),
+(
+H,
+0,
+0
+),
+(
+J,
+0,
+0
+),
+(
+K,
+0,
+0
+),
+(
+L,
+0,
+0
+),
+(
+M,
+0,
+0
+),
+(
+N,
+0,
+0
+),
+(
+P,
+0,
+0
+),
+(
+R,
+0,
+0
+),
+(
+T,
+1,
+0
+),
+(
+U,
+0,
+0
+),
+(
+Y,
+1,
+0
+),
+(
+i,
+0,
+0
+),
+(
+l,
+1,
+0
+),
+(
+one,
+1,
+0
+)
+);
+IJ = (
+(
+I,
+0,
+0
+),
+(
+J,
+1,
+0
+),
+(
+U,
+1,
+0
+)
+);
+J = (
+(
+I,
+1,
+0
+),
+(
+U,
+0,
+0
+)
+);
+K = (
+(
+B,
+0,
+0
+),
+(
+H,
+0,
+0
+),
+(
+I,
+1,
+0
+),
+(
+R,
+0,
+0
+),
+(
+X,
+0,
+0
+),
+(
+Y,
+0,
+0
+)
+);
+L = (
+(
+E,
+0,
+0
+),
+(
+H,
+0,
+0
+),
+(
+I,
+1,
+0
+)
+);
+M = (
+(
+H,
+1,
+0
+),
+(
+I,
+0,
+0
+),
+(
+O,
+0,
+0
+),
+(
+N,
+0,
+0
+),
+(
+V,
+0,
+0
+),
+(
+W,
+0,
+0
+)
+);
+N = (
+(
+H,
+1,
+0
+),
+(
+I,
+0,
+0
+),
+(
+M,
+0,
+0
+),
+(
+U,
+1,
+0
+)
+);
+O = (
+(
+C,
+1,
+0
+),
+(
+D,
+0,
+0
+),
+(
+G,
+1,
+0
+),
+(
+Q,
+1,
+0
+),
+(
+zero,
+1,
+0
+)
+);
+OE = (
+(
+E,
+1,
+0
+),
+(
+O,
+1,
+0
+),
+(
+OE,
+1,
+0
+)
+);
+Oslash = (
+(
+O,
+1,
+0
+),
+(
+Q,
+0,
+0
+)
+);
+P = (
+(
+B,
+1,
+0
+),
+(
+F,
+1,
+0
+),
+(
+R,
+1,
+0
+)
+);
+Q = (
+(
+C,
+0,
+0
+),
+(
+D,
+0,
+0
+),
+(
+G,
+0,
+0
+),
+(
+O,
+1,
+0
+),
+(
+R,
+0,
+0
+)
+);
+R = (
+(
+B,
+0,
+0
+),
+(
+F,
+0,
+0
+),
+(
+P,
+1,
+0
+),
+(
+Q,
+0,
+0
+),
+(
+X,
+0,
+0
+)
+);
+T = (
+(
+H,
+0,
+0
+),
+(
+I,
+1,
+0
+),
+(
+Y,
+1,
+0
+)
+);
+Thorn = (
+(
+D,
+0,
+0
+),
+(
+H,
+0,
+0
+),
+(
+I,
+0,
+0
+),
+(
+P,
+1,
+0
+)
+);
+U = (
+(
+H,
+0,
+0
+),
+(
+N,
+1,
+0
+),
+(
+O,
+0,
+0
+),
+(
+V,
+0,
+0
+)
+);
+V = (
+(
+U,
+1,
+0
+),
+(
+W,
+0,
+0
+),
+(
+X,
+0,
+0
+),
+(
+Y,
+1,
+0
+)
+);
+W = (
+(
+M,
+0,
+0
+),
+(
+V,
+0,
+0
+)
+);
+X = (
+(
+K,
+0,
+0
+),
+(
+N,
+0,
+0
+),
+(
+R,
+0,
+0
+),
+(
+V,
+0,
+0
+),
+(
+Y,
+1,
+0
+),
+(
+Z,
+1,
+0
+)
+);
+Y = (
+(
+I,
+0,
+0
+),
+(
+T,
+1,
+0
+),
+(
+U,
+0,
+0
+),
+(
+V,
+1,
+0
+),
+(
+W,
+0,
+0
+),
+(
+X,
+0,
+0
+)
+);
+Z = (
+(
+L,
+0,
+0
+),
+(
+T,
+0,
+0
+),
+(
+X,
+0,
+0
+)
+);
+ae = (
+(
+a,
+1,
+0
+),
+(
+e,
+1,
+0
+),
+(
+o,
+0,
+0
+),
+(
+oe,
+1,
+0
+)
+);
+ampersand = (
+(
+E,
+0,
+0
+),
+(
+t,
+0,
+0
+)
+);
+at = (
+(
+a,
+1,
+0
+)
+);
+b = (
+(
+c,
+0,
+0
+),
+(
+e,
+0,
+0
+),
+(
+h,
+1,
+0
+),
+(
+k,
+0,
+0
+),
+(
+l,
+0,
+0
+),
+(
+o,
+1,
+0
+),
+(
+p,
+1,
+0
+)
+);
+c = (
+(
+b,
+0,
+0
+),
+(
+d,
+0,
+0
+),
+(
+e,
+1,
+0
+),
+(
+g,
+0,
+0
+),
+(
+o,
+1,
+0
+),
+(
+p,
+0,
+0
+),
+(
+q,
+0,
+0
+)
+);
+cent = (
+(
+c,
+1,
+0
+)
+);
+"cha-sinh" = (
+(
+"pa-sinh",
+1,
+0
+)
+);
+d = (
+(
+c,
+0,
+0
+),
+(
+eth,
+0,
+0
+),
+(
+e,
+0,
+0
+),
+(
+l,
+0,
+0
+),
+(
+o,
+1,
+0
+),
+(
+q,
+1,
+0
+)
+);
+dollar = (
+(
+S,
+1,
+0
+)
+);
+e = (
+(
+b,
+0,
+0
+),
+(
+c,
+1,
+0
+),
+(
+d,
+0,
+0
+),
+(
+g,
+0,
+0
+),
+(
+o,
+1,
+0
+),
+(
+p,
+0,
+0
+),
+(
+q,
+0,
+0
+)
+);
+eight = (
+(
+B,
+0,
+0
+),
+(
+zero,
+1,
+0
+),
+(
+three,
+1,
+0
+),
+(
+six,
+0,
+0
+),
+(
+nine,
+0,
+0
+)
+);
+eng = (
+(
+j,
+1,
+0
+),
+(
+m,
+0,
+0
+),
+(
+n,
+1,
+0
+)
+);
+estimated = (
+(
+e,
+0,
+0
+)
+);
+eth = (
+(
+d,
+1,
+0
+),
+(
+o,
+1,
+0
+)
+);
+euro = (
+(
+C,
+1,
+0
+)
+);
+exclam = (
+(
+I,
+1,
+0
+),
+(
+T,
+0,
+0
+),
+(
+one,
+0,
+0
+),
+(
+period,
+1,
+0
+),
+(
+question,
+1,
+0
+)
+);
+f = (
+(
+l,
+0,
+0
+),
+(
+longs,
+0,
+0
+),
+(
+germandbls,
+0,
+0
+),
+(
+t,
+1,
+0
+)
+);
+five = (
+(
+six,
+1,
+0
+)
+);
+florin = (
+(
+f,
+1,
+0
+)
+);
+franc = (
+(
+F,
+1,
+0
+)
+);
+g = (
+(
+c,
+0,
+0
+),
+(
+e,
+0,
+0
+),
+(
+o,
+1,
+0
+),
+(
+q,
+0,
+0
+)
+);
+germandbls = (
+(
+B,
+1,
+0
+),
+(
+b,
+0,
+0
+),
+(
+f,
+1,
+0
+),
+(
+s,
+1,
+0
+),
+(
+longs,
+1,
+0
+)
+);
+"gha-sinh" = (
+(
+"sa-sinh",
+1,
+0
+)
+);
+h = (
+(
+b,
+1,
+0
+),
+(
+k,
+0,
+0
+),
+(
+l,
+0,
+0
+),
+(
+m,
+0,
+0
+),
+(
+n,
+1,
+0
+),
+(
+r,
+0,
+0
+)
+);
+"ha-sinh" = (
+(
+"bha-sinh",
+1,
+0
+)
+);
+i = (
+(
+I,
+0,
+0
+),
+(
+j,
+1,
+0
+),
+(
+l,
+1,
+0
+),
+(
+n,
+0,
+0
+)
+);
+idotless = (
+(
+I,
+0,
+0
+),
+(
+i,
+0,
+0
+),
+(
+j,
+0,
+0
+),
+(
+uni0237,
+0,
+0
+),
+(
+l,
+1,
+0
+),
+(
+n,
+0,
+0
+)
+);
+j = (
+(
+i,
+1,
+0
+),
+(
+l,
+0,
+0
+),
+(
+n,
+0,
+0
+)
+);
+"ja-sinh" = (
+(
+"pa-sinh",
+1,
+0
+)
+);
+k = (
+(
+b,
+1,
+0
+),
+(
+h,
+0,
+0
+),
+(
+l,
+0,
+0
+),
+(
+x,
+1,
+0
+)
+);
+l = (
+(
+I,
+1,
+0
+),
+(
+b,
+0,
+0
+),
+(
+h,
+0,
+0
+),
+(
+k,
+0,
+0
+),
+(
+i,
+0,
+0
+),
+(
+one,
+1,
+0
+)
+);
+longs = (
+(
+f,
+1,
+0
+),
+(
+l,
+0,
+0
+),
+(
+germandbls,
+0,
+0
+)
+);
+m = (
+(
+h,
+0,
+0
+),
+(
+n,
+1,
+0
+),
+(
+r,
+0,
+0
+),
+(
+w,
+0,
+0
+)
+);
+mu = (
+(
+u,
+1,
+0
+)
+);
+n = (
+(
+h,
+0,
+0
+),
+(
+m,
+0,
+0
+),
+(
+r,
+0,
+0
+),
+(
+u,
+1,
+0
+),
+(
+v,
+0,
+0
+)
+);
+nine = (
+(
+zero,
+1,
+0
+),
+(
+six,
+1,
+0
+),
+(
+eight,
+1,
+0
+)
+);
+o = (
+(
+b,
+0,
+0
+),
+(
+c,
+1,
+0
+),
+(
+d,
+0,
+0
+),
+(
+eth,
+0,
+0
+),
+(
+e,
+1,
+0
+),
+(
+g,
+0,
+0
+),
+(
+p,
+0,
+0
+),
+(
+q,
+0,
+0
+)
+);
+oe = (
+(
+ae,
+1,
+0
+),
+(
+e,
+1,
+0
+),
+(
+o,
+1,
+0
+)
+);
+one = (
+(
+I,
+1,
+0
+),
+(
+l,
+1,
+0
+)
+);
+oslash = (
+(
+o,
+1,
+0
+)
+);
+p = (
+(
+b,
+1,
+0
+),
+(
+c,
+0,
+0
+),
+(
+e,
+0,
+0
+),
+(
+n,
+0,
+0
+),
+(
+o,
+1,
+0
+)
+);
+product = (
+(
+H,
+1,
+0
+)
+);
+q = (
+(
+d,
+1,
+0
+),
+(
+c,
+0,
+0
+),
+(
+e,
+0,
+0
+),
+(
+g,
+0,
+0
+),
+(
+o,
+1,
+0
+)
+);
+question = (
+(
+two,
+1,
+0
+),
+(
+period,
+1,
+0
+),
+(
+exclam,
+1,
+0
+)
+);
+r = (
+(
+h,
+0,
+0
+),
+(
+m,
+0,
+0
+),
+(
+n,
+1,
+0
+)
+);
+"sa-sinh" = (
+(
+"ya-sinh",
+1,
+0
+)
+);
+seven = (
+(
+T,
+0,
+0
+)
+);
+"sha-sinh" = (
+(
+"ga-sinh",
+1,
+0
+)
+);
+six = (
+(
+zero,
+1,
+0
+),
+(
+five,
+1,
+0
+),
+(
+eight,
+1,
+0
+),
+(
+nine,
+0,
+0
+)
+);
+t = (
+(
+f,
+1,
+0
+),
+(
+l,
+0,
+0
+)
+);
+thorn = (
+(
+b,
+1,
+0
+),
+(
+h,
+1,
+0
+),
+(
+p,
+1,
+0
+)
+);
+three = (
+(
+B,
+0,
+0
+),
+(
+eight,
+1,
+0
+)
+);
+two = (
+(
+question,
+1,
+0
+)
+);
+u = (
+(
+n,
+1,
+0
+),
+(
+v,
+0,
+0
+)
+);
+uni0237 = (
+(
+i,
+0,
+0
+),
+(
+idotless,
+1,
+0
+),
+(
+l,
+0,
+0
+),
+(
+n,
+0,
+0
+)
+);
+uni20B9 = (
+(
+R,
+1,
+0
+)
+);
+uni20BD = (
+(
+P,
+1,
+0
+)
+);
+uni20BF = (
+(
+B,
+1,
+0
+)
+);
+"uu-sign-sinh" = (
+(
+"u-sign-sinh",
+1,
+0
+)
+);
+"uu-sign-sinh.long" = (
+(
+"u-sign-sinh.long",
+1,
+0
+)
+);
+"uu-sign-sinh.medium" = (
+(
+"u-sign-sinh.medium",
+1,
+0
+)
+);
+"uu-sign-sinh.va" = (
+(
+"u-sign-sinh.va",
+1,
+0
+)
+);
+v = (
+(
+n,
+0,
+0
+),
+(
+w,
+0,
+0
+),
+(
+x,
+0,
+0
+),
+(
+y,
+1,
+0
+)
+);
+w = (
+(
+v,
+0,
+0
+),
+(
+m,
+0,
+0
+)
+);
+x = (
+(
+k,
+1,
+0
+),
+(
+v,
+0,
+0
+),
+(
+z,
+0,
+0
+)
+);
+y = (
+(
+v,
+1,
+0
+)
+);
+"ya-sinh" = (
+(
+"sa-sinh",
+1,
+0
+)
+);
+yen = (
+(
+Y,
+1,
+0
+)
+);
+z = (
+(
+x,
+0,
+0
+)
+);
+zero = (
+(
+O,
+1,
+0
+)
+);
+};
+};
+versionMajor = 3;
+versionMinor = 0;
+}
