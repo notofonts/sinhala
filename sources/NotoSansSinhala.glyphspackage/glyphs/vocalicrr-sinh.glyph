@@ -8,15 +8,15 @@ name = "vocalicrbase-sinh";
 },
 {
 name = "vocalicr-sign-sinh";
-transform = "{1, 0, 0, 1, 768, 0}";
+transform = "{1, 0, 0, 1, 829, 0}";
 },
 {
 name = "vocalicr-sign-sinh";
-transform = "{1, 0, 0, 1, 1168, 0}";
+transform = "{1, 0, 0, 1, 1209, 0}";
 }
 );
 layerId = "7977A986-4EFB-4152-84F8-5A02CD382AAF";
-width = 1568;
+width = 1609;
 },
 {
 components = (
@@ -104,5 +104,6 @@ layerId = "DC607D84-584B-45E6-A9EB-D1AF471CA2AE";
 width = 1516;
 }
 );
+rightMetricsKey = "vocalicr-sign-sinh";
 unicode = 0D8E;
 }
